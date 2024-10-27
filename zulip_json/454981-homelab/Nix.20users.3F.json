@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Anyone fiddling with nix, nix-darwin for their computer setup and what not?</p>",
+        "id": 479025565,
+        "sender_full_name": "Anders Johansson",
+        "timestamp": 1729923408
+    },
+    {
+        "content": "<p>Not yet but I saw that this was announced: <a href=\"https://determinate.systems/\">https://determinate.systems/</a></p>",
+        "id": 479031508,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1729930413
+    },
+    {
+        "content": "<p>I use their nix installer script. Really easy.</p>",
+        "id": 479035119,
+        "sender_full_name": "Anders Johansson",
+        "timestamp": 1729933913
+    }
+]

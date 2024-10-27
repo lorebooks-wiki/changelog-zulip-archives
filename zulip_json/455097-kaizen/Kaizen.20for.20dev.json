@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>First of all, let me say that while I enjoy many of the podcasts, the Kaizen episodes are my favorites and Gerhard's enthusiasm and sense of humor are a treat. </p>\n<p>It'd be great if you're team, and especially <span class=\"user-mention\" data-user-id=\"755424\">@Gerhard</span>, would elaborate more on your use of Kaizen for development and DevOps.  Most Kaizen coverage seems to be about manufacturing or using some piece of software. I haven't found a lot about using it in a dev team setting. </p>\n<p>Maybe get Gerhard to do some blog post?</p>",
+        "id": 472931028,
+        "sender_full_name": "Al Gonzalez",
+        "timestamp": 1727366929
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"760631\">@Al Gonzalez</span> I have exactly the same feelings. I try to channel my inner <span class=\"user-mention\" data-user-id=\"755424\">@Gerhard</span> when I present my work. When it comes to kaizen I recommend Kim's Gen work (Pheonix Project, DevOps handbook and many more). The whole devops movement is very heavily inspired by Toyota, lean manufacturing, Andon Cord and dojos. Can't recommend giving them a read or a listen strongly enough!</p>",
+        "id": 474089795,
+        "sender_full_name": "FlakM",
+        "timestamp": 1727803731
+    }
+]

@@ -1,0 +1,145 @@
+<html>
+<head><meta charset="utf-8"><title>Code deploys · kaizen · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/index.html">kaizen</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html">Code deploys</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="477251247"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/477251247" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#477251247">(Oct 16 2024 at 16:04)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/51ce73830256b3db6e21f3f8df73a4a604c68201">51ce73830256b3db6e21f3f8df73a4a604c68201</a></p>
+
+
+
+<a name="477251742"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/477251742" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jerod Santo <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#477251742">(Oct 16 2024 at 16:06)</a>:</h4>
+<p>Ok so that worked <span aria-label="sweat smile" class="emoji emoji-1f605" role="img" title="sweat smile">:sweat_smile:</span> </p>
+<p>Now I have to figure out how to get the commit message in a reliable way. Has anyone done this before? I'm not a GH Actions expert by any means...</p>
+<p>Also, once you get the message itself, how do you best wrap/format it for Zulip display?</p>
+
+
+
+<a name="477252001"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/477252001" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jerod Santo <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#477252001">(Oct 16 2024 at 16:08)</a>:</h4>
+<p>Hmm also can you not mute a specific topic inside a channel? I can see people wanting to mute this one but not all of the other kazen'ing that's going on...</p>
+
+
+
+<a name="477252386"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/477252386" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jerod Santo <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#477252386">(Oct 16 2024 at 16:10)</a>:</h4>
+<p><a href="/user_uploads/66849/crqY4V-FTxh0IUJoWWCsZbI0/CleanShot-2024-10-16-at-11.09.042x.png">CleanShot 2024-10-16 at 11.09.04@2x.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/66849/crqY4V-FTxh0IUJoWWCsZbI0/CleanShot-2024-10-16-at-11.09.042x.png" title="CleanShot 2024-10-16 at 11.09.04@2x.png"><img data-original-dimensions="2048x1152" src="/user_uploads/thumbnail/66849/crqY4V-FTxh0IUJoWWCsZbI0/CleanShot-2024-10-16-at-11.09.042x.png/840x560.webp"></a></div><p>Ok it looks like you <em>can</em> mute a topic inside a channel. I was just confused by the wording on this popover...</p>
+
+
+
+<a name="477318702"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/477318702" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Philip Durbin <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#477318702">(Oct 16 2024 at 23:29)</a>:</h4>
+<p>It looks like Zulip itself sends commits to a channel: <a href="https://chat.zulip.org/#narrow/channel/8-commits/topic/zulip.20.2F.20main/near/1963618">https://chat.zulip.org/#narrow/channel/8-commits/topic/zulip.20.2F.20main/near/1963618</a></p>
+
+
+
+<a name="477319141"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/477319141" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Philip Durbin <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#477319141">(Oct 16 2024 at 23:33)</a>:</h4>
+<p>Based on <a href="https://github.com/zulip/zulip/blob/9.2/.github/workflows/zulip-ci.yml#L258">https://github.com/zulip/zulip/blob/9.2/.github/workflows/zulip-ci.yml#L258</a> maybe they use <a href="https://github.com/zulip/github-actions-zulip/blob/main/send-message/README.md">https://github.com/zulip/github-actions-zulip/blob/main/send-message/README.md</a> ?</p>
+
+
+
+<a name="477319198"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/477319198" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Philip Durbin <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#477319198">(Oct 16 2024 at 23:33)</a>:</h4>
+<p>Oh, send-message is what you're already using. <span aria-label="sweat smile" class="emoji emoji-1f605" role="img" title="sweat smile">:sweat_smile:</span></p>
+
+
+
+<a name="477326957"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/477326957" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Daniel Buckmaster <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#477326957">(Oct 17 2024 at 01:06)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="750170">Jerod Santo</span> <a href="#narrow/stream/455097-kaizen/topic/Code.20deploys/near/477252386">said</a>:</p>
+<blockquote>
+<p>I was just confused by the wording on this popover...</p>
+</blockquote>
+<p>Ah dang that's unfortunate. On mobile it's much clearer with a "Mute topic" menu option.</p>
+
+
+
+<a name="477445761"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/477445761" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jerod Santo <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#477445761">(Oct 17 2024 at 13:36)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="752868">Philip Durbin</span> <a href="#narrow/channel/455097-kaizen/topic/Code.20deploys/near/477318702">said</a>:</p>
+<blockquote>
+<p>It looks like Zulip itself sends commits to a channel</p>
+</blockquote>
+<p>Seems like they are only reporting failures on that one.</p>
+<div class="codehilite" data-code-language="YAML"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Report status to CZO</span>
+<span class="w">        </span><span class="l l-Scalar l-Scalar-Plain">if</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">${{ failure() &amp;&amp; github.repository == 'zulip/zulip' &amp;&amp; github.event_name == 'push' }}</span>
+<span class="w">        </span><span class="l l-Scalar l-Scalar-Plain">uses</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">zulip/github-actions-zulip/send-message@v1</span>
+<span class="w">        </span><span class="l l-Scalar l-Scalar-Plain">with</span><span class="p p-Indicator">:</span>
+<span class="w">          </span><span class="nt">api-key</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">${{ secrets.ZULIP_BOT_KEY }}</span>
+<span class="w">          </span><span class="nt">email</span><span class="p">:</span><span class="w"> </span><span class="s">"github-actions-bot@chat.zulip.org"</span>
+<span class="w">          </span><span class="nt">organization-url</span><span class="p">:</span><span class="w"> </span><span class="s">"https://chat.zulip.org"</span>
+<span class="w">          </span><span class="nt">to</span><span class="p">:</span><span class="w"> </span><span class="s">"automated</span><span class="nv"> </span><span class="s">testing"</span>
+<span class="w">          </span><span class="nt">topic</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">${{ steps.failure_report_string.outputs.topic }}</span>
+<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"stream"</span>
+<span class="w">          </span><span class="nt">content</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">${{ steps.failure_report_string.outputs.content }}</span>
+</code></pre></div>
+
+
+
+<a name="477486648"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/477486648" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#477486648">(Oct 17 2024 at 16:54)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/f168c4ead1da6025f2cc3a52d9973dc781adf0fb">f168c4ea</a></p>
+<p>Attempt to fix short SHA fetching in Actions</p>
+
+
+
+<a name="477538903"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/477538903" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Philip Durbin <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#477538903">(Oct 17 2024 at 23:25)</a>:</h4>
+<p><span class="user-mention" data-user-id="750170">@Jerod Santo</span> you fixed it! Seems like <code>${{ github.event.commits[0].message }}</code> is working for you based on <a href="https://github.com/thechangelog/changelog.com/blob/f168c4ead1da6025f2cc3a52d9973dc781adf0fb/.github/workflows/dagger_on_namespace.yml#L80">https://github.com/thechangelog/changelog.com/blob/f168c4ead1da6025f2cc3a52d9973dc781adf0fb/.github/workflows/dagger_on_namespace.yml#L80</a></p>
+
+
+
+<a name="477661505"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/477661505" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#477661505">(Oct 18 2024 at 13:55)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/b8343c697ad41964511ce7fe06449ea54d25cb78">b8343c69</a>:</p>
+<blockquote>
+<p>Tweak Zulip deploy message format</p>
+</blockquote>
+
+
+
+<a name="478562293"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/478562293" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#478562293">(Oct 23 2024 at 18:50)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/1dab3df096d8fe73fdcafc3fa2145e40081925da">1dab3df0</a>:</p>
+<blockquote>
+<p>Blech! (mix deps.get_dev strikes again)</p>
+</blockquote>
+
+
+
+<a name="478738945"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/478738945" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#478738945">(Oct 24 2024 at 15:02)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/50462905af41d6a8feeaeeff188010edd46478c1">50462905</a>:</p>
+<blockquote>
+<p>Fix call to queue an Overcast ping</p>
+</blockquote>
+
+
+
+<a name="478747958"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/478747958" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jerod Santo <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#478747958">(Oct 24 2024 at 15:46)</a>:</h4>
+<p>ok so what's the easiest/best way to have this post "the list of commits since the last deploy"?</p>
+
+
+
+<a name="478757926"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/478757926" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#478757926">(Oct 24 2024 at 16:39)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/9d150fd0181091d392586aba3754cc2de6d78061">9d150fd0</a>:</p>
+<blockquote>
+<p>Reduce Overcast ping rate limit</p>
+</blockquote>
+
+
+
+<hr><p>Last updated: Oct 27 2024 at 05:37 UTC</p>
+</html>

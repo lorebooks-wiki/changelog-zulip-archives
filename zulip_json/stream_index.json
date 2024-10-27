@@ -1,0 +1,481 @@
+{
+    "streams": {
+        "applenerds": {
+            "id": 457248,
+            "latest_id": 472822008,
+            "topic_data": {
+                "(no topic)": {
+                    "latest_date": 1727331628,
+                    "size": 1
+                },
+                "Installing macOS Sequoia?": {
+                    "latest_date": 1727331735,
+                    "size": 15
+                },
+                "channel events": {
+                    "latest_date": 1726681155,
+                    "size": 1
+                }
+            }
+        },
+        "bookclub": {
+            "id": 459184,
+            "latest_id": 477866900,
+            "topic_data": {
+                "Deep Work": {
+                    "latest_date": 1728608256,
+                    "size": 8
+                },
+                "Platform engineering": {
+                    "latest_date": 1728434602,
+                    "size": 2
+                },
+                "Programming Rust": {
+                    "latest_date": 1729273860,
+                    "size": 13
+                },
+                "channel events": {
+                    "latest_date": 1727793528,
+                    "size": 3
+                },
+                "general books talk": {
+                    "latest_date": 1729400521,
+                    "size": 10
+                }
+            }
+        },
+        "friends": {
+            "id": 455613,
+            "latest_id": 478955578,
+            "topic_data": {
+                "60: Starbucks DVD peddlers": {
+                    "latest_date": 1725977296,
+                    "size": 9
+                },
+                "61: Reverse rug pull, so cool?": {
+                    "latest_date": 1729454357,
+                    "size": 13
+                },
+                "62: Kaizen! Just do it": {
+                    "latest_date": 1727195346,
+                    "size": 11
+                },
+                "63: The wrong place to slap a person": {
+                    "latest_date": 1727888350,
+                    "size": 17
+                },
+                "64: Developer (un)happiness": {
+                    "latest_date": 1728681806,
+                    "size": 14
+                },
+                "65: The indispensable cog": {
+                    "latest_date": 1729281323,
+                    "size": 6
+                },
+                "66: You'll rent chips and be happy": {
+                    "latest_date": 1729744276,
+                    "size": 6
+                },
+                "67: Ten years of freeCodeCamp": {
+                    "latest_date": 1729875068,
+                    "size": 3
+                }
+            }
+        },
+        "games": {
+            "id": 453573,
+            "latest_id": 479078923,
+            "topic_data": {
+                "Balatro...": {
+                    "latest_date": 1728004342,
+                    "size": 2
+                },
+                "connections": {
+                    "latest_date": 1729956973,
+                    "size": 147
+                },
+                "strands": {
+                    "latest_date": 1729966495,
+                    "size": 130
+                },
+                "wordle": {
+                    "latest_date": 1729976360,
+                    "size": 404
+                }
+            }
+        },
+        "general": {
+            "id": 453512,
+            "latest_id": 479048489,
+            "topic_data": {
+                ".io domains": {
+                    "latest_date": 1729785961,
+                    "size": 15
+                },
+                "Atari 7800+ announcement trailer": {
+                    "latest_date": 1726778182,
+                    "size": 6
+                },
+                "Bobiverse": {
+                    "latest_date": 1727551191,
+                    "size": 1
+                },
+                "Deno 2": {
+                    "latest_date": 1729132874,
+                    "size": 6
+                },
+                "Elixir: why is it so underrated?": {
+                    "latest_date": 1726662684,
+                    "size": 21
+                },
+                "Incident Horror Stories": {
+                    "latest_date": 1729341609,
+                    "size": 5
+                },
+                "Is this cool? y/n?": {
+                    "latest_date": 1727546435,
+                    "size": 76
+                },
+                "Ladybird On Swift vs Rust": {
+                    "latest_date": 1729682202,
+                    "size": 7
+                },
+                "Mastodon?": {
+                    "latest_date": 1728424573,
+                    "size": 10
+                },
+                "Mobile usage": {
+                    "latest_date": 1727042402,
+                    "size": 14
+                },
+                "No one seems to know about Zulip": {
+                    "latest_date": 1729792768,
+                    "size": 72
+                },
+                "Speaking of the Microsoft Sculpt Keyboard...": {
+                    "latest_date": 1726588097,
+                    "size": 2
+                },
+                "Tuomas Artman on localfirst.fm": {
+                    "latest_date": 1727978562,
+                    "size": 4
+                },
+                "What trending tech are you most bullish on?": {
+                    "latest_date": 1728110600,
+                    "size": 12
+                },
+                "Where to share interesting blog posts? #blogging alternative": {
+                    "latest_date": 1728527301,
+                    "size": 12
+                },
+                "WordPress Drama": {
+                    "latest_date": 1729631345,
+                    "size": 113
+                },
+                "[meta] episode transcripts related questions": {
+                    "latest_date": 1729946958,
+                    "size": 2
+                },
+                "auth (zulip)": {
+                    "latest_date": 1727534950,
+                    "size": 4
+                },
+                "desktop app (Zulip)": {
+                    "latest_date": 1727289084,
+                    "size": 20
+                },
+                "ergonomics wins": {
+                    "latest_date": 1729716625,
+                    "size": 79
+                },
+                "introduce yourself!": {
+                    "latest_date": 1729784607,
+                    "size": 62
+                },
+                "keyboard shortcuts (Zulip)": {
+                    "latest_date": 1727743488,
+                    "size": 13
+                },
+                "new channels": {
+                    "latest_date": 1728705168,
+                    "size": 19
+                },
+                "new episodes": {
+                    "latest_date": 1729897272,
+                    "size": 80
+                },
+                "pocketcasts transcripts": {
+                    "latest_date": 1727275921,
+                    "size": 5
+                },
+                "previews of websites": {
+                    "latest_date": 1727304757,
+                    "size": 7
+                },
+                "private google analytics?": {
+                    "latest_date": 1729452289,
+                    "size": 14
+                },
+                "web-public channels": {
+                    "latest_date": 1729946833,
+                    "size": 10
+                },
+                "✔ PostgreSQL or Postgres??": {
+                    "latest_date": 1727017840,
+                    "size": 10
+                },
+                "✔ why's this called night mode... 😅": {
+                    "latest_date": 1725975876,
+                    "size": 5
+                }
+            }
+        },
+        "gotime": {
+            "id": 455709,
+            "latest_id": 478795852,
+            "topic_data": {
+                "330: Home automation with Go": {
+                    "latest_date": 1727017756,
+                    "size": 6
+                },
+                "331: How I lost my (old) job to AI": {
+                    "latest_date": 1729801869,
+                    "size": 18
+                },
+                "332: \"Founder Mode\" at work when you're not a founder": {
+                    "latest_date": 1728744741,
+                    "size": 9
+                },
+                "333: Russ Cox on passing the torch": {
+                    "latest_date": 1728600769,
+                    "size": 2
+                },
+                "334: Unpop roundup": {
+                    "latest_date": 1728930283,
+                    "size": 7
+                },
+                "335: AI for Observability": {
+                    "latest_date": 1729802285,
+                    "size": 2
+                }
+            }
+        },
+        "homelab": {
+            "id": 454981,
+            "latest_id": 479035119,
+            "topic_data": {
+                "1U NAS": {
+                    "latest_date": 1725939112,
+                    "size": 3
+                },
+                "Configuring RPi OS Images": {
+                    "latest_date": 1727127100,
+                    "size": 8
+                },
+                "IaC for homelab": {
+                    "latest_date": 1729721004,
+                    "size": 4
+                },
+                "Nix users?": {
+                    "latest_date": 1729933913,
+                    "size": 3
+                },
+                "Rack Recommendations": {
+                    "latest_date": 1729930447,
+                    "size": 3
+                },
+                "TuringPi": {
+                    "latest_date": 1726507721,
+                    "size": 1
+                },
+                "UPS for homelab": {
+                    "latest_date": 1727442041,
+                    "size": 5
+                },
+                "ZFSBootMenu": {
+                    "latest_date": 1726687065,
+                    "size": 2
+                },
+                "channel events": {
+                    "latest_date": 1725657279,
+                    "size": 4
+                },
+                "public access to home lab": {
+                    "latest_date": 1728199141,
+                    "size": 16
+                }
+            }
+        },
+        "interviews": {
+            "id": 456187,
+            "latest_id": 478894865,
+            "topic_data": {
+                "608: Building customizable ergonomic keyboards": {
+                    "latest_date": 1728328818,
+                    "size": 21
+                },
+                "609: The best, worst codebase": {
+                    "latest_date": 1728328883,
+                    "size": 11
+                },
+                "610: Leveling up JavaScript with Deno 2": {
+                    "latest_date": 1728160144,
+                    "size": 4
+                },
+                "611: Free-threaded Python": {
+                    "latest_date": 1728052463,
+                    "size": 10
+                },
+                "612: The Moneyball approach": {
+                    "latest_date": 1729854364,
+                    "size": 4
+                },
+                "613: Lessons from 10k hours of programming (Remastered)": {
+                    "latest_date": 1729689824,
+                    "size": 9
+                },
+                "614: Elasticsearch is open source, again": {
+                    "latest_date": 1729810459,
+                    "size": 2
+                }
+            }
+        },
+        "jsparty": {
+            "id": 456196,
+            "latest_id": 478075955,
+            "topic_data": {
+                "338: Undirected hyper arrows": {
+                    "latest_date": 1726501943,
+                    "size": 4
+                },
+                "339: It's all about the squiggles": {
+                    "latest_date": 1727180453,
+                    "size": 6
+                },
+                "340: Leveling up JavaScript with Deno 2": {
+                    "latest_date": 1727375407,
+                    "size": 1
+                },
+                "341: Create interactive tutorials the easy way": {
+                    "latest_date": 1727974807,
+                    "size": 1
+                },
+                "342: A great horse to bet on": {
+                    "latest_date": 1729521035,
+                    "size": 4
+                },
+                "343: Digging through Jerod Santo’s tool box": {
+                    "latest_date": 1729401414,
+                    "size": 11
+                },
+                "Moar Ember 🐹": {
+                    "latest_date": 1728584910,
+                    "size": 4
+                }
+            }
+        },
+        "kaizen": {
+            "id": 455097,
+            "latest_id": 478757926,
+            "topic_data": {
+                "A Sponsors feed": {
+                    "latest_date": 1726894958,
+                    "size": 11
+                },
+                "Code deploys": {
+                    "latest_date": 1729787944,
+                    "size": 16
+                },
+                "Kaizen for dev": {
+                    "latest_date": 1727803731,
+                    "size": 2
+                },
+                "Logbot needs a cool look": {
+                    "latest_date": 1729181394,
+                    "size": 31
+                },
+                "channel events": {
+                    "latest_date": 1725713504,
+                    "size": 1
+                }
+            }
+        },
+        "practicalai": {
+            "id": 456003,
+            "latest_id": 478745691,
+            "topic_data": {
+                "286: Cybersecurity in the GenAI age": {
+                    "latest_date": 1726087029,
+                    "size": 1
+                },
+                "287: Pausing to think about scikit-learn & OpenAI o1": {
+                    "latest_date": 1726600160,
+                    "size": 1
+                },
+                "288: GraphRAG (beyond the hype)": {
+                    "latest_date": 1727289125,
+                    "size": 1
+                },
+                "289: Understanding what's possible, doable & scalable": {
+                    "latest_date": 1727970366,
+                    "size": 1
+                },
+                "290: Towards high-quality (maybe synthetic) datasets": {
+                    "latest_date": 1728480606,
+                    "size": 1
+                },
+                "291: Practical workflow orchestration": {
+                    "latest_date": 1729022407,
+                    "size": 1
+                },
+                "292: Big data is dead, analytics is alive": {
+                    "latest_date": 1729784047,
+                    "size": 1
+                }
+            }
+        },
+        "shipit": {
+            "id": 456580,
+            "latest_id": 478978221,
+            "topic_data": {
+                "121: Building rawkode academy": {
+                    "latest_date": 1726588521,
+                    "size": 4
+                },
+                "122: Linux distros": {
+                    "latest_date": 1728265743,
+                    "size": 8
+                },
+                "123: A learning mindset, starting with COBOL": {
+                    "latest_date": 1727625150,
+                    "size": 3
+                },
+                "124: You suck at programming": {
+                    "latest_date": 1728820062,
+                    "size": 7
+                },
+                "125: TIME to get SERIESous about databases": {
+                    "latest_date": 1728658806,
+                    "size": 1
+                },
+                "126: Kubernetes is an anti-platform": {
+                    "latest_date": 1729612283,
+                    "size": 9
+                },
+                "127: Your customer is Amazon.com": {
+                    "latest_date": 1729885207,
+                    "size": 1
+                },
+                "7 year olds": {
+                    "latest_date": 1728441436,
+                    "size": 2
+                },
+                "kubevirt?": {
+                    "latest_date": 1728311261,
+                    "size": 10
+                }
+            }
+        }
+    },
+    "time": 1730007477.636153
+}

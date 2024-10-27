@@ -1,0 +1,98 @@
+[
+    {
+        "content": "<p>jerodsanto just successfully deployed <a href=\"https://github.com/thechangelog/changelog.com/commit/51ce73830256b3db6e21f3f8df73a4a604c68201\">51ce73830256b3db6e21f3f8df73a4a604c68201</a></p>",
+        "id": 477251247,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729094681
+    },
+    {
+        "content": "<p>Ok so that worked <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span> </p>\n<p>Now I have to figure out how to get the commit message in a reliable way. Has anyone done this before? I'm not a GH Actions expert by any means...</p>\n<p>Also, once you get the message itself, how do you best wrap/format it for Zulip display?</p>",
+        "id": 477251742,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729094809
+    },
+    {
+        "content": "<p>Hmm also can you not mute a specific topic inside a channel? I can see people wanting to mute this one but not all of the other kazen'ing that's going on...</p>",
+        "id": 477252001,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729094890
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/66849/crqY4V-FTxh0IUJoWWCsZbI0/CleanShot-2024-10-16-at-11.09.042x.png\">CleanShot 2024-10-16 at 11.09.04@2x.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/crqY4V-FTxh0IUJoWWCsZbI0/CleanShot-2024-10-16-at-11.09.042x.png\" title=\"CleanShot 2024-10-16 at 11.09.04@2x.png\"><img data-original-dimensions=\"2048x1152\" src=\"/user_uploads/thumbnail/66849/crqY4V-FTxh0IUJoWWCsZbI0/CleanShot-2024-10-16-at-11.09.042x.png/840x560.webp\"></a></div><p>Ok it looks like you <em>can</em> mute a topic inside a channel. I was just confused by the wording on this popover...</p>",
+        "id": 477252386,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729095009
+    },
+    {
+        "content": "<p>It looks like Zulip itself sends commits to a channel: <a href=\"https://chat.zulip.org/#narrow/channel/8-commits/topic/zulip.20.2F.20main/near/1963618\">https://chat.zulip.org/#narrow/channel/8-commits/topic/zulip.20.2F.20main/near/1963618</a></p>",
+        "id": 477318702,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1729121341
+    },
+    {
+        "content": "<p>Based on <a href=\"https://github.com/zulip/zulip/blob/9.2/.github/workflows/zulip-ci.yml#L258\">https://github.com/zulip/zulip/blob/9.2/.github/workflows/zulip-ci.yml#L258</a> maybe they use <a href=\"https://github.com/zulip/github-actions-zulip/blob/main/send-message/README.md\">https://github.com/zulip/github-actions-zulip/blob/main/send-message/README.md</a> ?</p>",
+        "id": 477319141,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1729121582
+    },
+    {
+        "content": "<p>Oh, send-message is what you're already using. <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 477319198,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1729121629
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"750170\">Jerod Santo</span> <a href=\"#narrow/stream/455097-kaizen/topic/Code.20deploys/near/477252386\">said</a>:</p>\n<blockquote>\n<p>I was just confused by the wording on this popover...</p>\n</blockquote>\n<p>Ah dang that's unfortunate. On mobile it's much clearer with a \"Mute topic\" menu option.</p>",
+        "id": 477326957,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1729127176
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752868\">Philip Durbin</span> <a href=\"#narrow/channel/455097-kaizen/topic/Code.20deploys/near/477318702\">said</a>:</p>\n<blockquote>\n<p>It looks like Zulip itself sends commits to a channel</p>\n</blockquote>\n<p>Seems like they are only reporting failures on that one.</p>\n<div class=\"codehilite\" data-code-language=\"YAML\"><pre><span></span><code><span class=\"p p-Indicator\">-</span><span class=\"w\"> </span><span class=\"nt\">name</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">Report status to CZO</span>\n<span class=\"w\">        </span><span class=\"l l-Scalar l-Scalar-Plain\">if</span><span class=\"p p-Indicator\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">${{ failure() &amp;&amp; github.repository == 'zulip/zulip' &amp;&amp; github.event_name == 'push' }}</span>\n<span class=\"w\">        </span><span class=\"l l-Scalar l-Scalar-Plain\">uses</span><span class=\"p p-Indicator\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">zulip/github-actions-zulip/send-message@v1</span>\n<span class=\"w\">        </span><span class=\"l l-Scalar l-Scalar-Plain\">with</span><span class=\"p p-Indicator\">:</span>\n<span class=\"w\">          </span><span class=\"nt\">api-key</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">${{ secrets.ZULIP_BOT_KEY }}</span>\n<span class=\"w\">          </span><span class=\"nt\">email</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s\">\"github-actions-bot@chat.zulip.org\"</span>\n<span class=\"w\">          </span><span class=\"nt\">organization-url</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s\">\"https://chat.zulip.org\"</span>\n<span class=\"w\">          </span><span class=\"nt\">to</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s\">\"automated</span><span class=\"nv\"> </span><span class=\"s\">testing\"</span>\n<span class=\"w\">          </span><span class=\"nt\">topic</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">${{ steps.failure_report_string.outputs.topic }}</span>\n<span class=\"w\">          </span><span class=\"nt\">type</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s\">\"stream\"</span>\n<span class=\"w\">          </span><span class=\"nt\">content</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">${{ steps.failure_report_string.outputs.content }}</span>\n</code></pre></div>",
+        "id": 477445761,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729172180
+    },
+    {
+        "content": "<p>jerodsanto just successfully deployed <a href=\"https://github.com/thechangelog/changelog.com/commit/f168c4ead1da6025f2cc3a52d9973dc781adf0fb\">f168c4ea</a></p>\n<p>Attempt to fix short SHA fetching in Actions</p>",
+        "id": 477486648,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729184091
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span> you fixed it! Seems like <code>${{ github.event.commits[0].message }}</code> is working for you based on <a href=\"https://github.com/thechangelog/changelog.com/blob/f168c4ead1da6025f2cc3a52d9973dc781adf0fb/.github/workflows/dagger_on_namespace.yml#L80\">https://github.com/thechangelog/changelog.com/blob/f168c4ead1da6025f2cc3a52d9973dc781adf0fb/.github/workflows/dagger_on_namespace.yml#L80</a></p>",
+        "id": 477538903,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1729207532
+    },
+    {
+        "content": "<p>jerodsanto just successfully deployed <a href=\"https://github.com/thechangelog/changelog.com/commit/b8343c697ad41964511ce7fe06449ea54d25cb78\">b8343c69</a>:</p>\n<blockquote>\n<p>Tweak Zulip deploy message format</p>\n</blockquote>",
+        "id": 477661505,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729259742
+    },
+    {
+        "content": "<p>jerodsanto just successfully deployed <a href=\"https://github.com/thechangelog/changelog.com/commit/1dab3df096d8fe73fdcafc3fa2145e40081925da\">1dab3df0</a>:</p>\n<blockquote>\n<p>Blech! (mix deps.get_dev strikes again)</p>\n</blockquote>",
+        "id": 478562293,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729709404
+    },
+    {
+        "content": "<p>jerodsanto just successfully deployed <a href=\"https://github.com/thechangelog/changelog.com/commit/50462905af41d6a8feeaeeff188010edd46478c1\">50462905</a>:</p>\n<blockquote>\n<p>Fix call to queue an Overcast ping</p>\n</blockquote>",
+        "id": 478738945,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729782164
+    },
+    {
+        "content": "<p>ok so what's the easiest/best way to have this post \"the list of commits since the last deploy\"?</p>",
+        "id": 478747958,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729784785
+    },
+    {
+        "content": "<p>jerodsanto just successfully deployed <a href=\"https://github.com/thechangelog/changelog.com/commit/9d150fd0181091d392586aba3754cc2de6d78061\">9d150fd0</a>:</p>\n<blockquote>\n<p>Reduce Overcast ping rate limit</p>\n</blockquote>",
+        "id": 478757926,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729787944
+    }
+]

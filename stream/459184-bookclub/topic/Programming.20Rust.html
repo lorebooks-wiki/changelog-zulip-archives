@@ -1,0 +1,142 @@
+<html>
+<head><meta charset="utf-8"><title>Programming Rust · bookclub · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/index.html">bookclub</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html">Programming Rust</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="475465267"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/475465267" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#475465267">(Oct 08 2024 at 04:20)</a>:</h4>
+<p>I'm reading the Programming Rust book: <a href="https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/">https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/</a></p>
+<p>I'll post some of my chapter notes here tomorrow and as I go. I'm on chapter 16.</p>
+
+
+
+<a name="475674501"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/475674501" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Don MacKinnon <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#475674501">(Oct 08 2024 at 21:24)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="752976">Matthew Sanabria</span> <a href="#narrow/stream/459184-bookclub/topic/Programming.20Rust/near/475465267">said</a>:</p>
+<blockquote>
+<p>I'm reading the Programming Rust book: <a href="https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/">https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/</a></p>
+<p>I'll post some of my chapter notes here tomorrow and as I go. I'm on chapter 16.</p>
+</blockquote>
+<p>Did you read "the book" before this one?</p>
+
+
+
+<a name="475708209"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/475708209" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#475708209">(Oct 09 2024 at 01:47)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="756263">Don MacKinnon</span> <a href="#narrow/stream/459184-bookclub/topic/Programming.20Rust/near/475674501">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="752976">Matthew Sanabria</span> <a href="#narrow/stream/459184-bookclub/topic/Programming.20Rust/near/475465267">said</a>:</p>
+<blockquote>
+<p>I'm reading the Programming Rust book: <a href="https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/">https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/</a></p>
+<p>I'll post some of my chapter notes here tomorrow and as I go. I'm on chapter 16.</p>
+</blockquote>
+<p>Did you read "the book" before this one?</p>
+</blockquote>
+<p>I did read the official book before this one but I was really busy during that time so I didn't study it as much as I wanted to. This time around I've been studying and doing some projects to solidify the learning.</p>
+
+
+
+<a name="475885584"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/475885584" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Don MacKinnon <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#475885584">(Oct 09 2024 at 14:49)</a>:</h4>
+<p>Nice, would be interested to hear your thoughts on it once you finish!</p>
+
+
+
+<a name="476011897"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/476011897" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#476011897">(Oct 10 2024 at 03:05)</a>:</h4>
+<p>If you're on a time crunch to read this book then you can probably skip chapters 1 and 2 since they just introduce the why of Rust and a tour of its usage. Chapter 3 is where the primary Rust types are introduced. The real content starts in chapter 4 where the book discusses ownership and moves.</p>
+<p>Chapter 4 really clarified ownership and moves for me by linking Rust types to the stack and the heap. For example, <code>String</code> types are on the heap and number types (e.g., <code>i32</code>) stay on the stack. You later find out that this is powered by <code>Box</code> types and <code>Copy</code> and <code>Clone</code> traits. As functions are called values are moved into the functions unless they are passed by reference (i.e., borrowing) this moving of values is what throws people for a loop at first but the book explains it well with comparisons to Python's referencing counting and C's manual memory management.</p>
+
+
+
+<a name="476012528"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/476012528" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#476012528">(Oct 10 2024 at 03:08)</a>:</h4>
+<p>Chapter 5 laid out the rules for references. Basically, you can only have ONE of the following.</p>
+<ul>
+<li>Multiple immutable references to a variable</li>
+<li>Single mutable reference to a variable.</li>
+</ul>
+<p>This chapter also discussed lifetimes, describing them as a contract around how long data can live with respect to other data. Really helpful when reading function signatures to understand how they will use the parameters they accept. If you omit lifetimes the compiler will infer them for you.</p>
+
+
+
+<a name="476012583"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/476012583" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#476012583">(Oct 10 2024 at 03:08)</a>:</h4>
+<p>I'm on Chapter 16 now, but I'll continue posting my notes from previous chapters over the next few days.</p>
+
+
+
+<a name="477570690"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/477570690" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#477570690">(Oct 18 2024 at 04:41)</a>:</h4>
+<p>Chapter 5 covered references in depth, showing how Rust eliminates entire classes of bugs by their rules around references. The rules are mutually exclusive.</p>
+<ul>
+<li>Can have multiple immutable references to a variable.</li>
+<li>OR</li>
+<li>Can have a single mutable reference to a variable.</li>
+</ul>
+<p>The chapter then covered how to use references in functions, both as parameters and returns. References as a parameter do not move the underlying variable into the function which is great when you want to perform some operations with that variable but don't want to own it but not great when you want to mutate that variable and return some mutation. For that there's a concept of interior mutability which is deferred for a later chapter.</p>
+<p>Lifetimes were discussed in depth and the many examples cleared up my confusion around lifetimes. Basically lifetimes allow you to see the behavior (contract) of how long data should live with respect to other data. Most useful when reading function signatures. Even if you omit lifetimes, the compiler with infer them.</p>
+
+
+
+<a name="477570758"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/477570758" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#477570758">(Oct 18 2024 at 04:42)</a>:</h4>
+<p>Chapter 6 covered all the expressions in Rust and that's pretty much everything that's in Rust because Rust is an expression-oriented language. Things like <code>match</code>, <code>if let</code>, closures, etc. There's not really much to report here because it's mainly around the syntax of Rust but there are cool things compared to other languages.</p>
+<p>For example, you can assign to variables from a match.</p>
+<div class="codehilite" data-code-language="Rust"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="n">res</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">match</span><span class="w"> </span><span class="n">work</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="s">"foo"</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="s">"fooval"</span><span class="p">,</span>
+<span class="w">  </span><span class="s">"bar"</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="s">"baval"</span><span class="p">,</span>
+<span class="w">  </span><span class="n">_</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="s">"defaultval"</span><span class="p">,</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>The <code>break</code> keyword can return values too.</p>
+<div class="codehilite" data-code-language="Rust"><pre><span></span><code><span class="k">fn</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">counter</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+
+<span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="n">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">loop</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">counter</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="n">counter</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">10</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="k">break</span><span class="w"> </span><span class="n">counter</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">};</span>
+
+<span class="w">    </span><span class="fm">println!</span><span class="p">(</span><span class="s">"The result is {result}"</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Outside of that it's pretty much as you'd expect from other languages.</p>
+
+
+
+<a name="477685275"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/477685275" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dustin <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#477685275">(Oct 18 2024 at 15:52)</a>:</h4>
+<p>Your example is missing one of my favorite implications of that! You could have counter mutable _only_ inside the expression or only scoped inside the expression. This means you can control the mutability even within a single function on a variable.</p>
+
+
+
+<a name="477685413"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/477685413" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dustin <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#477685413">(Oct 18 2024 at 15:53)</a>:</h4>
+<p>I think one of the easiest examples of this is initializing a Vec but having it no longer be mutable after the first initialization</p>
+
+
+
+<a name="477703322"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/477703322" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#477703322">(Oct 18 2024 at 17:50)</a>:</h4>
+<p>100%. That's a huge strength of the Rust syntax.</p>
+
+
+
+<a name="477703456"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/477703456" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#477703456">(Oct 18 2024 at 17:51)</a>:</h4>
+<p>I'll admit that I'm copying and pasting these notes from when I read those chapters. I'm on chapter 17 now but I've been spacing out the posting of my old notes so that I don't just dump them all here at once.</p>
+
+
+
+<hr><p>Last updated: Oct 27 2024 at 05:37 UTC</p>
+</html>

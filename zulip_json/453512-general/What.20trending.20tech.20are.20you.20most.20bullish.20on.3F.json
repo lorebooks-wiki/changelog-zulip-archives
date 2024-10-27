@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p>I see several technologies that are maturing at the same time. I know Silicon Valley (place not show) is all about AI at the moment. I see the value, but I've been a little more skeptical of its long-term value insofar as it changes our lives for the better.</p>\n<p>Among the trending technologies, these ones stick out to me, but there are plenty more:</p>\n<ul>\n<li>Wasm </li>\n<li>Local-first applications</li>\n<li>Generative AI</li>\n</ul>\n<p>For me, I think Wasm has a huge potential to disrupt the cloud-native ecosystem. I think we'll see more companies pick it up as a model for deploying their applications safely and efficiently. However, it may be too limiting for certain use cases. I know I can't use it for my current project because I rely on a Git binary in my runtime environment. I'm still looking for the right project to use Wasm in. At work though, we enable users to run their own Wasm as part of a Kafka pipeline in process (Redpanda).</p>\n<p>I'm even more excited about local-first applications like Linear and others. I think it offers a genuinely novel way of both developing and using apps that is way better for users. I've completely moved off of Notion and onto Obsidian for this very reason. I think we'll see a new generation of applications using local first to eat the lunch of existing juggernauts like Atlassian, Google Docs, and Notion.</p>",
+        "id": 471984902,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1726962090
+    },
+    {
+        "content": "<p>I'd like to co-sign your enthusiasm about both wasm and local-first software! I'm keenly following the local first ecosystem and looking for places where it would make sense in our company.</p>",
+        "id": 471996360,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1726972825
+    },
+    {
+        "content": "<p>It's a very long-term vision so probably not what you were thinking of for this topic, but I recently learned about Dynamicland and really love the vision of the future they have.</p>\n<p>I've seen people (read: tech bros) get really inspired by Tony Stark's lab in the Iron Man films and think that's the future of tech. Dynamicland feels to me like that, but if it were invented by your friendly neighbourhood anarchist instead of a billionaire arms dealer <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span></p>\n<p><a href=\"https://youtu.be/5Q9r-AEzRMA?si=qSkvpJfZDqPy71Oy\">This video is a pretty good overview</a>, and <a href=\"https://youtu.be/GmY_BrwWnCA?si=0hXqJ9L6B2tgVSi1\">this video goes into more detail about a single use case</a>.</p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"5Q9r-AEzRMA\" href=\"https://youtu.be/5Q9r-AEzRMA?si=qSkvpJfZDqPy71Oy\"><img src=\"https://uploads.zulipusercontent.net/8ed9d9823a2a933cc6f68799847089d1ad45a8cb/68747470733a2f2f692e7974696d672e636f6d2f76692f355139722d41457a524d412f64656661756c742e6a7067\"></a></div><div class=\"youtube-video message_inline_image\"><a data-id=\"GmY_BrwWnCA\" href=\"https://youtu.be/GmY_BrwWnCA?si=0hXqJ9L6B2tgVSi1\"><img src=\"https://uploads.zulipusercontent.net/ae31aa3f84f31dbf14faeae9cd990ee0997fca65/68747470733a2f2f692e7974696d672e636f6d2f76692f476d595f427277576e43412f64656661756c742e6a7067\"></a></div>",
+        "id": 471996719,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1726973095
+    },
+    {
+        "content": "<p>This is so cool! I love the DIY feel of it.</p>",
+        "id": 472052632,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1727017137
+    },
+    {
+        "content": "<p>I think embedded devices will become more important as they become more accessible to program. It's easier to create devices for home automation and other monitoring needs. I'd like to see a shift from proprietary embedded devices that have zero right to repair onto open hardware/software that you can extend or replace with your own devices.</p>\n<p>To list trends I'm bullish on that haven't been listed yet.</p>\n<ul>\n<li>Accessible embedded devices.</li>\n<li>Right to repair.</li>\n<li>ARM laptops.</li>\n</ul>",
+        "id": 472053616,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1727018063
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752976\">@Matthew Sanabria</span>, I'm wondering if there is some crossover on our interests. I feel like Wasm is the perfect compilation target for an embedded device that is built to run WASI.</p>",
+        "id": 472081948,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1727037299
+    },
+    {
+        "content": "<p>Are we talking about general audiences here, or developers? For example, I love local-first tools as well (paying Obsidian user) but I think it's mostly a subsection of developers who really care, vs a mass market</p>\n<p>I am also bullish on WASM from everything I've heard, and from dealing with Docker daily, although I've yet to really use it myself</p>",
+        "id": 472088025,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1727042305
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755651\">Thomas Eckert</span> <a href=\"#narrow/stream/453512-general/topic/What.20trending.20tech.20are.20you.20most.20bullish.20on.3F/near/472081948\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"752976\">Matthew Sanabria</span>, I'm wondering if there is some crossover on our interests. I feel like Wasm is the perfect compilation target for an embedded device that is built to run WASI.</p>\n</blockquote>\n<p>Agreed. I loved the points you listed above and I didn't want to repeat them. I want to see more wasm support and usage in the industry. I think we're getting there though.</p>",
+        "id": 472107674,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1727054646
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752880\">Lars Ellingsen</span> <a href=\"#narrow/stream/453512-general/topic/What.20trending.20tech.20are.20you.20most.20bullish.20on.3F/near/472088025\">said</a>:</p>\n<blockquote>\n<p>Are we talking about general audiences here, or developers? For example, I love local-first tools as well (paying Obsidian user) but I think it's mostly a subsection of developers who really care, vs a mass market</p>\n</blockquote>\n<p>There's no hard and fast rules here. I think of this from the perspective of a developer, but the scope could be broader. I think Wasm will mostly impact developers, but if it leads to faster services for users, that would be a promising non-dev benefit. Local-first, I believe has a very broad benefit for all users.</p>",
+        "id": 472108476,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1727055300
+    },
+    {
+        "content": "<p>I think that local-first is something that end users care about sometimes, but may not understand that they do. It might just be the difference between an app that has a spinner on every interaction versus an app that responds instantly. Or, an app that works well with limited connectivity- which could be important in certain B2B scenarios, e.g. we have customers who travel around rural areas a fair bit.</p>",
+        "id": 472125947,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1727067586
+    },
+    {
+        "content": "<p>I'm totally aligned here too. WASM, right-to-repair, ARM laptops, Ollama, embedded devices all signal to me a cultural (consumer and developer) shift towards local first. I think combined with this is an ever growing awareness of online privacy and security, and a degradation of trust in corporations and media. </p>\n<p>All in all, it feels a bit like people are taking a cautionary step back from everything. And part of that is the protectionism of having and being able to maintain / build your own stuff.</p>",
+        "id": 474644282,
+        "sender_full_name": "Tillman Jex",
+        "timestamp": 1727975742
+    },
+    {
+        "content": "<p>And speaking of \"limited connectivity\" this is applies to accessing a website _anywhere_ in Australia. When I was there on an extended visit, I wrote up a little git wrapper for my dotfile management to (among other things) push my repo to the origin and mirror concurrently, so I didn't have to wait so long. It was long enough!</p>",
+        "id": 474953283,
+        "sender_full_name": "Tillman Jex",
+        "timestamp": 1728110600
+    }
+]
