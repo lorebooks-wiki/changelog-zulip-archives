@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>Not a big social media guy here, but trying to expand, anyone have a good Mastadon instance to join, I was looking at <a href=\"http://defcon.social\">defcon.social</a> because signup is open,  just unsure about the fediverse I suppose. Any suggestions for a good instance?</p>",
+        "id": 475319266,
+        "sender_full_name": "Matthew Fish",
+        "timestamp": 1728313659
+    },
+    {
+        "content": "<p>Honestly, just pick one that seems reliable, isn’t blocked by a majority of the instances out there, and has policies that work for you, especially in regard to blocklists. Beyond that, it really doesn’t matter. You can follow anyone on any other instance that doesn’t block your instance and isn’t blocked by yours. If you find your instance unpalatable for any reason, migrating to another is relatively painless. I started my own instance when the Twitter drama started, but maintaining it became obnoxious so I migrated to <a href=\"http://hachyderm.io\">hachyderm.io</a> because I appreciated its governance structure and interesting domain name. The most important thing is to just get an account <em>somewhere</em> and start exploring so you can figure out how it fits into your uses.</p>",
+        "id": 475338213,
+        "sender_full_name": "Scott Abbey",
+        "timestamp": 1728318425
+    },
+    {
+        "content": "<p>I can recommend hachyderm. It’s got open registration, only blocks hateful instances, and isn’t blocked by any instances I care about. It’s managed by a collective and takes community input seriously, but I haven’t felt any particular need to offer any. It works fine</p>",
+        "id": 475338775,
+        "sender_full_name": "Scott Abbey",
+        "timestamp": 1728318580
+    },
+    {
+        "content": "<p>Thanks <span class=\"user-mention\" data-user-id=\"753657\">@Scott Abbey</span>,  just joined up!</p>",
+        "id": 475358951,
+        "sender_full_name": "Matthew Fish",
+        "timestamp": 1728324253
+    },
+    {
+        "content": "<p>I've wanted to explore Mastodon for quite some time, created an account but never could find enough use for it. I didn't want to admit this, but Twitter (X) has surprisingly gotten a much stronger tech presence, especially for machine learning, and I routinely find interesting things via their feed. I found any other social media to be lacking in these aspects, be it Bluesky or Mastodon.</p>",
+        "id": 475497041,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1728372799
+    },
+    {
+        "content": "<p>Would love to hear others' workflows. How do you use Mastodon, which accounts do you follow, are you completely reliant on the accounts you follow or does a feed-based recommendation also play a role?</p>",
+        "id": 475497642,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1728372969
+    },
+    {
+        "content": "<p>I love the idea of Mastodon. It reminds me of early Twitter when you could use whatever client you wanted and there were no ads. Plus it's federated and decentralized, like email.</p>",
+        "id": 475545920,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1728389179
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"756545\">@Siddhartha Golu</span> Mastodon doesn’t have any algorithm, so you only see posts from people you follow, or posts people you follow have shared.</p>\n<p>I suspect my use case is different than many Twitter users. I’ve never found Twitter useful for discovery. It’s always felt like a constantly churning hype train, like Hacker News but with less interesting discussion. I only used it to see what the people I find interesting are up to (ie, micro-blogging, as it was originally meant for), and Mastodon serves that purpose for me much better than Twitter ever did. If I want news I’ll read a news site or reddit. If I want memes I’ve got reddit and Tumblr. For chatting with friends I’ve got Discord. Twitter in its modern form doesn’t work for me, and hasn’t really since long before Elon burned it down.</p>",
+        "id": 475573807,
+        "sender_full_name": "Scott Abbey",
+        "timestamp": 1728396860
+    },
+    {
+        "content": "<p>Well after  following a couple devs and my podcaster, I am starting to see the appeal to no algorithm. <span class=\"user-mention\" data-user-id=\"753657\">@Scott Abbey</span> any good devs or Hashtags you've found? really working on curating my own personal RSS-like Mastadon feed</p>",
+        "id": 475578670,
+        "sender_full_name": "Matthew Fish",
+        "timestamp": 1728397694
+    },
+    {
+        "content": "<p>Most of the Python community moved to Mastodon, so I've found just following people works.</p>",
+        "id": 475681315,
+        "sender_full_name": "Brett Cannon",
+        "timestamp": 1728424573
+    }
+]
