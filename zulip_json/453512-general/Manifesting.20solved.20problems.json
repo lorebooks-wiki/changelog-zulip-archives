@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>If you could wave your hand and have 5 problems solved in computer science/software development what would they be?</p>\n<p>Mine are</p>\n<ul>\n<li>Dependencies</li>\n<li>Linear types</li>\n<li>Distributed authentication and persistence (aka local first being a solved/easy solution)</li>\n<li>Wasm reaching it's full potential</li>\n<li>It's easy in any company to analyze how much (technically) a feature costs</li>\n</ul>\n<p>Honorable shoutout to a friend who said as his top would be only having to define your data model once</p>",
+        "id": 487101627,
+        "sender_full_name": "Dustin",
+        "timestamp": 1733779278
+    },
+    {
+        "content": "<p>Doesn't namecoin solve the distributed authentication thing? I know there are several blockchain based identity efforts out there. </p>\n<p>I would think some sort of a blockchain like distributed storage system would be able to solve this and the package management problem too. Something that's more efficient, immutable except for being able to delete, with permissions, etc.</p>\n<p>Maybe postgres but globally distributed amongst millions of nodes.</p>",
+        "id": 487133583,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1733792935
+    }
+]
