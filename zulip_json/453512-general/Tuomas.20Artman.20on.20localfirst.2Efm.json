@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Really enjoyed this episode of the local-first podcast with the Linear CTO: <a href=\"https://www.localfirst.fm/15\">https://www.localfirst.fm/15</a>. If you haven't looked up his talks on the Linear sync engine they're also fantastic.</p>\n<p>I've really felt what he's saying about Linear's quality inspiring everyone to make software that's just as good, which really is impressive for an issue tracker!</p>\n<p>And boy I'm really envious of the \"built the frontend only\" approach. There's a lot of momentum today swinging back to \"just server-render HTML and don't bother with heavy JS frameworks\". Which is all well and good... when you have a reliable internet connection. Local-first apps can run totally offline, but require a fully JS client.</p>",
+        "id": 474538173,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1727948073
+    },
+    {
+        "content": "<p>I get what you’re saying about reliable internet connection. But I think the reality is most SPAs or JS framework heavy things these days necessarily are making API calls anyways. </p>\n<p>I think it’s much rarer that you can keep all the logic on the frontend for long periods of time. That’s why just pushing your logic to the server side even for bad network connections seems more logical and simpler. At least from my point of view.</p>",
+        "id": 474584237,
+        "sender_full_name": "Dustin",
+        "timestamp": 1727960009
+    },
+    {
+        "content": "<p>Of course it depends on the use case. I find it important to distinguish between the technologies themselves and how they're commonly used! There's no reason SPAs need to make network requests at all, but you're right that they usually are used to make apps which do.</p>",
+        "id": 474597488,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1727963983
+    },
+    {
+        "content": "<p>As someone who feels a bit caught in both camps my hope is that as a community webdev can get to a \"best tool for the job\" mindset and have great options on both sides.</p>\n<p>It feels like there's momentum building towards awesome new (in some cases more refined) tools no matter what approach is best for a given application and that makes me personally very excited</p>",
+        "id": 474652652,
+        "sender_full_name": "Mason Stallmo",
+        "timestamp": 1727978562
+    }
+]
