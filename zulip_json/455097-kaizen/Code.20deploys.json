@@ -1,0 +1,182 @@
+[
+    {
+        "content": "<p>jerodsanto just successfully deployed <a href=\"https://github.com/thechangelog/changelog.com/commit/51ce73830256b3db6e21f3f8df73a4a604c68201\">51ce73830256b3db6e21f3f8df73a4a604c68201</a></p>",
+        "id": 477251247,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729094681
+    },
+    {
+        "content": "<p>Ok so that worked <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span> </p>\n<p>Now I have to figure out how to get the commit message in a reliable way. Has anyone done this before? I'm not a GH Actions expert by any means...</p>\n<p>Also, once you get the message itself, how do you best wrap/format it for Zulip display?</p>",
+        "id": 477251742,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729094809
+    },
+    {
+        "content": "<p>Hmm also can you not mute a specific topic inside a channel? I can see people wanting to mute this one but not all of the other kazen'ing that's going on...</p>",
+        "id": 477252001,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729094890
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/66849/crqY4V-FTxh0IUJoWWCsZbI0/CleanShot-2024-10-16-at-11.09.042x.png\">CleanShot 2024-10-16 at 11.09.04@2x.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/crqY4V-FTxh0IUJoWWCsZbI0/CleanShot-2024-10-16-at-11.09.042x.png\" title=\"CleanShot 2024-10-16 at 11.09.04@2x.png\"><img data-original-dimensions=\"2048x1152\" src=\"/user_uploads/thumbnail/66849/crqY4V-FTxh0IUJoWWCsZbI0/CleanShot-2024-10-16-at-11.09.042x.png/840x560.webp\"></a></div><p>Ok it looks like you <em>can</em> mute a topic inside a channel. I was just confused by the wording on this popover...</p>",
+        "id": 477252386,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729095009
+    },
+    {
+        "content": "<p>It looks like Zulip itself sends commits to a channel: <a href=\"https://chat.zulip.org/#narrow/channel/8-commits/topic/zulip.20.2F.20main/near/1963618\">https://chat.zulip.org/#narrow/channel/8-commits/topic/zulip.20.2F.20main/near/1963618</a></p>",
+        "id": 477318702,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1729121341
+    },
+    {
+        "content": "<p>Based on <a href=\"https://github.com/zulip/zulip/blob/9.2/.github/workflows/zulip-ci.yml#L258\">https://github.com/zulip/zulip/blob/9.2/.github/workflows/zulip-ci.yml#L258</a> maybe they use <a href=\"https://github.com/zulip/github-actions-zulip/blob/main/send-message/README.md\">https://github.com/zulip/github-actions-zulip/blob/main/send-message/README.md</a> ?</p>",
+        "id": 477319141,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1729121582
+    },
+    {
+        "content": "<p>Oh, send-message is what you're already using. <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 477319198,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1729121629
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"750170\">Jerod Santo</span> <a href=\"#narrow/stream/455097-kaizen/topic/Code.20deploys/near/477252386\">said</a>:</p>\n<blockquote>\n<p>I was just confused by the wording on this popover...</p>\n</blockquote>\n<p>Ah dang that's unfortunate. On mobile it's much clearer with a \"Mute topic\" menu option.</p>",
+        "id": 477326957,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1729127176
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752868\">Philip Durbin</span> <a href=\"#narrow/channel/455097-kaizen/topic/Code.20deploys/near/477318702\">said</a>:</p>\n<blockquote>\n<p>It looks like Zulip itself sends commits to a channel</p>\n</blockquote>\n<p>Seems like they are only reporting failures on that one.</p>\n<div class=\"codehilite\" data-code-language=\"YAML\"><pre><span></span><code><span class=\"p p-Indicator\">-</span><span class=\"w\"> </span><span class=\"nt\">name</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">Report status to CZO</span>\n<span class=\"w\">        </span><span class=\"l l-Scalar l-Scalar-Plain\">if</span><span class=\"p p-Indicator\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">${{ failure() &amp;&amp; github.repository == 'zulip/zulip' &amp;&amp; github.event_name == 'push' }}</span>\n<span class=\"w\">        </span><span class=\"l l-Scalar l-Scalar-Plain\">uses</span><span class=\"p p-Indicator\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">zulip/github-actions-zulip/send-message@v1</span>\n<span class=\"w\">        </span><span class=\"l l-Scalar l-Scalar-Plain\">with</span><span class=\"p p-Indicator\">:</span>\n<span class=\"w\">          </span><span class=\"nt\">api-key</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">${{ secrets.ZULIP_BOT_KEY }}</span>\n<span class=\"w\">          </span><span class=\"nt\">email</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s\">\"github-actions-bot@chat.zulip.org\"</span>\n<span class=\"w\">          </span><span class=\"nt\">organization-url</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s\">\"https://chat.zulip.org\"</span>\n<span class=\"w\">          </span><span class=\"nt\">to</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s\">\"automated</span><span class=\"nv\"> </span><span class=\"s\">testing\"</span>\n<span class=\"w\">          </span><span class=\"nt\">topic</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">${{ steps.failure_report_string.outputs.topic }}</span>\n<span class=\"w\">          </span><span class=\"nt\">type</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s\">\"stream\"</span>\n<span class=\"w\">          </span><span class=\"nt\">content</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">${{ steps.failure_report_string.outputs.content }}</span>\n</code></pre></div>",
+        "id": 477445761,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729172180
+    },
+    {
+        "content": "<p>jerodsanto just successfully deployed <a href=\"https://github.com/thechangelog/changelog.com/commit/f168c4ead1da6025f2cc3a52d9973dc781adf0fb\">f168c4ea</a></p>\n<p>Attempt to fix short SHA fetching in Actions</p>",
+        "id": 477486648,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729184091
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span> you fixed it! Seems like <code>${{ github.event.commits[0].message }}</code> is working for you based on <a href=\"https://github.com/thechangelog/changelog.com/blob/f168c4ead1da6025f2cc3a52d9973dc781adf0fb/.github/workflows/dagger_on_namespace.yml#L80\">https://github.com/thechangelog/changelog.com/blob/f168c4ead1da6025f2cc3a52d9973dc781adf0fb/.github/workflows/dagger_on_namespace.yml#L80</a></p>",
+        "id": 477538903,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1729207532
+    },
+    {
+        "content": "<p>jerodsanto just successfully deployed <a href=\"https://github.com/thechangelog/changelog.com/commit/b8343c697ad41964511ce7fe06449ea54d25cb78\">b8343c69</a>:</p>\n<blockquote>\n<p>Tweak Zulip deploy message format</p>\n</blockquote>",
+        "id": 477661505,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729259742
+    },
+    {
+        "content": "<p>jerodsanto just successfully deployed <a href=\"https://github.com/thechangelog/changelog.com/commit/1dab3df096d8fe73fdcafc3fa2145e40081925da\">1dab3df0</a>:</p>\n<blockquote>\n<p>Blech! (mix deps.get_dev strikes again)</p>\n</blockquote>",
+        "id": 478562293,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729709404
+    },
+    {
+        "content": "<p>jerodsanto just successfully deployed <a href=\"https://github.com/thechangelog/changelog.com/commit/50462905af41d6a8feeaeeff188010edd46478c1\">50462905</a>:</p>\n<blockquote>\n<p>Fix call to queue an Overcast ping</p>\n</blockquote>",
+        "id": 478738945,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729782164
+    },
+    {
+        "content": "<p>ok so what's the easiest/best way to have this post \"the list of commits since the last deploy\"?</p>",
+        "id": 478747958,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729784785
+    },
+    {
+        "content": "<p>jerodsanto just successfully deployed <a href=\"https://github.com/thechangelog/changelog.com/commit/9d150fd0181091d392586aba3754cc2de6d78061\">9d150fd0</a>:</p>\n<blockquote>\n<p>Reduce Overcast ping rate limit</p>\n</blockquote>",
+        "id": 478757926,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729787944
+    },
+    {
+        "content": "<p>jerodsanto just successfully deployed <a href=\"https://github.com/thechangelog/changelog.com/commit/19246f722fdc828815cdc963642831e25aa54a63\">19246f72</a>:</p>\n<blockquote>\n<p>Add chapters to Zulip new episode messages</p>\n</blockquote>",
+        "id": 479761026,
+        "sender_full_name": "Logbot",
+        "timestamp": 1730320795
+    },
+    {
+        "content": "<p>jerodsanto just successfully deployed <a href=\"https://github.com/thechangelog/changelog.com/commit/4926360888a264418312a4a727c36923110306b1\">49263608</a>:</p>\n<blockquote>\n<p>[admin] Add daily subs chart</p>\n</blockquote>",
+        "id": 479889331,
+        "sender_full_name": "Logbot",
+        "timestamp": 1730384503
+    },
+    {
+        "content": "<p>jerodsanto just successfully deployed <a href=\"https://github.com/thechangelog/changelog.com/commit/0db349cca521c90da4a72bc33d00e0e9ef5cd63d\">0db349cc</a>:</p>\n<blockquote>\n<p>Improve header links in News emails</p>\n</blockquote>",
+        "id": 480935274,
+        "sender_full_name": "Logbot",
+        "timestamp": 1730904244
+    },
+    {
+        "content": "<p>jerodsanto just successfully deployed <a href=\"https://github.com/thechangelog/changelog.com/commit/622dfe31253c4442114c95d9ee679df52373d020\">622dfe31</a>:</p>\n<blockquote>\n<p>Add Merch link to header nav</p>\n</blockquote>",
+        "id": 480993187,
+        "sender_full_name": "Logbot",
+        "timestamp": 1730924156
+    },
+    {
+        "content": "<p>jerodsanto just successfully deployed <a href=\"https://github.com/thechangelog/changelog.com/commit/bf0bc864ae0704244443658c1474331bae63876c\">bf0bc864</a>:</p>\n<blockquote>\n<p>Link to the episode before the chapters in Zulip messages</p>\n</blockquote>",
+        "id": 481382317,
+        "sender_full_name": "Logbot",
+        "timestamp": 1731097941
+    },
+    {
+        "content": "<p>jerodsanto just successfully deployed <a href=\"https://github.com/thechangelog/changelog.com/commit/86c763cb0413cc97165b56503485a324449a153a\">86c763cb</a>:</p>\n<blockquote>\n<p>update &lt;itunes:explicit&gt; tag from  \"no\" to \"false\"  (#531)</p>\n</blockquote>\n<ul>\n<li>&lt;itunes:explicit&gt; no → false</li>\n</ul>\n<p>Signed-off-by: Alex Zamai &lt;<a href=\"mailto:zamaialexander@gmail.com\">zamaialexander@gmail.com</a>&gt;</p>\n<ul>\n<li>Update feed.ex</li>\n</ul>\n<p>Signed-off-by: Alex Zamai &lt;<a href=\"mailto:zamaialexander@gmail.com\">zamaialexander@gmail.com</a>&gt;</p>\n<ul>\n<li>Update podcast.ex</li>\n</ul>\n<p>Signed-off-by: Alex Zamai &lt;<a href=\"mailto:zamaialexander@gmail.com\">zamaialexander@gmail.com</a>&gt;</p>\n<hr>\n<p>Signed-off-by: Alex Zamai &lt;<a href=\"mailto:zamaialexander@gmail.com\">zamaialexander@gmail.com</a>&gt;</p>",
+        "id": 482640637,
+        "sender_full_name": "Logbot",
+        "timestamp": 1731685302
+    },
+    {
+        "content": "<p>jerodsanto just successfully deployed <a href=\"https://github.com/thechangelog/changelog.com/commit/f1814e03632b5ac8dd74ddcd1d28a146fa21f9bb\">f1814e03</a>:</p>\n<blockquote>\n<p>Various episode/news img tweaks</p>\n</blockquote>",
+        "id": 483512772,
+        "sender_full_name": "Logbot",
+        "timestamp": 1732116834
+    },
+    {
+        "content": "<p>jerodsanto just successfully deployed <a href=\"https://github.com/thechangelog/changelog.com/commit/de716075347e582180dfcba636b246ff4bd6ac5f\">de716075</a>:</p>\n<blockquote>\n<p>Subtitle size tweak</p>\n</blockquote>",
+        "id": 483770908,
+        "sender_full_name": "Logbot",
+        "timestamp": 1732216519
+    },
+    {
+        "content": "<p>jerodsanto just successfully deployed <a href=\"https://github.com/thechangelog/changelog.com/commit/d69bc734b89ea50af9d43ca913eada8a81e4fde7\">d69bc734</a>:</p>\n<blockquote>\n<p>Link up sotl 2024 form</p>\n</blockquote>",
+        "id": 484354723,
+        "sender_full_name": "Logbot",
+        "timestamp": 1732555303
+    },
+    {
+        "content": "<p>jerodsanto just successfully deployed <a href=\"https://github.com/thechangelog/changelog.com/commit/3440f5e04feac192c1926c33f38ef0081223e21c\">3440f5e0</a>:</p>\n<blockquote>\n<p>Enable team members to replace changelog_dev with a prod db dump (#533)</p>\n</blockquote>\n<ul>\n<li>Enable team members to replace changelog_dev with a prod db dump</li>\n</ul>\n<p>There is a single command to run:</p>\n<div class=\"codehilite\"><pre><span></span><code>just restore-dev-db-from-prod\n</code></pre></div>\n\n<p>This implies that:</p>\n<ul>\n<li>\n<p><a href=\"http://direnv.net\">direnv.net</a> is hooked into the shell<br>\n-<code>just envrc-secrets</code> has already run &amp; <code>.envrc.secrets</code> exists</p>\n</li>\n<li>\n<p>Posgres 16 has been installed using <code>just postgres</code></p>\n</li>\n</ul>\n<p>Part of this change we exposed a few more private recipes and made it<br>\nclear who they are meant for:</p>\n<ul>\n<li><code>contributor</code> means anyone that wants to play with this repo locally</li>\n<li><code>team</code> means Adam, Jerod &amp; Gerhard</li>\n</ul>\n<p>We also added <code>just add-oban-pro-repo</code> so that we make this integration<br>\neasier for team members - I always forget about it!</p>\n<p>Signed-off-by: Gerhard Lazu &lt;<a href=\"mailto:gerhard@changelog.com\">gerhard@changelog.com</a>&gt;</p>\n<ul>\n<li>Go back to managing Postgres with asdf</li>\n</ul>\n<p>Single tool to rule them all <span aria-label=\"fist\" class=\"emoji emoji-270a\" role=\"img\" title=\"fist\">:fist:</span> icu4c seems to be working on macOS 14.7<br>\nARM now. Checked that the new command works as expected. Also confirmed<br>\nthat CI works locally.</p>\n<p>Also run:</p>\n<div class=\"codehilite\"><pre><span></span><code>npx browserslist@latest --update-db\n</code></pre></div>\n\n<p>Signed-off-by: Gerhard Lazu &lt;<a href=\"mailto:gerhard@changelog.com\">gerhard@changelog.com</a>&gt;</p>\n<hr>\n<p>Signed-off-by: Gerhard Lazu &lt;<a href=\"mailto:gerhard@changelog.com\">gerhard@changelog.com</a>&gt;</p>",
+        "id": 484761624,
+        "sender_full_name": "Logbot",
+        "timestamp": 1732726017
+    },
+    {
+        "content": "<p>jerodsanto just successfully deployed <a href=\"https://github.com/thechangelog/changelog.com/commit/7c1500d91486da0aaab558251f5da82d49ad5076\">7c1500d9</a>:</p>\n<blockquote>\n<p>Enable team members to run dev with a Neon db branch (#534)</p>\n</blockquote>\n<p>Single command:</p>\n<div class=\"codehilite\"><pre><span></span><code>just dev-with-neon-branch gerhard-2024-11-29\n</code></pre></div>\n\n<p>The above uses a branch that I created on the 29th of November. You can<br>\ncreate a new Neon db branch today, using your <code>$USER</code>, with the following<br>\ncommand:</p>\n<div class=\"codehilite\"><pre><span></span><code>just neon-create-branch\n</code></pre></div>\n\n<p>This will create e.g. <code>USER-YYYY-MM-DD</code> prod db branch.</p>\n<p>Here is a list of all the new commands that go well together:</p>\n<div class=\"codehilite\"><pre><span></span><code>[team]\ndev-with-neon-branch branch                  # Run app in dev mode with $branch\nneon-branch-connection branch *ARGS          # Show $branch connection details\nneon-branches                                # List prod db branches\nneon-create-branch                           # Create a new branch off the prod db\n</code></pre></div>\n\n<p>This change also removes the now redundant way of creating Neon db branches.</p>\n<p>Follow-up to:</p>\n<ul>\n<li><a href=\"https://github.com/thechangelog/changelog.com/pull/533\">https://github.com/thechangelog/changelog.com/pull/533</a></li>\n<li><a href=\"https://github.com/thechangelog/changelog.com/pull/508\">https://github.com/thechangelog/changelog.com/pull/508</a></li>\n</ul>\n<p>Signed-off-by: Gerhard Lazu &lt;<a href=\"mailto:gerhard@changelog.com\">gerhard@changelog.com</a>&gt;</p>",
+        "id": 486349026,
+        "sender_full_name": "Logbot",
+        "timestamp": 1733416918
+    },
+    {
+        "content": "<p>jerodsanto just successfully deployed <a href=\"https://github.com/thechangelog/changelog.com/commit/5933c0c236e21c24a0ca5828d68c7d70d03d21e4\">5933c0c2</a>:</p>\n<blockquote>\n<p>Improve on the Zulip auth app integration (#535)</p>\n</blockquote>\n<p>We want to reference all secrets from 1Password so that when we need to<br>\nrotate anything, we simply update the values in 1Password and restart<br>\nthe app so that it reads the new values just-in-time, at boot time.</p>\n<p>FTR:</p>\n<ul>\n<li><a href=\"https://github.com/thechangelog/changelog.com/pull/492#issuecomment-1872528092\">https://github.com/thechangelog/changelog.com/pull/492#issuecomment-1872528092</a></li>\n</ul>\n<p>Signed-off-by: Gerhard Lazu &lt;<a href=\"mailto:gerhard@changelog.com\">gerhard@changelog.com</a>&gt;</p>",
+        "id": 486350110,
+        "sender_full_name": "Logbot",
+        "timestamp": 1733417210
+    },
+    {
+        "content": "<p>jerodsanto just successfully deployed <a href=\"https://github.com/thechangelog/changelog.com/commit/2182a223468f4989355e11d2c4a7db854e50e0e5\">2182a223</a>:</p>\n<blockquote>\n<p>Announce deploys in Zulip from GitHub runners too (#536)</p>\n</blockquote>\n<p>If <a href=\"http://Namespace.so\">Namespace.so</a> was to fail - Always run 2 of everything™ - we want to<br>\nnotify Zulip of a deploy when we fallback to the GitHub runner.</p>\n<p>Signed-off-by: Gerhard Lazu &lt;<a href=\"mailto:gerhard@changelog.com\">gerhard@changelog.com</a>&gt;</p>",
+        "id": 486355391,
+        "sender_full_name": "Logbot",
+        "timestamp": 1733418687
+    },
+    {
+        "content": "<p>jerodsanto just successfully deployed <a href=\"https://github.com/thechangelog/changelog.com/commit/3b0af88d864c9cf4779b27868bdcbf58000f879d\">3b0af88d</a>:</p>\n<blockquote>\n<p>Linkify chapters in Zulip new episode messages</p>\n</blockquote>",
+        "id": 487324767,
+        "sender_full_name": "Logbot",
+        "timestamp": 1733858276
+    }
+]

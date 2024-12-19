@@ -1,0 +1,105 @@
+<html>
+<head><meta charset="utf-8"><title>Raspberry PIs for homelab · homelab · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/index.html">homelab</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Raspberry.20PIs.20for.20homelab.html">Raspberry PIs for homelab</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="482963666"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/Raspberry%20PIs%20for%20homelab/near/482963666" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Arminio <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Raspberry.20PIs.20for.20homelab.html#482963666">(Nov 18 2024 at 08:57)</a>:</h4>
+<p>Hi there, I have a few raspberry PIs (a couple of 5 and a couple of 4), could I use them to host apps like pihole, home assistant and random web services?</p>
+
+
+
+<a name="483051434"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/Raspberry%20PIs%20for%20homelab/near/483051434" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Raúl <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Raspberry.20PIs.20for.20homelab.html#483051434">(Nov 18 2024 at 15:26)</a>:</h4>
+<p>Yes, they're perfect for that. I've had pihole running on RPi 2 for around two years now, and it's been working great. I think I even heard of people hosting Jellyfin on a RPi. And if you have multiple Pis and are feeling brave or want the learning experience, you could even set up a kubernetes cluster to run your stuff.</p>
+
+
+
+<a name="483054560"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/Raspberry%20PIs%20for%20homelab/near/483054560" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Arminio <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Raspberry.20PIs.20for.20homelab.html#483054560">(Nov 18 2024 at 15:37)</a>:</h4>
+<p><span class="user-mention" data-user-id="759269">@Raúl</span> thanks! yeah I was thinking of using something like k8s, mostly because I'd love to use all these raspberry pis as if they were one machine</p>
+
+
+
+<a name="483055110"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/Raspberry%20PIs%20for%20homelab/near/483055110" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Raúl <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Raspberry.20PIs.20for.20homelab.html#483055110">(Nov 18 2024 at 15:39)</a>:</h4>
+<p>Just keep in mind that K8s adds a lot of complexity, so if you're not used to it, it may be a little overwhelming.</p>
+
+
+
+<a name="483060539"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/Raspberry%20PIs%20for%20homelab/near/483060539" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Arminio <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Raspberry.20PIs.20for.20homelab.html#483060539">(Nov 18 2024 at 16:00)</a>:</h4>
+<p>good to know!</p>
+
+
+
+<a name="483093074"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/Raspberry%20PIs%20for%20homelab/near/483093074" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Adam Bedenbaugh <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Raspberry.20PIs.20for.20homelab.html#483093074">(Nov 18 2024 at 18:30)</a>:</h4>
+<p>I've used pihole and jellyfin on a raspberry pi 4 and both worked well. I prefer to use docker compose for because I find it easiest. If you are interested in Kubernetes on a Pi, then check out k3s. Its a lightweight version of Kubernetes.</p>
+
+
+
+<a name="483093500"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/Raspberry%20PIs%20for%20homelab/near/483093500" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Raúl <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Raspberry.20PIs.20for.20homelab.html#483093500">(Nov 18 2024 at 18:33)</a>:</h4>
+<p>I also use compose but I have a single Intel NUC. Compose doesn't do clustering. Good tip about k3s! And there's also docker swarm, which is probably a much saner option for a homelab setup.</p>
+
+
+
+<a name="483567818"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/Raspberry%20PIs%20for%20homelab/near/483567818" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Justin Garrison <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Raspberry.20PIs.20for.20homelab.html#483567818">(Nov 20 2024 at 20:40)</a>:</h4>
+<p>I’ll throw out the suggestion of using Talos for Kubernetes (only pi 4 support) or k2d for a Kubernetes interface on top of docker</p>
+
+
+
+<a name="483580548"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/Raspberry%20PIs%20for%20homelab/near/483580548" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Raspberry.20PIs.20for.20homelab.html#483580548">(Nov 20 2024 at 22:14)</a>:</h4>
+<p>I used Talos for a long time on my Pi cluster, but could only get drivers for HAT accessories from the official Raspberry Pi kernel<br>
+It was painful getting those modules into a system extension for Talos<br>
+Without obscure hardware, however, Talos is amazing</p>
+
+
+
+<a name="483635921"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/Raspberry%20PIs%20for%20homelab/near/483635921" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Arminio <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Raspberry.20PIs.20for.20homelab.html#483635921">(Nov 21 2024 at 08:01)</a>:</h4>
+<p><span class="user-mention" data-user-id="760607">@Justin Garrison</span> thanks! I have two PI5 so Talos is a no go :( I might try nixos though <span aria-label="blush" class="emoji emoji-1f60a" role="img" title="blush">:blush:</span></p>
+
+
+
+<a name="484562623"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/Raspberry%20PIs%20for%20homelab/near/484562623" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> FlakM <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Raspberry.20PIs.20for.20homelab.html#484562623">(Nov 26 2024 at 17:23)</a>:</h4>
+<p><span class="user-mention" data-user-id="752828">@Patrick Arminio</span> Nixos has a very nice k3s module <span aria-label="ok" class="emoji emoji-1f44c" role="img" title="ok">:ok:</span></p>
+
+
+
+<a name="484563310"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/Raspberry%20PIs%20for%20homelab/near/484563310" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Arminio <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Raspberry.20PIs.20for.20homelab.html#484563310">(Nov 26 2024 at 17:27)</a>:</h4>
+<p><span class="user-mention" data-user-id="758534">@FlakM</span> do you have a link? :D</p>
+
+
+
+<a name="484563547"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/Raspberry%20PIs%20for%20homelab/near/484563547" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> FlakM <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Raspberry.20PIs.20for.20homelab.html#484563547">(Nov 26 2024 at 17:28)</a>:</h4>
+<p>You can search for the options using search on website: <a href="https://search.nixos.org/options?channel=24.05&amp;from=0&amp;size=50&amp;sort=relevance&amp;type=packages&amp;query=k3s">https://search.nixos.org/options?channel=24.05&amp;from=0&amp;size=50&amp;sort=relevance&amp;type=packages&amp;query=k3s</a></p>
+
+
+
+<a name="484564127"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/Raspberry%20PIs%20for%20homelab/near/484564127" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> FlakM <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Raspberry.20PIs.20for.20homelab.html#484564127">(Nov 26 2024 at 17:32)</a>:</h4>
+<p>I run it on my dev machine to test helm charts, it's a single line away <a href="https://github.com/FlakM/nix_dots/blob/0e09dc06885409a6207a89f549db64b137a1745a/shared/k3s/default.nix#L4">https://github.com/FlakM/nix_dots/blob/0e09dc06885409a6207a89f549db64b137a1745a/shared/k3s/default.nix#L4</a> happy to help if you need it <span aria-label="ok" class="emoji emoji-1f44c" role="img" title="ok">:ok:</span></p>
+
+
+
+<a name="484564623"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/Raspberry%20PIs%20for%20homelab/near/484564623" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Arminio <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Raspberry.20PIs.20for.20homelab.html#484564623">(Nov 26 2024 at 17:35)</a>:</h4>
+<p>oh I see, cool! I'll check once I finally make time to install everything on the first PI :D</p>
+
+
+
+<hr><p>Last updated: Dec 19 2024 at 15:39 UTC</p>
+</html>
