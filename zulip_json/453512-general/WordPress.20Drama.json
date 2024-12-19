@@ -1,0 +1,878 @@
+[
+    {
+        "content": "<p>Odd drama going on in WordPress land. Thoughts?</p>\n<ul>\n<li><a href=\"https://x.com/search?q=%23WCUS&amp;src=typed_query\">https://x.com/search?q=%23WCUS&amp;src=typed_query</a></li>\n<li><a href=\"https://x.com/EricLagunas/status/1837556081305788635\">https://x.com/EricLagunas/status/1837556081305788635</a></li>\n</ul>",
+        "id": 472009371,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1726980699
+    },
+    {
+        "content": "<p>Feels the the WP founders are trying to get the community to dogpile on WP Engine because they happen to limit the revisions count. It's not like they changed the core code, that's literally a setting in wp-config that they just happen to be forcing a default on. I think this is unnecessary drama. WP Engine should be able to run their business how they see fit. <a href=\"http://wp.com\">wp.com</a> puts limitations on what plugins you may install so it seems a bit hypocritical.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"http://wp.com\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/98824b78404dbbbb5835e4af4b2d273fcf5f53ab/68747470733a2f2f73312e77702e636f6d2f692f66656174757265642f68702d323032332d6175672e6a7067&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"http://wp.com\" title=\"WordPress, Your Way\">WordPress, Your Way</a></div><div class=\"message_embed_description\">Build a site, sell online, earn with your content, and more</div></div></div>",
+        "id": 472082098,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1727037391
+    },
+    {
+        "content": "<p>Yeah, the thing about revisions and other reasons, seems like a very weak excuses to go after them.</p>",
+        "id": 472084809,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1727039536
+    },
+    {
+        "content": "<p>Things are getting spicy! WP Engine has sent a cease and desist to Automattic's CEO <a href=\"https://x.com/wpengine/status/1838350670564377051\">https://x.com/wpengine/status/1838350670564377051</a></p>",
+        "id": 472515729,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1727190336
+    },
+    {
+        "content": "<div class=\"message_inline_image\"><a href=\"https://media0.giphy.com/media/hVTouq08miyVo1a21m/giphy.gif?cid=c623cb35xer46a7xx8bq7vog59sl12etkssswp463sfgfycv&amp;ep=v1_gifs_search&amp;rid=giphy.gif&amp;ct=g\"><img src=\"https://uploads.zulipusercontent.net/549fbd741152f4cc7c7892932a308001cdc239a4/68747470733a2f2f6d65646961302e67697068792e636f6d2f6d656469612f6856546f757130386d6979566f316132316d2f67697068792e6769663f6369643d633632336362333578657234366137787838627137766f673539736c313265746b7373737770343633736667667963762665703d76315f676966735f736561726368267269643d67697068792e6769662663743d67\"></a></div>",
+        "id": 472517490,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1727190885
+    },
+    {
+        "content": "<p>Scanned. If this is even close to accurate and those screenshots are true words Matt shared with WPE then that's pretty damaging. Not sure what this % (percentage) is behind the scenes being referenced but that wasn't discussed by him in that keynote.</p>",
+        "id": 472521487,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1727192096
+    },
+    {
+        "content": "<p>If open source is free in all the ways free is free...then WPE is also free to not contribute, or contribute very little. It's not cool. But they are free to act as such. That's why open source is so powerful. You are free in every way to, or not to, participate.</p>",
+        "id": 472521729,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1727192167
+    },
+    {
+        "content": "<p>Yeah it feels like Matt is upset that WP Engine has built a wildly successful business on the project but that's just his feelings and there is no wrong-doing from any legal perspective that I can see. Could have been handled much better IMO</p>",
+        "id": 472528548,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1727194397
+    },
+    {
+        "content": "<p>I think his argument/stance is sound in terms of parasitic private equity co's, but that was not the place or the way to expose the idea and issue.</p>",
+        "id": 472528889,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1727194511
+    },
+    {
+        "content": "<p>Feels like trying to do a rug pull without calling it a rug pull.</p>",
+        "id": 472530525,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1727195068
+    },
+    {
+        "content": "<p><a href=\"https://techcrunch.com/2024/09/25/legal-ping-pong-in-the-wordpress-world-continues-automattic-now-sends-wp-engine-a-cease-and-desist-letter-alleging-trademark-infringement/\">https://techcrunch.com/2024/09/25/legal-ping-pong-in-the-wordpress-world-continues-automattic-now-sends-wp-engine-a-cease-and-desist-letter-alleging-trademark-infringement/</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://techcrunch.com/2024/09/25/legal-ping-pong-in-the-wordpress-world-continues-automattic-now-sends-wp-engine-a-cease-and-desist-letter-alleging-trademark-infringement/\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/755c7f3b88a216f77a31a2926ac433a792855069/68747470733a2f2f746563686372756e63682e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032342f30392f494d475f353234342e6a70673f726573697a653d313230302c393030&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://techcrunch.com/2024/09/25/legal-ping-pong-in-the-wordpress-world-continues-automattic-now-sends-wp-engine-a-cease-and-desist-letter-alleging-trademark-infringement/\" title=\"Automattic sends WP Engine its own cease-and-desist over WordPress trademark infringement | TechCrunch\">Automattic sends WP Engine its own cease-and-desist over WordPress trademark infringement | TechCrunch</a></div><div class=\"message_embed_description\">The brouhaha in the WordPress community looks likely to escalate into a legal battle around trademarks.</div></div></div>",
+        "id": 472682176,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1727266519
+    },
+    {
+        "content": "<p>Wow we were trying to get Matt on the pod to come discuss this, but now that it's entering the legal world I doubt his lawyers will want him talking about it publicly at all...</p>",
+        "id": 472696107,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1727270468
+    },
+    {
+        "content": "<p>This feels a bit like a different approach to what Hashicorp did with its license change to get at the competition using their open source tools (specifically Terraform). No license change here though, and (for the moment) a specific competitor is the target.</p>\n<p>What changed for this to happen now? It is hardly a new thing that WP Engine uses \"WP\".</p>\n<p>If this really had been about the spirit of open source, it could have been handled in a different and better way than trying to discredit a specific company, using the tactics described in this drama.</p>",
+        "id": 472701004,
+        "sender_full_name": "Erik Lundevall-Zara",
+        "timestamp": 1727271847
+    },
+    {
+        "content": "<p><a href=\"https://x.com/photomatt/status/1838502185879167069\">https://x.com/photomatt/status/1838502185879167069</a><br>\n<a href=\"https://x.com/bgardner/status/1839070322617643212\">https://x.com/bgardner/status/1839070322617643212</a></p>\n<p>Has anything like this ever happened in another OSS community?</p>",
+        "id": 472785717,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1727305177
+    },
+    {
+        "content": "<p>Crazy town</p>",
+        "id": 472785942,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1727305264
+    },
+    {
+        "content": "<p>Did <a href=\"http://WordPress.org\">WordPress.org</a> seriously shutdown updating, installing plugins etc on WP Engine?</p>",
+        "id": 472798186,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1727314934
+    },
+    {
+        "content": "<p><a href=\"https://wordpress.org/news/2024/09/wp-engine-banned/\">https://wordpress.org/news/2024/09/wp-engine-banned/</a></p>",
+        "id": 472798929,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1727315527
+    },
+    {
+        "content": "<p>Seems so.</p>",
+        "id": 472798939,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1727315547
+    },
+    {
+        "content": "<p>Straight up war. ￼</p>",
+        "id": 472799040,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1727315658
+    },
+    {
+        "content": "<p>A Changelog episode about this would be interesting.</p>",
+        "id": 472800546,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1727316760
+    },
+    {
+        "content": "<p>I don't know who you could interview that wouldn't be accused of bias one way or the other.</p>",
+        "id": 472800870,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1727316985
+    },
+    {
+        "content": "<p>I wouldn't be surprised if this results in a major fork of WordPress.</p>",
+        "id": 472808401,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1727322336
+    },
+    {
+        "content": "<p>Full disclosure: I'm ex-Automattic. But I've been out of the ecosystem for a long time, except for a plugin I maintain from time to time.</p>",
+        "id": 472808685,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1727322538
+    },
+    {
+        "content": "<p>So we talked about this in-depth on Tuesday's recording of Friends, which ships tomorrow. I'm afraid some of our conversation is already stale though <span aria-label=\"scream\" class=\"emoji emoji-1f631\" role=\"img\" title=\"scream\">:scream:</span> </p>\n<p><span class=\"user-mention\" data-user-id=\"750017\">@Adam Stacoviak</span> you may need to interject in post and catch people up to the latest, telling them that it's a moving target, etc...</p>",
+        "id": 472897487,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1727357346
+    },
+    {
+        "content": "<p>The responses here are like whoa <a href=\"https://x.com/wordpress/status/1839076201890984397\">https://x.com/wordpress/status/1839076201890984397</a></p>",
+        "id": 472900036,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1727358030
+    },
+    {
+        "content": "<p>This is going to end up harming site owners using wordpress that have nothing to do with this feud.</p>",
+        "id": 472936983,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1727368972
+    },
+    {
+        "content": "<p>Yes, there are other ways to go about this feud. ￼</p>",
+        "id": 472946315,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1727372697
+    },
+    {
+        "content": "<p><a href=\"https://www.youtube.com/watch?v=rE95Knb1JKs\">https://www.youtube.com/watch?v=rE95Knb1JKs</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"rE95Knb1JKs\" href=\"https://www.youtube.com/watch?v=rE95Knb1JKs\"><img src=\"https://uploads.zulipusercontent.net/390b23d5713f8e95cb199c46806c72601d04be0e/68747470733a2f2f692e7974696d672e636f6d2f76692f724539354b6e62314a4b732f64656661756c742e6a7067\"></a></div>",
+        "id": 472958766,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1727377710
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752922\">Nabeel S</span> <a href=\"#narrow/stream/453512-general/topic/WordPress.20Drama/near/472958766\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://www.youtube.com/watch?v=rE95Knb1JKs\">https://www.youtube.com/watch?v=rE95Knb1JKs</a></p>\n</blockquote>\n<p>Members only, but it's funny to me that it has a C# logo lol</p>",
+        "id": 472976552,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1727386414
+    },
+    {
+        "content": "<p>Ah, same for me. It must have been publicly available online when it was being streamed live.</p>",
+        "id": 472978609,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1727387448
+    },
+    {
+        "content": "<p>Michael has a interview with Matt on his channel <a href=\"https://youtu.be/H6F0PgMcKWM?si=C72SSuuZNGOowbXO\">https://youtu.be/H6F0PgMcKWM?si=C72SSuuZNGOowbXO</a> , this one isn’t members only. </p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"H6F0PgMcKWM\" href=\"https://youtu.be/H6F0PgMcKWM?si=C72SSuuZNGOowbXO\"><img src=\"https://uploads.zulipusercontent.net/ef3a60b8a748652550cec9129691aabbea8fbe11/68747470733a2f2f692e7974696d672e636f6d2f76692f4836463050674d634b574d2f64656661756c742e6a7067\"></a></div><p>The whole situation is clearly more nuanced than any of the sides would like to portrai it. To me it looks like Matt is trying to steer the issue to trademark infingement as a damage control attempt. Avoiding questions about why to press the issue suddenly now.</p>",
+        "id": 473202841,
+        "sender_full_name": "Matous Michalik",
+        "timestamp": 1727468473
+    },
+    {
+        "content": "<p>I don’t get this bit:</p>\n<p><em>It seems the WordPress Foundation has made some tweaks to its trademark guidelines in recent days. As of September 19th, the policy said you are “free” to use the WP abbreviation in “any way you see fit.” But now WordPress has deleted that language, replacing it with a line that says not to use WP “in a way that confuses people.</em></p>\n<p>Can an entity just change the terms like that, and then accuse a long established company of violating the new terms?</p>",
+        "id": 473297895,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1727505890
+    },
+    {
+        "content": "<p>For those who prefer reading and aren't logged in to twitter, this article seems like a pretty good summary of the story so far <a href=\"https://joshcollinsworth.com/blog/fire-matt\">https://joshcollinsworth.com/blog/fire-matt</a></p>",
+        "id": 473315681,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1727513950
+    },
+    {
+        "content": "<p>Seems like he should have started with a cease and desist if trademark was the motivation here.</p>",
+        "id": 473373693,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1727549006
+    },
+    {
+        "content": "<p>A new interview by Primeagen with Matt</p>\n<p><a href=\"https://youtu.be/H6F0PgMcKWM?si=D5zA8u-M3Se2oxv_\">https://youtu.be/H6F0PgMcKWM?si=D5zA8u-M3Se2oxv_</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"H6F0PgMcKWM\" href=\"https://youtu.be/H6F0PgMcKWM?si=D5zA8u-M3Se2oxv_\"><img src=\"https://uploads.zulipusercontent.net/ef3a60b8a748652550cec9129691aabbea8fbe11/68747470733a2f2f692e7974696d672e636f6d2f76692f4836463050674d634b574d2f64656661756c742e6a7067\"></a></div><p>A bit more nuanced picture after this I think, would be interesting to hear more from other companies who either pay this trademark fee or contribute hours. I guess though at this point that such companies would not want to get entangled legally.</p>",
+        "id": 473381676,
+        "sender_full_name": "Erik Lundevall-Zara",
+        "timestamp": 1727554204
+    },
+    {
+        "content": "<p>Currently tuning in to Theo's live interview on X/Twitter: <a href=\"https://x.com/i/broadcasts/1YqKDkbBbLOxV\">https://x.com/i/broadcasts/1YqKDkbBbLOxV</a></p>",
+        "id": 473400212,
+        "sender_full_name": "Andrei Jiroh Halili",
+        "timestamp": 1727573203
+    },
+    {
+        "content": "<p>(also on YT if you prefer: <a href=\"https://www.youtube.com/live/F6vXWQrQXgY\">https://www.youtube.com/live/F6vXWQrQXgY</a>)</p>",
+        "id": 473400579,
+        "sender_full_name": "Andrei Jiroh Halili",
+        "timestamp": 1727573559
+    },
+    {
+        "content": "<p>That was a very good and insightful interview.</p>",
+        "id": 473402455,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1727575679
+    },
+    {
+        "content": "<p>Just listened to the \"Wrong place to slap a person\" episode and I felt like this meme needed to be created. Credit goes to Jerod, Adam, and Nick for the inspiration.<br>\n<a href=\"/user_uploads/66849/xWKlQ5-B0laXPD7ytgrk5hHJ/7f59d262-5853-4bc1-8fa8-f6ab247d8dbc.jpg\">7f59d262-5853-4bc1-8fa8-f6ab247d8dbc.jpg</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/xWKlQ5-B0laXPD7ytgrk5hHJ/7f59d262-5853-4bc1-8fa8-f6ab247d8dbc.jpg\" title=\"7f59d262-5853-4bc1-8fa8-f6ab247d8dbc.jpg\"><img data-original-dimensions=\"640x443\" src=\"/user_uploads/thumbnail/66849/xWKlQ5-B0laXPD7ytgrk5hHJ/7f59d262-5853-4bc1-8fa8-f6ab247d8dbc.jpg/840x560.webp\"></a></div>",
+        "id": 473502173,
+        "sender_full_name": "Chris Duzan",
+        "timestamp": 1727652289
+    },
+    {
+        "content": "<p>Hiiiiiii!</p>\n<p>I'm a little on the <a href=\"https://www.wordfence.com/\">fence</a> about whether Matt is Automattically in the right, though this drama is definitely some good wp-content. :)</p>",
+        "id": 473571806,
+        "sender_full_name": "Owen Valentine",
+        "timestamp": 1727670303
+    },
+    {
+        "content": "<p><a href=\"#narrow/stream/453512-general/topic/WordPress.20Drama/near/473571806\">A message</a> was moved here from <a class=\"stream-topic\" data-stream-id=\"453512\" href=\"/#narrow/stream/453512-general/topic/introduce.20yourself.21\">#general &gt; introduce yourself!</a> by <span class=\"user-mention silent\" data-user-id=\"753657\">Scott Abbey</span>.</p>",
+        "id": 473683158,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1727693012
+    },
+    {
+        "content": "<p>I'm writing up today's News and have no idea how to even talk about this story!</p>\n<p>I do know one thing for sure, I'm going to include that meme you created <span class=\"user-mention\" data-user-id=\"758958\">@Chris Duzan</span> <span aria-label=\"100\" class=\"emoji emoji-1f4af\" role=\"img\" title=\"100\">:100:</span></p>",
+        "id": 473757613,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1727707630
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752943\">James Thurley</span> <a href=\"#narrow/stream/453512-general/topic/WordPress.20Drama/near/473297895\">said</a>:</p>\n<blockquote>\n<p>I don’t get this bit:</p>\n<p><em>It seems the WordPress Foundation has made some tweaks to its trademark guidelines in recent days. As of September 19th, the policy said you are “free” to use the WP abbreviation in “any way you see fit.” But now WordPress has deleted that language, replacing it with a line that says not to use WP “in a way that confuses people.</em></p>\n<p>Can an entity just change the terms like that, and then accuse a long established company of violating the new terms?</p>\n</blockquote>\n<p>^ this part really soured me on Matt and Automattic's position. I don't know about the legal status of being able to make a change like this but it feels like another version of an open source rug pull.</p>\n<p>I'm not in the WordPress community but from an outsiders perspective it doesn't look great on the part of <a href=\"http://WordPress.org\">WordPress.org</a>, Matt, and Automattic. It certainly <em>seems</em> that Matt is using his position in <a href=\"http://WordPress.org\">WordPress.org</a> to attack a competitor to his for profit company.</p>",
+        "id": 474070948,
+        "sender_full_name": "Mason Stallmo",
+        "timestamp": 1727798268
+    },
+    {
+        "content": "<p><a href=\"https://automattless.com\">https://automattless.com</a></p>",
+        "id": 474071115,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1727798308
+    },
+    {
+        "content": "<p><a href=\"https://www.therepository.email/mullenweg-threatens-corporate-takeover-of-wp-engine\">https://www.therepository.email/mullenweg-threatens-corporate-takeover-of-wp-engine</a></p>",
+        "id": 474078511,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1727800706
+    },
+    {
+        "content": "<blockquote>\n<p>“I didn’t wake up one day and suddenly decide to do this,” he said. “I was taken advantage of for so many years. The only way to deal with a bully is to fight,” he said.</p>\n</blockquote>\n<blockquote>\n<p>“[WP Engine is] a half-a-billion dollar company. [WP Engine’s main investor] <strong>Silver Lake</strong> has disrupted the ecosystem. I’m fighting for my life’s work.”</p>\n</blockquote>",
+        "id": 474086364,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1727802711
+    },
+    {
+        "content": "<div class=\"message_inline_image\"><a href=\"https://www.therepository.email/wp-content/uploads/2024/10/CHOOSE-YOUR-WORDPRESS-HOSTING.png\"><img src=\"https://uploads.zulipusercontent.net/069665db9f5db984e0cead79a6b30abdba4aecd7/68747470733a2f2f7777772e7468657265706f7369746f72792e656d61696c2f77702d636f6e74656e742f75706c6f6164732f323032342f31302f43484f4f53452d594f55522d574f524450524553532d484f5354494e472e706e67\"></a></div>",
+        "id": 474086944,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1727802890
+    },
+    {
+        "content": "<p>That screenshot is wild though. The fact that they call their plans \"Essential/Core/Enterprise WordPress\" is sus on the confusing of the general population of users.</p>",
+        "id": 474087123,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1727802942
+    },
+    {
+        "content": "<p>Why is that sus? If you were providing hosted WordPress as a service, how would you phrase it?</p>",
+        "id": 474105227,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1727808864
+    },
+    {
+        "content": "<p>I think it's sus in light of the confusion factor. They changed it to be simply Essential, Core, and Enterprise in terms of a plan name. It's hosting, not WordPress the product. Feel free to describe the plan to include WordPress but not use it in the name because it's just a certain level of hosting.</p>",
+        "id": 474105737,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1727809017
+    },
+    {
+        "content": "<p>WPE is probably big enough to know better, but I can imagine someone innocently phrasing things in a way that they think is fine but isn't.  Then they get a cease and desist and respond with \"Oh, my bad sorry. Let me fix that.\".<br>\nSide note: WordPress also updated their trademark license documents recently to clarify some WPE specific issues.</p>",
+        "id": 474110393,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1727810410
+    },
+    {
+        "content": "<ul>\n<li><a href=\"https://aws.amazon.com/lightsail/projects/wordpress/\">https://aws.amazon.com/lightsail/projects/wordpress/</a></li>\n<li><a href=\"https://learn.microsoft.com/en-us/azure/app-service/quickstart-wordpress\">https://learn.microsoft.com/en-us/azure/app-service/quickstart-wordpress</a></li>\n<li><a href=\"https://www.digitalocean.com/solutions/wordpress-hosting\">https://www.digitalocean.com/solutions/wordpress-hosting</a></li>\n<li><a href=\"https://www.ionos.com/\">https://www.ionos.com/</a></li>\n<li><a href=\"https://world.siteground.com/\">https://world.siteground.com/</a><br>\nWhich of these are doing it right, and which are trying to confuse people?</li>\n</ul>",
+        "id": 474111536,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1727810762
+    },
+    {
+        "content": "<p>I'd say none of them really. They all seem to be offering WordPress hosting, not a plan that's called \"Core WordPress\"</p>",
+        "id": 474111982,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1727810904
+    },
+    {
+        "content": "<p>Whether it's on purpose or not, I can see how a plan, of which there were/are only three, called \"X WordPress\" could be confusing and WPE was willfully leveraging that blurred line.</p>",
+        "id": 474112311,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1727811028
+    },
+    {
+        "content": "<p>I guess. It seems like a very small difference in wording to me, and an easy mistake to make. I also can't imagine paying 8% for the privilege of calling my product \"Core WordPress\" instead of \"WordPress Hosting\" or something like that.<br>\nBut I'm an engineer. Maybe I just don't have the business brains to see the difference. <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span></p>",
+        "id": 474113004,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1727811272
+    },
+    {
+        "content": "<p>I'm not saying he's right in asking for 8% either</p>",
+        "id": 474113111,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1727811311
+    },
+    {
+        "content": "<p>Just that WPE was clearly over leveraging the WordPress name in a plan. The fix was easy, but the mistake was still made.</p>",
+        "id": 474113347,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1727811381
+    },
+    {
+        "content": "<p>I think that's fair.</p>",
+        "id": 474113400,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1727811404
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"750017\">Adam Stacoviak</span> <a href=\"#narrow/stream/453512-general/topic/WordPress.20Drama/near/474113347\">said</a>:</p>\n<blockquote>\n<p>Just that WPE was clearly over leveraging the WordPress name in a plan. The fix was easy, but the mistake was still made.</p>\n</blockquote>\n<p>I don't see it this way at all, to be honest. That page's headline, the boldest part of the page, says \"Choose Your WordPress Hosting Plan.\" It seems very clear to me that they're selling WP Hosting.</p>",
+        "id": 474392081,
+        "sender_full_name": "Chris Woods",
+        "timestamp": 1727901188
+    },
+    {
+        "content": "<p><a href=\"https://x.com/wpengine/status/1841633469685723292?t=unsC8yZr4D_FEb-BL1tCCw&amp;s=19\">https://x.com/wpengine/status/1841633469685723292?t=unsC8yZr4D_FEb-BL1tCCw&amp;s=19</a></p>",
+        "id": 474431683,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1727916200
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"758958\">Chris Duzan</span> <a href=\"#narrow/stream/453512-general/topic/WordPress.20Drama/near/473502173\">said</a>:</p>\n<blockquote>\n<p>Just listened to the \"Wrong place to slap a person\" episode and I felt like this meme needed to be created. Credit goes to Jerod, Adam, and Nick for the inspiration.<br>\n<a href=\"/user_uploads/66849/xWKlQ5-B0laXPD7ytgrk5hHJ/7f59d262-5853-4bc1-8fa8-f6ab247d8dbc.jpg\">7f59d262-5853-4bc1-8fa8-f6ab247d8dbc.jpg</a></p>\n</blockquote>\n<p>I just listened to the episode and now I have even more appreciation for the meme <span aria-label=\"rolling on the floor laughing\" class=\"emoji emoji-1f923\" role=\"img\" title=\"rolling on the floor laughing\">:rolling_on_the_floor_laughing:</span></p>",
+        "id": 474468009,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1727929017
+    },
+    {
+        "content": "<p>It does look like Matt is actively commenting about the lawsuit on Hacker News today <a href=\"https://news.ycombinator.com/item?id=41726197\">https://news.ycombinator.com/item?id=41726197</a></p>",
+        "id": 474471148,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1727929955
+    },
+    {
+        "content": "<p><a href=\"https://sakurajima.moe/@chikorita157/113256114788720233\">https://sakurajima.moe/@chikorita157/113256114788720233</a></p>",
+        "id": 475075304,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1728203236
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755984\">Jamie Tanna</span> <a href=\"#narrow/stream/453512-general/topic/WordPress.20Drama/near/475075304\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://sakurajima.moe/@chikorita157/113256114788720233\">https://sakurajima.moe/@chikorita157/113256114788720233</a></p>\n</blockquote>\n<p>Oh that is not good. ACF is used by a lot of sites, it's kind of the defacto way of doing custom fields in WP.</p>",
+        "id": 475329537,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1728316063
+    },
+    {
+        "content": "<p>an episode about the drama: <a href=\"https://shoptalkshow.com/636/\">https://shoptalkshow.com/636/</a></p>",
+        "id": 475542475,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1728388136
+    },
+    {
+        "content": "<p><a href=\"https://world.hey.com/dhh/automattic-is-doing-open-source-dirty-b95cf128\">https://world.hey.com/dhh/automattic-is-doing-open-source-dirty-b95cf128</a></p>",
+        "id": 475699113,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1728434257
+    },
+    {
+        "content": "<p>This is so gross and childish: <br>\n<a href=\"/user_uploads/66849/ILwkEITKVkjFD6oGZwgtvL9D/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/ILwkEITKVkjFD6oGZwgtvL9D/image.png\" title=\"image.png\"><img data-original-dimensions=\"419x541\" src=\"/user_uploads/thumbnail/66849/ILwkEITKVkjFD6oGZwgtvL9D/image.png/840x560.webp\"></a></div>",
+        "id": 475868885,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1728481876
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752922\">Nabeel S</span> <a href=\"#narrow/stream/453512-general/topic/WordPress.20Drama/near/475868885\">said</a>:</p>\n<blockquote>\n<p>This is so gross and childish: <br>\n<a href=\"/user_uploads/66849/ILwkEITKVkjFD6oGZwgtvL9D/image.png\">image.png</a></p>\n</blockquote>\n<p>That's pretty shitty</p>",
+        "id": 475883311,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1728484909
+    },
+    {
+        "content": "<p>Rug pulls are honorable compared to this. They should just go ahead and make WordPress proprietary.</p>",
+        "id": 475884765,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1728485202
+    },
+    {
+        "content": "<p>I think the way Matt has orchestrated the publicity of this issue is quite wrong and in some ways petty. But there’s also two sides to this coin. This seems to be some thing that has festered over multiple years and offenses.</p>",
+        "id": 475887291,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1728485787
+    },
+    {
+        "content": "<p>I'll try to keep an open mind, but so far I haven't seen a satisfactory justification.</p>",
+        "id": 475889232,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1728486214
+    },
+    {
+        "content": "<p>Same. I’m just trying to remain hopeful for WordPress and open source’s sake. ￼</p>",
+        "id": 475889479,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1728486248
+    },
+    {
+        "content": "<p>btw, what is \"obj\"? <br>\n<a href=\"/user_uploads/66849/tn556rMWa2WwEU6VGluwdr8Z/image.png\">image.png</a><br>\n :-D</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/tn556rMWa2WwEU6VGluwdr8Z/image.png\" title=\"image.png\"><img data-original-dimensions=\"267x130\" src=\"/user_uploads/thumbnail/66849/tn556rMWa2WwEU6VGluwdr8Z/image.png/840x560.webp\"></a></div>",
+        "id": 475894859,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1728487153
+    },
+    {
+        "content": "<p>Zulip bug? Mac/Windows incompatibility?</p>",
+        "id": 475895064,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1728487195
+    },
+    {
+        "content": "<p>I posted that using my voice via the iOS app. That's a weird space at the end of the message.</p>",
+        "id": 475898019,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1728487814
+    },
+    {
+        "content": "<p>I was a member of the community a while back. I was a translation editor for my language of a popular plugin, I attended meet-ups and conferences. Our studio built many sites on the open-source project and since we still manage a few sites that use it (and are hosted on various generic hosting services or on-prem), I come into contact with it from time to time. This situation makes me immensely sad, since only grief and destruction can come out of such conflict after a certain point and that point was passed long time ago in this case.</p>\n<p>That DHH post <span class=\"user-mention\" data-user-id=\"752922\">@Nabeel S</span> linked is closest to how I feel about this. The open-source project is in a way a gift and if he felt it couldn't be sustained this way, there were ways to communicate that and to start making gradual changes toward sustainability. There was also definitely a way to phrase the message that WPE are harmful parasites and should be ostracised that wouldn't prompt the C&amp;D letter. Or it would and people would sympathise with Matt, the victim of being silenced by a big bad <del>wolf</del> private equity fund and all that. Sure, some would raise their eyebrows, his company being a direct competitor of WPE (and also highly profitable), but the truth of the immense contribution disparity was on his side. These actions, however, from continuous W.org-branded attacks, through the hostage crisis with plugin directory access and WPE dev account suspensions, to petty moves like this last checkbox (again on <a href=\"http://W.org\">W.org</a>), just make the open-source project appear unstable, dangerous to rely on and being fully controlled by a single mad despot. It poisons \"the well\" as an instance and, in a way, \"the well\" as a concept. While I want to believe that this is not a case of Matt suddenly going crazy for no reason and there must be something bad they did that set him off, what followed is completely inexcusable.</p>\n<p>Another aspect that terrifies me is watching the keynote, seeing Matt deliver it with his soft voice, smiling and making jokes, then realising this is the same person that used (in written text, so it was not just blurted out in the heat of the moment) language of utter war-time destruction <span aria-label=\"disappointed\" class=\"emoji emoji-1f61e\" role=\"img\" title=\"disappointed\">:disappointed:</span><br>\nNuclear and scorched earth is something that should be taught as a cautionary tale and not being used by a leader of an open-source project to describe how they'll use their influence and access against a competitor of their business, unless they pay a ransom. These terms are so ominous and horrible, once you realise what they literally mean <span aria-label=\"grimacing\" class=\"emoji emoji-1f62c\" role=\"img\" title=\"grimacing\">:grimacing:</span> </p>\n<p>I wish the community and the open-source project a good future, although I cannot imagine it right now. The people I personally met in the community were all very kind and do not deserve this to happen to a project they like and depend on and into which they invested so much effort.</p>",
+        "id": 475909916,
+        "sender_full_name": "Maroš Kučera",
+        "timestamp": 1728490536
+    },
+    {
+        "content": "<p>I agree with DHH's take on this, which is rare. I want to be on the side of Wordpress but their actions are not in line with the ethos of open source. If they wanted to keep a piece of WP Engine's revenue maybe their shouldn't have sold their stake in the company. This feud is going to end up causing harm to the community.</p>",
+        "id": 475915346,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1728492341
+    },
+    {
+        "content": "<p>The thing is, Matt has stated that he owns, runs and 100% controls <a href=\"http://wordpress.org\">wordpress.org</a>, and can do anything he wants. Who's going to want to contribute to that kind of setup?</p>",
+        "id": 475944460,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1728503024
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752835\">@Maroš Kučera</span> I love what you said about language. It reminds me of something Ursula Franklin said about de-escalating language, de-escalating hype and speed. Her example was \"awesome\" but the example of \"going nuclear\" would also have been important to her!</p>\n<p>You also put words to a niggling feeling I'd had seeing Matt in those video interviews. Someone said recently that Rails isn't a cult but DHH would be a great cult leader... It kind of feels the same with WP and Matt <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 475944925,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1728503197
+    },
+    {
+        "content": "<p><a href=\"https://www.404media.co/wordpress-checkbox-login-wp-engine/\">https://www.404media.co/wordpress-checkbox-login-wp-engine/</a></p>",
+        "id": 475944955,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1728503208
+    },
+    {
+        "content": "<p><a href=\"https://x.com/LucP/status/1843926970763227255?t=ktvj4O-wbQ-bV-geBPWeVQ&amp;s=19\">https://x.com/LucP/status/1843926970763227255?t=ktvj4O-wbQ-bV-geBPWeVQ&amp;s=19</a></p>",
+        "id": 475979750,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1728518580
+    },
+    {
+        "content": "<p>OMG :-D <br>\n<a href=\"https://www.youtube.com/watch?v=cTxTOHUaqPI\">https://www.youtube.com/watch?v=cTxTOHUaqPI</a><br>\n<a href=\"https://www.youtube.com/watch?v=Duz9crandDE\">https://www.youtube.com/watch?v=Duz9crandDE</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"cTxTOHUaqPI\" href=\"https://www.youtube.com/watch?v=cTxTOHUaqPI\"><img src=\"https://uploads.zulipusercontent.net/d7f0a29fcf6fe3653328e5aa6e6fd4126dcd28e0/68747470733a2f2f692e7974696d672e636f6d2f76692f635478544f4855617150492f64656661756c742e6a7067\"></a></div><div class=\"youtube-video message_inline_image\"><a data-id=\"Duz9crandDE\" href=\"https://www.youtube.com/watch?v=Duz9crandDE\"><img src=\"https://uploads.zulipusercontent.net/488aa666e808564a83e3bb14ca59380c31d71e4a/68747470733a2f2f692e7974696d672e636f6d2f76692f44757a396372616e6444452f64656661756c742e6a7067\"></a></div>",
+        "id": 476023975,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1728532841
+    },
+    {
+        "content": "<p>This channel is GOLD</p>",
+        "id": 476024479,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1728532996
+    },
+    {
+        "content": "<p>The depth of this absolute mess is beyond where I thought open source would ever go.</p>",
+        "id": 476024610,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1728533044
+    },
+    {
+        "content": "<p>Yeah, I've never seen or heard of anything like this. Feels like some important history is being made.</p>",
+        "id": 476024823,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1728533138
+    },
+    {
+        "content": "<p>Listening to JS Party 342 I couldn't help agreeing with an idea I think KBall was getting at. I hope this drama underlines just how entwined the WP ecosystem is with its BDFL, and prompts people to consider how to step away from that a little.</p>\n<p>E.g., hopefully we might see a community plugin registry come out of this? Or even, as some are calling for, more separation between <a href=\"http://wp.org\">wp.org</a> and Automattic?</p>",
+        "id": 476488760,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1728704556
+    },
+    {
+        "content": "<p>And now <a href=\"http://WordPress.org\">WordPress.org</a> has \"forked\" a plugin maintained by WPEngine:</p>\n<ul>\n<li><a href=\"https://wordpress.org/news/2024/10/secure-custom-fields/\">https://wordpress.org/news/2024/10/secure-custom-fields/</a></li>\n<li><a href=\"https://x.com/WordPress/status/1845180875798884632\">https://x.com/WordPress/status/1845180875798884632</a></li>\n<li><a href=\"https://x.com/wp_acf/status/1845169499064107049\">https://x.com/wp_acf/status/1845169499064107049</a><br>\nThe \"fork\" has taken over the URL and slug of the original plugin and has somehow inherited all the reviews and stats. Can you call that a fork? <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span></li>\n</ul>",
+        "id": 476550968,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1728765243
+    },
+    {
+        "content": "<p>That's pretty messed up.</p>",
+        "id": 476556333,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1728771412
+    },
+    {
+        "content": "<p>I’d call that sporked￼</p>",
+        "id": 476562073,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1728778375
+    },
+    {
+        "content": "<p><a href=\"https://x.com/verygoodplugins/status/1845246925886353795?t=B1Xd2SSmoafD_i9UQcckrA&amp;s=19\">https://x.com/verygoodplugins/status/1845246925886353795?t=B1Xd2SSmoafD_i9UQcckrA&amp;s=19</a></p>",
+        "id": 476562311,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1728778693
+    },
+    {
+        "content": "<p>Thing keep getting weirder</p>",
+        "id": 476562324,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1728778716
+    },
+    {
+        "content": "<p>That actually does seem like a clear-cut case</p>",
+        "id": 476562668,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1728779185
+    },
+    {
+        "content": "<p>The <a href=\"http://WordPress.com\">WordPress.com</a> plug-in situation is really hypocritical in my opinion. If I search for a plug-in, Google takes me to <a href=\"http://WordPress.com\">WordPress.com</a>, not .org. This is intentional confusion on the part of automattic.</p>",
+        "id": 476562787,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1728779361
+    },
+    {
+        "content": "<p>They've done this to all plugins, not just the popular ones. But I guess that's ok since they own the trademark 🤷🏻</p>",
+        "id": 476562857,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1728779423
+    },
+    {
+        "content": "<p><a href=\"https://x.com/verygoodplugins/status/1845251470926487566?t=TUCQ0oSkTqynO6MRRH22aw&amp;s=19\">https://x.com/verygoodplugins/status/1845251470926487566?t=TUCQ0oSkTqynO6MRRH22aw&amp;s=19</a></p>",
+        "id": 476564316,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1728781231
+    },
+    {
+        "content": "<p>Big change brings big change.</p>",
+        "id": 476567530,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1728785027
+    },
+    {
+        "content": "<p><a href=\"https://ma.tt/2024/10/on-dhh/\">https://ma.tt/2024/10/on-dhh/</a></p>\n<p>This was such an unfortunate response from Matt on DHH's well argued posts.</p>",
+        "id": 476886331,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1728962271
+    },
+    {
+        "content": "<p>404’ing for me</p>",
+        "id": 476901261,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1728970280
+    },
+    {
+        "content": "<p>Looks like he deleted it. Here's an archive copy: <a href=\"https://archive.is/UZZit\">https://archive.is/UZZit</a></p>",
+        "id": 476902213,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1728971029
+    },
+    {
+        "content": "<p>So he argues about the messenger, rather than the message itself.<br>\nIt does show that Matt Mullenweg perceives himself as the good guy here, but he does himself a disservice by going after DHH that way, regardless what one may think of DHH in other contexts.</p>\n<p>His argument about only being one of three in the Wordpress Foundation board also is a bit hollow:<br>\n<a href=\"https://www.pluginvulnerabilities.com/2024/09/24/who-is-on-the-wordpress-foundation-board/\">https://www.pluginvulnerabilities.com/2024/09/24/who-is-on-the-wordpress-foundation-board/</a></p>",
+        "id": 476962371,
+        "sender_full_name": "Erik Lundevall-Zara",
+        "timestamp": 1728990197
+    },
+    {
+        "content": "<p>matt has the post back up w/ an apology.... <a href=\"https://ma.tt/2024/10/on-dhh/\">https://ma.tt/2024/10/on-dhh/</a></p>",
+        "id": 476976255,
+        "sender_full_name": "Leon Berenschot",
+        "timestamp": 1728994885
+    },
+    {
+        "content": "<p>I think Matt is losing thread under all this pressure. He needs a good friend to come alongside him during this time. I hope he has one…</p>",
+        "id": 476980935,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1728996298
+    },
+    {
+        "content": "<p>Lots of people have been trying: <a href=\"https://www.youtube.com/watch?v=grZg-BEhKMI\">https://www.youtube.com/watch?v=grZg-BEhKMI</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"grZg-BEhKMI\" href=\"https://www.youtube.com/watch?v=grZg-BEhKMI\"><img src=\"https://uploads.zulipusercontent.net/42be514b729dd6fa98a89cd5b99e744589214285/68747470733a2f2f692e7974696d672e636f6d2f76692f67725a672d4245684b4d492f64656661756c742e6a7067\"></a></div>",
+        "id": 476990112,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1728998878
+    },
+    {
+        "content": "<p>I don't think any of these people are his good friends...</p>",
+        "id": 476991742,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1728999307
+    },
+    {
+        "content": "<p>These are just the people publicly speaking about it. I don't know about his family situation, but he has (or had) many great people who have been by his side at Automattic  for over a decade.</p>",
+        "id": 476993016,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1728999664
+    },
+    {
+        "content": "<p>I sincerely hope he does <span aria-label=\"hug\" class=\"emoji emoji-1f917\" role=\"img\" title=\"hug\">:hug:</span> <br>\nAlmost no one should be subjected to such pressure, even if they lit the match initially. And I honestly hope the things of the last few weeks is him going against their advice. The worst place he could be, even worse than being alone, is him being surrounded by yes-people <del>that</del>who just nod to everything he says and does, no matter the consequences for him and the wider community. Being from a country just west of Ukraine, I can think of at least one person that is in a similar situation <span aria-label=\"confused\" class=\"emoji emoji-1f615\" role=\"img\" title=\"confused\">:confused:</span></p>",
+        "id": 477044509,
+        "sender_full_name": "Maroš Kučera",
+        "timestamp": 1729015574
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"756545\">Siddhartha Golu</span> <a href=\"#narrow/stream/453512-general/topic/WordPress.20Drama/near/476902213\">said</a>:</p>\n<blockquote>\n<p>Looks like he deleted it. Here's an archive copy: <a href=\"https://archive.is/UZZit\">https://archive.is/UZZit</a></p>\n</blockquote>\n<p>I feel like this a response to Matt's now taken down post <a href=\"https://world.hey.com/dhh/capture-less-than-you-create-c30e462e\">https://world.hey.com/dhh/capture-less-than-you-create-c30e462e</a></p>",
+        "id": 477074312,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1729028009
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752835\">Maroš Kučera</span> <a href=\"#narrow/stream/453512-general/topic/WordPress.20Drama/near/477044509\">said</a>:</p>\n<blockquote>\n<p>... Almost no one should be subjected to such pressure ..</p>\n</blockquote>\n<p>If you mean the pressure of the VCs/investors backing his company, then I agree. But if you mean the pressure that Matt has faced from the public, I think the backlash has been very proportional to his actions. It has only increased in intensity as he has dug in and continued to escalate the issue himself.</p>",
+        "id": 477094453,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1729038642
+    },
+    {
+        "content": "<p><a href=\"https://x.com/scottkclark/status/1847023270245126357?t=0VGeUv4-HZnxWEsu6XbX1A&amp;s=19\">https://x.com/scottkclark/status/1847023270245126357?t=0VGeUv4-HZnxWEsu6XbX1A&amp;s=19</a></p>",
+        "id": 477713628,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1729278115
+    },
+    {
+        "content": "<p>Man that whole response post feels super petty. The whole thing is the open source claim vs commercial entity. At least 37signals isn't appearing to be open with Hey, Basecamp etc</p>",
+        "id": 477781074,
+        "sender_full_name": "Owen Valentine",
+        "timestamp": 1729321650
+    },
+    {
+        "content": "<p>Yeah, it wasn't a great look. He sounded like he was accusing DHH of being a sucker for letting other companies build on and benefit from his work, and for being a loser because his company isn't \"scaling\".</p>",
+        "id": 477816909,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1729352276
+    },
+    {
+        "content": "<p>Just been reading this 2019 interview between DHH and MM and it's really interesting in the context of they journeys they've both been on since. <a href=\"https://37signals.com/podcast/open-source-and-power-with-matt-mullenweg/\">https://37signals.com/podcast/open-source-and-power-with-matt-mullenweg/</a></p>",
+        "id": 478367253,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1729631168
+    },
+    {
+        "content": "<p>Thanks for sharing that! I look forward to listening to it.</p>",
+        "id": 478367570,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1729631345
+    },
+    {
+        "content": "<p><a href=\"https://techcrunch.com/2024/10/24/wordpress-co-founder-matt-mullenweg-is-joining-techcrunch-disrupt-2024/\">Matt Mullenweg will be taking the Disrupt Stage at TechCrunch Disrupt 2024</a></p>\n<p>Live stream starting in a couple hours: <a href=\"https://www.youtube.com/watch?v=ZfEKk4kPVzQ\">https://www.youtube.com/watch?v=ZfEKk4kPVzQ</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"ZfEKk4kPVzQ\" href=\"https://www.youtube.com/watch?v=ZfEKk4kPVzQ\"><img src=\"https://uploads.zulipusercontent.net/9987c888b136b48481be2b17c3172cf5e125f7fd/68747470733a2f2f692e7974696d672e636f6d2f76692f5a66454b6b346b50567a512f64656661756c742e6a7067\"></a></div>",
+        "id": 479695875,
+        "sender_full_name": "Robert Purcell",
+        "timestamp": 1730298751
+    },
+    {
+        "content": "<p><a href=\"https://x.com/therepositorywp/status/1851038210547466386?t=l5YTlogJx-Mk3Fyn-ZFodw&amp;s=19\">https://x.com/therepositorywp/status/1851038210547466386?t=l5YTlogJx-Mk3Fyn-ZFodw&amp;s=19</a><br>\n<a href=\"https://www.paidmembershipspro.com/leaving-wordpress-org/\">https://www.paidmembershipspro.com/leaving-wordpress-org/</a></p>",
+        "id": 479705341,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1730301274
+    },
+    {
+        "content": "<p>As a side note for those not following closely: wordpress recently updated their code of conduct to forbid the sharing/publishing of private messages. This is why Jason Coleman hasn't publicly shared the DMs that were sent to him. It's to avoid these new rules.</p>",
+        "id": 479705714,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1730301364
+    },
+    {
+        "content": "<p>Just keeps getting worse, eh?</p>",
+        "id": 479735983,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1730310775
+    },
+    {
+        "content": "<p>Do you think Matt/Automattic is really digging their own graves at this point?</p>",
+        "id": 479736394,
+        "sender_full_name": "Andrei Jiroh Halili",
+        "timestamp": 1730310939
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752880\">@Lars Ellingsen</span> If we use the FAFO axis and the Are We Fucked thermometer from TheJuiceMedia's Honest Government Ads on climate crisis, in my opinion I think we going red towards Net Fucked by 2030-2050.</p>",
+        "id": 479736597,
+        "sender_full_name": "Andrei Jiroh Halili",
+        "timestamp": 1730311022
+    },
+    {
+        "content": "<p>Pardon the language then</p>",
+        "id": 479736611,
+        "sender_full_name": "Andrei Jiroh Halili",
+        "timestamp": 1730311028
+    },
+    {
+        "content": "<p><a href=\"https://wordpressenginetracker.com/\">https://wordpressenginetracker.com/</a></p>",
+        "id": 481302466,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1731068194
+    },
+    {
+        "content": "<p>Calling the site \"WordPress Engine\" tracker is such a knife-twist <span aria-label=\"expressionless\" class=\"emoji emoji-1f611\" role=\"img\" title=\"expressionless\">:expressionless:</span></p>",
+        "id": 481418461,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1731119157
+    },
+    {
+        "content": "<p>100%</p>",
+        "id": 481425468,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1731125385
+    },
+    {
+        "content": "<p>Speaking of: <a href=\"https://wpenginetracker.com/\">https://wpenginetracker.com/</a></p>",
+        "id": 481425869,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1731125794
+    },
+    {
+        "content": "<p>I care nothing about PHP or WordPress but find myself rooting more and more for WP Engine in this</p>",
+        "id": 481427697,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1731127661
+    },
+    {
+        "content": "<p>uh-oh: Did Dreamhost violate the WordPress trademark?<br>\n<a href=\"https://meta.trac.wordpress.org/changeset/14210\">https://meta.trac.wordpress.org/changeset/14210</a></p>",
+        "id": 484760967,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1732725794
+    },
+    {
+        "content": "<p>Also worth mentioning, WPE and Automattic had their first court session yesterday.</p>",
+        "id": 484762668,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1732726385
+    },
+    {
+        "content": "<p><a href=\"https://x.com/GergelyOrosz/status/1861698639564787726\">https://x.com/GergelyOrosz/status/1861698639564787726</a></p>",
+        "id": 485132298,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1732898294
+    },
+    {
+        "content": "<p>I figured it was a significant amount but i didn't know it was $32 million</p>",
+        "id": 485711002,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1733174595
+    },
+    {
+        "content": "<p>it just keeps getting worse: <a href=\"https://shkspr.mobi/blog/2024/12/is-wordpress-org-gdpr-compliant/\">https://shkspr.mobi/blog/2024/12/is-wordpress-org-gdpr-compliant/</a></p>",
+        "id": 488092987,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1733922154
+    },
+    {
+        "content": "<p>If I'm understanding the article correctly, the author says gdpr requires them to give him a copy of private conversations about him? I'm no expert but this seems wrong to me. Otherwise Elon Musk could demand petabytes of data be deleted on every platform out there, including this message right here <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span></p>",
+        "id": 488106318,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1733925853
+    },
+    {
+        "content": "<p><a href=\"https://techcrunch.com/2024/12/10/court-orders-mullenweg-and-automattic-to-restore-wp-engines-access-to-wordpress-org/\">https://techcrunch.com/2024/12/10/court-orders-mullenweg-and-automattic-to-restore-wp-engines-access-to-wordpress-org/</a></p>",
+        "id": 488173622,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1733946098
+    },
+    {
+        "content": "<p>Courts getting involved now <span aria-label=\"eyes\" class=\"emoji emoji-1f440\" role=\"img\" title=\"eyes\">:eyes:</span></p>",
+        "id": 488173649,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1733946111
+    },
+    {
+        "content": "<p><a href=\"https://www.404media.co/wordpress-wp-engine-preliminary-injunction/\">https://www.404media.co/wordpress-wp-engine-preliminary-injunction/</a></p>\n<blockquote>\n<p>“It's hard to imagine wanting to continue to working on WordPress after this,” he wrote in that Slack, according to a screenshot viewed by 404 Media. “I'm sick and disgusted to be legally compelled to provide free labor to an organization as parasitic and exploitive as WP Engine. I hope you all get what you and WP Engine wanted.” His username on that Slack has been changed to “gone <span aria-label=\"skull\" class=\"emoji emoji-1f480\" role=\"img\" title=\"skull\">:skull:</span>”</p>\n</blockquote>",
+        "id": 488174626,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1733946430
+    },
+    {
+        "content": "<p>It's not exactly \"free labor\".  Matt's own blog lists Automattic's valuation at $7.5 billion in 2021. They aren't hurting for money <a href=\"https://ma.tt/2021/08/funding-buyback-hiring/\">https://ma.tt/2021/08/funding-buyback-hiring/</a><br>\nCry me a river Matt.</p>",
+        "id": 488191772,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1733952464
+    },
+    {
+        "content": "<p>Foot, meet gun</p>",
+        "id": 488193600,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1733953178
+    },
+    {
+        "content": "<p>It's pretty crazy how far this has gone. The only thing it's going to do is hurt the WP community as a whole...</p>",
+        "id": 488193695,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1733953209
+    },
+    {
+        "content": "<p>Not to mention a big chunk of that \"free labor\" are volunteers and code/plugin authors contributing to the ecosystem.</p>",
+        "id": 488513746,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1733956023
+    },
+    {
+        "content": "<p>I'm contemplating dropping PocketCasts which is owned by Automattic...</p>",
+        "id": 488522991,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1733959896
+    },
+    {
+        "content": "<p>I thought about it, but pocketcasts is so freaking good! I've been using it for about a decade.</p>",
+        "id": 488527312,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1733962335
+    },
+    {
+        "content": "<p>Same<br>\nI'm just mucking about with AntennaPod and using <a href=\"http://gpodder.net\">gpodder.net</a> as the synchronisation backend</p>",
+        "id": 488533126,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1733966131
+    },
+    {
+        "content": "<p><a href=\"https://www.404media.co/wordpress-wp-engine-preliminary-injunction/\">https://www.404media.co/wordpress-wp-engine-preliminary-injunction/</a></p>",
+        "id": 488727898,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1734041504
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755984\">Jamie Tanna</span> <a href=\"#narrow/channel/453512-general/topic/WordPress.20Drama/near/488727898\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://www.404media.co/wordpress-wp-engine-preliminary-injunction/\">https://www.404media.co/wordpress-wp-engine-preliminary-injunction/</a></p>\n</blockquote>\n<p>Dupe</p>",
+        "id": 488729387,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1734042164
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"750017\">Adam Stacoviak</span> <a href=\"#narrow/stream/453512-general/topic/WordPress.20Drama/near/488729387\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"755984\">Jamie Tanna</span> <a href=\"#narrow/channel/453512-general/topic/WordPress.20Drama/near/488727898\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://www.404media.co/wordpress-wp-engine-preliminary-injunction/\">https://www.404media.co/wordpress-wp-engine-preliminary-injunction/</a></p>\n</blockquote>\n<p>Dupe</p>\n</blockquote>\n<p>Oh dang, didn't realise I was so far behind on the thread, thanks <span aria-label=\"bow\" class=\"emoji emoji-1f647\" role=\"img\" title=\"bow\">:bow:</span></p>",
+        "id": 489506181,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1734447663
+    },
+    {
+        "content": "<p><a href=\"https://wptavern.com/wordpress-org-login-introduces-mandatory-pineapple-pizza-checkbox\">https://wptavern.com/wordpress-org-login-introduces-mandatory-pineapple-pizza-checkbox</a></p>",
+        "id": 489572112,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1734469549
+    },
+    {
+        "content": "<p>Ugh</p>",
+        "id": 489572123,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1734469554
+    }
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "content": "<p>Jerod is joined by the co-hosts of <a href=\"https://podcasters.spotify.com/pod/show/corepy\">core.py</a> , Pablo Galindo &amp; Łukasz Langa, a podcast about Python internals by people who work on Python internals. Python 3.13 is right around the corner, which means the Global Interpeter Lock (GIL) is now experimentally optional! This is a huge deal as Python is finally free-threaded. There's more to discuss, of course, so we get into all the gory details.</p>\n<p><span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/611\">https://changelog.fm/611</a></p>",
+        "id": 474368354,
+        "sender_full_name": "Logbot",
+        "timestamp": 1727893867
+    },
+    {
+        "content": "<p>wrt <a href=\"https://changelog.com/podcast/611#t=267\">https://changelog.com/podcast/611#t=267</a>  I'd still love to see a Changelog Python podcast <span aria-label=\"smiley cat\" class=\"emoji emoji-1f63a\" role=\"img\" title=\"smiley cat\">:smiley_cat:</span></p>",
+        "id": 474395303,
+        "sender_full_name": "Scott Chamberlain",
+        "timestamp": 1727902444
+    },
+    {
+        "content": "<p>Have you tried out core.py yet? <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span></p>",
+        "id": 474396555,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1727902895
+    },
+    {
+        "content": "<p>Absolutely. Love it though it's often above my pay grade. In my mind there's still room for another high quality python pod</p>",
+        "id": 474398172,
+        "sender_full_name": "Scott Chamberlain",
+        "timestamp": 1727903597
+    },
+    {
+        "content": "<p>thanks Jarod.  definitely going to check out core.py</p>",
+        "id": 474412199,
+        "sender_full_name": "Ian Lessing",
+        "timestamp": 1727907856
+    },
+    {
+        "content": "<p>Enjoyed this one. I'm now working with Python daily so it was insightful for my day job <span aria-label=\"big smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"big smile\">:big_smile:</span></p>\n<p>Very interesting cost/benefit to GIL and no-GIL</p>",
+        "id": 474654883,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1727979418
+    },
+    {
+        "content": "<p>such a great interview <span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span>! thank you <span aria-label=\"blush\" class=\"emoji emoji-1f60a\" role=\"img\" title=\"blush\">:blush:</span></p>",
+        "id": 474678179,
+        "sender_full_name": "Patrick Arminio",
+        "timestamp": 1727988130
+    },
+    {
+        "content": "<p>Nice episode. The core.py podcast is a bit over my head so I enjoyed the summary for the masses. <span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span></p>",
+        "id": 474688133,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1727992924
+    },
+    {
+        "content": "<p>Meta, but Logbot is looking very handsome</p>",
+        "id": 474788677,
+        "sender_full_name": "Owen Valentine",
+        "timestamp": 1728036839
+    },
+    {
+        "content": "<p>It shows how Ruby's mindshare has fallen that IIRC it wasn't mentioned at all. It's the language most similar to Python and has tread the same path (GIL accommodations, and shipping a JIT in CRuby).</p>",
+        "id": 474836822,
+        "sender_full_name": "Duncan",
+        "timestamp": 1728052463
+    },
+    {
+        "content": "<p>For anyone looking for a Python podcast I really enjoy Talk Python to Me: <a href=\"https://talkpython.fm/\">https://talkpython.fm/</a></p>\n<p>But I bet the Changelog could also produce a great Python pod :)</p>",
+        "id": 479941311,
+        "sender_full_name": "Sam Edwardes",
+        "timestamp": 1730400773
+    }
+]
