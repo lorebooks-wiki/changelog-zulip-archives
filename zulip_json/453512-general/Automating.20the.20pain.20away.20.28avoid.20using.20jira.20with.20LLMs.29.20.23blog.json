@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>Hi! I recently wrote about automating this process using markdown, <code>jira-cli</code>, and some help from LLMs using <code>chatgpt-cli</code>. It cut the friction, made planning more enjoyable, and saved me a lot of clicks. Thought someone might find it useful: <a href=\"https://flakm.com/posts/automate_boring_stuff/\">https://flakm.com/posts/automate_boring_stuff/</a></p>",
+        "id": 483029807,
+        "sender_full_name": "FlakM",
+        "timestamp": 1731938401
+    },
+    {
+        "content": "<p>Woah that's wayyy more trust than I have in llms <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span> But very cool</p>",
+        "id": 483083554,
+        "sender_full_name": "Dustin",
+        "timestamp": 1731951810
+    },
+    {
+        "content": "<p>I hope someday my machine will be able to do similar things locally. I've played with Meta's models and the medium-size model, even quantized is decently capable. But from what I saw on shady Reddit posts it would take like three 3090s to get decent token/s.</p>",
+        "id": 483087743,
+        "sender_full_name": "FlakM",
+        "timestamp": 1731953019
+    },
+    {
+        "content": "<p>But honestly I think there are probably a lot of practical use cases where data is not super secret and output is still quick to check by linters and humans. Glad you liked it!</p>",
+        "id": 483089382,
+        "sender_full_name": "FlakM",
+        "timestamp": 1731953469
+    },
+    {
+        "content": "<p>Wow. That's way more automated than I assumed from the title. You have the LLM create a script that creates Jiras. I would have been excited from just having a Jira created from a problem statement. Thanks for sharing!</p>",
+        "id": 484103106,
+        "sender_full_name": "Sukhdeep Brar",
+        "timestamp": 1732402959
+    },
+    {
+        "content": "<p>Not a Jira user myself, but I'll be happy to cook up ChatGPT CLI and GitHub/GitLab CLI.</p>",
+        "id": 486228604,
+        "sender_full_name": "Andrei Jiroh Halili",
+        "timestamp": 1733376093
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"761925\">@Andrei Jiroh Halili</span> Let us know how it works</p>",
+        "id": 486321655,
+        "sender_full_name": "FlakM",
+        "timestamp": 1733409944
+    }
+]

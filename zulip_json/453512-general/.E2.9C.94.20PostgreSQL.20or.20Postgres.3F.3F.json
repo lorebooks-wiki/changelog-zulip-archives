@@ -1,0 +1,80 @@
+[
+    {
+        "content": "<p>Do you have thoughts on \"PostgreSQL\" vs \"Postgres\"? Please share.</p>",
+        "id": 471830504,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1726865253
+    },
+    {
+        "content": "<p>Never \"PostgresQL\" please!</p>",
+        "id": 471831019,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1726865491
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752868\">Philip Durbin</span> <a href=\"#narrow/stream/453512-general/topic/PostgreSQL.20or.20Postgres.3F.3F/near/471831019\">said</a>:</p>\n<blockquote>\n<p>Never \"PostgresQL\" please!</p>\n</blockquote>\n<p>OK, so on a marketing site for a database product, you'd be turned off by reading \"PostgreSQL\"?</p>",
+        "id": 471831196,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1726865578
+    },
+    {
+        "content": "<p>No, no, \"PostgreSQL\" is fine. That's the official name of the product. \"Postgres\" is the colloquial name. I'm just saying it's a pet peeve of mine when people write that \"sQL\" version.</p>",
+        "id": 471837161,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1726868365
+    },
+    {
+        "content": "<p>Please see <a href=\"https://wiki.postgresql.org/wiki/FAQ#What_is_PostgreSQL.3F_How_is_it_pronounced.3F_What_is_Postgres.3F\">https://wiki.postgresql.org/wiki/FAQ#What_is_PostgreSQL.3F_How_is_it_pronounced.3F_What_is_Postgres.3F</a></p>",
+        "id": 471837177,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1726868377
+    },
+    {
+        "content": "<p>\"Postgres is a widely-used nickname for PostgreSQL. It was the original name of the project at Berkeley and is strongly preferred over other nicknames. If you find 'PostgreSQL' hard to pronounce, call it 'Postgres' instead.\"</p>",
+        "id": 471837256,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1726868405
+    },
+    {
+        "content": "<p>I say \"Postgres\". Everyone knows what that means.</p>",
+        "id": 471864292,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1726884448
+    },
+    {
+        "content": "<p>Postgresquirrel.</p>",
+        "id": 471870997,
+        "sender_full_name": "Owen Valentine",
+        "timestamp": 1726887534
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"754546\">Jakub Chmura</span> has marked this topic as resolved.</p>",
+        "id": 471881938,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1726894613
+    },
+    {
+        "content": "<p>In writing I use PostgreSQL. In speaking I use Postgres.</p>",
+        "id": 472053383,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1727017840
+    },
+    {
+        "content": "<p>I am guilty of saying \"post-gray-ess-queue-ell\" years ago, but I just use <code>postgres</code> universally now</p>",
+        "id": 483582275,
+        "sender_full_name": "Nick Sweeting",
+        "timestamp": 1732141716
+    },
+    {
+        "content": "<p>I always say and write Postgres</p>",
+        "id": 483586400,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1732143771
+    },
+    {
+        "content": "<p>PG</p>",
+        "id": 483789633,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1732223630
+    }
+]
