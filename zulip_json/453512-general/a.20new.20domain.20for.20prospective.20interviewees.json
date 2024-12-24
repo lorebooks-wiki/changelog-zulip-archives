@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>This article from The Registrer is an eye-opener for me, <a href=\"https://www.theregister.com/2024/11/01/aswf_foss_oscars/\">https://www.theregister.com/2024/11/01/aswf_foss_oscars/</a>, revealing a lot of open source energy and momentum in a segment of software that I've been only dimly aware of - the special effects and movie industry. It'd be interesting to hear some inside views and experiences on this realm that doesn't often overlap with the 'traditional' open source waters. What new ports might we establish connection with from a voyage of The Changelog ship into that sea?</p>",
+        "id": 480224584,
+        "sender_full_name": "matt wilkie",
+        "timestamp": 1730558387
+    },
+    {
+        "content": "<p>Open source has been a thing for a while in order to facilitate tool sharing and compatibility between tools. They have an industry standard of what everyone is expected to use: <a href=\"https://vfxplatform.com\">https://vfxplatform.com</a></p>",
+        "id": 480820418,
+        "sender_full_name": "Brett Cannon",
+        "timestamp": 1730852325
+    }
+]

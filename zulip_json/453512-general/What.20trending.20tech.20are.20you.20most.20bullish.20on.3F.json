@@ -1,0 +1,176 @@
+[
+    {
+        "content": "<p>I see several technologies that are maturing at the same time. I know Silicon Valley (place not show) is all about AI at the moment. I see the value, but I've been a little more skeptical of its long-term value insofar as it changes our lives for the better.</p>\n<p>Among the trending technologies, these ones stick out to me, but there are plenty more:</p>\n<ul>\n<li>Wasm </li>\n<li>Local-first applications</li>\n<li>Generative AI</li>\n</ul>\n<p>For me, I think Wasm has a huge potential to disrupt the cloud-native ecosystem. I think we'll see more companies pick it up as a model for deploying their applications safely and efficiently. However, it may be too limiting for certain use cases. I know I can't use it for my current project because I rely on a Git binary in my runtime environment. I'm still looking for the right project to use Wasm in. At work though, we enable users to run their own Wasm as part of a Kafka pipeline in process (Redpanda).</p>\n<p>I'm even more excited about local-first applications like Linear and others. I think it offers a genuinely novel way of both developing and using apps that is way better for users. I've completely moved off of Notion and onto Obsidian for this very reason. I think we'll see a new generation of applications using local first to eat the lunch of existing juggernauts like Atlassian, Google Docs, and Notion.</p>",
+        "id": 471984902,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1726962090
+    },
+    {
+        "content": "<p>I'd like to co-sign your enthusiasm about both wasm and local-first software! I'm keenly following the local first ecosystem and looking for places where it would make sense in our company.</p>",
+        "id": 471996360,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1726972825
+    },
+    {
+        "content": "<p>It's a very long-term vision so probably not what you were thinking of for this topic, but I recently learned about Dynamicland and really love the vision of the future they have.</p>\n<p>I've seen people (read: tech bros) get really inspired by Tony Stark's lab in the Iron Man films and think that's the future of tech. Dynamicland feels to me like that, but if it were invented by your friendly neighbourhood anarchist instead of a billionaire arms dealer <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span></p>\n<p><a href=\"https://youtu.be/5Q9r-AEzRMA?si=qSkvpJfZDqPy71Oy\">This video is a pretty good overview</a>, and <a href=\"https://youtu.be/GmY_BrwWnCA?si=0hXqJ9L6B2tgVSi1\">this video goes into more detail about a single use case</a>.</p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"5Q9r-AEzRMA\" href=\"https://youtu.be/5Q9r-AEzRMA?si=qSkvpJfZDqPy71Oy\"><img src=\"https://uploads.zulipusercontent.net/8ed9d9823a2a933cc6f68799847089d1ad45a8cb/68747470733a2f2f692e7974696d672e636f6d2f76692f355139722d41457a524d412f64656661756c742e6a7067\"></a></div><div class=\"youtube-video message_inline_image\"><a data-id=\"GmY_BrwWnCA\" href=\"https://youtu.be/GmY_BrwWnCA?si=0hXqJ9L6B2tgVSi1\"><img src=\"https://uploads.zulipusercontent.net/ae31aa3f84f31dbf14faeae9cd990ee0997fca65/68747470733a2f2f692e7974696d672e636f6d2f76692f476d595f427277576e43412f64656661756c742e6a7067\"></a></div>",
+        "id": 471996719,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1726973095
+    },
+    {
+        "content": "<p>This is so cool! I love the DIY feel of it.</p>",
+        "id": 472052632,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1727017137
+    },
+    {
+        "content": "<p>I think embedded devices will become more important as they become more accessible to program. It's easier to create devices for home automation and other monitoring needs. I'd like to see a shift from proprietary embedded devices that have zero right to repair onto open hardware/software that you can extend or replace with your own devices.</p>\n<p>To list trends I'm bullish on that haven't been listed yet.</p>\n<ul>\n<li>Accessible embedded devices.</li>\n<li>Right to repair.</li>\n<li>ARM laptops.</li>\n</ul>",
+        "id": 472053616,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1727018063
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752976\">@Matthew Sanabria</span>, I'm wondering if there is some crossover on our interests. I feel like Wasm is the perfect compilation target for an embedded device that is built to run WASI.</p>",
+        "id": 472081948,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1727037299
+    },
+    {
+        "content": "<p>Are we talking about general audiences here, or developers? For example, I love local-first tools as well (paying Obsidian user) but I think it's mostly a subsection of developers who really care, vs a mass market</p>\n<p>I am also bullish on WASM from everything I've heard, and from dealing with Docker daily, although I've yet to really use it myself</p>",
+        "id": 472088025,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1727042305
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755651\">Thomas Eckert</span> <a href=\"#narrow/stream/453512-general/topic/What.20trending.20tech.20are.20you.20most.20bullish.20on.3F/near/472081948\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"752976\">Matthew Sanabria</span>, I'm wondering if there is some crossover on our interests. I feel like Wasm is the perfect compilation target for an embedded device that is built to run WASI.</p>\n</blockquote>\n<p>Agreed. I loved the points you listed above and I didn't want to repeat them. I want to see more wasm support and usage in the industry. I think we're getting there though.</p>",
+        "id": 472107674,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1727054646
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752880\">Lars Ellingsen</span> <a href=\"#narrow/stream/453512-general/topic/What.20trending.20tech.20are.20you.20most.20bullish.20on.3F/near/472088025\">said</a>:</p>\n<blockquote>\n<p>Are we talking about general audiences here, or developers? For example, I love local-first tools as well (paying Obsidian user) but I think it's mostly a subsection of developers who really care, vs a mass market</p>\n</blockquote>\n<p>There's no hard and fast rules here. I think of this from the perspective of a developer, but the scope could be broader. I think Wasm will mostly impact developers, but if it leads to faster services for users, that would be a promising non-dev benefit. Local-first, I believe has a very broad benefit for all users.</p>",
+        "id": 472108476,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1727055300
+    },
+    {
+        "content": "<p>I think that local-first is something that end users care about sometimes, but may not understand that they do. It might just be the difference between an app that has a spinner on every interaction versus an app that responds instantly. Or, an app that works well with limited connectivity- which could be important in certain B2B scenarios, e.g. we have customers who travel around rural areas a fair bit.</p>",
+        "id": 472125947,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1727067586
+    },
+    {
+        "content": "<p>I'm totally aligned here too. WASM, right-to-repair, ARM laptops, Ollama, embedded devices all signal to me a cultural (consumer and developer) shift towards local first. I think combined with this is an ever growing awareness of online privacy and security, and a degradation of trust in corporations and media. </p>\n<p>All in all, it feels a bit like people are taking a cautionary step back from everything. And part of that is the protectionism of having and being able to maintain / build your own stuff.</p>",
+        "id": 474644282,
+        "sender_full_name": "Tillman Jex",
+        "timestamp": 1727975742
+    },
+    {
+        "content": "<p>And speaking of \"limited connectivity\" this is applies to accessing a website _anywhere_ in Australia. When I was there on an extended visit, I wrote up a little git wrapper for my dotfile management to (among other things) push my repo to the origin and mirror concurrently, so I didn't have to wait so long. It was long enough!</p>",
+        "id": 474953283,
+        "sender_full_name": "Tillman Jex",
+        "timestamp": 1728110600
+    },
+    {
+        "content": "<ul>\n<li>\n<p>super bullish on SQLite and postgres in browsers finally, tired of not having databases on the frontend/client<br>\nI think a lot of frontend state management complexity will go away when we don't have to reinvent all the lessons that databases learned 30 years ago</p>\n</li>\n<li>\n<p>Also bullish on docker-compose getting a second wave of attention as some people abandon serverless and kubernetes. I want there to be a <code>docker compose hub</code> like <code>hub.docker.com</code>. podman could steal Docker's lunch by launching something like that first</p>\n</li>\n</ul>",
+        "id": 483582662,
+        "sender_full_name": "Nick Sweeting",
+        "timestamp": 1732141916
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"781907\">@Nick Sweeting</span> where are you seeing SQLite in browsers? Or do you just mean that SQLite wasm is possible now and libraries are being built on top of it?</p>",
+        "id": 483639334,
+        "sender_full_name": "Dustin",
+        "timestamp": 1732177564
+    },
+    {
+        "content": "<p>Yes SQLite WASM is what I was referring to, though I'd love to see it in the browsers directly if that ever happens</p>",
+        "id": 483763051,
+        "sender_full_name": "Nick Sweeting",
+        "timestamp": 1732213767
+    },
+    {
+        "content": "<p>I am of the opinion that wasm is amongst the list of technologies that's 80% there but the remaining 20% will cause you heartbreak and pain and therefore the use will be limited.  There are just too many restrictions in the sandbox.   It also smells a bit too much like the JVM at the moment. </p>\n<p>Having said that I do like the fact that every language seems to be targeting it as a back end.</p>",
+        "id": 483789221,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1732223449
+    },
+    {
+        "content": "<p>Curious why you think it smells like the JVM?</p>",
+        "id": 483869273,
+        "sender_full_name": "Dustin",
+        "timestamp": 1732267593
+    },
+    {
+        "content": "<p>I think wasm is just in that weird phase where it’s far enough along to be useful but not far enough along for the things a lot of people want to use it for.</p>",
+        "id": 483869413,
+        "sender_full_name": "Dustin",
+        "timestamp": 1732267642
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"756209\">@Dustin</span> Promises cross platform VM, runs in the browser but had no access to the DOM, sandboxed environment, needs a runtime, deployed as a single binary etc.</p>\n<p>In all honesty let's bring back applets and j2ee. In retrospect they were ahead of their time.</p>",
+        "id": 483985315,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1732306965
+    },
+    {
+        "content": "<p>Oracle's ownership makes me weary of investing any time/money in JVM technology<br>\nAt least WASM isn't owned by them</p>",
+        "id": 484019793,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1732326292
+    },
+    {
+        "content": "<p>Java doesn't own the JVM. The JVM is open sourced although there are versions of it made by Java, IBM, and others.  AFIK oracle does own the trademark just like they own the trademark on javascript.</p>",
+        "id": 484096656,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1732396249
+    },
+    {
+        "content": "<p>I don’t know if this is a trend, but I’m trying to steer my career more toward smaller devices deployed out in the world. Writing in a more constrained environment is a fun challenge that gives me an excuse to be closer to the metal. Also no one’s asked me to add any useless AI features. (And the AI features I’m anticipating are actually interesting and worthwhile.)</p>",
+        "id": 484343538,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1732551827
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752964\">@Andrew O'Brien</span>, I think that's smart. Similarly, I write a lot of low-level code and Rust in my free time. At work, I write Go that deploys to resource-rich, gigantic Kubernetes clusters, but the safety and memory-use considerations help me write better Go.</p>",
+        "id": 490431347,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1734913980
+    },
+    {
+        "content": "<p>+1 for Rust knowledge improving the use of other languages :) <span aria-label=\"crab\" class=\"emoji emoji-1f980\" role=\"img\" title=\"crab\">:crab:</span></p>",
+        "id": 490432831,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1734915377
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752964\">@Andrew O'Brien</span> curious what sort of devices. Also I think your point relates also to simplification, does it? Myself I transitioned all the new web-related projects to Elixir + Phoenix for the sake of simplicity as well.</p>",
+        "id": 490441214,
+        "sender_full_name": "Piotr",
+        "timestamp": 1734922302
+    },
+    {
+        "content": "<p>After the DHH episode I decided to try ruby again after a very long hiatus. I didn't want to write a rails app (yet) so I decided to write a little app to manage my dotfiles the way I want them managed.  So far it's been fun. I am basically recreating something like ansible but of course super light. What's interesting is that the language is directing me to create a DSL for managing my files and makes it so easy to experiment with the language.  The code just seems to flow out of you because I just type what I think should work and 90% of the time it just does. Of course the codeium code completion really helps a lot here. </p>\n<p>In an ideal world there would be a ruby interpreter that would be a single binary so I could just put it in the same directory as my dotfiles and execute them but OSX and Linux come with ruby already installed so it's not that big of a deal.</p>",
+        "id": 490584001,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1734988210
+    },
+    {
+        "content": "<p>I really wanted to know what the \"defaults for sqlite\" to make it performant are DHH was talking about.</p>",
+        "id": 490584469,
+        "sender_full_name": "Dustin",
+        "timestamp": 1734988458
+    },
+    {
+        "content": "<p>I've been pretty bullish on Cloudflare Durable Objects, and it looks like Rivet just launched something very similar:</p>\n<p><a href=\"https://rivet.gg/docs/actors\">https://rivet.gg/docs/actors</a><br>\n<a href=\"https://news.ycombinator.com/item?id=42472519\">https://news.ycombinator.com/item?id=42472519</a></p>",
+        "id": 490607287,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1735000354
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"756209\">@Dustin</span> It involves setting pragmas for wait timeouts, chache sizes, retries etc, using the WAL,  and probably a couple of extentions. I am not sure if they set strict mode though (they should IMHO)</p>\n<p>Here is an article with explains some of it </p>\n<p><a href=\"https://fractaledmind.github.io/2024/04/15/sqlite-on-rails-the-how-and-why-of-optimal-performance/\">https://fractaledmind.github.io/2024/04/15/sqlite-on-rails-the-how-and-why-of-optimal-performance/</a></p>\n<p>Also this guy does amazing work with sqlite and ruby <a href=\"https://oldmoe.blog/\">https://oldmoe.blog/</a></p>",
+        "id": 490712998,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1735073109
+    }
+]
