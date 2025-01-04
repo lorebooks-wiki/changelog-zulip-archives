@@ -1,0 +1,122 @@
+[
+    {
+        "content": "<p>Hi there, I have a few raspberry PIs (a couple of 5 and a couple of 4), could I use them to host apps like pihole, home assistant and random web services?</p>",
+        "id": 482963666,
+        "sender_full_name": "Patrick Arminio",
+        "timestamp": 1731920256
+    },
+    {
+        "content": "<p>Yes, they're perfect for that. I've had pihole running on RPi 2 for around two years now, and it's been working great. I think I even heard of people hosting Jellyfin on a RPi. And if you have multiple Pis and are feeling brave or want the learning experience, you could even set up a kubernetes cluster to run your stuff.</p>",
+        "id": 483051434,
+        "sender_full_name": "Raúl",
+        "timestamp": 1731943565
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"759269\">@Raúl</span> thanks! yeah I was thinking of using something like k8s, mostly because I'd love to use all these raspberry pis as if they were one machine</p>",
+        "id": 483054560,
+        "sender_full_name": "Patrick Arminio",
+        "timestamp": 1731944274
+    },
+    {
+        "content": "<p>Just keep in mind that K8s adds a lot of complexity, so if you're not used to it, it may be a little overwhelming.</p>",
+        "id": 483055110,
+        "sender_full_name": "Raúl",
+        "timestamp": 1731944397
+    },
+    {
+        "content": "<p>good to know!</p>",
+        "id": 483060539,
+        "sender_full_name": "Patrick Arminio",
+        "timestamp": 1731945640
+    },
+    {
+        "content": "<p>I've used pihole and jellyfin on a raspberry pi 4 and both worked well. I prefer to use docker compose for because I find it easiest. If you are interested in Kubernetes on a Pi, then check out k3s. Its a lightweight version of Kubernetes.</p>",
+        "id": 483093074,
+        "sender_full_name": "Adam Bedenbaugh",
+        "timestamp": 1731954636
+    },
+    {
+        "content": "<p>I also use compose but I have a single Intel NUC. Compose doesn't do clustering. Good tip about k3s! And there's also docker swarm, which is probably a much saner option for a homelab setup.</p>",
+        "id": 483093500,
+        "sender_full_name": "Raúl",
+        "timestamp": 1731954785
+    },
+    {
+        "content": "<p>I’ll throw out the suggestion of using Talos for Kubernetes (only pi 4 support) or k2d for a Kubernetes interface on top of docker</p>",
+        "id": 483567818,
+        "sender_full_name": "Justin Garrison",
+        "timestamp": 1732135204
+    },
+    {
+        "content": "<p>I used Talos for a long time on my Pi cluster, but could only get drivers for HAT accessories from the official Raspberry Pi kernel<br>\nIt was painful getting those modules into a system extension for Talos<br>\nWithout obscure hardware, however, Talos is amazing</p>",
+        "id": 483580548,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1732140860
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"760607\">@Justin Garrison</span> thanks! I have two PI5 so Talos is a no go :( I might try nixos though <span aria-label=\"blush\" class=\"emoji emoji-1f60a\" role=\"img\" title=\"blush\">:blush:</span></p>",
+        "id": 483635921,
+        "sender_full_name": "Patrick Arminio",
+        "timestamp": 1732176110
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752828\">@Patrick Arminio</span> Nixos has a very nice k3s module <span aria-label=\"ok\" class=\"emoji emoji-1f44c\" role=\"img\" title=\"ok\">:ok:</span></p>",
+        "id": 484562623,
+        "sender_full_name": "FlakM",
+        "timestamp": 1732641837
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"758534\">@FlakM</span> do you have a link? :D</p>",
+        "id": 484563310,
+        "sender_full_name": "Patrick Arminio",
+        "timestamp": 1732642060
+    },
+    {
+        "content": "<p>You can search for the options using search on website: <a href=\"https://search.nixos.org/options?channel=24.05&amp;from=0&amp;size=50&amp;sort=relevance&amp;type=packages&amp;query=k3s\">https://search.nixos.org/options?channel=24.05&amp;from=0&amp;size=50&amp;sort=relevance&amp;type=packages&amp;query=k3s</a></p>",
+        "id": 484563547,
+        "sender_full_name": "FlakM",
+        "timestamp": 1732642136
+    },
+    {
+        "content": "<p>I run it on my dev machine to test helm charts, it's a single line away <a href=\"https://github.com/FlakM/nix_dots/blob/0e09dc06885409a6207a89f549db64b137a1745a/shared/k3s/default.nix#L4\">https://github.com/FlakM/nix_dots/blob/0e09dc06885409a6207a89f549db64b137a1745a/shared/k3s/default.nix#L4</a> happy to help if you need it <span aria-label=\"ok\" class=\"emoji emoji-1f44c\" role=\"img\" title=\"ok\">:ok:</span></p>",
+        "id": 484564127,
+        "sender_full_name": "FlakM",
+        "timestamp": 1732642343
+    },
+    {
+        "content": "<p>oh I see, cool! I'll check once I finally make time to install everything on the first PI :D</p>",
+        "id": 484564623,
+        "sender_full_name": "Patrick Arminio",
+        "timestamp": 1732642557
+    },
+    {
+        "content": "<p>I have a pi4 that's running k3s too but It's been shut off for a while (probably a couple of years at this point). I haven't upgraded from 1.21 so I feel like a fresh install might be in order <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span> I just wanted the challenge to setup kubernetes on a small device rather than actually running a bunch of workload on it. I got it running on top of hypriotOS, but after reading a bit about Talos, I feel like I should give it a fresh start with that. Not much of an idea really, to run a single node kubernetes cluster except for the tinkering challenge, but hey, what are homelabs for if not for tinkering and having fun?</p>",
+        "id": 491208973,
+        "sender_full_name": "Erik Svensson",
+        "timestamp": 1735507953
+    },
+    {
+        "content": "<p>If you've got them laying around, RPs are great for Homelabbery. Anymore, though, if you're going to consider buying RPi5 _new_ for it… hold fast: you can _probably_ find cheaper used SBCs that are often more powerful, higher RAM, x86_64, and _probably_ similar perf:watts ratio if not better.</p>\n<p>Case in point: I've got a Raspberry Pi 3 running my PiHole setup and a RPi CM4 running Home Assistant inside of an HA Yellow. For the cost of a Raspberry Pi 5, I picked up an Acemagic box used for $50 _shipped_. 12 GB RAM, 4-core N95… an older version of <a href=\"https://acemagic.com/products/acemagic-aoc-collaborate-on-t8plus-intel-12th-alder-lake-n97-mini-pc\">this</a>. It'll soon be replacing that RPi3 with the Acemagic box running Proxmox with a DietPi VM running PiHole and might put something else mission-critical on that Acemagic box, too. Things related to DNS or \"this box cannot go down unless everything else is down and it should be the first thing back online when the power comes back\". I'll put a RPi CM5 in the HA Yellow.</p>",
+        "id": 491333447,
+        "sender_full_name": "Colin Dean",
+        "timestamp": 1735595553
+    },
+    {
+        "content": "<p>Thanks for the pointer to Acemagic boxes. That 16 + 512 combo at $130 looks affordable. Curious to know what mini PCs are other folks using. </p>\n<p>I've been looking for HP EliteDesk 800 G4 Mini, but unfortunately Ebay is not available in India and I can't find any decent second hand suppliers selling these.</p>",
+        "id": 491366880,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1735622697
+    },
+    {
+        "content": "<p>Did you take a look at Dell wyse thin clients? They are dirt cheap here in Europe and pretty capable little machines.</p>",
+        "id": 491367769,
+        "sender_full_name": "FlakM",
+        "timestamp": 1735623557
+    },
+    {
+        "content": "<p>I haven't! Thank you, will take a look.</p>",
+        "id": 491368117,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1735623932
+    }
+]

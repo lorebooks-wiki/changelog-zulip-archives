@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>I'm about 1/4 of the way through <a href=\"https://leg-assembly.com/\">Maria Markstedter's book on ARM internals</a> (a.k.a. the Blue Fox book). It's answering a lot of the questions that I, as someone who dropped out of CS because Computer Organization was too hard and I wanted to hang out at the coffee shop with my polisci major friends instead, had always wondered about but thought were beyond me. The first couple chapters explained the parts of an ELF file and how the loader uses them. After that, a tour through ARMv8 and AArch64's registers and execution environments, and now I'm starting on the actual assembly language instructions. I'm looking forward to the parts on reverse engineering in the second half.</p>\n<p>Would recommend to anyone who's wondered about such things.</p>",
+        "id": 491820960,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1735943730
+    }
+]
