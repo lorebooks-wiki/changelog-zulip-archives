@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>I'm seriously considering building a \"creator\" PC instead this time. Has anyone gone the Windows route from macOS and liked it?</p>\n<p>The main concern I had was being able to use Adobe Creative Cloud on both platforms at the same time and it's totally possible. You can install on macOS and Windows (2 machines) and that's totally fine with the license.</p>",
+        "id": 494249343,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1737068686
+    },
+    {
+        "content": "<p>I personally like a good workstation for creating. I'm not a fan of Windows but I really like its driver compatibility with everything. I like workstations because they have PCI slots for graphics cards, capture cards, etc. macOS machines don't have PCI slots unless you get a Mac Pro. Apple pretty much forces you to use USB devices but those often have a limit of the number of specific types of devices you can use on a single bus. For example, one capture card per bus. macOS seems to have decent driver compatibility but not like Windows.</p>\n<p>I'm running Linux right now and it's a struggle to find good hardware that's supported. All the PCI hardware is pretty much off the table. There are days where I miss having Window for ease of use but I was forced into a VM to create the actual content.</p>\n<p>If you need PCI devices or you use software/hardware that's not supported on macOS then Windows is a fine choice. Just de bloat it with all the preinstalled crap. If you don't need PCI devices and the software you need runs well on macOS then get a nice macOS workstation like the iMac or mini. I've never been a fan of using a laptop as a workstation for similar reasons listed about. Lack of PCI slots, needing to worry about battery cycles. Lack of general power or cooling compared to a workstation.</p>",
+        "id": 494283075,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1737089551
+    }
+]

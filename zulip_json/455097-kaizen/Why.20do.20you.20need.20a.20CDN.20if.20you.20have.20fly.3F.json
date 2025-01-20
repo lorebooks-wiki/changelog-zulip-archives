@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>If your app is running near your customers why do you need a CDN? </p>\n<p>If Tigris is storing your assets near your customers why do you need a CDN?</p>\n<p>Just curious.</p>",
+        "id": 490737084,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1735097081
+    },
+    {
+        "content": "<p>You don't.</p>",
+        "id": 490739879,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1735099793
+    },
+    {
+        "content": "<p>Unless that CDN is then just there to serve _optimized_ content for the user or to offload resources from your main application- specifically in the case of many clients to one server.</p>",
+        "id": 490739948,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1735099848
+    },
+    {
+        "content": "<p>I think Tim is asking this question about the Pipedream project for Changelog.</p>",
+        "id": 490743926,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1735103796
+    },
+    {
+        "content": "<p>Ah gotcha. I wasn't sure.</p>",
+        "id": 490799362,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1735151768
+    },
+    {
+        "content": "<p>I assume it's similar to having microservices. Instead of having to access the entire changelog app, callers can access the cache (cdn).<br>\nCDN might have more edge locations than something like an app host (like Fly) would have, since their resource needs are smaller (different).</p>\n<p>Note: this is an educated guess. I've spent, almost, no time developing for the web.</p>",
+        "id": 490800897,
+        "sender_full_name": "Sukhdeep Brar",
+        "timestamp": 1735152882
+    },
+    {
+        "content": "<p>I was just reading the tigris web site and they say</p>\n<blockquote>\n<p>Objects in Tigris are stored close to the region where they’re written. Then, when requested, objects are cached close to the requesting user. This cache is intelligently managed by Tigris based on global traffic patterns. This behavior offers CDN-like behavior with zero configuration required.</p>\n</blockquote>\n<p>If I needed a CDN like functionality this  seems like a no brainer. Just put your stuff there and let tigris do the rest.</p>",
+        "id": 490807935,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1735160064
+    }
+]

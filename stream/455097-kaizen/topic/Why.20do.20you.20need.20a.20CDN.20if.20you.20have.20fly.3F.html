@@ -1,0 +1,63 @@
+<html>
+<head><meta charset="utf-8"><title>Why do you need a CDN if you have fly? · kaizen · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/index.html">kaizen</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Why.20do.20you.20need.20a.20CDN.20if.20you.20have.20fly.3F.html">Why do you need a CDN if you have fly?</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="490737084"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Why%20do%20you%20need%20a%20CDN%20if%20you%20have%20fly%3F/near/490737084" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Why.20do.20you.20need.20a.20CDN.20if.20you.20have.20fly.3F.html#490737084">(Dec 25 2024 at 03:24)</a>:</h4>
+<p>If your app is running near your customers why do you need a CDN? </p>
+<p>If Tigris is storing your assets near your customers why do you need a CDN?</p>
+<p>Just curious.</p>
+
+
+
+<a name="490739879"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Why%20do%20you%20need%20a%20CDN%20if%20you%20have%20fly%3F/near/490739879" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Why.20do.20you.20need.20a.20CDN.20if.20you.20have.20fly.3F.html#490739879">(Dec 25 2024 at 04:09)</a>:</h4>
+<p>You don't.</p>
+
+
+
+<a name="490739948"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Why%20do%20you%20need%20a%20CDN%20if%20you%20have%20fly%3F/near/490739948" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Why.20do.20you.20need.20a.20CDN.20if.20you.20have.20fly.3F.html#490739948">(Dec 25 2024 at 04:10)</a>:</h4>
+<p>Unless that CDN is then just there to serve _optimized_ content for the user or to offload resources from your main application- specifically in the case of many clients to one server.</p>
+
+
+
+<a name="490743926"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Why%20do%20you%20need%20a%20CDN%20if%20you%20have%20fly%3F/near/490743926" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Thomas Eckert <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Why.20do.20you.20need.20a.20CDN.20if.20you.20have.20fly.3F.html#490743926">(Dec 25 2024 at 05:16)</a>:</h4>
+<p>I think Tim is asking this question about the Pipedream project for Changelog.</p>
+
+
+
+<a name="490799362"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Why%20do%20you%20need%20a%20CDN%20if%20you%20have%20fly%3F/near/490799362" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Why.20do.20you.20need.20a.20CDN.20if.20you.20have.20fly.3F.html#490799362">(Dec 25 2024 at 18:36)</a>:</h4>
+<p>Ah gotcha. I wasn't sure.</p>
+
+
+
+<a name="490800897"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Why%20do%20you%20need%20a%20CDN%20if%20you%20have%20fly%3F/near/490800897" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Sukhdeep Brar <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Why.20do.20you.20need.20a.20CDN.20if.20you.20have.20fly.3F.html#490800897">(Dec 25 2024 at 18:54)</a>:</h4>
+<p>I assume it's similar to having microservices. Instead of having to access the entire changelog app, callers can access the cache (cdn).<br>
+CDN might have more edge locations than something like an app host (like Fly) would have, since their resource needs are smaller (different).</p>
+<p>Note: this is an educated guess. I've spent, almost, no time developing for the web.</p>
+
+
+
+<a name="490807935"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Why%20do%20you%20need%20a%20CDN%20if%20you%20have%20fly%3F/near/490807935" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Why.20do.20you.20need.20a.20CDN.20if.20you.20have.20fly.3F.html#490807935">(Dec 25 2024 at 20:54)</a>:</h4>
+<p>I was just reading the tigris web site and they say</p>
+<blockquote>
+<p>Objects in Tigris are stored close to the region where they’re written. Then, when requested, objects are cached close to the requesting user. This cache is intelligently managed by Tigris based on global traffic patterns. This behavior offers CDN-like behavior with zero configuration required.</p>
+</blockquote>
+<p>If I needed a CDN like functionality this  seems like a no brainer. Just put your stuff there and let tigris do the rest.</p>
+
+
+
+<hr><p>Last updated: Jan 20 2025 at 03:39 UTC</p>
+</html>
