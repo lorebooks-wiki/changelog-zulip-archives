@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Hi all! We've shipped episode 1 of Fallthrough. You can listen to it here: <a href=\"https://fallthrough.transistor.fm/episodes/war-stories\">https://fallthrough.transistor.fm/episodes/war-stories</a><br>\nOr if you want to watch, it's also published on YouTube!<br>\n<a href=\"https://www.youtube.com/watch?v=wg2rRupB8CQ\">https://www.youtube.com/watch?v=wg2rRupB8CQ</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"wg2rRupB8CQ\" href=\"https://www.youtube.com/watch?v=wg2rRupB8CQ\"><img src=\"https://uploads.zulipusercontent.net/9561bda96defacb65cc09c163a14cf8df60346f7/68747470733a2f2f692e7974696d672e636f6d2f76692f77673272527570423843512f64656661756c742e6a7067\"></a></div>",
+        "id": 492110645,
+        "sender_full_name": "Kris Brandow",
+        "timestamp": 1736172170
+    },
+    {
+        "content": "<p>Woot woot! Love that there's a video published. Let us know what you all think!</p>",
+        "id": 492124848,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1736176844
+    },
+    {
+        "content": "<p>Great episode. Loved the stories about self inflicted failures. We all experienced it, probably feeling bad/dumb about it, and being too harsh to ourselves, aren't we? It is good to hear you folks talking publicly about making \"silly\" mistakes.</p>",
+        "id": 492458891,
+        "sender_full_name": "Chris Glaubitz",
+        "timestamp": 1736326415
+    },
+    {
+        "content": "<p>So glad you enjoyed the episode! I like telling stories because it gives the two fold benefit of helping other people avoid the mistakes we've made (or at least be better prepared for them) and helps remind us (and everyone else) that we're regular people at the end of the day <span aria-label=\"big smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"big smile\">:big_smile:</span></p>",
+        "id": 492605104,
+        "sender_full_name": "Kris Brandow",
+        "timestamp": 1736381355
+    },
+    {
+        "content": "<p>Agreed. I don't trust people that haven't cause some sort of outage or at least admit to some mistakes in their career. I need to know that you'll run the SQL command live on the production database lol.</p>",
+        "id": 492642490,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1736403847
+    }
+]

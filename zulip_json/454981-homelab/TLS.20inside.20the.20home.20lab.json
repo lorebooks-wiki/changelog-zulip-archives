@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Any of yinz got ACME running inside your home network? I'm thinking about it but not really sure if it's really that worth it.</p>",
+        "id": 500799805,
+        "sender_full_name": "Colin Dean",
+        "timestamp": 1740031400
+    },
+    {
+        "content": "<p>Yes via cert-manager running in Kubernetes.</p>",
+        "id": 500946799,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1740076926
+    },
+    {
+        "content": "<p>Showed it in action here a bit: <a href=\"https://www.youtube.com/live/Hi__SsHcjEc?feature=shared\">https://www.youtube.com/live/Hi__SsHcjEc?feature=shared</a></p>",
+        "id": 500946931,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1740076971
+    }
+]
