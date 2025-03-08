@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>On Friday, I brought down a customer's production cluster for 5 hours by accident when doing maintenance in their environment. Everyone was nice about it, even the customer, but man did I feel stupid. </p>\n<p>What are your incident horror stories to celebrate this spooky season?</p>",
+        "id": 475429462,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1728347698
+    },
+    {
+        "content": "<p>One time I brought down the production email server because I was ssh'ed into it from my Linux laptop and didn't double check which shell I was in. I was trying to reboot my laptop and suddenly realized something else was rebooting.</p>",
+        "id": 475434017,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1728349539
+    },
+    {
+        "content": "<p>We sent around 3.8M custom metrics to Datadog for a few hours. Scared to see the bill.</p>",
+        "id": 475465455,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1728361299
+    },
+    {
+        "content": "<p>I once deleted hundreds of \"unused\" database instances... but some core internal tooling assumed those instances would always exist <span aria-label=\"grimacing\" class=\"emoji emoji-1f62c\" role=\"img\" title=\"grimacing\">:grimacing:</span> . So I left entire development teams unable to deploy their projects. Ended up performing mass restores not so those databases could actually do any work or accept connections, but purely so the AWS APIs could stop returning empty responses. Felt gross about both the problem _and_ the rollback <span aria-label=\"sob\" class=\"emoji emoji-1f62d\" role=\"img\" title=\"sob\">:sob:</span></p>",
+        "id": 475721418,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1728441984
+    },
+    {
+        "content": "<p>Back in about 2001 fat fingered the outgoing phone number of a dial back service. We called customer routers with that number, the router would reject and call back. Because of the typo, customer routers accepted the call for 1 sec and then dial back. Instead of a usual 0€ bill, it was about 20k€ that month. And a 10cm high stack of paper invoices.</p>",
+        "id": 477802550,
+        "sender_full_name": "Chris Glaubitz",
+        "timestamp": 1729341609
+    },
+    {
+        "content": "<p><a href=\"https://status.elastic.co/incidents/9mmlp98klxm1\">https://status.elastic.co/incidents/9mmlp98klxm1</a> <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span> (I work at Elastic)</p>",
+        "id": 479619145,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1730272571
+    },
+    {
+        "content": "<p>While trying to \"test automation\", I once took down every ec2 instance in the core AWS account.  Thankfully we had been thinking about DR and resilience, so this \"accidental chaos\" engineering showed us where the gaps were and we didn't lose any data.  There were a few critical resources offline, which meant hundreds of devs sitting around waiting though.</p>",
+        "id": 479921228,
+        "sender_full_name": "shaun smiley",
+        "timestamp": 1730393730
+    }
+]

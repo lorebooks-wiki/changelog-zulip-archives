@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>This week we're going <a href=\"https://changelog.com/podcast/463\">back in time</a> to one of our top performing shows of all time where we talk with Matt Rickard about his blog post <a href=\"https://matt-rickard.com/reflections-on-10-000-hours-of-programming/\">Reflections on 10,000 Hours of Programming</a>. These reflections are about deliberately writing code for 10,000 hours. Most don't apply to beginners. He was clear to mention that these reflections are purely about coding, not career advice or soft skills. If you count the reflections we cover on the show and be the first to comment the amount of reflections on this thread in Zulip, we'll give you a coupon code to use for a 100% free t-shirt from <a href=\"https://merch.changelog.com\">the merch store</a>. Good luck...</p>\n<p><span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/613\">https://changelog.fm/613</a></p>",
+        "id": 477530551,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729202466
+    },
+    {
+        "content": "<p>Anyone else’s RSS feed not updating to show this episode? Master feed and direct feed isn’t showing this episode.</p>",
+        "id": 477562623,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1729222230
+    },
+    {
+        "content": "<p>Mine looks ok</p>",
+        "id": 477563642,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1729222700
+    },
+    {
+        "content": "<p>Yes I can't see this one either. On ++ custom feed</p>",
+        "id": 477580567,
+        "sender_full_name": "Alex Barnes",
+        "timestamp": 1729232449
+    },
+    {
+        "content": "<p>My mind instantly asks: did something break due to a special character? <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+        "id": 477642152,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1729253689
+    },
+    {
+        "content": "<p>That's what I was thinking too, but our master feed is currently validating so that can't be it...</p>",
+        "id": 477643894,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729254275
+    },
+    {
+        "content": "<p>Seems like this was another caching-too-hard incident...</p>",
+        "id": 477669288,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729261968
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"760183\">Logbot</span> <a href=\"#narrow/channel/456187-interviews/topic/613.3A.20Lessons.20from.2010k.20hours.20of.20programming.20.28Remastered.29/near/477530551\">said</a>:</p>\n<blockquote>\n<p>This week we're going <a href=\"https://changelog.com/podcast/463\">back in time</a> to one of our top performing shows of all time where we talk with Matt Rickard about his blog post <a href=\"https://matt-rickard.com/reflections-on-10-000-hours-of-programming/\">Reflections on 10,000 Hours of Programming</a>. These reflections are about deliberately writing code for 10,000 hours. Most don't apply to beginners. He was clear to mention that these reflections are purely about coding, not career advice or soft skills. If you count the reflections we cover on the show and be the first to comment the amount of reflections on this thread in Zulip, we'll give you a coupon code to use for a 100% free t-shirt from <a href=\"https://merch.changelog.com\">the merch store</a>. Good luck...</p>\n<p><span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/613\">https://changelog.fm/613</a></p>\n</blockquote>\n<p>A bit late to the party here… I counted 12 during my somewhat broken listening session.</p>",
+        "id": 478047249,
+        "sender_full_name": "Joe Lyles",
+        "timestamp": 1729513676
+    },
+    {
+        "content": "<p>Good effort, <span class=\"user-mention\" data-user-id=\"757481\">@Joe Lyles</span>! I'll DM you</p>",
+        "id": 478495538,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729689824
+    },
+    {
+        "content": "<p>Re <code>err</code> it's also that <code>error</code> shadows the interface for an error so can be confusing too</p>",
+        "id": 480016388,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1730450461
+    }
+]
