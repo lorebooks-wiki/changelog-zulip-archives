@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Hey, as we move more and more towards zulip, did anyone manage to setup any kind of multi-factor-authentication?<br>\nI used to have TOTP on slack and typically try to setup passkeys or TOTP in every web service I use.<br>\nHaving only a user + password for interactive login pages feels not that great anymore, but I can't find such an option in Zulip.</p>",
+        "id": 473016857,
+        "sender_full_name": "Konrad",
+        "timestamp": 1727414778
+    },
+    {
+        "content": "<p>I had the same thought, since I want to avoid \"social logins\" and use credentials with the service, where I can keep creds unique and not provide a trail for the data-kraken.</p>",
+        "id": 473028502,
+        "sender_full_name": "René",
+        "timestamp": 1727420549
+    },
+    {
+        "content": "<p>Exactly, I have 1password in place so having unique credentials is fine for me. I tend to avoid social logins wherever I can... bad enough that I was more or less forced to use it for tailscale <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 473035410,
+        "sender_full_name": "Konrad",
+        "timestamp": 1727422651
+    },
+    {
+        "content": "<p>Looking at a bunch of issues, it seems 2FA isn't a thing yet :/</p>",
+        "id": 473355423,
+        "sender_full_name": "Owen Valentine",
+        "timestamp": 1727534950
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>If you could wave your hand and have 5 problems solved in computer science/software development what would they be?</p>\n<p>Mine are</p>\n<ul>\n<li>Dependencies</li>\n<li>Linear types</li>\n<li>Distributed authentication and persistence (aka local first being a solved/easy solution)</li>\n<li>Wasm reaching it's full potential</li>\n<li>It's easy in any company to analyze how much (technically) a feature costs</li>\n</ul>\n<p>Honorable shoutout to a friend who said as his top would be only having to define your data model once</p>",
+        "id": 487101627,
+        "sender_full_name": "Dustin",
+        "timestamp": 1733779278
+    },
+    {
+        "content": "<p>Doesn't namecoin solve the distributed authentication thing? I know there are several blockchain based identity efforts out there. </p>\n<p>I would think some sort of a blockchain like distributed storage system would be able to solve this and the package management problem too. Something that's more efficient, immutable except for being able to delete, with permissions, etc.</p>\n<p>Maybe postgres but globally distributed amongst millions of nodes.</p>",
+        "id": 487133583,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1733792935
+    },
+    {
+        "content": "<ul>\n<li>permanent end to all political proposals to weaken encryption for any reason, ever</li>\n<li>permanent end to all schemes that prevent owners of devices from using them in ways the vendor/manufacture doesn't like (e.g. DRM, DMCA, etc) </li>\n<li>proof of work block chains gone (waste of precious resources, climate change)</li>\n<li>proof of stake block chains gone (already too many pay-to-win systems in capitalism) </li>\n<li>surveillance-based advertising all gone, reverting us all back to non-creepy contextual advertising</li>\n</ul>",
+        "id": 487173081,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1733813135
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"755905\">@Tim Uckun</span> I was thinking more in the P2P sense and less the distributed but public and semi anonymous sense.</p>",
+        "id": 487204373,
+        "sender_full_name": "Dustin",
+        "timestamp": 1733824378
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"771585\">@Ron Waldon-Howe</span> What a wishlist!. I am afraid those days are gone though.</p>\n<p>BTW premined blockchains are a thing. XRP for example is very efficient and fast.</p>",
+        "id": 487337814,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1733863457
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755905\">Tim Uckun</span> <a href=\"#narrow/stream/453512-general/topic/Manifesting.20solved.20problems/near/487337814\">said</a>:</p>\n<blockquote>\n<p>BTW premined blockchains are a thing. XRP for example is very efficient and fast.</p>\n</blockquote>\n<p>Yep, I'm not anti-block-chain, just against anything that makes capitalism or climate change worse</p>",
+        "id": 487348485,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1733868098
+    },
+    {
+        "content": "<p>capitalism is like entropy. It only goes in one direction and that's worse.</p>",
+        "id": 488187408,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1733950802
+    }
+]

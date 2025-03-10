@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>Dave Eddy has learned systems programming the traditional way with books and man pages. Now he's sharing what he's learned, starting with bash.</p>\n<p><span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://shipit.show/124\">https://shipit.show/124</a></p>",
+        "id": 474907915,
+        "sender_full_name": "Logbot",
+        "timestamp": 1728080224
+    },
+    {
+        "content": "<p>I consider myself pretty handy with bash but don’t even bother asking me how to do anything with arrays (especially associative). So that’s also a role of thumb for me.</p>",
+        "id": 475001431,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1728150732
+    },
+    {
+        "content": "<p>Also glad to hear the same reservations about Go. I’ve been getting deeper into Kubernetes and have been trying to force myself to like it.</p>\n<p>I fully respect that people have done great things with it. There’s nothing too hard about it as a language. It would give me the benefits I want (speed, concurrency, ease of deployment) at the level I mostly work at (between system and application). But after trying about 4 times I don’t like writing it and reading it feels kind of like PHP for me. (No shade intended, just not my taste.)</p>",
+        "id": 475002165,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1728151176
+    },
+    {
+        "content": "<p>Bash definitely has its place, just think about all these java tools which require lots of startup parameters nobody can recall and everybody just wraps in a small script <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span> </p>\n<p>But also for more complex stuff. When we started using docker at work, there was nur a clear guidance if docker swarm or kubernetes will win the orchestration game. I just needed a single node installer and as less as overhead for customers. I ended up writing a kind of mini-installer/runner in bash. It was advancing over time and was just packaged as rpm. Batteries included basically, just docker or later podman was required, the rpm even included the container images (I know, typically I should use registries for that, but I needed to serve air-gapped environments).</p>\n<p>Bash did all the heavy lifting, creating secrets or prompted for values, displayed licenses, we supported even localisation to different languages. <br>\nIt handled the correct startup and shutdown of services, provided backup and log collection utilities.<br>\nEventually we could even setup database replication over the bash script.</p>\n<p>There were steps which I did not love and would probably have done in golang today, but bash served me well all the years and I did not need to recompile it with most recent golang to fix CVEs <span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span> <br>\nAlso, the prototype startup script was working in a few hours and I kept advancing it iterativly. I could get quite fast quite far with bash and the \"runtime\" was just part of the default os packages, which is also a plus for security concerned customers. Those were also not that happy about docker at all <span aria-label=\"see no evil\" class=\"emoji emoji-1f648\" role=\"img\" title=\"see no evil\">:see_no_evil:</span></p>",
+        "id": 475070131,
+        "sender_full_name": "Konrad",
+        "timestamp": 1728200351
+    },
+    {
+        "content": "<p>Packaging containers in rpm is such a neat idea! If you already have an rpm repo (directory with web server) you don’t need to overly complicate it. Now I want to make a <code>createrepo</code> for oci artifacts on the file system</p>",
+        "id": 475167741,
+        "sender_full_name": "Justin Garrison",
+        "timestamp": 1728265479
+    },
+    {
+        "content": "<p>We have to push docker images out (no pull) in some of our deployment scenarios. Docker-exporting to tgz and then deploying metal components packaged a .debs has always felt hacky to me.</p>\n<p>I had been considering putting the images in .debs too just to make it more consistent, but didn’t because I thought the package gods would strike me down. But knowing that someone else has done something similar gives me a little more confidence.</p>",
+        "id": 475308975,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1728310795
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"760607\">@Justin Garrison</span> It was the simplest approach I could imagine. Some enterprise customers already had internal rpm repos for their red hat fleet, others could just upload the rpm to their VM and locally install it. I noticed if I save a list of images with <code>docker save</code> it even deduplicates image layers. I pushed everything out as a single rpm, customers just imported the rpm in the repositories and ran <code>yum update</code>. The rpm postinstall hook just executed <code>docker load</code>.<br>\nThe cli command was shipped as part of the rpm as well. <br>\nIf customers just updated the rpm, the old containers kept running, so no outage. Once a short outage of a minute or so was feasible, they could use the <code>restart</code> option which would update the containers with the new images.<br>\nI had other scripts available to setup database replication if HA was required, but it was quite simple to get running which helped a lot in doing POCs especially for conservative customers.</p>",
+        "id": 476600379,
+        "sender_full_name": "Konrad",
+        "timestamp": 1728820062
+    }
+]
