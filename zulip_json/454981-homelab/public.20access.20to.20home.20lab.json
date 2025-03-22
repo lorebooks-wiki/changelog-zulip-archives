@@ -1,0 +1,98 @@
+[
+    {
+        "content": "<p>What are you all doing to expose services run in your home lab publicly? Any security features you're using (e.g., Cloudflare)?</p>",
+        "id": 468284508,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1725654870
+    },
+    {
+        "content": "<p>I've taken to not exposing anything over last year or so. Just use tailscale exclusively now, and that's worked flawlessly.</p>",
+        "id": 468286210,
+        "sender_full_name": "Alex Barnes",
+        "timestamp": 1725655726
+    },
+    {
+        "content": "<p>Do you have Tailscale on any device that you'd use to access it then? I'm thinking of trying to self-host a Google photos alternative, I think I'd need Tailscale on each phone</p>",
+        "id": 468288305,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1725656729
+    },
+    {
+        "content": "<p>Yes, so any device I use outside my local network I have tailscale installed on. And also installed on my two homelab servers. <br>\nSo I can use services running on those outside the local network by using the tailnet ip's or use the server as an exit node and use local ip's.<br>\nI haven't done, but you can also setup ACL's to control which devices can connect to each other.<br>\nYes I'm hoping to get round to trying immich for photos at some point.</p>",
+        "id": 468292227,
+        "sender_full_name": "Alex Barnes",
+        "timestamp": 1725658425
+    },
+    {
+        "content": "<p>I think tailscale would work for some of my selfish use cases but if I were hosting for others then requiring tailscale is a high barrier to entry to ask.</p>",
+        "id": 468316166,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1725670601
+    },
+    {
+        "content": "<p>What about like fronting for something like DDoS protection and such?</p>",
+        "id": 468316172,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1725670616
+    },
+    {
+        "content": "<p>Yes of course, there is only my wife and I using the services I've got running. I've not looked into anything else as not had any need so far.</p>",
+        "id": 468385935,
+        "sender_full_name": "Alex Barnes",
+        "timestamp": 1725702508
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752976\">@Matthew Sanabria</span>  Enjoyed your blog post on system initiative. It's prompted me to have another look at it. Hoping to create some functions to manage proxmox in my homelab.</p>",
+        "id": 468386014,
+        "sender_full_name": "Alex Barnes",
+        "timestamp": 1725702598
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752849\">@Alex Barnes</span> thank you for reading that. I really enjoy System Initiative. It's still in its early days but it's a refreshing look on the whole infrastructure as code space. My Turing Pi 2.5 should be shipping this month so I'm going to continue to use System Initiative for my home lab once it's in.</p>",
+        "id": 468497431,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1725761578
+    },
+    {
+        "content": "<p>I use Cloudflare for things i want to access easily (or family, wife, etc)  pushed to Nginx Proxy Manager, then Authentik SSO, SAML, or Header Auth  for about 1/3 of my hosts, which could probably use improvement. I also run fail2ban, which I need to dig into more, and a bunch of custom rules on my site via Cloudflare blocking by country, IP range, and ASIN.</p>\n<p>Everything else I Tailscale into. It's great!</p>",
+        "id": 474364172,
+        "sender_full_name": "Matthew Fish",
+        "timestamp": 1727892329
+    },
+    {
+        "content": "<p>Not using it yet, but Tailscale funnel could be used to expose tailscale resources to the public internet. That sounds handy if you have clients which do not run a tailscale client but also expose more attack surface, basically like running stuff on a public VPS.</p>",
+        "id": 474624919,
+        "sender_full_name": "Konrad",
+        "timestamp": 1727970770
+    },
+    {
+        "content": "<p>Wasn't aware of tailscale funnel, sounds like ngrok for your tailnet</p>",
+        "id": 474634296,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1727972894
+    },
+    {
+        "content": "<p><a href=\"https://tailscale.com/kb/1223/funnel\">TailScale Funnel Docs</a> for anyone interested, will be taking a look at this.</p>",
+        "id": 474650613,
+        "sender_full_name": "Matthew Fish",
+        "timestamp": 1727977885
+    },
+    {
+        "content": "<p>In essence, you could also rent a VPS for the public IP, install nginx and tailscale, and route incoming public requests to your tailnet IP by adjusting the nginx conf. There are many options. I just thought tailscale is used by many already and does usually not end up costing money for homelab usage. <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 474679395,
+        "sender_full_name": "Konrad",
+        "timestamp": 1727988657
+    },
+    {
+        "content": "<p>Thanks for sharing Tailscale funnel. Didn't know about that.</p>",
+        "id": 475044909,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1728185332
+    },
+    {
+        "content": "<p>Kudos to <span class=\"user-mention\" data-user-id=\"755424\">@Gerhard</span> he mentioned it to me <span aria-label=\"smiley\" class=\"emoji emoji-1f603\" role=\"img\" title=\"smiley\">:smiley:</span></p>",
+        "id": 475069111,
+        "sender_full_name": "Konrad",
+        "timestamp": 1728199141
+    }
+]
