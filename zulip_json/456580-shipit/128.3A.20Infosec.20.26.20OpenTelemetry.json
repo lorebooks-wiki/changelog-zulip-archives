@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>Maybe Jira for your kids' chores is a good idea... Probably not.</p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td>00:00</td>\n<td>This is Ship It!</td>\n<td>00:27</td>\n</tr>\n<tr>\n<td>02</td>\n<td>00:52</td>\n<td><a href=\"https://sentry.io/\">Sponsor: Sentry</a></td>\n<td>03:17</td>\n</tr>\n<tr>\n<td>03</td>\n<td>04:17</td>\n<td>Pre-show</td>\n<td>09:56</td>\n</tr>\n<tr>\n<td>04</td>\n<td>14:13</td>\n<td>Welcome Austin Parker</td>\n<td>00:23</td>\n</tr>\n<tr>\n<td>05</td>\n<td>14:37</td>\n<td>Software kids</td>\n<td>02:04</td>\n</tr>\n<tr>\n<td>06</td>\n<td>16:41</td>\n<td>Deserted Island DevOPS</td>\n<td>01:59</td>\n</tr>\n<tr>\n<td>07</td>\n<td>18:40</td>\n<td>Conference schedules</td>\n<td>02:35</td>\n</tr>\n<tr>\n<td>08</td>\n<td>21:22</td>\n<td><a href=\"https://fly.io/\">Sponsor: Fly.io</a></td>\n<td>03:32</td>\n</tr>\n<tr>\n<td>09</td>\n<td>24:57</td>\n<td>Password security</td>\n<td>02:28</td>\n</tr>\n<tr>\n<td>10</td>\n<td>27:26</td>\n<td>Real world practicality</td>\n<td>03:27</td>\n</tr>\n<tr>\n<td>11</td>\n<td>30:53</td>\n<td>Nuances at scale</td>\n<td>04:42</td>\n</tr>\n<tr>\n<td>12</td>\n<td>35:35</td>\n<td>Tools make borders</td>\n<td>04:20</td>\n</tr>\n<tr>\n<td>13</td>\n<td>39:55</td>\n<td>Introducing OpenTelemetry</td>\n<td>05:27</td>\n</tr>\n<tr>\n<td>14</td>\n<td>45:36</td>\n<td><a href=\"https://www.timescale.com\">Sponsor: Timescale</a></td>\n<td>02:17</td>\n</tr>\n<tr>\n<td>15</td>\n<td>48:05</td>\n<td>What OpenTelemetry is doing</td>\n<td>02:40</td>\n</tr>\n<tr>\n<td>16</td>\n<td>50:45</td>\n<td>Grabbing data securely</td>\n<td>02:02</td>\n</tr>\n<tr>\n<td>17</td>\n<td>52:47</td>\n<td>Challenges building OpenTelemetry</td>\n<td>01:42</td>\n</tr>\n<tr>\n<td>18</td>\n<td>54:29</td>\n<td>System and app telemetry overlap</td>\n<td>06:52</td>\n</tr>\n<tr>\n<td>19</td>\n<td>1:01:22</td>\n<td><a href=\"http://aparker.io\">aparker.io</a> and running your own website</td>\n<td>05:54</td>\n</tr>\n<tr>\n<td>20</td>\n<td>1:07:16</td>\n<td>Socials</td>\n<td>00:36</td>\n</tr>\n<tr>\n<td>21</td>\n<td>1:07:51</td>\n<td>Outro</td>\n<td>00:52</td>\n</tr>\n</tbody>\n</table>\n<p><span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://shipit.show/128\">https://shipit.show/128</a></p>",
+        "id": 480110707,
+        "sender_full_name": "Logbot",
+        "timestamp": 1730491209
+    },
+    {
+        "content": "<p>Hey all <span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span> I want to say thanks for all the time and effort that goes into producing Ship It. I know it's not insignificant and you've got busy lives, making that effort all the more meaningful. </p>\n<p>I've really don't know how to segue into this smoothly, but I want to give some feedback while also emphasising it's 1) coming from a place of care and 2) only my opinion <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span> </p>\n<p>So, with that said, I feel like this episode took too long to get to the content. I was doing chores around the house as I'm listening, as usual, and I'm like... feels like this intro has been running <em>awhile</em>, so I check my phone. ~20m or ~1/3 of the runtime in and from memory the episode topics haven't been touched yet.</p>\n<p>Maybe next time you could say, 'hey, we kind of waffle for a bit here, if you want to skip to the content then it begins at <em>timestamp</em>'? Or flip it and put it at the end of podcast? I want you to be able to have fun and enjoy making the content, but for me, this episode wasn't working.</p>\n<p>Hope that doesn't come across too harshly, appreciate what you're doing and I'm glad that Ship It is still running. Also this is only one person's opinion, so, keep that in mind <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 480193452,
+        "sender_full_name": "Liam Jones",
+        "timestamp": 1730532710
+    },
+    {
+        "content": "<p>I also really like the ship it episodes, and wanted to add constructive feedback as well. I listen to the podcasts frequently in the car, and especially when there are laughters, the volume keeps rising that high that I am manually reducing it. Other talk is not that loud afterwards, so I rise the volume again. I keep repeating this quite often during the episodes. <br>\nI have nothing against laughing in podcasts, but maybe you could balance volume levels a bit more? <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span><br>\nNothing major, but I would appreciate such a change. It would improve my listening experience quite a bit.</p>",
+        "id": 480245807,
+        "sender_full_name": "Konrad",
+        "timestamp": 1730576989
+    },
+    {
+        "content": "<p>I don't disagree with a heads up being useful, but I wanted to chime in and say I very much enjoyed the kid conversation <span aria-label=\"big smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"big smile\">:big_smile:</span></p>",
+        "id": 480800766,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1730841110
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752887\">Konrad</span> <a href=\"#narrow/stream/456580-shipit/topic/128.3A.20Infosec.20.26.20OpenTelemetry/near/480245807\">said</a>:</p>\n<blockquote>\n<p>I also really like the ship it episodes, and wanted to add constructive feedback as well. I listen to the podcasts frequently in the car, and especially when there are laughters, the volume keeps rising that high that I am manually reducing it. Other talk is not that loud afterwards, so I rise the volume again. I keep repeating this quite often during the episodes. <br>\nI have nothing against laughing in podcasts, but maybe you could balance volume levels a bit more? <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span><br>\nNothing major, but I would appreciate such a change. It would improve my listening experience quite a bit.</p>\n</blockquote>\n<p>And here I thought experienced this as a problem in my car since it has a low constant engine/exhaust drone (I mean it probably doesn’t help either lol).</p>\n<p>I agree, it would be an amazing improvement to get some volume normalization, I’m often turning up my car’s volume when I can’t hear one person talking, then someone else responds or laughs and I have to turn it back down, rinse and repeat lol.</p>",
+        "id": 481064002,
+        "sender_full_name": "Steven Turturo",
+        "timestamp": 1730966784
+    },
+    {
+        "content": "<p>I was disappointed in this episode honestly. The kid conversation was fun but there wasn't really a lot of meat on the OpenTelemetry topic. I also agree with others that the audio production on ShipIt tends to be sporadic, mainly with Autumn's audio. I too listen to podcasts in the car and I often have my wife sleeping on the longer rides and I constantly have to monitor the volume to respond to much louder laughter throughout the episode.</p>",
+        "id": 481241114,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1731040667
+    },
+    {
+        "content": "<p>Really appreciate the constructive criticism everyone <span aria-label=\"hearts\" class=\"emoji emoji-2665\" role=\"img\" title=\"hearts\">:hearts:</span> we know it’s not easy to tell people how they can improve and especially hard with text on the internet</p>",
+        "id": 481409676,
+        "sender_full_name": "Justin Garrison",
+        "timestamp": 1731112807
+    },
+    {
+        "content": "<p>I also like the kids talk, it'd be interesting to go deeper into that subject. Some topics to consider; oss tools to protect kids online, having discussions about AI chat with kids, other places to get info, how to talk to non-technical parents about kids tech usage... The list could go on...</p>",
+        "id": 481836813,
+        "sender_full_name": "David Brown",
+        "timestamp": 1731371794
+    },
+    {
+        "content": "<p>I struggled to hear and understand the content on this episode. The style of the conversation makes sense among friends, but it is hard for the podcast audience, who isn't an active participant, to follow and hear clearly. It would help to have one person talking at a time and to have the volume levels between speakers evened out and without sudden changes.</p>",
+        "id": 482045501,
+        "sender_full_name": "Ross Williams",
+        "timestamp": 1731448295
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"759242\">David Brown</span> <a href=\"#narrow/channel/456580-shipit/topic/128.3A.20Infosec.20.26.20OpenTelemetry/near/481836813\">said</a>:</p>\n<blockquote>\n<p>I also like the kids talk, it'd be interesting to go deeper into that subject. Some topics to consider; oss tools to protect kids online, having discussions about AI chat with kids, other places to get info, how to talk to non-technical parents about kids tech usage... The list could go on...</p>\n</blockquote>\n<p>That sounds interesting. Have any recommendations on who we could reach out to?</p>",
+        "id": 482436906,
+        "sender_full_name": "Justin Garrison",
+        "timestamp": 1731602763
+    }
+]

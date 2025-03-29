@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>For the first time, I printed an item that needed a colour-change partway through, and it worked!</p>\n<p>It was a bit of a confusing process, as the printer starts ejecting the current filament but continues to print in a sort of junk area, then it pauses, then the filament should be swapped, then it continues printing in the junk area for a bit, and then it resumes printing the desired object</p>\n<p>But, I didn't know the GCODE would include those pause and swap instructions, so I manually paused it, swapped, and resumed, which ended up being quite redundant </p>\n<p>But now I know for next time :)</p>",
+        "id": 503459007,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1741165979
+    }
+]

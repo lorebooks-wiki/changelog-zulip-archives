@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Jerod &amp; KBall discuss a trio of goings on in/around the web dev world: Evan You's new startup, Matt Mullenweg's WordPress mess &amp; Ryan Carniato's WebComponents debate.</p>\n<p><span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://jsparty.fm/342\">https://jsparty.fm/342</a></p>",
+        "id": 476170362,
+        "sender_full_name": "Logbot",
+        "timestamp": 1728576614
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span> at the end of the episode (which was great, by the way) you asked if there's interest in a show with <a href=\"https://lea.verou.me/blog/2024/wcs-vs-frameworks/\">Lea</a> and <a href=\"https://dev.to/ryansolid/web-components-are-not-the-future-48bh\">Ryan</a> about Web Components. Yes. Absolutely. Thanks.</p>",
+        "id": 476394612,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1728655119
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752868\">Philip Durbin</span> <a href=\"#narrow/channel/456196-jsparty/topic/342.3A.20A.20great.20horse.20to.20bet.20on/near/476394612\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"750170\">Jerod Santo</span> at the end of the episode (which was great, by the way) you asked if there's interest in a show with <a href=\"https://lea.verou.me/blog/2024/wcs-vs-frameworks/\">Lea</a> and <a href=\"https://dev.to/ryansolid/web-components-are-not-the-future-48bh\">Ryan</a> about Web Components. Yes. Absolutely. Thanks.</p>\n</blockquote>\n<p>Emphatically agree! We are working on a design system and paving the road with web components. There’s a lot to love but also some challenges we don’t want to be blind to when implementing in different frameworks. Would love to have an episode with a balanced take on the state of web components. I’ve been following Cory Laviska for a few years with shoelace and now the fold into Web Awesome. Rediscovered your pod cause I was looking for web component content. Great episode! Even created an account to come plus up the web component discussion :) <br>\nbest!</p>",
+        "id": 477829137,
+        "sender_full_name": "Shawn Beatty",
+        "timestamp": 1729363306
+    },
+    {
+        "content": "<p>I've reached out to Lea to see if she's interested. Ryan makes himself generally available for stuff like this, so she'll be harder to nail down, most likely.</p>",
+        "id": 478075955,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729521035
+    }
+]

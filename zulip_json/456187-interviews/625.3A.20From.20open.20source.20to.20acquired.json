@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Ashley Jeffs shares his journey with Benthos, an open source stream processor that was acquired by Redpanda. We talk about the evolution of data streaming technologies, the challenges he faced while growing the project, the decision to bootstrap versus seek venture capital, and what ultimately led to the acquisition. We discuss reactions to licensing changes, what it's like to have your thing acquired, the challenging yet fulfilling nature of open source work, what's next for Benthos, and what it takes to enjoy the journey. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/625\">https://changelog.fm/625</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.fm/625#t=0\">00:00</a></td>\n<td>This week on The Changelog</td>\n<td>01:13</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.fm/625#t=73\">01:13</a></td>\n<td><a href=\"https://www.augmentcode.com\">Sponsor: Augment Code</a></td>\n<td>03:30</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.fm/625#t=283\">04:43</a></td>\n<td>Start the show!</td>\n<td>05:14</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.fm/625#t=597\">09:57</a></td>\n<td>Let's go way back</td>\n<td>07:32</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.fm/625#t=1049\">17:29</a></td>\n<td>Getting people to use your open source</td>\n<td>08:34</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.fm/625#t=1562\">26:02</a></td>\n<td>Mundane and boring</td>\n<td>01:05</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.fm/625#t=1627\">27:07</a></td>\n<td>Landing large org users</td>\n<td>05:12</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.fm/625#t=1939\">32:19</a></td>\n<td>Not serious business here</td>\n<td>02:51</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.fm/625#t=2110\">35:10</a></td>\n<td>If it fits on a credit card</td>\n<td>10:54</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.fm/625#t=2764\">46:04</a></td>\n<td>How did the acquisition go down?</td>\n<td>02:21</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.fm/625#t=2905\">48:25</a></td>\n<td><a href=\"https://fly.io/\">Sponsor: Fly.io</a></td>\n<td>03:06</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.fm/625#t=3091\">51:31</a></td>\n<td>Going off the rails</td>\n<td>02:36</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.fm/625#t=3248\">54:08</a></td>\n<td>Call me \"Daddy pig\"</td>\n<td>02:53</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.fm/625#t=3421\">57:01</a></td>\n<td>Benthos just went away</td>\n<td>03:12</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.fm/625#t=3613\">1:00:13</a></td>\n<td>Now it's open core</td>\n<td>05:40</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.fm/625#t=3952\">1:05:52</a></td>\n<td>Was this a rug pull?</td>\n<td>10:45</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.fm/625#t=4598\">1:16:38</a></td>\n<td>What's the alternate universe?</td>\n<td>06:20</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.fm/625#t=4977\">1:22:57</a></td>\n<td>Did Synadia miss out?</td>\n<td>02:08</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.fm/625#t=5105\">1:25:05</a></td>\n<td>Overlapping user bases</td>\n<td>04:02</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.fm/625#t=5347\">1:29:07</a></td>\n<td>I'm just gonna play video games now</td>\n<td>13:11</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.fm/625#t=6138\">1:42:18</a></td>\n<td>Healthy open source habits</td>\n<td>00:39</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.fm/625#t=6177\">1:42:57</a></td>\n<td>Thanks Hector Rios!</td>\n<td>02:09</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.fm/625#t=6305\">1:45:05</a></td>\n<td>Closing thoughts and stuff</td>\n<td>02:27</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.fm/625#t=6453\">1:47:33</a></td>\n<td>BONUS teaser</td>\n<td>00:57</td>\n</tr>\n</tbody>\n</table>",
+        "id": 495505237,
+        "sender_full_name": "Logbot",
+        "timestamp": 1737640806
+    },
+    {
+        "content": "<p>This was very funny, and a great guest choice + interesting story!</p>",
+        "id": 495867435,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1737808593
+    },
+    {
+        "content": "<p>Yeah, agreed. I always enjoy hearing about these journeys.</p>",
+        "id": 496087915,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1737973748
+    },
+    {
+        "content": "<p>Another great episode. Super fun to learn more about Ash. I’ve recently started working with the Benthos ecosystem so hearing the full story was fascinating.</p>",
+        "id": 500284620,
+        "sender_full_name": "Joe",
+        "timestamp": 1739831686
+    }
+]

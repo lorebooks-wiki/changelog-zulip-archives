@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>I wish I started doing this sooner <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span>For the first time I tried preconfiguring my raspberry pi os image with an ssh key and wifi settings. So now I never need to plug it into a keyboard and monitor.</p>",
+        "id": 472073659,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1727030682
+    },
+    {
+        "content": "<p>What OS are you guys running for RPi? I have a RPi 4B that I have run hypriot OS on but I am eyeballing Thalos and wondering if that's a good choice or not? I had my eyes on K3OS a few years' back but that was discontinued when Darren Shepherd left Rancher/Suse. I want to run k3s or a similar small foot print kubernets distro on it.</p>",
+        "id": 472081503,
+        "sender_full_name": "Erik Svensson",
+        "timestamp": 1727036929
+    },
+    {
+        "content": "<p>I used Sidero's Omni for a while and it was really nice. But I kind of concluded that it was overkill. At the moment I'm just using plain old Raspberry Pi OS, with docker-compose and I like the simplicity of it.</p>",
+        "id": 472085479,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1727040040
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/66849/VcK7OxF9fZaCDCVffll6VKFk/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/VcK7OxF9fZaCDCVffll6VKFk/image.png\" title=\"image.png\"><img data-original-dimensions=\"627x664\" src=\"/user_uploads/thumbnail/66849/VcK7OxF9fZaCDCVffll6VKFk/image.png/840x560.webp\"></a></div>",
+        "id": 472085550,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1727040092
+    },
+    {
+        "content": "<p>I'm not even using the three RPi's :-D</p>",
+        "id": 472085553,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1727040101
+    },
+    {
+        "content": "<p>For my Raspberry Pi's I use Raspberry Pi OS.</p>",
+        "id": 472119355,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1727062936
+    },
+    {
+        "content": "<p>The only thing I’ve used besides Raspberry Pi OS is Talos. I couldn’t figure out how to get it to join a cluster with the Docker nodes I was running on my Mac, but I think that came down to networking. I’m sure it would’ve been fine if all of my nodes were RPis.</p>",
+        "id": 472235993,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1727098815
+    },
+    {
+        "content": "<p>I’m running Ubuntu 22.04 on a Pi4 and Ubuntu 24.04 on a Pi5.</p>",
+        "id": 472335076,
+        "sender_full_name": "Matt Johnson",
+        "timestamp": 1727127100
+    }
+]
