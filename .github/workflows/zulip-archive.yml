@@ -1,0 +1,27 @@
+name: zulip-archive workflow
+
+on:
+  push:
+    branches: [main]
+    paths: [streams.yaml]
+  workflow_dispatch:
+  schedule:
+   - cron: '*/30 * * * *'
+
+jobs:
+  gh-pages:
+    runs-on: ubuntu-latest
+    name: Publish to GitHub Pages
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Run archive
+      id: archive
+      uses: zulip/zulip-archive@master
+      with:
+        zuliprc: ${{ secrets.zuliprc }}
+        # Using the GitHub Token that is provided automatically by GitHub Actions
+        # (no setup needed).
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        delete_history: true
+        archive_branch: main
