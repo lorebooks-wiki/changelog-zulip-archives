@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>I think it would be really awesome to have a podcast that covered the quantum software ecosystem. It is always growing and evolving, with packages like IBM's Qiskit, Xanadu's Pennylane, Google's Cirq, etc. pushing the envelope with each release.</p>",
+        "id": 517206140,
+        "sender_full_name": "Marcus Edwards",
+        "timestamp": 1746837397
+    },
+    {
+        "content": "<p>That would be interesting but in a more abstract way because most of us have no access to quantum computers.</p>",
+        "id": 517299411,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1746915078
+    },
+    {
+        "content": "<p>In a way, perhaps LLMs forcing (good) teams to adapt to non-deterministic responses could help prepare them for dealing with quantum computing?</p>",
+        "id": 517301516,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1746917297
+    }
+]
