@@ -1,0 +1,93 @@
+<html>
+<head><meta charset="utf-8"><title>A night of vibing · general · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/index.html">general</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/A.20night.20of.20vibing.html">A night of vibing</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="517348189"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/A%20night%20of%20vibing/near/517348189" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/A.20night.20of.20vibing.html#517348189">(May 11 2025 at 10:34)</a>:</h4>
+<p>So I decided to give cursor and windsurf a try. I created a prompt which was basically a spec for a non trivial app. I wanted to challenge the AI to write a complete app and see what happens.  It's web based community app.  I asked it to write in go and use echo, templ, htmx, goose, air and sqlite but I didn't specify any kind of ORM or database tool.</p>
+<p>Cursor it turns out doesn't create any files on disk. It creates some code and then expects you to create the file so it can populate it. I got tired of this pretty fast and gave up.</p>
+<p>Windsurf was much better. It can create files and crafts commands but it won't run the commands unless you click OK.   It created a go project, installed packages, and wrote a bunch of code. It didn't write the whole app but wrote the basics (user creation, login, signup and a landing page). Nothing worked though, so we entered into an extended dialog where I would tell it it didn't work and it would fix the code. This went on for several hours until I got tired of it and it's still not done.   I asked it write a summary (which wasn't great) and commit the session to memory in case I want to continue.</p>
+<p>It didn't use HTMX at all. It wrote one templ layout but didn't use it. All other pages were static HTML. The stylesheet was nice but it's in the HTML file. It didn't use goose for migrations and instead just wrote a giant SQL script (which it kept modifying as we went along).</p>
+<p>The only thing that works on the app is the login and signup.  I looked at the code and some if it seems OK,  some seems like it won't work but I won't know until I try that section of code. No tests were written.</p>
+<p>TLDR. After about four or five hours of vibe coding I had the equivalent of "rails new" and "Rails g authentication" or "Bundle install devise".  Something that would have taken me five minutes.</p>
+<p>BTW. For the last couple of days I have been looking at at least a dozen go projects to deal with database access. It's mind boggling to me that this ubiquitous functionality which is in every app is so clumsy and horrible in go. Every other language I have used has a widely used package which facilitates database operations. The code generated has SQL statements all over the place.  Makes me appreciate how great Active Record or Sequel from the ruby world are.</p>
+
+
+
+<a name="517348241"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/A%20night%20of%20vibing/near/517348241" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Notification Bot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/A.20night.20of.20vibing.html#517348241">(May 11 2025 at 10:35)</a>:</h4>
+<p>This topic was moved here from <a class="stream-topic" data-stream-id="455613" href="/#narrow/channel/455613-friends/topic/A.20night.20of.20vibing">#friends &gt; A night of vibing</a> by <span class="user-mention silent" data-user-id="755905">Tim Uckun</span>.</p>
+
+
+
+<a name="517348323"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/A%20night%20of%20vibing/near/517348323" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/A.20night.20of.20vibing.html#517348323">(May 11 2025 at 10:36)</a>:</h4>
+<p>Next I am going to try claude code and then see what I can do with gemini and deepseek.</p>
+
+
+
+<a name="517399805"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/A%20night%20of%20vibing/near/517399805" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/A.20night.20of.20vibing.html#517399805">(May 11 2025 at 21:58)</a>:</h4>
+<p><span class="user-mention" data-user-id="755905">@Tim Uckun</span> I think you need a model with "tool use" capabilities in order to have files created, but I'm an LLM newbie <span aria-label="shrug" class="emoji emoji-1f937" role="img" title="shrug">:shrug:</span></p>
+
+
+
+<a name="517400214"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/A%20night%20of%20vibing/near/517400214" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/A.20night.20of.20vibing.html#517400214">(May 11 2025 at 22:05)</a>:</h4>
+<p>I know that claude code can create and modify files because it runs in the terminal and windsurf did for sure.</p>
+
+
+
+<a name="517400579"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/A%20night%20of%20vibing/near/517400579" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/A.20night.20of.20vibing.html#517400579">(May 11 2025 at 22:11)</a>:</h4>
+<p>BTW a couple of interesting takeaways from the windsurf session. </p>
+<p>It would write some code and then try to compile it. When it ran into errors it detected the errors and fixed them although I had no idea what it did (I didn't check).  </p>
+<p>It knew it had to restart the server, knew how to kill it but it often had to try a couple of times to kill it</p>
+<p>I asked it to install air to restart the server automatically and it did but it forgot all about it and kept wanting to kill and restart anyway.</p>
+<p>It wrote a makefile!</p>
+<p>I told it to write a seeder and it chose interesting data to seed with.</p>
+
+
+
+<a name="517400669"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/A%20night%20of%20vibing/near/517400669" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/A.20night.20of.20vibing.html#517400669">(May 11 2025 at 22:12)</a>:</h4>
+<p>I am going to try the exact same test with other tools but I am thinking a better approach with vibe coding is to do a feature at a time instead of specs for the entire app but I am curious how well it will read and understand the existing code and write code that fits within that structure.</p>
+
+
+
+<a name="517681597"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/A%20night%20of%20vibing/near/517681597" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/A.20night.20of.20vibing.html#517681597">(May 12 2025 at 22:38)</a>:</h4>
+<p>Last night I decided to try the almost same prompt but instead with ruby and rails. I did...</p>
+<ol>
+<li>rails new</li>
+<li>Bundle add authentication-zero</li>
+<li>rails g authentication --invitable, --omniauthable --tenantable </li>
+</ol>
+<p>I didn't add anything too fancy like passwordless logins or webauthn or anything.</p>
+<p>In my prompt I specifically said I already built the user model and the authentication and it shouldn't do any of that.  I also told it to read other rails specific instructions found here <a href="https://github.com/Duartemartins/rails_copilot_instructions">https://github.com/Duartemartins/rails_copilot_instructions</a></p>
+<p>Here is what happened.</p>
+<p>First it got confused and asked me whether this was a continuation of the go project. I told it to ignore all previous sessions and start a new one.</p>
+<p>It seems to have ignored  reading the rails specific instructions </p>
+<p>It said it was going to create a new rails app and (again) told it I already had an app.</p>
+<p>Then it said it was going to create all the models but it had a user in there so I told it not to execute the command and redo it without a user model. </p>
+<p>Then it went on a generation spree. It created models, routes, views, controllers, etc. This all seemed to be going to pretty well and took much less time than with go but I suspect this was because it wasn't compiling and finding errors. </p>
+<p>At the end I ran the app and it couldn't run the migrations because of an error. It had put a lot of postgres specific types in the migrations and I was using sqlite.<br>
+ I fed it the error and it spent some time fixing all the migration errors. It did this by fixing a file, running the migrations, reading the errors, fixing the next file etc. After a while that was done and I pointed out other errors on the page and it started trying to fix those. It fixed a couple before I decided to call it a night.</p>
+<p>the big problem is that it had edited the user model and the authentication routes to such a degree that the authentication didn't work. Apparently the model is trained on devise gem and sprinkled device specific call and helpers in the views and controllers.  It actually started implementing those helpers which I found oddly impressive although it shouldn't have created function calls to non existent functions in the first place.</p>
+<p>All in all I think this was a mixed bag. On the one hand the app is broken, on the other hand a whole lot of work got done much more than the go app and it was more idiomatic rails so should be relatively easy to fix. On the third hand i don't know why it absolutely ignored some very explicit instructions I have to regarding additional prompts and staying away from authentication logic. I think that's my bad for using the authentication-zero gem instead of using the rails built in generator or even just devise. </p>
+<p>My take is that AI is probably pretty decent at working on rails codebases if you stick to the well trodden path. Devise for authentication, postgres for the database.</p>
+<p>I would hate to think what it would do if I was using roda or sinatra or whatever.</p>
+<p>Also I'll reiterate that it seems like a horrible mistake to create a very complex and detailed prompt to spec out an entire app. Either keep it super vague (build me a reddit clone) or super specific for one feature (build me a feature to allow a user to do X).  </p>
+<p>I'll keep vibing and keep you guys updated.</p>
+
+
+
+<hr><p>Last updated: May 17 2025 at 23:36 UTC</p>
+</html>

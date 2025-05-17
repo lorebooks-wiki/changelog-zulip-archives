@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>Just wrapped the Zulip episode. <a href=\"https://changelog.com/podcast/607\">https://changelog.com/podcast/607</a></p>\n<p>Curious how Changelog &amp; community is liking Zulip 6+ month later?</p>",
+        "id": 510391161,
+        "sender_full_name": "Joe",
+        "timestamp": 1743872117
+    },
+    {
+        "content": "<p>I love it. </p>\n<p>I had never engaged with the community in Slack because I always got too overwhelmed with the linear flow of conversations. Topic based systems are such a fresh breath of air. For example, I can never imagine having a thread like <a class=\"stream-topic\" data-stream-id=\"453512\" href=\"/#narrow/channel/453512-general/topic/WordPress.20Drama/with/472009371\">#general &gt; WordPress Drama</a> being continued for so long in Slack.</p>",
+        "id": 510393626,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1743873911
+    },
+    {
+        "content": "<p>I'm a big fan, very happy to have one fewer Slack in my life. Zulip feels snappier all round, but one way I especially notice it is that when I read messages, they stay read. In Slack I have to swap accounts and channels several times before the white dots go away. Minor detail but important!</p>",
+        "id": 510444129,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1743914319
+    },
+    {
+        "content": "<p>Loving it too, most notably it makes all my other Slack/Discord communities feel tedious by comparison. Also one or two groups I belong to have moved from Slack to Discord and I've wished Zulip was a more realistic consideration for a general (not tech or work-focused) audience</p>",
+        "id": 510783558,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1744068121
+    },
+    {
+        "content": "<p>I'm gearing up to try Zulip with a local community led housing group. Several members struggle with Slack's UI and finding messages across various channels so I'm keen to see what they make of Z.</p>",
+        "id": 510804280,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1744079882
+    },
+    {
+        "content": "<p>Big fan. My company is looking to deploy its 3rd self hosted chat system in as many years and I’m trying to unite the anti-“let’s just use Teams because we already pay for Office” people around Zulip.</p>",
+        "id": 512065142,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1744633285
+    }
+]

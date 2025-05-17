@@ -1,0 +1,68 @@
+[
+    {
+        "content": "<p>Beyang Liu, the CTO &amp; Co-founder of Sourcegraph is back on the pod. Adam and Bryant go deep on the idea of \"industrializing software development\" using AI agents, using AI in general, using code generation. So much is happening in and around AI and Sourcegraph continues to innovate again and again. From their editor assistant called Cody, to Code Search, to AI agents, to Batch Changes, they're really helping software teams to industrialize the process, the inner and the outer loop, of being a software developer on high performance teams with large codebases. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/632\">https://changelog.fm/632</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.fm/632#t=0\">00:00</a></td>\n<td>This week on The Changelog</td>\n<td>01:26</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.fm/632#t=86\">01:26</a></td>\n<td><a href=\"https://retool.com/changelog\">Sponsor: Retool</a></td>\n<td>03:01</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.fm/632#t=271\">04:31</a></td>\n<td>Start the show!</td>\n<td>05:59</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.fm/632#t=630\">10:30</a></td>\n<td>What does it mean to \"industrialize\" software development?</td>\n<td>05:28</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.fm/632#t=958\">15:58</a></td>\n<td>How did you know AI was coming?</td>\n<td>03:47</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.fm/632#t=1185\">19:45</a></td>\n<td>AI Agents are here</td>\n<td>04:03</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.fm/632#t=1428\">23:48</a></td>\n<td>Day in the life of an Engineer who uses Sourcegraph</td>\n<td>10:13</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.fm/632#t=2042\">34:02</a></td>\n<td>Agent Code Review</td>\n<td>03:26</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.fm/632#t=2247\">37:27</a></td>\n<td><a href=\"https://www.augmentcode.com\">Sponsor: Augment Code</a></td>\n<td>03:09</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.fm/632#t=2436\">40:36</a></td>\n<td>Inner Loop vs Outer Loop</td>\n<td>03:33</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.fm/632#t=2650\">44:10</a></td>\n<td>We have limited will power</td>\n<td>09:26</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.fm/632#t=3215\">53:35</a></td>\n<td>Converting dumb Cron jobs to smart AI Agents</td>\n<td>07:28</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.fm/632#t=3663\">1:01:03</a></td>\n<td>Innovating in trusted and controled loops</td>\n<td>01:56</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.fm/632#t=3779\">1:02:59</a></td>\n<td>Sourcegraph for Enterprise and Government</td>\n<td>01:48</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.fm/632#t=3887\">1:04:47</a></td>\n<td>Challenges building for self-hosted and cloud</td>\n<td>01:41</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.fm/632#t=3988\">1:06:28</a></td>\n<td>VS Code is most popular for Cody</td>\n<td>00:57</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.fm/632#t=4045\">1:07:25</a></td>\n<td>Just buy Zed?</td>\n<td>07:46</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.fm/632#t=4511\">1:15:11</a></td>\n<td><a href=\"https://temporal.io\">Sponsor: Temporal</a></td>\n<td>02:21</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.fm/632#t=4653\">1:17:33</a></td>\n<td>The state of Frontier AI models</td>\n<td>03:44</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.fm/632#t=4876\">1:21:16</a></td>\n<td>How Sourcegraph interfaces with the various models</td>\n<td>02:30</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.fm/632#t=5026\">1:23:46</a></td>\n<td>\"We partner very closely\" with the Frontier AI model developers</td>\n<td>04:03</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.fm/632#t=5269\">1:27:49</a></td>\n<td>Speculating on what's to come (DM Beyang for access)</td>\n<td>04:25</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.fm/632#t=5534\">1:32:14</a></td>\n<td>How popular is Cody?</td>\n<td>03:18</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.fm/632#t=5732\">1:35:32</a></td>\n<td>It's all about the inner/outer loop</td>\n<td>02:44</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://changelog.fm/632#t=5896\">1:38:16</a></td>\n<td>Achieving industrial economies of scale</td>\n<td>01:01</td>\n</tr>\n<tr>\n<td>26</td>\n<td><a href=\"https://changelog.fm/632#t=5957\">1:39:17</a></td>\n<td>Read The Mythical Man-Month</td>\n<td>00:39</td>\n</tr>\n<tr>\n<td>27</td>\n<td><a href=\"https://changelog.fm/632#t=5997\">1:39:57</a></td>\n<td>Closing thoughts and stuff</td>\n<td>03:21</td>\n</tr>\n<tr>\n<td>28</td>\n<td><a href=\"https://changelog.fm/632#t=6198\">1:43:18</a></td>\n<td>++ Teaser</td>\n<td>01:29</td>\n</tr>\n</tbody>\n</table>",
+        "id": 505291795,
+        "sender_full_name": "Logbot",
+        "timestamp": 1741829711
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"750017\">@Adam Stacoviak</span> I'm not sure I share your enthusiasm over the idea of \"industrializing software development.\"</p>\n<p>I love the idea of the end goal of taking away the \"tedious\" tasks of software (I think most developers would agree). But, I think I'm hung up on the term \"industrialize\". So I would like to get your interpretation.</p>",
+        "id": 505875168,
+        "sender_full_name": "Chris Duzan",
+        "timestamp": 1742064837
+    },
+    {
+        "content": "<p>The picture that comes to my mind is an assembly line. So, maybe it's just a bad analogy, but it seems like this idea of factory work (eg. 1 human produces X products per hour) is something we (as software developers) have been trying to escape. One example is that for the longest time the software industry has tried to measure developer productivity by lines of code committed (or number of commits, or number of PRs, etc). But we know that this doesn't directly correlate to value.</p>\n<p>Maybe I need to shift my mental model away from classic factories. And maybe this \"industrialization\" of software will look like something completely different. But \"industrialization\" seems to butt heads with the creative problem solving that software developers do today.</p>",
+        "id": 505875210,
+        "sender_full_name": "Chris Duzan",
+        "timestamp": 1742064844
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"758958\">@Chris Duzan</span> <a href=\"https://www.smbc-comics.com/comic/sad-2\">https://www.smbc-comics.com/comic/sad-2</a></p>",
+        "id": 505894713,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1742080478
+    },
+    {
+        "content": "<p>I’m attracted to the “economies of scale” aspect. We’re already automating, just not that efficiently. That last 125 years of humanity has been iterating on more efficient automation.</p>",
+        "id": 505906493,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1742090629
+    },
+    {
+        "content": "<p>Yeah, no argument from me there. I see 2 potential routes for better scaling of teams.</p>\n<ol>\n<li>Faster, better understanding of the entire system (I assume this is where AI comes in) so developers can make informed decisions sooner and not be bottlenecked trying to understand everything all at once.</li>\n<li>Reduce the scope per developer so they don't need to know much outside of their one responsibility. That way you can drop in, for example, a \"REST API developer\" at any company and they can almost immediately understand their small scope and start providing value for the team.</li>\n</ol>\n<p>Ideally companies like Sourcegraph are moving us toward number 1. While number 2 feels like the \"assembly line\" version of things. But who knows, that revolutionized the auto industry, maybe something like that is what we need.</p>",
+        "id": 505960257,
+        "sender_full_name": "Chris Duzan",
+        "timestamp": 1742133671
+    },
+    {
+        "content": "<p>I think both points are being solved by Sourcegraph. Understanding systems and large codebases has been their core thesis since inception. And you can draw a line from “reduce the scope per dev” to “innovate within constraints” like we talked about on the show.</p>",
+        "id": 505974351,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1742143947
+    },
+    {
+        "content": "<p>What they have sounds really cool but I've also slightly wary of that message. Comparing software to manufacturing has always felt wrong to me.</p>\n<p>If you are building a car you design it then build 1000's in an automated fashion because the build process is repetative. Software however is much more like the design than the manufacturing. It is just hard to see since mostly the \"manufacturing\" of software is build and send bits over a wire.</p>\n<p>That said I do think AI is well placed to automate several elements in a productive way, mostly as an evolution of where existing tools get stuck because we can't set defined rules or evolve those rules over time. Will be fun to see what they come out with!</p>",
+        "id": 505990580,
+        "sender_full_name": "James McNally",
+        "timestamp": 1742155064
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"762853\">@James McNally</span> have you listened yet? Beyang addresses this feeling as well.</p>",
+        "id": 505990704,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1742155147
+    },
+    {
+        "content": "<p>The industrialization, or economies of scale, analogy is about enabling more people to contribute to the goal. The car example shows that industrialization meant more people can contribute to making a car a reality. I agree with James's point that in software, by design, we're not stamping out the same thing again and again, and I think that's where comparing to assembly lines falls apart in this analogy. However, the idea of industrialization still holds, in my eyes. Do I want a team is seamstresses knitting the sleeves on my shirt, or can that toil be replaced. Do I need a expert in welding bicycle frames or do my systems allow for any welder to become a frame expert.<br>\nMy interpretation of the goal was how do we make software easier for more people to contribute to. As the contributors scale up, what efficiencies can we put in place that would benefit from that scale.</p>",
+        "id": 506602001,
+        "sender_full_name": "Sukhdeep Brar",
+        "timestamp": 1742341570
+    },
+    {
+        "content": "<p>Thinking about it more: \"democratisation\" might be a better term. It covers the \"more people can contribute\" better, but leaves out the economies of scale.</p>",
+        "id": 506609806,
+        "sender_full_name": "Sukhdeep Brar",
+        "timestamp": 1742345909
+    }
+]
