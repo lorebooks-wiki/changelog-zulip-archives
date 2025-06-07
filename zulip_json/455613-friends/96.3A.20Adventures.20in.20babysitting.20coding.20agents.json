@@ -1,0 +1,56 @@
+[
+    {
+        "content": "<p>The ever-provocative Steve Yegge joins us fresh off a vibe coding bender so productive, he wrote a book on the topic alongside award-winning author Gene Kim. Steve tells us why he believes the IDE is dead, why babysitting AI agents is more fun than coding, when vibe coding might take over the enterprise, how software devs should approach coding agents, and what it all means for society. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.am/96\">https://changelog.am/96</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.am/96#t=0\">00:00</a></td>\n<td>Let's talk!</td>\n<td>00:38</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.am/96#t=38\">00:38</a></td>\n<td><a href=\"https://retool.com/agents\">Sponsor: Retool</a></td>\n<td>01:59</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.am/96#t=157\">02:37</a></td>\n<td>Hot takes &amp; Friends</td>\n<td>07:00</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.am/96#t=576\">09:36</a></td>\n<td>Babysitting AIs</td>\n<td>06:51</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.am/96#t=987\">16:27</a></td>\n<td>All coding will change</td>\n<td>03:34</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.am/96#t=1202\">20:02</a></td>\n<td>Multi-agent is the key</td>\n<td>04:24</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.am/96#t=1466\">24:26</a></td>\n<td>The dopamine hit</td>\n<td>02:22</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.am/96#t=1608\">26:48</a></td>\n<td>The death of the junior eng?</td>\n<td>03:25</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.am/96#t=1813\">30:13</a></td>\n<td><a href=\"https://www.heroku.com/changelogpodcast\">Sponsor: Heroku</a></td>\n<td>03:03</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.am/96#t=1996\">33:16</a></td>\n<td>It's starting in enterprises</td>\n<td>06:04</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.am/96#t=2359\">39:19</a></td>\n<td>The new gig economy</td>\n<td>01:27</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.am/96#t=2446\">40:46</a></td>\n<td>A fitting analogy</td>\n<td>02:51</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.am/96#t=2617\">43:37</a></td>\n<td>Afraid to go beyond</td>\n<td>07:00</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.am/96#t=3037\">50:37</a></td>\n<td>Getting over the hump</td>\n<td>03:29</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.am/96#t=3246\">54:06</a></td>\n<td>Worth waiting?</td>\n<td>03:41</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.am/96#t=3467\">57:47</a></td>\n<td><a href=\"https://agntcy.org\">Sponsor: Outshift by Cisco</a></td>\n<td>01:03</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.am/96#t=3531\">58:51</a></td>\n<td>Getting tactical</td>\n<td>03:10</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.am/96#t=3721\">1:02:01</a></td>\n<td>Talk to the plan</td>\n<td>08:13</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.am/96#t=4214\">1:10:14</a></td>\n<td>Who wrote this?</td>\n<td>05:17</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.am/96#t=4531\">1:15:31</a></td>\n<td>So expensive!</td>\n<td>04:33</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.am/96#t=4804\">1:20:04</a></td>\n<td>Giving them tools</td>\n<td>02:08</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.am/96#t=4932\">1:22:12</a></td>\n<td>Hitting the household</td>\n<td>03:02</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.am/96#t=5113\">1:25:13</a></td>\n<td>Dumbness as a feature</td>\n<td>00:36</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.am/96#t=5150\">1:25:50</a></td>\n<td>Memory matters</td>\n<td>01:41</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://changelog.am/96#t=5251\">1:27:31</a></td>\n<td>Societal impact</td>\n<td>02:02</td>\n</tr>\n<tr>\n<td>26</td>\n<td><a href=\"https://changelog.am/96#t=5373\">1:29:33</a></td>\n<td>Being a kid today</td>\n<td>00:56</td>\n</tr>\n<tr>\n<td>27</td>\n<td><a href=\"https://changelog.am/96#t=5429\">1:30:29</a></td>\n<td>What's the point?</td>\n<td>01:27</td>\n</tr>\n<tr>\n<td>28</td>\n<td><a href=\"https://changelog.am/96#t=5517\">1:31:57</a></td>\n<td>Bye, friends</td>\n<td>00:47</td>\n</tr>\n<tr>\n<td>29</td>\n<td><a href=\"https://changelog.am/96#t=5563\">1:32:43</a></td>\n<td><a href=\"https://changelog.com/live\">Next week on the pod</a></td>\n<td>01:14</td>\n</tr>\n</tbody>\n</table>",
+        "id": 522833126,
+        "sender_full_name": "Logbot",
+        "timestamp": 1749236527
+    },
+    {
+        "content": "<p>I thought Nathan Sobo's \"genius-level golden retriever on acid\" was the best description for AI coding agents ever until Steve dropped \"toddler with a chainsaw on ice skates\" on us <span aria-label=\"rolling on the floor laughing\" class=\"emoji emoji-1f923\" role=\"img\" title=\"rolling on the floor laughing\">:rolling_on_the_floor_laughing:</span></p>",
+        "id": 522834964,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1749237472
+    },
+    {
+        "content": "<p>That was a good description.</p>",
+        "id": 522854069,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1749249065
+    },
+    {
+        "content": "<p>I'm going to push back a bit on the two pizza team and gig topic. It's not AI that's unblocking or unlocking the benefits of that approach. It's the business leadership itself. There's nothing preventing these concepts today aside from poor leadership siloing and structuring a business in such a way where progress is blocked. Why should your good UX people be pigeonholed into a single product or project? Why should engineering be isolated from customers? It's because the poor business leaders decided it. That doesn't change with AI.</p>",
+        "id": 522854310,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1749249219
+    },
+    {
+        "content": "<p>“Gig economy” for programmers does not fill me with excitement.</p>\n<p>Even he meant a gig economy within an enterprise, because we live in the worst timeline, why would anyone expect they stop just-in-timing/elastic-workforce-balancing there?</p>",
+        "id": 522911184,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1749320813
+    },
+    {
+        "content": "<p>lots of great ideas and big predictions on this one. loved listening to it.</p>\n<p>one thing to keep in mind, if you dont already know this,  steve is disproportionately incentivized to have agentic coding and vibe coding become a huge success. his company owns a big toll booth on that road.</p>\n<p>not saying this invalidates anything he said in any way. but just like when an analyst goes on tv to talk about a stock and they need to disclose their holdings, it’s important that we take things like this into consideration when having conversations about the future of coding tools.</p>",
+        "id": 522915148,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1749326083
+    },
+    {
+        "content": "<p>I would’ve loved to know what his monthly spend is for that kind is setup.</p>\n<p>I do appreciate him calling out some more hobbyist/learner friendly alternatives (which I’ve already forgotten). But he’s the second thought leader type to recommend Amp to me in the last 24 hours and I was already balking at that &lt;$20/month line (I just told Adam Gordon Bell “I’m in this website and I feel personally attacked <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span>”).</p>",
+        "id": 522918401,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1749329793
+    },
+    {
+        "content": "<p>BTW, does anyone remember what those lower cost agentic editors were so I don’t have to scrub through or wait for the transcript?</p>",
+        "id": 522922657,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1749336183
+    },
+    {
+        "content": "<p>I don't. I use Claude Code with an API token but I'm eyeing the $100/month plan myself.</p>",
+        "id": 522924099,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1749338635
+    }
+]
