@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>Hi there! I'm trying to encode some videos uploaded by users, I'm currently using <a href=\"http://fly.io\">fly.io</a> and spinning up a machine that has ffmpeg and passing the video to be encoded, with these params:</p>\n<p><code>ffmpeg -i /var/folders/5d/4zxvbq_x2q79fww0hg7k1ryh0000gn/T/tmpoe4qof00 -filter_complex [0]scale=height=-1:width=1920[s0] -map [s0] -b:a 128k -acodec aac -crf 23 -preset medium -vcodec libx264 /var/folders/5d/4zxvbq_x2q79fww0hg7k1ryh0000gn/T/tmpp6awkpor.mp4 -y</code></p>\n<p>I'm not sure if I'm doing anything wrong, but even using a performance machine the speed is not ideal (I get 0.305x)</p>\n<p>Does anyone have experience in something like this?</p>\n<p>For context these video will be running on screens in my parents' shop (via chrome) <span aria-label=\"blush\" class=\"emoji emoji-1f60a\" role=\"img\" title=\"blush\">:blush:</span></p>",
+        "id": 489111634,
+        "sender_full_name": "Patrick Arminio",
+        "timestamp": 1734293790
+    },
+    {
+        "content": "<p>That sounds like it's software encoding on a CPU that doesn't have favorable encoding functionality. I don't use Fly but do you know if they have hardware acceleration capabilities that guests can use? That's likely what you'll need.</p>",
+        "id": 489113101,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1734295155
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752976\">@Matthew Sanabria</span> I can use one of these GPUs if that's what you mean: <code>a10</code>, <code>l40s</code>, <code>a100-pcie-40gb</code> and <code>a100-sxm4-80gb</code></p>\n<p>from <a href=\"https://fly.io/docs/reference/configuration/#gpu_kind\">https://fly.io/docs/reference/configuration/#gpu_kind</a></p>",
+        "id": 489113410,
+        "sender_full_name": "Patrick Arminio",
+        "timestamp": 1734295451
+    },
+    {
+        "content": "<p>That should work! I don't see anything in their documentation about hardware acceleration on CPU only machines. It's likely they want you to use their GPU machines.</p>",
+        "id": 489113550,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1734295573
+    },
+    {
+        "content": "<p>They are more expensive though.</p>",
+        "id": 489113561,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1734295581
+    },
+    {
+        "content": "<p>Mind you, I haven't used Fly ever so perhaps I'm missing something. But that performance you're noting seems very much like software encoding.</p>",
+        "id": 489113585,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1734295615
+    },
+    {
+        "content": "<p>thanks! I'll give it a try :D</p>",
+        "id": 489113621,
+        "sender_full_name": "Patrick Arminio",
+        "timestamp": 1734295663
+    },
+    {
+        "content": "<p>Good luck!</p>",
+        "id": 489113625,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1734295667
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752976\">@Matthew Sanabria</span> I got this working with a GPU (I had to find a good base docker image as I was having troubles compiling ffmpeg on my own), it's definitely faster, but I need to tweak the settings now <span aria-label=\"blush\" class=\"emoji emoji-1f60a\" role=\"img\" title=\"blush\">:blush:</span></p>",
+        "id": 489232077,
+        "sender_full_name": "Patrick Arminio",
+        "timestamp": 1734354534
+    },
+    {
+        "content": "<p>Heck yeah! Glad to hear it.</p>",
+        "id": 489280940,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1734366243
+    }
+]
