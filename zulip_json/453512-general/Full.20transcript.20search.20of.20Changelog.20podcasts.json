@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>Changelog has a <a href=\"https://github.com/thechangelog/transcripts\">GitHub repo</a> for all the podcast transcripts. I discovered Typesense recently so I made a simple website to do a full-text search on transcripts. I hit the free-tier limit on hosted Typesense, so there's some episodes missing from the search. Check it out: <a href=\"https://joeriddles.github.io/changelog-transcript-search/\">https://joeriddles.github.io/changelog-transcript-search/</a></p>\n<p><a href=\"/user_uploads/66849/24K7y4JeWJ5avlruKQd_qQ_J/changelog-search.mov\">changelog-search.mov</a></p>",
+        "id": 510453459,
+        "sender_full_name": "Joe",
+        "timestamp": 1743921933
+    }
+]

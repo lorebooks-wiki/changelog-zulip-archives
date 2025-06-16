@@ -1,0 +1,428 @@
+[
+    {
+        "content": "<p>I see several technologies that are maturing at the same time. I know Silicon Valley (place not show) is all about AI at the moment. I see the value, but I've been a little more skeptical of its long-term value insofar as it changes our lives for the better.</p>\n<p>Among the trending technologies, these ones stick out to me, but there are plenty more:</p>\n<ul>\n<li>Wasm </li>\n<li>Local-first applications</li>\n<li>Generative AI</li>\n</ul>\n<p>For me, I think Wasm has a huge potential to disrupt the cloud-native ecosystem. I think we'll see more companies pick it up as a model for deploying their applications safely and efficiently. However, it may be too limiting for certain use cases. I know I can't use it for my current project because I rely on a Git binary in my runtime environment. I'm still looking for the right project to use Wasm in. At work though, we enable users to run their own Wasm as part of a Kafka pipeline in process (Redpanda).</p>\n<p>I'm even more excited about local-first applications like Linear and others. I think it offers a genuinely novel way of both developing and using apps that is way better for users. I've completely moved off of Notion and onto Obsidian for this very reason. I think we'll see a new generation of applications using local first to eat the lunch of existing juggernauts like Atlassian, Google Docs, and Notion.</p>",
+        "id": 471984902,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1726962090
+    },
+    {
+        "content": "<p>I'd like to co-sign your enthusiasm about both wasm and local-first software! I'm keenly following the local first ecosystem and looking for places where it would make sense in our company.</p>",
+        "id": 471996360,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1726972825
+    },
+    {
+        "content": "<p>It's a very long-term vision so probably not what you were thinking of for this topic, but I recently learned about Dynamicland and really love the vision of the future they have.</p>\n<p>I've seen people (read: tech bros) get really inspired by Tony Stark's lab in the Iron Man films and think that's the future of tech. Dynamicland feels to me like that, but if it were invented by your friendly neighbourhood anarchist instead of a billionaire arms dealer <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span></p>\n<p><a href=\"https://youtu.be/5Q9r-AEzRMA?si=qSkvpJfZDqPy71Oy\">This video is a pretty good overview</a>, and <a href=\"https://youtu.be/GmY_BrwWnCA?si=0hXqJ9L6B2tgVSi1\">this video goes into more detail about a single use case</a>.</p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"5Q9r-AEzRMA\" href=\"https://youtu.be/5Q9r-AEzRMA?si=qSkvpJfZDqPy71Oy\"><img src=\"https://uploads.zulipusercontent.net/8ed9d9823a2a933cc6f68799847089d1ad45a8cb/68747470733a2f2f692e7974696d672e636f6d2f76692f355139722d41457a524d412f64656661756c742e6a7067\"></a></div><div class=\"youtube-video message_inline_image\"><a data-id=\"GmY_BrwWnCA\" href=\"https://youtu.be/GmY_BrwWnCA?si=0hXqJ9L6B2tgVSi1\"><img src=\"https://uploads.zulipusercontent.net/ae31aa3f84f31dbf14faeae9cd990ee0997fca65/68747470733a2f2f692e7974696d672e636f6d2f76692f476d595f427277576e43412f64656661756c742e6a7067\"></a></div>",
+        "id": 471996719,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1726973095
+    },
+    {
+        "content": "<p>This is so cool! I love the DIY feel of it.</p>",
+        "id": 472052632,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1727017137
+    },
+    {
+        "content": "<p>I think embedded devices will become more important as they become more accessible to program. It's easier to create devices for home automation and other monitoring needs. I'd like to see a shift from proprietary embedded devices that have zero right to repair onto open hardware/software that you can extend or replace with your own devices.</p>\n<p>To list trends I'm bullish on that haven't been listed yet.</p>\n<ul>\n<li>Accessible embedded devices.</li>\n<li>Right to repair.</li>\n<li>ARM laptops.</li>\n</ul>",
+        "id": 472053616,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1727018063
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752976\">@Matthew Sanabria</span>, I'm wondering if there is some crossover on our interests. I feel like Wasm is the perfect compilation target for an embedded device that is built to run WASI.</p>",
+        "id": 472081948,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1727037299
+    },
+    {
+        "content": "<p>Are we talking about general audiences here, or developers? For example, I love local-first tools as well (paying Obsidian user) but I think it's mostly a subsection of developers who really care, vs a mass market</p>\n<p>I am also bullish on WASM from everything I've heard, and from dealing with Docker daily, although I've yet to really use it myself</p>",
+        "id": 472088025,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1727042305
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755651\">Thomas Eckert</span> <a href=\"#narrow/stream/453512-general/topic/What.20trending.20tech.20are.20you.20most.20bullish.20on.3F/near/472081948\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"752976\">Matthew Sanabria</span>, I'm wondering if there is some crossover on our interests. I feel like Wasm is the perfect compilation target for an embedded device that is built to run WASI.</p>\n</blockquote>\n<p>Agreed. I loved the points you listed above and I didn't want to repeat them. I want to see more wasm support and usage in the industry. I think we're getting there though.</p>",
+        "id": 472107674,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1727054646
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752880\">Lars Ellingsen</span> <a href=\"#narrow/stream/453512-general/topic/What.20trending.20tech.20are.20you.20most.20bullish.20on.3F/near/472088025\">said</a>:</p>\n<blockquote>\n<p>Are we talking about general audiences here, or developers? For example, I love local-first tools as well (paying Obsidian user) but I think it's mostly a subsection of developers who really care, vs a mass market</p>\n</blockquote>\n<p>There's no hard and fast rules here. I think of this from the perspective of a developer, but the scope could be broader. I think Wasm will mostly impact developers, but if it leads to faster services for users, that would be a promising non-dev benefit. Local-first, I believe has a very broad benefit for all users.</p>",
+        "id": 472108476,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1727055300
+    },
+    {
+        "content": "<p>I think that local-first is something that end users care about sometimes, but may not understand that they do. It might just be the difference between an app that has a spinner on every interaction versus an app that responds instantly. Or, an app that works well with limited connectivity- which could be important in certain B2B scenarios, e.g. we have customers who travel around rural areas a fair bit.</p>",
+        "id": 472125947,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1727067586
+    },
+    {
+        "content": "<p>I'm totally aligned here too. WASM, right-to-repair, ARM laptops, Ollama, embedded devices all signal to me a cultural (consumer and developer) shift towards local first. I think combined with this is an ever growing awareness of online privacy and security, and a degradation of trust in corporations and media. </p>\n<p>All in all, it feels a bit like people are taking a cautionary step back from everything. And part of that is the protectionism of having and being able to maintain / build your own stuff.</p>",
+        "id": 474644282,
+        "sender_full_name": "Tillman Jex",
+        "timestamp": 1727975742
+    },
+    {
+        "content": "<p>And speaking of \"limited connectivity\" this is applies to accessing a website _anywhere_ in Australia. When I was there on an extended visit, I wrote up a little git wrapper for my dotfile management to (among other things) push my repo to the origin and mirror concurrently, so I didn't have to wait so long. It was long enough!</p>",
+        "id": 474953283,
+        "sender_full_name": "Tillman Jex",
+        "timestamp": 1728110600
+    },
+    {
+        "content": "<ul>\n<li>\n<p>super bullish on SQLite and postgres in browsers finally, tired of not having databases on the frontend/client<br>\nI think a lot of frontend state management complexity will go away when we don't have to reinvent all the lessons that databases learned 30 years ago</p>\n</li>\n<li>\n<p>Also bullish on docker-compose getting a second wave of attention as some people abandon serverless and kubernetes. I want there to be a <code>docker compose hub</code> like <code>hub.docker.com</code>. podman could steal Docker's lunch by launching something like that first</p>\n</li>\n</ul>",
+        "id": 483582662,
+        "sender_full_name": "Nick Sweeting",
+        "timestamp": 1732141916
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"781907\">@Nick Sweeting</span> where are you seeing SQLite in browsers? Or do you just mean that SQLite wasm is possible now and libraries are being built on top of it?</p>",
+        "id": 483639334,
+        "sender_full_name": "Dustin",
+        "timestamp": 1732177564
+    },
+    {
+        "content": "<p>Yes SQLite WASM is what I was referring to, though I'd love to see it in the browsers directly if that ever happens</p>",
+        "id": 483763051,
+        "sender_full_name": "Nick Sweeting",
+        "timestamp": 1732213767
+    },
+    {
+        "content": "<p>I am of the opinion that wasm is amongst the list of technologies that's 80% there but the remaining 20% will cause you heartbreak and pain and therefore the use will be limited.  There are just too many restrictions in the sandbox.   It also smells a bit too much like the JVM at the moment. </p>\n<p>Having said that I do like the fact that every language seems to be targeting it as a back end.</p>",
+        "id": 483789221,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1732223449
+    },
+    {
+        "content": "<p>Curious why you think it smells like the JVM?</p>",
+        "id": 483869273,
+        "sender_full_name": "Dustin",
+        "timestamp": 1732267593
+    },
+    {
+        "content": "<p>I think wasm is just in that weird phase where it’s far enough along to be useful but not far enough along for the things a lot of people want to use it for.</p>",
+        "id": 483869413,
+        "sender_full_name": "Dustin",
+        "timestamp": 1732267642
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"756209\">@Dustin</span> Promises cross platform VM, runs in the browser but had no access to the DOM, sandboxed environment, needs a runtime, deployed as a single binary etc.</p>\n<p>In all honesty let's bring back applets and j2ee. In retrospect they were ahead of their time.</p>",
+        "id": 483985315,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1732306965
+    },
+    {
+        "content": "<p>Oracle's ownership makes me weary of investing any time/money in JVM technology<br>\nAt least WASM isn't owned by them</p>",
+        "id": 484019793,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1732326292
+    },
+    {
+        "content": "<p>Java doesn't own the JVM. The JVM is open sourced although there are versions of it made by Java, IBM, and others.  AFIK oracle does own the trademark just like they own the trademark on javascript.</p>",
+        "id": 484096656,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1732396249
+    },
+    {
+        "content": "<p>I don’t know if this is a trend, but I’m trying to steer my career more toward smaller devices deployed out in the world. Writing in a more constrained environment is a fun challenge that gives me an excuse to be closer to the metal. Also no one’s asked me to add any useless AI features. (And the AI features I’m anticipating are actually interesting and worthwhile.)</p>",
+        "id": 484343538,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1732551827
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752964\">@Andrew O'Brien</span>, I think that's smart. Similarly, I write a lot of low-level code and Rust in my free time. At work, I write Go that deploys to resource-rich, gigantic Kubernetes clusters, but the safety and memory-use considerations help me write better Go.</p>",
+        "id": 490431347,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1734913980
+    },
+    {
+        "content": "<p>+1 for Rust knowledge improving the use of other languages :) <span aria-label=\"crab\" class=\"emoji emoji-1f980\" role=\"img\" title=\"crab\">:crab:</span></p>",
+        "id": 490432831,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1734915377
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752964\">@Andrew O'Brien</span> curious what sort of devices. Also I think your point relates also to simplification, does it? Myself I transitioned all the new web-related projects to Elixir + Phoenix for the sake of simplicity as well.</p>",
+        "id": 490441214,
+        "sender_full_name": "Piotr",
+        "timestamp": 1734922302
+    },
+    {
+        "content": "<p>After the DHH episode I decided to try ruby again after a very long hiatus. I didn't want to write a rails app (yet) so I decided to write a little app to manage my dotfiles the way I want them managed.  So far it's been fun. I am basically recreating something like ansible but of course super light. What's interesting is that the language is directing me to create a DSL for managing my files and makes it so easy to experiment with the language.  The code just seems to flow out of you because I just type what I think should work and 90% of the time it just does. Of course the codeium code completion really helps a lot here. </p>\n<p>In an ideal world there would be a ruby interpreter that would be a single binary so I could just put it in the same directory as my dotfiles and execute them but OSX and Linux come with ruby already installed so it's not that big of a deal.</p>",
+        "id": 490584001,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1734988210
+    },
+    {
+        "content": "<p>I really wanted to know what the \"defaults for sqlite\" to make it performant are DHH was talking about.</p>",
+        "id": 490584469,
+        "sender_full_name": "Dustin",
+        "timestamp": 1734988458
+    },
+    {
+        "content": "<p>I've been pretty bullish on Cloudflare Durable Objects, and it looks like Rivet just launched something very similar:</p>\n<p><a href=\"https://rivet.gg/docs/actors\">https://rivet.gg/docs/actors</a><br>\n<a href=\"https://news.ycombinator.com/item?id=42472519\">https://news.ycombinator.com/item?id=42472519</a></p>",
+        "id": 490607287,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1735000354
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"756209\">@Dustin</span> It involves setting pragmas for wait timeouts, chache sizes, retries etc, using the WAL,  and probably a couple of extentions. I am not sure if they set strict mode though (they should IMHO)</p>\n<p>Here is an article with explains some of it </p>\n<p><a href=\"https://fractaledmind.github.io/2024/04/15/sqlite-on-rails-the-how-and-why-of-optimal-performance/\">https://fractaledmind.github.io/2024/04/15/sqlite-on-rails-the-how-and-why-of-optimal-performance/</a></p>\n<p>Also this guy does amazing work with sqlite and ruby <a href=\"https://oldmoe.blog/\">https://oldmoe.blog/</a></p>",
+        "id": 490712998,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1735073109
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752986\">@Daniel Buckmaster</span> you should check <a href=\"https://restate.dev/\">https://restate.dev/</a> then</p>",
+        "id": 490776600,
+        "sender_full_name": "Piotr",
+        "timestamp": 1735130999
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"768380\">@Piotr</span> that looks slightly different to me. Restate, like Temporal, seems to be about _durable execution_, which is different to what Cloudflare calls _durable objects_.</p>\n<p>Durable execution is related to workflows, and can be applied to a bunch of different backend concepts. Durable objects are what Jamsocket refers to as \"session backends\", and are kind of related to the \"actor model\", though that's a very broad term.</p>\n<p>To make it more confusing, Rivet seems to have a durable execution engine, which they used as part of building their durable objects feature called \"actors\" <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span> </p>\n<p>Interesting to see more durable execution engines coming onto the market though, thanks for the link. I'm interested in that too but haven't made the jump to trying any of them out.</p>",
+        "id": 490824274,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1735177712
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752986\">@Daniel Buckmaster</span> Restate also has the K/V state which I think can translate to Cloudflares durable objects <a href=\"https://docs.restate.dev/concepts/durable_building_blocks\">https://docs.restate.dev/concepts/durable_building_blocks</a></p>",
+        "id": 490824579,
+        "sender_full_name": "Piotr",
+        "timestamp": 1735178046
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752986\">@Daniel Buckmaster</span> I was investigating them quite intensively after a project that used a \"standard\" BPMN workflow engine.</p>",
+        "id": 490824629,
+        "sender_full_name": "Piotr",
+        "timestamp": 1735178133
+    },
+    {
+        "content": "<p>I'm not seeing any way, in those docs, I could open a websocket connection to an executing function and talk to it in realtime. That's the \"session backend\" concept- maybe this article is the quickest explanation of what I mean? <a href=\"https://digest.browsertech.com/archive/browsertech-digest-cloudflares-durable/\">https://digest.browsertech.com/archive/browsertech-digest-cloudflares-durable/</a></p>\n<p>This is a longer description of \"session backend\" which is quite different from workflows <a href=\"https://jamsocket.com/blog/session-backends\">https://jamsocket.com/blog/session-backends</a></p>",
+        "id": 490824810,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1735178294
+    },
+    {
+        "content": "<p>In fact CloudFlare recently announced a workflow engine built on top of Durable Objects <a href=\"https://blog.cloudflare.com/building-workflows-durable-execution-on-workers/\">https://blog.cloudflare.com/building-workflows-durable-execution-on-workers/</a> - but that's not the use case I'm particularly interested in</p>",
+        "id": 490825006,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1735178465
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752986\">@Daniel Buckmaster</span> I guess the equivalent would be to connect to the Restate server and communicate with other processes managed by it. Restate is quite flexible, and for me one of the benefits was that it was platform agnostic.</p>\n<p>Anyway, I am switching to the BEAM VM + Elixir wherever I can now, so don't need to use Restate :)</p>",
+        "id": 490825440,
+        "sender_full_name": "Piotr",
+        "timestamp": 1735178867
+    },
+    {
+        "content": "<p>I hate new year resolutions but something inside me says \"make a resolution to write your own language\".</p>\n<p>I have to figure out how to silence that devil on my shoulder.</p>",
+        "id": 490916211,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1735246881
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"768380\">@Piotr</span> I wrote up some thoughts on this discussion on my blog, hope this clarifies where I'm coming from! The Erlang section isn't only a reference to you, I have heard that kind of sentiment quite a few times and I do wish someone with more perspective would enlighten me about the BEAM way of solving these kinds of problems! <a href=\"https://crabmusket.net/2024/durable-execution-versus-session-backends/\">https://crabmusket.net/2024/durable-execution-versus-session-backends/</a></p>",
+        "id": 490957794,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1735283377
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752986\">@Daniel Buckmaster</span> it really depends on what you're trying to solve, stateful/stateless backends are \"solutions\" not problems, if you aproach it's more like a X Y problem.</p>\n<p>there are a few solutions in erlang/elixir that are quite easier because you already have abstractions that are \"cluster transparent\",  so once you cluster multiple backend instances, communicating between processes are transparent, you do it in the same way you'd do if they were in the same machine.  but it really depends on what you need</p>",
+        "id": 490984149,
+        "sender_full_name": "cevado",
+        "timestamp": 1735300906
+    },
+    {
+        "content": "<p>if possible you can watch this talk... it has some of those things that are \"just easier\" because of the beam abstractions<br>\n<a href=\"https://www.youtube.com/watch?v=GICJ42OyBGg\">https://www.youtube.com/watch?v=GICJ42OyBGg</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"GICJ42OyBGg\" href=\"https://www.youtube.com/watch?v=GICJ42OyBGg\"><img src=\"https://uploads.zulipusercontent.net/fc9bc6a575f8c54759f5d03536061581f0291171/68747470733a2f2f692e7974696d672e636f6d2f76692f4749434a34324f794247672f64656661756c742e6a7067\"></a></div>",
+        "id": 490984304,
+        "sender_full_name": "cevado",
+        "timestamp": 1735300992
+    },
+    {
+        "content": "<p>i like this one too, it is more clear on where and why erlang/elixir shine on solving some problems.<br>\n<a href=\"https://www.youtube.com/watch?v=JvBT4XBdoUE\">https://www.youtube.com/watch?v=JvBT4XBdoUE</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"JvBT4XBdoUE\" href=\"https://www.youtube.com/watch?v=JvBT4XBdoUE\"><img src=\"https://uploads.zulipusercontent.net/b89aa1681f3a2363282dc6ddc0b466596d0e4efd/68747470733a2f2f692e7974696d672e636f6d2f76692f4a764254345842646f55452f64656661756c742e6a7067\"></a></div>",
+        "id": 490984393,
+        "sender_full_name": "cevado",
+        "timestamp": 1735301046
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"815216\">cevado</span> <a href=\"#narrow/channel/453512-general/topic/What.20trending.20tech.20are.20you.20most.20bullish.20on.3F/near/490984304\">said</a>:</p>\n<blockquote>\n<p>if possible you can watch this talk... it has some of those things that are \"just easier\" because of the beam abstractions<br>\n<a href=\"https://www.youtube.com/watch?v=GICJ42OyBGg\">https://www.youtube.com/watch?v=GICJ42OyBGg</a></p>\n</blockquote>\n<p>that one convinced someone I know to switch to Elixir :)</p>",
+        "id": 490984452,
+        "sender_full_name": "Piotr",
+        "timestamp": 1735301098
+    },
+    {
+        "content": "<p>Haven't watched yet, but presumably this solves for session backends and not durable execution?</p>",
+        "id": 490984496,
+        "sender_full_name": "Dustin",
+        "timestamp": 1735301140
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"756209\">@Dustin</span> again, \"session backends\" \"durable execution\" are solutions, not problems. what is that you're trying to solve? are you trying to keep state on disconnect(for a wizard or a complex form)? you have a FE heavy on business logic and you have a shared state between the FE and BE?</p>",
+        "id": 490985435,
+        "sender_full_name": "cevado",
+        "timestamp": 1735301742
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"756209\">@Dustin</span> I guess an Elixir sort-of equivalent of a session backend could be <a href=\"https://github.com/phoenixframework/phoenix_live_view\">https://github.com/phoenixframework/phoenix_live_view</a> if I understand session backends correctly</p>\n<p>The videos present the possibilities of the BEAM VM in general, the first video durable execution partially; but I encourage you to watch it.</p>",
+        "id": 490985537,
+        "sender_full_name": "Piotr",
+        "timestamp": 1735301801
+    },
+    {
+        "content": "<p>from what i understand any background job solution would take care of \"durable execution\"... in Elixir in particular you can solve that with asynchronous tasks, remote execution, or even Oban(background job backed by postgres). it would be even simple to connect oban execution to cycle to a pubsub and have it reported in real time in the FE.</p>",
+        "id": 490986056,
+        "sender_full_name": "cevado",
+        "timestamp": 1735302150
+    },
+    {
+        "content": "<p>I think Cloudflare Objects weirdly couples the two topics which is what makes it confusing. I always think of durable execution in terms of <a href=\"https://flawless.dev\">https://flawless.dev</a> The point being to be able to re-execute any computation independent of software or hardware failure. </p>\n<p>Session backends seems like not so new tech in comparison with a lot of differing solutions (one of which seems to be this Cloudflare Durable Objects + event handler)</p>",
+        "id": 490986064,
+        "sender_full_name": "Dustin",
+        "timestamp": 1735302156
+    },
+    {
+        "content": "<p>Coming from that perspective, a background job solution is insufficient since you would need to handle the reconciliation of what parts of your job succeeded if it failed part way.</p>",
+        "id": 490986267,
+        "sender_full_name": "Dustin",
+        "timestamp": 1735302275
+    },
+    {
+        "content": "<p>It definitely doesn't seem like there's anything blocking towards this existing for all languages though!</p>",
+        "id": 490986358,
+        "sender_full_name": "Dustin",
+        "timestamp": 1735302348
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"756209\">@Dustin</span> &gt; Coming from that perspective, a background job solution is insufficient since you would need to handle the reconciliation of what parts of your job succeeded if it failed part way. <br>\nnot really, oban have the concept of workflow:<br>\n<a href=\"https://oban.pro/docs/pro/1.5.0-rc.7/Oban.Pro.Workflow.html\">https://oban.pro/docs/pro/1.5.0-rc.7/Oban.Pro.Workflow.html</a><br>\nand chained jobs:<br>\n<a href=\"https://oban.pro/docs/pro/1.5.0-rc.7/Oban.Pro.Worker.html#module-chained-jobs\">https://oban.pro/docs/pro/1.5.0-rc.7/Oban.Pro.Worker.html#module-chained-jobs</a><br>\nit really depends on what you need to do.</p>",
+        "id": 490986594,
+        "sender_full_name": "cevado",
+        "timestamp": 1735302491
+    },
+    {
+        "content": "<p>Yeah, that's pretty common functionality for a background job solution. As I mentioned above, the difference between a background job and a durable execution (at least as far as I understand it) is that the retrying/chaining behavior is at the job level for a background job, whereas a durable execution is guaranteeing the execution within the job.</p>\n<p>In theory, I think it's possible to model a durable execution inside something like Oban, but it would mean isolating anything state related into it's own job. </p>\n<p>It's the difference between </p>\n<div class=\"codehilite\"><pre><span></span><code>// job1\nconst job1(cliArgs) {\nlet user = &quot;Adele Goldberg&quot;;\nlet comic_id: u32 = flawless::rand::random();\nlet url = format!(&quot;https://xkcd.com/{comic_id}/&quot;);\nlet content = flawless_http::get(url).send();\nlet quote = parse_comic(content);\nlet greeting = format!(&quot;Hi {user}! // &#39;{quote}&#39;&quot;)\n}\n</code></pre></div>\n<p>Where each of the flawless commands will retain the first execution's result even if the job reruns.</p>\n<p>Versus</p>\n<div class=\"codehilite\"><pre><span></span><code>// background job\nconst job1(cliArgs) {\nlet user = &quot;Adele Goldberg&quot;;\nlet comic_id: u32 = flawless::rand::random();\n}\n\nconst job2(cliArgs) {\nlet url = format!(&quot;https://xkcd.com/{comic_id}/&quot;);\nlet content = flawless_http::get(url).send();\n}\n\nconst job3(cliArgs) {\nlet quote = parse_comic(content);\nlet greeting = format!(&quot;Hi {user}! // &#39;{quote}&#39;&quot;)\n}\n</code></pre></div>\n<p>(This is super pseudo-codey)</p>",
+        "id": 490987198,
+        "sender_full_name": "Dustin",
+        "timestamp": 1735302903
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"756209\">@Dustin</span> yes so Oban is not stricte durable execution of course, but it really depends on what you want to achieve. because parts of your job might be just retried on each job retry run if they are read-only, or the state might be saved to your data source of truth.</p>",
+        "id": 490987572,
+        "sender_full_name": "Piotr",
+        "timestamp": 1735303133
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"756209\">@Dustin</span> to be honest I have been pondering and playing around durable execution after using a BPMN engine in one of my previous projects, and landed on just being able to excute what I need with Oban because it keeps my stack simple and reduces the number of external tool dependencies (like Temporal or Restate)</p>",
+        "id": 490987758,
+        "sender_full_name": "Piotr",
+        "timestamp": 1735303266
+    },
+    {
+        "content": "<p>Yeah, I also feel like I don't really have a use case for it. But, I could see it being a valuable abstraction for a large organization so each team/engineer isn't rebuilding retry behavior/semantics.</p>",
+        "id": 490987927,
+        "sender_full_name": "Dustin",
+        "timestamp": 1735303360
+    },
+    {
+        "content": "<p><span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span>  That's one of temporal's largest callouts </p>\n<blockquote>\n<p>Application state, retries, and error handling are abstracted away so that you no longer have to code for them.</p>\n</blockquote>",
+        "id": 490988126,
+        "sender_full_name": "Dustin",
+        "timestamp": 1735303488
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"756209\">@Dustin</span> yes that's true, but it occured to me that I need this only in certain cases, because in most of them I just need plain old transaction ACIDity that a DB engine provides. So in my use case the Oban / Restate error handling etc is useful for connection to third party services.</p>",
+        "id": 490988464,
+        "sender_full_name": "Piotr",
+        "timestamp": 1735303735
+    },
+    {
+        "content": "<p>So if someone is in the microservices mode - yes Temporal / Restate might be great.</p>",
+        "id": 490988579,
+        "sender_full_name": "Piotr",
+        "timestamp": 1735303815
+    },
+    {
+        "content": "<p>Yeah haha. I was just thinking \"This seems like a solution for a problem made by microservices\"</p>",
+        "id": 490988627,
+        "sender_full_name": "Dustin",
+        "timestamp": 1735303859
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752986\">@Daniel Buckmaster</span> I really liked your post \"De-escalate vocabulary, de-escalate hype\" reminds me a lot of the awesome essay from George Orwell <a href=\"https://www.orwell.ru/library/essays/politics/english/e_polit\">Politics and the English language</a> I read it like once a year <span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span></p>",
+        "id": 490993278,
+        "sender_full_name": "Dustin",
+        "timestamp": 1735306958
+    },
+    {
+        "content": "<p>I should get this as a poster:</p>\n<ol>\n<li>Never use a metaphor, simile, or other figure of speech which you are used to seeing in print.</li>\n<li>Never use a long word where a short one will do.</li>\n<li>If it is possible to cut a word out, always cut it out.</li>\n<li>Never use the passive where you can use the active.</li>\n<li>Never use a foreign phrase, a scientific word, or a jargon word if you can think of an everyday English equivalent.</li>\n<li>Break any of these rules sooner than say anything outright barbarous.</li>\n</ol>",
+        "id": 490993895,
+        "sender_full_name": "Dustin",
+        "timestamp": 1735307386
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"756209\">Dustin</span> <a href=\"#narrow/channel/453512-general/topic/What.20trending.20tech.20are.20you.20most.20bullish.20on.3F/near/490987198\">said</a>:</p>\n<blockquote>\n<p>In theory, I think it's possible to model a durable execution inside something like Oban, but it would mean isolating anything state related into it's own job.</p>\n</blockquote>\n<p>but that's what flawless is doing, but with a uniq/dedicate set of apis and syntatic sugar. that's why I focus on what are being solved here. I just found this video that is a great comparison between \"javascript world\" and \"elixir world\"... in javascript land you have a bunch of abstractions and a bunch of pre-baked solutions for stuff that is just \"use this library\" but what if you don't need that amount of abstractions to begin with? if this video catch your attention I suggest to watch the Chris Mccord talk I sent earlier<br>\n<a href=\"https://www.youtube.com/watch?v=6C4G8WPLIKQ\">https://www.youtube.com/watch?v=6C4G8WPLIKQ</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"6C4G8WPLIKQ\" href=\"https://www.youtube.com/watch?v=6C4G8WPLIKQ\"><img src=\"https://uploads.zulipusercontent.net/a5c3e2d97a014a6666029f5588a71fecab58c58b/68747470733a2f2f692e7974696d672e636f6d2f76692f364334473857504c494b512f64656661756c742e6a7067\"></a></div>",
+        "id": 491034431,
+        "sender_full_name": "cevado",
+        "timestamp": 1735335481
+    },
+    {
+        "content": "<p>Maybe I should have watched this earlier <span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span> I think we're actually saying the same things. All I was trying to say is the promises of durable execution is not something unique to a language or tool but it is a certain kind of abstraction that isn't given to you by something like Oban. You'd have to craft your code in a particular style to achieve that.</p>",
+        "id": 491078558,
+        "sender_full_name": "Dustin",
+        "timestamp": 1735378945
+    },
+    {
+        "content": "<p>I agree... my point is that the language/runtime allows you to model the solutions with different abstractions, some more simple than the others.</p>",
+        "id": 491100441,
+        "sender_full_name": "cevado",
+        "timestamp": 1735400257
+    },
+    {
+        "content": "<p>Back on the topic of Wasm I really think it has potential to make a huge impact in software distribution. If you think about the web as an app distribution platform it has incredible UX - you go to a link and it downloads all the dependencies (some of which are probably already cached), JIT compiles write once, run anywhere software (JavaScript), and runs it all in a sandbox so you can be reasonably confident that your computer won’t be hijacked my malware (today anyway). Additionally the browser provides a common (though very opinionated) graphics framework, accessibility, etc.</p>\n<p>One of the reasons this works so well is the sandboxing - if you look at most other software distribution platforms there is either a high bar or hurdles for what they will distribute (think Debian packages or windows software signing) or have a questionable supply chain (NPM) </p>\n<p>If you wanted to build a new app delivery paradigm Wasm has all of the ideal properties - it’s truly WORA, is a compilation target for many popular languages, has a really solid sandbox design, native-ish performance, you can define the environment (e.g. provide OpenGL bindings) and everything happens in user space which is amazing! (in comparison to docker which requires a Linux kernel running with namespaces, groups, etc.).</p>\n<p>So what I envision is an app “browser” if you will where I could type e.g. wasm-run <a href=\"https://ziglang.org/wasm/latest\">https://ziglang.org/wasm/latest</a> --arg1 … and boom everything downloads and I have the latest zig compiler running in a sandboxed environment in seconds regardless of the platform. Or you could even provide gui apps like games, spreadsheet software, etc. through the same method.</p>\n<p>Anyway, this is a long-winded way of saying that I’m also bullish on Wasm if people can appreciate that it’s not just for web or just another standard take on a language VM</p>",
+        "id": 491546908,
+        "sender_full_name": "Alden",
+        "timestamp": 1735783986
+    },
+    {
+        "content": "<p>All this talk reminds that we are all trying to reinvent JVM and J2EE and Applets.  I remember back in the bad old days writing applets that had rich front end interactivity. Sure it took forever to load and froze your browser while loading but once it loaded it was great. I remember being able to create a WAR file and uploading the app via a browser to a J2EE container where it magically upgraded an existing app and the container provided a cache, KV store, configuration, database , queue etc.  You could also write your app in different languages because they had groovy, jruby, javascript, python etc running on the JVM back then.  Just like Kubernetes does today but more messy.</p>\n<p>WASM is the new JVM, so I look forward to somebody creating the equivalent of J2EE  container or kubernetes for WASM. Everything old will become new again because our industry loves reinventing everything.</p>",
+        "id": 491664353,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1735850975
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755905\">Tim Uckun</span> <a href=\"#narrow/channel/453512-general/topic/What.20trending.20tech.20are.20you.20most.20bullish.20on.3F/near/491664353\">said</a>:</p>\n<blockquote>\n<p>All this talk reminds that we are all trying to reinvent JVM and J2EE and Applets.  I remember back in the bad old days writing applets that had rich front end interactivity. Sure it took forever to load and froze your browser while loading but once it loaded it was great. I remember being able to create a WAR file and uploading the app via a browser to a J2EE container where it magically upgraded an existing app and the container provided a cache, KV store, configuration, database , queue etc.  You could also write your app in different languages because they had groovy, jruby, javascript, python etc running on the JVM back then.  Just like Kubernetes does today but more messy.</p>\n<p>WASM is the new JVM, so I look forward to somebody creating the equivalent of J2EE  container or kubernetes for WASM. Everything old will become new again because our industry loves reinventing everything.</p>\n</blockquote>\n<p>Some folks feel WASM has a leg up for traction this time around <a href=\"https://thenewstack.io/why-wasm-wins-where-java-applets-failed/\">https://thenewstack.io/why-wasm-wins-where-java-applets-failed/</a></p>",
+        "id": 491675170,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1735857426
+    },
+    {
+        "content": "<p>Already exists! <a href=\"https://wasmcloud.com/docs/capabilities/\">https://wasmcloud.com/docs/capabilities/</a></p>",
+        "id": 491675678,
+        "sender_full_name": "Dustin",
+        "timestamp": 1735857818
+    },
+    {
+        "content": "<p>Apparently there's also research for the browser use case, to try and be able to chunk wasm blobs by component boundaries so that you don't have to load the entire binary in a single call (even if it is streamable!) But, I'm not even sure if the wasm component was agreed upon yet. Still early days for wasm!</p>",
+        "id": 491676108,
+        "sender_full_name": "Dustin",
+        "timestamp": 1735857996
+    },
+    {
+        "content": "<p>I can't remember the interview (might have been a Change Log episode) but there was a suggestion that browsers / WHATWG could (in the far off future) make WASM the only supported runtime, but retain JavaScript compatibility by implementing V8/JavaScriptCore/SpiderMonkey on top of WASM<br>\nJS would be on equal footing to every other language that can run or compile to WASM</p>",
+        "id": 491676603,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1735858379
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"755905\">@Tim Uckun</span> what do you think the web platform is missing to bring back the applets experience? Browsers have cache, KV store, database etc even without WASM. (Though of course we are still at the mercy of whether browsers implement these specs fully or usefully!)</p>",
+        "id": 491678403,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1735859593
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752986\">@Daniel Buckmaster</span> I guess browsers have already brought a lot of what applets offered into the browser itself including stateful connections and graphics. It all seems a lot more clumsy to develop in though. Applets were pretty straightforward java (whatever that means to you)</p>",
+        "id": 491907222,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1736024231
+    }
+]

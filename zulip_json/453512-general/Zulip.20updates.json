@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>To help you learn about new features and configuration options, this topic will receive messages about important changes in Zulip.</p>\n<p>You can read these update messages whenever it's convenient, or <a href=\"/help/mute-a-topic\">mute</a> this topic if you are not interested. If your organization does not want to receive these announcements, they can be disabled. <a href=\"/help/configure-automated-notices#zulip-update-announcements\">Learn more</a>.</p>",
+        "id": 480656351,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1730792081
+    },
+    {
+        "content": "<ul>\n<li>You can now <a href=\"/help/share-and-upload-files#file-upload-limits\">upload large files</a> up to   1 GB in organizations on Zulip Cloud   Standard or Zulip Cloud Plus <a href=\"/plans/\">plans</a>.</li>\n</ul>\n<p><strong>Web and desktop updates</strong></p>\n<ul>\n<li>You can now start a new conversation from the left sidebar. Click the <code>+</code> button next to the name of a channel to <a href=\"/help/introduction-to-topics#how-to-start-a-new-topic\">start a new topic</a> in that channel, or the <code>+</code> next to DIRECT MESSAGES to <a href=\"/help/starting-a-new-direct-message\">start a DM</a>.</li>\n<li>The <a href=\"/help/user-list\">user list</a> now shows recent participants in the   conversation you're viewing.</li>\n</ul>",
+        "id": 480656352,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1730792081
+    },
+    {
+        "content": "<ul>\n<li>Most permissions in Zulip can now be granted to any combination of   <a href=\"/help/roles-and-permissions\">roles</a>, <a href=\"/help/user-groups\">groups</a>,   and individual <a href=\"/help/manage-a-user\">users</a>. Previously, permissions were   configurable only by user role.</li>\n<li>Creating new user groups now requires a Zulip Cloud Standard or Zulip Cloud   Plus <a href=\"/plans/\">plan</a>.</li>\n</ul>\n<p><strong>Web and desktop updates</strong></p>\n<ul>\n<li>To provide more information, long topic names are now shown on two lines in   the left sidebar.</li>\n<li>Pasted <a href=\"/help/link-to-a-message-or-conversation#get-a-link-to-a-specific-message\">message links</a> are now automatically   converted into nicely formatted links.</li>\n</ul>",
+        "id": 486921873,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1733729528
+    },
+    {
+        "content": "<ul>\n<li>Zulip’s next-gen mobile app is now in public beta. If offers a sleek new   design and a faster, smoother experience. <a href=\"https://blog.zulip.com/2024/12/12/new-flutter-mobile-app-beta/\">Check out the announcement   post</a> for details and instructions on how to try the   beta!</li>\n</ul>\n<p><strong>Web and desktop updates</strong></p>\n<ul>\n<li>There's a <a href=\"/help/user-list#configure-user-list-style\">new option</a> to show avatars in the   user list.</li>\n<li>You can now conveniently <a href=\"/help/quote-or-forward-a-message\">forward</a> a message to   another conversation from the message menu.</li>\n</ul>",
+        "id": 489696385,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1734507354
+    },
+    {
+        "content": "<p>Not sure where to put this,... glad you moved to Zulip!<br>\n<a href=\"https://slack-status.com/2025-02/1b757d1d0f444c34\">https://slack-status.com/2025-02/1b757d1d0f444c34</a><br>\n<a href=\"/user_uploads/66849/HHdcFSR9Onq4T7DRalLM-43k/Screenshot_20250226_101539_DuckDuckGo.jpg\">Screenshot_20250226_101539_DuckDuckGo.jpg</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/HHdcFSR9Onq4T7DRalLM-43k/Screenshot_20250226_101539_DuckDuckGo.jpg\" title=\"Screenshot_20250226_101539_DuckDuckGo.jpg\"><img data-original-content-type=\"image/jpeg\" data-original-dimensions=\"1080x2133\" src=\"/user_uploads/thumbnail/66849/HHdcFSR9Onq4T7DRalLM-43k/Screenshot_20250226_101539_DuckDuckGo.jpg/840x560.webp\"></a></div>",
+        "id": 502136422,
+        "sender_full_name": "Brian Fulton",
+        "timestamp": 1740601061
+    },
+    {
+        "content": "<ul>\n<li>When you <a href=\"/help/link-to-a-message-or-conversation#link-to-zulip-from-anywhere\">link to a topic</a> in Zulip, that link   will now continue to work even when the topic is   <a href=\"/help/rename-a-topic\">renamed</a>, <a href=\"/help/move-content-to-another-channel\">moved to another   channel</a>, or   <a href=\"/help/resolve-a-topic\">resolved</a>.</li>\n</ul>\n<p><strong>Web and desktop updates</strong></p>\n<ul>\n<li>You can now <a href=\"/help/saved-snippets\">save snippets</a> of message content, and quickly insert them into the message you're composing.</li>\n<li><a href=\"/help/view-and-edit-your-message-drafts\">Drafts</a> are no longer removed after 30 days.</li>\n</ul>",
+        "id": 502454737,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1740695970
+    },
+    {
+        "content": "<ul>\n<li>Zulip channels have a new space for <strong>chatting without a topic</strong> (e.g., social   chatter or one-off requests). Channel messages sent without a topic (if   <a href=\"/help/require-topics\">allowed</a> in your organization) now go to a special   <em><a href=\"/help/general-chat-topic\">“general chat”</a></em> topic. Its name appears in italics, and   will be translated into <a href=\"/help/change-your-language\">your language</a>.</li>\n<li>New channel permission settings let administrators <strong>delegate channel   management</strong> responsibilities. There are settings for <a href=\"/help/configure-who-can-administer-a-channel\">who can   administer</a> each channel, and who can   <a href=\"/help/configure-who-can-invite-to-channels\">subscribe</a> and   <a href=\"/help/configure-who-can-unsubscribe-others\">unsubscribe</a> other users. You can also   <a href=\"/help/configure-who-can-subscribe\">give</a> users and   <a href=\"/help/user-groups\">groups</a> permission to read and subscribe to a   <a href=\"/help/channel-permissions#private-channels\">private channel</a>, just like everyone other   than guests can do with public channels.</li>\n</ul>\n<p><strong>Web and desktop updates</strong></p>\n<ul>\n<li>When you copy a Zulip link and paste it anywhere that accepts HTML formatting   (e.g., your email, GitHub, docs, etc.), the link will be formatted as it would   be in Zulip (e.g., <a href=\"/help/link-to-a-message-or-conversation\">#channel &gt; topic</a>.</li>\n<li>To <a href=\"/help/link-to-a-message-or-conversation\">link</a> to a topic in the channel   you're composing to, you can now just type <code>#&gt;</code> followed by a few letters from   the topic name, and pick the desired topic from the autocomplete.</li>\n<li>There's a new compose box button for creating a <a href=\"/help/collaborative-to-do-lists\">collaborative to-do   list</a>.</li>\n<li>You’ll now see a <a href=\"/help/typing-notifications\">typing notification</a> when   someone is editing a message, not just for composing new messages.</li>\n</ul>",
+        "id": 504029462,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1741332896
+    },
+    {
+        "content": "<p><strong>Web and desktop updates</strong></p>\n<ul>\n<li>You can now choose from a wide range of <a href=\"/help/font-size\">font size</a> and <a href=\"/help/line-spacing\">line spacing</a> options, to make the Zulip interface feel most comfortable for you.</li>\n</ul>",
+        "id": 506394917,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1742278130
+    },
+    {
+        "content": "<p>We make many improvements to Zulip beyond what we can share here. Learn about additional feature highlights, and other Zulip project updates since July 2024, in the <a href=\"https://blog.zulip.com/zulip-server-10-0\">blog post</a> announcing today's release of Zulip Server 10.0.</p>",
+        "id": 507200974,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1742538943
+    },
+    {
+        "content": "<ul>\n<li>You can now <a href=\"/help/marking-messages-as-read#configure-whether-resolved-topic-notices-are-marked-as-read\">configure</a> whether notices sent when   topics are resolved are automatically marked as read for you.</li>\n<li>You can now restore <a href=\"/help/deactivate-a-user-group\">deactivated groups</a> and   <a href=\"/help/archive-a-channel\">archived channels</a> if you need to use them again.</li>\n</ul>",
+        "id": 523487981,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1749623074
+    }
+]
