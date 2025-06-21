@@ -1,0 +1,344 @@
+[
+    {
+        "content": "<p>Dan Moore from FusionAuth joins us for a wide-ranging discussion about modern auth strategies. We talk magic links, OTP, MFA, passkeys, password managers &amp; so much more. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.am/78\">https://changelog.am/78</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.am/78#t=0\">00:00</a></td>\n<td>Let's talk!</td>\n<td>00:38</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.am/78#t=38\">00:38</a></td>\n<td><a href=\"https://retool.com/changelog\">Sponsor: Retool</a></td>\n<td>02:45</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.am/78#t=203\">03:23</a></td>\n<td>N.A.C. &amp; Friends</td>\n<td>02:38</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.am/78#t=360\">06:00</a></td>\n<td>Dan's auth credentials</td>\n<td>02:20</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.am/78#t=500\">08:20</a></td>\n<td>I got the magic link</td>\n<td>00:32</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.am/78#t=532\">08:52</a></td>\n<td>Sand in the gears</td>\n<td>05:54</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.am/78#t=886\">14:46</a></td>\n<td>Different auth strokes...</td>\n<td>01:20</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.am/78#t=966\">16:06</a></td>\n<td>Tailscale auth</td>\n<td>03:32</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.am/78#t=1178\">19:38</a></td>\n<td>Ask for more than you need</td>\n<td>00:34</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.am/78#t=1212\">20:12</a></td>\n<td>Reasons to dislike SSO</td>\n<td>02:28</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.am/78#t=1359\">22:39</a></td>\n<td>Just email/password</td>\n<td>03:56</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.am/78#t=1595\">26:35</a></td>\n<td>So many auth providers</td>\n<td>02:15</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.am/78#t=1730\">28:50</a></td>\n<td>FusionAuth is built different</td>\n<td>00:55</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.am/78#t=1786\">29:46</a></td>\n<td>The email comparison</td>\n<td>01:26</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.am/78#t=1872\">31:12</a></td>\n<td><a href=\"https://temporal.io\">Sponsor: Temporal</a></td>\n<td>02:01</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.am/78#t=1994\">33:14</a></td>\n<td>OTP: better magic links?</td>\n<td>03:05</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.am/78#t=2179\">36:19</a></td>\n<td>Passkeys FTW?</td>\n<td>03:42</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.am/78#t=2401\">40:01</a></td>\n<td>Adam's not sold on Passkeys</td>\n<td>01:59</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.am/78#t=2520\">42:00</a></td>\n<td>1Password for life</td>\n<td>01:09</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.am/78#t=2589\">43:09</a></td>\n<td>Adam's passkey gripes</td>\n<td>02:37</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.am/78#t=2746\">45:46</a></td>\n<td>Passkeys are faster</td>\n<td>01:26</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.am/78#t=2832\">47:12</a></td>\n<td>No silver bullet</td>\n<td>00:52</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.am/78#t=2884\">48:04</a></td>\n<td>MFA separation of concerns</td>\n<td>03:50</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.am/78#t=3113\">51:53</a></td>\n<td>What good MFA looks like</td>\n<td>04:26</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://changelog.am/78#t=3379\">56:19</a></td>\n<td>Password constraints</td>\n<td>02:01</td>\n</tr>\n<tr>\n<td>26</td>\n<td><a href=\"https://changelog.am/78#t=3500\">58:20</a></td>\n<td><a href=\"http://notion.com/changelog\">Sponsor: Notion</a></td>\n<td>02:18</td>\n</tr>\n<tr>\n<td>27</td>\n<td><a href=\"https://changelog.am/78#t=3638\">1:00:38</a></td>\n<td>Adam's luke warm take</td>\n<td>07:16</td>\n</tr>\n<tr>\n<td>28</td>\n<td><a href=\"https://changelog.am/78#t=4074\">1:07:54</a></td>\n<td>Microsoft Authenticator</td>\n<td>03:45</td>\n</tr>\n<tr>\n<td>29</td>\n<td><a href=\"https://changelog.am/78#t=4298\">1:11:38</a></td>\n<td>Jerod's luke warm take</td>\n<td>01:41</td>\n</tr>\n<tr>\n<td>30</td>\n<td><a href=\"https://changelog.am/78#t=4399\">1:13:19</a></td>\n<td>Over The Top!</td>\n<td>02:17</td>\n</tr>\n<tr>\n<td>31</td>\n<td><a href=\"https://changelog.am/78#t=4536\">1:15:36</a></td>\n<td>Sophisticated truck drivers</td>\n<td>00:38</td>\n</tr>\n<tr>\n<td>32</td>\n<td><a href=\"https://changelog.am/78#t=4574\">1:16:14</a></td>\n<td>Survey says!</td>\n<td>00:34</td>\n</tr>\n<tr>\n<td>33</td>\n<td><a href=\"https://changelog.am/78#t=4608\">1:16:48</a></td>\n<td>Where the money is</td>\n<td>00:44</td>\n</tr>\n<tr>\n<td>34</td>\n<td><a href=\"https://changelog.am/78#t=4651\">1:17:31</a></td>\n<td>Dan's auth solution</td>\n<td>03:04</td>\n</tr>\n<tr>\n<td>35</td>\n<td><a href=\"https://changelog.am/78#t=4836\">1:20:36</a></td>\n<td>We're doing it wrong?</td>\n<td>01:29</td>\n</tr>\n<tr>\n<td>36</td>\n<td><a href=\"https://changelog.am/78#t=4925\">1:22:05</a></td>\n<td>Some Google auth love</td>\n<td>01:51</td>\n</tr>\n<tr>\n<td>37</td>\n<td><a href=\"https://changelog.am/78#t=5036\">1:23:56</a></td>\n<td>All the ways</td>\n<td>00:39</td>\n</tr>\n<tr>\n<td>38</td>\n<td><a href=\"https://changelog.am/78#t=5074\">1:24:34</a></td>\n<td>Connecting with Dan</td>\n<td>01:02</td>\n</tr>\n<tr>\n<td>39</td>\n<td><a href=\"https://changelog.am/78#t=5136\">1:25:36</a></td>\n<td>Bye, friends</td>\n<td>00:09</td>\n</tr>\n<tr>\n<td>40</td>\n<td><a href=\"https://changelog.am/78#t=5145\">1:25:45</a></td>\n<td>Coming up next</td>\n<td>01:01</td>\n</tr>\n</tbody>\n</table>",
+        "id": 497083270,
+        "sender_full_name": "Logbot",
+        "timestamp": 1738355407
+    },
+    {
+        "content": "<p>Whoa. That's a lot of chapters :)</p>",
+        "id": 497084533,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1738355958
+    },
+    {
+        "content": "<p>As one of the Changelog \"losers\" I believe that the baseline should be username and password. I'm reluctant to create an account on a site that does not offer username and password. I personally despise magic links because they are 1) slower and 2) tied to an email that most likely isn't using a domain that is owned by the user. Admittedly I'm truck driver in this situation since I'm educated on the machines I'm using and have specific needs for my flow.</p>",
+        "id": 497191294,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1738438036
+    },
+    {
+        "content": "<p>Dan is great to chat with! Glad you guys had him on again. He and I went to school together a lifetime ago.</p>",
+        "id": 497191417,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1738438136
+    },
+    {
+        "content": "<p>Also regarding OAuth a lot of places don't implement it correctly. For example if you use your Google account to authenticate to a site the site would mistakenly tie your email address to your user identity instead of the Google account ID. Then if you change your Google account email you can no longer access the site even though it's the same Google account.</p>",
+        "id": 497191443,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1738438166
+    },
+    {
+        "content": "<p>Ah that makes a lot of sense. I've changed my GitHub name and recently had trouble accessing things. Didn't realise that was incorrect implementation.</p>",
+        "id": 497194840,
+        "sender_full_name": "Alex Barnes",
+        "timestamp": 1738440989
+    },
+    {
+        "content": "<p>I for one don't want to create a new account at every web site I visit. I like it when they have auth so I don't have to worry about keeping track of another password in my manager.</p>",
+        "id": 497197400,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1738443230
+    },
+    {
+        "content": "<p>With a password manager I don't mind creating accounts. I prefer it. Gives me a single place to audit my accounts versus having to remember which N sites I signed into with which N auth providers.</p>",
+        "id": 497203083,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1738448045
+    },
+    {
+        "content": "<p>When I build something, I like starting out with an OAuth implementation because it feels like less of a security burden on me. Though I would definitely want to have basic email/password auth as well before trying to go more mainstream.</p>",
+        "id": 497204153,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1738448930
+    },
+    {
+        "content": "<p>Also, as a Windows user, my feelings about MacOS are then same as Adam's feelings about Windows (but in the opposite direction). I find the MacOS UI childish and clunky. I was a huge fanboy of MacOS about 20 years ago, but it feels like the UI hasn't evolved much since then (Who remembers how long it took them to add the ability to resize a window from the corner?) It's probably just whatever you get used it <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span></p>",
+        "id": 497204505,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1738449254
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752922\">Nabeel S</span> <a href=\"#narrow/stream/455613-friends/topic/78.3A.20Over.20the.20top.20auth.20strategies/near/497204153\">said</a>:</p>\n<blockquote>\n<p>... Though I would definitely want to have basic email/password auth as well before trying to go more mainstream.</p>\n</blockquote>\n<p>I wonder when/if Passkeys will replace email+password as the baseline for authentication?</p>",
+        "id": 497205292,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1738450023
+    },
+    {
+        "content": "<p>Is passkeys as a baseline even possible? It seems to me like passkeys are generated only after authenticating the user some other way (password + OTP for example).</p>",
+        "id": 497206389,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1738451098
+    },
+    {
+        "content": "<p>Passkeys are designed to completely replace passwords, and even password+2FA<br>\n<a href=\"https://www.passkeys.io/\">https://www.passkeys.io/</a></p>",
+        "id": 497206605,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1738451309
+    },
+    {
+        "content": "<p>That said, there are various issues that make this sort of tenuous for users that inhabit multiple ecosystems <br>\ne.g. if my only credential for Instagram is a Passkey in the Apple iCloud keychain, then I completely lose access to my account if my switch to Android</p>",
+        "id": 497206652,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1738451387
+    },
+    {
+        "content": "<p>I think passkeys have potential but honestly I really want something like mozilla persona. I want to be able to create different persona and use them as I want across various apps and web sites.  Use this web site <a href=\"https://www.fakepersongenerator.com/\">https://www.fakepersongenerator.com/</a>  and create a bunch of fake people and use them as I please.</p>",
+        "id": 497207747,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1738452473
+    },
+    {
+        "content": "<p>For OAuth in company environments, there is one big benefit: insider threat mitigation.<br>\nImagine an employee that gets let go, but they have a username/password login into some critical 3rd party service (AWS, Stripe, etc...).  While an IT department can easily disable a Google account, remembering to disable access to all 3rd party websites is a lot more work for them.  With OAuth, it helps mitigate a bad employee.</p>",
+        "id": 497486398,
+        "sender_full_name": "James Wendel",
+        "timestamp": 1738601381
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"873967\">@James Wendel</span> This is where a good password management app comes in.  You can share logins without exposing the password to the employee and you can revoke their access when they leave or move from one department to another.</p>",
+        "id": 497526722,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1738615075
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"755905\">@Tim Uckun</span>  \"without exposing the password\" is a deterrent, not a guarantee. OAuth is much safer here. (1Password says as much).<br>\n<a href=\"https://1password.community/discussion/144413/how-to-share-password-without-revealing-password\">https://1password.community/discussion/144413/how-to-share-password-without-revealing-password</a></p>",
+        "id": 497529802,
+        "sender_full_name": "James Wendel",
+        "timestamp": 1738616227
+    },
+    {
+        "content": "<p>Our local news channel did a story about passcode predators: <a href=\"https://youtu.be/ln2w74nqBcw?si=9RT_Buff0jSarihW\">https://youtu.be/ln2w74nqBcw?si=9RT_Buff0jSarihW</a><br>\nDidn't realize this was a thing and we probably shouldn't have so much financial power in our phones.</p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"ln2w74nqBcw\" href=\"https://youtu.be/ln2w74nqBcw?si=9RT_Buff0jSarihW\"><img src=\"https://uploads.zulipusercontent.net/28e82ac8c61acdb19ae5554a0f6c3649321869fa/68747470733a2f2f692e7974696d672e636f6d2f76692f6c6e327737346e714263772f64656661756c742e6a7067\"></a></div>",
+        "id": 497710427,
+        "sender_full_name": "Jarvis",
+        "timestamp": 1738687320
+    },
+    {
+        "content": "<p>That's the future though. In China every payment for everything is made on the phone. Even purchases for less than a dollar. Elon is trying to do the same thing in the USA with xitter (this explains why his  target in the US government was  government payment systems.)</p>\n<p>In my case my phone is my primary 2FA. I have authy on there, passocodes for various web sites, and mail and notification based 2FA including one time passwords, and text message based 2FA.</p>\n<p>It's just too powerful and convenient to ignore.</p>\n<p>What's hilarious is that for some people the phone is locked by a four digit pin so your master key is stored under the flower pot on the porch.</p>",
+        "id": 497753410,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1738702016
+    },
+    {
+        "content": "<p>On password strength, how far does anyone else get in <a href=\"https://neal.fun/password-game/\">https://neal.fun/password-game/</a> ? :P</p>",
+        "id": 497754466,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1738702449
+    },
+    {
+        "content": "<p>Hello Changelog folks. i enjoyed this episode, thanks for that. one thing i feel like didn't get emphasis: passkeys are meant to prevent phishing scenarios where users are tricked into typing in their credentials into scam sites. this is a pretty huge deal</p>",
+        "id": 497769109,
+        "sender_full_name": "Yawar Amin",
+        "timestamp": 1738708321
+    },
+    {
+        "content": "<p>Yeah I suspect that didn't get enough passkey-specific discussion because password managers and magic links offer the same benefit, so the discussion was more about how passkeys differ from those patterns <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span> . Good point though <span aria-label=\"thumbs up\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"thumbs up\">:thumbs_up:</span></p>",
+        "id": 497786794,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1738717191
+    },
+    {
+        "content": "<p>yeah the mistake technical people often make is evaluating passkeys from the perspective of already using high-quality password managers and having strong random passwords and MFA setup. from that perspective the benefits may not seem high. but the real benefit is for ordinary, non-technical people who will never have that kind of protection</p>",
+        "id": 497788458,
+        "sender_full_name": "Yawar Amin",
+        "timestamp": 1738718094
+    },
+    {
+        "content": "<p>I think we missed the window for Passkeys to actually take off<br>\nMost non-technical users probably tap the \"login with Facebook\" button everywhere already <br>\nPasskeys would have been terrific before social IdP became so prevalent</p>",
+        "id": 497791184,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1738719736
+    },
+    {
+        "content": "<p>we are fast approaching the window. the Big Three are pushing it–Apple, Microsoft, Google. the rest will follow. logging in with Facebook etc. is already kinda tainted because of data privacy issues. now we finally have a great alternative</p>",
+        "id": 497791629,
+        "sender_full_name": "Yawar Amin",
+        "timestamp": 1738719998
+    },
+    {
+        "content": "<p>also solves the problem of fragmentation of IdPs–which provider did i log in to this site with? Google? Facebook? GitHub? this was mentioned in the podcast.</p>",
+        "id": 497792188,
+        "sender_full_name": "Yawar Amin",
+        "timestamp": 1738720310
+    },
+    {
+        "content": "<p>Until all the different cloud keychain vendors implement some standard for passkey portability, the privacy and fragmentation problems will still be prevalent <br>\n\"did I login using my iPhone or Chrome here... ?\"</p>",
+        "id": 497835290,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1738744344
+    },
+    {
+        "content": "<p>I would imagine most iphone users would prefer to login with apple instead of facebook.</p>",
+        "id": 497842570,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1738746540
+    },
+    {
+        "content": "<p>passkey portability is actually not that important. i wrote about this <a href=\"https://dev.to/yawaramin/youre-thinking-about-passkeys-wrong-171o\">https://dev.to/yawaramin/youre-thinking-about-passkeys-wrong-171o</a></p>",
+        "id": 497944604,
+        "sender_full_name": "Yawar Amin",
+        "timestamp": 1738775938
+    },
+    {
+        "content": "<p>'did i log in with my iPhone or Chrome? it doesn't matter, if either doesn't have a passkey, i will just be guided to set one up'</p>",
+        "id": 497945504,
+        "sender_full_name": "Yawar Amin",
+        "timestamp": 1738776194
+    },
+    {
+        "content": "<p>Perhaps we just need more Passkey adoption from more websites: <a href=\"https://www.passkeys.io/who-supports-passkeys\">https://www.passkeys.io/who-supports-passkeys</a><br>\nSeems unfortunate that they aren't so ubiquitous that a list like this is practical</p>",
+        "id": 497971157,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1738784861
+    },
+    {
+        "content": "<p>adding a new auth method securely and with good usability is not exactly a piece of cake, these things take some time to plan and roll out properly</p>",
+        "id": 497975548,
+        "sender_full_name": "Yawar Amin",
+        "timestamp": 1738786581
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"750017\">@Adam Stacoviak</span> a good 2FA authenticator is 2FAS. I use this and it’s great. They have a browser extension that allows you to you to have autofill and submit for 2FA codes. The flow is activate the extension, a push notification is sent to your phone, you authenticate with biometrics on that device and the code is auto filled for you. It is also smart enough to send you the next code is the current one is about to expire. <span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span> Good stuff <a href=\"https://2fas.com/\">https://2fas.com/</a></p>",
+        "id": 498016324,
+        "sender_full_name": "Chad Gregory",
+        "timestamp": 1738805656
+    },
+    {
+        "content": "<p>Regarding free password manager options, my previous employer Dashlane (1Password competitor) has a free option, although it is quite limited. <a href=\"https://www.dashlane.com/personal-password-manager\">https://www.dashlane.com/personal-password-manager</a></p>",
+        "id": 498032767,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1738815627
+    },
+    {
+        "content": "<p>And actually on that note, I worked on a pretty cool project there to integrate with Identity Providers. Basically you can only auth to something like Okta and get in to your password manager - which is different as normally your password is used as a key of sorts to encrypt your password. This also means that an admin can just disable your IdP account and not have to remove permissions within Dashlane.</p>\n<p>It uses AWS Nitro under the hood. This is going pretty deep but if anyone is interested there is an AWS write up. <a href=\"https://aws.amazon.com/solutions/case-studies/dashlane-case-study/\">https://aws.amazon.com/solutions/case-studies/dashlane-case-study/</a></p>\n<p>Not an ad, I got laid off from there <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span> but it is cool tech</p>",
+        "id": 498034162,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1738816493
+    },
+    {
+        "content": "<p>I remember Dashlane having pretty poor Linux support back in the day, but that's not a deal-breaker for many people <span aria-label=\"penguin\" class=\"emoji emoji-1f427\" role=\"img\" title=\"penguin\">:penguin:</span></p>",
+        "id": 498067527,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1738832298
+    },
+    {
+        "content": "<p>\"I got laid off from there but still speak positively about it\" is a heavyweight testimonial <span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span></p>",
+        "id": 498131546,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1738851546
+    },
+    {
+        "content": "<p>Also case study with nitro secure enclaves in that context sounds fun <span aria-label=\"eyes\" class=\"emoji emoji-1f440\" role=\"img\" title=\"eyes\">:eyes:</span></p>",
+        "id": 498131646,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1738851572
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"771585\">Ron Waldon-Howe</span> <a href=\"#narrow/stream/455613-friends/topic/78.3A.20Over.20the.20top.20auth.20strategies/near/498067527\">said</a>:</p>\n<blockquote>\n<p>I remember Dashlane having pretty poor Linux support back in the day, but that's not a deal-breaker for many people <span aria-label=\"penguin\" class=\"emoji emoji-1f427\" role=\"img\" title=\"penguin\">:penguin:</span></p>\n</blockquote>\n<p>They got rid of the desktop app so it's all mobile and browser extensions <span aria-label=\"pensive\" class=\"emoji emoji-1f614\" role=\"img\" title=\"pensive\">:pensive:</span> we tried to bring it back during a hackathon but I don't think that ever went to production</p>",
+        "id": 498147452,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1738855568
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752833\">AJ Kerrigan</span> <a href=\"#narrow/stream/455613-friends/topic/78.3A.20Over.20the.20top.20auth.20strategies/near/498131646\">said</a>:</p>\n<blockquote>\n<p>Also case study with nitro secure enclaves in that context sounds fun <span aria-label=\"eyes\" class=\"emoji emoji-1f440\" role=\"img\" title=\"eyes\">:eyes:</span></p>\n</blockquote>\n<p>Yeah! It was a cool project for sure. I was focused on the frontend and interacting with it but even that had a lot of weird considerations compared to a normal server</p>",
+        "id": 498147736,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1738855645
+    },
+    {
+        "content": "<p>I recently tried a bunch of password managers here is my very quick review.</p>\n<p>Lastpass: Easiest to use for the average person, good price,  good UX, good CLI,  questionable company past.</p>\n<p>Bitwarden: UX and GUI are not very good, Autofill doesn't always work, free option is very robust but pay them for the cheapest tier anyway because it's so cheap. Open source. </p>\n<p>Protonpass: Slick UI, Free tier is OK but it ties you into getting proton mail too. Not open source, company doing questionable things lately so I deleted my account.</p>\n<p>1Password: No free tier, didn't work better than the others while being more expensive. </p>\n<p>Dashlane: Didn't try, free tier only on one device.</p>\n<p>Keepass: Had problems with syncing in the pass so didn't try this round.  Also not very good UX.</p>\n<p>I ended up using bitwarden but I am really torn. I need to share passwords with my wife and I don't want to inflict bitwarden on her.  The only thing that might work for both of us is lastpass unfortunately.</p>",
+        "id": 498209392,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1738875536
+    },
+    {
+        "content": "<p>Oh I use Authy for 2FA but also rely on text messages and notifications from some providers.  Of course I use passkeys if the app supports it using the iphone.</p>\n<p>I really wish somebody would sort this stuff out eventually.  What happened to namecoin? What happened to Mozilla Persona? Are we always doomed to service our corporate overlords?</p>",
+        "id": 498209898,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1738875734
+    },
+    {
+        "content": "<p>Yeah, I started with Bitwarden, added Proton, and have now dropped Proton</p>",
+        "id": 498212851,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1738877084
+    },
+    {
+        "content": "<p>Bitwarden has a separate authenticator app, which I find useful because it's easy to export and backup</p>",
+        "id": 498212918,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1738877119
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755905\">Tim Uckun</span> <a href=\"#narrow/stream/455613-friends/topic/78.3A.20Over.20the.20top.20auth.20strategies/near/498209392\">said</a>:</p>\n<blockquote>\n<p>I need to share passwords with my wife but don't want to inflict Bitwarden on her</p>\n</blockquote>\n<p>I feel this. </p>\n<p>A few years back I replaced my LastPass family account with Bitwarden and I'm still the only person who uses it <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 498234634,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1738887110
+    },
+    {
+        "content": "<p>I wonder what it would take for make bitwarden work for the ordinary person. Seems like it shouldn't take that much work. Be able to launch the vault from the browser plugin, make both the vault and the browser add on look better, change some of the terminology so it makes sense to human beings etc.</p>",
+        "id": 498243331,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1738892293
+    },
+    {
+        "content": "<p>Bitwarden did get a bit of a make over recently, but I think most of my family should probably just keep passwords in a notepad in a locked drawer <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span></p>",
+        "id": 498244940,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1738893458
+    },
+    {
+        "content": "<p>realistically, yes. or even in a paper in their cabinet drawer in their bedroom. impossible to hack remotely. the phishing problem remains though</p>",
+        "id": 498608672,
+        "sender_full_name": "Yawar Amin",
+        "timestamp": 1739114914
+    },
+    {
+        "content": "<p>Perhaps LastPass have overhauled things since I left, but having switched from LastPass to 1Password I’d say the UX difference was huge, particularly on desktop. In particular notes on LastPass were laughably bad (fixed size annoyingly small text area, plain text) vs 1Password (nice UI, adjustable size, Markdown support). I’d describe the LastPass UI as passable, again, unless they overhauled it.</p>",
+        "id": 498628164,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1739130512
+    },
+    {
+        "content": "<p>The lasspass UI isn't pretty by any means, it's usable though and that's my point. You can get to the vault from the browser extension and it doesn't require a re login which a lot of them required. This whole \"get to your vault from a click in your browser\" thing seems so obvious that I am shocked everybody doesn't offer it.</p>",
+        "id": 498634016,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1739135125
+    },
+    {
+        "content": "<p>thinking about this, today, i'd love it if my bank (and my government, frankly) published their Signal and Matrix public keys and sent me notifications and magic links via Signal/Matrix rather than email<br>\ni think this addresses the not-100% reliable and 0% safe nature of email</p>",
+        "id": 519252626,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1747699558
+    },
+    {
+        "content": "<p>Want to join Slack.<br>\nPut in email.<br>\nClick magic link.<br>\nSlack sucks.<br>\nGo to deactivate account.<br>\nNeed password.<br>\nNever created password.<br>\nReset password.<br>\nDeactivate account.</p>\n<p>What kind of dumbass flow is this? You need nothing but an email to create an account but you need to reset a password to deactivate it? Magic links are really freaking dumb.</p>",
+        "id": 519288504,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1747715456
+    },
+    {
+        "content": "<p>i wish more platforms and apps supported something like Android's SMS Retriever API: <a href=\"https://developers.google.com/identity/sms-retriever/overview\">https://developers.google.com/identity/sms-retriever/overview</a><br>\nthe app tells the OS to expect an SMS with a particular hash and gets permissions to read that exact SMS message (not broad SMS permissions), your server includes that hash, and the entire verification flow can be automated without the user needing to do anything</p>",
+        "id": 519289994,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1747716434
+    },
+    {
+        "content": "<p>i'm imagining something like the SMS Retriever API, but for email/Signal/Matrix so that the app gains permissions to read the message with the magic link in it</p>",
+        "id": 519290089,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1747716492
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"771585\">Ron Waldon-Howe</span> <a href=\"#narrow/channel/455613-friends/topic/78.3A.20Over.20the.20top.20auth.20strategies/near/519289994\">said</a>:</p>\n<blockquote>\n<p>i wish more platforms and apps supported something like Android's SMS Retriever API: <a href=\"https://developers.google.com/identity/sms-retriever/overview\">https://developers.google.com/identity/sms-retriever/overview</a><br>\nthe app tells the OS to expect an SMS with a particular hash and gets permissions to read that exact SMS message (not broad SMS permissions), your server includes that hash, and the entire verification flow can be automated without the user needing to do anything</p>\n</blockquote>\n<p>Huh, you know I think this is what my bank does... and I had been grumbling about their use of SMS thinking the extra chars in the verification message were some sort of message ID. I feel a bit silly but also better now? Thanks <span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span></p>",
+        "id": 519380981,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1747746654
+    },
+    {
+        "content": "<p>Passkeys seem like a good option but I wish I had the power to set up different passkeys for different web sites with different profiles.</p>",
+        "id": 519479512,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1747777500
+    }
+]

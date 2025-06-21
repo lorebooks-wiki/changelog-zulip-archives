@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p><span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://jsparty.fm/339\">https://jsparty.fm/339</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://jsparty.fm/339\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/69ed7183c953ce75431178f695e495132936c9fe/68747470733a2f2f736e61702e666c792e6465762f6a7370617274792f3333392f696d67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://jsparty.fm/339\" title=\"It's all about the squiggles with Dimitri Mitropoulos &amp; Josh Goldberg (JS Party #339)\">It's all about the squiggles with Dimitri Mitropoulos &amp; Josh Goldberg (JS Party #339)</a></div><div class=\"message_embed_description\">Nick is joined by Josh Goldberg &amp; Dimitri Mitropoulos to discuss SquiggleConf, a new conference focused on web dev tooling. We explore the motivations behind creating a conference dedicated to developer tools, the challenges of organizing both conferences and local meetups, and strategies for building engaged tech comm...</div></div></div>",
+        "id": 471572181,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1726784587
+    },
+    {
+        "content": "<p>Regarding meet-ups: I have glanced around at some of the main sites for organizing meet-ups, but curious if anyone has alternative avenues for discovering groups?</p>\n<p>Any advice on getting involved in meetups when there don’t seem to be any in my area?</p>",
+        "id": 472273733,
+        "sender_full_name": "Joe Lyles",
+        "timestamp": 1727107736
+    },
+    {
+        "content": "<p>For general advice about meetups, I recommend this recent podcast: <a href=\"https://syntax.fm/show/818/cj-hosting-meetups-lunch-and-learn\">https://syntax.fm/show/818/cj-hosting-meetups-lunch-and-learn</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://syntax.fm/show/818/cj-hosting-meetups-lunch-and-learn\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/83d99479700cf49c5bdc239de294bbc3b08dfd73/68747470733a2f2f73796e7461782e666d2f6f672f3831382e6a7067&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://syntax.fm/show/818/cj-hosting-meetups-lunch-and-learn\" title=\"CJ × Hosting Meetups - Lunch and Learn - Syntax #818\">CJ × Hosting Meetups - Lunch and Learn - Syntax #818</a></div><div class=\"message_embed_description\">CJ discusses hosting the Denver TypeScript meetup, the return of meetups post-COVID, finding organizers and speakers, using Meetup.com, what makes a good meetup, his first meetup experiences, the importance of community, and tips for organizing, attending, finding and getting involved with meetups.</div></div></div>",
+        "id": 472357755,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1727135951
+    },
+    {
+        "content": "<p>As for where to find them, <a href=\"https://meetup.com\">https://meetup.com</a> is by far the most popular.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://meetup.com\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/453b853f03d54919f6307c24c073c078281859c4/68747470733a2f2f7365637572652e6d65657475707374617469632e636f6d2f6e6578742f696d616765732f7368617265642f6d65657475702d6c6f676f2e6a7067&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://meetup.com\" title=\"Meetup | Find Local Groups, Events, and Activities Near You\">Meetup | Find Local Groups, Events, and Activities Near You</a></div><div class=\"message_embed_description\">Find Meetup events, join groups, or start your own. Make new friends and connect with like-minded people. Meet people near you who share your interests.</div></div></div>",
+        "id": 472357872,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1727136003
+    },
+    {
+        "content": "<p>That podcast above also mentions <a href=\"https://guild.host\">https://guild.host</a> but there are far fewer events than what's on Meetup.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://guild.host\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/fc512165c8337e8c884aeaa30f155da6f8957744/68747470733a2f2f696b2e696d6167656b69742e696f2f6775696c642f736f6369616c2d636172642d64656661756c742d6261636b67726f756e645f6a734a4c654d65634e2e706e673f74723d772d31323030&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://guild.host\" title=\"Elevate Your Community | Guild\">Elevate Your Community | Guild</a></div><div class=\"message_embed_description\">Guild is the platform for communities. Attend an Event, catch a Presentation, and follow a Network!\n</div></div></div>",
+        "id": 472358076,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1727136061
+    },
+    {
+        "content": "<p>Thanks, <span class=\"user-mention\" data-user-id=\"752868\">@Philip Durbin</span> ! I appreciate the feedback. Seems like meet-ups might be recovering some momentum.</p>\n<p>For future readers - Syntax pod episode covers considerations for meet-ups such as: getting a location, style of meet-up, discovering meet-ups, cost of the event, formats for doing talks and finding speakers, no-talk and participatory meet-ups, attendee mindset, meet-ups and gyms, organizer tips, circle back to how to find a meet-up.</p>\n<p>Bottom line - If you’re thinking about going to a meet-up, go. Also, get involved, consider organizing, and volunteer to speak.</p>",
+        "id": 472480350,
+        "sender_full_name": "Joe Lyles",
+        "timestamp": 1727180453
+    }
+]

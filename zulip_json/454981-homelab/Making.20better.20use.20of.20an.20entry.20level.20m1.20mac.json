@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>I bought my wife an M1 iMac a while back and most of the time it sits there doing nothing. All she does is basically use safari to do web stuff and youtube and stuff.</p>\n<p>I want to make better use of this machine. It doesn't have a lot of disk space or RAM (minimal configuration).</p>\n<p>Any suggestions? Obviously I could put an external drive and make it a file server but I don't really need a file server as all my laptops have enough space and  the important documents are backed up to icloud.</p>",
+        "id": 481377018,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1731095237
+    },
+    {
+        "content": "<p>Maybe look into setting up some machine learning projects for tinkering? If it is an entry level Mac, maybe you can try setting up Ollama and try to run some smaller models like Qwen-1.5B for coding autocomplete.</p>\n<p><a href=\"https://pypi.org/project/mlx-whisper/\">mlx-whisper</a> would also be a good project to play around with. I personally use it extensively in my language learning journey. I no longer look for accurate subtitles for any French media, the Whisper Turbo + mlx_whisper works amazingly well.</p>",
+        "id": 481430955,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1731130616
+    },
+    {
+        "content": "<p>I guess I'll have to set it for remote usage first.  Maybe I'll give coder a try...</p>",
+        "id": 481432760,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1731132567
+    },
+    {
+        "content": "<p>I don't know that you'll for sure figure out a better use for it than the utility your spouse is already enjoying :)<br>\niMacs have a built-in webcam and microphone, right? There might be something neat you can do with computer vision? <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span></p>",
+        "id": 481433040,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1731132861
+    },
+    {
+        "content": "<p>Local LLM usage for sure and you could expose that as a service outside the network. Docker for sure. Plex. Is it 10Gbe?</p>",
+        "id": 481469430,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1731165786
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"771585\">@Ron Waldon-Howe</span> My wife doesn't use it all the time and she doesn't use it to full capacity so that's why I was thinking it's being underutilized.</p>\n<p><span class=\"user-mention\" data-user-id=\"750017\">@Adam Stacoviak</span> it's on wifi like all other other devices in the house.</p>",
+        "id": 481492359,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1731184331
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>I found a link on <a href=\"https://changelog.com/~\">https://changelog.com/~</a> that pointed to <a href=\"https://changelog.com/~/zulip\">https://changelog.com/~/zulip</a> to \"Request Invite\" but it resulted in a 404 for me.</p>\n<p>Considering you have to be logged in to the site to access those links (I didn't realize that until Adam pointed it out) that may have something to do with it, and I'm already in Zulip here, so maybe it's broken because I don't need to get an invite anymore. <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span></p>\n<p>Later I tried it again from my browser and got some little popup on the page that said:<br>\n\"Hmm, Zulip is saying 'We weren't able to invite anyone.' <span aria-label=\"thinking\" class=\"emoji emoji-1f914\" role=\"img\" title=\"thinking\">:thinking:</span>\"</p>\n<p>How does that work, does it take the email address from my <a href=\"http://changelog.com\">changelog.com</a> account to send to a Zulip API for an invite to that email address?</p>\n<p>I can reproduce it by going to the <code>/~/zulip</code> path directly in a separate browser window, but I first ran into the 404 I think from clicking the \"Request Invite\" button... it was weird and now that I've tried it again, I'm not quite sure how to reproduce what I originally saw when clicking the \"Request Invite\" button.</p>\n<p>I was just trying to walk through the steps to be able to describe the steps properly.</p>\n<p><span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span>  Adam suggested I post a conversation here to see if it needs any discussion.</p>",
+        "id": 489012776,
+        "sender_full_name": "Matt Johnson",
+        "timestamp": 1734198058
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"753112\">@Matt Johnson</span> so that <code>/~/zulip</code> link is supposed to be a <code>POST</code> request. Phoenix uses some JS to accomplish that when you click on it. Hence the 404. I could fix that by making it work for both <code>POST</code> and <code>GET</code> but I do think this is a rare occasion.</p>\n<p><span class=\"user-mention silent\" data-user-id=\"753112\">Matt Johnson</span> <a href=\"#narrow/channel/455097-kaizen/topic/Website.20Request.20Invite.20Link/near/489012776\">said</a>:</p>\n<blockquote>\n<p>How does that work, does it take the email address from my <a href=\"http://changelog.com/\">changelog.com</a> account to send to a Zulip API for an invite to that email address?</p>\n</blockquote>\n<p>Yes that's how it works.</p>",
+        "id": 490006045,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1734626546
+    },
+    {
+        "content": "<p>What's odd is that the message you should get with an email address that's already joined is:</p>\n<blockquote>\n<p>Your email already has an account. We'll see you in there! <span aria-label=\"umm\" class=\"emoji emoji-1f4ac\" role=\"img\" title=\"umm\">:umm:</span></p>\n</blockquote>\n<p>I just confirmed that's what I get when I click the \"Request Invite\" button from <code>/~</code></p>\n<p>I wonder if there was a temporary Zulip API outage or some way that our request just failed instead. Can you at least reproduce that error message? If so, I can debug/fix it.</p>",
+        "id": 490006464,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1734626651
+    }
+]
