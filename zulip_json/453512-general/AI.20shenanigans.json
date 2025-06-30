@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>A colleague just shared this article with me. I find it both hilarious and terrifying! <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span><span aria-label=\"scream\" class=\"emoji emoji-1f631\" role=\"img\" title=\"scream\">:scream:</span></p>\n<p><a href=\"https://www.anthropic.com/research/agentic-misalignment\">https://www.anthropic.com/research/agentic-misalignment</a></p>",
+        "id": 525988273,
+        "sender_full_name": "Chris Duzan",
+        "timestamp": 1750977027
+    },
+    {
+        "content": "<p>\"agentic misalignment\" is quite a euphemism</p>",
+        "id": 526088863,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1751032400
+    },
+    {
+        "content": "<p>Haha, yeah. A more apt (and dramatic) title might be, \"The robots have gone rogue!\"</p>",
+        "id": 526110635,
+        "sender_full_name": "Chris Duzan",
+        "timestamp": 1751038920
+    },
+    {
+        "content": "<p>This is precisely the scenario in <a href=\"https://avogadrocorp.com/\">https://avogadrocorp.com/</a> which was a good read<br>\nBut now it's true, haha</p>",
+        "id": 526175242,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1751083587
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p>I can't be the first one to notice that what <span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span> calls the \"(un)ordered list of links\" is actually a <em>set</em> since he's never repeated a single item <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span></p>",
+        "id": 508738687,
+        "sender_full_name": "Igor Akkerman",
+        "timestamp": 1743163715
+    },
+    {
+        "content": "<p>You <em>may</em> be giving me too much credit by assuming I wouldn't be lured in by the same thing twice <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span> </p>\n<p>(Somebody should vibe code up an \"(un)ordered list of links\" dupe checker)</p>",
+        "id": 508759602,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1743169770
+    },
+    {
+        "content": "<p>Relatedly, I've noticed in my text communications that I use bullet points alot, but shuffling would confuse the point I'm trying to make<br>\nSo, perhaps I do need to use numbered/ordered lists more often</p>",
+        "id": 508848943,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1743197698
+    },
+    {
+        "content": "<p>Something about an ordered list feels so much more formal though <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span></p>",
+        "id": 508849022,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1743197741
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"771585\">@Ron Waldon-Howe</span> there's a difference between ordered and numbered, so you're good <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span></p>",
+        "id": 508922541,
+        "sender_full_name": "Igor Akkerman",
+        "timestamp": 1743254993
+    },
+    {
+        "content": "<p>But it'd be so nice to remove a concept from my brain and just make them the same :P</p>",
+        "id": 508958272,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1743282516
+    },
+    {
+        "content": "<p>The REAL reason that <span class=\"user-mention\" data-user-id=\"750017\">@Adam Stacoviak</span> is so nice to his LLMs <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span> </p>\n<p><a href=\"/user_uploads/66849/zdlDmuUyrwFbn8LN63IF-9U0/GndvKHpWgAEDoKR.png\">GndvKHpWgAEDoKR.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/zdlDmuUyrwFbn8LN63IF-9U0/GndvKHpWgAEDoKR.png\" title=\"GndvKHpWgAEDoKR.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"800x800\" src=\"/user_uploads/thumbnail/66849/zdlDmuUyrwFbn8LN63IF-9U0/GndvKHpWgAEDoKR.png/840x560.webp\"></a></div>",
+        "id": 509942345,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1743687327
+    },
+    {
+        "content": "<p>Stop being so nice to your LLMs! <span aria-label=\"rolling on the floor laughing\" class=\"emoji emoji-1f923\" role=\"img\" title=\"rolling on the floor laughing\">:rolling_on_the_floor_laughing:</span>  <a href=\"https://futurism.com/altman-please-thanks-chatgpt\">https://futurism.com/altman-please-thanks-chatgpt</a></p>",
+        "id": 513417554,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1745248526
+    },
+    {
+        "content": "<p>Has anyone heard of <a href=\"http://guestpodcaststoday.com\">guestpodcaststoday.com</a> ?<br>\nI got an email from them asking if I'd like to be a guest on a podcast they work with, but it seemed a little… odd.</p>",
+        "id": 523173166,
+        "sender_full_name": "James A Rosen",
+        "timestamp": 1749505439
+    },
+    {
+        "content": "<p>I mean I just went to the website and it redirects to something odd... and the template has way too much animation in it so I'm not sure if I trust it <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span></p>",
+        "id": 525395394,
+        "sender_full_name": "Chris Manson",
+        "timestamp": 1750706723
+    },
+    {
+        "content": "<p><span aria-label=\"point up\" class=\"emoji emoji-1f446\" role=\"img\" title=\"point up\">:point_up:</span> that was my attempt at a reply to the previous message. I'm still getting used to Zulip <span aria-label=\"see no evil\" class=\"emoji emoji-1f648\" role=\"img\" title=\"see no evil\">:see_no_evil:</span></p>",
+        "id": 525395508,
+        "sender_full_name": "Chris Manson",
+        "timestamp": 1750706782
+    },
+    {
+        "content": "<p>Yeah I had to click around a bit to get going</p>",
+        "id": 525817853,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1750908122
+    }
+]
