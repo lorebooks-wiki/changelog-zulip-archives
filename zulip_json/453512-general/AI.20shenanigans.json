@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p>A colleague just shared this article with me. I find it both hilarious and terrifying! <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span><span aria-label=\"scream\" class=\"emoji emoji-1f631\" role=\"img\" title=\"scream\">:scream:</span></p>\n<p><a href=\"https://www.anthropic.com/research/agentic-misalignment\">https://www.anthropic.com/research/agentic-misalignment</a></p>",
+        "id": 525988273,
+        "sender_full_name": "Chris Duzan",
+        "timestamp": 1750977027
+    },
+    {
+        "content": "<p>\"agentic misalignment\" is quite a euphemism</p>",
+        "id": 526088863,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1751032400
+    },
+    {
+        "content": "<p>Haha, yeah. A more apt (and dramatic) title might be, \"The robots have gone rogue!\"</p>",
+        "id": 526110635,
+        "sender_full_name": "Chris Duzan",
+        "timestamp": 1751038920
+    },
+    {
+        "content": "<p>This is precisely the scenario in <a href=\"https://avogadrocorp.com/\">https://avogadrocorp.com/</a> which was a good read<br>\nBut now it's true, haha</p>",
+        "id": 526175242,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1751083587
+    },
+    {
+        "content": "<p>Here is a win for Gemini CLI. I had a directory full of statements which were PDF files and I wanted to print the first page of every statement. I asked Gemini how I could take all the first pages and put them in a separate document and it said it would write a python script to do it and proceeded to do it. It installed the required libraries although it had to try twice because the mac doesn't allow global installs and it had to create an env for it but it did it.   The whole process only took five or six minutes.   I am not a python programmer but the code looked fine. </p>\n<p>Win for Gemini.</p>",
+        "id": 527603577,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751950102
+    },
+    {
+        "content": "<p>Hey I nominate \"AI Shenanigans\" to be it's own channel.</p>",
+        "id": 527608724,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751954021
+    },
+    {
+        "content": "<p>I was bored so I thought I would ask AI some questions. I said that I wanted to build a cross platform desktop app and asked for a recommendation for a language and framework.</p>\n<p>Gemini said Rust + Tauri was the best choice. It also said go was a good choice for backend, python with QT  and  JS with electron were second tier solutions. I asked why it didn't talk about java or kotlin and it said they would be good choices but listed some downsides it considered wouldn't make it the best tool.</p>\n<p>I then asked it what languages it could help me most with and it said it listed python, javascript and java in that order. It listed go, rust, and kotlin as the second tier.</p>",
+        "id": 527612744,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751956289
+    },
+    {
+        "content": "<p>I then asked the same questions to chatgpt</p>\n<p>It listed the best choices as (in order) Rust + Tauri, python with QT, C# with avalonia, Electron/JS, as a bonus it reccomended dart and flutter.  </p>\n<p>When I asked what it could help me most with it said python, rust and javascript in that order and listed other languages as second tier.</p>",
+        "id": 527613191,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751956564
+    },
+    {
+        "content": "<p>Next I went to deepseek.</p>\n<p>Deepseek's list was in this order electron, flutter, rust, go, c#</p>\n<p>It said it could help me best with rust, python and go in that order and other languages as second tier.</p>",
+        "id": 527613534,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751956764
+    },
+    {
+        "content": "<p>Claude only recommended rust + tauri and go + wails it put javascript, flutter, c++ and Java/kotlin in tier two.</p>\n<p>When I asked it what it was best with it said Javascript (excellent), go (very good), rust (good). It used those adverbs.</p>\n<p>In the end it said the final choice should be go.</p>\n<blockquote>\n<h2><strong>My Recommendation</strong></h2>\n<p><strong>Start with Go + Wails</strong> - I can provide the most comprehensive help with both the backend file operations and the frontend integration. The combination of Go's simplicity and my strong JavaScript knowledge means I can guide you through the entire stack effectively.</p>\n</blockquote>",
+        "id": 527614522,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751957318
+    },
+    {
+        "content": "<p>Deepseek was very gung ho on rust, it even wrote up a snippet of rust to demonstrate a functionality.</p>\n<p>They all offered to immediately start the project of course.</p>",
+        "id": 527614749,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751957425
+    },
+    {
+        "content": "<p>I honestly thought they would all reach for java first to write a cross platform desktop app none of them seemed to think it was a good idea.  I was also shocked that any of them reccomeded writing a desktop app in python. That seems nuts to me but clearly they have all been trained on a mountain of python code.</p>",
+        "id": 527615060,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751957574
+    }
+]

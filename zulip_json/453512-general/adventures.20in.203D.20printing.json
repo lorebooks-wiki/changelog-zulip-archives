@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>For the first time, I printed an item that needed a colour-change partway through, and it worked!</p>\n<p>It was a bit of a confusing process, as the printer starts ejecting the current filament but continues to print in a sort of junk area, then it pauses, then the filament should be swapped, then it continues printing in the junk area for a bit, and then it resumes printing the desired object</p>\n<p>But, I didn't know the GCODE would include those pause and swap instructions, so I manually paused it, swapped, and resumed, which ended up being quite redundant </p>\n<p>But now I know for next time :)</p>",
+        "id": 503459007,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1741165979
+    },
+    {
+        "content": "<p>I'm still a bit nervous about connecting a potentially dangerous device to \"the cloud\" but I setup <a href=\"https://www.obico.io/\">https://www.obico.io/</a> over the weekend and it's made quite a difference to my 3D printer experience</p>",
+        "id": 511969445,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1744598564
+    },
+    {
+        "content": "<p>About the pause in the gcode. It can also be use to pause for inserting nuts, magnets or other items in your print <span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+        "id": 512140608,
+        "sender_full_name": "Bjørn Gustav Baklid",
+        "timestamp": 1744652904
+    },
+    {
+        "content": "<p>Yeah, I've not yet had to make use of that, but I'm constantly impressed at just how much good work has gone into this space already</p>",
+        "id": 512183934,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1744669208
+    }
+]

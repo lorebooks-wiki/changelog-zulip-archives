@@ -1,0 +1,98 @@
+[
+    {
+        "content": "<p>Stephan Ewen, Founder and CEO of <a href=\"http://Restate.dev\">Restate.dev</a> joins the show to talk about the coming era of resilient apps, the meaning of and what it takes to achieve idempotency, this world of stateful durable execution functions, and when it makes sense to reach for this tech. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/636\">https://changelog.fm/636</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.fm/636#t=0\">00:00</a></td>\n<td>This week on The Changelog</td>\n<td>00:56</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.fm/636#t=56\">00:56</a></td>\n<td><a href=\"https://retool.com/changelog\">Sponsor: Retool</a></td>\n<td>02:45</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.fm/636#t=226\">03:46</a></td>\n<td>Start the show!</td>\n<td>03:10</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.fm/636#t=416\">06:56</a></td>\n<td>Demystify Idempotency</td>\n<td>02:13</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.fm/636#t=549\">09:09</a></td>\n<td>Achieving Idempotency</td>\n<td>02:29</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.fm/636#t=698\">11:38</a></td>\n<td>Where does the word Idempotency come from?</td>\n<td>02:15</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.fm/636#t=833\">13:53</a></td>\n<td>Why solve this problem? Why you?</td>\n<td>08:58</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.fm/636#t=1371\">22:51</a></td>\n<td>Leaving Flink</td>\n<td>06:25</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.fm/636#t=1755\">29:15</a></td>\n<td><a href=\"https://www.heroku.com/changelogpodcast\">Sponsor: Heroku</a></td>\n<td>02:40</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.fm/636#t=1916\">31:56</a></td>\n<td>What is durability?</td>\n<td>07:26</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.fm/636#t=2362\">39:22</a></td>\n<td>When should I reach for this?</td>\n<td>06:41</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.fm/636#t=2763\">46:03</a></td>\n<td>The era of Resilent Apps as a service (RAaaS)?</td>\n<td>03:29</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.fm/636#t=2972\">49:32</a></td>\n<td>Marketing challenge of resilience</td>\n<td>04:18</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.fm/636#t=3230\">53:50</a></td>\n<td>Tangent: Why are AI agent demos booking flights?</td>\n<td>01:37</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.fm/636#t=3327\">55:27</a></td>\n<td><a href=\"https://www.augmentcode.com\">Sponsor: Augment Code</a></td>\n<td>03:30</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.fm/636#t=3537\">58:57</a></td>\n<td>Adam predicts that \"this is the year\" of durable and resilience</td>\n<td>11:50</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.fm/636#t=4246\">1:10:46</a></td>\n<td>Infra required for Restate</td>\n<td>04:29</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.fm/636#t=4516\">1:15:16</a></td>\n<td>It's Schrödinger's cat</td>\n<td>04:06</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.fm/636#t=4762\">1:19:22</a></td>\n<td>Publishing Changelog with Restate?</td>\n<td>11:19</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.fm/636#t=5441\">1:30:41</a></td>\n<td>This new world of durable execution functions</td>\n<td>05:32</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.fm/636#t=5773\">1:36:13</a></td>\n<td><a href=\"https://changelog.com/community\">Changelog.com/community</a></td>\n<td>00:21</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.fm/636#t=5794\">1:36:34</a></td>\n<td>Closing thoughts?</td>\n<td>01:50</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.fm/636#t=5904\">1:38:24</a></td>\n<td>More thoughts and closing</td>\n<td>01:38</td>\n</tr>\n</tbody>\n</table>",
+        "id": 511522749,
+        "sender_full_name": "Logbot",
+        "timestamp": 1744325827
+    },
+    {
+        "content": "<p>Just started listening! Keen for this. There was previous discussion around this topic: <a href=\"#narrow/stream/453512-general/topic/What.20trending.20tech.20are.20you.20most.20bullish.20on.3F/near/490607287\">https://changelog.zulipchat.com/#narrow/stream/453512-general/topic/What.20trending.20tech.20are.20you.20most.20bullish.20on.3F/near/490607287</a></p>",
+        "id": 511584406,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1744357705
+    },
+    {
+        "content": "<p>In the first five minutes, I knew I was going to love this episode. The conversation diving into explaining the concept of idempotency was great to hear called out rather than just glossed over. It is such a useful concept to understand, but not always easy to grasp and apply. I’ve utilized similar concepts applied to managing system resources and configuration management with Terraform and Ansible where it’s important to ensure the expected result even when events are repeated. It’s nice to see the significant impact these same principles provide when applied in other areas than the ones I have familiarity with.</p>",
+        "id": 511658716,
+        "sender_full_name": "Matt Johnson",
+        "timestamp": 1744379806
+    },
+    {
+        "content": "<p>I might  be biased here, from working with Elixir for so long...  but the entire episode gave me vibes of <a href=\"https://vereis.com/posts/you_built_an_erlang\">you have built an erlang</a> thing, and when Jerod mentioned Elixir just caught him off guard. <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span> <br>\nExcelent episode, and it's great that is a tool that you can self host and is source available. But the same way as temporal I think it just doesn't appeal for me the same way it would appeal to others.</p>",
+        "id": 511734175,
+        "sender_full_name": "cevado",
+        "timestamp": 1744405558
+    },
+    {
+        "content": "<p>There was an Oxide and Friends episode on distributed sagas that's sort of related: <a href=\"https://oxide-and-friends.transistor.fm/episodes/the-saga-of-sagas\">https://oxide-and-friends.transistor.fm/episodes/the-saga-of-sagas</a></p>",
+        "id": 511739780,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1744407763
+    },
+    {
+        "content": "<p>I don't know why Erlang didn't take over the world. I guess back when it started getting into the mainstream it had some performance problems with strings or something. That article is brilliant though. I know I have built complex systems and then said \"I should have done it in erlang\"</p>",
+        "id": 511740465,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1744408148
+    },
+    {
+        "content": "<p>You can achieve similar reliability in Go if you never mutate anything, and only use channels to pass values between <code>go func</code>s (no sharing values between them otherwise)<br>\nOtherwise, for efficient and safe concurrency, really nothing beats Erlang/Elixir, Swift, or Rust<br>\nOr Pony :) <a href=\"https://www.ponylang.io/\">https://www.ponylang.io/</a></p>",
+        "id": 511745762,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1744411144
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"815216\">@cevado</span> it's a fun article but it doesn't really paint a compelling picture to me... I would sincerely really love to understand the Erlang way, but maybe I just haven't worked on the kinds of systems which need it?</p>\n<p>Maybe resisting the microservices hype has insulated me from the worst of the problems. We still run our company on a PHP monolith with a Redis job queue and a few tightly-scoped side services. I'm not saying that's better than using Erlang, just that maybe I'm not well placed to understand the problems the post describes :/</p>",
+        "id": 511760756,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1744420679
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752986\">@Daniel Buckmaster</span> the article is just for fun but I guess it highlights what the erlang vm really is:</p>\n<blockquote>\n<ul>\n<li>An asynchronous, message-based runtime.</li>\n<li>Supervision trees for fault-tolerant processes.</li>\n<li>Lifecycle management for dynamic workers.</li>\n<li>APIs for synchronous and asynchronous calls.</li>\n<li>Live introspection tools for debugging.</li>\n<li>A distributed message inbox (that still isn’t quite sharded right).</li>\n</ul>\n</blockquote>\n<p>when I worked with ruby and started working with elixir I had the same feeling. \"I just don't need it all\". the thing clicked to me when I realized that I stopped reaching for external tools and just relied on what's already available on the VM. <br>\nwhen your runtime provide you the basics of atomic execution, location transparency, communication abstractions that are cluster aware, easy to handle clusterization, self recovery and everything else that comes with erlang vm you just delay more definitive and impactfull architectural decisions. this means you end up having more time to bake in your solution, see it evolving as your app scales up and do the choices that is a big compromise over your entire system architecture later. <br>\nit's like what Sandi Metz says on this <a href=\"https://www.youtube.com/watch?v=8bZh5LMaSmE\">talk</a> about the wrong abstraction. sometimes you need to give time for the right abstraction to show up, now imagine that applied to the distributed systems architecture.  it makes the life of the engineer and reasoning about what you're doing more simple. just as an example in the past 3 jobs that i worked, we reached for redis once, and it was to coordinate something between a go application and the elixir application.<br>\nbut for sure it's a double edged sword, you shouldn't get in love with the smart solution that you've built, when you have a architectural decision screaming to be made, it's good to extract it out, make it available to other parts/applications of your system.</p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"8bZh5LMaSmE\" href=\"https://www.youtube.com/watch?v=8bZh5LMaSmE\"><img src=\"https://uploads.zulipusercontent.net/8f4a074a991044bf7cbb24cb74a6e7a3deaaf722/68747470733a2f2f692e7974696d672e636f6d2f76692f38625a68354c4d61536d452f6d7164656661756c742e6a7067\"></a></div>",
+        "id": 511807157,
+        "sender_full_name": "cevado",
+        "timestamp": 1744460531
+    },
+    {
+        "content": "<p>In my case I had to build several micro services around a rails monolith. Some were because I wanted better performance, some were because I had to have many persistent connections, some were for background tasks and scheduled tasks, and I also leveraged some SAAS apps from Amazon. Of course apps that monitored all this and reacted when things went wrong.  </p>\n<p>When it was all said and done there were several languages at play, a few databases etc. I think Erlang would have been able to handle all of that in a uniform and and comfortable way.</p>\n<p>Having said all that I wasn't an expert at Erlang having just dabbled in it for fun and of course nobody else in the company knew erlang and I had no idea where I would hire erlang programmers from. </p>\n<p>This was all more than a decade ago. Today I might have reached for go maybe but back then go was pretty new and didn't have much mindshare.</p>",
+        "id": 511849302,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1744496497
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755905\">Tim Uckun</span> <a href=\"#narrow/stream/456187-interviews/topic/636.3A.20The.20era.20of.20durable.20execution/near/511849302\">said</a>:</p>\n<blockquote>\n<p>Having said all that I wasn't an expert at Erlang having just dabbled in it for fun and of course nobody else in the company knew erlang and I had no idea where I would hire erlang programmers from. </p>\n</blockquote>\n<p>This is probably the most important factor in stack choice, and overlooked because it's social and not technical</p>",
+        "id": 511875258,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1744520958
+    },
+    {
+        "content": "<p>RE: naming of “durable functions” from the end of the episode.</p>\n<p>What about Durable Executions, DEX for short? Has a nice ring <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span></p>",
+        "id": 512202370,
+        "sender_full_name": "Joe",
+        "timestamp": 1744680056
+    },
+    {
+        "content": "<p>I think the product should be named \"function orchestration\" which is what it really is.  Tagline \"kubernetes for your functions\"</p>",
+        "id": 512420781,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1744754572
+    },
+    {
+        "content": "<p>Hehe, when teaching PaaS to UI folks, I often say \"kubernetes is React for compute/network resources\"</p>",
+        "id": 512436370,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1744763104
+    },
+    {
+        "content": "<p>Make a backronym for FORT Function Orchestration (for) Resilient (Restartable?) Transactions</p>",
+        "id": 512697937,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1744842163
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"771585\">Ron Waldon-Howe</span> <a href=\"#narrow/channel/456187-interviews/topic/636.3A.20The.20era.20of.20durable.20execution/near/511739780\">said</a>:</p>\n<blockquote>\n<p>There was an Oxide and Friends episode on distributed sagas that's sort of related: <a href=\"https://oxide-and-friends.transistor.fm/episodes/the-saga-of-sagas\">https://oxide-and-friends.transistor.fm/episodes/the-saga-of-sagas</a></p>\n</blockquote>\n<p>That whole episode I was just waiting for someone to bring up the comparison.</p>",
+        "id": 515311007,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1746021149
+    }
+]

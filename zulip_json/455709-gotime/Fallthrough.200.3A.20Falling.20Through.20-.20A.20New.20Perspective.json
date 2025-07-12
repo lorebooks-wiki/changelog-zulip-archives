@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>Hi all! We’ve shipped episode 0 of Fallthrough! You can listen to it here: <a href=\"https://fallthrough.transistor.fm/episodes/falling-through-a-new-perspective\">https://fallthrough.transistor.fm/episodes/falling-through-a-new-perspective</a><br>\nOr if you want to see our faces, you can watch it on YouTube!<br>\n<a href=\"https://www.youtube.com/watch?v=Tjj_U4qdAlE\">https://www.youtube.com/watch?v=Tjj_U4qdAlE</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"Tjj_U4qdAlE\" href=\"https://www.youtube.com/watch?v=Tjj_U4qdAlE\"><img src=\"https://uploads.zulipusercontent.net/0cf84f0328a956dc630938e0b86028a0a107c558/68747470733a2f2f692e7974696d672e636f6d2f76692f546a6a5f55347164416c452f64656661756c742e6a7067\"></a></div>",
+        "id": 489358964,
+        "sender_full_name": "Kris Brandow",
+        "timestamp": 1734388563
+    },
+    {
+        "content": "<p>Episode 0 down. Many more to go!</p>",
+        "id": 489390100,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1734402808
+    },
+    {
+        "content": "<p>I enjoyed ep0 and I'm looking forward to what's next. I, too, would like to hear more thoughts on error handling.</p>",
+        "id": 489402632,
+        "sender_full_name": "Al Gonzalez",
+        "timestamp": 1734408772
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"763367\">@Kris Brandow</span> where'd you get the Vim and Go Time posters?</p>",
+        "id": 489402822,
+        "sender_full_name": "Al Gonzalez",
+        "timestamp": 1734408915
+    },
+    {
+        "content": "<p>Great news that the Go niche lives on through a different channel! I will be listening while whipping up a carbonara for me and the kids!</p>",
+        "id": 489502231,
+        "sender_full_name": "Erik Svensson",
+        "timestamp": 1734446687
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"760631\">Al Gonzalez</span> <a href=\"#narrow/channel/455709-gotime/topic/Fallthrough.200.3A.20Falling.20Through.20-.20A.20New.20Perspective/near/489402822\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"763367\">Kris Brandow</span> where'd you get the Vim and Go Time posters?</p>\n</blockquote>\n<p>I bought the Vim poster years ago on RedBubble. The Go Time poster I actually made myself from the Go Time logo.</p>",
+        "id": 489503316,
+        "sender_full_name": "Kris Brandow",
+        "timestamp": 1734446984
+    },
+    {
+        "content": "<p>I really enjoyed ep0 and looking forward to the rest. Sounds like a great mix of content. As <span class=\"user-mention\" data-user-id=\"760631\">@Al Gonzalez</span>  I would also like to hear more thoughts on error handling. But also like the idea on discussions about other tech areas and programing languages.</p>",
+        "id": 489834257,
+        "sender_full_name": "Pontus Ullgren",
+        "timestamp": 1734552905
+    }
+]

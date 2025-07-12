@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Apple remote desktop costs so much money. Anydesk, teamviewer etc have free tiers. </p>\n<p>Do you guys ever need to access your machines remotely and what do you use (other than ssh)</p>",
+        "id": 524370274,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1750134984
+    },
+    {
+        "content": "<p>I just use the built in screen sharing app. It only works from another Mac, but that’s all I need.</p>",
+        "id": 525626266,
+        "sender_full_name": "Jordan",
+        "timestamp": 1750819436
+    },
+    {
+        "content": "<p>How do you connect to the other screen?</p>",
+        "id": 525797215,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1750889366
+    },
+    {
+        "content": "<p>I don't know what apple calls it , You can setup VNC server on Mac. And access from anywhere,from your mobile too.</p>\n<p>Or if you mean like using mouse, keyboard then i would prefer KDE connect.</p>",
+        "id": 526011935,
+        "sender_full_name": "Dixit Ram",
+        "timestamp": 1750999161
+    }
+]
