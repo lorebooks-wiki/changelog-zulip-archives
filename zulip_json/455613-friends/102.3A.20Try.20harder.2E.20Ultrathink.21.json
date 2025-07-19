@@ -1,0 +1,80 @@
+[
+    {
+        "content": "<p>Nick Nisi joins us to discuss all the Windsurf drama, his new agentic lifestyle, whether or not he's actually more productive, the new paper that says he maybe isn't more productive, the reckoning he sees coming, and why we might be the last generation of code monkeys. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.am/102\">https://changelog.am/102</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.am/102#t=0\">00:00</a></td>\n<td>Let's talk!</td>\n<td>00:38</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.am/102#t=38\">00:38</a></td>\n<td><a href=\"https://auth0.com/ai\">Sponsor: Auth0</a></td>\n<td>01:29</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.am/102#t=127\">02:07</a></td>\n<td>Confessions &amp; Friends</td>\n<td>02:33</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.am/102#t=279\">04:39</a></td>\n<td><a href=\"https://techfundingnews.com/how-windsurf-was-split-between-openai-google-and-cognition-in-a-billion-dollar-acquisition-deal/\">The Windsurf drama</a></td>\n<td>06:03</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.am/102#t=642\">10:42</a></td>\n<td>The terminal FTW</td>\n<td>01:42</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.am/102#t=744\">12:24</a></td>\n<td>npm install -g</td>\n<td>01:28</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.am/102#t=833\">13:53</a></td>\n<td>Claude Code FTW (for now)</td>\n<td>01:39</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.am/102#t=931\">15:31</a></td>\n<td>Curating your config</td>\n<td>01:56</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.am/102#t=1047\">17:27</a></td>\n<td>Anthropic's advantage</td>\n<td>02:52</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.am/102#t=1219\">20:19</a></td>\n<td>How you use it</td>\n<td>01:08</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.am/102#t=1286\">21:26</a></td>\n<td>Cruising prompts</td>\n<td>02:35</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.am/102#t=1441\">24:01</a></td>\n<td>Adam's a waiter</td>\n<td>00:49</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.am/102#t=1490\">24:50</a></td>\n<td>Having fun now</td>\n<td>02:04</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.am/102#t=1614\">26:54</a></td>\n<td>ChatGPT emotes to Nick</td>\n<td>02:51</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.am/102#t=1785\">29:45</a></td>\n<td>ChatGPT emotes to Adam</td>\n<td>00:27</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.am/102#t=1812\">30:12</a></td>\n<td>ChatGPT emotes to Jerod</td>\n<td>00:44</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.am/102#t=1856\">30:56</a></td>\n<td>Sycophant mode returns</td>\n<td>01:19</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.am/102#t=1936\">32:16</a></td>\n<td><a href=\"https://www.coderabbit.ai\">Sponsor: CodeRabbit</a></td>\n<td>02:43</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.am/102#t=2099\">34:59</a></td>\n<td>Claude Code endulgence</td>\n<td>03:05</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.am/102#t=2284\">38:04</a></td>\n<td>It can be real dumb</td>\n<td>02:16</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.am/102#t=2420\">40:20</a></td>\n<td>Different agent, different results</td>\n<td>01:08</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.am/102#t=2488\">41:28</a></td>\n<td>Scaling agents</td>\n<td>01:20</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.am/102#t=2567\">42:47</a></td>\n<td>Waiting on the agent(s)</td>\n<td>04:17</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.am/102#t=2824\">47:04</a></td>\n<td>Actually more productive?</td>\n<td>03:05</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://changelog.am/102#t=3009\">50:09</a></td>\n<td><a href=\"https://johnwhiles.com/posts/mental-models-vs-ai-tools\">The new AI impact paper</a></td>\n<td>04:26</td>\n</tr>\n<tr>\n<td>26</td>\n<td><a href=\"https://changelog.am/102#t=3274\">54:34</a></td>\n<td>Nick futurecasts</td>\n<td>02:35</td>\n</tr>\n<tr>\n<td>27</td>\n<td><a href=\"https://changelog.am/102#t=3429\">57:09</a></td>\n<td>The coming reckoning</td>\n<td>01:57</td>\n</tr>\n<tr>\n<td>28</td>\n<td><a href=\"https://changelog.am/102#t=3546\">59:06</a></td>\n<td>Jerod's two minds</td>\n<td>03:37</td>\n</tr>\n<tr>\n<td>29</td>\n<td><a href=\"https://changelog.am/102#t=3763\">1:02:43</a></td>\n<td>Adam is excited, but...</td>\n<td>03:03</td>\n</tr>\n<tr>\n<td>30</td>\n<td><a href=\"https://changelog.am/102#t=3946\">1:05:46</a></td>\n<td>To know or not to know</td>\n<td>02:25</td>\n</tr>\n<tr>\n<td>31</td>\n<td><a href=\"https://changelog.am/102#t=4091\">1:08:11</a></td>\n<td>Jerod sends a volley</td>\n<td>01:35</td>\n</tr>\n<tr>\n<td>32</td>\n<td><a href=\"https://changelog.am/102#t=4186\">1:09:46</a></td>\n<td>Maintaining knowledge</td>\n<td>00:40</td>\n</tr>\n<tr>\n<td>33</td>\n<td><a href=\"https://changelog.am/102#t=4226\">1:10:26</a></td>\n<td>Generational change</td>\n<td>03:28</td>\n</tr>\n<tr>\n<td>34</td>\n<td><a href=\"https://changelog.am/102#t=4434\">1:13:54</a></td>\n<td>Hand-crafted, really?</td>\n<td>01:58</td>\n</tr>\n<tr>\n<td>35</td>\n<td><a href=\"https://changelog.am/102#t=4552\">1:15:52</a></td>\n<td>Nick has a counter-point</td>\n<td>01:41</td>\n</tr>\n<tr>\n<td>36</td>\n<td><a href=\"https://changelog.am/102#t=4653\">1:17:33</a></td>\n<td>Home-cooked apps</td>\n<td>02:42</td>\n</tr>\n<tr>\n<td>37</td>\n<td><a href=\"https://changelog.am/102#t=4815\">1:20:15</a></td>\n<td>Ultrathink!</td>\n<td>01:54</td>\n</tr>\n<tr>\n<td>38</td>\n<td><a href=\"https://changelog.am/102#t=4929\">1:22:09</a></td>\n<td>The value of software</td>\n<td>02:29</td>\n</tr>\n<tr>\n<td>39</td>\n<td><a href=\"https://changelog.am/102#t=5078\">1:24:38</a></td>\n<td>Time to cash-in</td>\n<td>00:43</td>\n</tr>\n<tr>\n<td>40</td>\n<td><a href=\"https://changelog.am/102#t=5121\">1:25:21</a></td>\n<td>The 19% slowdown</td>\n<td>02:20</td>\n</tr>\n<tr>\n<td>41</td>\n<td><a href=\"https://changelog.am/102#t=5262\">1:27:42</a></td>\n<td>Bye, friends</td>\n<td>00:24</td>\n</tr>\n<tr>\n<td>42</td>\n<td><a href=\"https://changelog.am/102#t=5285\">1:28:05</a></td>\n<td><a href=\"https://changelog.com/++\">Closing thoughts (join ++)</a></td>\n<td>01:47</td>\n</tr>\n</tbody>\n</table>",
+        "id": 529519948,
+        "sender_full_name": "Logbot",
+        "timestamp": 1752868867
+    },
+    {
+        "content": "<p>It seems like the increased use and eventual reliance on these tools can only result in the atrophy of the attitude and aptitude required to review their output. </p>\n<p>It may be that the slope of progress and improvement of these tools will catch the descent of our own understanding of our craft, such that we simply won't notice the gap -- that certainly seems to be the bet that most people are making.</p>\n<p>Or something worse, like, a period of time when there is <em>so</em> much unmaintainable code, both because so much more was written by generative AI, and also because generative AI is constitutionally incapable of understanding more than the sum total of its training data -- and less and less actual training data is being written, year over year, month over month, day over day.</p>\n<p>Even on the much shorter term, it's going to be a sad day when most developers are just going to feel at best unproductive, and at worst completely helpless, when their model of choice goes down, or gets mysteriously too expensive. Maybe local models will save us.</p>\n<p>I used to \"only\" fear for the plight of the junior devs coming into this field, now I'm afraid for the whole kit and kaboodle.</p>\n<p>Sigh.</p>",
+        "id": 529542291,
+        "sender_full_name": "Alexander Ou",
+        "timestamp": 1752888090
+    },
+    {
+        "content": "<p>I think the point is that it doesn't matter if the code is maintainable or not. You just throw it away and have the AI rewrite it in fifteen minutes.</p>",
+        "id": 529552570,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1752901995
+    },
+    {
+        "content": "<p>So like, for the life cycle of the application, meaning this and all future versions of the code, is the expectation that a human won't ever have to go in and figure out a bug that the AI introduced and couldn't fix?</p>",
+        "id": 529561130,
+        "sender_full_name": "Alexander Ou",
+        "timestamp": 1752913426
+    },
+    {
+        "content": "<p>I have experienced the same as <span class=\"user-mention\" data-user-id=\"752827\">@Nick Nisi</span>  described about working on large code bases.</p>\n<p>If it’s assembly line code, majority of the effort is planning the work that needs to be done.</p>\n<p>But once the scope of changes is decided on, it doesnt matter who actually “chissels the code” into the code base. Actually i prefer Claude do it and I’ll check it once it’s done. This frees me up to work on multiple work items at the same time.</p>",
+        "id": 529575844,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1752930926
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span> found his new favorite promp when working witg typescript…</p>\n<p>“Compile this down to machine code, then write Ruby code that is interpreted to the same machine code…ULTRATHINK…yep that’s much better now” <span aria-label=\"relieved\" class=\"emoji emoji-1f60c\" role=\"img\" title=\"relieved\">:relieved:</span></p>",
+        "id": 529577494,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1752932858
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"911601\">@Alexander Ou</span> I think that depends on whether or not the rate of gained intelligence plateaus. If the machines become significantly skilled at creating software, perhaps we will be able to stop accepting bugs as a fact of life. If not, yes, a human will absolutely have to go in and fix things that go wrong.</p>\n<p><span class=\"user-mention\" data-user-id=\"764308\">@valon-loshaj</span> this is the way <span aria-label=\"sunglasses\" class=\"emoji emoji-1f60e\" role=\"img\" title=\"sunglasses\">:sunglasses:</span></p>",
+        "id": 529577684,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1752933064
+    },
+    {
+        "content": "<p>No! Don’t give him ideas!</p>",
+        "id": 529577685,
+        "sender_full_name": "Nick Nisi",
+        "timestamp": 1752933064
+    },
+    {
+        "content": "<p>Great extra after the episode. Now I’m just imagining the Apple Siri engineering team sitting around telling Siri to “ultrathink” <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span></p>",
+        "id": 529578848,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1752934273
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"750170\">Jerod Santo</span> <a href=\"#narrow/channel/455613-friends/topic/102.3A.20Try.20harder.2E.20Ultrathink!/near/529577684\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"911601\">Alexander Ou</span> I think that depends on whether or not the rate of gained intelligence plateaus. If the machines become significantly skilled at creating software, perhaps we will be able to stop accepting bugs as a fact of life. If not, yes, a human will absolutely have to go in and fix things that go wrong.</p>\n</blockquote>\n<p>Right, and this is one of the worries -- in using these tools, we are collectively relinquishing the ability to fix things that go wrong [edit] --  and as <span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span> said, there's a chance that we'll always have to have someone go in and see what went wrong [/edit]. I've heard many people say that they feel faster and more productive (whether or not they actually are), but I haven't heard many people say they feel they are getting better at coding. </p>\n<p>Maybe if you are so senior that when you are reduced to only planning (\"I'm the ideas guy!\") and not even <em>looking</em> at code to review, you somehow don't experience skill atrophy, but I need to be doing in order to maintain. Skill issue, I know.</p>\n<p>And of course, a generation of juniors will never become seniors, they'll just be Cursor / Claude Code / etc subscribers.</p>",
+        "id": 529582137,
+        "sender_full_name": "Alexander Ou",
+        "timestamp": 1752937619
+    },
+    {
+        "content": "<p>The driving stick thing resonated partly, for 20 years of my driving career (starting in 1995) I only drove a stick shift. But it never felt like a danger to stop (ironically my first \"automatic\" was a Tesla), because it's not like there would be situation where I had to drive a stickshift. (Plus I still had a motorcycle and felt if I could work a clutch with my hand, I'd remember how with my foot.)</p>\n<p>A better analogy would be, if we were all in partly self-driving cars, and as a result forgetting the skill that is needed to monitor the self-driving system, and the self-driving system <em>doesn't</em> improve fast enough to the point where we can totally forget.</p>\n<p>Any warhammer 40k fans in here? Humanity eventually forgets how to create the technology they had previously mastered, and relies on a religious cult to <em>barely</em> maintain the tech they already have. Neckbeards today, Cult of the Machine tomorrow. :P</p>",
+        "id": 529582846,
+        "sender_full_name": "Alexander Ou",
+        "timestamp": 1752938300
+    },
+    {
+        "content": "<p>relevant: <a href=\"https://www.reddit.com/r/ExperiencedDevs/comments/1m3h35q/i_cant_keep_up_with_the_codebase_i_own/\">https://www.reddit.com/r/ExperiencedDevs/comments/1m3h35q/i_cant_keep_up_with_the_codebase_i_own/</a></p>\n<p>Should OP just give in and have Claude Code be team lead?</p>",
+        "id": 529583285,
+        "sender_full_name": "Alexander Ou",
+        "timestamp": 1752938755
+    },
+    {
+        "content": "<p>Tesla has one pedal driving. Imagine yourself never using the brake and being in a situation where you need to panic stop. Maybe you lost your instinct to slam on the brakes and those few seconds of you thinking about what you are going to do will cost you your life.</p>",
+        "id": 529616376,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1752964639
+    }
+]

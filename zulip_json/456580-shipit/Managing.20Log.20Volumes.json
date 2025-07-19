@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>I wasn't sure where to best start this conversation. I picked ShipIt since it's devops focused. I was wondering if anyone here has thoughts on how to measure and manage log volumes for services? Logs are very important for observability of course, but especially when logging is a shared resource among many teams, I've seen the platform abused with volumes of logs that aren't useful.</p>\n<p>Any thoughts on how to manage situations like this? How to measure consumption, and what rules of thumb can be used to decide on what's reasonable?</p>",
+        "id": 529530692,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1752875875
+    },
+    {
+        "content": "<p>I'm not on the Observability team at work, but they do manage a Splunk service for everyone else to use, and just recently did introduce log quotas<br>\nSo, if we log too much, they drop log entries</p>",
+        "id": 529531421,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1752876494
+    }
+]

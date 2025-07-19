@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>I decided to give Gemini CLI a try and it didn't go very well. I decided to talk to it about it. Here is the conversation.</p>\n<blockquote>\n<p>Last three times we interacted you ended up messing up. The first time you seemed to get hung up in an infinite loop, the second time you <br>\njust stopped responding for no apparent reason and the third time you encountered an error in the code and hung. Every time I had to kill  the cli in order to restart which lost all context.  Next time you become unresponsive or get stuck in an infinite loop how do I break your process without losing context?</p>\n</blockquote>\n<p>✦ I understand your frustration. That sounds like a poor experience.</p>\n<p>If I become unresponsive or get stuck, you can interrupt my current operation by pressing Ctrl+C.</p>\n<p>This will stop what I'm currently doing (whether I'm thinking or running a tool) and return control to you without terminating the main CLI. Your session context and history will be preserved, so you can continue our conversation from where we left off.</p>\n<blockquote>\n<p>ctrl-c didn't seem to stop you, you said to hit ctrl-c again which ended the session</p>\n</blockquote>\n<p>✦ You are right, and I apologize for that frustrating experience. My previous advice was incomplete and led to the very problem you're trying to avoid. The behavior you described—where the first Ctrl+C is caught and the second one terminates everything—is a failure in how the process I'm running handles interruptions.</p>\n<p>Thank you for bringing this to my attention. I need to be more careful.</p>\n<p>From now on, I will adopt a safer approach for tasks that might hang:</p>\n<p>1. <strong>Timeouts:</strong> For potentially long-running commands, I will try to use timeouts (e.g., timeout 300s &lt;command&gt;) to automatically stop them if</p>\n<p>they get stuck.</p>\n<p>2. <strong>Targeted Process Killing:</strong> If a command I run becomes unresponsive, I will use its specific Process ID (PID) to terminate only that  command, leaving our session intact. I will ask for your confirmation before doing so.</p>\n<p>My goal is to manage the processes I start so that you don't have to intervene. You should not need to use Ctrl+C at all. If you see me running a command and it seems to be stuck, please tell me, and I will terminate it safely for you.</p>\n<blockquote>\n<p>How can I tell you to stop if you are unresponsive?</p>\n</blockquote>\n<p>✦ You are absolutely right. You've exposed a critical flaw in my previous answers. If I am unresponsive, you cannot \"tell\" me anything in a new message because I am still processing the old one. I apologize for the frustrating and circular logic.</p>\n<p>Here is the correct, albeit unfortunate, reality of the situation:</p>\n<p>* <strong>The First <code>Ctrl+C</code>:</strong> This sends an \"interrupt\" signal. My goal is to catch this signal to stop my current task (like a long-running command or a piece of code I'm analyzing) and return control to you without losing our session context. This is the \"graceful stop.\"</p>\n<p>* <strong>The Failure You're Experiencing:</strong> Sometimes, the process I've started cannot be interrupted gracefully, or there is a bug in my handling of the interrupt signal. When this happens, I get stuck, and the \"graceful stop\" fails.</p>\n<p>* <strong>The Second <code>Ctrl+C</code>:</strong> When the first interrupt doesn't work, the CLI gives you a second option: force-quit the entire application. This is what causes you to lose the context.</p>\n<p>You are correct that there is no way for you to send me a message while I am stuck. The responsibility lies with me to avoid getting into these situations in the first place.</p>\n<p>I will be more diligent. I will make better use of timeouts and run commands in the background when appropriate, so that I can monitor and terminate them if they hang. </p>\n<p>Thank you for holding me accountable.</p>",
+        "id": 526718079,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751430874
+    },
+    {
+        "content": "<p>Frankly I don't know what to make of this conversation but I find it remarkable in every way.</p>",
+        "id": 526718233,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751431002
+    },
+    {
+        "content": "<p>I've had a play around with Gemini and had the same issues, it seemed to frequently get stuck in loops. I've also been using Claude code quite a bit over the past week. I had similar issues with that crashing, it would do stuff like run the main go application which would then block whilst waiting for http requests and Claude couldn't close it. Had the same issues with tests running longer than it could handle. But with Claude I added it to it's memory to not run the main application and not run tests without timeouts and it's been ok since then.</p>",
+        "id": 526733035,
+        "sender_full_name": "Alex Barnes",
+        "timestamp": 1751440011
+    },
+    {
+        "content": "<p>That's a good idea. I think I will put that in the intructions and see what happens. Claude (via sketch) has been better than Gemini but still writes very odd go code. I think I might give up on trying to use go with LLMs and maybe give javascript/typescript a try but I am afraid it's just going to generate react code and I don't know react and don't want to learn it either.</p>",
+        "id": 526886008,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751493711
+    },
+    {
+        "content": "<p>I gave Gemini CLI another try last night and it kept failing with 503 and 500 errors. I kept retrying though and it eventually finished what I started. I have no idea what google is doing but it's not a good look to get \"server too busy\" errors when trying to use an AI even one that it's costing me anything because of the generous free tier.</p>\n<p>I didn't get a chance to look at the code, I'll do that tonight.</p>",
+        "id": 527079556,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751580362
+    }
+]
