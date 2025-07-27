@@ -1,0 +1,157 @@
+<html>
+<head><meta charset="utf-8"><title>651: Bringing Vitess to Postgres · interviews · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/index.html">interviews</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/651.3A.20Bringing.20Vitess.20to.20Postgres.html">651: Bringing Vitess to Postgres</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="530451059"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/651%3A%20Bringing%20Vitess%20to%20Postgres/near/530451059" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/651.3A.20Bringing.20Vitess.20to.20Postgres.html#530451059">(Jul 23 2025 at 23:55)</a>:</h4>
+<p>Sugu Sougoumarane, creator of Vitess, comes off sabbatical to bring Vitess to Postgres. We discuss what motivated Sugu to come off sabbatical, why now is the time, the technical challenges of doing so, the implementation details of Multigres (Vitess for Postgres). We also discuss the state of Postgres at scale. <span aria-label="link" class="emoji emoji-1f517" role="img" title="link">:link:</span> <a href="https://changelog.fm/651">https://changelog.fm/651</a></p>
+<table>
+<thead>
+<tr>
+<th>Ch</th>
+<th>Start</th>
+<th>Title</th>
+<th>Runs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>01</td>
+<td><a href="https://changelog.fm/651#t=0">00:00</a></td>
+<td>This week on The Changelog</td>
+<td>01:01</td>
+</tr>
+<tr>
+<td>02</td>
+<td><a href="https://changelog.fm/651#t=61">01:01</a></td>
+<td><a href="https://depot.dev">Sponsor: Depot</a></td>
+<td>02:18</td>
+</tr>
+<tr>
+<td>03</td>
+<td><a href="https://changelog.fm/651#t=199">03:19</a></td>
+<td>Start the show!</td>
+<td>03:43</td>
+</tr>
+<tr>
+<td>04</td>
+<td><a href="https://changelog.fm/651#t=422">07:02</a></td>
+<td>Why sabatical?</td>
+<td>03:37</td>
+</tr>
+<tr>
+<td>05</td>
+<td><a href="https://changelog.fm/651#t=640">10:40</a></td>
+<td>What is Vitess?</td>
+<td>04:13</td>
+</tr>
+<tr>
+<td>06</td>
+<td><a href="https://changelog.fm/651#t=893">14:53</a></td>
+<td>From side project at YouTube to full-on company</td>
+<td>03:43</td>
+</tr>
+<tr>
+<td>07</td>
+<td><a href="https://changelog.fm/651#t=1115">18:35</a></td>
+<td>Where is Vitess for Postgres?</td>
+<td>04:23</td>
+</tr>
+<tr>
+<td>08</td>
+<td><a href="https://changelog.fm/651#t=1379">22:59</a></td>
+<td>Sugu's Ah ha! moment</td>
+<td>04:42</td>
+</tr>
+<tr>
+<td>09</td>
+<td><a href="https://changelog.fm/651#t=1661">27:41</a></td>
+<td>Explaining Keyspace ID in Vitess</td>
+<td>06:48</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://changelog.fm/651#t=2069">34:29</a></td>
+<td><a href="https://www.coderabbit.ai">Sponsor: CodeRabbit</a></td>
+<td>02:44</td>
+</tr>
+<tr>
+<td>11</td>
+<td><a href="https://changelog.fm/651#t=2232">37:12</a></td>
+<td>What's different?</td>
+<td>04:03</td>
+</tr>
+<tr>
+<td>12</td>
+<td><a href="https://changelog.fm/651#t=2475">41:15</a></td>
+<td>Does this compromise Postgres for life?</td>
+<td>01:56</td>
+</tr>
+<tr>
+<td>13</td>
+<td><a href="https://changelog.fm/651#t=2591">43:11</a></td>
+<td>Porting Vitess to Multigres</td>
+<td>06:38</td>
+</tr>
+<tr>
+<td>14</td>
+<td><a href="https://changelog.fm/651#t=2989">49:49</a></td>
+<td>What are your marching orders?</td>
+<td>01:19</td>
+</tr>
+<tr>
+<td>15</td>
+<td><a href="https://changelog.fm/651#t=3068">51:08</a></td>
+<td>Are you writting this in Go?</td>
+<td>01:59</td>
+</tr>
+<tr>
+<td>16</td>
+<td><a href="https://changelog.fm/651#t=3187">53:07</a></td>
+<td>Building the team</td>
+<td>01:05</td>
+</tr>
+<tr>
+<td>17</td>
+<td><a href="https://changelog.fm/651#t=3252">54:12</a></td>
+<td>Implementing Multigres</td>
+<td>02:45</td>
+</tr>
+<tr>
+<td>18</td>
+<td><a href="https://changelog.fm/651#t=3417">56:57</a></td>
+<td>Multigres to Supabase</td>
+<td>06:38</td>
+</tr>
+<tr>
+<td>19</td>
+<td><a href="https://changelog.fm/651#t=3815">1:03:35</a></td>
+<td>Unburdened by past decisions</td>
+<td>03:57</td>
+</tr>
+<tr>
+<td>20</td>
+<td><a href="https://changelog.fm/651#t=4052">1:07:32</a></td>
+<td>State of Postgres at scale</td>
+<td>06:03</td>
+</tr>
+<tr>
+<td>21</td>
+<td><a href="https://changelog.fm/651#t=4415">1:13:35</a></td>
+<td><a href="https://changelog.com/live">LIVE IN DENVER!!</a></td>
+<td>01:38</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<hr><p>Last updated: Jul 27 2025 at 01:44 UTC</p>
+</html>
