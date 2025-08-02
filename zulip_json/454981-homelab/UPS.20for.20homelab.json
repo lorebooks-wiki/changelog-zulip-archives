@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Finally got my NAS setup (TrueNAS scale, built the machine, carryover from Slack a few weeks ago). Now I'm wondering if I should get a UPS for it... What's everyone else doing? Mostly I'm worried about protecting the drives</p>",
+        "id": 471977000,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1726954473
+    },
+    {
+        "content": "<p>I am using an UPS for my synology. Not sure if I would really need one, but it jumped in multiple times already, mostly because of some fuses triggering.</p>\n<p>But I use it actively for that purpose as well, e.g. when I installed a shelly, I could just trigger the fuse,  connect the wires, put the fuse back in and everything was still running. You just need to hurry a bit as it only might last for 20min or so <span aria-label=\"smiley\" class=\"emoji emoji-1f603\" role=\"img\" title=\"smiley\">:smiley:</span></p>",
+        "id": 472711907,
+        "sender_full_name": "Konrad",
+        "timestamp": 1727274769
+    },
+    {
+        "content": "<p>I've had a UPS for a long time, but noticed that it got pretty warm, and found it out hat a small permanent power drain ~20watts, the power lasted long enough for the nas to powerdown safely.</p>\n<p>My assumption is, that it's major use was to prevent power surges from lightning and buffer power drops, which happened quite often.</p>\n<p>What I will get is a small UPS for my modem, those tend to be quite touchy.</p>",
+        "id": 472750259,
+        "sender_full_name": "René",
+        "timestamp": 1727287682
+    },
+    {
+        "content": "<p>UPS also help to \"clean\" your power. It's not like your power is super stable all the time, there are variances coming from turning new consumers on or off or even starting/stopping energy providers. If your country leverages solar energy, this doesn't provide a fixed supply either.<br>\nA UPS can act as buffer here, which can increase the live time of your electronic equipment.</p>",
+        "id": 472815775,
+        "sender_full_name": "Konrad",
+        "timestamp": 1727327672
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752887\">@Konrad</span> well that depends on what kind of a UPS you have. Online UPSs do generate the AC waveform all the time but offline UPSs pass through the grid and only when voltage is out of spec they switch off the relay and start the battery inverter. Needless to say that online UPSs are more expensive and well, better.</p>",
+        "id": 473104879,
+        "sender_full_name": "Jari",
+        "timestamp": 1727442041
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>Zac Smith left his role leading Equinix Metal in June of 2023. Since then, he's been thinking deeply about the present and potential future of data centers, OEMs, chip makers &amp; more.</p>\n<p><span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.com/friends/66\">https://changelog.com/friends/66</a></p>",
+        "id": 477711593,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729277286
+    },
+    {
+        "content": "<p>Nice reference in the title <span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span> <a href=\"https://en.wikipedia.org/wiki/You'll_own_nothing_and_be_happy\">https://en.wikipedia.org/wiki/You'll_own_nothing_and_be_happy</a></p>",
+        "id": 477739454,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1729288425
+    },
+    {
+        "content": "<p>Dope titles ftw.</p>",
+        "id": 477753591,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1729299373
+    },
+    {
+        "content": "<p>I’m just learning how closely my 7 year old is listening to your shows (she asked me to explain Kubernetes in the middle of a Ship It! I think I did a pretty good job). She requested “the Changelog and Friends song with words” at the start of this episode.</p>\n<p>I vaguely remember something like that. Anyway, just wanted to let you know you guys are killing it with the 5-10yo bracket, not that they have much of a choice. And thanks for keeping things kid-safe.</p>",
+        "id": 477853118,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1729387086
+    },
+    {
+        "content": "<p>Interesting to hear Zac's take on the sustainability challenges &amp; opportunities facing the large data center providers. My personal opinion is that the limitations and slow pace to deploy of our current grid could be enough to put the breaks on the uptake &amp; broad adoption of AI (at least it might drive the costs up, which will then be pass on to users who might not be willing to pay as much).</p>\n<p>But he's absolutely on the right path with what he says about the large providers being catalysts for our energy transition. They've got pretty aggressive climate targets for their operations &amp; right now aren't tracking well to reach them (see <a href=\"https://www.linkedin.com/posts/duncanaustinuk_microsoft-esg-activity-7197550825605349376-rJro/\">Microsoft as an example</a>). These providers are desperate for clean energy &amp; have the large budgets to pay for it. That gives a pathway for new technologies and energy sources to have early-stage customers who are willing to absorb the costs &amp; help scale adoption for them. Pretty critical to getting things like small-modular nuclear, hydrogen, and long-duration batteries down to a competitive cost point (or proving they're not able to reach that cost point as well).</p>",
+        "id": 477978958,
+        "sender_full_name": "Fershad Irani",
+        "timestamp": 1729495357
+    },
+    {
+        "content": "<p>Alternative title: \"Don't go buying waterfalls\"</p>\n<p>Enjoyable and informative episode. Some serious/deep stuff for an \"&amp; Friends!\" Loved Zac's thoughts on aligning broad human/social goals with capitalistic desires. Getting incentives moving in the same direction can be very powerful.</p>",
+        "id": 478630421,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1729744276
+    }
+]
