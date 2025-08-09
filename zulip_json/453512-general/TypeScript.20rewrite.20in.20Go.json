@@ -1,0 +1,194 @@
+[
+    {
+        "content": "<p>Curious what everyone's thoughts/excitement level are on yesterday's announcement from Anders Hejlsberg and the TypeScript team. </p>\n<p>Adam and I recorded a little something about it: <a href=\"https://youtu.be/73cUBCzS8NQ\">https://youtu.be/73cUBCzS8NQ</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"73cUBCzS8NQ\" href=\"https://youtu.be/73cUBCzS8NQ\"><img src=\"https://uploads.zulipusercontent.net/3746de266c92b9eec9b10cc85f12d59d26382ff8/68747470733a2f2f692e7974696d672e636f6d2f76692f3733635542437a53384e512f6d7164656661756c742e6a7067\"></a></div>",
+        "id": 505243213,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1741811605
+    },
+    {
+        "content": "<p>I read the news but I thought it was the compilation speed that was sped up not the runtime.</p>",
+        "id": 505247287,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1741812802
+    },
+    {
+        "content": "<p>Yes I thought the same, the press release spoke of 10x speed increases in compilation. Don't remember seeing anything about runtime.</p>",
+        "id": 505248697,
+        "sender_full_name": "Alex Barnes",
+        "timestamp": 1741813217
+    },
+    {
+        "content": "<p>Well, the runtime is up to JavaScriptCore, V8, Spider monkey, etc<br>\nIt's plain JavaScript at runtime</p>",
+        "id": 505251298,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1741814012
+    },
+    {
+        "content": "<p>But yeah, very interesting <br>\nAnd the presentation mentioned \"porting\" and \"circular references\" which does explain why they wouldn't go for Rust, as a TypeScript code base is going to have loads of data structures and data flows that need a bit of a rethink in Rust<br>\nWhat's strange is that both Go and C# seem like reasonable targets for porting TypeScript line by line, but they chose not to go with C#</p>",
+        "id": 505251805,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1741814167
+    },
+    {
+        "content": "<p>From the interview:</p>\n<p>Dimitri: Was C# considered?</p>\n<p>Anders: It was, but I will say that I think Go definitely is -- it's, I'd say, the lowest-level language we can get to and still have automatic garbage collection. It's the most native-first language we can get to and still have automatic GC. In C#, it's sort of bytecode first, if you will; there is some ahead-of-time compilation available, but it's not on all platforms and it doesn't have a decade or more of hardening. It was not geared that way to begin with. Additionally, I think Go has a little more expressiveness when it comes to data structure layout, inline structs, and so forth. For us, one additional thing is that our JavaScript codebase is written in a highly functional style -- we use very few classes; in fact, the core compiler doesn't use classes at all -- and that is actually a characteristic of Go as well. Go is based on functions and data structures, whereas C# is heavily OOP-oriented, and we would have had to switch to an OOP paradigm to move to C#. That transition would have involved more friction than switching to Go. Ultimately, that was the path of least resistance for us.</p>",
+        "id": 505252519,
+        "sender_full_name": "Alex Barnes",
+        "timestamp": 1741814405
+    },
+    {
+        "content": "<p>Ah, that makes sense</p>",
+        "id": 505254816,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1741815150
+    },
+    {
+        "content": "<p>I forgot that C# (like Java that inspired it) is classes first</p>",
+        "id": 505254881,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1741815175
+    },
+    {
+        "content": "<p>I really wish more folks would follow Mitchell Hashimoto's example and feel free to say that they make technical choices based on subjective factors (e.g. he just enjoys writing in Zig)</p>\n<p>I wonder if there was just plain more love for Go than C# on the TypeScript team?</p>",
+        "id": 505255380,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1741815340
+    },
+    {
+        "content": "<p>Yes it had me puzzled why they would pick go too. But makes sense. <br>\nThere was large part of the transcript in this Reddit post. <a href=\"https://www.reddit.com/r/golang/comments/1j8shzb/microsoft_rewriting_typescript_in_go\">https://www.reddit.com/r/golang/comments/1j8shzb/microsoft_rewriting_typescript_in_go</a><br>\nIt read really well and makes a lot of sense.</p>",
+        "id": 505263453,
+        "sender_full_name": "Alex Barnes",
+        "timestamp": 1741818011
+    },
+    {
+        "content": "<p>I'm pretty excited for this. In a large Vue codebase, my VS Code intellisense is basically useless. Here's hoping we get a speed bump out of this. Of course, we are also behind on moving to Vite from Webpack so that might help too, but I'm not sure how much that has to do with the IDE performance.</p>",
+        "id": 505303819,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1741834864
+    },
+    {
+        "content": "<p>I'm pretty surprised how much confusion there was about compiler performance versus runtime performance. I guess I just live and breathe this stuff, and there are lots of people seeing this who don't write TypeScript every day. On the other hand, people wishing for a \"real TypeScript runtime\" or \"compiling TypeScript to native code\" or \"optimising TypeScript using its types\" has been a persistent meme with little backing in real projects.</p>",
+        "id": 505304023,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1741834937
+    },
+    {
+        "content": "<p>The main project I maintain at work is large enough that it takes a few seconds for go-to-definition to start working in a fresh editor/LSP process<br>\nBut what I'm really looking forward to here is ESLint's performance when using it with the TypeScript plugin and enabling the linter rules that require the LSP service</p>",
+        "id": 505306340,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1741835934
+    },
+    {
+        "content": "<p>overall i think this is a great move for typescript. tsc sits in every dev’s workflow (at least the ones that work in ts). reducing this step in the workflow to something nominal is fantastic.</p>\n<p>regarding the confusion around runtime and compilation time, my thought is people are reading the headlines and not the details of the announcement. i saw quite a few headlines in my news feed saying things like “typescript just got 10x faster” which is a bit misleading.</p>\n<p>lesson to anyone baited by headlines, always read the post and assume the title is mainly written to lure you in and drive the click <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span></p>",
+        "id": 505390984,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1741864454
+    },
+    {
+        "content": "<p>It seems like a big part of the speed up here is being able to process files concurrently <br>\nAnd Node.js does have threads, but I assume the next problem after that is sharing data between threads in an efficient and safe manner</p>",
+        "id": 505520914,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1741898275
+    },
+    {
+        "content": "<p>RE performance, Axel has a pretty good summary in this section of his article: <a href=\"https://2ality.com/2025/03/typescript-in-go.html#where-does-the-10%C3%97-speedup-come-from%3F\">https://2ality.com/2025/03/typescript-in-go.html#where-does-the-10%C3%97-speedup-come-from%3F</a></p>",
+        "id": 505578578,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1741925271
+    },
+    {
+        "content": "<p>Node has pretty good primitives for message passing between threads, but not for shared memory.</p>",
+        "id": 505578682,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1741925303
+    },
+    {
+        "content": "<p>to implement multi-threading natively with javascript there would be too many changes required. between the event loop and object access it’s hard to see a path to a multi-threaded future for javascript natively.</p>\n<p>however, it wouldn’t be impossible to imagine an abstraction layer for javascript that could support multi-threading (there are already a few oss libraries out in the wild that do a version of this).</p>\n<p>one thing’s for sure, javascript gets so much love, has such a strong community and now with the assistance of gen-ai it’s only a matter of time before we start seeing some huge leaps forward in programming language performance….or maybe i’m just being overly optimistic <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 505657987,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1741954063
+    },
+    {
+        "content": "<p>Personally I think typescript goes overboard but there is no reason why somebody can't build a proper compiler for it. Not a transpiler to JS but an actual compiler. </p>\n<p>That's what Mojo is doing with python.</p>\n<p>Then again with the rise of AI I think somebody will make a language specific for AI. Something that may be difficult for humans to deal with but trivial for AI but one which can be proven to bug free at runtime. Something like elm or coq or one of those super strict provable languages.</p>\n<p>The AI will spit out the code and will run it through the prover and on the other end you'll be assured it's solid code that won't blow up.</p>",
+        "id": 505765579,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1741985782
+    },
+    {
+        "content": "<p>I would love TypeScript so much more if there was a way to disable all the little compromises it makes in order to be compatible with JavaScript</p>",
+        "id": 505780590,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1741993401
+    },
+    {
+        "content": "<p>Honestly I just want somebody to make the crystal tooling better. It's such a nice language but the tooling and the compiler suffers which hinders wider adoption and vibrant community.</p>",
+        "id": 505883337,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1742070919
+    },
+    {
+        "content": "<p>I've certainly been spoiled by Rust and Go and other modern and well-furnished languages <br>\nIt's hard for me to consider adding a language to my toolbox if it doesn't have:</p>\n<ul>\n<li>opinionated auto-formatter</li>\n<li>LSP server go-to-definition, linting, etc</li>\n<li>treesitter grammar for syntax highlighting</li>\n<li>version manager for the compiler/interpreter </li>\n<li>dependency management </li>\n<li>dependency repository </li>\n<li>idiomatic first-party SDKs for AWS/GCP/Azure</li>\n<li>idiomatic clients for SQLite/Postgres/Valkey</li>\n<li>support for WASM/ARM64/AMD64</li>\n<li>support for macOS/Linux</li>\n</ul>",
+        "id": 505900438,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1742085453
+    },
+    {
+        "content": "<p>listened to the 2015 interview with anders… <span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span> sounded like he was a typescript fan at a couple moments in the interview <span aria-label=\"face with hand over mouth\" class=\"emoji emoji-1f92d\" role=\"img\" title=\"face with hand over mouth\">:face_with_hand_over_mouth:</span></p>",
+        "id": 505901500,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1742086495
+    },
+    {
+        "content": "<p>That was back before I was contractually obligated to hate it <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span></p>",
+        "id": 505956270,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1742130947
+    },
+    {
+        "content": "<p>is there a plan to have anders on the pod again soon given the recent go rewrite?</p>\n<p>beyond the go rewrite, would love to hear he perspective on the state of open source in this new gen-ai age.</p>",
+        "id": 505964994,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1742137246
+    },
+    {
+        "content": "<p>So, this is obviously very exciting, a 10x improvement in performance is going to save a TON of CI minutes and money for people. this is unambiguously good. in fact, this single port is probably going to save a ton of carbon emissions from happening to, probably far more than most people who talk about doing fancy stuff with programming language power efficiency.</p>",
+        "id": 505988610,
+        "sender_full_name": "Yawar Amin",
+        "timestamp": 1742153665
+    },
+    {
+        "content": "<p>something that i find kind of amusing about TypeScript is that out of the AltJS compilers, it's been the odd one out by being implemented in itself. Flow is implemented in OCaml; ReScript is in OCaml; Gleam is in Rust; Elm and PureScript are in Haskell. and looking at Flow, which is the closest direct TypeScript alternative, it has evolved specialized techniques–like interface files–for speeding up compilation at Facebook/Meta scale.</p>",
+        "id": 505988860,
+        "sender_full_name": "Yawar Amin",
+        "timestamp": 1742153859
+    },
+    {
+        "content": "<p>TypeScript is kind of playing catch-up now with the Go port</p>",
+        "id": 505988961,
+        "sender_full_name": "Yawar Amin",
+        "timestamp": 1742153924
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"771585\">@Ron Waldon-Howe</span> </p>\n<p>These days if you are writing a language start with the tooling first.</p>\n<p>The go tooling is first rate (except for package management) but the language could use quite a bit of improvement.</p>",
+        "id": 505995693,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1742158613
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"755905\">@Tim Uckun</span> yeah, the tooling is terrific <br>\nGo loses points for me because of governance (the go.mod debacle), the lack of data-race safety,  and how confusing/magical/inconsistent it is in the name of \"simplicity\"</p>",
+        "id": 505996415,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1742159139
+    },
+    {
+        "content": "<p>I have a long list of gripes against go the language. As I mentioned before Crystal is a much better language and fixes most if not all of them. Governance of Crystal is a bit insular though. The core team hasn't been all that great at building a community.</p>",
+        "id": 505996587,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1742159256
+    },
+    {
+        "content": "<p>For anyone else looking for the original link: <a href=\"https://devblogs.microsoft.com/typescript/typescript-native-port/\">https://devblogs.microsoft.com/typescript/typescript-native-port/</a></p>",
+        "id": 506254296,
+        "sender_full_name": "Brett Cannon",
+        "timestamp": 1742243476
+    }
+]

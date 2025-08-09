@@ -1,0 +1,86 @@
+[
+    {
+        "content": "<p>how are folks using Zulia on mobile? from a browser? added to the home screen? from an app? i found a Zulip app on the iOS app store but the screenshot (there’s only one) makes it look pretty awful. but maybe it’s just out of date?</p>\n<p>i’m finding the mobile web version a little hard to use. this is my second time writing this message because in my first attempt, i somehow tapped something that made the compose box go away and be replaced by a different topic and i couldn’t find any drafts. and in general, i’ve had a few accidental taps that have taken me away from what i was doing unexpectedly.</p>",
+        "id": 471493813,
+        "sender_full_name": "Andrew Patton",
+        "timestamp": 1726754542
+    },
+    {
+        "content": "<p>I'm using the iOS app from the store. It certainly leaves a lot to be desired, but hopefully their big rewrite(s) are coming along pretty soon <span aria-label=\"folded hands\" class=\"emoji emoji-1f64f\" role=\"img\" title=\"folded hands\">:folded_hands:</span></p>",
+        "id": 471495434,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1726754963
+    },
+    {
+        "content": "<p>Android version seems alright. Not sure about iOS but if they're the same then should be workable <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span></p>",
+        "id": 471497390,
+        "sender_full_name": "Owen Valentine",
+        "timestamp": 1726755511
+    },
+    {
+        "content": "<p>Yeah, looks like Android and iOS are effectively the same. Google Play has a few more screenshots at least: <a href=\"https://play.google.com/store/apps/details?id=com.zulipmobile\">https://play.google.com/store/apps/details?id=com.zulipmobile</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://play.google.com/store/apps/details?id=com.zulipmobile\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/e740ba281b3b4ad577a1881bca77ce0c7198dc03/68747470733a2f2f706c61792d6c682e676f6f676c6575736572636f6e74656e742e636f6d2f4a456f34513545643354494a52784c38412d6d6f546830486f59463734486d6734574649536f704161636832436a637067536954445158553264364a6e784e7a3067&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://play.google.com/store/apps/details?id=com.zulipmobile\" title=\"Zulip - Apps on Google Play\">Zulip - Apps on Google Play</a></div><div class=\"message_embed_description\">Organized team chat</div></div></div>",
+        "id": 471497767,
+        "sender_full_name": "Owen Valentine",
+        "timestamp": 1726755624
+    },
+    {
+        "content": "<p>Yeah, functionally speaking it works fine. I haven’t found anything I can’t do in the app. </p>\n<p>I agree that the design could use a touch up. I don’t know what I’d change, but that’s why I’m not a designer.</p>",
+        "id": 471497881,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1726755660
+    },
+    {
+        "content": "<p>The mobile web is fine. The biggest challenge I have with it is the touch targets are on the small side. Leads to accidental touches and missed buttons.</p>",
+        "id": 471503792,
+        "sender_full_name": "Caleb Fong",
+        "timestamp": 1726757333
+    },
+    {
+        "content": "<p>I don't like apps so I've been using the mobile site in Firefox on Android. I really like that it works since you can't access Slack on mobile without the app but it's definitely a little clunky.</p>\n<ul>\n<li>While scrolling through a topic, it will randomly think you clicked on a message and open the compose box which takes over most of the screen.</li>\n<li>Long topic titles are nearly impossible to read as the only way I've found to have it show me the whole title is to open compose box and scroll left/right in the topic text box.</li>\n<li>If you click on an image, it's loaded in a modal but without any history/navigation handling so hitting the back key causes it to navigate away from the topic.</li>\n</ul>\n<p>Regardless, I'm just happy that I can even use it on my phone (vs Slack were I couldn't).</p>",
+        "id": 471503939,
+        "sender_full_name": "Jeff Henson",
+        "timestamp": 1726757388
+    },
+    {
+        "content": "<p>Could always take a stab at their TUI in Termux or some such :P</p>",
+        "id": 471504982,
+        "sender_full_name": "Owen Valentine",
+        "timestamp": 1726757705
+    },
+    {
+        "content": "<p>Given this issue: <a href=\"https://github.com/zulip/zulip-terminal/issues/1467\">https://github.com/zulip/zulip-terminal/issues/1467</a><br>\nSomeone's already doing Termux :D</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/zulip/zulip-terminal/issues/1467\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/131079da86a243ea2b2f19a0fccd395ae450ee4e/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f326164626632653766363361643635336662316239656164373732303137373538633862653339333766313235376432306365633639316230656234636564362f7a756c69702f7a756c69702d7465726d696e616c2f6973737565732f31343637&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/zulip/zulip-terminal/issues/1467\" title=\"[bug] crash when editing message · Issue #1467 · zulip/zulip-terminal\">[bug] crash when editing message · Issue #1467 · zulip/zulip-terminal</a></div><div class=\"message_embed_description\">Server: Zulip cloud server Client: main branch Python: 3.11 self.model.initial_data: {'zulip_version': '9.0-dev-642-g9d469357ea', 'zulip_feature_level': 237, 'zulip_merge_base': '9.0-dev-605-g47a54...</div></div></div>",
+        "id": 471505182,
+        "sender_full_name": "Owen Valentine",
+        "timestamp": 1726757764
+    },
+    {
+        "content": "<p>The primary thing I wish on mobile is, like on desktop, to include all topics in a channel in the initial view. The fact that you have to go into a channel and then click the … to see all channels isn’t very discoverable</p>",
+        "id": 471517637,
+        "sender_full_name": "Dustin",
+        "timestamp": 1726761486
+    },
+    {
+        "content": "<p>Especially if you’re trying to refer back to a topic you were already speaking in but there’s no new messages</p>",
+        "id": 471517738,
+        "sender_full_name": "Dustin",
+        "timestamp": 1726761530
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"756209\">Dustin</span> <a href=\"#narrow/stream/453512-general/topic/Mobile.20usage/near/471517637\">said</a>:</p>\n<blockquote>\n<p>The primary thing I wish on mobile is, like on desktop, to include all topics in a channel in the initial view. The fact that you have to go into a channel and then click the … to see all channels isn’t very discoverable</p>\n</blockquote>\n<p>Thanks for articulating something I was feeling but had assumed I was trying to bring idioms from other chat clients to this one.</p>",
+        "id": 471519094,
+        "sender_full_name": "Ricky Hussmann",
+        "timestamp": 1726761938
+    },
+    {
+        "content": "<p>I am using the experimental flutter app on Android (Zulip beta)<br>\n I think most of the functionality is completely missing, for me it is fine because I mostly just use inbox to read and not much more.<br>\nIf what they have in the Play Store is not a super old build I think it will still take some months to get all the functionality.</p>",
+        "id": 471535037,
+        "sender_full_name": "Alberto Luna",
+        "timestamp": 1726767622
+    },
+    {
+        "content": "<p>2 messages were moved from this topic to <a class=\"stream-topic\" data-stream-id=\"453512\" href=\"/#narrow/stream/453512-general/topic/desktop.20app.20.28Zulip.29\">#general &gt; desktop app (Zulip)</a> by <span class=\"user-mention silent\" data-user-id=\"752868\">Philip Durbin</span>.</p>",
+        "id": 472088101,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1727042402
+    }
+]
