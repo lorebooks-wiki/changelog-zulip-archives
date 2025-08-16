@@ -1,0 +1,80 @@
+[
+    {
+        "content": "<p>Nick Nisi joins us to confess his AI subscription glut, drool over some cool new hardware gadgets, discuss why the TypeScript team chose Go for their new compiler, opine on the React team's complicated relationship with Vercel, suggest people try Astro, update us on his browser habits, and more. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.am/89\">https://changelog.am/89</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.am/89#t=0\">00:00</a></td>\n<td>Let's talk!</td>\n<td>00:38</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.am/89#t=38\">00:38</a></td>\n<td><a href=\"https://retool.com/changelog\">Sponsor: Retool</a></td>\n<td>01:51</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.am/89#t=149\">02:29</a></td>\n<td>Metaphors &amp; Friends</td>\n<td>01:27</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.am/89#t=235\">03:55</a></td>\n<td><a href=\"https://en.wikipedia.org/wiki/Godwin%27s_law\">Godwin's Law</a></td>\n<td>00:38</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.am/89#t=273\">04:33</a></td>\n<td>Still TypeScripting</td>\n<td>00:35</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.am/89#t=308\">05:08</a></td>\n<td><a href=\"https://gitingest.com/\">Git ingest</a></td>\n<td>01:47</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.am/89#t=415\">06:55</a></td>\n<td>Coding has changed</td>\n<td>02:26</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.am/89#t=561\">09:21</a></td>\n<td>Nick's big confession</td>\n<td>02:34</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.am/89#t=715\">11:55</a></td>\n<td>Raycast vs Spotlight</td>\n<td>03:04</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.am/89#t=899\">14:59</a></td>\n<td>Nick, the AI junkie</td>\n<td>03:45</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.am/89#t=1124\">18:44</a></td>\n<td><a href=\"https://www.heroku.com/changelogpodcast\">Sponsor: Heroku</a></td>\n<td>02:40</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.am/89#t=1283\">21:23</a></td>\n<td>Managing AI relations</td>\n<td>02:48</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.am/89#t=1451\">24:11</a></td>\n<td>That trust threshold</td>\n<td>04:50</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.am/89#t=1741\">29:01</a></td>\n<td>Maybe it's a me problem</td>\n<td>01:36</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.am/89#t=1837\">30:37</a></td>\n<td>It's come a long way</td>\n<td>01:48</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.am/89#t=1945\">32:25</a></td>\n<td>A failed segway</td>\n<td>02:41</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.am/89#t=2106\">35:06</a></td>\n<td><a href=\"https://busy.bar/\">BUSY Bar</a></td>\n<td>02:41</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.am/89#t=2267\">37:47</a></td>\n<td>Vapor hardware</td>\n<td>00:32</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.am/89#t=2300\">38:20</a></td>\n<td><a href=\"https://flipperzero.one/\">The Flipper</a></td>\n<td>02:30</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.am/89#t=2450\">40:50</a></td>\n<td>Toy nostalgia</td>\n<td>02:15</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.am/89#t=2585\">43:05</a></td>\n<td><a href=\"https://depot.dev\">Sponsor: Depot</a></td>\n<td>02:20</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.am/89#t=2725\">45:25</a></td>\n<td>Back to BUSY Bar</td>\n<td>01:32</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.am/89#t=2817\">46:57</a></td>\n<td><a href=\"https://github.com/microsoft/typescript-go/discussions/411#discussioncomment-12468190\">TypeScript compiler on Go</a></td>\n<td>06:17</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.am/89#t=3194\">53:14</a></td>\n<td>Facebook's engineering prowess</td>\n<td>01:18</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://changelog.am/89#t=3271\">54:31</a></td>\n<td>React and Vercel</td>\n<td>03:51</td>\n</tr>\n<tr>\n<td>26</td>\n<td><a href=\"https://changelog.am/89#t=3502\">58:22</a></td>\n<td>Nick likes Astro</td>\n<td>01:07</td>\n</tr>\n<tr>\n<td>27</td>\n<td><a href=\"https://changelog.am/89#t=3569\">59:29</a></td>\n<td>Slightly too obscure</td>\n<td>01:17</td>\n</tr>\n<tr>\n<td>28</td>\n<td><a href=\"https://changelog.am/89#t=3647\">1:00:47</a></td>\n<td>Content-driven sites vs</td>\n<td>02:38</td>\n</tr>\n<tr>\n<td>29</td>\n<td><a href=\"https://changelog.am/89#t=3805\">1:03:25</a></td>\n<td>Eleventy is cool</td>\n<td>03:12</td>\n</tr>\n<tr>\n<td>30</td>\n<td><a href=\"https://changelog.am/89#t=3997\">1:06:37</a></td>\n<td><a href=\"https://changelog.com/posts/use-long-flags-when-scripting\">Use long flags when scripting</a></td>\n<td>04:41</td>\n</tr>\n<tr>\n<td>31</td>\n<td><a href=\"https://changelog.am/89#t=4278\">1:11:18</a></td>\n<td>Who is paying attention to this podcast?</td>\n<td>00:20</td>\n</tr>\n<tr>\n<td>32</td>\n<td><a href=\"https://changelog.am/89#t=4298\">1:11:38</a></td>\n<td>Revisiting browsers</td>\n<td>01:59</td>\n</tr>\n<tr>\n<td>33</td>\n<td><a href=\"https://changelog.am/89#t=4417\">1:13:37</a></td>\n<td>1Password love/hate</td>\n<td>01:24</td>\n</tr>\n<tr>\n<td>34</td>\n<td><a href=\"https://changelog.am/89#t=4500\">1:15:00</a></td>\n<td>Adam on Windows</td>\n<td>06:04</td>\n</tr>\n<tr>\n<td>35</td>\n<td><a href=\"https://changelog.am/89#t=4865\">1:21:05</a></td>\n<td>What we're excited about</td>\n<td>01:17</td>\n</tr>\n<tr>\n<td>36</td>\n<td><a href=\"https://changelog.am/89#t=4941\">1:22:21</a></td>\n<td>Golf!</td>\n<td>02:56</td>\n</tr>\n<tr>\n<td>37</td>\n<td><a href=\"https://changelog.am/89#t=5118\">1:25:18</a></td>\n<td>Disc golf!</td>\n<td>03:03</td>\n</tr>\n<tr>\n<td>38</td>\n<td><a href=\"https://changelog.am/89#t=5301\">1:28:21</a></td>\n<td>Long Peleton</td>\n<td>01:25</td>\n</tr>\n<tr>\n<td>39</td>\n<td><a href=\"https://changelog.am/89#t=5386\">1:29:46</a></td>\n<td>Bye, friends</td>\n<td>00:12</td>\n</tr>\n<tr>\n<td>40</td>\n<td><a href=\"https://changelog.am/89#t=5398\">1:29:58</a></td>\n<td><a href=\"https://dysfunctional.fm/\">Coming up next</a></td>\n<td>01:29</td>\n</tr>\n</tbody>\n</table>",
+        "id": 513069550,
+        "sender_full_name": "Logbot",
+        "timestamp": 1744997408
+    },
+    {
+        "content": "<p>Great discussion around Next.js and Vercel. I feel like its becoming more and more of a deterrent for people to adopt Next.js (for me it certainly has).</p>\n<p>We can make the argument that a lot of the move away from React is due to the “yuck” feeling people are having towards the Vercel/Next situation, and not necessarily because people don’t like React.</p>\n<p>Astro is a great way for devs to keep using a framework they love (yum react) while opting out of the “yuck”.</p>",
+        "id": 513112538,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1745020991
+    },
+    {
+        "content": "<p>I wonder if Nick could get more of his money's worth using something like <a href=\"https://openrouter.ai\">https://openrouter.ai</a> so you pay per token in/out instead of a monthly fee? If he's not using any ChatGPT/Claude specific features</p>",
+        "id": 513149884,
+        "sender_full_name": "Dustin",
+        "timestamp": 1745052119
+    },
+    {
+        "content": "<p>This is a great point. I’ve used a combination of per token (cursor max and claude ai) and subscription services. I’m pretty surprised at how much i am able to do with just $25 work of credits.</p>\n<p>I am not a huge user of the application layer features though. I think that’s what will be a big differentiator.</p>",
+        "id": 513192093,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1745085652
+    },
+    {
+        "content": "<p>I don't use it very much at home (but increasingly recently I've kind of given up on letting llama local have a stab at it) so I'm working through $5 I added almost a year ago</p>",
+        "id": 513195480,
+        "sender_full_name": "Dustin",
+        "timestamp": 1745088468
+    },
+    {
+        "content": "<p>I watched a youtube video of Steve Yegge and Gene Kim do a run with Claude code. I can see how the token cost can add up quickly if you let the agent run wild.</p>\n<p>But not sure you end up with anything of much quality, or even anything that’ll resemble anything near production quality code.</p>\n<p>More often than not, the agent gets stuck in a death spiral of making a change, seeing it doesn’t work, reversing the change, still not working, repeat.</p>",
+        "id": 513208536,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1745099415
+    },
+    {
+        "content": "<p>There's no transcript yet, and I don't want to listen to the whole thing again, but at some point in this episode someone (<span class=\"user-mention\" data-user-id=\"750017\">@Adam Stacoviak</span> ?) mentioned which code editor they used and it wasn't a common one. Was it Zed? Or something else?</p>",
+        "id": 513311737,
+        "sender_full_name": "Ross Wintle",
+        "timestamp": 1745186968
+    },
+    {
+        "content": "<p>Golf vs Frisbee Golf.</p>\n<p>When I moved to NZ I was surprised and delighted to find out that there are tons of golf courses here and golfing is cheap. Despite that I stopped playing after a few years for no particular reason. If you ever have the chance come to NZ and play golf some of our courses have spectacular scenery. </p>\n<p>As for frisbee golf the best thing is that you don't even need a course. We used to make up our own course as in \"between the forks of that tree\" or \"this telephone pole\" etc.  You can play anywhere which is what makes it fun and accessible.  You don't even need the fancy disks although they do help.</p>",
+        "id": 513335949,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1745207299
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752827\">@Nick Nisi</span> making me think of this</p>\n<p><a href=\"/user_uploads/66849/BeT05vo8LfNaJgOqhAIsz2qm/CleanShot-2025-04-28-at-15.07.542x.png\">CleanShot 2025-04-28 at 15.07.54@2x.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/BeT05vo8LfNaJgOqhAIsz2qm/CleanShot-2025-04-28-at-15.07.542x.png\" title=\"CleanShot 2025-04-28 at 15.07.54@2x.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"1878x2046\" src=\"/user_uploads/thumbnail/66849/BeT05vo8LfNaJgOqhAIsz2qm/CleanShot-2025-04-28-at-15.07.542x.png/840x560.webp\"></a></div>",
+        "id": 514886114,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1745867368
+    },
+    {
+        "content": "<p>Re: Frisbee Golf: one time I made the mistake of bringing up frisbee golf in a somewhat dismissive way in front of a distant relative that I see once a year. He charged right past my disinterest and proceeded to tell me EVERYTHING he had been holding back telling anyone else about frisbee golf. Strategy, equipment, favorite courses...</p>\n<p>He's in Austin, so I can tell you from that conversation the options are plentiful and the passion is deep there.</p>",
+        "id": 515182799,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1745974450
+    },
+    {
+        "content": "<p>I wasn’t kidding when I said there’s a professional circuit <span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span></p>",
+        "id": 515183119,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1745974650
+    },
+    {
+        "content": "<p>\"It's Bash, no one knows how it works!\" </p>\n<ul>\n<li>Nick Nisi</li>\n</ul>",
+        "id": 515439397,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1746070191
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755905\">Tim Uckun</span> <a href=\"#narrow/stream/455613-friends/topic/89.3A.20Vibing.20into.20the.20vibe/near/513335949\">said</a>:</p>\n<blockquote>\n<p>Golf vs Frisbee Golf.</p>\n<p>When I moved to NZ I was surprised and delighted to find out that there are tons of golf courses here and golfing is cheap. Despite that I stopped playing after a few years for no particular reason. If you ever have the chance come to NZ and play golf some of our courses have spectacular scenery. </p>\n<p>As for frisbee golf the best thing is that you don't even need a course. We used to make up our own course as in \"between the forks of that tree\" or \"this telephone pole\" etc.  You can play anywhere which is what makes it fun and accessible.  You don't even need the fancy disks although they do help.</p>\n</blockquote>\n<p>I would _love_ to play in NZ someday. Have seen amazing things.</p>\n<p>Should we have a golf channel? <span aria-label=\"thinking\" class=\"emoji emoji-1f914\" role=\"img\" title=\"thinking\">:thinking:</span> Not sure if there are enough of us in here</p>",
+        "id": 515632966,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1746158686
+    }
+]
