@@ -1,0 +1,80 @@
+[
+    {
+        "content": "<p>What are the Zulip <a href=\"https://zulip.com/help/keyboard-shortcuts\">keyboard shortcuts</a> you can't live without?</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://zulip.com/help/keyboard-shortcuts\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/98fe2fe57d1ac641d4d84b6de2c520ff48fcf498/68747470733a2f2f7374617469632e7a756c6970636861742e636f6d2f7374617469632f696d616765732f6c6f676f2f7a756c69702d69636f6e2d313238783132382e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://zulip.com/help/keyboard-shortcuts\" title=\"Keyboard shortcuts | Zulip help center\">Keyboard shortcuts | Zulip help center</a></div><div class=\"message_embed_description\">Everything in Zulip can be done with the mouse, but mastering a few keyboard shortcuts will change your experience of the app. Start with the basics below, and use the convenient keyboard shortcuts reference in the Zulip app to add more to your repertoire as needed. | Reply to message: R or Enter — Reply to the selected message (outlined in blue). | New channel message: C — Start a new topic in the current channel. | New direct message: X | Paste formatted text: Ctrl + V | Paste as plain text: Ctrl + Shift + V. You can also paste formatted text with Ctrl + V, and press Ctrl + Z to remove formatting.</div></div></div>",
+        "id": 471564457,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1726780321
+    },
+    {
+        "content": "<p>I use \"w\" (\"search people\") a surprising amount. Before I figured this out I was doing a search but \"w\" is more efficient. Usually, I just want to find someone so I can send them a DM or read old DMs.</p>",
+        "id": 471564748,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1726780458
+    },
+    {
+        "content": "<p>When writing Markdown I use \"⌥ + P\" (that's option+p on Mac) all the time to preview. The docs call this \"toggle preview mode\".</p>",
+        "id": 471565197,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1726780651
+    },
+    {
+        "content": "<p>i was using \"a\" (combined feed) and \"t\" (recent conversations) a lot at first, but as traffic has picked up here i've found that \"a\" has become less useful (as expected).</p>\n<p>i also like \"n\" to quickly bounce to new unread topics, and \"shift+g\" to hit the end of a topic and mark it read. (sometimes navigating through messages too quickly was leaving me with unexpected \"unread\" messages)</p>",
+        "id": 471807490,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1726858153
+    },
+    {
+        "content": "<p>Thanks for the pointer to <code>shift+g</code>. My favourite is to use <code>n</code> to shift to the next unread topic and use <code>j</code> and <code>k</code> to read the messages.</p>",
+        "id": 471884133,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1726896028
+    },
+    {
+        "content": "<p>Wow, \"shift+g\" is incredibly useful for high-traffic Zulip sites that I only dip in and out of. And it's the same keystroke in vi to go to the end of the file, so it's easy to remember. <span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span> Thanks!</p>",
+        "id": 471943894,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1726927434
+    },
+    {
+        "content": "<p>I just discovered you can set a view as your \"home view\" using the three dot menu next to the view, and after that pressing pressing <code>Esc</code> will take you back to your home view.</p>\n<p>That was the best way I could find to quickly go to the inbox view using the keyboard.</p>",
+        "id": 472160777,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1727079259
+    },
+    {
+        "content": "<p>You know, I had noticed that there's a \"Go to Inbox\" shortcut (<code>Shift</code> + <code>I</code>) documented on the <a href=\"https://changelog.zulipchat.com/help/inbox\">inbox help page</a> but not in the keyboard shortcuts nav section. I'm actually opening a thread in their community section because _I_ would have appreciated that shortcut there and it seems like you would have also. Will PR if they're up for it.</p>\n<p>On a totally separate note, the home view thing was new to me so thanks!</p>",
+        "id": 472255993,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1727103461
+    },
+    {
+        "content": "<p>I thought it was odd not to have a shortcut for it! Thanks for letting me know <span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+        "id": 472300422,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1727115927
+    },
+    {
+        "content": "<p>Has anyone found a keyboard shortcut to mark a thread as \"read\" from the Inbox? :-)</p>",
+        "id": 472517825,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1727190975
+    },
+    {
+        "content": "<p>Even better than shift+g to go to the bottom of the topic is the \"end\" key, if you have a full sized keyboard. <span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span> I picked this up <a href=\"https://chat.zulip.org/#narrow/stream/2-general/topic/Keep.20flow.20to.20the.20bottom.20.28new.20posts.29/near/1947940\">here</a>.</p>",
+        "id": 472998290,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1727401267
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752922\">Nabeel S</span> <a href=\"#narrow/stream/453512-general/topic/keyboard.20shortcuts.20.28Zulip.29/near/472517825\">said</a>:</p>\n<blockquote>\n<p>Has anyone found a keyboard shortcut to mark a thread as \"read\" from the Inbox? :-)</p>\n</blockquote>\n<p><a href=\"https://github.com/zulip/zulip/issues/27740\">https://github.com/zulip/zulip/issues/27740</a> is the open issue for this, stuck on picking a good shortcut. Comments on the issue thread are very welcome.</p>",
+        "id": 473867840,
+        "sender_full_name": "Alya Abbott",
+        "timestamp": 1727733480
+    },
+    {
+        "content": "<p>Shift + e</p>",
+        "id": 473897017,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1727743488
+    }
+]
