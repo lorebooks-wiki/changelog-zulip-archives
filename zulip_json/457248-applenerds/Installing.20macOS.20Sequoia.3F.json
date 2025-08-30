@@ -1,0 +1,92 @@
+[
+    {
+        "content": "<p>I tend to wait a <em>very</em> long time to install the new macOS. BUT, I'm tempted to break that rule this time around.</p>\n<p>Are you installing this? Have you already installed this? What can you share? What's got you excited?</p>",
+        "id": 471314529,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1726681248
+    },
+    {
+        "content": "<p>I'm going to install it... right after you test it for me <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span></p>",
+        "id": 471320414,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1726683270
+    },
+    {
+        "content": "<p>I installed it yesterday on my personal machine - but when I scanned the feature list I didn't see anything I'd necessarily notice, lol</p>",
+        "id": 471328295,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1726686135
+    },
+    {
+        "content": "<p>iPhone mirroring is quite interesting. Interested to see if I use it in practice. Haven’t gotten around to upgrading yet though.. maybe at the weekend.</p>",
+        "id": 471345490,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1726692383
+    },
+    {
+        "content": "<p>I'm going to wait a long time after what happened with iPadOS <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span><br>\nI was thankfully late to the party, so it didn't even verify for me. I like to wait at least a bit with macOS, leave some room for mantainers of various stuff to get everything fixed. On the other hand, iPhone mirroring <span aria-label=\"star struck\" class=\"emoji emoji-1f929\" role=\"img\" title=\"star struck\">:star_struck:</span><span aria-label=\"mirror\" class=\"emoji emoji-1fa9e\" role=\"img\" title=\"mirror\">:mirror:</span></p>",
+        "id": 471355998,
+        "sender_full_name": "Maroš Kučera",
+        "timestamp": 1726697077
+    },
+    {
+        "content": "<p>Maybe I shouldn't have updated then <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span> I don't have an iPhone, so... that's unfortunately not useful for me. Might switch on my next upgrade, though...</p>",
+        "id": 471358138,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1726698010
+    },
+    {
+        "content": "<p>i am planning to upgrade this weekend. will report back with my experiences. ￼</p>",
+        "id": 471819196,
+        "sender_full_name": "Andrew Patton",
+        "timestamp": 1726861793
+    },
+    {
+        "content": "<p>Welp I went ahead and upgraded yesterday. So far, so good. iPhone mirroring is <em>wild</em>...</p>",
+        "id": 471939278,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1726924280
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"750170\">Jerod Santo</span> <a href=\"#narrow/stream/457248-applenerds/topic/Installing.20macOS.20Sequoia.3F/near/471939278\">said</a>:</p>\n<blockquote>\n<p>Welp I went ahead and upgraded yesterday. So far, so good. iPhone mirroring is <em>wild</em>...</p>\n</blockquote>\n<p>This feature disabled in EU according to multiple sources. <span aria-label=\"sad\" class=\"emoji emoji-2639\" role=\"img\" title=\"sad\">:sad:</span></p>",
+        "id": 471942100,
+        "sender_full_name": "Marzdrel",
+        "timestamp": 1726926283
+    },
+    {
+        "content": "<p>It's the one thing I'm really looking forward <span aria-label=\"oh no\" class=\"emoji emoji-1f615\" role=\"img\" title=\"oh no\">:oh_no:</span><br>\nI was hopeful when they started to talk about it as a continuity feature (which makes sense) instead of an AI feature, but if this is true, they truly must be out for blood for all the regulatory \"troubles\" over here <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span><br>\nOr am I missing some crucial detail on why this should be an AI feature?</p>",
+        "id": 472016708,
+        "sender_full_name": "Maroš Kučera",
+        "timestamp": 1726985371
+    },
+    {
+        "content": "<p>no, definitely not an AI feature. i can’t figure out the justification for it. the most complete justification i saw was:</p>\n<blockquote>\n<p>Apple's iPhone Mirroring, for example, appears to use Device Attestation. This is complex, but essentially means both Mac and iPhone know precisely what device is on both sides of a connection, and that the user is who they say that they are based on biometrics or passwords. DMA requirements would require Apple to make this work with Android, which is where Apple's security concerns come in.</p>\n</blockquote>\n<p>so ostensibly, Apple thinks that the DMA would require them to make mirroring also with with android. (<a href=\"https://appleinsider.com/articles/24/06/28/eu-hits-back-at-apple-withholding-apple-intelligence-from-the-region\">source</a>)</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://appleinsider.com/articles/24/06/28/eu-hits-back-at-apple-withholding-apple-intelligence-from-the-region\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/21ba27b37723187861c8417708778f794fb0c2b8/68747470733a2f2f70686f746f73352e6170706c65696e73696465722e636f6d2f67616c6c6572792f33363535312d36383038382d6d61726772657468652d76657374616765722d786c2e6a7067&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://appleinsider.com/articles/24/06/28/eu-hits-back-at-apple-withholding-apple-intelligence-from-the-region\" title=\"EU hits back at Apple withholding Apple Intelligence from the region\">EU hits back at Apple withholding Apple Intelligence from the region</a></div><div class=\"message_embed_description\">European Union chief Margrethe Vestager says that Apple refusing to launch Apple Intelligence or iPhone screen mirroring in the EU is a \"stunning declaration\" of how anti-competitive the company is.</div></div></div>",
+        "id": 472133923,
+        "sender_full_name": "Andrew Patton",
+        "timestamp": 1727070947
+    },
+    {
+        "content": "<p>iPhone mirroring is.... interesting. Not sure how much I'll use it.  Probably the most useful thing is being able to type with a proper keyboard into apps which you only have on your phone?</p>\n<p>One other quite nice thing is that you start getting iPhone app notifications showing in macOS, say from a camera feed detecting motion, and clicking on the notification on the Mac will bring up the iPhone Mirroring app and act as if you clicked on the notification on your phone (i.e. launch the appropriate app and take you to the clip).</p>",
+        "id": 472470429,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1727177518
+    },
+    {
+        "content": "<p>A pleasant surprise which I didn't see mentioned anywhere is if you use the PWA-ish feature introduced last year, extensions are now enable-able inside the PWA.</p>",
+        "id": 472737370,
+        "sender_full_name": "Dustin",
+        "timestamp": 1727282554
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752943\">James Thurley</span> <a href=\"#narrow/stream/457248-applenerds/topic/Installing.20macOS.20Sequoia.3F/near/472470429\">said</a>:</p>\n<blockquote>\n<p>iPhone mirroring is.... interesting. Not sure how much I'll use it.  Probably the most useful thing is being able to type with a proper keyboard into apps which you only have on your phone?</p>\n</blockquote>\n<p>My idea on this is to leave my phone in another room when I work from home, and then use mirroring if I need to check some app I only have on my phone</p>",
+        "id": 472749046,
+        "sender_full_name": "Patrick Arminio",
+        "timestamp": 1727287233
+    },
+    {
+        "content": "<p>Learning more native controls for mirroring has been new. When using iOS simulator for development scrolling is touch-drag based where phone mirroring is mouse scroll. Takes some getting used too</p>",
+        "id": 472822008,
+        "sender_full_name": "Dalton Alexandre",
+        "timestamp": 1727331735
+    }
+]
