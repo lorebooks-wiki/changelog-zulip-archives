@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Anyone using bitnami Docker images in their homelab or for self-hosting service. <br>\nBroadcom is renaming all current images and discontinuing a lot of the images<br>\n<a href=\"https://github.com/bitnami/charts/issues/35164\">https://github.com/bitnami/charts/issues/35164</a></p>",
+        "id": 531645027,
+        "sender_full_name": "Gert Van Gool",
+        "timestamp": 1753804379
+    },
+    {
+        "content": "<p>the bitnami images were briefly useful during the early ARM days, but most major projects now either publish their own multi-arch images anyway, or aren't difficult to compile<br>\nit'll be frustrating for anyone depending on the bitnami images, of course <span aria-label=\"hugging\" class=\"emoji emoji-1fac2\" role=\"img\" title=\"hugging\">:hugging:</span></p>",
+        "id": 531713811,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1753830408
+    },
+    {
+        "content": "<p>Damn. Bitnami images used to be my default when I had started my selfhosting journey. Sad to see its demise.</p>",
+        "id": 531756617,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1753855745
+    }
+]

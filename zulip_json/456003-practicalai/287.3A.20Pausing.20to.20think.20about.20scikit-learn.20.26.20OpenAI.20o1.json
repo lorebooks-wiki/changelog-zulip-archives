@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p><span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://practicalai.fm/287\">https://practicalai.fm/287</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://practicalai.fm/287\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/369fb3eabbafdc1c641146c83c3bead36fe21da9/68747470733a2f2f736e61702e666c792e6465762f70726163746963616c61692f3238372f696d67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://practicalai.fm/287\" title=\"Pausing to think about scikit-learn &amp; OpenAI o1 (Practical AI #287)\">Pausing to think about scikit-learn &amp; OpenAI o1 (Practical AI #287)</a></div><div class=\"message_embed_description\">Recently the company stewarding the open source library scikit-learn announced their seed funding. Also, OpenAI released \"o1\" with new behavior in which it pauses to \"think\" about complex tasks. Chris and Daniel take some time to do their own thinking about o1 and the contrast to the scikit-learn ecosystem, which has t...</div></div></div>",
+        "id": 471069563,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1726600160
+    }
+]
