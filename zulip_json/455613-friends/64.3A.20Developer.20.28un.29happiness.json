@@ -1,0 +1,86 @@
+[
+    {
+        "content": "<p>Abi Noda, co-founder and CEO at DX, joins the show to talk through data shared from the Stack Ocverflow 2024 Developer Survey, why devs are really unhappy, and what they're doing at DX to help orgs and teams to understand the metrics behind their developer's happiness and productivity.</p>\n<p><span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.com/friends/64\">https://changelog.com/friends/64</a></p>",
+        "id": 474883797,
+        "sender_full_name": "Logbot",
+        "timestamp": 1728068406
+    },
+    {
+        "content": "<p>Between this and the ShipIt title, I feel like I should feel bad lol</p>",
+        "id": 474941986,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1728100380
+    },
+    {
+        "content": "<p>Agreed <span class=\"user-mention\" data-user-id=\"752880\">@Lars Ellingsen</span> .<br>\nFeels like my podcast feed is the right place to slap a person and the person is me.</p>",
+        "id": 474970518,
+        "sender_full_name": "josué",
+        "timestamp": 1728126569
+    },
+    {
+        "content": "<p>It was good to be made aware of how simple the questions were that ended up contributing to these results.<br>\nI can't help but think that people's general feeling of unhapiness seeped its way into their answers.</p>\n<p>As Abi said, the measurement of being happy has been said to be the sum average of all times you had the feeling of happiness over <code>x</code> period of time.</p>\n<p>There is a lot of really crazy shit going down in the world right now... And as a very large proportion of the StackOverflow survey participants are from the US. The political roller coaster is also going to be a factor.</p>\n<p>I'm feeling more and more like it's a \"with a pinch of salt\" kind of survey finding...<br>\nMaybe once all the chaos settles, people won't see all the cited difficulties (tech debt, management issues, etc) as cause to be AS unhappy.</p>",
+        "id": 475123373,
+        "sender_full_name": "Tillman Jex",
+        "timestamp": 1728238256
+    },
+    {
+        "content": "<p>So....not sure where the best place is to report his but there is a typo in this episode's description. Tried to see if these were stored in Github but I didn't see them. Stack Overflow is misspelled  as \"Stack Ocverflow\"</p>",
+        "id": 475331039,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1728316504
+    },
+    {
+        "content": "<p>Fixed, thanks! <span aria-label=\"green heart\" class=\"emoji emoji-1f49a\" role=\"img\" title=\"green heart\">:green_heart:</span></p>",
+        "id": 475339900,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1728318862
+    },
+    {
+        "content": "<p>This looks like the 2023 paper that lists some of the 14 dimensions and shows the feedback_loop-cog_load-flow_state triangle: <a href=\"https://queue.acm.org/detail.cfm?id=3595878\">https://queue.acm.org/detail.cfm?id=3595878</a><br>\nAnd here's the page that jerod was scrolling through: <a href=\"https://getdx.com/research/the-one-number-you-need-to-increase-roi-per-engineer/\">https://getdx.com/research/the-one-number-you-need-to-increase-roi-per-engineer/</a><br>\nTo get to the crux, a 3x4 table of dxi dimensions: <a href=\"https://getdx.com/img/optimized/0X1WSvamun-1280.webp?_cchid=f4862b61e71455197241d67c67a53558\">https://getdx.com/img/optimized/0X1WSvamun-1280.webp?_cchid=f4862b61e71455197241d67c67a53558</a></p>\n<div class=\"message_inline_image\"><a href=\"https://getdx.com/img/optimized/0X1WSvamun-1280.webp?_cchid=f4862b61e71455197241d67c67a53558\"><img src=\"https://uploads.zulipusercontent.net/6b9d7d6fda24702474d8e055e0583df601abb4ec/68747470733a2f2f67657464782e636f6d2f696d672f6f7074696d697a65642f305831575376616d756e2d313238302e776562703f5f63636869643d6634383632623631653731343535313937323431643637633637613533353538\"></a></div>",
+        "id": 475536293,
+        "sender_full_name": "Hobson Lane",
+        "timestamp": 1728385897
+    },
+    {
+        "content": "<p>Some things I heard/read:</p>\n<ol>\n<li>PRs/engineer</li>\n<li>Time to 10th pr</li>\n<li>Lead time</li>\n<li>ROI</li>\n<li>R&amp;D/engineer</li>\n<li>Revenue/engineer</li>\n<li>Incidents/engineer</li>\n<li>Perceived delivery rate</li>\n</ol>\n<p>dxi 14 Drivers:</p>\n<ol>\n<li>Deep work</li>\n<li>Developer environment</li>\n<li>Batch size</li>\n<li>Incident response (rate)</li>\n<li>Local iteration</li>\n<li>Production debugging</li>\n<li>Ease of release</li>\n<li>Incident response time</li>\n<li>Build &amp; test experience/time</li>\n<li>Code review</li>\n<li>Documentation</li>\n<li>Code maintainability</li>\n<li>Change confidence</li>\n<li>Cross-team colab &amp; planning</li>\n</ol>",
+        "id": 475541054,
+        "sender_full_name": "Hobson Lane",
+        "timestamp": 1728387655
+    },
+    {
+        "content": "<div class=\"message_inline_image\"><a href=\"https://github.com/get-dx/dx-framework/blob/main/DX-Framework.jpg?raw=true\"><img src=\"https://uploads.zulipusercontent.net/2b84bd9a6df08118e576e9cc01755a9dffd05a0d/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6765742d64782f64782d6672616d65776f726b2f6d61696e2f44582d4672616d65776f726b2e6a7067\"></a></div>",
+        "id": 475541107,
+        "sender_full_name": "Hobson Lane",
+        "timestamp": 1728387677
+    },
+    {
+        "content": "<p>Good stuff, <span class=\"user-mention\" data-user-id=\"765074\">@Hobson Lane</span>, thanks for posting <span aria-label=\"clap\" class=\"emoji emoji-1f44f\" role=\"img\" title=\"clap\">:clap:</span></p>",
+        "id": 475565766,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1728395026
+    },
+    {
+        "content": "<p>I get the feeling that the unhappiness score is mostly due to the awkward wording of the question and the weird option choices but......</p>\n<p>I wonder if a big part of this is that we developers feel entitled and lack gratitude for our situations.  My wife used to work part time  for an NGO as an at home tutor for children with severe mental or physical difficulties. These children could not attend school and my wife would visit them at home once a week to go over their homework and to help them with their struggles.  Often these kids would be hostile due to either physical pain or frustration or anger so her job was quite difficult at times. To add insult to injury not only was she paid almost nothing but was not compensated for the use of her vehicle and certainly not for the numerous treats or supplies she would provide for the children. </p>\n<p>It occurred me one day that I got paid more by lunch time than she did for an entire month of work.  I asked her why she put up with it and she said her only goal was to make the life of the child more pleasant for one hour. She didn't expect anything else, that was enough for her to keep going. </p>\n<p>I spent my whole day working so that some company could sell more shitty product to more consumers who probably didn't need the thing anyway.  I don't think having a faster CI or better pull requests would have made me more happy in that job.   </p>\n<p>I bet a lot of devs are in similar circumstances, maybe even 80%</p>",
+        "id": 476020863,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1728531789
+    },
+    {
+        "content": "<p>I think there's definitely something to that, Tim. I notice a difference in those who came from other careers or had more menial jobs before for sure. But in general losing benefits or salary feels worse than never having them... So I think that adds to it, too.</p>\n<p>There's also a weird dissonance of being told you're a shareholder and have a stake in the company, and then having no actual input into decisions and getting laid off the next week like it's nothing. It almost feels like gaslighting. </p>\n<p>But I just heard a great quote on Silicon Valley to back up your point: </p>\n<blockquote>\n<p>Richard: Ok, I'll talk to my guys about it, but they won't be happy. <br>\nAction Jack: Of course not, Richard. They're engineers.</p>\n</blockquote>",
+        "id": 476458695,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1728680597
+    },
+    {
+        "content": "<p>Are people losing benefits and salaries though? I understand that some people are being told they can no longer work remotely and I guess that's a loss of benefit but my experience is that devs get a raise every time they change jobs and indeed it's one of the greatest benefits of the job is that you can easily hop between jobs.  </p>\n<p>As for being a shareholder I think that's the curse of the stock options.  I never worked for stock options myself. If somebody offered pay + stock options then OK but I would try to negotiate actual vested stock or a short timeline for vesting or even revenue/profit sharing depending on the situation. If I thought I would help the company increase their profits then I'll take stock or profit share as a part of my compensation. If it's a huge company and I'll have minimal or no impact then that's a different story.</p>\n<p>I have been living in New Zealand for the last twenty years or so and over here we don't have to worry too much about other benefits such as health insurance or vacation time and such. Vacation and sick leave are regulated by the government and there is universal health care coverage.</p>",
+        "id": 476460104,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1728681347
+    },
+    {
+        "content": "<blockquote>\n<p>Are people losing benefits and salaries though?</p>\n</blockquote>\n<p>I brought up those examples because they're top of mind.. at my company we've just been told that our benefits are getting worse (going to have to pay a lot more for insurance) and our pay bands just went down. In our case that doesn't change current salary, but if you're about to get promoted, for example, you might get basically no raise. Hearing similar things from other as well... And many of my friends who got laid off at my last job (along with me) had to settle for a lower salary. So they aren't necessarily excited for their new job, which I think leads to the huge amount of complacency in this survey.</p>\n<p>I'm with you on stock, but it's standard at tech companies here in the US. I actually asked for as much base salary as possible vs. stock in all my jobs. I'd much rather have the sure thing. But with how recruiters and executives talk about stock, I think a lot of newer-in-career folks think it's going to be a huge windfall for them at some point. I'm much more jaded in that sense. They're also only actually liquid and worth something if the company is public (or gets acquired - sometimes).</p>\n<p>NZ - Ah yeah, I'm a little jealous. I would love to not have employment tied to insurance... <span aria-label=\"slight frown\" class=\"emoji emoji-1f641\" role=\"img\" title=\"slight frown\">:slight_frown:</span></p>",
+        "id": 476460963,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1728681806
+    }
+]
