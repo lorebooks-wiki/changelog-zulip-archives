@@ -1,0 +1,164 @@
+[
+    {
+        "content": "<p>We talk with Don MacKinnon, Co-founder and CTO of Searchcraft—a lightspeed search engine built in Rust. We dig into the future of search, how it blends vector embeddings with classic ranking, and what it takes to build developer-friendly, production-grade search from the ground up. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/649\">https://changelog.fm/649</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.fm/649#t=0\">00:00</a></td>\n<td>This week on The Changelog</td>\n<td>01:07</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.fm/649#t=67\">01:07</a></td>\n<td><a href=\"https://auth0.com/ai\">Sponsor: Auth0</a></td>\n<td>01:29</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.fm/649#t=160\">02:40</a></td>\n<td>Start the show!</td>\n<td>03:07</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.fm/649#t=348\">05:48</a></td>\n<td>LIVE in Denver</td>\n<td>02:13</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.fm/649#t=481\">08:01</a></td>\n<td>Searchcraft</td>\n<td>03:40</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.fm/649#t=701\">11:41</a></td>\n<td>Search in 2021</td>\n<td>03:07</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.fm/649#t=888\">14:48</a></td>\n<td>Why rust? Design decisions.</td>\n<td>05:16</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.fm/649#t=1203\">20:03</a></td>\n<td>Storage engine</td>\n<td>06:36</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.fm/649#t=1600\">26:40</a></td>\n<td><a href=\"https://depot.dev\">Sponsor: Depot</a></td>\n<td>02:09</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.fm/649#t=1729\">28:49</a></td>\n<td>Why is search cool?</td>\n<td>11:28</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.fm/649#t=2417\">40:17</a></td>\n<td>Mo' money?</td>\n<td>02:57</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.fm/649#t=2595\">43:15</a></td>\n<td>\"Craft\" is cool</td>\n<td>01:53</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.fm/649#t=2708\">45:08</a></td>\n<td>\"All angels\" funding</td>\n<td>02:24</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.fm/649#t=2852\">47:32</a></td>\n<td>Pitch decks, 5 years later</td>\n<td>10:05</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.fm/649#t=3457\">57:37</a></td>\n<td>Ethics of training data</td>\n<td>10:37</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.fm/649#t=4094\">1:08:14</a></td>\n<td><a href=\"https://agntcy.org\">Sponsor: Outshift by Cisco</a></td>\n<td>01:03</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.fm/649#t=4158\">1:09:18</a></td>\n<td>The \"infringiness\" of it</td>\n<td>16:10</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.fm/649#t=5127\">1:25:27</a></td>\n<td>What's just over the horizon?</td>\n<td>04:42</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.fm/649#t=5410\">1:30:10</a></td>\n<td>It's ready. You should try it.</td>\n<td>00:33</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.fm/649#t=5443\">1:30:43</a></td>\n<td>Cool AI images</td>\n<td>06:08</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.fm/649#t=5811\">1:36:51</a></td>\n<td>Closing thoughts</td>\n<td>01:38</td>\n</tr>\n</tbody>\n</table>",
+        "id": 528068685,
+        "sender_full_name": "Logbot",
+        "timestamp": 1752149947
+    },
+    {
+        "content": "<p>Excited for this one!</p>",
+        "id": 528086304,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1752155221
+    },
+    {
+        "content": "<p>I didn't notice at the time but Adam has Silicon Valley playing in the background behind him <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span></p>",
+        "id": 528166687,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1752185742
+    },
+    {
+        "content": "<p>Great show! Not quite finished with it but it got me thinking about a lot of things. Particularly when you guys got on the AI copyright topic.</p>\n<p>I was driving so I couldn't write down my thoughts at the time, but 2 are sticking in my mind.</p>",
+        "id": 528468163,
+        "sender_full_name": "Chris Duzan",
+        "timestamp": 1752336057
+    },
+    {
+        "content": "<ol>\n<li>Are writers and illustrators going to become very niche? I don't know the exact term, but I've come across some people who have specialized in old \"craftsmanship\" professions (eg. fletching, armor smithing, etc). Will this be the case for writers and illustrators where it won't be a profession anymore. But there are highly specialized cases where a small number of people make a living off of them?</li>\n</ol>",
+        "id": 528468389,
+        "sender_full_name": "Chris Duzan",
+        "timestamp": 1752336339
+    },
+    {
+        "content": "<ol start=\"2\">\n<li>The mention of libraries when it comes to having the ability to share books. If you've ever used digital downloads for a library, you'll know that they can't give out infinite copies of a digital book. They are restricted to a certain number that can be \"checked out\" at a time.</li>\n</ol>\n<p>Can this be replicated with model training? I don't know what this would actually look like under the hood. But something a long the lines of \"you can only work on one instance of this data at a time.\" And you would have to buy more \"licenses\" to train on the same data concurrently.</p>\n<p>If we are working off the analogy that someone learning from a piece of work is the same as a model being trained on a piece of work, I think you could also make the argument that models training on it are more like multiple people training at the same time. So each \"person\" would need a copy of the work.</p>",
+        "id": 528468537,
+        "sender_full_name": "Chris Duzan",
+        "timestamp": 1752336522
+    },
+    {
+        "content": "<p>Still, maybe it's not a helpful analogy because these things \"learn\" on a different timeframe than humans.</p>",
+        "id": 528468948,
+        "sender_full_name": "Chris Duzan",
+        "timestamp": 1752336972
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"758958\">@Chris Duzan</span> I think both of these things are solved by abolishing the concept of Intellectual Property (OpenAI and Meta already behave as though this concept protects yet does not restrain them), and some sort of Universal Basic Income or similar so that any individual that previously relied on IP to feed their families will be able to continue to do so whilst learning whatever the new valuable skills are</p>",
+        "id": 528485608,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1752355968
+    },
+    {
+        "content": "<p>But yes, \"artisanal\" comes to mind: artisanal poetry, artisanal illustrations, etc<br>\nSome folks with means may decide they are okay with paying more for this, just like for artisanal furniture, etc</p>",
+        "id": 528485661,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1752356070
+    },
+    {
+        "content": "<p>I honestly think UBI will not work. Any extra money in the pockets of consumers will quickly flow upstream to the landlords, corporations, etc. </p>\n<p>A better alternative would be to provide people with free food, shelter and healthcare.  This doesn't have to be anything fancy, minimal amount required to keep a person alive and relatively healthy. I am imagining something like dormitories or tiny apartments like those found in Tokyo and Hong Kong. With meals provided as MRE or freeze dried meals like the ones you take camping.  There would be building and floor supervisors who would be responsible for making sure people don't abuse the system by using their quarters for storage or being destructive and whatnot.</p>\n<p>This would provide a downward pressure on housing, food, and energy costs as the private sector has to deal with the release valve of government provided basic services.   At the same time although these conditions are sufficient to keep somebody alive they are not pleasant and would continue to encourage people to seek employment for better living conditions.</p>\n<p>Of course if they let me design society the conditions would improve as productivity from automation goes up and who knows maybe some day everybody will get a three bedroom house with a yard.</p>",
+        "id": 528489325,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1752361624
+    },
+    {
+        "content": "<p>Please tell me Vectron is a Mitchell &amp; Webb reference: <a href=\"https://youtu.be/icTrzUuWlHI?si=ZwcoflFJ-VTJ2tC8\">https://youtu.be/icTrzUuWlHI?si=ZwcoflFJ-VTJ2tC8</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"icTrzUuWlHI\" href=\"https://youtu.be/icTrzUuWlHI?si=ZwcoflFJ-VTJ2tC8\"><img src=\"https://uploads.zulipusercontent.net/ba7643c6b570388b904452b37b2cad7fcb10db38/68747470733a2f2f692e7974696d672e636f6d2f76692f696354727a5575576c48492f6d7164656661756c742e6a7067\"></a></div>",
+        "id": 528491553,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1752365296
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752964\">Andrew O'Brien</span> <a href=\"#narrow/channel/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs/near/528491553\">said</a>:</p>\n<blockquote>\n<p>Please tell me Vectron is a Mitchell &amp; Webb reference: <a href=\"https://youtu.be/icTrzUuWlHI?si=ZwcoflFJ-VTJ2tC8\">https://youtu.be/icTrzUuWlHI?si=ZwcoflFJ-VTJ2tC8</a></p>\n</blockquote>\n<p>It would be pretty cool if it was but alas no. We thought we made it up <span aria-label=\"smiley\" class=\"emoji emoji-1f603\" role=\"img\" title=\"smiley\">:smiley:</span></p>",
+        "id": 528728802,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1752522349
+    },
+    {
+        "content": "<p>Well hopefully this lightens things up around the office, by Vectron's mighty gaze!</p>",
+        "id": 528762962,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1752540471
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"756263\">@Don MacKinnon</span> May Vectron smile upon you anyway and carry your business aloft on his golden pinions!</p>",
+        "id": 528778050,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1752554389
+    },
+    {
+        "content": "<p>You are helping me on the AI moral question in processing my thoughts on it.</p>\n<p>You touched on scale and I think that is the key departure here. Similar to issues around privacy. </p>\n<p>By the basic concept, folks have published in public for various reasons assuming there is a limit to what can be done reworking that information that means they still see some benefit. But AI changes that scale.</p>\n<p>Probably the law needs revisiting with this scale in mind to get back to the intention of copyright, allowing a producer some control over the use of their work</p>\n<p>Not a simple task!</p>",
+        "id": 528794895,
+        "sender_full_name": "James McNally",
+        "timestamp": 1752564299
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752986\">Daniel Buckmaster</span> <a href=\"#narrow/channel/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs/near/528762962\">said</a>:</p>\n<blockquote>\n<p>Well hopefully this lightens things up around the office, by Vectron's mighty gaze!</p>\n</blockquote>\n<p>We loved the clip, now I need to go check out the rest of the show.</p>",
+        "id": 528914423,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1752602319
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"756263\">@Don MacKinnon</span> it’s well worth it.</p>\n<p>I’d also highly recommend Peep Show, which is the same guys (plus a younger, now Oscar winning Olivia Colman) in a sitcom that’s sort of an Odd Couple except shot from alternating 1st person perspectives where you hear their inner monologues.</p>",
+        "id": 529476358,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1752849909
+    },
+    {
+        "content": "<p>You know sometimes I watch shows from the 60s and 70s and it's amazing how much more \"blue\" they are than shows today. Something happened in the 80s or 90s which turned  television and movies much more prudish and conservative. There is a marked shift from using sexual innuendo and sexy outfits to violence and carnage in order to hold the audience attention.  Back then you'd never even see blood on television and movies let alone the kinds of gruesome deaths, spurting blood, mass casualties, non stop explosions etc.</p>\n<p>We have become less interested in pleasure and more interested in violence I guess.</p>",
+        "id": 529533326,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1752877939
+    },
+    {
+        "content": "<p>Yeah, I mean I always feel slightly awkward  going from something pretty clean to more mature content with someone who I don’t know what their tolerance is without putting some kind of warning in, especially in a semi-professional space like this.</p>\n<p>And I wouldn’t even say it’s that extreme. It’s like Letterkenny, Always Sunny in Philadelphia, or an HBO comedy here. But not HR friendly.</p>",
+        "id": 529540744,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1752886016
+    },
+    {
+        "content": "<p>I think it's interesting people consider a double entendre mature content but not somebody getting shot or stabbed or being bit by a vampire.</p>",
+        "id": 529552665,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1752902110
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"755905\">@Tim Uckun</span> I think that's cultural <br>\nIn Europe, parents are more concerned about exposing children to violence <br>\nBut in the USA, they've given up protecting children from violence (Sandyhook is proof), so they seem to care most about exposing children to sexual content</p>",
+        "id": 529556575,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1752907142
+    },
+    {
+        "content": "<p>Overgeneralize much?</p>",
+        "id": 529577351,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1752932664
+    },
+    {
+        "content": "<p>Generalise,  sure<br>\nBut there doesn't seem to be any action to prevent gun violence in schools in the USA, security theatre, but no actual reform<br>\nVersus literal book burnings by anti-LGBT folks in the name of protecting children from supposed inappropriate content</p>",
+        "id": 529616809,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1752965384
+    },
+    {
+        "content": "<p>Look, all’s I was trying to do was prevent an embarrassing work situation. I don’t know what kinds of fuckwords and depictions of crack smoking are permissible at everyone’s places of business.</p>",
+        "id": 529619014,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1752969139
+    },
+    {
+        "content": "<p><a href=\"https://en.wikipedia.org/wiki/%27No_Way_to_Prevent_This,%27_Says_Only_Nation_Where_This_Regularly_Happens\">https://en.wikipedia.org/wiki/%27No_Way_to_Prevent_This,%27_Says_Only_Nation_Where_This_Regularly_Happens</a></p>",
+        "id": 529629875,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1752986299
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752964\">Andrew O'Brien</span> <a href=\"#narrow/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs/near/529619014\">said</a>:</p>\n<blockquote>\n<p>Look, all’s I was trying to do was prevent an embarrassing work situation. I don’t know what kinds of fuckwords and depictions of crack smoking are permissible at everyone’s places of business.</p>\n</blockquote>\n<p>Chance would be a fine thing!</p>",
+        "id": 529691437,
+        "sender_full_name": "Alex Barnes",
+        "timestamp": 1753021061
+    },
+    {
+        "content": "<p>I had some folks pop into the Searchcraft discord asking about Sled after the episode dropped. Here's a talk that Tyler (aka Spacejam) gave about Sled and io_uring back in 2020 that folks may find interesting <a href=\"https://archive.fosdem.org/2020/schedule/event/rust_techniques_sled/\">https://archive.fosdem.org/2020/schedule/event/rust_techniques_sled/</a></p>",
+        "id": 530392930,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1753289640
+    }
+]

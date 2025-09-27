@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>So today I am in my laptop and go to work on some files in my dropbox folder and notice that my changes from desktop are not there. That's weird. I go to my desktop and dropbox is running, I open up VS code and see the files are as I left them but they are not showing up on my laptop.</p>\n<p>I start digging into it and apparently Dropbox moved the dropbox folder from my external drive to ~/Library/cloudstorage/Dropbox.  I have no idea when it did this and if it told me I must have clicked through it but I have no memory of this at all. Dropbox claims you are not allowed to change this location either because of the OS version (WTF?). </p>\n<p>I look around and apparently there is a procedure for putting your dropbox folder on external drive but you have to use the beta software . Furthermore your drive has to be encrypted (WTF?) and APFS. Once that's done  you have to log out of all your accounts and log back in again and then you can point your dropbox folder to the external drive.</p>\n<p>Honestly what the actual fsck  is this all about? Why did apple decide nobody is allowed to store their dropbox folder elsewhere? Why did Dropbox decide to obey them? Why is there such an elaborate routine to use it on an external disk? Why does the external disk need to be encrypted? </p>\n<p>More importantly why wasn't this made more obvious to me? Here I have been using it for months thinking my files are being backed up and none of them actually are. </p>\n<p>Dropbox you really suck for doing this to me.</p>",
+        "id": 540722042,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1758524828
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "content": "<p>Our friends at <a href=\"https://www.cultrepo.com\">Cult.Repo</a> launch their epic <a href=\"https://www.youtube.com/watch?v=pqBqdNIPrbo\">Python documentary</a> on August 28th, 2025! To celebrate, we sat down with Travis Oliphant –creator of NumPy, SciPy, and more– to get his perspective on how Python took over the software world.</p>\n<p>Stick around for the twist ending! We set aside Python and dissect Travis' big idea to make open source projects financially sustainable through direct investment. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/656\">https://changelog.fm/656</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.fm/656#t=0\">00:00</a></td>\n<td>This week on The Changelog</td>\n<td>01:05</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.fm/656#t=65\">01:05</a></td>\n<td><a href=\"https://depot.dev\">Sponsor: Depot</a></td>\n<td>02:12</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.fm/656#t=197\">03:17</a></td>\n<td>Start the show!</td>\n<td>01:12</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.fm/656#t=268\">04:28</a></td>\n<td>Python dramas</td>\n<td>01:56</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.fm/656#t=384\">06:24</a></td>\n<td>Python as ecosystem</td>\n<td>02:36</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.fm/656#t=540\">09:00</a></td>\n<td>Come for the language...</td>\n<td>02:46</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.fm/656#t=706\">11:46</a></td>\n<td>Dongle gate</td>\n<td>01:06</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.fm/656#t=772\">12:52</a></td>\n<td>Coming to Python</td>\n<td>09:42</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.fm/656#t=1355\">22:35</a></td>\n<td>The SciKits emerge</td>\n<td>03:00</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.fm/656#t=1535\">25:35</a></td>\n<td>Key language features</td>\n<td>02:19</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.fm/656#t=1673\">27:53</a></td>\n<td>How features get in</td>\n<td>02:16</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.fm/656#t=1809\">30:09</a></td>\n<td>NumPy's story</td>\n<td>02:30</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.fm/656#t=1959\">32:39</a></td>\n<td>Why not Ruby?</td>\n<td>05:22</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.fm/656#t=2281\">38:01</a></td>\n<td>Early adopters</td>\n<td>03:27</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.fm/656#t=2488\">41:28</a></td>\n<td><a href=\"https://auth0.com/ai\">Sponsor: Auth0</a></td>\n<td>01:29</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.fm/656#t=2576\">42:56</a></td>\n<td>Someone had to do NumPy</td>\n<td>01:26</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.fm/656#t=2662\">44:22</a></td>\n<td>NumPy's success</td>\n<td>01:05</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.fm/656#t=2727\">45:27</a></td>\n<td>Based on a true story</td>\n<td>01:00</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.fm/656#t=2787\">46:27</a></td>\n<td>Python in industry</td>\n<td>02:02</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.fm/656#t=2909\">48:29</a></td>\n<td>Goldman Sachs messed up</td>\n<td>02:29</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.fm/656#t=3058\">50:58</a></td>\n<td>The pain of closed source</td>\n<td>02:02</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.fm/656#t=3180\">53:00</a></td>\n<td>Community demand</td>\n<td>03:56</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.fm/656#t=3416\">56:56</a></td>\n<td>Google Borg / K8s</td>\n<td>00:52</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.fm/656#t=3467\">57:47</a></td>\n<td>Corporate constraints</td>\n<td>03:10</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://changelog.fm/656#t=3658\">1:00:58</a></td>\n<td>Open source as resumé</td>\n<td>03:15</td>\n</tr>\n<tr>\n<td>26</td>\n<td><a href=\"https://changelog.fm/656#t=3852\">1:04:12</a></td>\n<td>Thoughts on Mojo</td>\n<td>09:58</td>\n</tr>\n<tr>\n<td>27</td>\n<td><a href=\"https://changelog.fm/656#t=4451\">1:14:11</a></td>\n<td>FairOSS</td>\n<td>08:35</td>\n</tr>\n<tr>\n<td>28</td>\n<td><a href=\"https://changelog.fm/656#t=4966\">1:22:46</a></td>\n<td>Incentives</td>\n<td>02:05</td>\n</tr>\n<tr>\n<td>29</td>\n<td><a href=\"https://changelog.fm/656#t=5091\">1:24:51</a></td>\n<td>Are you doing this?</td>\n<td>00:36</td>\n</tr>\n<tr>\n<td>30</td>\n<td><a href=\"https://changelog.fm/656#t=5127\">1:25:27</a></td>\n<td>Impedance mismatch?</td>\n<td>01:12</td>\n</tr>\n<tr>\n<td>31</td>\n<td><a href=\"https://changelog.fm/656#t=5199\">1:26:39</a></td>\n<td>Imagine it running</td>\n<td>01:53</td>\n</tr>\n<tr>\n<td>32</td>\n<td><a href=\"https://changelog.fm/656#t=5312\">1:28:32</a></td>\n<td>Selling the idea</td>\n<td>03:45</td>\n</tr>\n<tr>\n<td>33</td>\n<td><a href=\"https://changelog.fm/656#t=5537\">1:32:17</a></td>\n<td>Scrutinizing FairOSS</td>\n<td>04:32</td>\n</tr>\n<tr>\n<td>34</td>\n<td><a href=\"https://changelog.fm/656#t=5809\">1:36:49</a></td>\n<td>Clear next steps</td>\n<td>01:41</td>\n</tr>\n<tr>\n<td>35</td>\n<td><a href=\"https://changelog.fm/656#t=5911\">1:38:31</a></td>\n<td>Public benefit corps</td>\n<td>03:26</td>\n</tr>\n<tr>\n<td>36</td>\n<td><a href=\"https://changelog.fm/656#t=6117\">1:41:57</a></td>\n<td>Drumming up interest</td>\n<td>01:32</td>\n</tr>\n<tr>\n<td>37</td>\n<td><a href=\"https://changelog.fm/656#t=6209\">1:43:29</a></td>\n<td>Raising the stakes</td>\n<td>02:14</td>\n</tr>\n<tr>\n<td>38</td>\n<td><a href=\"https://changelog.fm/656#t=6343\">1:45:43</a></td>\n<td><a href=\"http://tea.xyz\">tea.xyz</a></td>\n<td>01:07</td>\n</tr>\n<tr>\n<td>39</td>\n<td><a href=\"https://changelog.fm/656#t=6410\">1:46:50</a></td>\n<td>Adam shares Adam shares an idea</td>\n<td>01:25</td>\n</tr>\n<tr>\n<td>40</td>\n<td><a href=\"https://changelog.fm/656#t=6495\">1:48:15</a></td>\n<td>Adam shares another idea</td>\n<td>04:08</td>\n</tr>\n<tr>\n<td>41</td>\n<td><a href=\"https://changelog.fm/656#t=6743\">1:52:23</a></td>\n<td>Wrapping up</td>\n<td>00:15</td>\n</tr>\n<tr>\n<td>42</td>\n<td><a href=\"https://changelog.fm/656#t=6758\">1:52:38</a></td>\n<td>Closing thoughts</td>\n<td>01:40</td>\n</tr>\n</tbody>\n</table>",
+        "id": 536477011,
+        "sender_full_name": "Logbot",
+        "timestamp": 1756319531
+    },
+    {
+        "content": "<p>Great episode. He mentioned Julia just once but I think you guys should interview somebody from the Julia team. Julia is rapidly taking over python's place in scientific computing especially amongst the graduate students.</p>\n<p>As for his idea of funding OS software I remain highly pessimistic. His vision requires an incredible amount of coordination and good will amongst tens of thousands of people most of whom are primarily driven by the profit motive. </p>\n<p>I think I have an idea of how we could fund OSS and it's much simpler. Make a packaging system that requires payment (something like npm, rubygems etc). People can host their projects on the system and if you want to pull something you get charged every time you pull it. You get charged for every dep you pull down so if my code costs X and I have a depdency that costs Y you get charged X+Y.  The package manager calculates the total cost so you can look at it before you decide to use it. All payments are automatic via blockchain premined currency.</p>\n<p>Easy, simple, automatic.</p>",
+        "id": 536887501,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1756528281
+    },
+    {
+        "content": "<p>Starting the documentary. Just noticed the pod is longer than it <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 536996482,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1756661660
+    },
+    {
+        "content": "<p>I avoid Python as a personal choice (why significant whitespace!? why!?), but I will definitely watch the documentary</p>",
+        "id": 537010964,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1756677277
+    },
+    {
+        "content": "<p>I started using it a lot a couple years ago... I wasn't a fan at first but I like it more and more. My main complaint is that it's not strongly typed, but that's a personal preference <span aria-label=\"smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"smile\">:smile:</span></p>",
+        "id": 537012321,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1756678768
+    },
+    {
+        "content": "<p>I occasionally have to dabble in python but I'm not a fan of it at all. The whole whitespace forms the semantic structure part of it I find frustrating as well as the dynamic typing and poor performance. I can understand why the data science people like it's ergonomics but coming from a computer science background I don't enjoy it.</p>",
+        "id": 537013769,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1756680787
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752880\">@Lars Ellingsen</span> I think Python is one of the best examples of a strongly typed language! Here's an example:</p>\n<div class=\"codehilite\"><pre><span></span><code>&gt;&gt;&gt; &#39;hi&#39; + 1\nTraceback (most recent call last):\n  File &quot;&lt;stdin&gt;&quot;, line 1, in &lt;module&gt;\nTypeError: can only concatenate str (not &quot;int&quot;) to str\n</code></pre></div>\n<p>And here's weakly-typed Javascript:</p>\n<div class=\"codehilite\"><pre><span></span><code>&gt; &#39;hi&#39; + 1\n&#39;hi1&#39;\n</code></pre></div>",
+        "id": 537015444,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1756683094
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752986\">Daniel Buckmaster</span> <a href=\"#narrow/channel/456187-interviews/topic/656.3A.20Python.20documentary.20companion.20pod/near/537015444\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"752880\">Lars Ellingsen</span> I think Python is one of the best examples of a strongly typed language! Here's an example:</p>\n<div class=\"codehilite\"><pre><span></span><code>&gt;&gt;&gt; &#39;hi&#39; + 1\nTraceback (most recent call last):\n  File &quot;&lt;stdin&gt;&quot;, line 1, in &lt;module&gt;\nTypeError: can only concatenate str (not &quot;int&quot;) to str\n</code></pre></div>\n<p>And here's weakly-typed Javascript:</p>\n<p><div class=\"codehilite\"><pre><span></span><code>&gt; &#39;hi&#39; + 1\n&#39;hi1&#39;\n</code></pre></div><br>\n</p>\n</blockquote>\n<p>This is nitpicky but that JS example is type coercion - not strongly vs. weakly typed. You can change a variable in Python to be any other type at any time (technically \"dynamically\" typed I think, but basically the same)</p>\n<p>In practical terms, my main issue with this is that the <code>'hi' + 1</code> example you used doesn't cause a compile-time warning, but only occurs at run-time</p>",
+        "id": 537015863,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1756683716
+    },
+    {
+        "content": "<p>A strongly typed language like Java or C# wouldn't even let you compile that example. I love getting errors as early as possible <span aria-label=\"smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"smile\">:smile:</span></p>",
+        "id": 537015902,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1756683799
+    },
+    {
+        "content": "<p>Both Python and Ruby have introduced gradual typing into the language but it hasn't caught on. Mostly because people who are attracted to the language chose it because they didn't have to worry about types.</p>",
+        "id": 537029032,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1756699077
+    },
+    {
+        "content": "<p>I just came back from RustForge ( <a href=\"https://rustforgeconf.com/\">https://rustforgeconf.com/</a> ) and there was some discussion about whether learning Rust as your first programming language is harder or easier, and whether static types (or the lack of automatic type coercion) facilitates learning or hinders it<br>\nA claim was made that it's actually confusing for new programmers to have a variable that can be a Boolean or a number of a string or a dictionary, that early on folks tend to find that more confusing than the alternative</p>",
+        "id": 537031548,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1756701604
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752880\">@Lars Ellingsen</span> these terms aren't well defined I agree, but I think what you're really talking about is definitely static/dynamic typing. For anything that happens at compile time versus runtime, that refers to \"static\" analysis.</p>\n<p>Strong/weak is a separate axis and while opinions differ, things like implicit coercion can make a type system weaker. E.g. Python performs fewer implicit conversions than JS, making it stronger. Rust and Go perform fewer implicit conversions (e.g. between number types) than C, making them stronger even though all 3 are statically typed.</p>",
+        "id": 537033867,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1756703658
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752986\">Daniel Buckmaster</span> <a href=\"#narrow/channel/456187-interviews/topic/656.3A.20Python.20documentary.20companion.20pod/near/537033867\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"752880\">Lars Ellingsen</span> these terms aren't well defined I agree, but I think what you're really talking about is definitely static/dynamic typing. For anything that happens at compile time versus runtime, that refers to \"static\" analysis.</p>\n<p>Strong/weak is a separate axis and while opinions differ, things like implicit coercion can make a type system weaker. E.g. Python performs fewer implicit conversions than JS, making it stronger. Rust and Go perform fewer implicit conversions (e.g. between number types) than C, making them stronger even though all 3 are statically typed.</p>\n</blockquote>\n<p>Ah TIL! Yeah I think you're totally right, apparently I (and the devs I work with) have been misusing the term. Thanks for the clarification <span aria-label=\"smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"smile\">:smile:</span></p>\n<p>And definitely what I'm after is static analysis. I've been bitten so many times in production by things that feel like they should have been caught by a compiler or some other tool. We've started using Mypy in strict mode but even that only gets us so far </p>\n<p>In any case, though, I enjoyed this episode. Very interesting idea about funding OSS</p>",
+        "id": 537116687,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1756735270
+    },
+    {
+        "content": "<p>I'm curious how the companion pod came to be, I saw that CultRepo made a mention of it so I'm assuming its an official collaboration. Will there be more for other docs down the road as well? Excited for the upcoming Vite doc.</p>",
+        "id": 537162523,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1756754799
+    },
+    {
+        "content": "<p>I remember reading an essay by Paul Graham where he talked about programming as painting. At first you start by sketching with a pencil where you can quickly try out your ideas, erase your mistakes etc and then eventually you use paint to make your work more permanent.</p>\n<p>That's why I think languages should have strong type inference or optional typing. You shouldn't have to worry about typing things until you need to. This is why I enjoyed playing with Crystal so much. It has very strong type inference and also a really good type system.</p>\n<p>As a side note. I think at a minimum every language should have every type in postgres including nullable types. Eventually I will be pushing things into and out of postgres so I want a strong match. I also want structs with syntax similar to postgres tables including specifying defaults, constraints etc.  Alas I haven't found anything like that.</p>",
+        "id": 537174105,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1756762503
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"756263\">@Don MacKinnon</span> yup! We’re doing a Vite collab too</p>",
+        "id": 537177139,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1756764805
+    },
+    {
+        "content": "<p>Awesome!</p>",
+        "id": 537177395,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1756764997
+    },
+    {
+        "content": "<p>That's rad <span aria-label=\"smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"smile\">:smile:</span> the doc and pod were both great!</p>",
+        "id": 537179893,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1756766959
+    }
+]
