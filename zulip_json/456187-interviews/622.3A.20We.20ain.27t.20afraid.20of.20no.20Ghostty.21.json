@@ -1,0 +1,140 @@
+[
+    {
+        "content": "<p>Mitchell Hashimoto joins the show to discuss Ghostty, the newest terminal in town. Mitchell co-founded HashiCorp, took it all the way to IPO, exited in 2023—and now he's working on a terminal emulator called Ghostty. Ghostty is set to 1.0 this month, so we sat down to talk through all the details. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/622\">https://changelog.fm/622</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.fm/622#t=0\">00:00</a></td>\n<td>This week on The Changelog</td>\n<td>00:57</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.fm/622#t=57\">00:57</a></td>\n<td><a href=\"https://fly.io/\">Sponsor: Fly.io</a></td>\n<td>02:45</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.fm/622#t=223\">03:43</a></td>\n<td>Start the show!</td>\n<td>00:22</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.fm/622#t=245\">04:05</a></td>\n<td>Let's talk Ghostty</td>\n<td>01:15</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.fm/622#t=319\">05:19</a></td>\n<td>What is Ghostty?</td>\n<td>02:13</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.fm/622#t=452\">07:32</a></td>\n<td>Terminals are like web browsers</td>\n<td>02:02</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.fm/622#t=574\">09:34</a></td>\n<td>Where did you start?</td>\n<td>02:01</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.fm/622#t=695\">11:35</a></td>\n<td>What does fast mean?</td>\n<td>01:17</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.fm/622#t=773\">12:53</a></td>\n<td>How do you make it fast?</td>\n<td>01:41</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.fm/622#t=874\">14:34</a></td>\n<td>Terminal as a platform</td>\n<td>04:18</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.fm/622#t=1132\">18:52</a></td>\n<td>Ghostty passed Jerod's sniff test</td>\n<td>00:24</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.fm/622#t=1155\">19:15</a></td>\n<td>Should tmux be baked in?</td>\n<td>02:48</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.fm/622#t=1323\">22:03</a></td>\n<td>libghostty and Ghostty app</td>\n<td>01:26</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.fm/622#t=1409\">23:29</a></td>\n<td>The importance of Windows support</td>\n<td>02:00</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.fm/622#t=1530\">25:30</a></td>\n<td>The ambitions of Ghostty</td>\n<td>02:02</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.fm/622#t=1652\">27:32</a></td>\n<td>Impact, but not as a business</td>\n<td>02:10</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.fm/622#t=1781\">29:41</a></td>\n<td><a href=\"https://www.eightsleep.com/changelog\">Sponsor: Eight Sleep</a></td>\n<td>02:17</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.fm/622#t=1919\">31:59</a></td>\n<td><a href=\"https://www.wix.com/studio\">Sponsor: Wix Studio</a></td>\n<td>00:53</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.fm/622#t=1972\">32:52</a></td>\n<td>The Discord is active</td>\n<td>05:06</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.fm/622#t=2278\">37:58</a></td>\n<td>Who's behind Ghostty?</td>\n<td>01:39</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.fm/622#t=2377\">39:37</a></td>\n<td>How long have you been working on this?</td>\n<td>00:29</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.fm/622#t=2407\">40:07</a></td>\n<td>Post HashiCorp hobbies and stuff</td>\n<td>03:46</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.fm/622#t=2632\">43:52</a></td>\n<td>Nerd snipe BINGO (Zig)</td>\n<td>03:25</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.fm/622#t=2837\">47:17</a></td>\n<td>Symbiosis with Zig</td>\n<td>02:12</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://changelog.fm/622#t=2969\">49:29</a></td>\n<td>Any large technical problems?</td>\n<td>01:26</td>\n</tr>\n<tr>\n<td>26</td>\n<td><a href=\"https://changelog.fm/622#t=3055\">50:55</a></td>\n<td>Why is font rendering hard?</td>\n<td>03:29</td>\n</tr>\n<tr>\n<td>27</td>\n<td><a href=\"https://changelog.fm/622#t=3264\">54:24</a></td>\n<td>Packaging a favorite font?</td>\n<td>02:49</td>\n</tr>\n<tr>\n<td>28</td>\n<td><a href=\"https://changelog.fm/622#t=3433\">57:13</a></td>\n<td>Let's talk config</td>\n<td>05:30</td>\n</tr>\n<tr>\n<td>29</td>\n<td><a href=\"https://changelog.fm/622#t=3763\">1:02:43</a></td>\n<td>Comparing to Warp's prompt</td>\n<td>08:17</td>\n</tr>\n<tr>\n<td>30</td>\n<td><a href=\"https://changelog.fm/622#t=4260\">1:11:00</a></td>\n<td><a href=\"https://retool.com/changelog\">Sponsor: Retool</a></td>\n<td>04:30</td>\n</tr>\n<tr>\n<td>31</td>\n<td><a href=\"https://changelog.fm/622#t=4530\">1:15:30</a></td>\n<td>Should Mitchell write a shell too?</td>\n<td>02:48</td>\n</tr>\n<tr>\n<td>32</td>\n<td><a href=\"https://changelog.fm/622#t=4698\">1:18:18</a></td>\n<td>What's DHH's terminal?</td>\n<td>01:38</td>\n</tr>\n<tr>\n<td>33</td>\n<td><a href=\"https://changelog.fm/622#t=4796\">1:19:56</a></td>\n<td>When does Ghostty 1.0 drop?</td>\n<td>01:33</td>\n</tr>\n<tr>\n<td>34</td>\n<td><a href=\"https://changelog.fm/622#t=4889\">1:21:29</a></td>\n<td>App icon - the winking ghost</td>\n<td>01:40</td>\n</tr>\n<tr>\n<td>35</td>\n<td><a href=\"https://changelog.fm/622#t=4989\">1:23:09</a></td>\n<td>Designed by Michael Flarup</td>\n<td>01:12</td>\n</tr>\n<tr>\n<td>36</td>\n<td><a href=\"https://changelog.fm/622#t=5061\">1:24:21</a></td>\n<td>How much SwiftUI is in here?</td>\n<td>01:03</td>\n</tr>\n<tr>\n<td>37</td>\n<td><a href=\"https://changelog.fm/622#t=5124\">1:25:24</a></td>\n<td>Major 1.0 blockers?</td>\n<td>03:13</td>\n</tr>\n<tr>\n<td>38</td>\n<td><a href=\"https://changelog.fm/622#t=5316\">1:28:36</a></td>\n<td>Good question on X from Mark J</td>\n<td>02:31</td>\n</tr>\n<tr>\n<td>39</td>\n<td><a href=\"https://changelog.fm/622#t=5467\">1:31:07</a></td>\n<td>Happy with <a href=\"http://Terminal.app\">Terminal.app</a>?</td>\n<td>01:05</td>\n</tr>\n<tr>\n<td>40</td>\n<td><a href=\"https://changelog.fm/622#t=5532\">1:32:12</a></td>\n<td>Visor mode!!</td>\n<td>02:59</td>\n</tr>\n<tr>\n<td>41</td>\n<td><a href=\"https://changelog.fm/622#t=5711\">1:35:11</a></td>\n<td>Terminal inspector</td>\n<td>02:01</td>\n</tr>\n<tr>\n<td>42</td>\n<td><a href=\"https://changelog.fm/622#t=5833\">1:37:13</a></td>\n<td>Wrapping up</td>\n<td>00:42</td>\n</tr>\n<tr>\n<td>43</td>\n<td><a href=\"https://changelog.fm/622#t=5874\">1:37:54</a></td>\n<td><a href=\"https://ghostty.org\">Go to ghostty.org</a></td>\n<td>01:15</td>\n</tr>\n<tr>\n<td>44</td>\n<td><a href=\"https://changelog.fm/622#t=5949\">1:39:09</a></td>\n<td>Closing thoughts and stuff</td>\n<td>03:42</td>\n</tr>\n</tbody>\n</table>",
+        "id": 489848401,
+        "sender_full_name": "Logbot",
+        "timestamp": 1734559386
+    },
+    {
+        "content": "<p>Love all the activity around shells, terminals and hybrids. <br>\nAlso, while I know it doesn't replace tmux, the Windows Terminal supports splitting the pane to run things like your editor (Helix, Neovim, Micro) next to, or above/below, a shell pane.</p>\n<p>I'll be keeping an eye on Ghostty once it gets released to the rest of us.</p>",
+        "id": 490049868,
+        "sender_full_name": "Al Gonzalez",
+        "timestamp": 1734642453
+    },
+    {
+        "content": "<p>How long before Hashimoto moves on, hands it over to someone that turns out to be a rent-seeker, and Ghostty's licence is changed to BSL with a mandatory cloud subscription? :P</p>",
+        "id": 490060875,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1734648098
+    },
+    {
+        "content": "<p>I do love that Hashimoto owns that his decision between Zig and Rust is emotional and subjective<br>\nI see flame wars and toxic posts, especially in the Phoronix forums, that are anti-Codes-of-Conduct or anti-systemd, or anti-Rust, or anti-Wayland, and the authors always pretend to be objective but it takes almost no probing at all to see these are emptional preferences, not technical</p>\n<p>And it's perfectly fine and human to have emotional reactions, as long as we know when it's happening and not lie about it</p>",
+        "id": 490061224,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1734648274
+    },
+    {
+        "content": "<p>Is anyone using Ghostty that has used Wezterm? I've been so happy w/Wezterm (switched after Nick Nisi brought it up) that I'm curious if anything will get me to switch off of it</p>",
+        "id": 490226394,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1734726674
+    },
+    {
+        "content": "<p>Ghostty uses GTK on Linux, and that's actually a drawback for me<br>\nI actually prefer that alacritty and wezterm are so toolkit agnostic<br>\nGoing with GTK is the right move if you assume GNOME is the most popular desktop, but it'll rub everyone else the wrong way, IMO</p>",
+        "id": 490242270,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1734735536
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752880\">@Lars Ellingsen</span> I think if you've got a bunch of custom Lua in your wezterm setup, and you're really happy with specific custom behaviours you've built, then you might miss that by switching to Ghostty<br>\nHowever, it's probably worth playing with just to appreciate the differences in either direction</p>",
+        "id": 490242421,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1734735632
+    },
+    {
+        "content": "<p>I haven't tried alacritty since I had a mac, and never used wezterm. Both worth revisiting. I'm a tmux-loving kitty user which smells contradictory <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span> . I like how Mitchell distanced himself from some of the tmux disdain out there.</p>",
+        "id": 490425156,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1734907897
+    },
+    {
+        "content": "<p>What is probably needed is something like WHATWG or <a href=\"http://freedesktop.org\">freedesktop.org</a> but for terminal emulator and shell standards, so that existing protocols can be documented and new protocols can be discussed and implemented <br>\nThere are various issues that can't be elegantly solved in a terminal emulator without more information from the shell<br>\nAnd it'd be awesome for terminal emulators to agree on how to advertise native widgets to shells <br>\nAnd yeah, intermediate layers like muxers can then also implement those standards</p>",
+        "id": 490432686,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1734915259
+    },
+    {
+        "content": "<p>There is <a href=\"https://gitlab.freedesktop.org/terminal-wg\">https://gitlab.freedesktop.org/terminal-wg</a>, but they haven’t gained much “authority” in the space</p>",
+        "id": 490547943,
+        "sender_full_name": "Tim Culverhouse",
+        "timestamp": 1734971989
+    },
+    {
+        "content": "<p>I can't wait to try GhosTTY! I'm using Guaketerm on linux mint now to get the \"visor\"-feeling that Jerod talked about (or was it Adam? I have a hard time distinguishing their voices). it's fundamental to me, and Guaketerm also supports split pane which is also fundamental. </p>\n<p>We'll see what GhosTTY gives once it's released to the public, pretty stoked!</p>\n<p>Edit: If I'd have to choose either feature, it's split pane &gt; visor/quaketerm functionality</p>",
+        "id": 490550324,
+        "sender_full_name": "Erik Svensson",
+        "timestamp": 1734972919
+    },
+    {
+        "content": "<p>It's now live <span aria-label=\"eyes\" class=\"emoji emoji-1f440\" role=\"img\" title=\"eyes\">:eyes:</span> <a class=\"stream-topic\" data-stream-id=\"453512\" href=\"/#narrow/channel/453512-general/topic/Ghostty.20is.20now.20v1.2E0.20.28and.20Open.20Source.20to.20all.29\">#general &gt; Ghostty is now v1.0 (and Open Source to all)</a></p>",
+        "id": 490918746,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1735249234
+    },
+    {
+        "content": "<p>Hah, BDFLFN amused me. Partly because I started a new project recently, intended for open-source, and wrote in the first RFC that the project would follow a BDFN model until it grew enough to need actual governance. I think it's not a bad concept!</p>\n<p>(Needless to say Ghostty has grown a little faster than my project which hasn't make it out of private-repo stage <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span>)</p>",
+        "id": 490956952,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1735282751
+    },
+    {
+        "content": "<p>I would love if Ghostty could handle connection breaks over an ssh connection. The mosh port is blocked at work and it’s pretty much the only reason I use tmux/zellij</p>",
+        "id": 491024247,
+        "sender_full_name": "Dustin",
+        "timestamp": 1735327862
+    },
+    {
+        "content": "<p>fwiw wezterm gets you that. and <span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span> made a comment similar, to the effect that he'd be sold if a terminal solved getting rid of tmux.</p>\n<p>with wezterm, so long as you have it installed on both systems, you can use its built in multiplexer to transparently open new windows/panes inside the ssh context.</p>\n<p>I dont much get the hype around ghostty tbh. i've nabbed multiple lua snippets for neat dynamic functionality, so it seems like it'd just be a step down always to not have scriptability</p>",
+        "id": 491503054,
+        "sender_full_name": "Dan Cardin",
+        "timestamp": 1735740939
+    },
+    {
+        "content": "<p>That's not replacing tmux though? That's just giving you tabs in the app instead of/in addition to tmux.</p>",
+        "id": 491511055,
+        "sender_full_name": "Dustin",
+        "timestamp": 1735748101
+    },
+    {
+        "content": "<p>I'm in a similar boat as Dan. </p>\n<p>I'm excited to try Ghostty (mostly for scratching my itch for trying out new shiny things) but it would have to deliver a lot more differential features to compel me to make a switch. Last major switch was from Kitty to WezTerm and I've been pretty happy with it so far.</p>\n<p>Can someone, who has tried both WezTerm and Ghostty, share their experiences?</p>",
+        "id": 491512205,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1735749162
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"756545\">@Siddhartha Golu</span> you can be that someone who tries both WezTerm and Ghostty and have your own experience. Only you can know if it fits your use case. Also remember Ghostty has been in development for less than 2 years and just released 1.0. Every other terminal has years on Ghostty.</p>",
+        "id": 491513926,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1735750831
+    },
+    {
+        "content": "<p>wezterm was my primary terminal emulator for years</p>\n<p>For me, it's tradeoffs are that there's the tiniest performance impact from having a Lua runtime for configuration, but in exchange it is extremely flexible and rich in features, and the majority of it is Rust so it's likely to be as fast as the equivalent written in C or Zig (plus without thread safety issues that C and Zig happily allow)</p>\n<p>wezterm does use Vulkan on Linux, unlike OpenGL used by alacritty and Ghostty, so if you like leaving legacy technology in the past then this is a plus</p>\n<p>The Rust libraries for Wayland (Linux) had a major update that completely changed their APIs, and wezterm is in the middle of an upheaval there, which make it unusable for me, but I keep meaning to dive in and see if I can contribute some PRs</p>\n<p>Due to those Wayland issues, I've switched to Ghostty on macOS and Linux for now</p>\n<p>Zig _is_ indeed a much better C, but I want as much of my system to benefit from memory safety and thread safety, I don't care if this is Rust or Swift or Erlang/Elixir or some new language, but Zig is not safe enough for my goals, so I'll drop Ghostty and go back to wezterm as soon as that meets my needs again</p>\n<p>I also understand why they chose GTK, but saying that it's \"native\" on Linux is not exactly accurate, and I personally also want to be removing as much GTK and Qt from my systems going forward too (big old blobs of memory-unsafe C++, not to mention I just subjectively dislike how they look)</p>",
+        "id": 491535405,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1735772632
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"756209\">Dustin</span> <a href=\"#narrow/channel/456187-interviews/topic/622.3A.20We.20ain't.20afraid.20of.20no.20Ghostty!/near/491511055\">said</a>:</p>\n<blockquote>\n<p>That's not replacing tmux though? That's just giving you tabs in the app instead of/in addition to tmux.</p>\n</blockquote>\n<p>perhaps i didn't explain it right, but it <strong>is</strong> literally replacing tmux. Your remote machine sessions are retained there if you disconnect. It's just more seamless because it attaches without nesting, and retains all the \"native\" window functionality.</p>",
+        "id": 491761732,
+        "sender_full_name": "Dan Cardin",
+        "timestamp": 1735912666
+    },
+    {
+        "content": "<p>Ah I found the docs. Cool!</p>",
+        "id": 491785609,
+        "sender_full_name": "Dustin",
+        "timestamp": 1735924443
+    },
+    {
+        "content": "<p>Lots of commentary on this clip of Mitchell explaining his Zig choice: <a href=\"https://youtu.be/dJ5-41u-e7k\">https://youtu.be/dJ5-41u-e7k</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"dJ5-41u-e7k\" href=\"https://youtu.be/dJ5-41u-e7k\"><img src=\"https://uploads.zulipusercontent.net/5a8f3e6782b25d871ac4f986268b9870616a47d4/68747470733a2f2f692e7974696d672e636f6d2f76692f644a352d3431752d65376b2f64656661756c742e6a7067\"></a></div>",
+        "id": 493375984,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1736781150
+    },
+    {
+        "content": "<p>I used this release as a chance to change up my shell as well as my terminal, since Ghostty on Fedora was somehow causing Bash to not want to apply prompt colouring (some kind of config issue buried deep in the bashrc call stack). I switched to zsh and oh-my-zsh with Ghostty and... it's fine! :)</p>",
+        "id": 493667762,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1736887795
+    }
+]

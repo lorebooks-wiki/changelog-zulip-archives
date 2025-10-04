@@ -1,0 +1,134 @@
+[
+    {
+        "content": "<p>I am curious as to know, why is Elixir so underrated?<br>\nI have been using Go and Rust professionally for 3 years now. I recently learned Elixir and working my way through Phoenix and LiveView. <br>\nAnd, it bothers me so much that Elixir seem address so much of the painpoints I had experienced within the context of backend. But is far less known than the other languages that are considered as first choices for the server applications (backend and server-side rendered frontend). </p>\n<p>Why is so underhyped?</p>",
+        "id": 470041523,
+        "sender_full_name": "Perma",
+        "timestamp": 1726257908
+    },
+    {
+        "content": "<p>I think it's because it's functional, the syntax is a bit funky if you aren't a Ruby developer, it didn't come from a big tech company, and it isn't a generalized language that I would view as strong in multiple workloads (or at least the community doesn't hype those other workloads beyond back-end much).</p>",
+        "id": 470052713,
+        "sender_full_name": "Brett Cannon",
+        "timestamp": 1726263304
+    },
+    {
+        "content": "<p>Hmmm. I can see your point. But Elixir has been operating in the same space as Go (network and backend) and has been more successful in providing for web front-end development. I would argue that Elixir because of the pattern matching and BEAM offer more to network programming and backend development. <br>\nYet it far less known, and utilized.</p>",
+        "id": 470167254,
+        "sender_full_name": "Perma",
+        "timestamp": 1726318965
+    },
+    {
+        "content": "<p>As with many things, one is not likely convince or persuade someone to use a new language or ecosystem, they have to discover it themselves that it may address pain points they have.</p>\n<p>This type of discovery would also be from the perspective of this user and what they know of, and where do they search for information to address their pain points.  More \"show, not tell\", with the right context.<br>\nIf you are a senior developer, you would likely be ok with a wider range of options to consider than a more junior developer outside of \"mainstream\".</p>\n<p>Nowadays it is also not just about the language, but also the ecosystem around it, the community, and tooling. I think Elixir has a good story there, but it is not so easily communicated perhaps.</p>\n<p>Also, in terms of success stories going to Elixir from something else, that something else is often Ruby, which does not help so much getting people interested from other ecosystems.</p>",
+        "id": 470392441,
+        "sender_full_name": "Erik Lundevall-Zara",
+        "timestamp": 1726438387
+    },
+    {
+        "content": "<p>I've only had a very small brush with Elixir. I liked a lot about it, but at this point in my life I only have so much room for another dynamically-typed language <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span>.</p>",
+        "id": 470409556,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1726448979
+    },
+    {
+        "content": "<p>I jest, I jest. Really, I'd consider Elixir if I were in a position to pick languages, and frontend weren't a huge concern (e.g. I was doing something form-based where progressive enhancement is the way to do).<br>\nMy experience has been spending nearly 9 years now building an app with a very involved frontend data model (think CAD), split across JS and PHP. I regret not going with TS on the backend from the start (or at least, <em>some</em> TS on the backend). It could have prevented a lot of pain having two codebases to work on the same data model.</p>",
+        "id": 470409677,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1726449059
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752850\">Erik Lundevall-Zara</span> <a href=\"#narrow/stream/453512-general/topic/Elixir.3A.20why.20is.20it.20so.20underrated.3F/near/470392441\">said</a>:</p>\n<blockquote>\n<p>This type of discovery would also be from the perspective of this user and what they know of, and where do they search for information to address their pain points.  More \"show, not tell\", with the right context.<br>\n...<br>\nNowadays it is also not just about the language, but also the ecosystem around it, the community, and tooling. I think Elixir has a good story there, but it is not so easily communicated perhaps.<br>\n</p>\n</blockquote>\n<p>Yes. That definitely feels correct to me. I think Elixir community does a lot. But they don't really show it. How ever telling is also not a good strategy as you said. I advocated for Rust for a long while at my work place, it did not go well. I just showed a few things I did with Elixir, and half of our team just started learning Elixir. </p>\n<p>Perhaps more story telling is the answer here.</p>",
+        "id": 470463804,
+        "sender_full_name": "Perma",
+        "timestamp": 1726466513
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752986\">Daniel Buckmaster</span> <a href=\"#narrow/stream/453512-general/topic/Elixir.3A.20why.20is.20it.20so.20underrated.3F/near/470409556\">said</a>:</p>\n<blockquote>\n<p>I've only had a very small brush with Elixir. I liked a lot about it, but at this point in my life I only have so much room for another dynamically-typed language <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span>.</p>\n</blockquote>\n<p>I can definitely see that being a problem. For the longest time, I have avoided learning Elixir because of the dynamic typing. I don't see it as much of a problem now since it doesn't cause much reliability issues. I could not see that unless I have already deployed something. Hopefully the new set theoretic typesystem fix that soon.</p>",
+        "id": 470467524,
+        "sender_full_name": "Perma",
+        "timestamp": 1726467525
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"754140\">Perma</span> <a href=\"#narrow/stream/453512-general/topic/Elixir.3A.20why.20is.20it.20so.20underrated.3F/near/470463804\">said</a>:</p>\n<blockquote>\n<p>Yes. That definitely feels correct to me. I think Elixir community does a lot. But they don't really show it. How ever telling is also not a good strategy as you said. I advocated for Rust for a long while at my work place, it did not go well. I just showed a few things I did with Elixir, and half of our team just started learning Elixir. </p>\n<p>Perhaps more story telling is the answer here.</p>\n</blockquote>\n<p>I think that is definitely so, and storytelling in a way that people outside of the Elixir community can relate to. They way you communicate in those cases are different from when to communicate with the people that have already jumped into the ecosystem and community, and that is harder - especially if you have been into the ecosystem and community for a long time. </p>\n<p>That is not specific to Elixir and BEAM, but any community/ecosystem. <br>\nSo that storytelling may be easier for experienced people who are relatively new to Elixir ecosystem.</p>",
+        "id": 470474378,
+        "sender_full_name": "Erik Lundevall-Zara",
+        "timestamp": 1726469390
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"754140\">Perma</span> <a href=\"#narrow/stream/453512-general/topic/Elixir.3A.20why.20is.20it.20so.20underrated.3F/near/470467524\">said</a>:</p>\n<blockquote>\n<p>I can definitely see that being a problem. For the longest time, I have avoided learning Elixir because of the dynamic typing. I don't see it as much of a problem now since it doesn't cause much reliability issues. I could not see that unless I have already deployed something. Hopefully the new set theoretic typesystem fix that soon.</p>\n</blockquote>\n<p>That is a problem with terms like \"dynamic typing\" and \"functional language\". These are loaded terms, and a lot of values and issues attached to them coming from other languages and stories. </p>\n<p>As you say, dynamic typing in Elixir does not cause issue in the same way and to the same extent as for example Javascript or Python, since you do not work and design software in the same way, for example the more prevalent use of patterns and pattern matching in Elixir avoids many issues you would have in other languages. It also helps working with immutable data, since the ways problems are solved can be a bit different.<br>\nIt is similar with Clojure, another dynamically typed language. You do not issues with that to the extent you get it in Javascript, partially due to the same reasons as in Elixir.</p>\n<p>But this may only become apparent after you start working with such languages, not before.</p>\n<p>The term \"functional language\" is also something I think sometimes can have a deterring effect, in particular if people associate that with languages like Haskell where people talk about terms like monad, monoids, functors etc. It becomes scary and seems difficult, even if languages like Elixir are quite different beasts.</p>\n<p>So IMHO I think it can be better to avoid the term \"functional language\", depending on the target audience.</p>",
+        "id": 470486157,
+        "sender_full_name": "Erik Lundevall-Zara",
+        "timestamp": 1726471966
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"753982\">Brett Cannon</span> <a href=\"#narrow/stream/453512-general/topic/Elixir.3A.20why.20is.20it.20so.20underrated.3F/near/470052713\">said</a>:</p>\n<blockquote>\n<p>it didn't come from a big tech company</p>\n</blockquote>\n<p>This point can't be overstated, imo. It's amazing what it <em>has</em> achieved, all things considered...</p>",
+        "id": 470704217,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1726511424
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752850\">Erik Lundevall-Zara</span> <a href=\"#narrow/stream/453512-general/topic/Elixir.3A.20why.20is.20it.20so.20underrated.3F/near/470486157\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"754140\">Perma</span> <a href=\"#narrow/stream/453512-general/topic/Elixir.3A.20why.20is.20it.20so.20underrated.3F/near/470467524\">said</a>:</p>\n<blockquote>\n<p>The term \"functional language\" is also something I think sometimes can have a deterring effect, in particular if people associate that with languages like Haskell where people talk about terms like monad, monoids, functors etc. It becomes scary and seems difficult, even if languages like Elixir are quite different beasts.</p>\n<p>So IMHO I think it can be better to avoid the term \"functional language\", depending on the target audience.</p>\n<div class=\"codehilite\"><pre><span></span><code>Not to mention the mistaken perception that immutability is wasteful for memory. I was extremely wrong on this point.\n</code></pre></div>\n</blockquote>\n</blockquote>",
+        "id": 470718287,
+        "sender_full_name": "Perma",
+        "timestamp": 1726514472
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"750170\">Jerod Santo</span> <a href=\"#narrow/stream/453512-general/topic/Elixir.3A.20why.20is.20it.20so.20underrated.3F/near/470704217\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"753982\">Brett Cannon</span> <a href=\"#narrow/stream/453512-general/topic/Elixir.3A.20why.20is.20it.20so.20underrated.3F/near/470052713\">said</a>:</p>\n<blockquote>\n<p>it didn't come from a big tech company</p>\n</blockquote>\n<p>This point can't be overstated, imo. It's amazing what it <em>has</em> achieved, all things considered...</p>\n</blockquote>\n<p>Would you think that the country of origin also may have played a role? Most of the mainstream languages that I can think of, are coming from the USA.<br>\nMay that be a factor here as well?</p>",
+        "id": 470718818,
+        "sender_full_name": "Perma",
+        "timestamp": 1726514605
+    },
+    {
+        "content": "<p>Certainly plays a role, but Ruby did extremely well coming from Japan. That was a different time, though...</p>",
+        "id": 470725089,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1726515908
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"750170\">Jerod Santo</span> <a href=\"#narrow/stream/453512-general/topic/Elixir.3A.20why.20is.20it.20so.20underrated.3F/near/470725089\">said</a>:</p>\n<blockquote>\n<p>Certainly plays a role, but Ruby did extremely well coming from Japan. That was a different time, though...</p>\n</blockquote>\n<p>Hmmm. Yeah. But ruby got its popularity because of Ruby on Rails and although DHH is not American, the framework came out of his work with Basecamp which I believe is an American company, and in just a couple of years it was shipped by Apple. Before that ruby existed for 12 years. For perspective JavaScript was released a year later.</p>\n<p>Looking at it python is also coming from non-american origins, so I can see your point there.  And it is _somewhat_ popular <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+        "id": 470736611,
+        "sender_full_name": "Perma",
+        "timestamp": 1726518196
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"754140\">Perma</span> <a href=\"#narrow/stream/453512-general/topic/Elixir.3A.20why.20is.20it.20so.20underrated.3F/near/470718818\">said</a>:</p>\n<blockquote>\n<p>Would you think that the country of origin also may have played a role? Most of the mainstream languages that I can think of, are coming from the USA.<br>\nMay that be a factor here as well?</p>\n</blockquote>\n<p>Guido van Rossum (Python) - Netherlands<br>\nBjarne Stroustrup (C++) - Denmark<br>\nAnders Hejlsberg (Turbo Pascal, Delphi, C#, Typescript) - Denmark</p>\n<p>And DHH is Danish also.</p>",
+        "id": 470753976,
+        "sender_full_name": "Erik Lundevall-Zara",
+        "timestamp": 1726523524
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"754140\">Perma</span> <a href=\"#narrow/stream/453512-general/topic/Elixir.3A.20why.20is.20it.20so.20underrated.3F/near/470167254\">said</a>:</p>\n<blockquote>\n<p>I would argue that Elixir because of the pattern matching and BEAM offer more to network programming and backend development. </p>\n</blockquote>\n<p>Literally 2 nights ago after deciding for the 4th time that Go just wasn’t for me I remembered Elixir exists and felt so much relief. I’d add the pipe operator to that list.</p>",
+        "id": 470776122,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1726530625
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752964\">Andrew O'Brien</span> <a href=\"#narrow/stream/453512-general/topic/Elixir.3A.20why.20is.20it.20so.20underrated.3F/near/470776122\">said</a>:</p>\n<blockquote>\n<p>Literally 2 nights ago after deciding for the 4th time that Go just wasn’t for me I remembered Elixir exists and felt so much relief. I’d add the pipe operator to that list.</p>\n</blockquote>\n<p>The pipe operator is indeed a key feature, and something I use all the time, if a language supports it.<br>\nI recently learned that Google added pipe operator it to their SQL dialect also, GoogleSQL: <br>\n<a href=\"https://research.google/pubs/sql-has-problems-we-can-fix-them-pipe-syntax-in-sql/\">https://research.google/pubs/sql-has-problems-we-can-fix-them-pipe-syntax-in-sql/</a></p>",
+        "id": 470948624,
+        "sender_full_name": "Erik Lundevall-Zara",
+        "timestamp": 1726571595
+    },
+    {
+        "content": "<p>Pipe is also coming to JavaScript soon. Can't be soon enough, if you ask me!</p>\n<p>Chris &amp; Nick were making fun of me on a recent JS Party because Elixir ranked below Assembly in the IEEE Spectrum language popularity chart. Pretty funny moment, actually. I think a clip of it will be posting soon...</p>",
+        "id": 470999360,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1726583314
+    },
+    {
+        "content": "<p>If I had a penny for the number of times I've implemented it (or some kind of compose operator) in a language where it wasn't idiomatic and then went on to implement a bunch of higher-order things to the chagrin of my team mates, I'd have... at least 2 cents. (Python and Ruby... by the time I got to TS I learned to suppress my functional urges and instead try to get Ramda or something preexisting into the codebase)</p>",
+        "id": 471020198,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1726587604
+    },
+    {
+        "content": "<p>I am quite impressed by the supervision trees as well.</p>",
+        "id": 471247093,
+        "sender_full_name": "Perma",
+        "timestamp": 1726662684
+    },
+    {
+        "content": "<p>Elixir is one of the few languages that offers data-race safety, right? Because synchronization between threads only happens via message passing and never by sharing memory?<br>\nIf government bodies (via procurement restrictions, etc) deprecate and eventually abandon memory unsafe and data-race unsafe languages, surely that makes room for Elixir that very few other languages can fill<br>\nNot even Kotlin or Go offer data race safety, and those are relatively young languages</p>",
+        "id": 484799715,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1732741888
+    }
+]
