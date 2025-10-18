@@ -1,0 +1,80 @@
+[
+    {
+        "content": "<p>Nick Sweeting joins Adam and Jerod to talk about the importance of archiving digital content, his work on <a href=\"https://archivebox.io/\">ArchiveBox</a> to make it easier, the challenges faced by <a href=\"http://Archive.org\">Archive.org</a> and the Wayback Machine, and the need for both centralized and distributed archiving solutions. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/619\">https://changelog.fm/619</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td>00:00</td>\n<td>Software moves fast. So keep up.</td>\n<td>01:06</td>\n</tr>\n<tr>\n<td>02</td>\n<td>01:06</td>\n<td><a href=\"https://fly.io/\">Sponsor: Fly.io</a></td>\n<td>02:29</td>\n</tr>\n<tr>\n<td>03</td>\n<td>03:35</td>\n<td>Let's talk archiving</td>\n<td>01:58</td>\n</tr>\n<tr>\n<td>04</td>\n<td>05:34</td>\n<td>Wayback Machine has had challenges</td>\n<td>08:51</td>\n</tr>\n<tr>\n<td>05</td>\n<td>14:25</td>\n<td><a href=\"https://archivebox.io/\">Starting ArchiveBox</a></td>\n<td>01:46</td>\n</tr>\n<tr>\n<td>06</td>\n<td>16:11</td>\n<td><a href=\"https://en.wikipedia.org/wiki/Fahrenheit_451\">Fahrenheit 451</a></td>\n<td>06:36</td>\n</tr>\n<tr>\n<td>07</td>\n<td>22:47</td>\n<td>The internet is young</td>\n<td>06:58</td>\n</tr>\n<tr>\n<td>08</td>\n<td>29:45</td>\n<td>The time unlock</td>\n<td>03:15</td>\n</tr>\n<tr>\n<td>09</td>\n<td>33:00</td>\n<td><a href=\"https://www.timescale.com\">Sponsor: Timescale</a></td>\n<td>02:17</td>\n</tr>\n<tr>\n<td>10</td>\n<td>35:17</td>\n<td><a href=\"https://www.wix.com/studio\">Sponsor: Wix</a></td>\n<td>00:54</td>\n</tr>\n<tr>\n<td>11</td>\n<td>36:11</td>\n<td>Archiving for legacy</td>\n<td>02:05</td>\n</tr>\n<tr>\n<td>12</td>\n<td>38:16</td>\n<td>2070 headline</td>\n<td>03:18</td>\n</tr>\n<tr>\n<td>13</td>\n<td>41:34</td>\n<td>How does it work?</td>\n<td>02:54</td>\n</tr>\n<tr>\n<td>14</td>\n<td>44:28</td>\n<td>Dealing archive and file size</td>\n<td>02:13</td>\n</tr>\n<tr>\n<td>15</td>\n<td>46:41</td>\n<td>Nick uses ZFS!!</td>\n<td>01:31</td>\n</tr>\n<tr>\n<td>16</td>\n<td>48:12</td>\n<td>Going mainstream?</td>\n<td>01:15</td>\n</tr>\n<tr>\n<td>17</td>\n<td>49:27</td>\n<td>Accessing credentialed stuff</td>\n<td>02:27</td>\n</tr>\n<tr>\n<td>18</td>\n<td>51:54</td>\n<td>Single or multiplayer game?</td>\n<td>02:53</td>\n</tr>\n<tr>\n<td>19</td>\n<td>54:47</td>\n<td>Running ArchiveBox</td>\n<td>01:42</td>\n</tr>\n<tr>\n<td>20</td>\n<td>56:29</td>\n<td><a href=\"https://github.com/ArchiveBox/abx-dl\">abx-dl is cool</a></td>\n<td>03:10</td>\n</tr>\n<tr>\n<td>21</td>\n<td>59:39</td>\n<td>Adam's confession</td>\n<td>01:31</td>\n</tr>\n<tr>\n<td>22</td>\n<td>1:01:09</td>\n<td>This needs to become a thing</td>\n<td>01:31</td>\n</tr>\n<tr>\n<td>23</td>\n<td>1:02:40</td>\n<td>Nick's personal archive</td>\n<td>00:49</td>\n</tr>\n<tr>\n<td>24</td>\n<td>1:03:29</td>\n<td><a href=\"https://workos.com\">Sponsor: WorkOS</a></td>\n<td>02:50</td>\n</tr>\n<tr>\n<td>25</td>\n<td>1:06:19</td>\n<td>This video is no longer available</td>\n<td>02:53</td>\n</tr>\n<tr>\n<td>26</td>\n<td>1:09:12</td>\n<td>Seriously using ArchiveBox</td>\n<td>02:40</td>\n</tr>\n<tr>\n<td>27</td>\n<td>1:11:52</td>\n<td>Mostly cooking videos</td>\n<td>03:35</td>\n</tr>\n<tr>\n<td>28</td>\n<td>1:15:27</td>\n<td>An internet on the internet</td>\n<td>01:33</td>\n</tr>\n<tr>\n<td>29</td>\n<td>1:17:00</td>\n<td>Session replay for your archive</td>\n<td>01:45</td>\n</tr>\n<tr>\n<td>30</td>\n<td>1:18:45</td>\n<td>An index worth sharing</td>\n<td>02:33</td>\n</tr>\n<tr>\n<td>31</td>\n<td>1:21:18</td>\n<td>Adam is sold, Jerod is not.</td>\n<td>00:43</td>\n</tr>\n<tr>\n<td>32</td>\n<td>1:22:01</td>\n<td><a href=\"https://hackclub.com/fiscal-sponsorship/\">Thanks Hack Club Bank (HBC)</a></td>\n<td>01:29</td>\n</tr>\n<tr>\n<td>33</td>\n<td>1:23:31</td>\n<td>Nick interviews Adam and Jerod</td>\n<td>04:24</td>\n</tr>\n<tr>\n<td>34</td>\n<td>1:27:54</td>\n<td>You as a model</td>\n<td>03:11</td>\n</tr>\n<tr>\n<td>35</td>\n<td>1:31:05</td>\n<td>Are we done?</td>\n<td>00:49</td>\n</tr>\n<tr>\n<td>36</td>\n<td>1:31:53</td>\n<td>Closing thoughts and stuff</td>\n<td>04:08</td>\n</tr>\n<tr>\n<td>37</td>\n<td>1:36:01</td>\n<td><a href=\"https://changelog.com/++\">++ Teaser</a></td>\n<td>01:35</td>\n</tr>\n</tbody>\n</table>",
+        "id": 484782155,
+        "sender_full_name": "Logbot",
+        "timestamp": 1732734007
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/66849/w0ntYlbD4B4RYcYl8yzMR6sh/02102AE9-7AA0-4C1F-850F-3569BE7545EB.jpg\">02102AE9-7AA0-4C1F-850F-3569BE7545EB.jpg</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/w0ntYlbD4B4RYcYl8yzMR6sh/02102AE9-7AA0-4C1F-850F-3569BE7545EB.jpg\" title=\"02102AE9-7AA0-4C1F-850F-3569BE7545EB.jpg\"><img data-original-dimensions=\"3024x4032\" src=\"/user_uploads/thumbnail/66849/w0ntYlbD4B4RYcYl8yzMR6sh/02102AE9-7AA0-4C1F-850F-3569BE7545EB.jpg/840x560.webp\"></a></div>",
+        "id": 484819681,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1732754038
+    },
+    {
+        "content": "<p>Excited to listen to this one!</p>",
+        "id": 484845648,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1732773453
+    },
+    {
+        "content": "<p>If you are interested in tomato based products look for Turkish ones.</p>",
+        "id": 484854494,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1732778817
+    },
+    {
+        "content": "<p>Oh man I truly loved this conversation. I felt like I was around old friends in my favourite bar. I loved how you gave Nick a lot of space. It finally made my cheap sorry ass to become a changelog++ member.</p>",
+        "id": 485042045,
+        "sender_full_name": "FlakM",
+        "timestamp": 1732867683
+    },
+    {
+        "content": "<p>That's awesome to hear, thanks!</p>",
+        "id": 485126298,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1732896084
+    },
+    {
+        "content": "<p>I'm looking forward the interview with Frank Proto! As someone who works with protocol buffers daily he's the perfect chef for a crossover interview.</p>\n<p>IMO chef bloggers and influencers have had a huge (but probably immeasurable) impact on the lives of ordinary people. Pre-internet it was way harder to learn techniques and processes to cook and bake better food. The OG Serious Eats was literally life changing for me because for once someone was explaining what was actually happening to the food and why it worked (or didn't). It's the site that got me into cooking which I really enjoy. A lot of techniques like dry brining, sous vide, reverse sear, velveting,  tangzhong, etc. weren't widely known until people started sharing them online. It's similar to the open source phenomenon but for food.</p>",
+        "id": 485181491,
+        "sender_full_name": "Alden",
+        "timestamp": 1732930900
+    },
+    {
+        "content": "<p>What's the Youtube browser add-on mentioned that drastically improved the watching and interaction experience?</p>",
+        "id": 485248935,
+        "sender_full_name": "matt wilkie",
+        "timestamp": 1732989182
+    },
+    {
+        "content": "<p>One other thing about Tomato based products.</p>\n<p>In Turkey they sell tomato powder. This is where they take the skin of tomatoes and dehydrate them and then powder them.  Many people also make their own saving their tomato peels and dehydrating them in the hot son of the mediterranean.</p>\n<p>This stuff is amazing. Put it anything and it basically turns it into a pizza! Soups, sandwiches, feta cheese, garlic bread, anything really. </p>\n<p>Every time I go there I stock up.</p>",
+        "id": 485418949,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1732999418
+    },
+    {
+        "content": "<p>Get me some! That sounds awesome.</p>",
+        "id": 485427776,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1733007913
+    },
+    {
+        "content": "<p>I need a dehydrator.</p>",
+        "id": 485427781,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1733007922
+    },
+    {
+        "content": "<p>One thing why Changelog could run an archivebox is for all the links that are shared in the news episodes. Jerod is already doing the curation there.</p>",
+        "id": 485961483,
+        "sender_full_name": "Gert Van Gool",
+        "timestamp": 1733263048
+    },
+    {
+        "content": "<p>That's a great idea, I could help get that set up. Should be doable to run one for &lt;$400/yr on a VPS</p>",
+        "id": 491553858,
+        "sender_full_name": "Nick Sweeting",
+        "timestamp": 1735790535
+    }
+]

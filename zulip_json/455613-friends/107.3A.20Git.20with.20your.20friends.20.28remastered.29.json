@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Our Changelog &amp; Friends proof-of-concept with Mat Ryer has been remastered! Now with full-length video on YouTube. Originally recorded: 2023-02-08</p>\n<p>Mat joins us for some good conversation about some Git tooling that's been on our radar. We speculate, we discuss, we laugh, and Mat even breaks into song a few times. It's good fun. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.am/107\">https://changelog.am/107</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.am/107#t=0\">00:00</a></td>\n<td>Let's talk!</td>\n<td>00:37</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.am/107#t=37\">00:37</a></td>\n<td><a href=\"https://depot.dev\">Sponsor: Depot</a></td>\n<td>02:12</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.am/107#t=169\">02:49</a></td>\n<td>Git &amp; Friends</td>\n<td>04:51</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.am/107#t=460\">07:40</a></td>\n<td>Git-Heat-Map</td>\n<td>13:19</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.am/107#t=1259\">20:59</a></td>\n<td>Git-Sim</td>\n<td>05:47</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.am/107#t=1607\">26:47</a></td>\n<td>git-bug</td>\n<td>11:18</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.am/107#t=2285\">38:05</a></td>\n<td>GitUI</td>\n<td>04:06</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.am/107#t=2531\">42:11</a></td>\n<td><a href=\"https://auth0.com/ai\">Sponsor: Auth0</a></td>\n<td>01:29</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.am/107#t=2620\">43:40</a></td>\n<td>Does the language tools are written in matter?</td>\n<td>07:10</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.am/107#t=3050\">50:50</a></td>\n<td>Is Rust encroaching on Go?</td>\n<td>01:25</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.am/107#t=3135\">52:15</a></td>\n<td>\"Rust Away\" by Mat Ryer</td>\n<td>03:26</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.am/107#t=3341\">55:41</a></td>\n<td>git-branchless</td>\n<td>05:29</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.am/107#t=3670\">1:01:10</a></td>\n<td>How do you Git?</td>\n<td>07:32</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.am/107#t=4121\">1:08:41</a></td>\n<td>\"Keyboard Wizards\" by Mat Ryer</td>\n<td>02:25</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.am/107#t=4266\">1:11:06</a></td>\n<td><a href=\"https://www.coderabbit.ai\">Sponsor: CodeRabbit</a></td>\n<td>02:40</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.am/107#t=4426\">1:13:46</a></td>\n<td>As a VS Code user...</td>\n<td>06:01</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.am/107#t=4787\">1:19:47</a></td>\n<td>Mat has a \"pick\" to share</td>\n<td>07:10</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.am/107#t=5217\">1:26:57</a></td>\n<td>Unpopular opinions!</td>\n<td>02:13</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.am/107#t=5351\">1:29:11</a></td>\n<td>Adam's unpop</td>\n<td>04:33</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.am/107#t=5624\">1:33:44</a></td>\n<td>Mat's unpop</td>\n<td>02:46</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.am/107#t=5790\">1:36:30</a></td>\n<td>Jerod's unpop</td>\n<td>08:03</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.am/107#t=6273\">1:44:33</a></td>\n<td>Bye, friends</td>\n<td>01:46</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.am/107#t=6379\">1:46:19</a></td>\n<td>Next week on the pod</td>\n<td>01:02</td>\n</tr>\n</tbody>\n</table>",
+        "id": 535739605,
+        "sender_full_name": "Logbot",
+        "timestamp": 1755889208
+    },
+    {
+        "content": "<p>will the other episodes get the YouTube remastering treatment or will be full-blown video podcast episodes on YouTube + Spotify in the future?</p>",
+        "id": 535742615,
+        "sender_full_name": "Andrei Jiroh Halili",
+        "timestamp": 1755890441
+    },
+    {
+        "content": "<p>All episodes published this year and beyond are on YouTube. We will go back here and there and produce video for some shows like this one, but we aren’t doing the full back catalog</p>",
+        "id": 535752177,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1755894812
+    },
+    {
+        "content": "<p>RE: \"branchless\" being named after something it isn't <br>\nI believe Google Chrome was named after having much less chrome (the UI around the page, e.g. toolbars, etc) compared to other browsers at the time</p>",
+        "id": 542378251,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1759272116
+    },
+    {
+        "content": "<p>If \"oxidise\" is rewriting into Rust, is \"galvanise\" rewriting out of Rust?<br>\nAnd \"zig\" is soooo close to \"zinc\", hmmmm...</p>",
+        "id": 542378686,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1759272415
+    }
+]
