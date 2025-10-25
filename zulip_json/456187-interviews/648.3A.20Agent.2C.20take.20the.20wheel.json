@@ -1,0 +1,56 @@
+[
+    {
+        "content": "<p>Thorsten Ball returned to Sourcegraph to work on Amp because he believes being able to talk to an alien intelligence that edits your code changes everything. On this episode, Thorsten joins us to discuss exactly how coding agents work, recent advancements in AI tooling, Amp's uniqueness in a sea of competitors, the divide between believers and skeptics, and more. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/648\">https://changelog.fm/648</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.fm/648#t=0\">00:00</a></td>\n<td>This week on The Changelog</td>\n<td>01:13</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.fm/648#t=73\">01:13</a></td>\n<td><a href=\"https://depot.dev\">Sponsor: Depot</a></td>\n<td>02:14</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.fm/648#t=207\">03:27</a></td>\n<td>Start the show!</td>\n<td>00:19</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.fm/648#t=226\">03:46</a></td>\n<td>How to build an agent</td>\n<td>06:07</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.fm/648#t=593\">09:53</a></td>\n<td>You felt the AGI?</td>\n<td>03:25</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.fm/648#t=798\">13:18</a></td>\n<td>Tool calling</td>\n<td>03:47</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.fm/648#t=1026\">17:06</a></td>\n<td>A basic algorithm</td>\n<td>05:19</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.fm/648#t=1344\">22:24</a></td>\n<td>Amp's angle</td>\n<td>09:21</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.fm/648#t=1905\">31:45</a></td>\n<td>The <a href=\"http://ampcode.com\">ampcode.com</a> copy</td>\n<td>12:21</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.fm/648#t=2646\">44:06</a></td>\n<td><a href=\"https://retool.com/agents\">Sponsor: Retool</a></td>\n<td>01:55</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.fm/648#t=2762\">46:02</a></td>\n<td>Believers and skeptics</td>\n<td>13:01</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.fm/648#t=3543\">59:03</a></td>\n<td>The horse carriage</td>\n<td>06:36</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.fm/648#t=3939\">1:05:39</a></td>\n<td>The Vim identity</td>\n<td>05:08</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.fm/648#t=4247\">1:10:47</a></td>\n<td>Still well positioned</td>\n<td>02:25</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.fm/648#t=4392\">1:13:12</a></td>\n<td>Use AI to think better</td>\n<td>01:32</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.fm/648#t=4483\">1:14:43</a></td>\n<td>To the Vim folks</td>\n<td>05:39</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.fm/648#t=4822\">1:20:22</a></td>\n<td>Paint by numbers programming</td>\n<td>13:29</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.fm/648#t=5631\">1:33:51</a></td>\n<td>Open source impact</td>\n<td>15:05</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.fm/648#t=6536\">1:48:56</a></td>\n<td>An optimistic prediction</td>\n<td>01:52</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.fm/648#t=6648\">1:50:48</a></td>\n<td>Wrapping up</td>\n<td>01:19</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.fm/648#t=6728\">1:52:08</a></td>\n<td><a href=\"https://changelog.com/live\">Closing thoughts</a></td>\n<td>01:49</td>\n</tr>\n</tbody>\n</table>",
+        "id": 526850256,
+        "sender_full_name": "Logbot",
+        "timestamp": 1751477591
+    },
+    {
+        "content": "<p>How is everyone adjusting their budgets for these agents? I work at a startup that doesn’t have unlimited money to dump on these like people at source graph. I’m not sure how to estimate how much using agents like amp will cost us to get them approved. Even working on side projects it is nice to have Claude Code with a limit that I know I won’t go over $20 if I’m willing to wait to get more tokens</p>",
+        "id": 527020829,
+        "sender_full_name": "Adam Ambrosius",
+        "timestamp": 1751555387
+    },
+    {
+        "content": "<p>The universal sign for taking a phone call reminded me of this Ellen bit about rolling down car windows: <a href=\"https://youtu.be/_W9JZkHdCdA?feature=shared&amp;t=1570\">https://youtu.be/_W9JZkHdCdA?feature=shared&amp;t=1570</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"_W9JZkHdCdA\" href=\"https://youtu.be/_W9JZkHdCdA?feature=shared&amp;t=1570\"><img src=\"https://uploads.zulipusercontent.net/5ebdb96ce5a9a8fa9ef1951bd7d682119e818b9f/68747470733a2f2f692e7974696d672e636f6d2f76692f5f57394a5a6b48644364412f6d7164656661756c742e6a7067\"></a></div>",
+        "id": 527059648,
+        "sender_full_name": "James Keezer",
+        "timestamp": 1751569894
+    },
+    {
+        "content": "<p>I am not paying for any AI right now. I can experiment under the free tiers and so far none of them have been valuable enough for me to pay. Then again this is just for my own amusement. If I was getting paid to close tickets I would definitely pay a small amount to have AI do all my work and I can do other things.  If I was working remotely I might even get two or three other jobs and work on all of them at once. </p>\n<p>I am shocked that more people are not doing that now. Just go and get three jobs doing monkey work and have the AI do it. It would be important to get monkey work so that you are not important enough to be invited to meetings. You'd have a hard time justifying why you haven't been able to attend the fourth meeting this month.</p>",
+        "id": 527105968,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751604290
+    },
+    {
+        "content": "<p>People paying for AI subscriptions _might_ be more effective paying that same amount of money to a real human being in a different country instead</p>",
+        "id": 527107625,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1751605364
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"771585\">@Ron Waldon-Howe</span> That's been done already :) AI is cheaper.</p>",
+        "id": 527112861,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751609180
+    },
+    {
+        "content": "<p>I have been thinking about the different types of devs Thorsten was talking about. Juniors, seniors, etc.  I think there is a third category which I would put myself in. I use AI to write code, I look at code and decide I don't like it and spend a ton of time fixing it up. Not necessarily because it doesn't work but because of aesthetic reasons. I don't want to check in code that looks like that. I want this refactored into a function, I want to handle singletons this way, I want the config to look like this etc.</p>\n<p>I think we may have to let go of our preconceived notions of what good coding style is in the age of AI. If it passes the test then ship it and stop worrying about elegance, or even maintainability. You'll just use AI to fix whatever bug that comes up anyway.</p>\n<p>Having said that it kind of bothers me that he said 90% of his tests are written by the AI. It seems to me that you should write the tests and tell the AI to write code that passes the test but I know that writing tests is often the most cumbersome part of development and it does write comprehensive tests.</p>",
+        "id": 527308530,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751755343
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755905\">Tim Uckun</span> <a href=\"#narrow/stream/456187-interviews/topic/648.3A.20Agent.2C.20take.20the.20wheel/near/527105968\">said</a>:</p>\n<blockquote>\n<p>If I was working remotely I might even get two or three other jobs and work on all of them at once. </p>\n</blockquote>\n<p>Isn't this exactly the kind of work AI is replacing?</p>",
+        "id": 528472563,
+        "sender_full_name": "Chris Duzan",
+        "timestamp": 1752340832
+    },
+    {
+        "content": "<p>There are definitely older companies that are slower to pick up on AI changes and this is still doable. But, eventually, they will catch up and this kind of role will be replaced by AI (or be added on to the expectations of a dev working with AI).</p>\n<p>So, hopefully those relying on this strategy are aware of that and are either saving that money to live off of in the future, or they're spending some of their time getting better at the stuff AI isn't good at (yet).</p>",
+        "id": 528472718,
+        "sender_full_name": "Chris Duzan",
+        "timestamp": 1752341008
+    }
+]

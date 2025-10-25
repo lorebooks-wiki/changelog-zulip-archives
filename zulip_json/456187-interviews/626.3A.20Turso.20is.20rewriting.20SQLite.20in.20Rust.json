@@ -1,0 +1,98 @@
+[
+    {
+        "content": "<p>Glauber Costa, co-founder and CEO of Turso, joins us to discuss libSQL, Limbo, and how they're rewriting SQLite in Rust. We discuss their efforts with libSQL, the challenge of SQLite being in the public domain but not being open for contribution, their choice to rewrite everything with Limbo, how this all plays into the future of the Turso platform, how they test Limbo with Deterministic Simulation Testing (DST), and their plan to replace SQLite. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/626\">https://changelog.fm/626</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.fm/626#t=0\">00:00</a></td>\n<td>This week on The Changelog</td>\n<td>01:19</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.fm/626#t=79\">01:19</a></td>\n<td><a href=\"https://retool.com/changelog\">Sponsor: Retool</a></td>\n<td>02:45</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.fm/626#t=245\">04:05</a></td>\n<td>Start the show!</td>\n<td>01:05</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.fm/626#t=309\">05:09</a></td>\n<td>SQLite is open source, right?</td>\n<td>12:59</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.fm/626#t=1089\">18:09</a></td>\n<td>Turso can REPLACE SQLIte</td>\n<td>04:54</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.fm/626#t=1383\">23:03</a></td>\n<td>Rewrite test suites are just as hard</td>\n<td>05:39</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.fm/626#t=1722\">28:42</a></td>\n<td>DST from scratch or Rust Crates?</td>\n<td>02:13</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.fm/626#t=1856\">30:56</a></td>\n<td><a href=\"https://temporal.io\">Sponsor: Temporal</a></td>\n<td>02:02</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.fm/626#t=1978\">32:58</a></td>\n<td>Deterministic Simulation Testing (DSTs) are magic</td>\n<td>02:22</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.fm/626#t=2120\">35:20</a></td>\n<td>SQLite compatibility</td>\n<td>02:02</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.fm/626#t=2242\">37:22</a></td>\n<td>Fully asyncronous IO</td>\n<td>04:20</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.fm/626#t=2502\">41:42</a></td>\n<td>Being well recieved was a surprise</td>\n<td>05:07</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.fm/626#t=2810\">46:50</a></td>\n<td>Why SO compelling?</td>\n<td>04:28</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.fm/626#t=3079\">51:19</a></td>\n<td><a href=\"https://www.timescale.com\">Sponsor: Timescale</a></td>\n<td>02:21</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.fm/626#t=3220\">53:40</a></td>\n<td>There's so much to do</td>\n<td>03:42</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.fm/626#t=3443\">57:23</a></td>\n<td>Production-grade by Jan 2026</td>\n<td>01:14</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.fm/626#t=3517\">58:37</a></td>\n<td>How does this effect Turso (the business)</td>\n<td>02:45</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.fm/626#t=3682\">1:01:22</a></td>\n<td>One Turso to rule them all</td>\n<td>02:16</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.fm/626#t=3817\">1:03:37</a></td>\n<td>Toeing the open source line</td>\n<td>02:31</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.fm/626#t=3968\">1:06:08</a></td>\n<td>How will you know you've replaced SQLite?</td>\n<td>01:07</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.fm/626#t=4035\">1:07:15</a></td>\n<td>What can you do today?</td>\n<td>01:24</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.fm/626#t=4119\">1:08:39</a></td>\n<td>Betting long on hosting DBs at scale</td>\n<td>02:57</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.fm/626#t=4296\">1:11:36</a></td>\n<td>Let's talk in a year</td>\n<td>00:25</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.fm/626#t=4322\">1:12:02</a></td>\n<td>Closing thoughts and stuff</td>\n<td>02:31</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://changelog.fm/626#t=4473\">1:14:33</a></td>\n<td>++ Teaser</td>\n<td>01:22</td>\n</tr>\n</tbody>\n</table>",
+        "id": 496770657,
+        "sender_full_name": "Logbot",
+        "timestamp": 1738242007
+    },
+    {
+        "content": "<p>Didn't know Turso was trying to replace sqlite</p>",
+        "id": 496845566,
+        "sender_full_name": "Danny K",
+        "timestamp": 1738262931
+    },
+    {
+        "content": "<p>Yessir. Started with a fork but later decided to do a full rewrite, which has born early fruit (and lots of excitement/support)</p>",
+        "id": 496859455,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1738267589
+    },
+    {
+        "content": "<p>Looking forward to this one.</p>",
+        "id": 496865671,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1738270183
+    },
+    {
+        "content": "<p>There's also <a class=\"stream\" data-stream-id=\"464897\" href=\"/#narrow/channel/464897-rust\">#rust</a> but it's currently just me talking to myself :P</p>",
+        "id": 496876406,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1738274370
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"771585\">@Ron Waldon-Howe</span> I got banned from the go subreddit for basically saying go wasn't the best option for an ecommerce site. Of course people objected and I replied detailing the wonders of rails and laravel for building ecommerce sites and boom they dropped the hammer on me.</p>\n<p>I thought I might pick up rust after that happened but I never did. I keep hearing horror stories about how steep the learning curve is.</p>",
+        "id": 496920037,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1738300623
+    },
+    {
+        "content": "<p>Coming from JavaScript and Go, there was a bit of a learning curve for me, but I read the official book ( <a href=\"https://doc.rust-lang.org/book/\">https://doc.rust-lang.org/book/</a> ), and then read it again 12 months later, and things just sort of clicked for me<br>\nRust tend to ask more from developers, but in exchange, the result tends to be more reliable and predictable when you compare it to other languages <br>\ne.g. I've shipped so many data races and <code>nil</code> pointers into production in Go, and the compiler does not help you prevent these bugs at all</p>",
+        "id": 496920858,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1738301294
+    },
+    {
+        "content": "<p>There’s also the easier start to Rust which is cloning and using owned values everywhere. Helps to limit the extent to the compiler yelling at you. Once it works, you can try and write a solution that’s got less allocations and such.</p>",
+        "id": 497067657,
+        "sender_full_name": "Dustin",
+        "timestamp": 1738349283
+    },
+    {
+        "content": "<p>But for my hobby projects the easy way has often been fast enough</p>",
+        "id": 497067704,
+        "sender_full_name": "Dustin",
+        "timestamp": 1738349298
+    },
+    {
+        "content": "<p>Yep, one doesn't need to learn Rust all at once<br>\n<code>.clone()</code> everywhere is a great way to avoid borrowing, thus deferring having to learn about the borrow-checker<br>\nThe other aspects of the type system like enums (the best I've experienced in any language) can be a bigger part of representing your problem in Rust and help the compiler stop you from making mistakes</p>",
+        "id": 497092850,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1738359552
+    },
+    {
+        "content": "<p>For me and my use cases, it's almost always worth prioritising correctness rather than performance</p>",
+        "id": 497093072,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1738359652
+    },
+    {
+        "content": "<p>Heh, just came across this, pretty fair comparison: <a href=\"https://bitfieldconsulting.com/posts/rust-vs-go\">https://bitfieldconsulting.com/posts/rust-vs-go</a></p>",
+        "id": 497129554,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1738384703
+    },
+    {
+        "content": "<p>Excellent summary:</p>\n<blockquote>\n<p>I hope this article has convinced you that <em>both</em> Rust and Go deserve your serious consideration. You should reject the false dilemma that you can only learn one or the other. In fact, the more languages you know, the more valuable you are as a software developer.</p>\n</blockquote>",
+        "id": 497129603,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1738384761
+    },
+    {
+        "content": "<p>TIL sqlite uses bytecode to execute its queries. It's super cool that Turso is taking the same approach and using the same bytecode language, even validating that the same SQL produces the same bytecode. <a href=\"https://sqlite.org/opcode.html\">https://sqlite.org/opcode.html</a></p>",
+        "id": 497141196,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1738396320
+    },
+    {
+        "content": "<p>This has sent me back into my \"SQL sucks\" rabbit hole, wondering if a database could use bytecode as its API instead. The sqlite format is a bit verbose - here's what a basic select looks like:</p>\n<div class=\"codehilite\"><pre><span></span><code>sqlite&gt; create table tbl1 (name text, age int);\nsqlite&gt; create index foo on tbl1 (age);\nsqlite&gt; insert into tbl1 (name, age) values (&#39;blah&#39;, 30);\nsqlite&gt; explain select * from tbl1 where age &gt; 20;\naddr  opcode         p1    p2    p3    p4             p5  comment\n----  -------------  ----  ----  ----  -------------  --  -------------\n0     Init           0     11    0                    0   Start at 11\n1     OpenRead       0     2     0     2              0   root=2 iDb=0; tbl1\n2     OpenRead       1     3     0     k(2,,)         0   root=3 iDb=0; foo\n3     Integer        20    1     0                    0   r[1]=20\n4     SeekGT         1     10    1     1              0   key=r[1]\n5       DeferredSeek   1     0     0                    0   Move 0 to 1.rowid if needed\n6       Column         0     0     2                    0   r[2]= cursor 0 column 0\n7       Column         1     0     3                    0   r[3]= cursor 1 column 0\n8       ResultRow      2     2     0                    0   output=r[2..3]\n9     Next           1     5     0                    0\n10    Halt           0     0     0                    0\n11    Transaction    0     0     2     0              1   usesStmtJournal=0\n12    Goto           0     1     0                    0\n</code></pre></div>\n<p>But if you put a little macro language on top of that assembler language for common cases... <span aria-label=\"thinking\" class=\"emoji emoji-1f914\" role=\"img\" title=\"thinking\">:thinking:</span></p>\n<p>EDIT: ok, before I detail this episode thread, here's a fork: <a class=\"message-link\" href=\"/#narrow/channel/462152-unpopular-opinions/topic/SQL.20is.20bad.2C.20databases.20should.20expose.20APIs.20instead/near/497141538\">#unpopular-opinions &gt; SQL is bad, databases should expose APIs instead @ 💬</a></p>",
+        "id": 497141275,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1738396387
+    },
+    {
+        "content": "<p>I dunno about anyone else but the relationship between Limbo, Turso and libsql  was a bit confusing for the first half of the episode. For someone coming into the episode not knowing anything about Turso there wasn't much context.</p>",
+        "id": 497191014,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1738437824
+    }
+]

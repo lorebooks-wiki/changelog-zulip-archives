@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>With the number of libraries available to Go developers these days, you'd think building a CLI app was now a trivial matter. But like many things in software development, it depends. In this episode, we explore the challenges that arose during one team's journey towards a production-ready CLI. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://gotime.fm/337\">https://gotime.fm/337</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td>00:00</td>\n<td>It's Go Time!</td>\n<td>00:47</td>\n</tr>\n<tr>\n<td>02</td>\n<td>00:47</td>\n<td><a href=\"https://fly.io/\">Sponsor: Fly</a></td>\n<td>02:29</td>\n</tr>\n<tr>\n<td>03</td>\n<td>03:16</td>\n<td>Intro</td>\n<td>02:52</td>\n</tr>\n<tr>\n<td>04</td>\n<td>06:08</td>\n<td>Setting out to build</td>\n<td>07:59</td>\n</tr>\n<tr>\n<td>05</td>\n<td>14:08</td>\n<td>Network calls</td>\n<td>07:09</td>\n</tr>\n<tr>\n<td>06</td>\n<td>21:17</td>\n<td><a href=\"https://www.bytesizego.com/goland\">Sponsor: JetBrains</a></td>\n<td>03:10</td>\n</tr>\n<tr>\n<td>07</td>\n<td>24:28</td>\n<td>Versioning</td>\n<td>01:53</td>\n</tr>\n<tr>\n<td>08</td>\n<td>26:21</td>\n<td>Next step</td>\n<td>03:37</td>\n</tr>\n<tr>\n<td>09</td>\n<td>29:58</td>\n<td>CLI</td>\n<td>07:04</td>\n</tr>\n<tr>\n<td>10</td>\n<td>37:03</td>\n<td>From Ruby to Go</td>\n<td>04:50</td>\n</tr>\n<tr>\n<td>11</td>\n<td>41:53</td>\n<td>Words of wisdom</td>\n<td>03:21</td>\n</tr>\n<tr>\n<td>12</td>\n<td>45:13</td>\n<td><a href=\"https://retool.com/changelog\">Sponsor: Retool</a></td>\n<td>01:44</td>\n</tr>\n<tr>\n<td>13</td>\n<td>46:57</td>\n<td>Unpopular Opinions!</td>\n<td>00:34</td>\n</tr>\n<tr>\n<td>14</td>\n<td>47:31</td>\n<td>Wesley's first unpop</td>\n<td>05:31</td>\n</tr>\n<tr>\n<td>15</td>\n<td>53:02</td>\n<td>Wesley's second unpop</td>\n<td>03:35</td>\n</tr>\n<tr>\n<td>16</td>\n<td>56:37</td>\n<td>Outro</td>\n<td>01:04</td>\n</tr>\n</tbody>\n</table>",
+        "id": 482042392,
+        "sender_full_name": "Logbot",
+        "timestamp": 1731447007
+    },
+    {
+        "content": "<p>Coming from a ruby background I am surprised he didn't write the CLI in Crystal. Crystal does allow you to ship stand alone binaries and mimics the ruby standard library very closely. It also has meta programming in the form of macros and other features which go lacks and would feel natural to a ruby programmer.</p>",
+        "id": 482265481,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1731533619
+    },
+    {
+        "content": "<p>Has Crystal's support for Windows been completed?</p>",
+        "id": 482292542,
+        "sender_full_name": "Al Gonzalez",
+        "timestamp": 1731547924
+    },
+    {
+        "content": "<p>I don't know about completed but they have supported it for CLI usage for a long time.</p>",
+        "id": 482301527,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1731554068
+    },
+    {
+        "content": "<p>reading the initial blog post, I came away with a sense that there were <em>a lot</em> of moving  pieces just to create a CLI tool</p>\n<p>is such an approach really worth it for the additional overhead of having so many dependencies (both in terms of Go and surrounding tools)?</p>",
+        "id": 482327538,
+        "sender_full_name": "Üllar",
+        "timestamp": 1731570705
+    },
+    {
+        "content": "<p>I fully agree with both unpopular opinions! Especially the first one resonate really well with me. I find Linux is getting biggeer and bigger and with that, a lot more CLI usage and adoption.<br>\n When you build a system, you also have to create the controls to pilot that system, you want to offer a wheel not an electric panel. In our case, a good UX. For sure, a CLI will always remain low level interaction, but it will be higher then directly API endpoints. Having some commands that do many commands to abstract common flows is a really a good UX because if not you need to know the system really well. Kubecli is pretty good on that, it has both. </p>\n<p>Moreover, in terms of devlopment, it allows the team that have great tooling to work with the system they are building and that is extremely important as the team grows and the system scale. Plus, it allows to start interacting with the system early in dev. This help build ideas on how the system should be interacted, fix issues and start paving the way for the next step of UX which is often a webapp and how we approach it.<br>\nIntegration test --&gt; CLI --&gt; WebApp, are all ways to interact with the system, from low level to high level. Its necessary to do them as you learn how should people interact with your system incrementally. As you write the integration test, you think of the CLI and how it should be, as you write the CLI, you build ideas on how to webapp should be. And you start paving the way for that.</p>\n<p>In terms of positional arguments,  I also agree, or if it can be consistent across all or most commands. In one cli I have built, with around 20 commands, they all had one positional argument and it with the same effect, a filter on name/namespace. It was possible to set it by 2 flags, but that consistent shortcut as the only positional argument was a really good improvement on quick flows.</p>",
+        "id": 482387662,
+        "sender_full_name": "Maxime Thomassin",
+        "timestamp": 1731589765
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"755905\">@Tim Uckun</span>  When I joined the company, the CLI was already in-progress in go. Plus we already were working with a mono-repo that contained both a ruby/rails backend and a go backend that interoperate. Between the history and having go tooling/expertise on the team already, it seemed sensible to continue down that path. So I didn't really consider other language options that much, though I have seen Crystal in the wild (I think maybe the Crunchy Data CLI is in Crystal if I recall).</p>\n<p><span class=\"user-mention\" data-user-id=\"760389\">@Üllar</span>  There certainly are a lot of moving pieces and each dependency inherently has some cost. Because we already had node and go dependencies in the mono repo (for the rails and go backends respectively), the additional cost was lower than if we were adding whole languages. We incrementally built to where we are now and each addition has seemed worth it, but we continue to evaluate other options (I'm comparing vacuum and spectral for openapi linting lately for example). I've done this kind of work without external dependencies in the past and so far I think I prefer that complexity to having to roll my own and/or having gaps in tooling. Like many other programming tasks, there is a lot of \"it depends\" and/or \"your milage may vary\". But at least right now this array of things seems to be working well for me.</p>\n<p><span class=\"user-mention\" data-user-id=\"780113\">@Maxime Thomassin</span> That's great to hear. I worry that people can be a bit too dogmatic about what \"CLI\" means or what it \"should\" be. I try to take a step back and ask what it's meant to accomplish and then try to figure out the best way to do that. Sometimes it's more low-level/granular, and sometimes not. And so far as that goes, I'll probably sometimes get it right and sometimes get it wrong, but we can always keep tweaking or trying again. I also agree with your analogy to other development stuff, it helps to be able to work more narrowly on just one part at a time (or sometimes to target end-to-end) instead of needing to try and consider the whole all the time. I think the tools help a lot with that and I embrace the opportunity to address one problem at a time. Finally, I think your example of the consistent positional args is a great one, that's exactly the kind of case that I think is a good fit.</p>",
+        "id": 482680349,
+        "sender_full_name": "geemus (Wesley Beary)",
+        "timestamp": 1731698517
+    },
+    {
+        "content": "<p>FYI there's <a class=\"stream\" data-stream-id=\"465774\" href=\"/#narrow/channel/465774-terminals-and-shells-and-tuis-oh-my\">#terminals-and-shells-and-tuis-oh-my</a> for this domain area when we don't have anything episodes-specific to discuss</p>",
+        "id": 482738817,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1731734649
+    }
+]
