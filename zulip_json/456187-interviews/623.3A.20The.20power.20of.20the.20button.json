@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>Rachel Plotnick joins us for the first show of 2025 to discuss her book \"Power Button\" and the research she did, and why we love/hate buttons so much. We also discuss her upcoming book \"License to Spill\" as well as the research she's doing on energy drinks. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/623\">https://changelog.fm/623</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.fm/623#t=0\">00:00</a></td>\n<td>This week on The Changelog</td>\n<td>01:12</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.fm/623#t=72\">01:12</a></td>\n<td><a href=\"https://sentry.io/events/launch-week/\">Sponsor: Sentry</a></td>\n<td>02:04</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.fm/623#t=203\">03:23</a></td>\n<td>Start the show!</td>\n<td>00:16</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.fm/623#t=219\">03:39</a></td>\n<td>It's Rachel Plotnick</td>\n<td>07:03</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.fm/623#t=642\">10:42</a></td>\n<td>Buttons aren't cool</td>\n<td>01:48</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.fm/623#t=750\">12:30</a></td>\n<td>Beginning her button research</td>\n<td>02:59</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.fm/623#t=929\">15:29</a></td>\n<td>Push a button for my shower please</td>\n<td>06:19</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.fm/623#t=1308\">21:48</a></td>\n<td>Good for nothing button!</td>\n<td>00:18</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.fm/623#t=1326\">22:06</a></td>\n<td>Buttons are not dead</td>\n<td>01:40</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.fm/623#t=1425\">23:45</a></td>\n<td><a href=\"http://notion.com/changelog\">Sponsor: Notion</a></td>\n<td>02:14</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.fm/623#t=1560\">26:00</a></td>\n<td>The underlying problem</td>\n<td>09:11</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.fm/623#t=2111\">35:11</a></td>\n<td>Re-button-ifying</td>\n<td>01:35</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.fm/623#t=2206\">36:46</a></td>\n<td>Placebo buttons</td>\n<td>05:20</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.fm/623#t=2526\">42:06</a></td>\n<td>When should it be a button?</td>\n<td>04:55</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.fm/623#t=2820\">47:00</a></td>\n<td>License to spill</td>\n<td>03:21</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.fm/623#t=3022\">50:22</a></td>\n<td><a href=\"https://joindeleteme.com\">Sponsor: DeleteMe</a></td>\n<td>02:28</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.fm/623#t=3170\">52:50</a></td>\n<td>Reminded of The Truman Show</td>\n<td>00:59</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.fm/623#t=3228\">53:48</a></td>\n<td>Who is this book for?</td>\n<td>02:57</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.fm/623#t=3405\">56:45</a></td>\n<td>How do YOU eat Cheetos while coding?</td>\n<td>01:36</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.fm/623#t=3501\">58:21</a></td>\n<td>What is obsolescence culture?</td>\n<td>02:56</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.fm/623#t=3678\">1:01:18</a></td>\n<td>Rachel's research on energy drinks</td>\n<td>06:36</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.fm/623#t=4074\">1:07:54</a></td>\n<td>H2 Hummer crab walk</td>\n<td>01:30</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.fm/623#t=4164\">1:09:24</a></td>\n<td>Rachel on the internet</td>\n<td>00:56</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.fm/623#t=4219\">1:10:19</a></td>\n<td>Closing thoughts and stuff</td>\n<td>02:12</td>\n</tr>\n</tbody>\n</table>",
+        "id": 492609055,
+        "sender_full_name": "Logbot",
+        "timestamp": 1736383806
+    },
+    {
+        "content": "<p>re: traffic signals that have flash detection or object detection. At least in my area these are both true. Flash detection is intended to assist with emergency vehicles approaching, and the vehicle detection is typically inductive loops for metal detection rather than weight to the best of my knowledge.</p>\n<p>I’m not a civil engineer or anything, but in my microprocessor class over 20 years ago one of our projects was to study and model an intersection traffic light setup close to the engineering school.</p>",
+        "id": 492629689,
+        "sender_full_name": "Ricky Hussmann",
+        "timestamp": 1736397159
+    },
+    {
+        "content": "<p>Was it intentional there was no \"this week on The Changelog\" and \"start the show\" chapters on the ++ version?</p>",
+        "id": 492657550,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1736409994
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"757328\">@Ricky Hussmann</span> ok cool thank you for confirming I haven't been completely wasting my time/effort all these years <span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span></p>",
+        "id": 492744901,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1736435196
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"755984\">@Jamie Tanna</span> I think I just took us into the show this time. I didn't think about it much since \"It's Rachel\" was the first chapter of the show.</p>",
+        "id": 492831502,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1736461824
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span>  I think you score 2 out of 3.  </p>\n<p>1 - While I'm sure there are examples of fake / useless buttons, I can confirm that pedestrian buttons do (at least sometimes) have a purpose. In my area, if you don't push the button, there may never be a 'walk' cycle or the green light for the side street will last only 15 or 20 seconds (not enough time to walk across).  </p>\n<p>2 - Similarly, the vehicle detector loops are real, although they rely on electrical induction and not weight.  Sensitivity has to be tuned to avoid false positives but also avoid missing vehicles. I learned as a kid that when cycling at these lights, it is important to get ahead of the sensor so that a big car can come up behind you to trip it, because our bikes generally didn't have enough metal to do the job.  Motorcycles sometimes have issues too. And in some configurations you might have needed to cross multiple loops in succession to have it register (especially in left-hand-turn lanes, where they need to \"weed out\" inadvertent triggers from opposite direction traffic).  </p>\n<p>3 - Finally, while some lights do have detection cameras to allow emergency vehicles to take priority, these are commonly infrared-based and require pulses at a specific frequency to trigger.  I think on the 'flashing headlights' front, that fits into the \"wives tale\" world. Maybe there was one light somewhere that did that, but I'm sure they quickly realized that was ripe for 'misuse'.</p>",
+        "id": 493117803,
+        "sender_full_name": "Anthony Tibbs",
+        "timestamp": 1736620802
+    },
+    {
+        "content": "<p>This episode was great. Rachel isn't the only one that thinks of what happens when you spill water on your keyboard. It's something I thought about when getting the Framework laptop. I don't even stress about ruining the laptop because its parts are replaceable. I can dunk this keyboard in water right now and either clean it and see if it still works or just replace it. If I did that on another laptop I'd have to replace the whole machine.</p>",
+        "id": 494252391,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1737070328
+    },
+    {
+        "content": "<ol>\n<li>\n<p>At least in BC, Canada, the crosswalk button does something important. We have intersections that have a stoplight in one direction and a stop sign in the other (if you've ever seen a flashing green light in BS, that's what it represents). They are considered pedestrian-controlled intersections as the stoplight stays green unless a pedestrian presses the button to cross. It's a common sight to see a driver at the stop sign hop out of their car quickly to press the crosswalk button to trigger the red light in order to force a break in traffic.<br>\n2.At least in Vancouver, there's very few protected left turns. As such, when they do exist they typically have the inductive sensors in the road to know when to bother to turn on the protected left turn signal. As well, to trigger the light you typically need to have about 3 cars waiting (probably because it's customary to let 2 cars make a left turn once  slight turns red in Vancouver due to the lack of protected left turn lights.</p>\n</li>\n<li>\n<p>I believe the USDOT mandates that your hazard lights be controlled by a physical button (one of the few things with that requirement).</p>\n</li>\n<li>While Tesla cars do not have true one-pedal driving, with aggressive regen turned on it comes close enough. And I will say it's rather pleasant and I find a more fun driving experience than traditional two-pedal driving. For instance, I find a decelerate and control my overall speed better because there's a more direct connection to the pedal than having to play between accelerator and brake to find the speed you want at the rate you want. Also, I'm guessing it's slightly safer since with a single pedal you brake when you take your foot off, while with a traditional brake you have take your foot off the accelerator, move.itntonbrake, and the press down. Or to use a bicycle analogy for <span class=\"user-mention\" data-user-id=\"750017\">@Adam Stacoviak</span> , it's like biking on a fixie compared to a traditional bike with hand brakes compared to control of the car.</li>\n</ol>\n<p>And just because of my reputation, I'm listening to episodes out of order, so I'm not just getting to 2025 episodes. <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+        "id": 536932947,
+        "sender_full_name": "Brett Cannon",
+        "timestamp": 1756579424
+    },
+    {
+        "content": "<p>I am thinking about upgrading my beloved m1 macbook air to an m4. Ideally I would like to give my old laptop to a friend  who lives in Turkey but AFIK the keyboard can't be replaced with a Turkish one which sucks. I know they can always use an external keyboard but still sucks.</p>",
+        "id": 536942548,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1756591804
+    },
+    {
+        "content": "<p>And if you're looking for a song about using a button <a href=\"https://youtu.be/Xu3FTEmN-eg?si=xJeV1XzhklqTz6hN\">https://youtu.be/Xu3FTEmN-eg?si=xJeV1XzhklqTz6hN</a> (which is also about the only song that keeps our toddler awake in the car that we enjoy listening to)</p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"Xu3FTEmN-eg\" href=\"https://youtu.be/Xu3FTEmN-eg?si=xJeV1XzhklqTz6hN\"><img src=\"https://uploads.zulipusercontent.net/60852885690cf92a6ffc10f64621a28a82cdc4df/68747470733a2f2f692e7974696d672e636f6d2f76692f5875334654456d4e2d65672f6d7164656661756c742e6a7067\"></a></div>",
+        "id": 537028922,
+        "sender_full_name": "Brett Cannon",
+        "timestamp": 1756698943
+    }
+]

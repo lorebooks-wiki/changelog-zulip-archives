@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Pocketcast has release support for transcripts! they are not yet as good as the one on apple podcasts, but it's a step in the right direction: <a href=\"https://support.pocketcasts.com/knowledge-base/episode-transcripts/\">https://support.pocketcasts.com/knowledge-base/episode-transcripts/</a></p>",
+        "id": 472697414,
+        "sender_full_name": "Patrick Arminio",
+        "timestamp": 1727270831
+    },
+    {
+        "content": "<p>Very cool that they're using the <code>&lt;podcast:transcript&gt;</code> tag instead of some new/novel way of their own design <span aria-label=\"clap\" class=\"emoji emoji-1f44f\" role=\"img\" title=\"clap\">:clap:</span></p>",
+        "id": 472698778,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1727271216
+    },
+    {
+        "content": "<p>yup! do you already provide that info? from my test it doesn't seem to fetch older transcripts (or transcripts added after fetching the podcast)</p>",
+        "id": 472704423,
+        "sender_full_name": "Patrick Arminio",
+        "timestamp": 1727272795
+    },
+    {
+        "content": "<p>Yes we do, but our transcripts are never ready when our episodes ship, so that might be a problem for us...</p>",
+        "id": 472709685,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1727274209
+    },
+    {
+        "content": "<p>that's cool, I think it could be a feature request for them, maybe the actually support refreshing the podcasts already and I missed it, I'll check at some point!</p>",
+        "id": 472716211,
+        "sender_full_name": "Patrick Arminio",
+        "timestamp": 1727275921
+    }
+]
