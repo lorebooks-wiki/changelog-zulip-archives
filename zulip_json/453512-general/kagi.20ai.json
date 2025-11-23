@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>This is quite specific but feel like this is the crowd for it!</p>\n<p>I've been using perplexity for a while and really like it but would prefer kagi in anticipation of any enshittification.</p>\n<p>Has anyone managed to make the kagi assistant more similar to perplexity?</p>\n<p>Specifically what I liked was not drawing from the models knowledge but always from sources so I can go deeper and/or check the answers. I'm hoping a bit of prompt engineering should get me there! But quite new to it</p>",
+        "id": 519010603,
+        "sender_full_name": "James McNally",
+        "timestamp": 1747637732
+    },
+    {
+        "content": "<p>you're assuming that kagi doesn't enshittify :)</p>",
+        "id": 519011356,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1747637993
+    },
+    {
+        "content": "<p>Also true!</p>",
+        "id": 519012596,
+        "sender_full_name": "James McNally",
+        "timestamp": 1747638352
+    },
+    {
+        "content": "<p>i'm guessing, these days, you'd want a model to be run with support for MCP so you can hook it up to a \"search results\" MCP or even a \"read this web page\" MCP<br>\n<a href=\"https://mcp.so/\">https://mcp.so/</a><br>\ndoes kagi support this?</p>",
+        "id": 519013665,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1747638678
+    },
+    {
+        "content": "<p><a href=\"https://github.com/kagisearch/kagimcp\">https://github.com/kagisearch/kagimcp</a><br>\nLooks like it's in closed beta</p>",
+        "id": 519267285,
+        "sender_full_name": "Sukhdeep Brar",
+        "timestamp": 1747705847
+    },
+    {
+        "content": "<p>I definitely use Kagi less since I started using Perplexity, enough to drop down to the Starter plan.</p>\n<p>It's a shame that their AI product isn't as good as using Perplexity on a free plan. Feels like a missed opportunity for them.</p>",
+        "id": 519381879,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1747746904
+    },
+    {
+        "content": "<p>Maybe I'm misreading <a href=\"https://www.perplexity.ai/hub/technical-faq/how-does-perplexity-follow-robots-txt\">https://www.perplexity.ai/hub/technical-faq/how-does-perplexity-follow-robots-txt</a> , but it seems like Perplexity still isn't respecting <code>robots.txt</code> entirely.</p>",
+        "id": 519474523,
+        "sender_full_name": "Brett Cannon",
+        "timestamp": 1747775212
+    },
+    {
+        "content": "<p>Yeah, Perplexity started out less ethical than even OpenAI, so it doesn't surprise me that they're still so problematic</p>",
+        "id": 519491074,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1747784384
+    },
+    {
+        "content": "<p>Yeah this is my concern with them and why I want to make kagi work. They don't seem like they are in it for the good vibes!</p>\n<p>I've tried adding a prompt to encourage references which works some of the time! Need to keep tweaking I think.</p>",
+        "id": 519583675,
+        "sender_full_name": "James McNally",
+        "timestamp": 1747825624
+    },
+    {
+        "content": "<p>well ... i'm not sure kagi passes the vibe check either ( <a href=\"https://d-shoot.net/kagi.html\">https://d-shoot.net/kagi.html</a> ) but we all have different values and priorities and tolerances <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span></p>",
+        "id": 519723668,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1747873504
+    }
+]
