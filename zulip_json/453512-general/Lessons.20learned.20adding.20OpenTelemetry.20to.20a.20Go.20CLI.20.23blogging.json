@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p><a href=\"https://www.jvt.me/posts/2024/11/17/cobra-otel-lessons/\">https://www.jvt.me/posts/2024/11/17/cobra-otel-lessons/</a> may be of interest to folks - some interesting things I learned recently while adding OTel into a CLI</p>",
+        "id": 482945767,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1731914252
+    },
+    {
+        "content": "<p>Great write up (still need a second, more focused, pass)! I've always wondered how people are gaining insights about their customer's CLI usage.   For example, the idea of a User Journey is pretty common for web analytics, and it would be useful to have on the CLI side too!</p>\n<p>I'll have to look into the Python OTel ecosystem</p>",
+        "id": 484102876,
+        "sender_full_name": "Sukhdeep Brar",
+        "timestamp": 1732402743
+    }
+]

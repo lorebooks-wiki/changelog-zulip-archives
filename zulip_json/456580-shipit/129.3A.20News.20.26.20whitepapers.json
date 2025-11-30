@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>No interview this week! Instead, Justin &amp; Autumn sit down to talk about what they've been learning recently.</p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td>00:00</td>\n<td>This is Ship It!</td>\n<td>00:52</td>\n</tr>\n<tr>\n<td>02</td>\n<td>00:52</td>\n<td><a href=\"https://fly.io/\">Sponsor: Fly</a></td>\n<td>02:45</td>\n</tr>\n<tr>\n<td>03</td>\n<td>03:46</td>\n<td>Sweet treat rant</td>\n<td>02:45</td>\n</tr>\n<tr>\n<td>04</td>\n<td>06:31</td>\n<td>New formula</td>\n<td>02:13</td>\n</tr>\n<tr>\n<td>05</td>\n<td>08:45</td>\n<td>Going back to work</td>\n<td>05:32</td>\n</tr>\n<tr>\n<td>06</td>\n<td>14:17</td>\n<td>SCALE CFP</td>\n<td>01:04</td>\n</tr>\n<tr>\n<td>07</td>\n<td>15:21</td>\n<td>WebMD video</td>\n<td>01:11</td>\n</tr>\n<tr>\n<td>08</td>\n<td>16:32</td>\n<td>Pragmatic Engineer</td>\n<td>06:51</td>\n</tr>\n<tr>\n<td>09</td>\n<td>23:23</td>\n<td>Innovating in big tech</td>\n<td>04:18</td>\n</tr>\n<tr>\n<td>10</td>\n<td>27:41</td>\n<td>Autumns DEI talk</td>\n<td>04:06</td>\n</tr>\n<tr>\n<td>11</td>\n<td>31:53</td>\n<td><a href=\"https://sentry.io/\">Sponsor: Sentry</a></td>\n<td>03:18</td>\n</tr>\n<tr>\n<td>12</td>\n<td>35:17</td>\n<td>Bias mitigation in LLMs</td>\n<td>08:24</td>\n</tr>\n<tr>\n<td>13</td>\n<td>43:41</td>\n<td>LLMs cannot reason</td>\n<td>01:46</td>\n</tr>\n<tr>\n<td>14</td>\n<td>45:27</td>\n<td>Platform Strategy</td>\n<td>00:57</td>\n</tr>\n<tr>\n<td>15</td>\n<td>46:24</td>\n<td>BlueSky's moment</td>\n<td>11:22</td>\n</tr>\n<tr>\n<td>16</td>\n<td>57:47</td>\n<td>Ghostty</td>\n<td>04:10</td>\n</tr>\n<tr>\n<td>17</td>\n<td>1:01:57</td>\n<td>The Ultimate Death of Product Management</td>\n<td>02:11</td>\n</tr>\n<tr>\n<td>18</td>\n<td>1:04:08</td>\n<td>Scaling equality</td>\n<td>09:49</td>\n</tr>\n<tr>\n<td>19</td>\n<td>1:13:57</td>\n<td>Thanks for listening!</td>\n<td>01:59</td>\n</tr>\n<tr>\n<td>20</td>\n<td>1:15:56</td>\n<td>Outro</td>\n<td>00:53</td>\n</tr>\n</tbody>\n</table>\n<p><span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://shipit.show/129\">https://shipit.show/129</a></p>",
+        "id": 481361966,
+        "sender_full_name": "Logbot",
+        "timestamp": 1731088806
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"760607\">@Justin Garrison</span> by the way, Hashimoto is on Mastodon: <a href=\"https://hachyderm.io/@mitchellh\">https://hachyderm.io/@mitchellh</a></p>",
+        "id": 504195612,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1741385877
+    }
+]

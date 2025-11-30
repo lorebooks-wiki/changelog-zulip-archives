@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>Hey guys. I have a two story concrete home and the wifi signal upstairs is weak. To make matters much worse I am VDSL because apparently being 15 KM away from the fourth largest city in New Zealand means I am living in the boondocks.</p>\n<p>I am currently using a RT-AC5300 for wifi and a DSL-AC68U as a modem for the VDSL (wifi turned off) and want to upgrade now that all the black friday sales are on. Any recommendations? Should I go mesh? One problem I foresee with the mesh is that right now if the wifi goes on the fritz my wife knows which device to reboot and if she has to reboot three devices when I am not at home she will revolt.  Another issue is that I can't really pull an ethernet cable upstairs so the mesh will have to communicate via wifi itself which will probably require at least three units to reach upstairs and the back of the house.</p>\n<p>Many years have gone by since I bought these units and it's probably time to upgrade.  I don't want to spend too much money but I do want to get a better wifi experience.</p>",
+        "id": 484854312,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1732778747
+    },
+    {
+        "content": "<p>Define concrete home. Concrete exterior walls only? Concrete interior walls and subfloor?</p>\n<p>Where's the location of the Wi-Fi access point currently? I'm assuming it's 1st floor given you said you can't run a cable upstairs.</p>\n<p>A lot of mesh systems have a dedicated radio for back channel communication so it's much better than when mesh first came out.</p>",
+        "id": 485445082,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1733026027
+    },
+    {
+        "content": "<p>Cinderblock walls and thick concrete floors. It's a beast of a house :)</p>\n<p>Anyway I ended up buying an asus xd5 three node mesh system. The base unit by itself was doing better than the ac5300 despite it's tiny size and lack of \"dead spider\"   (what my wife calls it) antennas. With the other nodes I can now get 5g coverage upstairs which is great.</p>\n<p>My main goal is to have a better chromecast experience but alas last night I did have troubles again with stuttering and such.  I have no idea why the signal has so much trouble going between my laptop and the chromecast in the same room.</p>",
+        "id": 485512754,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1733085640
+    },
+    {
+        "content": "<p>Yeah that's a bit weird that you're seeing stuttering. I know Chromecast relies on mDNS and such but if it's working that shouldn't be an issue for you.</p>",
+        "id": 485540423,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1733111129
+    },
+    {
+        "content": "<p>I'll have to look into mdns settings and see if that's a possible issue. I don't know either frankly. I am runnin an m1 macbook air so that can't be the problem, now I have great wifi upstairs so that's not the issue either.  Maybe chromecast isn't that great but I have relied on it for years despite it messing up frequently.</p>",
+        "id": 485709713,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1733173985
+    },
+    {
+        "content": "<p>Random but related question to this topic. I'm thinking of putting my Unifi AP (UAP-AC-LR) into my attic to have it out of the way and in a more central location for the house.</p>\n<p>However, I can't find temperature guidelines for it on their site or in the manual. Has anyone done something similar? I saw the operating temperature gets very high so I'm thinking it _should_ be ok, but my attic can get fairly hot.</p>",
+        "id": 536831143,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1756487505
+    },
+    {
+        "content": "<p>I have an AP in a space that gets above 100º consistently. Sometime close to 110º-115º.</p>",
+        "id": 536839693,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1756491023
+    },
+    {
+        "content": "<p>Thanks Adam! I currently have a UAP-AC-LR that I'm planning to move to the far side of the house, and replace it with a U7 Lite AP. Should be far enough apart that the signals won't conflict too much...</p>\n<p>I'm also planning to upgrade to gigabit fiber on Frontier (finally). It'll actually be cheaper than my current plan with Spectrum. I've heard that Frontier has some issues, but the fiber here in CA was originally laid down by Verizon and has been quite reliable...</p>",
+        "id": 536942842,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1756592315
+    }
+]
