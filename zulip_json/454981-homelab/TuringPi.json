@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p>TuringPi boards are shipping in the next few weeks! They announced a case today: <a href=\"https://turingpi.com/introducing-our-new-mini-itx-case/\">https://turingpi.com/introducing-our-new-mini-itx-case/</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://turingpi.com/introducing-our-new-mini-itx-case/\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/d5e9e6e9a2e031745338374598c1c60d3756ed5b/68747470733a2f2f747572696e6770692e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032342f30392f547572696e6750692d322e342e32302d546f704c69642d726f74617465642e6a7067&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://turingpi.com/introducing-our-new-mini-itx-case/\" title=\"Introducing Our New Mini ITX Case\">Introducing Our New Mini ITX Case</a></div><div class=\"message_embed_description\">After months of collaboration with the community, we’re excited to finally unveil our long-awaited mini ITX case for the Turing Pi 2 and 2.5 boards! This case is designed to meet the needs of hobbyists and developers looking for a compact yet highly functional solution. In this blog post, we’ll walk you through the details [&hellip;]</div></div></div>",
+        "id": 470684971,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1726507721
+    },
+    {
+        "content": "<p>Got my TuringPi in! Got a basic Ubuntu OS flashed but I think I'm gonna put Talos Linux on this for Kubernetes.</p>\n<p><span class=\"user-mention\" data-user-id=\"760607\">@Justin Garrison</span> is <a href=\"https://firmware.turingpi.com/turing-rk1/talos/\">https://firmware.turingpi.com/turing-rk1/talos/</a> the best location for the latest Talos images for TuringPi?</p>",
+        "id": 479979401,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1730422434
+    },
+    {
+        "content": "<p>Hmmm, that's a little behind upstream Talos: <a href=\"https://github.com/siderolabs/talos/releases/tag/v1.8.2\">https://github.com/siderolabs/talos/releases/tag/v1.8.2</a></p>",
+        "id": 479983153,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1730425663
+    },
+    {
+        "content": "<p>I wonder if generic ARM64 images will work on the Turing Pi yet, but I don't think we've entered the golden age of having generic ARM64 images boot everywhere</p>",
+        "id": 479983235,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1730425716
+    },
+    {
+        "content": "<p>Looks like this fork is the most up to date version of Talos for TuringPi: <a href=\"https://github.com/nberlee/talos\">https://github.com/nberlee/talos</a></p>",
+        "id": 479983238,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1730425719
+    },
+    {
+        "content": "<p>I'm flashing it now to find out.</p>",
+        "id": 479983384,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1730425823
+    },
+    {
+        "content": "<p>Flashed and boots but I'm just running into issues during the installation. My IP changed on reboot so my Talos apply-config is now different and I don't know how to change it correctly. Flashing again!</p>",
+        "id": 479985835,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1730427855
+    },
+    {
+        "content": "<p>You set a static ip or set up a reservation?</p>",
+        "id": 479990806,
+        "sender_full_name": "Justin Garrison",
+        "timestamp": 1730432254
+    },
+    {
+        "content": "<p>Reservation for now.</p>",
+        "id": 479991416,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1730432769
+    },
+    {
+        "content": "<p>I got a single controller/worker node running.</p>",
+        "id": 479991422,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1730432783
+    },
+    {
+        "content": "<p>It took me longer than it should have to realize that after the initial <code>talosctl apply-config</code> that I should drop the <code>--insecure</code> flag for future patches.</p>",
+        "id": 479991445,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1730432814
+    },
+    {
+        "content": "<p>I also needed:</p>\n<div class=\"codehilite\" data-code-language=\"YAML\"><pre><span></span><code><span class=\"nt\">machine</span><span class=\"p\">:</span>\n<span class=\"w\">  </span><span class=\"nt\">kernel</span><span class=\"p\">:</span>\n<span class=\"w\">    </span><span class=\"nt\">modules</span><span class=\"p\">:</span>\n<span class=\"w\">      </span><span class=\"p p-Indicator\">-</span><span class=\"w\"> </span><span class=\"nt\">name</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">rockchip-cpufreq</span>\n</code></pre></div>",
+        "id": 479991467,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1730432843
+    }
+]

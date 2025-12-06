@@ -1,0 +1,68 @@
+[
+    {
+        "content": "<p>It's a FRIGHT...when your record a podcast with dead projects all around. Tech debt, poor choices, timing, market shift, and optimizing for the wrong things are all lurking around waiting to pop out at you! Just don't forget to push record. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.am/115\">https://changelog.am/115</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.am/115#t=0\">00:00</a></td>\n<td>Let's talk!</td>\n<td>00:31</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.am/115#t=31\">00:31</a></td>\n<td><a href=\"https://namespace.so\">Sponsor: Namespace</a></td>\n<td>01:42</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.am/115#t=133\">02:13</a></td>\n<td>Push record!!</td>\n<td>03:31</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.am/115#t=344\">05:44</a></td>\n<td>Death by...?</td>\n<td>07:48</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.am/115#t=812\">13:32</a></td>\n<td>Sass and SCSS</td>\n<td>10:04</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.am/115#t=1416\">23:36</a></td>\n<td><a href=\"https://www.tigerdata.com\">Sponsor: Tiger Data</a></td>\n<td>01:38</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.am/115#t=1514\">25:14</a></td>\n<td>Greenfield with Sass</td>\n<td>00:33</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.am/115#t=1547\">25:47</a></td>\n<td>Let's THINK about it Amp</td>\n<td>03:16</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.am/115#t=1743\">29:03</a></td>\n<td>What language should I use??!</td>\n<td>03:11</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.am/115#t=1934\">32:14</a></td>\n<td>Meteor.js is unalive?</td>\n<td>12:35</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.am/115#t=2689\">44:49</a></td>\n<td>App launchers like Quicksilver, Launchbar, Raycast</td>\n<td>12:26</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.am/115#t=3326\">55:26</a></td>\n<td><a href=\"http://notion.com/changelog\">Sponsor: Notion</a></td>\n<td>01:49</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.am/115#t=3435\">57:15</a></td>\n<td>RethinkDB is 100% unalive</td>\n<td>05:22</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.am/115#t=3757\">1:02:37</a></td>\n<td>FaunaDB the company is dead</td>\n<td>01:56</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.am/115#t=3873\">1:04:33</a></td>\n<td>Here's a short list</td>\n<td>07:43</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.am/115#t=4336\">1:12:16</a></td>\n<td>Amp is free (with ads)</td>\n<td>01:57</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.am/115#t=4453\">1:14:13</a></td>\n<td>Show Asciinema ads!</td>\n<td>01:48</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.am/115#t=4561\">1:16:01</a></td>\n<td>Bye friends!</td>\n<td>00:52</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.am/115#t=4613\">1:16:53</a></td>\n<td>Boo!</td>\n<td>01:39</td>\n</tr>\n</tbody>\n</table>",
+        "id": 548233475,
+        "sender_full_name": "Logbot",
+        "timestamp": 1761939545
+    },
+    {
+        "content": "<p>WOOHOO! Thank you for doing this episode! I was listening to you describe it and was like \"didn't I have this idea at some point... oh yeah, I guess I did!\"</p>",
+        "id": 548265523,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1761960926
+    },
+    {
+        "content": "<p>I saw raycast in the list and got scared for a minute, jumped right to that section to listen</p>",
+        "id": 548311976,
+        "sender_full_name": "Erik Horton",
+        "timestamp": 1762007067
+    },
+    {
+        "content": "<p>Still using quicksilver to this day, on current OSX</p>",
+        "id": 548319573,
+        "sender_full_name": "Ricky Hussmann",
+        "timestamp": 1762013475
+    },
+    {
+        "content": "<p>Riak was an interesting database that died. It died mostly because of disputes and human strife rather than technology or even funding. They had customers and some big ones too.</p>",
+        "id": 553294387,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1762139027
+    },
+    {
+        "content": "<p>In 1993 there was a program called ecco pro. It was a PIM (personal information manager), back then this category of software was hot. Ecco was head and shoulders above all others in the market IMHO and had a dedicated following. The software was sold to Netmanage in 1997 which then promptly killed it citing the inclusion of microsoft outlook in office for free. They said they can't compete with free software. </p>\n<p>For a long time the community kept trying to use the program but alas without the source not much could be done.   Somebody wrote an app called zoot which was inspired by ecco but to me it just wasn't the same. Ecco had lots of innovative ideas which I haven't seen replicated in any software since. If I was a millionaire I'd hire a team to replicate it just for the hell of it but I don't even think the market for such a thing exists anymore.</p>",
+        "id": 553294755,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1762139406
+    },
+    {
+        "content": "<p>obligatory <a href=\"https://killedbygoogle.com/\">https://killedbygoogle.com/</a> <span aria-label=\"rip\" class=\"emoji emoji-1faa6\" role=\"img\" title=\"rip\">:rip:</span></p>",
+        "id": 553294815,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1762139479
+    },
+    {
+        "content": "<p>I also worked for a couple of years building on cold fusion (the old version not the java version). I was glad to ditch it for PHP when I had the opportunity though.</p>",
+        "id": 553294820,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1762139484
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"771585\">@Ron Waldon-Howe</span> That list seems weird. I hadn't even heard of most of them, some of the ones I did hear about just got renamed or folded into other projects.  </p>\n<p>The only ones I used and had to stop were wave which was great and google plus which I still miss to this day.  Google should bring back plus.</p>",
+        "id": 553295072,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1762139755
+    },
+    {
+        "content": "<p>Google Plus is an interesting cautionary tale: the company forced every product team to integrate with it, resulting in various UX regressions in YouTube, etc<br>\nbut they've learned nothing, as we're seeing the same behaviour with Gemini, which is already resulting in UX regressions in Google Home (completely incorrect summaries of activity captured on Google home security cameras) and elsewhere</p>",
+        "id": 553295198,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1762139927
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"757328\">@Ricky Hussmann</span> wow! Have you tried alternatives or just Spotlight?</p>\n<p><span class=\"user-mention\" data-user-id=\"755905\">@Tim Uckun</span>  I kinda remember Riak...</p>",
+        "id": 553380387,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1762176418
+    }
+]

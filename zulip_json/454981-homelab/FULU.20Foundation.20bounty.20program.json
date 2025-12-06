@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>I just learned about <a href=\"https://bounties.fulu.org\">https://bounties.fulu.org</a>, a thing that Louis Rossman's foundation launched this week. Rossman, for those unaware, is a notable electrics repairperson with a huge YouTube following. He's an advocate for the right to repair. </p>\n<p>They're collecting matching funds to build a grant pool for people to come up with solutions that circumvent vendor security controls to allow device owners to repair and use their devices when vendors change policies, such as Samsung adding ads to refrigerator displays or Molekule requiring use of their first-party air filters to control your (very expensive, very good) air filter remotely, or Nest offlining the 1st and 2nd gen thermostats that all still work just fine (maybe with needing to set up a WiFi SSID for it).</p>",
+        "id": 547148879,
+        "sender_full_name": "Colin Dean",
+        "timestamp": 1761501669
+    },
+    {
+        "content": "<p>You'll own nothing and you'll be happy.</p>",
+        "id": 547159132,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1761512199
+    },
+    {
+        "content": "<p>Basic driver source code held in escrow should be mandatory for all devices</p>",
+        "id": 547164409,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1761517694
+    }
+]

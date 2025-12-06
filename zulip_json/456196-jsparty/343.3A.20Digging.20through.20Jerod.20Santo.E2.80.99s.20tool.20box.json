@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p>KBall interviews Jerod about the tools he uses in development, podcasting &amp; business. We start with text editors &amp; terminal tools, move to podcast recording &amp; editing tools, discuss the open source podcasting platform Jerod built in Elixir, then finish with tools to run a small business &amp; our approaches to genAI. Oh, and you don't want to miss Jerod's Big Confession!</p>\n<p><span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://jsparty.fm/343\">https://jsparty.fm/343</a></p>",
+        "id": 477487620,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729184466
+    },
+    {
+        "content": "<p>That \"Jerod's Big Confession\" chapter just might get me kicked off the pod... (And no, it's not that I actually love TypeScript)</p>",
+        "id": 477500414,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729189439
+    },
+    {
+        "content": "<p>Hi, looking forward to listening to this, but the last episode doesn’t show in the RSS feed (checked both jsparty and the master feed, in the iOS built in app).</p>",
+        "id": 477581938,
+        "sender_full_name": "Simon Mitternacht",
+        "timestamp": 1729232997
+    },
+    {
+        "content": "<p>I'm facing the same issue as Simon, not able to fetch this episode via RSS</p>",
+        "id": 477597117,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1729237963
+    },
+    {
+        "content": "<p>Why is it only today that I learned Changelog is built on Elixir + Phoenix? <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 477616548,
+        "sender_full_name": "Piotr",
+        "timestamp": 1729244320
+    },
+    {
+        "content": "<p>Showed up now <span aria-label=\"tada\" class=\"emoji emoji-1f389\" role=\"img\" title=\"tada\">:tada:</span></p>",
+        "id": 477619270,
+        "sender_full_name": "Simon Mitternacht",
+        "timestamp": 1729245287
+    },
+    {
+        "content": "<p>Super weird that the directories aren't picking up this or the new Changelog Interview published yesterday. The feeds all look valid and the mp3 files are where they're supposed to be...</p>",
+        "id": 477644715,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729254587
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span> what computer do you have and how are you running Llama? That’s something I haven’t played with in Zed yet but I’d tried 3.0 with VSCode a while back and it was quite meh</p>",
+        "id": 477686831,
+        "sender_full_name": "Dustin",
+        "timestamp": 1729267279
+    },
+    {
+        "content": "<p>I’m especially curious how many parameters you’re running</p>",
+        "id": 477689142,
+        "sender_full_name": "Dustin",
+        "timestamp": 1729268095
+    },
+    {
+        "content": "<p>I have an M1 MacBook Pro. I'm running llama3.2:latest via ollama. Pretty sure it's the smallest params</p>",
+        "id": 477690961,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729268766
+    },
+    {
+        "content": "<p>Cool. I’ve got the same setup. I’ll give it another shot then <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+        "id": 477867732,
+        "sender_full_name": "Dustin",
+        "timestamp": 1729401414
+    },
+    {
+        "content": "<p>This was a fun episode and motivated me to give <a href=\"https://github.com/AugustDev/enchanted\">Enchanted</a> a try. However, on Mac, I can't seem to just start typing my message. Rather, I have to first click \"Message\" to give it focus. Same with every follow up message I want to send. I have to click \"Message\" first, and then start typing my message. Is anyone else seeing this? Any workarounds? I do see a couple <a href=\"https://github.com/AugustDev/enchanted/issues/161\">related</a> <a href=\"https://github.com/AugustDev/enchanted/issues/137\">issues</a> are open about this. I'm on Enchanted 1.7.2. Thanks.</p>",
+        "id": 479803917,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1730349433
+    }
+]
