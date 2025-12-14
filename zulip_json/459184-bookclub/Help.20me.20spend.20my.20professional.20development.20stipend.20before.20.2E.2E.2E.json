@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>So work gives us a very generous professional development stipend. Like enough to go across the country for a major week long conference or pay most of a year of MS tuition. Family commitments keep me from doing either, so I effectively have an infinite book budget.</p>\n<p>I get ebooks for things that I expect to go out of date within a couple years. But I like to get hard copies of “the classics”, foundational references, and books that people still recommend 10 years after they’re published.</p>\n<p>Examples of ones I already have:</p>\n<ul>\n<li>Kerrisk’s Linux Programming Interface</li>\n<li>Rago &amp; Stevens’ Advanced Programming in the Unix Environment</li>\n<li>Knuth’s TAoCP (1-4A)</li>\n<li>Lions’ Commentary on Unix</li>\n<li>Kleppmann’s DDIA</li>\n</ul>\n<p>My current interests include operating systems, networking, embedded, and performance. I like deep discussions about implementing real things. I’d like to start using Rust in anger at some point (after doing at least two tutorials), but I also tend to shy away from language specific books unless there’s really good.</p>",
+        "id": 484415723,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1732582331
+    },
+    {
+        "content": "<p>What about an online training or similar? Perhaps a focused course on Rust?</p>",
+        "id": 484843481,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1732771690
+    },
+    {
+        "content": "<p>Good call. I'm actually going to use a chunk of it on an Embedded Linux training from Buildlin.</p>",
+        "id": 486569681,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1733508623
+    }
+]

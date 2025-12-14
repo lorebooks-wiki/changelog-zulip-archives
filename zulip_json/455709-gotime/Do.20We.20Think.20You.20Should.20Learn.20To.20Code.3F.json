@@ -1,0 +1,122 @@
+[
+    {
+        "content": "<p>This one was kind of meandering. I think a little tighter focus would have made the episode better.</p>\n<p>Two thoughts:</p>\n<ol>\n<li>I have been in the industry for decades and the number of developers I have interacted with that care about ethernet frames or packet sizes was less than ten.  </li>\n<li>You are not a lynchpin for anybody except your family. In capitalism we measure value with dollars and anybody who tells you they depend on you should not be believed unless they are paying you. They value your code in proportion to what they are paying you. If they are paying you zero dollars they don't value your work at all and any claims saying how much you owe them should be dismissed out of hand. You don't owe anybody anything.</li>\n</ol>",
+        "id": 495831568,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1737777460
+    },
+    {
+        "content": "<p>People generally don't care about the details but I have seen some people get caught up in the details just enough to freeze and stop learning and being productive. It takes just one more layer to learn to end someone's journey.</p>",
+        "id": 495839111,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1737783970
+    },
+    {
+        "content": "<p>I don't remember what the lynchpin comment is referring to. I got sick just after recording this episode so I don't have all the context loaded in my head.</p>",
+        "id": 495839139,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1737784007
+    },
+    {
+        "content": "<p>The discussion was about you somehow writing some code either as open source or in a company and then being obligated to maintain it and it being a burden. You guys mentioned some log4j and some other products.</p>\n<p>My point is that open source authors don't owe anybody anything. If you don't want to maintain it anymore, don't. Look at boltdb for example. If somebody values it they should pay you to maintain it. If they are not paying they don't value it.  i guess somebody took over boltdb, forked it and life goes on for everybody. It wasn't a lynchpin at all.</p>",
+        "id": 495904120,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1737838315
+    },
+    {
+        "content": "<p>I'll say one more thing that might be unpopular.</p>\n<p>In every team you need different types of people. You can't have a basketball team full of Michael Jordans, you need a Dennis Rodman and a Scottie Pippen and a Steve Kerr etc to form a championship team.  You need those \"nine to five\" devs who can sit down and plow through the tickets and get stuff done. Who don't want to re-architect the code or change how things work or even care about all that.  You need unproductive juniors, you need crazy thinkers, and you need nose to the ground get crap done devs.   As a manager it's your job to put this team together and to make sure they work as a well oiled machine. I don't care if every member of my team is constantly learning  new and esoteric things. Some should but honestly most don't need to at all. If I have a codebase to maintain that's making money for the company the last thing I want is to rewrite it or re architect it or whatever.</p>",
+        "id": 495904619,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1737838681
+    },
+    {
+        "content": "<p>No one owes anyone anything, correct. There is hesitation to put things out there in public because there will be people creating issues, treating it load bearing, or just being mean in comments. That hesitation prevents people from wanting to contribute or write open source code. Then there's the opposite mentality where the maintainer expects payment for their work even though it was released for free.</p>\n<p>I don't think it's strictly always true that if someone doesn't pay for something it's not valuable. Most people don't pay for Linux or Git and those are quite valuable to many people. Heck, most people don't pay for a programming language and we make a living with it.</p>",
+        "id": 495905062,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1737838986
+    },
+    {
+        "content": "<p>Agree that a good team is well diversified in both experience and skill.</p>",
+        "id": 495905097,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1737839036
+    },
+    {
+        "content": "<p>If we value it then we should pay for it. Somehow, some way. I think the reason people don't pay is because they just don't value it that much. If linux went away they would switch to something else, if go went away they would switch to rust or whatever. Of course some companies are invested in the success of Linux and Go and that's why they pay for it. We are just freeloaders :)</p>",
+        "id": 495910623,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1737844328
+    },
+    {
+        "content": "<p>I think paying for something with money is one way to show that you value it but that doesn't strictly mean you value it. I pay money to ride the train but I don't value it, it's just the most efficient for my time which I value more than the train.</p>\n<p>Spending time with something is another way to show you value it. One can argue that's \"paying\" with your time. Point is I don't think everything of value needs to be traded for money.</p>\n<p>And yes, of course when things go away there's an opportunity to replace it with something else to fill that void. Doesn't mean the original thing wasn't valuable.</p>",
+        "id": 495915295,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1737849068
+    },
+    {
+        "content": "<p>There's this post about how profit/produce is distributed in one version of a hunter economy, and it makes me wonder if software development could map to this: <a href=\"https://unintendedconsequenc.es/borrowing-an-arrow/\">https://unintendedconsequenc.es/borrowing-an-arrow/</a></p>",
+        "id": 495931687,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1737865609
+    },
+    {
+        "content": "<p>That was an interesting read about passing the heroism to the next layer of abstraction essentially.</p>",
+        "id": 495991829,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1737917679
+    },
+    {
+        "content": "<p>What's the parallel in software? Do we pass our glory to the programming language creator? To the hosting provider of our source code? To electrical engineers?</p>",
+        "id": 495991863,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1737917716
+    },
+    {
+        "content": "<p>(I'm asking rhetorically, but it's a good thought experiment.)</p>",
+        "id": 495993084,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1737918622
+    },
+    {
+        "content": "<p>Some sort of improved profit/resource sharing with our dependencies? And not just software libraries and compilers, but all the way out to the real world <br>\nI wonder how much of a crisis the world would be if gigantic corporations and billionaires didn't bargain their suppliers (water, electricity, governments, etc) down to 0% margins or worse</p>",
+        "id": 496002074,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1737925840
+    },
+    {
+        "content": "<p>Here is a vision to consider.</p>\n<p>A software delivery mechanism based on a blockchain like database. You put your packages there and dependencies are fetched from there.  This would solve a lot of problems because packages would be immutable and ownership would be verifiable so hijacking packages for nefarious purposes, clear tracking of uploads etc.</p>\n<p>Each author sets a price for their software or package. You pay when you fetch it. If you think it costs too much you use something else. If people like your free package you can charge more for the next version while the people can continue to fetch the previous version for free.</p>",
+        "id": 496035451,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1737952917
+    },
+    {
+        "content": "<p>Immutable content-addressed packages are a great idea<br>\nIt doesn't really need block-chain though, any package repository that exists today could add this as a feature<br>\nI'd also love repeatable and reproducible builds, so we can tell which commit in the package source produces the distributed package</p>",
+        "id": 496038641,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1737955467
+    },
+    {
+        "content": "<p>in order to guarantee immutability you need an immutable data store. IPFS would be a great baseline you could build something on top of.</p>",
+        "id": 496042370,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1737958241
+    },
+    {
+        "content": "<p>Provided you also have repeatability and reproducibility, you can trust any vendor offering a content-addressed API for packages</p>",
+        "id": 496044274,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1737959423
+    },
+    {
+        "content": "<p>Isn't there a license component to this? How does one prevent someone from paying for a package, copying it in to your own free package or cheaper package, and offering back to others?</p>",
+        "id": 496045577,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1737960049
+    },
+    {
+        "content": "<p>Copyright law already exists <br>\nThere's no technology solution for copying that isn't awful, especially because only a human court can say what is and isn't breaching terms of copyright <br>\nSo, sure, there's a licence/law angle here</p>",
+        "id": 496046137,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1737960263
+    }
+]

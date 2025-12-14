@@ -1,0 +1,110 @@
+[
+    {
+        "content": "<p>I'm working on a project that uses AWS CDK for its IAC. This is my first time with CDK. I've worked with Terraform a fair amount in the past, though I'm far from an expert in either.</p>\n<p>Some folks on the team are making noise that they're finding CDK limiting, especially around importing resources and drift. The tools I've heard mentioned in the Changelog-verse recently are <strong>Terraform</strong>, <strong>Dagger</strong>, <strong>SST</strong>, and <strong>System Initiative</strong>.</p>\n<p>Does anyone have any favorites? What should we consider and why?</p>",
+        "id": 519449576,
+        "sender_full_name": "James A Rosen",
+        "timestamp": 1747765499
+    },
+    {
+        "content": "<p>I’ve used Terraform mostly for managing cloud resources. I hadn’t heard of SST, and hadn’t thought of Dagger as a tool you could use for managing cloud resources <span aria-label=\"thinking\" class=\"emoji emoji-1f914\" role=\"img\" title=\"thinking\">:thinking:</span> and I have heard people mention good things about System Initiative, but I’m not sure how much they had it managing, and I haven’t used it myself. System Initiative may be worth looking at more closely in relation to managing drift, because that’s one thing that project is intending to tackle specifically. </p>\n<p>I’ve been primarily working with Terraform on GCP the last couple years. I have a colleague that is suggesting Terragrunt for the more complex Terraform stuff we are currently managing on our team.</p>\n<p>I haven’t heard much about AWS CDK or looked into it myself to compare, I first thought it was in reference to CloudFormation, then looked it up and realized it was a development kit, which makes me think of Pulumi.</p>\n<p>It would be interesting to understand more of the friction you are hearing about with using CDK to better recognize the sharp edges the team is finding, what expectations exist, and how it may not be providing the expected usability to manage the infrastructure. Do you know what the history is with why CDK has been used?</p>",
+        "id": 519453654,
+        "sender_full_name": "Matt Johnson",
+        "timestamp": 1747766966
+    },
+    {
+        "content": "<p>I live and breathe CDK as part of my job, and the import story has gotten a lot easier as of late. Happy to answer questions around it too!</p>",
+        "id": 519462563,
+        "sender_full_name": "Dan McClain",
+        "timestamp": 1747770305
+    },
+    {
+        "content": "<p><strong>Terraform</strong><br>\nI mostly found imports to be pretty good. Most resources define an import. A key challenge was branches with a central state server. If I import a resource on a branch, then open a PR, then someone else runs <code>tf apply</code> from <code>main</code>, it'll delete the imported resource, which might take production down.</p>\n<p><strong>CDK</strong><br>\nGood library coverage for most AWS resources. Poor coverage for anything else.<br>\nExample: if you want to define Airflow in IaC, you want not just things like the Airflow version, but also some key configuration like the S3 bucket for DAGs and the Database Connection. Those can be defined via a REST API, but there are no CDK resources for them. The only solution is to write a Lambda function that runs after the resource is created and makes the changes.</p>\n<p>CDK is roughly a DSL for CloudFormation. CloudFormation only ensures that what you wrote gets run, but not that the end result matches the plan. CloudFormation has <em>drift detection</em>, but it's not part of the CDK workflow.</p>\n<p>CDK doesn't have great ways to share information across stacks. Imagine you have two services, <code>foo</code> and <code>bar</code>, where <code>foo</code> depends on <code>bar</code>. Each service can have its own stack with its own VPC, database, Docker container, DNS, etc. They can live in sibling directories. But there isn't a good way to get the DNS address out of the <code>bar</code> stack and inject it into the <code>foo</code> stack. The standard answer is to define it in a constant and import the package as a JS import from the workspace. But that doesn't work well for <em>outputs</em>. (Constructs can have outputs, but they only get resolved within a single stack as far as I can tell.)</p>\n<p>Sadly, I don't know why CDK was chosen for this stack. That choice predates a major pivot in business model and none of those engineers are still around.</p>",
+        "id": 519486174,
+        "sender_full_name": "James A Rosen",
+        "timestamp": 1747781251
+    },
+    {
+        "content": "<p>my team has dabbled in basically everything except for System Initiative, so i'm very curious about that one (especially in terms of whether you can use it and stay SOX/SOC2/FedRAMP compliant, it's probably too young for that)</p>",
+        "id": 519491367,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1747784548
+    },
+    {
+        "content": "<p>we used to generate CloudFormation templates with un-typed JavaScript, then we shifted to TypeScript and cloudform ( <a href=\"https://www.npmjs.com/package/cloudform\">https://www.npmjs.com/package/cloudform</a> ), but that project is much older than AWS CDK and we'd probably have used AWS CDK if it was available (because that's 1st-party types from AWS instead of 3rd-party types)<br>\nstatic typing for these makes a huge difference, in terms of correctness and productivity, we still make the odd mistake, but lots of basic stuff is caught during our builds</p>",
+        "id": 519491778,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1747784824
+    },
+    {
+        "content": "<p>for a related project, we had CloudFormation templates that were stored as jinja templates and populated/executed by ansible<br>\nansible/jinja being a Python-based CLI is just awful, Python is a great language when you're running it in a docker container and there's no mixing between host modules and project modules, but as a CLI or anything that is shared between machines, it's just awful: <a href=\"https://xkcd.com/1987/\">https://xkcd.com/1987/</a></p>",
+        "id": 519491986,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1747784965
+    },
+    {
+        "content": "<p>lately, my team has been using terraform's CDKTF with Kotlin (although I imagine it's pretty similar and possibly even better if you use it with TypeScript as I think that's the premier language for CDKTF)<br>\ni'm not a fan of the JVM or maven, but in practice this has been working well for us: it's statically-typed, we can write unit tests for some tricky parts, Kotlin has a rich standard library and is pretty good for writing your own DSLs</p>",
+        "id": 519492244,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1747785124
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"911053\">Dan McClain</span> <a href=\"#narrow/channel/453512-general/topic/Infrastructure.20as.20Code.20Landscape/near/519462563\">said</a>:</p>\n<blockquote>\n<p>I live and breathe CDK as part of my job, and the import story has gotten a lot easier as of late</p>\n</blockquote>\n<p>I'd love to hear more! We have lots of resources that we want to import, but every one has been a struggle.</p>\n<p>The other area we're having trouble with is having to redeploy higher-level stateful stacks (e.g. Database) when a lower-level stack changes (e.g. Subnet). We want to rework all our network topologies so we can share one VPN across environments, but CDK / CloudFormation _really_ wants us to destroy and rebuild our production database.</p>",
+        "id": 519492796,
+        "sender_full_name": "James A Rosen",
+        "timestamp": 1747785542
+    },
+    {
+        "content": "<p>You can share things across stacks by defining the stacks together. I think a lot of my problems are \"solved\" because it's a lot of internal Amazon tooling, so we have pipelines that understand stacks and whatnot. But if you (in typescript land) pass a construct from one stack to the other, it will export and import outputs for you (this also creates a deadly embrace across stacks where no longer using an export value gets unexported before the other stack deploys, so you have to do a <code>this.exportValue(myResource.arn)</code> for example</p>\n<p>Buuutttt if you have a lot of resource already existing, that is a whole lot of not fun</p>",
+        "id": 519495652,
+        "sender_full_name": "Dan McClain",
+        "timestamp": 1747787330
+    },
+    {
+        "content": "<p>This is newer (and less pain than it used to be), I've never used it though: <a href=\"https://docs.aws.amazon.com/cdk/v2/guide/cli.html#cli-import\">https://docs.aws.amazon.com/cdk/v2/guide/cli.html#cli-import</a></p>",
+        "id": 519495704,
+        "sender_full_name": "Dan McClain",
+        "timestamp": 1747787375
+    },
+    {
+        "content": "<blockquote>\n<p>You can share things across stacks by defining the stacks together</p>\n</blockquote>\n<p>I think this is where we're stuck. If we put FooStack and BarStack together, then FooStack is far away from FooAppImplementation. We have a monorepo for many services, which helps, but we still haven't found a clean approach.</p>",
+        "id": 519715801,
+        "sender_full_name": "James A Rosen",
+        "timestamp": 1747868488
+    },
+    {
+        "content": "<p>You don't necessarily need to DRY everything, sometimes WET is okay, too :)</p>",
+        "id": 519723523,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1747873406
+    },
+    {
+        "content": "<p>You might want to have a look at Pulumi as well.</p>\n<p>I have spent many years with AWS CDK, and I have a love/hate relationship with it. Some parts are pretty nice, others are a bit frustrating - many of the frustrating parts comes from limitations inherited from CloudFormation.</p>\n<p>In terms of importing existing resources, I would say no tool is really nice, but some may be less painful than others.</p>\n<p>As <span class=\"user-mention\" data-user-id=\"911053\">@Dan McClain</span> says, AWS CDK has become a bit better in that area (i.e. less painful), although it still has room for improvement, and you really need to be using TypeScript to get full use of what is there currently.</p>\n<p>I think both Terraform and Pulumi have better stories in terms of importing existing resources.<br>\nPulumi recently introduced a visual importer tool also, at least if you use their Pulumi Cloud service.</p>\n<p>Both Pulumi and AWS CDK is nice in that they allow you to use regular programming languages, and you have developer-oriented teams. Same if they use SST (which uses Pulumi under the hood).<br>\nAWS CDK has extensive support for some higher level components on top of the underlying AWS resources, Pulumi has far fewer such components.<br>\nThere is an adapter/library to use AWS CDK components in Pulumi, which currently only supports TypeScript. </p>\n<p>Both Terraform and Pulumi have the advantage that they are not restricted to AWS resources. Pulumi's integration/co-existence with Terraform is better than AWS CDK &amp; Terraform, if you would consider Terraform for some type of infrastructure.</p>\n<p>System Initiative is a very different beast, but an interesting one. It is a bit more like infrastructure-as-diagrams-with-code-customisations, and rather have a concept of \"digital twins\" for the infrastructure instead of separate state representations stored somewhere - a more interactive approach. It has been a while since I looked at it, and back then it did not have a good story for importing existing reasources, but was on the todo-list. I am not sure where they are now in that regard.</p>",
+        "id": 520431231,
+        "sender_full_name": "Erik Lundevall-Zara",
+        "timestamp": 1748260467
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752850\">Erik Lundevall-Zara</span> <a href=\"#narrow/channel/453512-general/topic/Infrastructure.20as.20Code.20Landscape/near/520431231\">said</a>:</p>\n<blockquote>\n<p>You might want to have a look at Pulumi as well.</p>\n</blockquote>\n<p>A bit late to this thread, but I second this. I've worked with CF, CDK, Terraform/OpenTofu and Pulumi, and in a greenfield project with a team that doesn't have a strong background in a particular IaC framework yet, I'd pick Pulumi. (Although I might reach for CDK when it's a small, AWS-only project.) I find modularizing code and implementing things like loops and conditional properties in a higher-level language more convenient than expressing this in HCL.</p>\n<p>Even though it looks like CDK and Pulumi are closely related, Pulumi is a lot closer to Terraform. CDK produces CF templates, which are then sent to the fairly opaque CF service run by AWS. Pulumi, like Terraform, has its own engine that's running locally. This leads to faster feedback/failures and makes debugging easier. It also means you can bring your own resource providers, you can even create them dynamically in some languages, and you can create CLI tools for infrastructure self-service.</p>",
+        "id": 521303728,
+        "sender_full_name": "Kilian Kluge",
+        "timestamp": 1748613750
+    },
+    {
+        "content": "<p>Thank, you, <span class=\"user-mention\" data-user-id=\"752850\">@Erik Lundevall-Zara</span> and <span class=\"user-mention\" data-user-id=\"756656\">@Kilian Kluge</span> <span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span></p>\n<p>I truly hadn't considered Pulumi. Though I had heard of it, I don't know anyone who has used it and I don't recall any podcasts about it. I'll definitely put it on the list and look for some good material.</p>",
+        "id": 521383016,
+        "sender_full_name": "James A Rosen",
+        "timestamp": 1748646128
+    },
+    {
+        "content": "<p>I have heard great feedback about SST. I haven't had an opportunity to use it myself but plan on it at some point. We almost exclusively use CDK currently and SST is supposedly a better experience than that.</p>",
+        "id": 523165773,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1749502302
+    },
+    {
+        "content": "<p>I haven't worked with SST, but I frequently point people who are coming to Pulumi from a CF/CDK background to their blog post where they discuss why they made the switch: <a href=\"https://sst.dev/blog/moving-away-from-cdk/\">https://sst.dev/blog/moving-away-from-cdk/</a></p>",
+        "id": 523538088,
+        "sender_full_name": "Kilian Kluge",
+        "timestamp": 1749641046
+    }
+]
