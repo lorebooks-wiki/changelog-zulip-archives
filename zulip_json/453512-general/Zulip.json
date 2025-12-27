@@ -1,0 +1,104 @@
+[
+    {
+        "content": "<p>Just wrapped the Zulip episode. <a href=\"https://changelog.com/podcast/607\">https://changelog.com/podcast/607</a></p>\n<p>Curious how Changelog &amp; community is liking Zulip 6+ month later?</p>",
+        "id": 510391161,
+        "sender_full_name": "Joe",
+        "timestamp": 1743872117
+    },
+    {
+        "content": "<p>I love it. </p>\n<p>I had never engaged with the community in Slack because I always got too overwhelmed with the linear flow of conversations. Topic based systems are such a fresh breath of air. For example, I can never imagine having a thread like <a class=\"stream-topic\" data-stream-id=\"453512\" href=\"/#narrow/channel/453512-general/topic/WordPress.20Drama/with/472009371\">#general &gt; WordPress Drama</a> being continued for so long in Slack.</p>",
+        "id": 510393626,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1743873911
+    },
+    {
+        "content": "<p>I'm a big fan, very happy to have one fewer Slack in my life. Zulip feels snappier all round, but one way I especially notice it is that when I read messages, they stay read. In Slack I have to swap accounts and channels several times before the white dots go away. Minor detail but important!</p>",
+        "id": 510444129,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1743914319
+    },
+    {
+        "content": "<p>Loving it too, most notably it makes all my other Slack/Discord communities feel tedious by comparison. Also one or two groups I belong to have moved from Slack to Discord and I've wished Zulip was a more realistic consideration for a general (not tech or work-focused) audience</p>",
+        "id": 510783558,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1744068121
+    },
+    {
+        "content": "<p>I'm gearing up to try Zulip with a local community led housing group. Several members struggle with Slack's UI and finding messages across various channels so I'm keen to see what they make of Z.</p>",
+        "id": 510804280,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1744079882
+    },
+    {
+        "content": "<p>Big fan. My company is looking to deploy its 3rd self hosted chat system in as many years and I’m trying to unite the anti-“let’s just use Teams because we already pay for Office” people around Zulip.</p>",
+        "id": 512065142,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1744633285
+    },
+    {
+        "content": "<p>Is there any kind of search functionality in Zulip? I was trying to find a relevant topic to something I wanted to post and I couldn't find any kind of search (I'm on mobile, so maybe desktop has it?)</p>\n<p>Without it, I need to click into each channel, and then scroll through all the topics (and possibly scroll through topic messages to see if it's actually relevant to my topic) which doesn't lead to the best experience.</p>",
+        "id": 526653871,
+        "sender_full_name": "Chris Duzan",
+        "timestamp": 1751390593
+    },
+    {
+        "content": "<p>Or, is the intention to create new topics instead of trying to match existing ones?</p>",
+        "id": 526653965,
+        "sender_full_name": "Chris Duzan",
+        "timestamp": 1751390640
+    },
+    {
+        "content": "<p>Yes, Zulip Mobile does not have it, but the desktop does. You can go to the <strong>Combined feed</strong> and search.</p>",
+        "id": 526654313,
+        "sender_full_name": "Dixit Ram",
+        "timestamp": 1751390797
+    },
+    {
+        "content": "<p>Zulip mobile used to have search in the previous (now legacy) react native app, the newer app in flutter was just published a week ago and search is likely coming within the next week.</p>",
+        "id": 526724334,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1751435622
+    },
+    {
+        "content": "<p>I've ended up downgrading to the legacy app. I wasn't enjoying the new app. Everything seemed to take a lot longer to load, and in some cases just hung whilst loading. I also prefer the style of old app, it seemed more difficult to read for me in the new one.</p>",
+        "id": 526733325,
+        "sender_full_name": "Alex Barnes",
+        "timestamp": 1751440134
+    },
+    {
+        "content": "<p>That's surprising to hear. I'd request you to post your feedback in Zulip's mobile feedback thread.</p>\n<p>I was using the new app since past few months as a beta user and easily prefer the new app over the old one (except for one crucial missing feature i.e. search)</p>",
+        "id": 526744224,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1751444049
+    },
+    {
+        "content": "<p>I feel so confused trying to navigate this thing... I'm 30 years old and this makes me feel like a boomer</p>",
+        "id": 526795301,
+        "sender_full_name": "Omri Gabay",
+        "timestamp": 1751461014
+    },
+    {
+        "content": "<p>New app is fine for me. I just want search. Maybe I'm just missing it though since I haven't played around much.</p>",
+        "id": 526890182,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1751496448
+    },
+    {
+        "content": "<p>I am not getting notifications properly ,in this new update?</p>",
+        "id": 527097639,
+        "sender_full_name": "Dixit Ram",
+        "timestamp": 1751596246
+    },
+    {
+        "content": "<p>They shipped search with the latest update of the app</p>",
+        "id": 527257776,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1751696039
+    },
+    {
+        "content": "<p>I just had a Zulip notification flow all the way through to my Google Pixel watch, which I don't think has ever happened before <br>\nNot mad, I assume this is some of the new app magic?</p>",
+        "id": 527308602,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1751755471
+    }
+]

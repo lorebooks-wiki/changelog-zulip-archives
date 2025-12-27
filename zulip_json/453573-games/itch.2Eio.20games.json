@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Anyone try <a href=\"https://erayzesen.itch.io/comball\">comball</a>. Sort of billiards meets merge/match games.</p>",
+        "id": 497059146,
+        "sender_full_name": "Jarvis",
+        "timestamp": 1738346180
+    },
+    {
+        "content": "<p>wow, that's fun! <span class=\"user-mention\" data-user-id=\"752841\">@Jarvis</span></p>",
+        "id": 562192821,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1764973932
+    },
+    {
+        "content": "<p>I can also recommend:</p>\n<ul>\n<li><a href=\"https://raffomania.itch.io/knakk\">https://raffomania.itch.io/knakk</a></li>\n<li><a href=\"https://krajzeg.itch.io/solitomb\">https://krajzeg.itch.io/solitomb</a></li>\n<li><a href=\"https://krajzeg.itch.io/slipways\">https://krajzeg.itch.io/slipways</a></li>\n</ul>\n<p>(note that PICO-8 games don't run so well on Android if you've enabled Advanced Protection and thus have disabled JIT in JavaScript)</p>",
+        "id": 562192971,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1764974038
+    },
+    {
+        "content": "<p><a href=\"#narrow/channel/453573-games/topic/Clues.20by.20Sam/near/563088846\">https://changelog.zulipchat.com/#narrow/channel/453573-games/topic/Clues.20by.20Sam/near/563088846</a></p>",
+        "id": 563093263,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1765419085
+    }
+]

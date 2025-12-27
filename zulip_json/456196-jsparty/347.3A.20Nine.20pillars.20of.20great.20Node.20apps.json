@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Recently, four pillars of the JavaScript community (James Snell, Natalia Venditto, Michael Dawson &amp; Matteo Collina) teamed up to create a resource that lays out nine principles for doing Node.js right in enterprise environments. On this episode, Natalia &amp; Matteo join Jerod to discuss all nine. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://jsparty.fm/347\">https://jsparty.fm/347</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td>00:00</td>\n<td>It's party time, y'all</td>\n<td>00:39</td>\n</tr>\n<tr>\n<td>02</td>\n<td>00:39</td>\n<td><a href=\"http://notion.com/jsparty\">Sponsor: Notion</a></td>\n<td>01:28</td>\n</tr>\n<tr>\n<td>03</td>\n<td>02:07</td>\n<td>Hello party people</td>\n<td>01:36</td>\n</tr>\n<tr>\n<td>04</td>\n<td>03:43</td>\n<td>How it came together</td>\n<td>03:09</td>\n</tr>\n<tr>\n<td>05</td>\n<td>06:52</td>\n<td><a href=\"https://www.platformatichq.com/node-principles\">The nine pillars</a></td>\n<td>01:31</td>\n</tr>\n<tr>\n<td>06</td>\n<td>08:24</td>\n<td>5: Avoid dependency creep</td>\n<td>06:15</td>\n</tr>\n<tr>\n<td>07</td>\n<td>14:38</td>\n<td>6: De-risk your dependencies</td>\n<td>04:06</td>\n</tr>\n<tr>\n<td>08</td>\n<td>18:44</td>\n<td><a href=\"https://workos.com\">Sponsor: WorkOS</a></td>\n<td>02:50</td>\n</tr>\n<tr>\n<td>09</td>\n<td>21:34</td>\n<td>7: Avoid globals</td>\n<td>08:34</td>\n</tr>\n<tr>\n<td>10</td>\n<td>30:09</td>\n<td>8: Handle errors, log well</td>\n<td>04:37</td>\n</tr>\n<tr>\n<td>11</td>\n<td>34:46</td>\n<td>9: Use API specs, generate clients</td>\n<td>05:37</td>\n</tr>\n<tr>\n<td>12</td>\n<td>40:23</td>\n<td><a href=\"https://jam.dev\">Sponsor: Jam.dev</a></td>\n<td>01:31</td>\n</tr>\n<tr>\n<td>13</td>\n<td>41:55</td>\n<td>1: Do not block the event loop</td>\n<td>03:53</td>\n</tr>\n<tr>\n<td>14</td>\n<td>45:47</td>\n<td>2: Monitor Node-specific metrics</td>\n<td>04:09</td>\n</tr>\n<tr>\n<td>15</td>\n<td>49:56</td>\n<td>3: Use Node LTS</td>\n<td>04:36</td>\n</tr>\n<tr>\n<td>16</td>\n<td>54:32</td>\n<td>4: Automate testing, code review, conformance</td>\n<td>02:32</td>\n</tr>\n<tr>\n<td>17</td>\n<td>57:04</td>\n<td>Bonus pillars</td>\n<td>03:09</td>\n</tr>\n<tr>\n<td>18</td>\n<td>1:00:14</td>\n<td>Closing time</td>\n<td>02:54</td>\n</tr>\n<tr>\n<td>19</td>\n<td>1:03:08</td>\n<td><a href=\"https://merch.changelog.com\">Next up on the pod (merch!)</a></td>\n<td>01:00</td>\n</tr>\n</tbody>\n</table>",
+        "id": 483769043,
+        "sender_full_name": "Logbot",
+        "timestamp": 1732215848
+    },
+    {
+        "content": "<p>One thing I'd add from experience is: don't forget that JavaScript is single threaded<br>\nNo point scaling up by adding CPU cores if you don't also take extra measures to use those cores, because otherwise they'll sit there doing nothing</p>",
+        "id": 505925307,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1742105489
+    },
+    {
+        "content": "<p>Another example of \"worse is better\" in this industry.</p>",
+        "id": 505995746,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1742158667
+    }
+]
