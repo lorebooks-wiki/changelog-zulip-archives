@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p>Jerod and Adam use Chris Kiehl's post on development topics he's changed his mind on (over the last 10 years) as a proxy for discussion on dev things they HAVE and HAVE NOT changed their minds on. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.am/81\">https://changelog.am/81</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.am/81#t=0\">00:00</a></td>\n<td>Let's talk!</td>\n<td>00:38</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.am/81#t=38\">00:38</a></td>\n<td><a href=\"https://retool.com/changelog\">Sponsor: Retool</a></td>\n<td>02:45</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.am/81#t=203\">03:23</a></td>\n<td>Start the show!</td>\n<td>00:30</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.am/81#t=233\">03:53</a></td>\n<td>Wordsmithing blog titles</td>\n<td>04:49</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.am/81#t=523\">08:43</a></td>\n<td>REPLs are not useful design tools</td>\n<td>04:19</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.am/81#t=782\">13:02</a></td>\n<td>Most programing should be done long before code is written</td>\n<td>08:23</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.am/81#t=1285\">21:25</a></td>\n<td>Take no pride in understanding complexity</td>\n<td>00:45</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.am/81#t=1331\">22:11</a></td>\n<td>Adam hasn't changed his mind on...?</td>\n<td>07:43</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.am/81#t=1793\">29:53</a></td>\n<td>Jerod hasn't changed his mind on...?</td>\n<td>09:14</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.am/81#t=2347\">39:07</a></td>\n<td><a href=\"https://www.augmentcode.com\">Sponsor: Augment Code</a></td>\n<td>03:30</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.am/81#t=2557\">42:37</a></td>\n<td>Colaboration is still hard (if not harder)</td>\n<td>03:21</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.am/81#t=2758\">45:58</a></td>\n<td>Software can't solve people problems</td>\n<td>07:42</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.am/81#t=3220\">53:40</a></td>\n<td>Let's talk to Steph Ango (Obsidian)</td>\n<td>02:08</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.am/81#t=3348\">55:48</a></td>\n<td>Don't obsessively tweak your environment</td>\n<td>02:22</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.am/81#t=3490\">58:10</a></td>\n<td>Tweaking htop</td>\n<td>14:09</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.am/81#t=4339\">1:12:19</a></td>\n<td>My tools can't help you do what I do (at the level I do it)</td>\n<td>06:36</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.am/81#t=4735\">1:18:55</a></td>\n<td><a href=\"https://temporal.io\">Sponsor: Temporal</a></td>\n<td>02:04</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.am/81#t=4859\">1:20:59</a></td>\n<td>Every dev should learn SQL</td>\n<td>10:34</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.am/81#t=5493\">1:31:33</a></td>\n<td>Just in time learning</td>\n<td>13:30</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.am/81#t=6303\">1:45:03</a></td>\n<td>Adam's AI Homelab is runnning on Windows 11 Pro</td>\n<td>03:04</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.am/81#t=6487\">1:48:07</a></td>\n<td>Should we be running AI services locally?</td>\n<td>04:46</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.am/81#t=6773\">1:52:53</a></td>\n<td>Bye friends</td>\n<td>00:04</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.am/81#t=6779\">1:52:59</a></td>\n<td>Closing thoughts and stuff</td>\n<td>03:32</td>\n</tr>\n</tbody>\n</table>",
+        "id": 501189072,
+        "sender_full_name": "Logbot",
+        "timestamp": 1740172927
+    },
+    {
+        "content": "<p>Listening to this episode and thinking of the saying 'Slow is smooth, smooth is fast' <a href=\"https://www.youtube.com/watch?v=Isp500Npne0\">https://www.youtube.com/watch?v=Isp500Npne0</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"Isp500Npne0\" href=\"https://www.youtube.com/watch?v=Isp500Npne0\"><img src=\"https://uploads.zulipusercontent.net/717042f19e9e23ce9f6168efcdb1cc6afdcdafe2/68747470733a2f2f692e7974696d672e636f6d2f76692f4973703530304e706e65302f64656661756c742e6a7067\"></a></div>",
+        "id": 501409830,
+        "sender_full_name": "Yawar Amin",
+        "timestamp": 1740344291
+    },
+    {
+        "content": "<p>Hi guys, really liked this episode!<br>\n<span class=\"user-mention\" data-user-id=\"750017\">@Adam Stacoviak</span> I think you mentioned it would be cool to have a nice display with KVM built in. Take a look at the ProArt Display PA27JCV - they say it has KVM built in. I didn't really look into KVM thing, but it is a really cool 5K 27\" display - nice pixel density <span aria-label=\"sunglasses\" class=\"emoji emoji-1f60e\" role=\"img\" title=\"sunglasses\">:sunglasses:</span>.</p>",
+        "id": 501490198,
+        "sender_full_name": "Hubert",
+        "timestamp": 1740389812
+    },
+    {
+        "content": "<p>I had a hard time listening to this one. I usually enjoy the casual, free-flowing convos, but this one felt like Jerod and Adam were standing on either side of a conveyor belt beating a stream of dead horses.</p>",
+        "id": 501549190,
+        "sender_full_name": "Joel RW",
+        "timestamp": 1740405058
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"874523\">Yawar Amin</span> <a href=\"#narrow/channel/455613-friends/topic/81.3A.20Change.20my.20mind/near/501409830\">said</a>:</p>\n<blockquote>\n<p>Listening to this episode and thinking of the saying 'Slow is smooth, smooth is fast' <a href=\"https://www.youtube.com/watch?v=Isp500Npne0\">https://www.youtube.com/watch?v=Isp500Npne0</a></p>\n</blockquote>\n<p>This reminds me of the movie \"Shooter\" where they said the same quote. Always stuck with me.</p>",
+        "id": 501607257,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1740418568
+    },
+    {
+        "content": "<p>Finally finished this episode. I think <span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span> was straggling the line between customization and ricing. I agree that it's generally a waste of time to rice your setup instead of just using the dang thing. However, I think a lot of people don't take the 20% of time up front to learn the basics of the tools they are using. Then they complain on the internet that the tool \"wasn't for them\" or \"sucks\" and that they will \"build a modern tool that's better\". If you just spent even 5 minutes learning the tool you'd realize it doesn't suck and it does meet your needs.</p>",
+        "id": 501650847,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1740432122
+    },
+    {
+        "content": "<p>Agreed that just using an expert's tools doesn't make you an expert yourself but the journey learning how the expert is using the tools and applying that to your workflow can make you an expert over time. I remember this in pool where having a $500 stick doesn't magically make you better at pool but once you're at a certain level of skill it does help. I can pick up a bar stick and beat most people in pool since I know the fundamentals well. Same thing with my profession. I can use <code>vi</code> without syntax highlighting and AI to edit files and put out good work if necessary but of course I'd rather use my normal setup. I'm not lost like some of the new people in this field that take the day off when ChatGPT is down.</p>",
+        "id": 501651394,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1740432334
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"878281\">Joel RW</span> <a href=\"#narrow/channel/455613-friends/topic/81.3A.20Change.20my.20mind/near/501549190\">said</a>:</p>\n<blockquote>\n<p>I had a hard time listening to this one. I usually enjoy the casual, free-flowing convos, but this one felt like Jerod and Adam were standing on either side of a conveyor belt beating a stream of dead horses.</p>\n</blockquote>\n<p>What are the dead horses here? To me the conversation was a back and forth on what things have you or have you not changed your mind about? Topics like tooling came up and the hosts answered from their perspectives but it's not like these topics are \"solved\" by any means. Every person has their own opinion on these topics and it's good to hear others to better refine yours. If I had to guess I'd say that you already formed your opinions on the topics discussed so you didn't find value in the discussion.</p>",
+        "id": 501651842,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1740432501
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span> regarding \"slow down to go faster\" you may have phrased it this way first but the Military has been saying \"Slow is smooth, smooth is fast\" for a very long time. I believe the origins of this phrase begins with the Latin \"Festina Lente\" used by the Roman Navy. Translates to \"make haste slowly\".  I haven't ever heard it applied to software development however.  So I'll give you the cred for that. <br>\nLove your show guys, I tell all coders I know to check you guys out.<br>\n(I should have looked at previous messages before posting this, I see i moved too slowly)</p>",
+        "id": 501948019,
+        "sender_full_name": "Brian Fulton",
+        "timestamp": 1740536837
+    },
+    {
+        "content": "<p>I remember being told to <em>\"slow down to go fast\"</em> last century in the context of learning to drive from my bro's dad, a truck driver among other careers. Read the following with a diesel-soaked mechanic version of Tintin's Captain Haddock not-for-company vocabulary.  <em>\"You boys have your pedal down all the time, then have to brake and overcorrect. Your sister get's it right. Slow down going into the corner, then smoothly accelerate throughout the turn.\"</em> </p>\n<p>In a similar vein: <em>\"you dumb kids think the way to use four-wheel drive is to get off the highway, lock up the hubs and go for broke. The right way is to go down that back road until you get in a tight spot, then use four-by to get out and go home. What you're gonna do: not listen to me, get stuck way the hell out there, and walk out.\"</em>  </p>\n<p>He nailed it. (Hella fun though, even with the 2,3, and 7 hour hikes depending on which event we're celebrating. Also expensive. Took me 5 years to pay off the 7hr one.)</p>\n<p>The slow down to go fast refrain echoes through my mind recurringly still, in widely varying contexts. As does the other, though one could say the 4x4 one is an alternate phrasing of the 1st.</p>",
+        "id": 502891486,
+        "sender_full_name": "matt wilkie",
+        "timestamp": 1740943115
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"878281\">Joel RW</span> <a href=\"#narrow/channel/455613-friends/topic/81.3A.20Change.20my.20mind/near/501549190\">said</a>:</p>\n<blockquote>\n<p>I had a hard time listening to this one.</p>\n</blockquote>\n<p>Sorry to hear that! We aim to please, but sadly we can't please every person every time. Appreciate your candid feedback (and that you feel free/empowered to give such feedback in this forum.)</p>\n<p><span class=\"user-mention silent\" data-user-id=\"766320\">Brian Fulton</span> <a href=\"#narrow/channel/455613-friends/topic/81.3A.20Change.20my.20mind/near/501948019\">said</a>:</p>\n<blockquote>\n<p>you may have phrased it this way first but the Military has been saying \"Slow is smooth, smooth is fast\" for a very long time.</p>\n</blockquote>\n<p>I've heard that before and dig it for sure, didn't realize it was a military thing!</p>\n<p>I wasn't trying to claim I invented anything. If it came off that way on the pod, I miscommunicated. I was just slightly miffed that when I typed the exact phrase into DDG with quotes around it and everything, my post wasn't the first hit. Even when I added \"software\" or \"development\" key words.</p>\n<p><span class=\"user-mention silent\" data-user-id=\"773142\">matt wilkie</span> <a href=\"#narrow/channel/455613-friends/topic/81.3A.20Change.20my.20mind/near/502891486\">said</a>:</p>\n<blockquote>\n<p>The slow down to go fast refrain echoes through my mind recurringly still, in widely varying contexts.</p>\n</blockquote>\n<p>Same here!</p>\n<p>Thanks for the <em>thick</em> comments section, y'all. If you've listened to the latest Friends you know we appreciate them! <span aria-label=\"rolling on the floor laughing\" class=\"emoji emoji-1f923\" role=\"img\" title=\"rolling on the floor laughing\">:rolling_on_the_floor_laughing:</span></p>",
+        "id": 503052152,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1741014952
+    },
+    {
+        "content": "<p>Just an FYI that you can use forward slashes '/' or back slashes '\\' in many contexts in Windows. This includes Explorer, PowerShell and command prompt (cmd). Of course, the output default is still back slash.</p>",
+        "id": 504724138,
+        "sender_full_name": "Al Gonzalez",
+        "timestamp": 1741658944
+    }
+]

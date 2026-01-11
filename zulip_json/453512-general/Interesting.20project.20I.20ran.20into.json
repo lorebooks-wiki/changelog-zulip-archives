@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p><a href=\"https://docs.elide.dev/index_md.html\">https://docs.elide.dev/index_md.html</a></p>\n<p>Elide is a runtime that runs python, kotlin, typescript, javascript and ruby (kinda). It's promised to be super fast and uses the graal vm underneath. It can also create native executables, jars etc.</p>\n<p>The cool thing is that you can interop between languages. You can write some python and then call it from your typescript code or vice versa.</p>\n<p>Check it out.</p>",
+        "id": 567070763,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1767932271
+    },
+    {
+        "content": "<p>huh, that's fascinating</p>",
+        "id": 567077956,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1767938749
+    }
+]

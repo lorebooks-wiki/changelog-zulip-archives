@@ -1,0 +1,152 @@
+[
+    {
+        "content": "<p>Jerod tells Adam about bad he hates the taste of Gin, sips on some Generative A Rye (on the rocks), they open the comments section for a bit, and land the plane talking about being alone, naked, and afraid. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.am/98\">https://changelog.am/98</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.am/98#t=0\">00:00</a></td>\n<td>Let's talk!</td>\n<td>00:38</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.am/98#t=38\">00:38</a></td>\n<td><a href=\"https://retool.com/agents\">Sponsor: Retool</a></td>\n<td>01:59</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.am/98#t=157\">02:37</a></td>\n<td><a href=\"https://changelog.com/live\">We're friendsing</a></td>\n<td>01:10</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.am/98#t=227\">03:47</a></td>\n<td>Tasting some Whisky and Gin</td>\n<td>03:48</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.am/98#t=455\">07:35</a></td>\n<td>Yea, that's trash right there</td>\n<td>02:33</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.am/98#t=608\">10:08</a></td>\n<td><a href=\"https://changelog.com/live\">LIVE from Denver</a></td>\n<td>04:55</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.am/98#t=903\">15:03</a></td>\n<td>CodeRabbit in our PRs</td>\n<td>03:34</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.am/98#t=1117\">18:37</a></td>\n<td>From the comments section</td>\n<td>13:41</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.am/98#t=1938\">32:18</a></td>\n<td><a href=\"https://depot.dev\">Sponsor: Depot</a></td>\n<td>02:09</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.am/98#t=2067\">34:27</a></td>\n<td>Total spend??</td>\n<td>09:26</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.am/98#t=2633\">43:53</a></td>\n<td>Gig economy for devs??</td>\n<td>06:35</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.am/98#t=3029\">50:29</a></td>\n<td><a href=\"https://changelog.com/live\">Is he LYING?!!</a></td>\n<td>06:45</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.am/98#t=3434\">57:14</a></td>\n<td>More good comments</td>\n<td>10:52</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.am/98#t=4086\">1:08:06</a></td>\n<td><a href=\"https://agntcy.org\">Sponsor: Outshift by Cisco</a></td>\n<td>01:05</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.am/98#t=4152\">1:09:12</a></td>\n<td>Watching Alone</td>\n<td>04:31</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.am/98#t=4423\">1:13:43</a></td>\n<td>Robots washing cars</td>\n<td>03:03</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.am/98#t=4606\">1:16:46</a></td>\n<td><a href=\"https://changelog.com/live\">Alone VS Naked And Afraid</a></td>\n<td>08:45</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.am/98#t=5130\">1:25:30</a></td>\n<td>Bring it back to center</td>\n<td>01:45</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.am/98#t=5236\">1:27:16</a></td>\n<td><a href=\"https://changelog.com/live\">Join us!! Changelog.com/live</a></td>\n<td>01:25</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.am/98#t=5321\">1:28:41</a></td>\n<td><a href=\"https://changelog.com/live\">Are you coming to Denver?</a></td>\n<td>00:59</td>\n</tr>\n</tbody>\n</table>",
+        "id": 525107686,
+        "sender_full_name": "Logbot",
+        "timestamp": 1750456267
+    },
+    {
+        "content": "<p>Regarding Claude Code payment, unless I'm missing something, I'm able to use Claude Code with just the pro subscription. What happened to me was:</p>\n<ol>\n<li>Tried out CC without the subscription, prompted to add money on Anthropic's console</li>\n<li>Added $5, blew threw that in like 5 minutes</li>\n<li>Decided to get the pro subscription ($20/mo)</li>\n<li>Reinitialize the configuration on CC, selected the option to use my subscription for costs</li>\n<li>Using CC without any limits!</li>\n</ol>\n<p>When I run <code>/cost</code> in CC, I get:<br>\n\"With your Claude Pro subscription, no need to monitor cost — your subscription includes Claude Code usage\" so my assumption is there is no additional costs.</p>",
+        "id": 525225935,
+        "sender_full_name": "Ash",
+        "timestamp": 1750615234
+    },
+    {
+        "content": "<p>Hmm I haven’t been so fortunate maybe I need to reinitialize or something. Will report back…</p>",
+        "id": 525237075,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1750631513
+    },
+    {
+        "content": "<p>No chapter image for the gin tasting face Jerod made? I like a gin but I definitely know why gin would ellicit that reaction :D</p>",
+        "id": 525347227,
+        "sender_full_name": "Lars Wikman",
+        "timestamp": 1750689376
+    },
+    {
+        "content": "<p>I'm with you Jerod. Gin tastes like you're sipping on Pinesol. And yes, I've had good gin. It doesn't matter. It all tastes like greater or lesser degrees of Pinesol to me.</p>",
+        "id": 525354567,
+        "sender_full_name": "Scott Abbey",
+        "timestamp": 1750691435
+    },
+    {
+        "content": "<p>No chapter image but full video should be posted soon</p>",
+        "id": 525378752,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1750699792
+    },
+    {
+        "content": "<p>To clear the record. I live in new Zealand. I have spent a quite a bit off time in Australia and found Australians to be lovely people.</p>\n<p>If you guys ever make it here there are local whiskey makers you can try.</p>",
+        "id": 525817788,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1750908068
+    },
+    {
+        "content": "<p>I knew it was one or the other</p>",
+        "id": 525867668,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1750931916
+    },
+    {
+        "content": "<p>After listening to both the Adventures in babysitting agents and this, I was surprised to not hear much about Augment code (a sponsor). I have been using that for 3 months now after hearing the ads on the change log. Its $30/m and I have not hit a limit yet.  If you want to try out something the first month cost nothing. I was hooked. I spend more time thinking and planning features than I do coding. I haven't used the remote agents yet, I use the vscode agents on auto and let it do the work.</p>",
+        "id": 526822358,
+        "sender_full_name": "Eric Goeken",
+        "timestamp": 1751468400
+    },
+    {
+        "content": "<p>It goes off and does the wrong thing sometimes, but I have learned that it like asking a genie for a wish and you just were not specific enough.</p>",
+        "id": 526822874,
+        "sender_full_name": "Eric Goeken",
+        "timestamp": 1751468511
+    },
+    {
+        "content": "<p>I have a workspace with the front end and backend. I can ask it to make a new feature, describe the ui and some details about a new api  and it will change both projects in one prompt.</p>",
+        "id": 526823796,
+        "sender_full_name": "Eric Goeken",
+        "timestamp": 1751468733
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"934269\">Eric Goeken</span> <a href=\"#narrow/channel/455613-friends/topic/98.3A.20Just.20on.20the.20rocks/near/526822358\">said</a>:</p>\n<blockquote>\n<p>After listening to both the Adventures in babysitting agents and this, I was surprised to not hear much about Augment code (a sponsor). I have been using that for 3 months now after hearing the ads on the change log. Its $30/m and I have not hit a limit yet.  If you want to try out something that cost nothing. I was hooked. I spend more time thinking and planning features than I do coding. I haven't used the remote agents yet, I use the vscode agents on auto and let it do the work.</p>\n</blockquote>\n<p>What models do they use?  Someone else in the community recommended Tabnine so I was planning on giving that a spin over the weekend. I've been using Sourcegraph Cody to mixed success and now that they rug pulled I'm on the look out for something new, was even thinking about trying to run some local models via Ollama to see how that goes but the variety of models available to self-host are fewer. From looking at Augment Code's docs I'm intrigued.  I've found for Typescript, PHP, etc most of the models do just fine but thus far for Rust none of them are good.</p>",
+        "id": 526825690,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1751469202
+    },
+    {
+        "content": "<p>I used Cody for a long time, just using the auto complete. I never liked how the chat could not work across files. Maybe they fixed that.</p>",
+        "id": 526827028,
+        "sender_full_name": "Eric Goeken",
+        "timestamp": 1751469549
+    },
+    {
+        "content": "<p>I don't know what model. It just works.... let me check</p>",
+        "id": 526827087,
+        "sender_full_name": "Eric Goeken",
+        "timestamp": 1751469569
+    },
+    {
+        "content": "<p>From VS code I don't see anything to change models, or what the model is</p>",
+        "id": 526827540,
+        "sender_full_name": "Eric Goeken",
+        "timestamp": 1751469693
+    },
+    {
+        "content": "<p>I haven't tried rust. If you have good code in the project to emulate I bet it will figure it out. I was working in a really old project the other day and I didn't like what it was doing.  I realized it was replicating the style from other parts of the code. I had to tell it a few times to change style and then it got better. I learned there is a md file where it will save instructions like that. I refined what it took notes on and what it generates matches what I expect.</p>",
+        "id": 526830375,
+        "sender_full_name": "Eric Goeken",
+        "timestamp": 1751470480
+    },
+    {
+        "content": "<p>Ah nice. I'll def give it a try</p>",
+        "id": 526843025,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1751474703
+    },
+    {
+        "content": "<p>I was hoping llms would be a way to quick and easy way to learn new languages but hearing how they don't do well in Rust and knowing how poorly they do in go that's been shut down. </p>\n<p>Maybe the next iteration.</p>",
+        "id": 526886229,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751493840
+    },
+    {
+        "content": "<p>Yeah I believe they are currently strongest at JS/TS and Python because that's the largest amount of code that is available on Github for training data. For newer and less popular languages there is less training data for it to pull from</p>",
+        "id": 526915860,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1751517142
+    },
+    {
+        "content": "<p>Not with agents, but I’ve had decent success prompting Claude 3.7 sonnet and Gemini 2.5 Pro for rust code</p>",
+        "id": 526986615,
+        "sender_full_name": "Dustin",
+        "timestamp": 1751546170
+    },
+    {
+        "content": "<p>Claud Sonnet 4.0 and 3.7 couldn't code its way out of a wet paper sack for me, struggled pretty hard with with multi-threaded memory management and traits.</p>",
+        "id": 527237759,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1751670373
+    },
+    {
+        "content": "<p>in defense of claude, multi-threaded processing is super challenging for like 99% of devs <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>\n<p>maybe youre onto something, this could be our human moat!</p>",
+        "id": 527283185,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1751723562
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"764308\">valon-loshaj</span> <a href=\"#narrow/stream/455613-friends/topic/98.3A.20Just.20on.20the.20rocks/near/527283185\">said</a>:</p>\n<blockquote>\n<p>in defense of claude, multi-threaded processing is super challenging for like 99% of devs <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>\n</blockquote>\n<p>This is literally the reason Rust exists: fearless concurrency :) <span aria-label=\"crab\" class=\"emoji emoji-1f980\" role=\"img\" title=\"crab\">:crab:</span></p>",
+        "id": 527308647,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1751755542
+    },
+    {
+        "content": "<p>was this the comic? <a href=\"https://www.smbc-comics.com/comic/sad-2\">https://www.smbc-comics.com/comic/sad-2</a> :)</p>",
+        "id": 561519667,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1764709875
+    },
+    {
+        "content": "<p>this one always makes me laugh out loud: <a href=\"https://www.smbc-comics.com/comic/captcha\">https://www.smbc-comics.com/comic/captcha</a></p>",
+        "id": 561521058,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1764710384
+    }
+]
