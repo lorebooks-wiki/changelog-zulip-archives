@@ -1,0 +1,56 @@
+[
+    {
+        "content": "<p>Ghostty recently was the focus on Hacker News about how they use Discussions for managing user questions/reports, but given they'd taken some inspiration from Renovate, I thought I'd write up some of the things we've learned in the 5 years we've used it: <a href=\"https://www.jvt.me/posts/2026/01/07/renovate-why-discussions/\">https://www.jvt.me/posts/2026/01/07/renovate-why-discussions/</a></p>",
+        "id": 566836738,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1767826009
+    },
+    {
+        "content": "<p>oh, very nice<br>\nand here I am raising a PR without a discussion, haha oops<br>\n<a href=\"https://github.com/renovatebot/renovate/pull/40264\">https://github.com/renovatebot/renovate/pull/40264</a></p>",
+        "id": 566854426,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1767837824
+    },
+    {
+        "content": "<p>yeah, I think Discussions was a good addition to GitHub, as many things don't fit the open-then-comment-then-fix-then-close pattern<br>\nit's interesting (and maybe even a little confusing to me) that Discussions does have an \"answer\" feature</p>",
+        "id": 566856058,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1767839011
+    },
+    {
+        "content": "<p>Haha it's absolutely fine - I dint think we've had too many we've closed as they've needed discussing (<a href=\"https://github.com/renovatebot/renovate/pulls?q=is%3Apr+label%3Aauto%3Adiscussion-first+is%3Aclosed\">https://github.com/renovatebot/renovate/pulls?q=is%3Apr+label%3Aauto%3Adiscussion-first+is%3Aclosed</a> or <a href=\"https://github.com/renovatebot/renovate/pulls?q=is%3Apr+label%3Aneeds-discussion+is%3A\">https://github.com/renovatebot/renovate/pulls?q=is%3Apr+label%3Aneeds-discussion+is%3A</a> closed)</p>",
+        "id": 566901844,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1767865189
+    },
+    {
+        "content": "<p>We quite like having answer mode on, for our \"request help\" (but not other types) so it's clear to show what the solution was</p>",
+        "id": 566901966,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1767865230
+    },
+    {
+        "content": "<p>Out of interest, what do you find confusing here?</p>",
+        "id": 566902003,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1767865242
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755984\">Jamie Tanna</span> <a href=\"#narrow/channel/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management/near/566902003\">said</a>:</p>\n<blockquote>\n<p>Out of interest, what do you find confusing here?</p>\n</blockquote>\n<p>mostly just as a product feature: how did they go from forum to mini-StackOverflow?</p>",
+        "id": 567036775,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1767907928
+    },
+    {
+        "content": "<p>I don't hate it or anything, just surprised that it's there</p>",
+        "id": 567036894,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1767907967
+    },
+    {
+        "content": "<p>probably my lack of imagination, and thinking Discourse's feature set was the final list for discussions/forums</p>",
+        "id": 567037108,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1767908047
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>We're joined by Deepak Singh from the Kiro team. Kiro is AWS's attempt at building an AI coding environment to take you from prototype to production. It does that by bringing structure to your agentic workflow with spec-driven development. Their aim: the flow of AI coding, leveled up with mature engineering practices. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/662\">https://changelog.fm/662</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.fm/662#t=0\">00:00</a></td>\n<td>This week on The Changelog</td>\n<td>01:10</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.fm/662#t=70\">01:10</a></td>\n<td><a href=\"https://www.coderabbit.ai\">Sponsor: CodeRabbit</a></td>\n<td>01:07</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.fm/662#t=136\">02:16</a></td>\n<td>Start the show!</td>\n<td>07:26</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.fm/662#t=583\">09:43</a></td>\n<td>The idea resonates</td>\n<td>03:24</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.fm/662#t=787\">13:07</a></td>\n<td>How Kiro looks/works</td>\n<td>05:15</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.fm/662#t=1102\">18:22</a></td>\n<td><a href=\"https://agntcy.org\">Sponsor: Outshift by Cisco</a></td>\n<td>01:17</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.fm/662#t=1179\">19:39</a></td>\n<td>Don't get in the agent's way</td>\n<td>06:01</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.fm/662#t=1540\">25:40</a></td>\n<td>Where should the agent live</td>\n<td>04:11</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.fm/662#t=1791\">29:51</a></td>\n<td>Which model to use?</td>\n<td>04:38</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.fm/662#t=2070\">34:30</a></td>\n<td>Model cost perspective</td>\n<td>04:11</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.fm/662#t=2320\">38:40</a></td>\n<td>AWS teams using Kiro</td>\n<td>05:00</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.fm/662#t=2620\">43:40</a></td>\n<td>Full ecosystem plans?</td>\n<td>06:54</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.fm/662#t=3034\">50:34</a></td>\n<td>Hooks are interesting</td>\n<td>01:50</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.fm/662#t=3144\">52:24</a></td>\n<td>Compaction</td>\n<td>02:53</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.fm/662#t=3316\">55:16</a></td>\n<td>Let's talk stack</td>\n<td>05:31</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.fm/662#t=3647\">1:00:47</a></td>\n<td>Can current models get us there?</td>\n<td>04:19</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.fm/662#t=3906\">1:05:06</a></td>\n<td>Let's talk pricing</td>\n<td>06:49</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.fm/662#t=4314\">1:11:54</a></td>\n<td>Still figuring it out</td>\n<td>02:03</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.fm/662#t=4438\">1:13:58</a></td>\n<td>The looming tollbooth</td>\n<td>08:54</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.fm/662#t=4972\">1:22:52</a></td>\n<td>Wrapping up</td>\n<td>00:45</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.fm/662#t=5017\">1:23:37</a></td>\n<td>Closing thoughts</td>\n<td>01:41</td>\n</tr>\n</tbody>\n</table>",
+        "id": 545104405,
+        "sender_full_name": "Logbot",
+        "timestamp": 1760553007
+    },
+    {
+        "content": "<p>Interesting take from Adam about the toll booths. I agree that the new tools will drive down cost (some places) for things, but I didn't think about how this tools may become the bare minimum. Kind of like everyone just has to have a data plan to participate in the world. There could be a world where developers need a Claude subscription to be competitive.</p>\n<p>I'm not sure how it'll play out, indie movies do exist alongside summer blockbusters, but even in that case, one is more prevalent and funded</p>",
+        "id": 545723870,
+        "sender_full_name": "Sukhdeep Brar",
+        "timestamp": 1760756937
+    },
+    {
+        "content": "<p>Regarding the agent flow.  Has anybody tried just writing a test and then asking the agent to write some code that passes the test? Of course you'd need to give some extended prompt about what the app is trying to do, not to use any mocks or stubs etc.  </p>\n<p>instead of writing specs why not write a test suite and have the agent toil until all tests pass.</p>\n<p>This would be a good test of an agent I bet.</p>",
+        "id": 545735860,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1760772192
+    },
+    {
+        "content": "<p>I've had success (based on an internal blog post) having the AI generate the failing tests for me based on spec, and then run TDD on it's own (after I prompted it to do so).<br>\nBut you're right, pulling in the Red phase of TDD into the spec/design phase is a big win</p>",
+        "id": 546131502,
+        "sender_full_name": "Sukhdeep Brar",
+        "timestamp": 1761012611
+    },
+    {
+        "content": "<p>Once again I'll mention cucumber :)</p>",
+        "id": 546173796,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1761035816
+    },
+    {
+        "content": "<p>is there a link somewhere to the specifications format that was mentioned? potentially created by Atlassian? i've had a bit of a search, but can only find Confluence templates</p>",
+        "id": 558302102,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1763586105
+    },
+    {
+        "content": "<p>oh, EARS is from Rolls-Royce, not Atlassian: <a href=\"https://alistairmavin.com/ears/\">https://alistairmavin.com/ears/</a></p>",
+        "id": 558322566,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1763594468
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"750017\">@Adam Stacoviak</span> i share your \"toll road\" concerns, but open-source ethically-trained offline-only models will hopefully catch up sufficiently<br>\nthey don't need to be as polished as long as they still allow us to compete within the same ballpark as folks that are able to afford the subscriptions</p>",
+        "id": 558337607,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1763605190
+    }
+]

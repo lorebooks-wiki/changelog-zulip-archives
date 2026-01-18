@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>I'm wanting to find some \"live coding\" or such, with claude code (cli). Could be a recording. I just want to see someone using the tool who knows what they're doing. Seen anything like that?</p>",
+        "id": 567067217,
+        "sender_full_name": "Robert Purcell",
+        "timestamp": 1767929200
+    },
+    {
+        "content": "<p>Sorry not with claude code (cli), but James Montemagno from Microsoft has been doing a lot of ai coding lately. Mostly with GitHub Copilot and VS Code. <a href=\"https://www.youtube.com/jamesmontemagno\">His YouTube Page</a></p>",
+        "id": 567293534,
+        "sender_full_name": "Al Gonzalez",
+        "timestamp": 1768020749
+    }
+]
