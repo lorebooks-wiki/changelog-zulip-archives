@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>Jerod is joined by Carson Gross, the creator of htmx –a small, zero-dependency JavaScript library that he says, \"completes HTML as a hypertext\". Carson built it because he's big on hypermedia, he even wrote a book called Hypermedia Systems. Carson has a lot of strong opinions weakly held that we dive into in this conversation. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/646\">https://changelog.fm/646</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.fm/646#t=0\">00:00</a></td>\n<td>This week on The Changelog</td>\n<td>01:17</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.fm/646#t=77\">01:17</a></td>\n<td><a href=\"https://retool.com/agents\">Sponsor: Retool</a></td>\n<td>01:59</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.fm/646#t=196\">03:16</a></td>\n<td>Start the show!</td>\n<td>00:59</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.fm/646#t=255\">04:15</a></td>\n<td>Getting htmx attention</td>\n<td>04:53</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.fm/646#t=548\">09:08</a></td>\n<td>Viewpoint origins</td>\n<td>03:32</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.fm/646#t=759\">12:39</a></td>\n<td>Hypermedia distilled</td>\n<td>02:18</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.fm/646#t=897\">14:57</a></td>\n<td>Why html lacks</td>\n<td>03:52</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.fm/646#t=1129\">18:49</a></td>\n<td>What htmx adds</td>\n<td>04:38</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.fm/646#t=1407\">23:27</a></td>\n<td>Echoes of jQuery</td>\n<td>06:02</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.fm/646#t=1769\">29:29</a></td>\n<td><a href=\"https://depot.dev\">Sponsor: Depot</a></td>\n<td>02:09</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.fm/646#t=1898\">31:38</a></td>\n<td>Gumroad didn't choose htmx</td>\n<td>07:02</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.fm/646#t=2320\">38:40</a></td>\n<td>Making money</td>\n<td>04:51</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.fm/646#t=2611\">43:31</a></td>\n<td><a href=\"https://htmx.org/essays/codin-dirty/\">Codin' dirty</a></td>\n<td>05:06</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.fm/646#t=2917\">48:37</a></td>\n<td>Big functions</td>\n<td>14:01</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.fm/646#t=3758\">1:02:38</a></td>\n<td>If/else over polymorphism</td>\n<td>02:09</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.fm/646#t=3888\">1:04:48</a></td>\n<td>Pattern matching</td>\n<td>03:05</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.fm/646#t=4073\">1:07:53</a></td>\n<td><a href=\"https://agntcy.org\">Sponsor: Outshift by Cisco</a></td>\n<td>01:05</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.fm/646#t=4138\">1:08:58</a></td>\n<td><a href=\"https://htmx.org/essays/vendoring/\">Vendoring</a></td>\n<td>03:15</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.fm/646#t=4333\">1:12:13</a></td>\n<td>Big opportunity</td>\n<td>05:51</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.fm/646#t=4684\">1:18:04</a></td>\n<td>htmx 2.0</td>\n<td>02:28</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.fm/646#t=4831\">1:20:31</a></td>\n<td>Connecting with Carson</td>\n<td>01:05</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.fm/646#t=4897\">1:21:37</a></td>\n<td>Closing thoughts</td>\n<td>01:31</td>\n</tr>\n</tbody>\n</table>",
+        "id": 524782977,
+        "sender_full_name": "Logbot",
+        "timestamp": 1750280408
+    },
+    {
+        "content": "<p>Chapters aren’t coming through in my podcast app for some reason</p>",
+        "id": 524790897,
+        "sender_full_name": "Joe",
+        "timestamp": 1750285230
+    },
+    {
+        "content": "<p>That's odd <span class=\"user-mention\" data-user-id=\"878429\">@Joe</span>, what app are you using?</p>",
+        "id": 524892912,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1750341640
+    },
+    {
+        "content": "<p>I really liked the idea that \"important things should be big\". I went back and listened to your interview with Sandi Metz (a hero of mine) from years ago - she has a very different take.</p>\n<p>Carson's take reminded me of one of my favourite books, _A Pattern Language_, which is about architecture. Pattern 116 is about the arrangement of roofs. If I may:</p>\n<blockquote>\n<p>Let us observe, first, that many beautiful buildings have the form of a cascade: a tumbling arrangement of wings and lower wings and smaller rooms and sheds, often with a single highest center. Hagia Sophia, the Norwegian stave churches, and Palladio's villas are imposing and magnificent examples. Simple houses, small informal building complexes, and even clusters of mud huts are more modest ones.</p>\n<p>What is it that makes the cascading chara so sound and so appropriate? First of all, <strong>there is a social meaning in this form</strong>. The largest gathering places with the highest ceilings are in the middle because they are the social centers of activities; smaller groups of people, individual rooms, and alcoves fall naturally around the edges.</p>\n</blockquote>\n<p>There is a social meaning in big classes, and large files, too!</p>",
+        "id": 525644736,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1750833928
+    },
+    {
+        "content": "<p>Great analogy, <span class=\"user-mention\" data-user-id=\"752986\">@Daniel Buckmaster</span></p>",
+        "id": 525713700,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1750858267
+    },
+    {
+        "content": "<p>I liked this episode a lot, I like when people can talk about \"coding dirty\" as a thoughtful considered take rather than a pejorative suggesting an absence of thought. Also, being silly while doing \"serious\" work is the best <span aria-label=\"trophy\" class=\"emoji emoji-1f3c6\" role=\"img\" title=\"trophy\">:trophy:</span></p>\n<p>Like <span class=\"user-mention\" data-user-id=\"752986\">@Daniel Buckmaster</span> I found myself mentally linking to other conversations and resources. On the topic of testing specifically: <a href=\"https://kentcdodds.com/blog/write-tests\">https://kentcdodds.com/blog/write-tests</a> (where Kent expands a Guillermo Rauch one-liner into a full post):</p>\n<blockquote>\n<p>Write tests. Not too many. Mostly integration.</p>\n</blockquote>",
+        "id": 525749813,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1750868679
+    },
+    {
+        "content": "<p>i thought \"riding dirty\" implied something illegal</p>",
+        "id": 525801040,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1750892278
+    }
+]

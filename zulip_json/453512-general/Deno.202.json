@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>Dope. <a href=\"https://www.youtube.com/live/d35SlRgVxT8?si=Gy8uGd9HWBI6cLAI\">https://www.youtube.com/live/d35SlRgVxT8?si=Gy8uGd9HWBI6cLAI</a></p>",
+        "id": 476030346,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1728535527
+    },
+    {
+        "content": "<p>That cold open is fantastic lol</p>",
+        "id": 476034034,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1728537690
+    },
+    {
+        "content": "<p>Ok that was pretty funny but daaamn they're coming for Node with guns blazing!</p>",
+        "id": 476096266,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1728555396
+    },
+    {
+        "content": "<p>Nice <span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span> I've been really enjoying Deno for some personal projects and scripting, haven't used it professionally yet though.</p>",
+        "id": 476152061,
+        "sender_full_name": "Brian Buchholz",
+        "timestamp": 1728571494
+    },
+    {
+        "content": "<p>Just been trying a work project out from node, runs with minimal change, didn't get as far as testing properly but the single binary is appealing for simpler deploys</p>",
+        "id": 476225876,
+        "sender_full_name": "James McNally",
+        "timestamp": 1728594753
+    },
+    {
+        "content": "<p>This has renewed my interest in Deno. At first, I was of the mindset that Node is... fine enough. I would wait for the Deno and Bun battles to be fought, but I'm leaning more towards the Deno approach at this point. </p>\n<p>I have not put Deno is production yet. Right now I'm running Svelte 5 in production because I thought it'd be fully released by now. It's been mostly bug-free for me, but I don't want to mix pre-release Svelte with Deno and get new kinds of bugs.</p>",
+        "id": 477336794,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1729132874
+    }
+]
