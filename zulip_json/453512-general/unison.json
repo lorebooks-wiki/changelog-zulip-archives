@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>unison language is so fascinating to me:  <a href=\"https://www.unison-lang.org/unison-1-0\">https://www.unison-lang.org/unison-1-0</a></p>",
+        "id": 560249657,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1764103470
+    },
+    {
+        "content": "<p>Oh, that’s kinda freaky.</p>\n<p>No files and it’s own runtime with built in VCS kind of reminds of one of those Smalltalk environments… Squeak? I tried it, but it felt like such a departure. Cool idea though.</p>\n<p>But this looks more like an FP take on a similar concept. I’ll have to check it out sometime.</p>",
+        "id": 560282168,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1764120624
+    },
+    {
+        "content": "<p>yeah, it upends a lot of my brain, haha</p>",
+        "id": 560282233,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1764120666
+    }
+]
