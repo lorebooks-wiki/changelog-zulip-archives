@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>I want to copy my music from my old phone to my new one. When I set up the new phone I restored from the backup but the music didn't come in. I have tried a couple of things I read online but none of them have worked so far. Has anybody done this successfully?</p>",
+        "id": 569850440,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1769245541
+    },
+    {
+        "content": "<p>Was it actual mp3s/accs ?</p>",
+        "id": 572438285,
+        "sender_full_name": "jslovato",
+        "timestamp": 1770401344
+    },
+    {
+        "content": "<p>Different formats I think. Just rips and stuff I accumulated over the years.  I still have the CDs for most of them but not all of them.</p>\n<p>Anyway to wrap this up. I tried so many things but nothing worked the way I wanted it. I have the files on the phone but I got them there via the mega app and no player could access them and then present a nice interface to them. </p>\n<p>In the end I had to do the following. \"import\" all my files from the mega directory to the music app on my desktop. Connect my iphone to the desktop and then copy them over to the iphone erasing the media already there.</p>",
+        "id": 572458026,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1770409524
+    },
+    {
+        "content": "<p>I am still looking at deploying something like nextcloud on the mac mini as a personal cloud but I need to find something that lets me have offline music when I am driving and have no internet.</p>",
+        "id": 572458173,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1770409589
+    }
+]

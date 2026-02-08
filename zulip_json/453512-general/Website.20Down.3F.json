@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>Is it just me, or is the website down? <a href=\"https://changelog.com/\">https://changelog.com/</a></p>",
+        "id": 572296106,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1770354780
+    },
+    {
+        "content": "<p>Ping is resolving, so maybe not DNS this time? :-D</p>",
+        "id": 572297528,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1770356033
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752922\">Nabeel S</span> <a href=\"#narrow/channel/453512-general/topic/Website.20Down.3F/near/572296106\">said</a>:</p>\n<blockquote>\n<p>Is it just me, or is the website down? <a href=\"https://changelog.com/\">https://changelog.com/</a></p>\n</blockquote>\n<p>Still working for me:<br>\nnslookup <a href=\"http://changelog.com\">changelog.com</a> <br>\nServer:     192.168.3.1<br>\nAddress:    192.168.3.1#53</p>\n<p>Non-authoritative answer:<br>\nName:   <a href=\"http://changelog.com\">changelog.com</a><br>\nAddress: 137.66.16.250</p>",
+        "id": 572297616,
+        "sender_full_name": "Jarvis",
+        "timestamp": 1770356104
+    },
+    {
+        "content": "<p>It started working again for me finally. But my browser was just spinning for a good 30 minutes <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span></p>",
+        "id": 572297705,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1770356177
+    },
+    {
+        "content": "<p>Other sites were still working fine.</p>",
+        "id": 572297713,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1770356186
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752922\">@Nabeel S</span> are you using a VPN by any chance? I had to turn off Mullvad in order to get the site to load.</p>",
+        "id": 572471445,
+        "sender_full_name": "Brett Cannon",
+        "timestamp": 1770416471
+    },
+    {
+        "content": "<p>I was on a VPN! I wonder if <span class=\"user-mention\" data-user-id=\"755424\">@Gerhard</span> is experimenting with some anti-abuse algorithms that VPN users are getting caught in <span aria-label=\"slight smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"slight smile\">:slight_smile:</span></p>",
+        "id": 572495660,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1770435414
+    },
+    {
+        "content": "<p>Not experimenting with any anti-abuse, but issues limited to a single region is something that we have been working through: <a href=\"https://community.fly.io/t/response-body-timing-out-in-iad-ewr-all-good-in-13-other-regions/26727\">https://community.fly.io/t/response-body-timing-out-in-iad-ewr-all-good-in-13-other-regions/26727</a></p>\n<p>There is more context here in case you want to try alternative <code>curl</code> commands and help report these isolated incidents that we are still not at the bottom of: <a href=\"https://github.com/thechangelog/changelog.com/issues/553\">https://github.com/thechangelog/changelog.com/issues/553</a></p>\n<p>FWIW: <a href=\"https://status.changelog.com/\">https://status.changelog.com/</a></p>\n<p><a href=\"/user_uploads/66849/LMg9DB7Cufmz3D1pFBNN0M0N/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/LMg9DB7Cufmz3D1pFBNN0M0N/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"1632x1104\" src=\"/user_uploads/thumbnail/66849/LMg9DB7Cufmz3D1pFBNN0M0N/image.png/840x560.webp\"></a></div>",
+        "id": 572507593,
+        "sender_full_name": "Gerhard",
+        "timestamp": 1770449797
+    }
+]

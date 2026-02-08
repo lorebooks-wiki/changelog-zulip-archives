@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>I tried Gas Town last night (see <a href=\"https://changelog.com/news/175\">news #175</a>) and it was a complete failure</p>\n<ol>\n<li>the \"polecats\" wouldn't run and it (and me) couldn't figure out why</li>\n<li>the cute names are confusing. i needed claude to explain in plain English what things are and how to get started</li>\n<li>it caused <a href=\"https://www.youtube.com/watch?v=u91t0_wfL6k\">this song</a> to loop in my head all day<div class=\"youtube-video message_inline_image\"><a data-id=\"u91t0_wfL6k\" href=\"https://www.youtube.com/watch?v=u91t0_wfL6k\"><img src=\"https://uploads.zulipusercontent.net/6d421a16bb2cdccd3950eadb97ad954fe3bd7637/68747470733a2f2f692e7974696d672e636f6d2f76692f75393174305f77664c366b2f6d7164656661756c742e6a7067\"></a></div></li>\n</ol>\n<p>What other solutions out there should I try? I have a detailed plan and want to split up the tasks across multiple agents</p>",
+        "id": 567776275,
+        "sender_full_name": "Robert Purcell",
+        "timestamp": 1768314058
+    },
+    {
+        "content": "<p>WOAH!  I just started over (I have <a href=\"https://github.com/parcadei/Continuous-Claude-v2\">Continuous Claude</a> set up) and got this. Let's see what it does</p>\n<blockquote>\n<p>Given the size and complexity (10 phases with 150+ sub-tasks), I'll use agent orchestration mode as recommended by the implement_plan skill for large plans.</p>\n</blockquote>",
+        "id": 567781302,
+        "sender_full_name": "Robert Purcell",
+        "timestamp": 1768315324
+    },
+    {
+        "content": "<blockquote>\n<p>Let's see what it does</p>\n</blockquote>\n<p>i was hoping for multiple agents working in parallel but it was just my main agent spawning off others one at a time (one for each sub task i believe). which had a positive effect in that the context window of my main agent barely grew. i think this helped keep it sane through the whole thing</p>",
+        "id": 568034360,
+        "sender_full_name": "Robert Purcell",
+        "timestamp": 1768409455
+    },
+    {
+        "content": "<p>9/10 Would vibe again</p>",
+        "id": 568034468,
+        "sender_full_name": "Robert Purcell",
+        "timestamp": 1768409489
+    },
+    {
+        "content": "<p>I believe you should be able to run multiple in parallel. I'm digging into getting Gastown up and running this week and came across this issue <a href=\"https://github.com/steveyegge/gastown/discussions/874\">https://github.com/steveyegge/gastown/discussions/874</a> which was just fixed yesterday. Not sure if that would cause the situation you brought up.</p>",
+        "id": 570237169,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1769491223
+    }
+]

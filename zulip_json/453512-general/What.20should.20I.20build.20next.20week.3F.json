@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>I am trying to learn SvelteKit &amp; Go for my internship. However, I'm unsure what to build.</p>\n<p>Any ideas? <span aria-label=\"light bulb\" class=\"emoji emoji-1f4a1\" role=\"img\" title=\"light bulb\">:light_bulb:</span></p>",
+        "id": 572592041,
+        "sender_full_name": "Dixit Ram",
+        "timestamp": 1770528066
+    },
+    {
+        "content": "<p>is there a workflow at work using a CLI or API that could be improved or easier to understand if it were presented/controlled in the web browser?</p>",
+        "id": 572599148,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1770535997
+    }
+]
