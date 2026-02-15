@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p>At the tail end of 2019, we got together with Quincy Larson to celebrate <a href=\"https://changelog.com/backstage/9\">ten years of Changelog</a> &amp; <a href=\"https://changelog.com/podcast/369\">five years of freeCodeCamp</a> by recording back-to-back episodes on each other's pods. Can you believe it's now five years later and we're all still here doing our thing?! Let's learn what Quincy and the amazing community at <a href=\"https://www.freecodecamp.org\">freeCodeCamp</a> have been up to!</p>\n<p><span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.com/friends/67\">https://changelog.com/friends/67</a></p>",
+        "id": 478949895,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729872908
+    },
+    {
+        "content": "<p>Would it be useful to add a table with the chapters to these announcement posts? Something like:</p>\n<p>Chapters:</p>\n<table>\n<thead>\n<tr>\n<th>#</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td>00:00</td>\n<td>Your favorite ever show</td>\n<td>01:25</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.com/friends/67#t=85\">01:25</a></td>\n<td>Let's talk!</td>\n<td>00:38</td>\n</tr>\n<tr>\n<td>03</td>\n<td>02:03</td>\n<td><a href=\"https://fly.io/\">Sponsor: Fly.io</a></td>\n<td>02:45</td>\n</tr>\n<tr>\n<td>04</td>\n<td>04:51</td>\n<td>Birthdays &amp; Friends</td>\n<td>00:51</td>\n</tr>\n<tr>\n<td>05</td>\n<td>05:42</td>\n<td>A vision realized?</td>\n<td>04:38</td>\n</tr>\n<tr>\n<td>06</td>\n<td>10:20</td>\n<td>Just getting started</td>\n<td>05:42</td>\n</tr>\n<tr>\n<td>07</td>\n<td>16:03</td>\n<td>Deciding what to work on</td>\n<td>02:38</td>\n</tr>\n<tr>\n<td>08</td>\n<td>18:41</td>\n<td>The liberty hook</td>\n<td>05:10</td>\n</tr>\n<tr>\n<td>09</td>\n<td>23:51</td>\n<td>A bad precedent</td>\n<td>01:25</td>\n</tr>\n<tr>\n<td>10</td>\n<td>25:17</td>\n<td><a href=\"https://speakeasy.com/\">Sponsor: Speakeasy</a></td>\n<td>00:53</td>\n</tr>\n<tr>\n<td>11</td>\n<td>26:10</td>\n<td>The job market</td>\n<td>08:29</td>\n</tr>\n<tr>\n<td>12</td>\n<td>34:39</td>\n<td>Entrepreneurship</td>\n<td>07:00</td>\n</tr>\n<tr>\n<td>13</td>\n<td>41:39</td>\n<td><a href=\"https://www.freecodecamp.org/news/learn-to-code-book/\">Quincy has a book?!</a></td>\n<td>04:42</td>\n</tr>\n<tr>\n<td>14</td>\n<td>46:21</td>\n<td>Sponsor: AssemblyAI</td>\n<td>02:17</td>\n</tr>\n<tr>\n<td>15</td>\n<td>48:38</td>\n<td>Sponsor: Wix Studio</td>\n<td>00:54</td>\n</tr>\n<tr>\n<td>16</td>\n<td>49:32</td>\n<td>Curriculum talk</td>\n<td>10:51</td>\n</tr>\n<tr>\n<td>17</td>\n<td>1:00:24</td>\n<td>Going low-level</td>\n<td>03:52</td>\n</tr>\n<tr>\n<td>18</td>\n<td>1:04:15</td>\n<td>Obsessed with learning</td>\n<td>02:33</td>\n</tr>\n<tr>\n<td>19</td>\n<td>1:06:48</td>\n<td>Teaching English</td>\n<td>02:43</td>\n</tr>\n<tr>\n<td>20</td>\n<td>1:09:31</td>\n<td>Teaching from our transcripts</td>\n<td>05:20</td>\n</tr>\n<tr>\n<td>21</td>\n<td>1:14:52</td>\n<td>Finding the right people</td>\n<td>04:54</td>\n</tr>\n<tr>\n<td>22</td>\n<td>1:19:46</td>\n<td>Still being ignored (so far)</td>\n<td>03:03</td>\n</tr>\n<tr>\n<td>23</td>\n<td>1:22:49</td>\n<td>freeCodeCamp esports!</td>\n<td>02:35</td>\n</tr>\n<tr>\n<td>24</td>\n<td>1:25:24</td>\n<td>Learn to Code RPG</td>\n<td>02:34</td>\n</tr>\n<tr>\n<td>25</td>\n<td>1:27:58</td>\n<td>The future of education</td>\n<td>07:51</td>\n</tr>\n<tr>\n<td>26</td>\n<td>1:35:50</td>\n<td>Quincy on the bass!</td>\n<td>01:44</td>\n</tr>\n<tr>\n<td>27</td>\n<td>1:37:33</td>\n<td>Adam's challenge</td>\n<td>02:55</td>\n</tr>\n<tr>\n<td>28</td>\n<td>1:40:28</td>\n<td>Bye, friends</td>\n<td>00:32</td>\n</tr>\n<tr>\n<td>29</td>\n<td>1:41:01</td>\n<td>Next week on The Changelog</td>\n<td>01:50</td>\n</tr>\n</tbody>\n</table>\n<p><em>(All of the start, chapter links, etc. times would be linked. Just doing this by hand for an example)</em></p>",
+        "id": 478953634,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729874328
+    },
+    {
+        "content": "<p>I like it. For the feeds which I don't listen to by default I can get a better idea of whether I want to try the individual episode.</p>",
+        "id": 478955578,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1729875068
+    },
+    {
+        "content": "<p>Nice episode. Quincy is doing amazing things.</p>\n<p>I do hate the fact that Elon's \"college is useless\" statement has caught on so strongly in American culture though. I am sure he insists that the people he hires on SpaceX or his right wing PACs or whatever else he is up to have degrees. He is just pandering to the MAGA crowd who regularly rails against the \"educated elite\".</p>",
+        "id": 479194833,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1730089390
+    },
+    {
+        "content": "<p>The American sentiment that college isn’t worth it precedes Elon Musk’s political rise.</p>",
+        "id": 479237034,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1730109805
+    },
+    {
+        "content": "<p>See: Thiel Fellowship!</p>",
+        "id": 479238711,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1730110316
+    },
+    {
+        "content": "<p>As a Hack Clubber: <span aria-label=\"eyes\" class=\"emoji emoji-1f440\" role=\"img\" title=\"eyes\">:eyes:</span></p>",
+        "id": 479278779,
+        "sender_full_name": "Andrei Jiroh Halili",
+        "timestamp": 1730122957
+    },
+    {
+        "content": "<p>I liked the idea of a free certification I could go and get. But... putting it behind 3000 hours of content means that almost no employed professionals will get it. This feels counterproductive. </p>\n<p>If I studied 2h a day, 300 days a year, it would still take me _five years_ to get it. That's impossible anyways with my family and job, and I'm sure many others are in that situation. If it's only new grads or self taught folks who aren't yet employed who have the cert, I feel like it might not mean as much to employers.</p>\n<p>A certification like PMP from the PMI (mentioned in the episode) is largely focused on hands-on work at a job. I wonder if we could do something similar....</p>",
+        "id": 479299249,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1730128534
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span> When I was growing up everybody was encouraged to go to college.  It was seen as a necessary requirement for getting a decent job. I did go and drop out, then I went back and dropped out again because it wasn't for me.  Not having a degree meant that I could not get a lot of jobs so I ended up going the enterpreneur route which did work out for me but I don't think it's for everybody. </p>\n<p>During my time in school the things I valued most were not related to computers (my major) but the science and literature and philosophy I was exposed to and of course hanging out with poetry majors and architecture students and physics and mathematics majors. My favorite teacher was my abstract algebra teacher and I can honestly say my mind was blown by that class. Something I have never and will never use in real life but still expanded my mind more than all the chemicals people experiment with.</p>",
+        "id": 479363685,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1730151412
+    },
+    {
+        "content": "<p>Great idea! i just used it to relocate my new favourite quote:</p>\n<p>\"Art is how you decorate space, music is how you decorate time\" --Jean Paul Bas---t</p>\n<p>(couldn't make out last name)<br>\n<a href=\"https://changelog.com/friends/67#t=5750\">https://changelog.com/friends/67#t=5750</a></p>",
+        "id": 479804950,
+        "sender_full_name": "matt wilkie",
+        "timestamp": 1730350431
+    },
+    {
+        "content": "<p>Yeah that's a great quote. A quick web search couldn't land me on the original source. Maybe someone else can find it?</p>",
+        "id": 479880219,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1730382046
+    },
+    {
+        "content": "<p>I think Quincy said \"Jean Paul Basquiat\" but that's not a person, I don't think. He probably meant to say: <a href=\"https://en.wikipedia.org/wiki/Jean-Michel_Basquiat\">https://en.wikipedia.org/wiki/Jean-Michel_Basquiat</a></p>",
+        "id": 479880651,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1730382159
+    }
+]

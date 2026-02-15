@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>He, there is no channel for nightly, so I push it here</p>\n<p>The service seems down since Thursday.<br>\nLast available seems to be <a href=\"https://nightly.changelog.com/2025/10/08\">https://nightly.changelog.com/2025/10/08</a>, <br>\n<a href=\"https://nightly.changelog.com/2025/10/09\">https://nightly.changelog.com/2025/10/09</a> is a 404, not found, and I also got no mail.</p>\n<p>I guess you did not quite the service, or did you?</p>",
+        "id": 544296452,
+        "sender_full_name": "a4z",
+        "timestamp": 1760167609
+    },
+    {
+        "content": "<p>Not on purpose! I’ll check in to it…</p>",
+        "id": 544318506,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1760186881
+    },
+    {
+        "content": "<p>Seems like it broke again (<a href=\"https://nightly.changelog.com/2025/11/20\">https://nightly.changelog.com/2025/11/20</a> is last one)</p>",
+        "id": 560847853,
+        "sender_full_name": "Gert Van Gool",
+        "timestamp": 1764359375
+    }
+]

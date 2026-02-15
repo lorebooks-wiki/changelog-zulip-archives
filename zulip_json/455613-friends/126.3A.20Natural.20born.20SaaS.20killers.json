@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>We discuss the buzz around Clawdbot / MoltBot / OpenClaw, how app subscriptions are turning into weekend hacking projects, why SaaS stocks are crashing on Wall Street, and what it all means. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.am/126\">https://changelog.am/126</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.am/126#t=0\">00:00</a></td>\n<td>Let's talk!</td>\n<td>00:38</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.am/126#t=38\">00:38</a></td>\n<td><a href=\"https://www.tigerdata.com\">Sponsor: Tiger Data</a></td>\n<td>02:34</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.am/126#t=192\">03:12</a></td>\n<td>Preamble</td>\n<td>00:40</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.am/126#t=231\">03:51</a></td>\n<td>Impressions &amp; Friends</td>\n<td>01:00</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.am/126#t=291\">04:51</a></td>\n<td>Clawdbot / Moltbot</td>\n<td>04:34</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.am/126#t=566\">09:26</a></td>\n<td>Develops say</td>\n<td>05:00</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.am/126#t=865\">14:25</a></td>\n<td>Mac minis</td>\n<td>06:57</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.am/126#t=1282\">21:22</a></td>\n<td>Weekend projects</td>\n<td>04:57</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.am/126#t=1579\">26:19</a></td>\n<td>Replacing subscriptions</td>\n<td>05:45</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.am/126#t=1924\">32:04</a></td>\n<td><a href=\"https://namespace.so\">Sponsor: Namespace</a></td>\n<td>01:38</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.am/126#t=2023\">33:43</a></td>\n<td>tunerd</td>\n<td>01:45</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.am/126#t=2128\">35:28</a></td>\n<td>Outside the Dropbox</td>\n<td>01:35</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.am/126#t=2223\">37:03</a></td>\n<td>tunerd demo</td>\n<td>04:12</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.am/126#t=2475\">41:15</a></td>\n<td>SaaS tickers way down</td>\n<td>04:27</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.am/126#t=2742\">45:42</a></td>\n<td>Back to service providers?</td>\n<td>02:49</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.am/126#t=2911\">48:31</a></td>\n<td>Bespoke, ad hoc interfaces</td>\n<td>04:56</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.am/126#t=3207\">53:27</a></td>\n<td><a href=\"https://www.squarespace.com/changelog\">Sponsor: Squarespace</a></td>\n<td>01:24</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.am/126#t=3291\">54:51</a></td>\n<td>AI podcasters</td>\n<td>08:29</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.am/126#t=3801\">1:03:21</a></td>\n<td>Back to service providers</td>\n<td>06:16</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.am/126#t=4177\">1:09:37</a></td>\n<td>Good title!</td>\n<td>01:34</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.am/126#t=4271\">1:11:11</a></td>\n<td>Bye, friends</td>\n<td>01:00</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.am/126#t=4331\">1:12:11</a></td>\n<td>Next week on the pod</td>\n<td>01:00</td>\n</tr>\n</tbody>\n</table>",
+        "id": 571122985,
+        "sender_full_name": "Logbot",
+        "timestamp": 1769806806
+    },
+    {
+        "content": "<p>You guys were talking about dropbox alternatives....</p>\n<p>I use the free tier of dropbox and the only feature it has to distinguish itself from similar offerings is that you log into the web view and delete the files on a remote machine (in case your laptop gets lost or stolen or something).</p>\n<p>I also use google drive free tier, and MEGA free tier (20GB!), and I pay for apple cloud storage to host the backups of my iphone and the iphones of my family through the family sharing program. It's cheap for 50 gigs. I also store my documents folder there.  </p>\n<p>I also looked into <a href=\"http://rsync.net\">rsync.net</a> for a little while but they have a 800GB minimum buy and I didn't want to pay that.</p>\n<p>Recently I also looked at syncthing but AFIK it does not have a mobile client. </p>\n<p>I am about to look into self hosted options such as nextcloud and jellyfin to see what they are like but no matter what I will need to pay apple for my storage because of the iphone backup situation.</p>",
+        "id": 571369900,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1770020618
+    },
+    {
+        "content": "<p>I’ve looked in to SyncThing and it does appear to be the most viable alternative, but yeah iCloud storage is a must have for iOS users</p>",
+        "id": 571429644,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1770038283
+    },
+    {
+        "content": "<p>i keep thinking about running something like a Raspberry Pi strapped to a hard drive, maybe a few of them, installed (with permission) in a few different relatives' houses<br>\nsort of have a homebrew object storage for remote backups<br>\nmake it so the individual nodes are all identical and easy to replace</p>",
+        "id": 571526745,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1770067089
+    },
+    {
+        "content": "<p>I was trying to get some music app on the iphone to play my music files synced from mega but no success to far. The only thing I found was an app that would sync your music from a jellyfish server. Going to try that and see if it actually works</p>",
+        "id": 571526866,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1770067142
+    },
+    {
+        "content": "<p>with end-to-end encryption, it could even be a multi-tenant decentralised object storage system<br>\nsurely something like this exists</p>",
+        "id": 571526893,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1770067145
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"771585\">@Ron Waldon-Howe</span> That's a great idea with something like syncthing. It seems like you still need some nextcloud like interface over your data though.</p>",
+        "id": 571527088,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1770067189
+    }
+]

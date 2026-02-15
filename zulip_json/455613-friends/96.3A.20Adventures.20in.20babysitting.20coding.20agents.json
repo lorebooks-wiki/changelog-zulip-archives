@@ -1,0 +1,350 @@
+[
+    {
+        "content": "<p>The ever-provocative Steve Yegge joins us fresh off a vibe coding bender so productive, he wrote a book on the topic alongside award-winning author Gene Kim. Steve tells us why he believes the IDE is dead, why babysitting AI agents is more fun than coding, when vibe coding might take over the enterprise, how software devs should approach coding agents, and what it all means for society. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.am/96\">https://changelog.am/96</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.am/96#t=0\">00:00</a></td>\n<td>Let's talk!</td>\n<td>00:38</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.am/96#t=38\">00:38</a></td>\n<td><a href=\"https://retool.com/agents\">Sponsor: Retool</a></td>\n<td>01:59</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.am/96#t=157\">02:37</a></td>\n<td>Hot takes &amp; Friends</td>\n<td>07:00</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.am/96#t=576\">09:36</a></td>\n<td>Babysitting AIs</td>\n<td>06:51</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.am/96#t=987\">16:27</a></td>\n<td>All coding will change</td>\n<td>03:34</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.am/96#t=1202\">20:02</a></td>\n<td>Multi-agent is the key</td>\n<td>04:24</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.am/96#t=1466\">24:26</a></td>\n<td>The dopamine hit</td>\n<td>02:22</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.am/96#t=1608\">26:48</a></td>\n<td>The death of the junior eng?</td>\n<td>03:25</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.am/96#t=1813\">30:13</a></td>\n<td><a href=\"https://www.heroku.com/changelogpodcast\">Sponsor: Heroku</a></td>\n<td>03:03</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.am/96#t=1996\">33:16</a></td>\n<td>It's starting in enterprises</td>\n<td>06:04</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.am/96#t=2359\">39:19</a></td>\n<td>The new gig economy</td>\n<td>01:27</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.am/96#t=2446\">40:46</a></td>\n<td>A fitting analogy</td>\n<td>02:51</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.am/96#t=2617\">43:37</a></td>\n<td>Afraid to go beyond</td>\n<td>07:00</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.am/96#t=3037\">50:37</a></td>\n<td>Getting over the hump</td>\n<td>03:29</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.am/96#t=3246\">54:06</a></td>\n<td>Worth waiting?</td>\n<td>03:41</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.am/96#t=3467\">57:47</a></td>\n<td><a href=\"https://agntcy.org\">Sponsor: Outshift by Cisco</a></td>\n<td>01:03</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.am/96#t=3531\">58:51</a></td>\n<td>Getting tactical</td>\n<td>03:10</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.am/96#t=3721\">1:02:01</a></td>\n<td>Talk to the plan</td>\n<td>08:13</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.am/96#t=4214\">1:10:14</a></td>\n<td>Who wrote this?</td>\n<td>05:17</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.am/96#t=4531\">1:15:31</a></td>\n<td>So expensive!</td>\n<td>04:33</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.am/96#t=4804\">1:20:04</a></td>\n<td>Giving them tools</td>\n<td>02:08</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.am/96#t=4932\">1:22:12</a></td>\n<td>Hitting the household</td>\n<td>03:02</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.am/96#t=5113\">1:25:13</a></td>\n<td>Dumbness as a feature</td>\n<td>00:36</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.am/96#t=5150\">1:25:50</a></td>\n<td>Memory matters</td>\n<td>01:41</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://changelog.am/96#t=5251\">1:27:31</a></td>\n<td>Societal impact</td>\n<td>02:02</td>\n</tr>\n<tr>\n<td>26</td>\n<td><a href=\"https://changelog.am/96#t=5373\">1:29:33</a></td>\n<td>Being a kid today</td>\n<td>00:56</td>\n</tr>\n<tr>\n<td>27</td>\n<td><a href=\"https://changelog.am/96#t=5429\">1:30:29</a></td>\n<td>What's the point?</td>\n<td>01:27</td>\n</tr>\n<tr>\n<td>28</td>\n<td><a href=\"https://changelog.am/96#t=5517\">1:31:57</a></td>\n<td>Bye, friends</td>\n<td>00:47</td>\n</tr>\n<tr>\n<td>29</td>\n<td><a href=\"https://changelog.am/96#t=5563\">1:32:43</a></td>\n<td><a href=\"https://changelog.com/live\">Next week on the pod</a></td>\n<td>01:14</td>\n</tr>\n</tbody>\n</table>",
+        "id": 522833126,
+        "sender_full_name": "Logbot",
+        "timestamp": 1749236527
+    },
+    {
+        "content": "<p>I thought Nathan Sobo's \"genius-level golden retriever on acid\" was the best description for AI coding agents ever until Steve dropped \"toddler with a chainsaw on ice skates\" on us <span aria-label=\"rolling on the floor laughing\" class=\"emoji emoji-1f923\" role=\"img\" title=\"rolling on the floor laughing\">:rolling_on_the_floor_laughing:</span></p>",
+        "id": 522834964,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1749237472
+    },
+    {
+        "content": "<p>That was a good description.</p>",
+        "id": 522854069,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1749249065
+    },
+    {
+        "content": "<p>I'm going to push back a bit on the two pizza team and gig topic. It's not AI that's unblocking or unlocking the benefits of that approach. It's the business leadership itself. There's nothing preventing these concepts today aside from poor leadership siloing and structuring a business in such a way where progress is blocked. Why should your good UX people be pigeonholed into a single product or project? Why should engineering be isolated from customers? It's because the poor business leaders decided it. That doesn't change with AI.</p>",
+        "id": 522854310,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1749249219
+    },
+    {
+        "content": "<p>“Gig economy” for programmers does not fill me with excitement.</p>\n<p>Even he meant a gig economy within an enterprise, because we live in the worst timeline, why would anyone expect they stop just-in-timing/elastic-workforce-balancing there?</p>",
+        "id": 522911184,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1749320813
+    },
+    {
+        "content": "<p>lots of great ideas and big predictions on this one. loved listening to it.</p>\n<p>one thing to keep in mind, if you dont already know this,  steve is disproportionately incentivized to have agentic coding and vibe coding become a huge success. his company owns a big toll booth on that road.</p>\n<p>not saying this invalidates anything he said in any way. but just like when an analyst goes on tv to talk about a stock and they need to disclose their holdings, it’s important that we take things like this into consideration when having conversations about the future of coding tools.</p>",
+        "id": 522915148,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1749326083
+    },
+    {
+        "content": "<p>I would’ve loved to know what his monthly spend is for that kind is setup.</p>\n<p>I do appreciate him calling out some more hobbyist/learner friendly alternatives (which I’ve already forgotten). But he’s the second thought leader type to recommend Amp to me in the last 24 hours and I was already balking at that &lt;$20/month line (I just told Adam Gordon Bell “I’m in this website and I feel personally attacked <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span>”).</p>",
+        "id": 522918401,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1749329793
+    },
+    {
+        "content": "<p>BTW, does anyone remember what those lower cost agentic editors were so I don’t have to scrub through or wait for the transcript?</p>",
+        "id": 522922657,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1749336183
+    },
+    {
+        "content": "<p>I don't. I use Claude Code with an API token but I'm eyeing the $100/month plan myself.</p>",
+        "id": 522924099,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1749338635
+    },
+    {
+        "content": "<p>Ah, Cline was one of them.</p>",
+        "id": 522925717,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1749341473
+    },
+    {
+        "content": "<p>What kind of usage does that represent? Side projects… workday?</p>",
+        "id": 522925792,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1749341574
+    },
+    {
+        "content": "<p>Great convo! One of the few AI-bullish takes that didn't make me feel utter dread <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span> </p>\n<p>Actually made me excited to try this agent-baby-sitter approach. But I still have questions and skepticism. At one point Steve says:</p>\n<blockquote>\n<p>“they're submitting double digits more PRs per time unit than their colleagues who aren't using agentic coding. Now, the AI submitted PRs, they get turned back more often, but the ones that are making it through are dwarfing the work of the people who are doing it by hand. And performance review time is coming, okay”</p>\n<ul>\n<li><a href=\"https://podcasts.apple.com/us/podcast/adventures-in-babysitting-coding-agents-friends/id341623264?i=1000711871435&amp;r=2815\">https://podcasts.apple.com/us/podcast/adventures-in-babysitting-coding-agents-friends/id341623264?i=1000711871435&amp;r=2815</a></li>\n</ul>\n</blockquote>\n<p>Firstly, I hope not many managers are evaluating devs based on # of PRs, which seemed to be the implication here. (I can also push loads of garbage PRs with high-rejected rates, if that is metric :) But secondly, who is reviewing all these PRs? Once changes are merged, who is validating new features?  As long as humans are reviewing code (which I hope is a long time), and as long as there are other steps in the SDLC (QA, feature-flag rollout, A/B testing, user feedback, deciding where to iterate, etc), it seems like the bottleneck will just be shifted right. So having LLMs push lines of code 24/7 is only going to take productivity so far if the metric is not just LOCs written, but useful features shipped. This is another instance where toy projects, POCs, and demos are categorically different than real-world production grade software with multiple stakeholders and change-management processes.</p>",
+        "id": 522989940,
+        "sender_full_name": "Brian Buchholz",
+        "timestamp": 1749403624
+    },
+    {
+        "content": "<p>I don't know what to say after listening to this podcast other than I just plain don't believe him.</p>\n<p>not sure if he is lying intentionally, or if his experience is some special niche</p>\n<p>or if I'm just straight up wrong.</p>",
+        "id": 522999089,
+        "sender_full_name": "jrwren",
+        "timestamp": 1749414700
+    },
+    {
+        "content": "<p><a href=\"https://youtu.be/0aJRtCn_WqM\">https://youtu.be/0aJRtCn_WqM</a> @5:40</p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"0aJRtCn_WqM\" href=\"https://youtu.be/0aJRtCn_WqM\"><img src=\"https://uploads.zulipusercontent.net/7d51304f7c6de027886c64b54df8129472a96e48/68747470733a2f2f692e7974696d672e636f6d2f76692f30614a5274436e5f57714d2f6d7164656661756c742e6a7067\"></a></div><p>Re monthly spend, found this on YT saying he spends $300-500 a day, so $100k a year!</p>",
+        "id": 523080878,
+        "sender_full_name": "Brian Buchholz",
+        "timestamp": 1749471954
+    },
+    {
+        "content": "<p>It just occurred to me that this agentic AI workflow is kind of the “<a href=\"https://en.wikipedia.org/wiki/You'll_own_nothing_and_be_happy?wprov=sfti1\">you’ll own nothing and be happy</a>” of tech for me. If I just read a solarpunk book and can fantasize about taking quick, clean, and quiet transit to the tool library and then build a community art piece that kicks off a neighborhood celebration, I love it.</p>\n<p>If it’s coming from the CEO of Über it sounds line a threat and I start considering a bunker in the wilderness.</p>\n<p>Steve’s kind of in between so I’m conflicted.</p>",
+        "id": 523081612,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1749472266
+    },
+    {
+        "content": "<p>I took Steve's suggestion and put Claude Code to work writing some scripts I've had on my TODO list for awhile and the results have been pretty impressive...</p>",
+        "id": 523094023,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1749475712
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752964\">Andrew O'Brien</span> <a href=\"#narrow/channel/455613-friends/topic/96.3A.20Adventures.20in.20babysitting.20coding.20agents/near/523081612\">said</a>:</p>\n<blockquote>\n<p>It just occurred to me that this agentic AI workflow is kind of the “<a href=\"https://en.wikipedia.org/wiki/You'll_own_nothing_and_be_happy?wprov=sfti1\">you’ll own nothing and be happy</a>” of tech for me.<br>\n[...]<br>\nIf it’s coming from the CEO of Über it sounds line a threat and I start considering a bunker in the wilderness.</p>\n</blockquote>\n<p>Interesting analogy!</p>\n<p>I also reject the premise that AI skepticism/fear is because engineers are averse to learning, which seems to be Steve's belief. I've always been eager to learn, and I understand that it's part of my job to keep current with latest tech (whether it's new languages+frameworks, cloud architectures, devops practices, or just parts of the stack outside my current expertise).  And most engineers I know are very interested in learning. Maybe it's different in some niche positions at big-tech—Ive haven't observed that <span aria-label=\"man shrugging\" class=\"emoji emoji-1f937-200d-2642\" role=\"img\" title=\"man shrugging\">:man_shrugging:</span> </p>\n<p>For me, the skepticism/apprehension is due to the huge gap between the Hype+Narrative of AI and the reality on the ground. For 3 years the narrative has been that AI will continue to get exponentially better, and at best it's a silver bullet for every tech company to increase productivity, at worst it will replace all engineers and white collar jobs. Underpinning this is usually a claim about AGI being right around the corner.</p>\n<p>The Reality is that it's a really powerful tool, but nowhere near those claims. But if you point that out, the retort is always, \"yes but it will be in [6/12/24] months when the next model drops because look at how much it's improved.\" </p>\n<p>It's unclear to me if AI will continue to improve or plateau. At the very least, it's NOT a guarantee that just because something increased for the first few years, it will continue to do so. (a) we've already trained on all the data, so now it's relying on generated data, which seems problematic (tho I'm not an expert here). And (b) there may just be fundamental limits to the LLM architecture, or practical limits like power consumption, data center size etc required to actually get to an \"AGI\".</p>\n<p>What IS clear to me is how every tech C-Suite and investor seems more influence by the Narrative regardless of the Reality. They seem to be drooling at the mouth for a future where they can fire 90% of their staff, which, I suppose shouldn't be surprising, but is also quite disappointing and jarring, especially for folks driven to tech for the supposed job security. </p>\n<p>The closed-door conversation between Steve and Dario referenced in this episode sounds like they believe this stuff is going to lead to a quite dire future. We <em>should</em> be optimistic about new tech, and the fact that it always feels so dystopian I think is because the Narrative. So we're going to destroy society so a handful of companies can make trillions of dollars?</p>\n<p>If the narrative is true, then what are we even doing? I shouldn't be learning Claude Code, I should be getting my plumbers license or building a bunker. If the Narrative is false, it almost doesn't matter, because it seems the Narrative itself is driving a <a href=\"https://www.nytimes.com/2025/05/25/business/amazon-ai-coders.html\">lot</a> of <a href=\"https://pluralistic.net/2025/04/27/some-animals/#are-more-equal-than-others\">changes</a> in the industry. </p>\n<p>Anyway, I use AI every day as a tool. It helps with a lot of things. I wouldn't trust it to push production without thorough review. And I'm still not sure if it's more efficient (long or short term) to babysit agents, which means spending all my time reviewing code vs just coding the thing myself, which is not perfect, but at least I know the approach is valid and comprehensible. </p>\n<p><a href=\"/user_uploads/66849/h5rqRGC2BsojGLe2WfuyI_cs/image.png\">image.png</a><br>\n<a href=\"/user_uploads/66849/NnSxRXDWkRu8wbelqxUJ6Gku/image.png\">image.png</a><br>\nSource: <a href=\"https://www.goodtechthings.com/\">https://www.goodtechthings.com/</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/h5rqRGC2BsojGLe2WfuyI_cs/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"1920x1920\" src=\"/user_uploads/thumbnail/66849/h5rqRGC2BsojGLe2WfuyI_cs/image.png/840x560.webp\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/66849/NnSxRXDWkRu8wbelqxUJ6Gku/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"1262x1262\" src=\"/user_uploads/thumbnail/66849/NnSxRXDWkRu8wbelqxUJ6Gku/image.png/840x560.webp\"></a></div>",
+        "id": 523105744,
+        "sender_full_name": "Brian Buchholz",
+        "timestamp": 1749479805
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"902677\">jrwren</span> <a href=\"#narrow/channel/455613-friends/topic/96.3A.20Adventures.20in.20babysitting.20coding.20agents/near/522999089\">said</a>:</p>\n<blockquote>\n<p>I don't know what to say after listening to this podcast other than I just plain don't believe him.</p>\n<p>not sure if he is lying intentionally, or if his experience is some special niche</p>\n<p>or if I'm just straight up wrong.</p>\n</blockquote>\n<p>I had that feeling too. I've been in a much tamer AI-curious zone (more baby <em>steps</em> than baby <em>sitting</em>), and Amp's warnings about \"if you want your costs limited and predictable don't use this\" effectively warned me off it. So my experience/appetite/skill were all too far away from Steve's to practically relate. Still an interesting show though, it's useful to see what people with a ton of resources and AI focus/optimism are getting up to.</p>",
+        "id": 523108360,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1749480619
+    },
+    {
+        "content": "<p>Yeah that's why I brought up the costs on the show. If he's right and we can get open models that reach the quality of Claude 4 in 6-12 months though... the costs drop significantly.</p>",
+        "id": 523111789,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1749481721
+    },
+    {
+        "content": "<p>Yeah I appreciated you keeping things grounded for folks who aren't in the AI stratosphere <span aria-label=\"thumbs up\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"thumbs up\">:thumbs_up:</span></p>",
+        "id": 523112363,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1749481910
+    },
+    {
+        "content": "<p>A couple of my coworkers have already placed preorders on <a href=\"https://frame.work/products/framework-desktop-mainboard-amd-ryzen-ai-max-300-series?v=FRAFMK0006\">Framework's desktops</a> with the hope that the company will cover the cost when they ship in Q3 so we can self-host models (not just for dev). 16x5.1GHz cores + 128GB of DDR5 that the GPU can access directly seems pretty nice. But I'm waiting to see how it will compare for AI workloads with whatever else is out then.</p>",
+        "id": 523131934,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1749487790
+    },
+    {
+        "content": "<p>Under-reported advantage of this workflow: tests and docs are immediately and undeniably useful.</p>",
+        "id": 523138675,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1749490257
+    },
+    {
+        "content": "<p>I really enjoyed this discussion but man am I glad he addressed cost at the end. As he was speaking about running 4 agents at a time I kept thinking \"MY GOD MAN just HOW MUCH is this costing?\" and then he basically answered: Infinite $$$$. It makes me question whether the agentic AI coder future is just a tease and that most companies or organizations won't get there for a <em>very</em> long time.</p>",
+        "id": 523299682,
+        "sender_full_name": "Christopher Patti",
+        "timestamp": 1749564184
+    },
+    {
+        "content": "<p>Yeah, that's kind of the thing. Luckily my current employer runs the infra that a lot of this is built upon, so we get to play with most of this for \"free\". I can't imagine how much it'd cost them otherwise. Easily in the tens of thousands per dev per year. Probably more.</p>",
+        "id": 523303730,
+        "sender_full_name": "Scott Abbey",
+        "timestamp": 1749565191
+    },
+    {
+        "content": "<p>It's certainly too early for broad adoption but it appears that cost will be a race to the bottom. Just how long it takes to -10x or -100x the cost is still up in the air, though. Could be \"6-12 months\" like Steve suggested with open models catching up or could be 5-10 years...</p>",
+        "id": 523309702,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1749566806
+    },
+    {
+        "content": "<p>I have to say, off the back of this episode I tried Claude code after trying copilot agent mode and jetbrains Junie and it definitely feels like a much improved experience.</p>\n<p>I kind of agree with the sentiment in news though that you need to write at least some tests as that is your spec. I have a couple of side projects waiting so I may try and write some cucumber tests and set it loose on them and see what it can do.</p>\n<p>I'm still skeptical of some of the grand claims but I have to admit the progress has been impressive. I'm not yet convinced whether it is actually more productive though!</p>",
+        "id": 523332225,
+        "sender_full_name": "James McNally",
+        "timestamp": 1749573896
+    },
+    {
+        "content": "<p>It's like the claim in the episode that those using it were submitting more PRs but more are rejected. That suggests that those that remain are also lower quality but got under the bar, the real metric will be progress as a team 6 months down the line</p>",
+        "id": 523332444,
+        "sender_full_name": "James McNally",
+        "timestamp": 1749573968
+    },
+    {
+        "content": "<p>Just started this episode and already had a few thoughts:</p>\n<p>Cost (based on previous comments, sounds like it's addressed later)</p>\n<p>Multiple agents in one codebase - What happens when multiple agents overwrite each other? Do they get in an endless loop, fixing each other back and forth?</p>\n<p>Agent orchestration - I appreciate how Steve broke down how he's doing things and saying the agents can't handle a bunch of work at once, you have to take baby steps. My guess is that, while I'm sure the models will still continue to get better, the big value is going to start coming from agent orchestration. Instead of developers having to manage the steps (what would this look like, make a plan for this, do step 1, do step 2, etc...), the platform will do this for you and manage the agents behind the scenes.</p>",
+        "id": 523334968,
+        "sender_full_name": "Chris Duzan",
+        "timestamp": 1749574929
+    },
+    {
+        "content": "<p><strong>Future of Software Engineer</strong><br>\n<a href=\"/user_uploads/66849/08u1832L_MsBrjIGmW7SR2Gp/532e5441-1f23-4aa7-98fb-a6d712b48dc4.png\">532e5441-1f23-4aa7-98fb-a6d712b48dc4.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/08u1832L_MsBrjIGmW7SR2Gp/532e5441-1f23-4aa7-98fb-a6d712b48dc4.png\" title=\"532e5441-1f23-4aa7-98fb-a6d712b48dc4.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"1024x1536\" src=\"/user_uploads/thumbnail/66849/08u1832L_MsBrjIGmW7SR2Gp/532e5441-1f23-4aa7-98fb-a6d712b48dc4.png/840x560.webp\"></a></div>",
+        "id": 523405857,
+        "sender_full_name": "Dixit Ram",
+        "timestamp": 1749612480
+    },
+    {
+        "content": "<p>Accurate since I can spend more time outside rather than at my desk.</p>",
+        "id": 523406230,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1749612790
+    },
+    {
+        "content": "<p>Imagine a future where a generation of young men who are smart and energetic enough to learn to code can't get jobs. Imagine in addition those there are a huge number of young men who are laid off and have nothing but time on their hands and are desperate to make a living.</p>\n<p>I am not hopeful for the future after listening to this. We all thought automation would go after unskilled positions and everybody could just skill up and get a better job. Now it's going after the highest skill jobs. Coders, designers, creatives, writers, doctors, lawyers, engineers, financial analysts, stock brokers, etc.</p>",
+        "id": 523868822,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1749787966
+    },
+    {
+        "content": "<p><a href=\"https://www.smbc-comics.com/comic/sad-2\">https://www.smbc-comics.com/comic/sad-2</a></p>\n<p><a href=\"/user_uploads/66849/heUiZtfBnAESR6j42MfNSKQN/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/heUiZtfBnAESR6j42MfNSKQN/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"684x792\" src=\"/user_uploads/thumbnail/66849/heUiZtfBnAESR6j42MfNSKQN/image.png/840x560.webp\"></a></div>",
+        "id": 523869032,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1749788160
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/66849/9S3PE3ieRLPtz2f9YVUdg_u8/devil_stand_color-copy-2.jpg\">devil_stand_color copy 2.jpg</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/9S3PE3ieRLPtz2f9YVUdg_u8/devil_stand_color-copy-2.jpg\" title=\"devil_stand_color copy 2.jpg\"><img data-original-content-type=\"image/jpeg\" data-original-dimensions=\"345x499\" src=\"/user_uploads/thumbnail/66849/9S3PE3ieRLPtz2f9YVUdg_u8/devil_stand_color-copy-2.jpg/840x560.webp\"></a></div>",
+        "id": 523873203,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1749791375
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"762853\">James McNally</span> <a href=\"#narrow/channel/455613-friends/topic/96.3A.20Adventures.20in.20babysitting.20coding.20agents/near/523332225\">said</a>:</p>\n<blockquote>\n<p>I have to say, off the back of this episode I tried Claude code after trying copilot agent mode and jetbrains Junie and it definitely feels like a much improved experience.</p>\n</blockquote>\n<p>Thank you for this! You prompted me to actually take a look at the Claude plan I've been paying for, and it's the Pro ($17/mo one) so I can play with Claude Code!</p>",
+        "id": 523956291,
+        "sender_full_name": "Christopher Patti",
+        "timestamp": 1749824363
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755905\">Tim Uckun</span> <a href=\"#narrow/stream/455613-friends/topic/96.3A.20Adventures.20in.20babysitting.20coding.20agents/near/523868822\">said</a>:</p>\n<blockquote>\n<p>Imagine a future where a generation of young men who are smart and energetic enough to learn to code can't get jobs. Imagine in addition those there are a huge number of young men who are laid off and have nothing but time on their hands and are desperate to make a living.</p>\n<p>I am not hopeful for the future after listening to this. We all thought automation would go after unskilled positions and everybody could just skill up and get a better job. Now it's going after the highest skill jobs. Coders, designers, creatives, writers, doctors, lawyers, engineers, financial analysts, stock brokers, etc.</p>\n</blockquote>\n<p>im more optimistic, but respect your take on this. i think that programmers will eventually be forced to work on higher level architectural problems, less on low level problems like getting the syntax right.</p>\n<p>when these agents get really good and dependable, it will make 0 sense to spend time on those low level problems anymore. arguably i think employers are also going to be willing to pay people to spend time on those low level problems. some of this behavior could already be felt in the industry.</p>\n<p>but, i think that it’s going to take longer than we think for the performance of these models to get there. at least for large scale code bases.</p>\n<p>im reminded of a bill gates quote “…the things we think are going to take 10 years, take 10 months, and the things we think will take 10 months take 10 years…” or something like that.</p>\n<p>ability for programmers to spend 80% of their time on the higher level problems is further than we think imo. </p>\n<p>but if your company has accepted a f*@$ ton of money during your last funding raise then it’s in your best interest to make sure people think it’s “right around the corner”.</p>",
+        "id": 524082953,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1749928416
+    },
+    {
+        "content": "<p>Reading the headlines it feels like the world is sitting on a keg of dynamite and the fuse has already been lit.</p>\n<p>I am glad I live in the furthest corner of the world where the damage is likely to be less severe when the whole thing blows up.</p>",
+        "id": 524088800,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1749936668
+    },
+    {
+        "content": "<p>There needs to be a site like <a href=\"https://www.web3isgoinggreat.com/\">https://www.web3isgoinggreat.com/</a> but for LLMs :P<br>\nLLMs are actually useful, unlike cryptocurrency, but there sure are too many people using them irresponsibly, and getting to the good parts of LLMs is probably not worth the carbon emissions</p>",
+        "id": 524101877,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1749958524
+    },
+    {
+        "content": "<p>So to summarize this guy thinks that people who are afraid of losing their job to ai and write code by hand lack imagination. But people vibe coding with llms, which by definition can only produce things created by others, are full of imagination?? </p>\n<p>He also is 100% certain that ai will be better than humans at coding, but somehow at the same time there will be more programming jobs for people to review code (written by machines smarter than the humans reviewing it???). </p>\n<p>I mean how can anyone take this seriously??? Some really crazy takes…</p>",
+        "id": 524123821,
+        "sender_full_name": "Ryan Nicoletti",
+        "timestamp": 1749986311
+    },
+    {
+        "content": "<p>i think what steve was describing was a world where the skill of coding as we know it today is transformed. similar to how the past skills of graphic design were transformed by photoshop.</p>\n<p>in the future skills like hand-rolling code aren’t going to be as valuable. its gonna come down to taste and judgement.</p>\n<p>history is littered with examples of this. i think it cant hurt to get ahead of it. dont give up on the skills that have been honed and mastered over the years, but pickup the skill of wielding llms for software development.</p>",
+        "id": 524140165,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1750002938
+    },
+    {
+        "content": "<p>I have been coding for the last 20+ years almost daily. A big chunk of this was done pair-programming style. I don't default to pairing, but it often makes the activity more enjoyable. Pairing reminds me what is important: talking through the problem, sharing the context, comparing different approaches, etc.</p>\n<p>An AI can be a great pairing companion. Not to replace, but to augment (like an exoskeleton). It can do certain things quicker &amp; better than me, and the end-result is overall superior.</p>\n<p>In <a href=\"https://github.com/thechangelog/pipely/pull/16\">this latest example</a>, I leveraged AI to produce the code, a different AI reviewed the code, while I remained in full control. Some suggestions I didn't take because it was making the code harder to understand. Some of the review suggestions I am not going to take because the AI does not understand the nuances of how all the pieces come together. Overall it was helpful, the end-result is superior and was produced quicker than I could have done on my own.</p>\n<p>My high-order bit perspective is:</p>\n<ul>\n<li><code>OR</code> is limiting, always look for the <code>AND</code> angle</li>\n<li>Change is constant, inevitable, and always requires curation</li>\n<li>Things are never as great - or as bad - as people make them out to be</li>\n<li>Coding agents &amp; MCPs are an important milestone, but staying connected to the LLM trajectory is what's more important to me</li>\n</ul>\n<p>This is funny, partly true, and it matches my perception of the current state of coding agents:<br>\n<a href=\"/user_uploads/66849/ocI82pedfSR8v_ujahnbW8j1/1744810573844.png\">1744810573844.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/ocI82pedfSR8v_ujahnbW8j1/1744810573844.png\" title=\"1744810573844.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"1280x720\" src=\"/user_uploads/thumbnail/66849/ocI82pedfSR8v_ujahnbW8j1/1744810573844.png/840x560.webp\"></a></div>",
+        "id": 524151610,
+        "sender_full_name": "Gerhard",
+        "timestamp": 1750016259
+    },
+    {
+        "content": "<p>History shows that people use automation to do things they don't want to do or to do things they don't want to take responsibility for.</p>\n<p>Now this applies to code. </p>\n<p>Let's see where this goes.</p>",
+        "id": 524157716,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1750024396
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"767595\">Christopher Patti</span> <a href=\"#narrow/stream/455613-friends/topic/96.3A.20Adventures.20in.20babysitting.20coding.20agents/near/523956291\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"762853\">James McNally</span> <a href=\"#narrow/channel/455613-friends/topic/96.3A.20Adventures.20in.20babysitting.20coding.20agents/near/523332225\">said</a>:</p>\n<blockquote>\n<p>I have to say, off the back of this episode I tried Claude code after trying copilot agent mode and jetbrains Junie and it definitely feels like a much improved experience.</p>\n</blockquote>\n<p>Thank you for this! You prompted me to actually take a look at the Claude plan I've been paying for, and it's the Pro ($17/mo one) so I can play with Claude Code!</p>\n</blockquote>\n<p>Do you know if there are any additional cost with claudes agentic mode? Just $20 a month sounds way too low compared to the $300 others are spending every day</p>",
+        "id": 525163133,
+        "sender_full_name": "Dan Čermák",
+        "timestamp": 1750517142
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"870132\">@Dan Čermák</span> Checkout my message here: <a class=\"message-link\" href=\"/#narrow/channel/455613-friends/topic/98.3A.20Just.20on.20the.20rocks/near/525225935\">#friends &gt; 98: Just on the rocks @ 💬</a> . I'm using Claude Code with with the $20 a month subscription and haven't run into limits or anything</p>",
+        "id": 525226039,
+        "sender_full_name": "Ash",
+        "timestamp": 1750615336
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"931364\">Ash</span> <a href=\"#narrow/stream/455613-friends/topic/96.3A.20Adventures.20in.20babysitting.20coding.20agents/near/525226039\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"870132\">Dan Čermák</span> Checkout my message here: <a class=\"message-link\" href=\"/#narrow/channel/455613-friends/topic/98.3A.20Just.20on.20the.20rocks/near/525225935\">#friends &gt; 98: Just on the rocks @ 💬</a> . I'm using Claude Code with with the $20 a month subscription and haven't run into limits or anything</p>\n</blockquote>\n<p>Is this your first billing period or already a second or later one?</p>",
+        "id": 525226802,
+        "sender_full_name": "Dan Čermák",
+        "timestamp": 1750616354
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"870132\">Dan Čermák</span> <a href=\"#narrow/stream/455613-friends/topic/96.3A.20Adventures.20in.20babysitting.20coding.20agents/near/525226802\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"931364\">Ash</span> <a href=\"#narrow/stream/455613-friends/topic/96.3A.20Adventures.20in.20babysitting.20coding.20agents/near/525226039\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"870132\">Dan Čermák</span> Checkout my message here: <a class=\"message-link\" href=\"/#narrow/channel/455613-friends/topic/98.3A.20Just.20on.20the.20rocks/near/525225935\">#friends &gt; 98: Just on the rocks @ 💬</a> . I'm using Claude Code with with the $20 a month subscription and haven't run into limits or anything</p>\n</blockquote>\n<p>Is this your first billing period or already a second or later one?</p>\n</blockquote>\n<p>It’s my first billing session. But running ‘/cost’ in CC seems to confirm that I should get any surprise costs.</p>",
+        "id": 525227501,
+        "sender_full_name": "Ash",
+        "timestamp": 1750617303
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"931364\">Ash</span> <a href=\"#narrow/stream/455613-friends/topic/96.3A.20Adventures.20in.20babysitting.20coding.20agents/near/525227501\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"870132\">Dan Čermák</span> <a href=\"#narrow/stream/455613-friends/topic/96.3A.20Adventures.20in.20babysitting.20coding.20agents/near/525226802\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"931364\">Ash</span> <a href=\"#narrow/stream/455613-friends/topic/96.3A.20Adventures.20in.20babysitting.20coding.20agents/near/525226039\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"870132\">Dan Čermák</span> Checkout my message here: <a class=\"message-link\" href=\"/#narrow/channel/455613-friends/topic/98.3A.20Just.20on.20the.20rocks/near/525225935\">#friends &gt; 98: Just on the rocks @ 💬</a> . I'm using Claude Code with with the $20 a month subscription and haven't run into limits or anything</p>\n</blockquote>\n<p>Is this your first billing period or already a second or later one?</p>\n</blockquote>\n<p>It’s my first billing session. But running ‘/cost’ in CC seems to confirm that I should get any surprise costs.</p>\n</blockquote>\n<p>I hope you meant to write \"shouldn't\" <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 525235042,
+        "sender_full_name": "Dan Čermák",
+        "timestamp": 1750628670
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"870132\">Dan Čermák</span> <a href=\"#narrow/channel/455613-friends/topic/96.3A.20Adventures.20in.20babysitting.20coding.20agents/near/525235042\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"931364\">Ash</span> <a href=\"#narrow/stream/455613-friends/topic/96.3A.20Adventures.20in.20babysitting.20coding.20agents/near/525227501\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"870132\">Dan Čermák</span> <a href=\"#narrow/stream/455613-friends/topic/96.3A.20Adventures.20in.20babysitting.20coding.20agents/near/525226802\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"931364\">Ash</span> <a href=\"#narrow/stream/455613-friends/topic/96.3A.20Adventures.20in.20babysitting.20coding.20agents/near/525226039\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"870132\">Dan Čermák</span> Checkout my message here: <a class=\"message-link\" href=\"/#narrow/channel/455613-friends/topic/98.3A.20Just.20on.20the.20rocks/near/525225935\">#friends &gt; 98: Just on the rocks @ 💬</a> . I'm using Claude Code with with the $20 a month subscription and haven't run into limits or anything</p>\n</blockquote>\n<p>Is this your first billing period or already a second or later one?</p>\n</blockquote>\n<p>It’s my first billing session. But running ‘/cost’ in CC seems to confirm that I should get any surprise costs.</p>\n</blockquote>\n<p>I hope you meant to write \"shouldn't\" <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>\n</blockquote>\n<p>Oops yes shouldn't*** haha</p>",
+        "id": 525239128,
+        "sender_full_name": "Ash",
+        "timestamp": 1750634810
+    },
+    {
+        "content": "<p>Dunno how many of you are Sourcegraph Cody subscribers but there is a big uproar in their Discord at the moment about the perceived rug pull with their sudden announcement of their Cody plan deprecations .  Folks are angry</p>",
+        "id": 525763132,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1750873882
+    },
+    {
+        "content": "<p>I've just being following along, as you say people are not happy. Can only assume they where losing money on it. Amp doesn't seem like a replacement although not used it my self. I use Cody myself daily. So will now be looking for a replacement</p>",
+        "id": 525774819,
+        "sender_full_name": "Alex Barnes",
+        "timestamp": 1750879117
+    },
+    {
+        "content": "<p>Yeah I'm in the same boat, Cody felt like a sweet spot for me where Amp was clearly too much. Bah.</p>",
+        "id": 525782312,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1750882410
+    },
+    {
+        "content": "<p>I've had a quick play around with <a href=\"https://github.com/RooCodeInc/Roo-Code\">https://github.com/RooCodeInc/Roo-Code</a> tonight that seems quite good. It's pay per token use, but feel more like Cody than amp. <br>\nI loved that I could use Cody in the browser to, it was my one stop shop for all llm use.</p>",
+        "id": 525793386,
+        "sender_full_name": "Alex Barnes",
+        "timestamp": 1750886947
+    },
+    {
+        "content": "<p>It feels like a rug pull because it is a rug pull. I heard the CEO of sourcegraph say on the changelog podcast that cody was going to be free forever because they were making money in the enterprise and the individual developer was not their market.</p>\n<p>Gemini has a generous free tier so I am going to try that next.</p>",
+        "id": 525797078,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1750889279
+    },
+    {
+        "content": "<p>I tried Gemini code assist tonight. It was very very slow. Wondering if I could just use Gemini free tier with an API key and Cody. I'm sure you can use your own API keys with it.</p>",
+        "id": 525798212,
+        "sender_full_name": "Alex Barnes",
+        "timestamp": 1750890059
+    },
+    {
+        "content": "<p>I'm a Cody pro subscriber and I'm pretty disappointed. My whole thing is I wanted something with predictable costs. I paid for co-pilot in the past and found it to be terrible which is the reason I went with Cody.</p>",
+        "id": 525801783,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1750892828
+    },
+    {
+        "content": "<p>Tabnine seems a viable alternative to cody, and only $9 a month</p>",
+        "id": 525828481,
+        "sender_full_name": "Alex Barnes",
+        "timestamp": 1750917460
+    },
+    {
+        "content": "<p>Tabnine is also more ethically and legally trained on BSD and other public domain sources, from memory</p>",
+        "id": 525831639,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1750919520
+    },
+    {
+        "content": "<p>Yes I saw that. I think you can choose between the main frontier models and they also have there own protected model which is trained on licensed content.</p>",
+        "id": 525839178,
+        "sender_full_name": "Alex Barnes",
+        "timestamp": 1750922856
+    },
+    {
+        "content": "<p>i started using tabnine before claude or copilot were a thing. it wasnt great, but every now and then it would have a moment of brilliance and i would think “this is the future!”</p>\n<p>never thought that we’d be in this new normal where lots of code is ai-generated.</p>",
+        "id": 526241527,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1751165697
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p>Is it just me, or is the website down? <a href=\"https://changelog.com/\">https://changelog.com/</a></p>",
+        "id": 572296106,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1770354780
+    },
+    {
+        "content": "<p>Ping is resolving, so maybe not DNS this time? :-D</p>",
+        "id": 572297528,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1770356033
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752922\">Nabeel S</span> <a href=\"#narrow/channel/453512-general/topic/Website.20Down.3F/near/572296106\">said</a>:</p>\n<blockquote>\n<p>Is it just me, or is the website down? <a href=\"https://changelog.com/\">https://changelog.com/</a></p>\n</blockquote>\n<p>Still working for me:<br>\nnslookup <a href=\"http://changelog.com\">changelog.com</a> <br>\nServer:     192.168.3.1<br>\nAddress:    192.168.3.1#53</p>\n<p>Non-authoritative answer:<br>\nName:   <a href=\"http://changelog.com\">changelog.com</a><br>\nAddress: 137.66.16.250</p>",
+        "id": 572297616,
+        "sender_full_name": "Jarvis",
+        "timestamp": 1770356104
+    },
+    {
+        "content": "<p>It started working again for me finally. But my browser was just spinning for a good 30 minutes <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span></p>",
+        "id": 572297705,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1770356177
+    },
+    {
+        "content": "<p>Other sites were still working fine.</p>",
+        "id": 572297713,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1770356186
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752922\">@Nabeel S</span> are you using a VPN by any chance? I had to turn off Mullvad in order to get the site to load.</p>",
+        "id": 572471445,
+        "sender_full_name": "Brett Cannon",
+        "timestamp": 1770416471
+    },
+    {
+        "content": "<p>I was on a VPN! I wonder if <span class=\"user-mention\" data-user-id=\"755424\">@Gerhard</span> is experimenting with some anti-abuse algorithms that VPN users are getting caught in <span aria-label=\"slight smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"slight smile\">:slight_smile:</span></p>",
+        "id": 572495660,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1770435414
+    },
+    {
+        "content": "<p>Not experimenting with any anti-abuse, but issues limited to a single region is something that we have been working through: <a href=\"https://community.fly.io/t/response-body-timing-out-in-iad-ewr-all-good-in-13-other-regions/26727\">https://community.fly.io/t/response-body-timing-out-in-iad-ewr-all-good-in-13-other-regions/26727</a></p>\n<p>There is more context here in case you want to try alternative <code>curl</code> commands and help report these isolated incidents that we are still not at the bottom of: <a href=\"https://github.com/thechangelog/changelog.com/issues/553\">https://github.com/thechangelog/changelog.com/issues/553</a></p>\n<p>FWIW: <a href=\"https://status.changelog.com/\">https://status.changelog.com/</a></p>\n<p><a href=\"/user_uploads/66849/LMg9DB7Cufmz3D1pFBNN0M0N/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/LMg9DB7Cufmz3D1pFBNN0M0N/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"1632x1104\" src=\"/user_uploads/thumbnail/66849/LMg9DB7Cufmz3D1pFBNN0M0N/image.png/840x560.webp\"></a></div>",
+        "id": 572507593,
+        "sender_full_name": "Gerhard",
+        "timestamp": 1770449797
+    },
+    {
+        "content": "<p>During the Github outage today (don't know if this is just a coincidence), website wasn't serving any content. Even with curl:</p>\n<div class=\"codehilite\" data-code-language=\"Text only\"><pre><span></span><code>% curl -v https://changelog.com/\n* Host changelog.com:443 was resolved.\n* IPv6: 2a09:8280:1::bf:736b:0\n* IPv4: 137.66.16.250\n*   Trying 137.66.16.250:443...\n* Connected to changelog.com (137.66.16.250) port 443\n* ALPN: curl offers h2,http/1.1\n* (304) (OUT), TLS handshake, Client hello (1):\n*  CAfile: /etc/ssl/cert.pem\n*  CApath: none\n* (304) (IN), TLS handshake, Server hello (2):\n* (304) (IN), TLS handshake, Unknown (8):\n* (304) (IN), TLS handshake, Certificate (11):\n* (304) (IN), TLS handshake, CERT verify (15):\n* (304) (IN), TLS handshake, Finished (20):\n* (304) (OUT), TLS handshake, Finished (20):\n* SSL connection using TLSv1.3 / AEAD-CHACHA20-POLY1305-SHA256 / [blank] / UNDEF\n* ALPN: server accepted h2\n* Server certificate:\n*  subject: CN=changelog.com\n*  start date: Dec 31 16:52:47 2025 GMT\n*  expire date: Mar 31 16:52:46 2026 GMT\n*  subjectAltName: host \"changelog.com\" matched cert's \"changelog.com\"\n*  issuer: C=US; O=Let's Encrypt; CN=E8\n*  SSL certificate verify ok.\n* using HTTP/2\n* [HTTP/2] [1] OPENED stream for https://changelog.com/\n* [HTTP/2] [1] [:method: GET]\n* [HTTP/2] [1] [:scheme: https]\n* [HTTP/2] [1] [:authority: changelog.com]\n* [HTTP/2] [1] [:path: /]\n* [HTTP/2] [1] [user-agent: curl/8.7.1]\n* [HTTP/2] [1] [accept: */*]\n&gt; GET / HTTP/2\n&gt; Host: changelog.com\n&gt; User-Agent: curl/8.7.1\n&gt; Accept: */*\n&gt;\n* Request completely sent off\n&lt; HTTP/2 200\n&lt; cache-control: no-store, must-revalidate\n&lt; content-security-policy: base-uri 'self'; frame-ancestors 'self';\n&lt; content-type: text/html; charset=utf-8\n&lt; date: Mon, 09 Feb 2026 16:33:57 GMT\n&lt; fly-request-id: 01KH1M45MCHPSJG47N2NJAWFK2-fra\n&lt; referrer-policy: strict-origin-when-cross-origin\n&lt; server: Fly/cacd25bc (2026-02-09)\n&lt; surrogate-control: max-age=60, stale-while-revalidate=60, stale-if-error=604800\n&lt; surrogate-key: pages\n&lt; x-content-type-options: nosniff\n&lt; x-permitted-cross-domain-policies: none\n&lt; vary: Accept-Encoding\n&lt; x-varnish: 9374661 12519472\n&lt; age: 92\n&lt; via: 2 fly.io, 2 fly.io, 1.1 2873241a63e328 (Varnish/7.7), 2 fly.io\n&lt; accept-ranges: bytes\n&lt; x-request-id: 01KH1M45MCHPSJG47N2NJAWFK2-fra\n&lt; cache-status: region=fra; origin=app(localhost:5000),changelog-2025-05-05.fly.dev; ttl=-32.604; grace=86400.000; keep=604800.000; storage=storage.memory; hit; stale; hits=1\n&lt; content-length: 49427\n&lt;\n* Recv failure: Operation timed out\n* LibreSSL SSL_read: LibreSSL/3.3.6: error:02FFF03C:system library:func(4095):Operation timed out, errno 60\n* Failed receiving HTTP2 data: 56(Failure when receiving data from the peer)\n* Connection #0 to host changelog.com left intact\ncurl: (56) Recv failure: Operation timed out\n</code></pre></div>",
+        "id": 572883649,
+        "sender_full_name": "Dragan Milic",
+        "timestamp": 1770670111
+    },
+    {
+        "content": "<p>That's a coincidence, since we are not tied to GitHub or Azure in any way.</p>\n<p>In your curl response - thank you for sharing it - the response headers are served, but not the body. We have narrowed it down to a <a href=\"http://Fly.io\">Fly.io</a> Proxy HTTP/2 issue specifically. All the context is centralised here: <a href=\"https://github.com/thechangelog/changelog.com/issues/553\">https://github.com/thechangelog/changelog.com/issues/553</a></p>",
+        "id": 572967668,
+        "sender_full_name": "Gerhard",
+        "timestamp": 1770710658
+    },
+    {
+        "content": "<p>FYI <a href=\"https://github.com/thechangelog/changelog.com/issues/553#issuecomment-3883928477\">https://github.com/thechangelog/changelog.com/issues/553#issuecomment-3883928477</a></p>",
+        "id": 573264861,
+        "sender_full_name": "Gerhard",
+        "timestamp": 1770810439
+    },
+    {
+        "content": "<p>Awesome, thank you!<br>\nSometimes loading time of the web page was a tad delayed - didn't do any measurements, so can't give you any numbers, but atm loading times of <a href=\"http://changelog.com\">changelog.com</a> are better (could be biased because this is just how it 'feels').</p>",
+        "id": 573267667,
+        "sender_full_name": "Dragan Milic",
+        "timestamp": 1770811321
+    }
+]

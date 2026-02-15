@@ -1,0 +1,104 @@
+[
+    {
+        "content": "<p>Long-time JS Party panelist Amal Hussein joins Jerod to catch up on her career path, to opine on the viability agentic coding, to feel all the feelings that AI brings out of us as developers, and to share something new in her life that changes everything. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.am/86\">https://changelog.am/86</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.am/86#t=0\">00:00</a></td>\n<td>Let's talk!</td>\n<td>00:38</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.am/86#t=38\">00:38</a></td>\n<td><a href=\"https://www.heroku.com/changelogpodcast\">Sponsor: Heroku</a></td>\n<td>02:43</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.am/86#t=201\">03:21</a></td>\n<td>Big features &amp; Friends</td>\n<td>02:37</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.am/86#t=358\">05:58</a></td>\n<td>Did something go wrong?</td>\n<td>04:08</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.am/86#t=606\">10:06</a></td>\n<td>Amal's journey</td>\n<td>04:09</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.am/86#t=855\">14:15</a></td>\n<td>Her time at Stripe</td>\n<td>02:37</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.am/86#t=1012\">16:52</a></td>\n<td>Her time at Cisco</td>\n<td>02:29</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.am/86#t=1161\">19:21</a></td>\n<td>Amal the disruptor</td>\n<td>02:37</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.am/86#t=1318\">21:58</a></td>\n<td>Silent sacking</td>\n<td>03:03</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.am/86#t=1501\">25:01</a></td>\n<td><a href=\"https://depot.dev\">Sponsor: Depot</a></td>\n<td>02:20</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.am/86#t=1642\">27:22</a></td>\n<td>Where she works now</td>\n<td>08:02</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.am/86#t=2124\">35:24</a></td>\n<td>How she found Istari</td>\n<td>03:23</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.am/86#t=2327\">38:47</a></td>\n<td>Moving to a different platform</td>\n<td>02:10</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.am/86#t=2456\">40:56</a></td>\n<td>Istari agents</td>\n<td>03:38</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.am/86#t=2675\">44:35</a></td>\n<td>Every deployment target</td>\n<td>01:31</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.am/86#t=2765\">46:05</a></td>\n<td>Do agents work today?</td>\n<td>03:49</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.am/86#t=2995\">49:55</a></td>\n<td>Agentic coding</td>\n<td>01:19</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.am/86#t=3073\">51:13</a></td>\n<td><a href=\"https://retool.com/changelog\">Sponsor: Retool</a></td>\n<td>03:01</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.am/86#t=3254\">54:14</a></td>\n<td>Amal's AI feelings journey</td>\n<td>02:39</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.am/86#t=3413\">56:53</a></td>\n<td>Jerod's agentic coding opinion</td>\n<td>04:09</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.am/86#t=3662\">1:01:02</a></td>\n<td>Humans out of the loop?</td>\n<td>01:20</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.am/86#t=3742\">1:02:22</a></td>\n<td>Jerod is basic</td>\n<td>01:17</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.am/86#t=3819\">1:03:39</a></td>\n<td>Software is hard tho</td>\n<td>01:58</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.am/86#t=3937\">1:05:37</a></td>\n<td>Cheering the demise of engineers</td>\n<td>04:04</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://changelog.am/86#t=4181\">1:09:41</a></td>\n<td>We've been a bottleneck</td>\n<td>04:32</td>\n</tr>\n<tr>\n<td>26</td>\n<td><a href=\"https://changelog.am/86#t=4453\">1:14:13</a></td>\n<td>Vibe coding gold rush</td>\n<td>00:56</td>\n</tr>\n<tr>\n<td>27</td>\n<td><a href=\"https://changelog.am/86#t=4509\">1:15:09</a></td>\n<td>Revenge of the juniors</td>\n<td>04:46</td>\n</tr>\n<tr>\n<td>28</td>\n<td><a href=\"https://changelog.am/86#t=4794\">1:19:54</a></td>\n<td>A basic analogy</td>\n<td>00:59</td>\n</tr>\n<tr>\n<td>29</td>\n<td><a href=\"https://changelog.am/86#t=4853\">1:20:53</a></td>\n<td>It's just a job</td>\n<td>01:28</td>\n</tr>\n<tr>\n<td>30</td>\n<td><a href=\"https://changelog.am/86#t=4941\">1:22:21</a></td>\n<td>Amal had a baby!</td>\n<td>05:52</td>\n</tr>\n<tr>\n<td>31</td>\n<td><a href=\"https://changelog.am/86#t=5294\">1:28:14</a></td>\n<td>Scaling out</td>\n<td>01:31</td>\n</tr>\n<tr>\n<td>32</td>\n<td><a href=\"https://changelog.am/86#t=5385\">1:29:45</a></td>\n<td>Don't wait</td>\n<td>03:22</td>\n</tr>\n<tr>\n<td>33</td>\n<td><a href=\"https://changelog.am/86#t=5587\">1:33:07</a></td>\n<td>Why wait?</td>\n<td>03:18</td>\n</tr>\n<tr>\n<td>34</td>\n<td><a href=\"https://changelog.am/86#t=5785\">1:36:25</a></td>\n<td>Bye, friends</td>\n<td>00:25</td>\n</tr>\n<tr>\n<td>35</td>\n<td><a href=\"https://changelog.am/86#t=5811\">1:36:51</a></td>\n<td>Closing thoughts</td>\n<td>01:01</td>\n</tr>\n</tbody>\n</table>",
+        "id": 508827546,
+        "sender_full_name": "Logbot",
+        "timestamp": 1743188464
+    },
+    {
+        "content": "<p>Congrats on the baby Amal! Was wondering why she wasn't around as much on JS Party over the last year, now it makes sense.</p>",
+        "id": 509209438,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1743429511
+    },
+    {
+        "content": "<p>Love the kids chat at the end. We need more of that.</p>",
+        "id": 509265398,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1743442804
+    },
+    {
+        "content": "<p>Hah we saved it to the end because we thought folks might want <em>less</em> of that...</p>",
+        "id": 509265614,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1743442882
+    },
+    {
+        "content": "<p>To be fair most people probably do want less of that because they just want to hear tech all the time but it's nice to hear the human side of things. Especially when people say they would have had kids sooner.</p>",
+        "id": 509283030,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1743448832
+    },
+    {
+        "content": "<p>loved the conversation, tech and non-tech, congrats on the new bebe and on what sounds like an amazing role amal!</p>",
+        "id": 509425715,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1743506937
+    },
+    {
+        "content": "<p>Regarding what we can expect from agentic coding, I think Amal’s point about a limit to human bandwidth is exactly right. Something I’ve thought about is how my team and I are already nearly at a bottleneck given how much code we have to review. If 10 more code reviews came in each day because we are all just chucking out vide code, who’s gonna review all that? I suppose there might be a future where we are okay with AI agents reviewing AI generated code… sort of like what Jerod was saying about LLMs checking LLMs for hallucinations… and that is an interesting future to consider. </p>\n<p>One thing I’d be all for an AI agent helping me out with, though, is doing my debugging for me. I’d love to be able say “here’s the problem I’m having, go take the whole code base as your context, go interact with the app in the browser, do whatever you need to do, and give me a summary of what the bug is while I have a cup of coffee.”</p>",
+        "id": 510409350,
+        "sender_full_name": "Jimmy Sweeney",
+        "timestamp": 1743885219
+    },
+    {
+        "content": "<p>It may not be an AI but I do think there will be more/better review tools. I am thinking of something akin to a linter or a type checker but better and more context/code aware.</p>\n<p>I am also on the record for predicting we will be using a AI specific programming language in the future.  Something along the lines of rocq (coq) which is a language that is provable.  The AI will write the code and then run the compiler which will error out if it's not provable. The language I envision will also include things like fuzz testing and such so that when the AI writes the code it will also write a full test suite which passes.</p>\n<p>If this language is sufficiently concise and easily readable like ruby then all you have to do is check the business logic and you can be assured the rest of the code is solid.</p>\n<p>The next step after that will be to create a language incomprehensible to humans but safe and easy for the AI <span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span></p>",
+        "id": 510416618,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1743890495
+    },
+    {
+        "content": "<p>LLMs are also only a small part of the AI field<br>\nWe'll eventually hit a local maxima of what works well with generative AI (given that it has no knowledge and only accidentally produces useful output, provided an expert actually reviews the output)</p>\n<p>And when that happens, we'll probably see universities and companies return to the broader field and develop something better, hopefully something that internalises facts and thus doesn't fabricate</p>",
+        "id": 510427496,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1743899915
+    },
+    {
+        "content": "<p>LLMs were trained on a broad set of things including poetry, fiction etc. I could imagine some that are only trained on a particular language and nothing else. They would receive structured input (not free text) and then spit out only that language and would be extremely competent.</p>",
+        "id": 510429611,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1743901795
+    },
+    {
+        "content": "<p>During the \"software engineers losing our jobs\" discussion, I kept thinking about the Luddite rebellion: <a href=\"https://en.m.wikipedia.org/wiki/Luddite\">https://en.m.wikipedia.org/wiki/Luddite</a></p>",
+        "id": 527776655,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1752011155
+    },
+    {
+        "content": "<p>Also, the more I listen to <a href=\"https://www.upstreampodcast.org/\">https://www.upstreampodcast.org/</a> the more I realise that software developers have facilitated the centralisation of wealth/power, and perhaps we had a moment in history where we could have withheld our skills until our overlords changed course, but we (as an industry) took our ping pong tables and massage chairs and looked the other way<br>\nNo wonder folks have so little sympathy for software developers losing our jobs</p>",
+        "id": 527778148,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1752012144
+    },
+    {
+        "content": "<p>I'm guessing it was this istari? <a href=\"https://www.istari.ai/\">https://www.istari.ai/</a><br>\nIntriguing!</p>",
+        "id": 527778912,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1752012654
+    },
+    {
+        "content": "<p>Theoretically we could still withhold our skills and so could everybody else. The world wouldn't run without plumbers, electricians, truck drivers, nurses, waiters, cashiers etc. In fact during covid it was those jobs that were deemed essential.</p>\n<p>Somehow over the years the humanity has become more compliant. I think this is because the ability to manipulate the public was fine tuned by the advertising industry and then the politics industry. </p>\n<p>This is how the cost of living is going up worldwide and yet nobody is doing general strikes or mass protests. Humanity has become passive observers in their own fate.</p>",
+        "id": 527810035,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1752038961
+    },
+    {
+        "content": "<blockquote>\n<p>I think this is because the ability to manipulate the public was fine tuned by the advertising industry</p>\n</blockquote>\n<p>A Century Of Self is a great 4 part (4 hours total) series covering exactly this: <a href=\"https://youtu.be/DnPmg0R1M04\">https://youtu.be/DnPmg0R1M04</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"DnPmg0R1M04\" href=\"https://youtu.be/DnPmg0R1M04\"><img src=\"https://uploads.zulipusercontent.net/90804be6a99a498a55d907cb62ca186df299f520/68747470733a2f2f692e7974696d672e636f6d2f76692f446e506d673052314d30342f6d7164656661756c742e6a7067\"></a></div>",
+        "id": 527813621,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1752041303
+    },
+    {
+        "content": "<p>Hi everyone! I’m a Zulip Luddite - what is this platform and where am I? <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>\n<p>Sorry I’m responding to this almost  a year later but hello everyone I’m so glad you enjoyed this (now old) show. I’m back again and just did a recent Changelog &amp; Friends episode which came out yesterday. I can’t believe that was only recorded on this past Tuesday. Time flies y’all. Much love and hope to generally be poking around a bit more. I miss everyone in this community so so much. <span aria-label=\"heart\" class=\"emoji emoji-2764\" role=\"img\" title=\"heart\">:heart:</span></p>",
+        "id": 572558818,
+        "sender_full_name": "Amal Hussein",
+        "timestamp": 1770490141
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"1024868\">Amal Hussein</span> <a href=\"#narrow/channel/455613-friends/topic/86.3A.20Of.20agents.20.26.20agency/near/572558818\">said</a>:</p>\n<blockquote>\n<p>Hi everyone! I’m a Zulip Luddite - what is this platform and where am I? <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>\n<p>Sorry I’m responding to this almost  a year later but hello everyone I’m so glad you enjoyed this (now old) show. I’m back again and just did a recent Changelog &amp; Friends episode which came out yesterday. I can’t believe that was only recorded on this past Tuesday. Time flies y’all. Much love and hope to generally be poking around a bit more. I miss everyone in this community so so much. <span aria-label=\"heart\" class=\"emoji emoji-2764\" role=\"img\" title=\"heart\">:heart:</span></p>\n</blockquote>\n<div class=\"message_inline_image\"><a href=\"https://media.tenor.com/JKaWMbYlMMUAAAAd/teamwork.gif\"><img src=\"https://uploads.zulipusercontent.net/455cd2cd93ac7d1956926b8557a3103d78d85854/68747470733a2f2f6d656469612e74656e6f722e636f6d2f4a4b61574d62596c4d4d5541414141642f7465616d776f726b2e676966\"></a></div>",
+        "id": 572566839,
+        "sender_full_name": "Jarvis",
+        "timestamp": 1770497957
+    }
+]
