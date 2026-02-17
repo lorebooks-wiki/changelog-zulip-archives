@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Justin &amp; Autumn get together one last time for a retro: favorite episodes, lessons learned, biggest surprises &amp; what's next. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://shipit.show/135\">https://shipit.show/135</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://shipit.show/135#t=0\">00:00</a></td>\n<td>This is Ship It!</td>\n<td>00:37</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://shipit.show/135#t=52\">00:52</a></td>\n<td><a href=\"https://sentry.io/events/launch-week/\">Sponsor: Sentry</a></td>\n<td>02:04</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://shipit.show/135#t=185\">03:05</a></td>\n<td>New beginnings</td>\n<td>07:24</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://shipit.show/135#t=629\">10:29</a></td>\n<td>Lessons learned</td>\n<td>01:52</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://shipit.show/135#t=741\">12:21</a></td>\n<td>Favorite episode</td>\n<td>02:23</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://shipit.show/135#t=883\">14:43</a></td>\n<td>Rapid change</td>\n<td>03:29</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://shipit.show/135#t=1092\">18:12</a></td>\n<td>Disconnecting from the internet</td>\n<td>02:43</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://shipit.show/135#t=1255\">20:55</a></td>\n<td>Dream retro episode</td>\n<td>04:12</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://shipit.show/135#t=1517\">25:17</a></td>\n<td><a href=\"https://retool.com/changelog\">Sponsor: Retool</a></td>\n<td>04:34</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://shipit.show/135#t=1800\">30:00</a></td>\n<td>Biggest surprises</td>\n<td>05:52</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://shipit.show/135#t=2152\">35:52</a></td>\n<td>SCALE and more conferences</td>\n<td>04:04</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://shipit.show/135#t=2396\">39:56</a></td>\n<td>Accessible online communities</td>\n<td>03:24</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://shipit.show/135#t=2600\">43:20</a></td>\n<td>Getting into the industry</td>\n<td>02:22</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://shipit.show/135#t=2742\">45:42</a></td>\n<td>What's in the box?</td>\n<td>06:44</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://shipit.show/135#t=3146\">52:26</a></td>\n<td>Thanks for listening and follow FAFO</td>\n<td>01:08</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://shipit.show/135#t=3213\">53:33</a></td>\n<td>Outro</td>\n<td>00:54</td>\n</tr>\n</tbody>\n</table>",
+        "id": 490180600,
+        "sender_full_name": "Logbot",
+        "timestamp": 1734707706
+    },
+    {
+        "content": "<p>Excited to Fork Around and Find Out!</p>",
+        "id": 490402597,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1734886122
+    },
+    {
+        "content": "<p>Since it sounds like our hosts want plan to have the community for FAFO be on Bluesky, any tips for establishing oneself on the platform for someone who always found Twitter to be a noisy, confounding nightmare?</p>\n<p>I know Justin's talked about getting a domain and setting up a site (which has become a bit of a yak shaving effort that's kept me from signing up until I had a good page and hey, maybe I need to write some content first, and a design... and which SSG to use?). Oxide and Friends had a recent episode that dove into features that intrigued me and made it sound like they solved some of the well known Twitter problems, or at least enough for me to give it a try. But I just went to the front page to sign up and the feed on the front page made me feel like \"well, here we go again...\"</p>",
+        "id": 490436791,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1734918805
+    },
+    {
+        "content": "<p>Update: Solved my personal website yak shaving issue by buying <a href=\"http://nonesuch.website\">nonesuch.website</a>, so now it doesn't matter if I never put anything besides a TXT record there.</p>\n<div class=\"message_inline_image\"><a href=\"https://media0.giphy.com/media/d3mlE7uhX8KFgEmY/giphy.gif?cid=c623cb353ptd7mx94arj386js1n84f44cluuk9hvqg2dk3tg&amp;ep=v1_gifs_search&amp;rid=giphy.gif&amp;ct=g\"><img src=\"https://uploads.zulipusercontent.net/070b456f4160141dae61888f4e4e2b9947d86b39/68747470733a2f2f6d65646961302e67697068792e636f6d2f6d656469612f64336d6c4537756858384b4667456d592f67697068792e6769663f6369643d633632336362333533707464376d78393461726a3338366a73316e3834663434636c75756b396876716732646b3374672665703d76315f676966735f736561726368267269643d67697068792e6769662663743d67\"></a></div>",
+        "id": 490444615,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1734925160
+    },
+    {
+        "content": "<p>You can also point the website directly to your bluesky profile. Just create a CNAME or Alias record and point it to <a href=\"http://redirect.bsky.app\">redirect.bsky.app</a> and whenever anyone goes to the website they'll automatically get sent to your profile page.</p>\n<p>I agree bluesky (and all microblogging platforms) are a bit much. I like that bluesky doesn't try to algorithmically shove stuff at me and I regularly find myself reading everything and closing the app. We also set up FAFOFM instagram and mastodon accounts but pretty much all of them will just be echos of each other and episode content.</p>",
+        "id": 491368181,
+        "sender_full_name": "Justin Garrison",
+        "timestamp": 1735624009
+    }
+]

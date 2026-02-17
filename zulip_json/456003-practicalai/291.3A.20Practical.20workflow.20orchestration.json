@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>Workflow orchestration has always been a pain for data scientists, but this is exacerbated in these AI hype days by agentic workflows executing arbitrary (not pre-defined) workflows with a variety of failure modes. Adam from Prefect joins us to talk through their open source Python library for orchestration and visibility into python-based pipelines. Along the way, he introduces us to things like Marvin, their AI engineering framework, and ControlFlow, their agent workflow system. </p>\n<p><span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://practicalai.fm/291\">https://practicalai.fm/291</a></p>",
+        "id": 477061563,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729022407
+    }
+]

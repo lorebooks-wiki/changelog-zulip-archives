@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p><a href=\"https://arxiv.org/abs/2601.20245\">https://arxiv.org/abs/2601.20245</a><br>\n<a href=\"/user_uploads/66849/AQNu72vJxWjUASTN6jd99UBx/How-AI-Impacts-Skill-Formation-1.pdf\">How AI Impacts Skill Formation (1).pdf</a></p>\n<p>These past couple of weeks while using Claude, this paper kept popping up in my head. Am I really learning anything or just using what I know to guide it to solve my problems... I'm starting to feel more and more dependent on it. I can get loads more done, like spin up an entire proxmox cluster with a talos Kubernetes virtual cluster via opentofu on self hosted gitlab instance, proxmox backup server, and while having all those steps documented. It would have probably taken me weeks to figure this all out without llms and my documentation would look like crap. I'm very torn between the tech, how to use it in a balanced manner where I can still learn and gain skills.</p>",
+        "id": 572051866,
+        "sender_full_name": "Jarvis",
+        "timestamp": 1770261896
+    },
+    {
+        "content": "<p>I also asked Gemini to clean it up for me:<br>\nIt is a common dilemma for engineers right now—the \"efficiency vs. expertise\" trade-off. Here are three ways to refine your message while keeping your original voice and specific technical examples intact.</p>\n<h3>Option 1: Natural &amp; Refined (Best for a blog post or social share)</h3>\n<blockquote>\n<p>Over the past few weeks, this paper on AI and skill formation has been stuck in my head every time I use Claude. It makes me wonder: Am I actually learning, or just using my existing knowledge to guide the AI toward a solution?<br>\nI’m feeling increasingly dependent on it. On one hand, the productivity is insane—I can spin up an entire Proxmox cluster with a Talos Kubernetes virtual cluster via OpenTofu on a self-hosted GitLab instance, complete with a backup server and full documentation. Without LLMs, that would have taken weeks of trial and error, and the documentation wouldn't be nearly as polished. I’m torn between the power of the tech and finding a balance where I can still actually gain new skills.</p>\n</blockquote>\n<h3>Option 2: Concise &amp; Impactful (Best for a professional internal Slack or Discord)</h3>\n<blockquote>\n<p>I’ve been thinking a lot about the impact of AI on skill formation lately. I’ve noticed a growing dependency on Claude—while it allows me to get loads more done (like architecting a Proxmox/Talos/OpenTofu stack on GitLab in a fraction of the usual time), I'm starting to question the \"learning\" aspect.<br>\nIs the AI teaching me, or am I just managing a tool to solve problems? I'm struggling to find that balance where I can leverage this efficiency without losing the ability to build those deep, foundational skills through the \"grind\" of manual configuration.</p>\n</blockquote>\n<h3>Option 3: Reflective (Closest to your original \"torn\" feeling)</h3>\n<blockquote>\n<p>These past couple of weeks using Claude, this paper has been popping up in my head constantly. Am I really learning anything, or just guiding the AI to solve my problems? I’m feeling more dependent on it every day.<br>\nThe output is undeniable—I can deploy a Proxmox cluster with Talos and OpenTofu on a self-hosted GitLab instance, fully documented, in record time. Without LLMs, that’s a multi-week project with mediocre documentation. I’m very torn; the tech is incredible for throughput, but I’m searching for a balanced way to use it where I’m still building my own expertise rather than just \"managing\" the output.</p>\n</blockquote>\n<h3>Key improvements made:</h3>\n<ul>\n<li><strong>Flow:</strong> Smoothed out the transition between the abstract thought (the paper) and the concrete example (the homelab stack).</li>\n<li><strong>Clarity:</strong> Grouped the technical stack (Proxmox, Talos, OpenTofu, GitLab) so it reads as one impressive feat of engineering.</li>\n<li><strong>Pacing:</strong> Used \"Am I... or just...\" to highlight the internal conflict.</li>\n</ul>\n<p><strong>Technical Note:</strong> In all versions, I kept <strong>OpenTofu</strong> and <strong>Talos</strong>, as those are the specific tools you used to replace the \"weeks of work\" you mentioned.</p>",
+        "id": 572051976,
+        "sender_full_name": "Jarvis",
+        "timestamp": 1770261979
+    },
+    {
+        "content": "<p>The edits also sound \"smart\" but I wouldn't write it like that. <span aria-label=\"dotted line face\" class=\"emoji emoji-1fae5\" role=\"img\" title=\"dotted line face\">:dotted_line_face:</span> Do we now have to consider what we present to the world through an LLM lens or should we proceed with our \"original\" voice? <span aria-label=\"thinking\" class=\"emoji emoji-1f914\" role=\"img\" title=\"thinking\">:thinking:</span></p>",
+        "id": 572052332,
+        "sender_full_name": "Jarvis",
+        "timestamp": 1770262211
+    },
+    {
+        "content": "<p>in terms of having AI adjust communications based on the target audience, have you read <a href=\"https://www.goodreads.com/book/show/13184491-avogadro-corp\">https://www.goodreads.com/book/show/13184491-avogadro-corp</a> ?</p>",
+        "id": 572080339,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1770278361
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"771585\">@Ron Waldon-Howe</span> South Park also had some very interesting takes on llms and generative Ai. (s28e3, s26e4, s26e2, s17e10) The latter was how the kids all started using a photoshop to represent their real selves <span aria-label=\"flushed\" class=\"emoji emoji-1f633\" role=\"img\" title=\"flushed\">:flushed:</span> it was incredibly jarring. I sort of feel like that's what is happening with llms nowadays, a lot of social media being digitally revised.</p>",
+        "id": 572141878,
+        "sender_full_name": "Jarvis",
+        "timestamp": 1770296567
+    }
+]

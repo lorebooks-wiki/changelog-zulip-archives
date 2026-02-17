@@ -1,0 +1,61 @@
+<html>
+<head><meta charset="utf-8"><title>IaC for homelab · homelab · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/index.html">homelab</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/IaC.20for.20homelab.html">IaC for homelab</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="478440322"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/IaC%20for%20homelab/near/478440322" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Andy Miller <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/IaC.20for.20homelab.html#478440322">(Oct 23 2024 at 08:32)</a>:</h4>
+<p>What configuration tools/language do you use for your homelab? Terraform? Dagger? Anisible? something else?</p>
+<p>My Raspberry Pi has died so I'm about to recreate it, but figure I would like all the config somewhere so I can easily recreate it in future.</p>
+<p>Looking for recommendations! Thanks <span aria-label="grinning face with smiling eyes" class="emoji emoji-1f601" role="img" title="grinning face with smiling eyes">:grinning_face_with_smiling_eyes:</span></p>
+
+
+
+<a name="478440690"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/IaC%20for%20homelab/near/478440690" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> James McNally <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/IaC.20for.20homelab.html#478440690">(Oct 23 2024 at 08:34)</a>:</h4>
+<p>I'm using saltstack but mostly because I work with Industrial IoT devices where that works better than something like Ansible so wanted to get some hands on time with it. I do like it, but I don't have enough experience to say if it is the best option for most people.</p>
+
+
+
+<a name="478583653"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/IaC%20for%20homelab/near/478583653" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Konrad <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/IaC.20for.20homelab.html#478583653">(Oct 23 2024 at 21:08)</a>:</h4>
+<p>I guess it kind of depends on how far you want to go. Personally, I have a git repo on github that holds a lot of docker compose stacks, which I push via github actions over tailscale down to my NAS. Renovate is watching the repo and proposes updates.<br>
+I manage a few things that way, other systems like pihole I just set up manually, but I push my dns records into it via github actions as well. But the base OS was hand crafted more or less, I only automated the software provisioning on top. </p>
+<p>A fun project I am tinkering on uses talos. If you can run your workload on kubernetes, that might be an option as well. It is basically a fully api driven OS to run Kubernetes. You push your config and get a kubeconfig, from there you can push your YAML to the cluster or pull it e.g. via ArgoCD.</p>
+
+
+
+<a name="478590820"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/IaC%20for%20homelab/near/478590820" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matt Johnson <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/IaC.20for.20homelab.html#478590820">(Oct 23 2024 at 22:03)</a>:</h4>
+<p>I’ve used a git repo to keep track of changes and typically start with a bunch of notes, references, and commands recorded in Markdown files. I’ve tried to build out Ansible configs for the bare metal hosts I have in my home lab, but that is more for the practice and possible ability to reproduce the same configuration across multiple mini PCs. It likely depends on how complex the hosts end up being and what all you want to have documented.</p>
+<p>My approach to a home lab is to establish something I can spin up VMs on top of and I organize all the VMs as independent experiments that I keep in separate directories in the git repo so that I can spin something up or down locally using terraform and manage the configuration with ansible. It’s a lot of work up front… but once there is an established pattern it’s nice to be able to reuse pieces for playing with different kinds of software and other infrastructure.</p>
+
+
+
+<a name="479162218"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/IaC%20for%20homelab/near/479162218" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthias Schippling <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/IaC.20for.20homelab.html#479162218">(Oct 27 2024 at 20:22)</a>:</h4>
+<p>I'm using Ansible to configure my Raspberry Pis (LEDs/Bluetooth/WiFi on/off), to do dist-upgrades and setup containers with Docker. That's been working well for me so far.</p>
+<p>I've started using Terraform to configure my domains' DNS and my home network's Mikrotik Router and UniFi AP. But that is still in its early stages and I can't give any recommendation either way :-).</p>
+
+
+
+<a name="479294567"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/IaC%20for%20homelab/near/479294567" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> shaun smiley <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/IaC.20for.20homelab.html#479294567">(Oct 28 2024 at 14:54)</a>:</h4>
+<p>I use NixOS for most OS's (which has its own language to configure itself), with Ansible to orchestrate both NixOS nodes, and fully provision other misc things.</p>
+
+
+
+<a name="480401815"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/IaC%20for%20homelab/near/480401815" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jari <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/IaC.20for.20homelab.html#480401815">(Nov 04 2024 at 09:34)</a>:</h4>
+<p>I'm using Ansible aswell. Haven't yet figured out how to manage bhyve virtual machines but I'm guessing it's doable with Ansible.</p>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

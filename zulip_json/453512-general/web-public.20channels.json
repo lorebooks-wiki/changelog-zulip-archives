@@ -1,0 +1,86 @@
+[
+    {
+        "content": "<p>For open source projects, I love Zulip's ability to have what they call <a href=\"https://blog.zulip.com/2022/05/05/public-access-option/\">Web-public</a> channels. Will this Changelog instance of Zulip have any of these? It would allow for transparency and let new people check out the conversation before having to create an account.</p>",
+        "id": 468214199,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1725635254
+    },
+    {
+        "content": "<p>Agree that's a super cool feature. I think we could totally do something with this, just not sure how best to execute on the idea...</p>",
+        "id": 468236100,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1725641290
+    },
+    {
+        "content": "<p>What reservations do you have? Come lie on this couch and tell me all about them. <span aria-label=\"couch and lamp\" class=\"emoji emoji-1f6cb\" role=\"img\" title=\"couch and lamp\">:couch_and_lamp:</span></p>",
+        "id": 468287640,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1725656492
+    },
+    {
+        "content": "<p>Related, the idea of the \"discuss\" link going to Zulip: <a href=\"#narrow/stream/453512-general/topic/Is.20this.20cool.3F.20y.2Fn.3F/near/468430020\">https://changelog.zulipchat.com/#narrow/stream/453512-general/topic/Is.20this.20cool.3F.20y.2Fn.3F/near/468430020</a></p>",
+        "id": 468457586,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1725734027
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span> announced we've gone we-public! <span aria-label=\"tada\" class=\"emoji emoji-1f389\" role=\"img\" title=\"tada\">:tada:</span> <a href=\"#narrow/stream/453512-general/topic/No.20one.20seems.20to.20know.20about.20Zulip/near/472702592\">https://changelog.zulipchat.com/#narrow/stream/453512-general/topic/No.20one.20seems.20to.20know.20about.20Zulip/near/472702592</a></p>",
+        "id": 472784440,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1727304286
+    },
+    {
+        "content": "<p>The Bytecode Alliance has done an interesting thing of backing up their public channels to GitHub and then publishing them as a standalone site <a href=\"https://bytecodealliance.zulipchat.com/#narrow/stream/206238-general/topic/The.20zulip.20conversations.20are.20now.20publicly.20hosted.20on.20github/near/476046305\">https://bytecodealliance.zulipchat.com/#narrow/stream/206238-general/topic/The.20zulip.20conversations.20are.20now.20publicly.20hosted.20on.20github/near/476046305</a></p>",
+        "id": 476182083,
+        "sender_full_name": "Brett Cannon",
+        "timestamp": 1728580185
+    },
+    {
+        "content": "<p>Yes, very nice. This is the solution Zulip recommends for better SEO.</p>\n<p>\"Web-public channels do not yet support search engine indexing. You can use <a href=\"https://github.com/zulip/zulip-archive\">zulip-archive</a> to create an archive of a Zulip organization that can be indexed by search engines.\" -- <a href=\"https://zulip.com/help/public-access-option\">https://zulip.com/help/public-access-option</a></p>\n<p>And it's a good backup too, of course. <span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span></p>",
+        "id": 476253803,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1728608168
+    },
+    {
+        "content": "<p>Just setting up the <code>zulip-archive</code> GHA workflow and some docs in a repo, will be community maintained at <a href=\"https://github.com/lorebooks-wiki/changelog-zulip-archives\">https://github.com/lorebooks-wiki/changelog-zulip-archives</a>.</p>\n<p>For the Chngelog Media staff, the <code>zuliprc</code> I used in question is <span class=\"user-mention\" data-user-id=\"771649\">@Changelog Chat Archives [Unofficial]</span>.</p>",
+        "id": 479034925,
+        "sender_full_name": "Andrei Jiroh Halili",
+        "timestamp": 1729933722
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span> <span class=\"user-mention\" data-user-id=\"752868\">@Philip Durbin</span> Should I archive every public channel or should be limited to dedicated channels for each Changelog podcast + <a class=\"stream\" data-stream-id=\"453512\" href=\"/#narrow/channel/453512-general\">#general</a>?</p>",
+        "id": 479035033,
+        "sender_full_name": "Andrei Jiroh Halili",
+        "timestamp": 1729933816
+    },
+    {
+        "content": "<p>Every public channel makes sense to me. Would you be interested in running it from <code>thechangelog</code> org instead?</p>",
+        "id": 479048378,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729946833
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"750170\">Jerod Santo</span> <a href=\"#narrow/channel/453512-general/topic/web-public.20channels/near/479048378\">said</a>:</p>\n<blockquote>\n<p>Every public channel makes sense to me. Would you be interested in running it from <code>thechangelog</code> org instead?</p>\n</blockquote>\n<p>Sure, I can hand off the repo and the configuration, including the zuliprc for <span class=\"user-mention\" data-user-id=\"771649\">@Changelog Chat Archives [Unofficial]</span>.</p>",
+        "id": 479108139,
+        "sender_full_name": "Andrei Jiroh Halili",
+        "timestamp": 1730009583
+    },
+    {
+        "content": "<p><a href=\"https://github.com/lorebooks-wiki/changelog-zulip-archives/invitations\">Sent a repo invite</a> for repository ownership transfer. I'll transfer the generic bot owner then while I wait.<br>\n<a href=\"/user_uploads/66849/m_VYimrP6TSagrbgYwp_S3A5/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/m_VYimrP6TSagrbgYwp_S3A5/image.png\" title=\"image.png\"><img data-original-dimensions=\"1353x606\" src=\"/user_uploads/thumbnail/66849/m_VYimrP6TSagrbgYwp_S3A5/image.png/840x560.webp\"></a></div>",
+        "id": 479108328,
+        "sender_full_name": "Andrei Jiroh Halili",
+        "timestamp": 1730009796
+    },
+    {
+        "content": "<p>After you complete the repo transfer, just update GitHub Pages settings and I'll do the Cloudflare Workers magic for the old URL.</p>",
+        "id": 479108355,
+        "sender_full_name": "Andrei Jiroh Halili",
+        "timestamp": 1730009836
+    },
+    {
+        "content": "<p>crawler bot transferred to you <span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span> (just remove the <code>[Unofficial]</code> part on name)</p>\n<p><a href=\"/user_uploads/66849/tV4d6iZsA3VB6k6Rkun9-PHU/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/tV4d6iZsA3VB6k6Rkun9-PHU/image.png\" title=\"image.png\"><img data-original-dimensions=\"487x498\" src=\"/user_uploads/thumbnail/66849/tV4d6iZsA3VB6k6Rkun9-PHU/image.png/840x560.webp\"></a></div>",
+        "id": 479108439,
+        "sender_full_name": "Andrei Jiroh Halili",
+        "timestamp": 1730009931
+    }
+]

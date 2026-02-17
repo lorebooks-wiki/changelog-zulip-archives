@@ -1,0 +1,56 @@
+<html>
+<head><meta charset="utf-8"><title>Incident Horror Stories · general · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/index.html">general</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Incident.20Horror.20Stories.html">Incident Horror Stories</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="475429462"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Incident%20Horror%20Stories/near/475429462" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Thomas Eckert <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Incident.20Horror.20Stories.html#475429462">(Oct 08 2024 at 00:34)</a>:</h4>
+<p>On Friday, I brought down a customer's production cluster for 5 hours by accident when doing maintenance in their environment. Everyone was nice about it, even the customer, but man did I feel stupid. </p>
+<p>What are your incident horror stories to celebrate this spooky season?</p>
+
+
+
+<a name="475434017"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Incident%20Horror%20Stories/near/475434017" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Philip Durbin <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Incident.20Horror.20Stories.html#475434017">(Oct 08 2024 at 01:05)</a>:</h4>
+<p>One time I brought down the production email server because I was ssh'ed into it from my Linux laptop and didn't double check which shell I was in. I was trying to reboot my laptop and suddenly realized something else was rebooting.</p>
+
+
+
+<a name="475465455"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Incident%20Horror%20Stories/near/475465455" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Incident.20Horror.20Stories.html#475465455">(Oct 08 2024 at 04:21)</a>:</h4>
+<p>We sent around 3.8M custom metrics to Datadog for a few hours. Scared to see the bill.</p>
+
+
+
+<a name="475721418"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Incident%20Horror%20Stories/near/475721418" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> AJ Kerrigan <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Incident.20Horror.20Stories.html#475721418">(Oct 09 2024 at 02:46)</a>:</h4>
+<p>I once deleted hundreds of "unused" database instances... but some core internal tooling assumed those instances would always exist <span aria-label="grimacing" class="emoji emoji-1f62c" role="img" title="grimacing">:grimacing:</span> . So I left entire development teams unable to deploy their projects. Ended up performing mass restores not so those databases could actually do any work or accept connections, but purely so the AWS APIs could stop returning empty responses. Felt gross about both the problem _and_ the rollback <span aria-label="sob" class="emoji emoji-1f62d" role="img" title="sob">:sob:</span></p>
+
+
+
+<a name="477802550"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Incident%20Horror%20Stories/near/477802550" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Chris Glaubitz <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Incident.20Horror.20Stories.html#477802550">(Oct 19 2024 at 12:40)</a>:</h4>
+<p>Back in about 2001 fat fingered the outgoing phone number of a dial back service. We called customer routers with that number, the router would reject and call back. Because of the typo, customer routers accepted the call for 1 sec and then dial back. Instead of a usual 0€ bill, it was about 20k€ that month. And a 10cm high stack of paper invoices.</p>
+
+
+
+<a name="479619145"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Incident%20Horror%20Stories/near/479619145" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jamie Tanna <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Incident.20Horror.20Stories.html#479619145">(Oct 30 2024 at 07:16)</a>:</h4>
+<p><a href="https://status.elastic.co/incidents/9mmlp98klxm1">https://status.elastic.co/incidents/9mmlp98klxm1</a> <span aria-label="upside down" class="emoji emoji-1f643" role="img" title="upside down">:upside_down:</span> (I work at Elastic)</p>
+
+
+
+<a name="479921228"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Incident%20Horror%20Stories/near/479921228" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> shaun smiley <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Incident.20Horror.20Stories.html#479921228">(Oct 31 2024 at 16:55)</a>:</h4>
+<p>While trying to "test automation", I once took down every ec2 instance in the core AWS account.  Thankfully we had been thinking about DR and resilience, so this "accidental chaos" engineering showed us where the gaps were and we didn't lose any data.  There were a few critical resources offline, which meant hundreds of devs sitting around waiting though.</p>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

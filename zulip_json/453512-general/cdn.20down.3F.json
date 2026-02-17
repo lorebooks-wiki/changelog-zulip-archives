@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Noticed this morning I can't get any Changelog episode audio to load via Apple podcasts. Tried the autonomous drone episode as well as the news from earlier this week, both via the main feed. Podcasts from other people work fine</p>",
+        "id": 563513174,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1765556467
+    },
+    {
+        "content": "<p><a href=\"http://changelog.com\">changelog.com</a> seems to be down as well</p>",
+        "id": 563513495,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1765556537
+    },
+    {
+        "content": "<p>I'm having no issues here. This might be another instance of this:</p>\n<p><a href=\"https://github.com/thechangelog/changelog.com/issues/553\">https://github.com/thechangelog/changelog.com/issues/553</a></p>\n<p>Would you mind running those curl commands that <span class=\"user-mention\" data-user-id=\"755424\">@Gerhard</span> posted in the final comment and adding your findings to the issue?</p>",
+        "id": 563514558,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1765556770
+    },
+    {
+        "content": "<p>np. i tried both from my phone and macbook but its on the same wifi</p>",
+        "id": 563515147,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1765556893
+    },
+    {
+        "content": "<p><a href=\"https://github.com/thechangelog/changelog.com/issues/553#issuecomment-3647915244\">https://github.com/thechangelog/changelog.com/issues/553#issuecomment-3647915244</a></p>",
+        "id": 563550206,
+        "sender_full_name": "Gerhard",
+        "timestamp": 1765568892
+    }
+]

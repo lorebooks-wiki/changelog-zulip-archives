@@ -1,0 +1,128 @@
+[
+    {
+        "content": "<p>Nathan Sobo is back talking about the next big thing for Zed—<a href=\"https://zed.dev/agentic\">agentic editing</a>! You now have a full-blown AI-native editor to play with. Collaborate with agents at 120fps in a natively multiplayer IDE. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/640\">https://changelog.fm/640</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.fm/640#t=0\">00:00</a></td>\n<td>This week on The Changelog</td>\n<td>01:02</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.fm/640#t=62\">01:02</a></td>\n<td><a href=\"https://depot.dev\">Sponsor: Depot</a></td>\n<td>02:14</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.fm/640#t=196\">03:16</a></td>\n<td>Start the show!</td>\n<td>02:01</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.fm/640#t=317\">05:17</a></td>\n<td>Open Source, the hard way, from first principles</td>\n<td>08:23</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.fm/640#t=821\">13:41</a></td>\n<td>Functional Core, Imperative Shell</td>\n<td>10:37</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.fm/640#t=1457\">24:17</a></td>\n<td>AI for procrastination</td>\n<td>06:49</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.fm/640#t=1866\">31:06</a></td>\n<td>We're not late. We're ALL early.</td>\n<td>03:43</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.fm/640#t=2090\">34:50</a></td>\n<td>$3B for Windsurf? Maybe.</td>\n<td>05:08</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.fm/640#t=2398\">39:58</a></td>\n<td><a href=\"https://www.heroku.com/changelogpodcast\">Sponsor: Heroku</a></td>\n<td>03:39</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.fm/640#t=2617\">43:37</a></td>\n<td>AI in Zed last year</td>\n<td>02:21</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.fm/640#t=2758\">45:58</a></td>\n<td>Zed's agentic experience</td>\n<td>08:19</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.fm/640#t=3257\">54:17</a></td>\n<td>Pre-heating the AI oven</td>\n<td>11:52</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.fm/640#t=3968\">1:06:08</a></td>\n<td>Zed AI is amazing</td>\n<td>05:19</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.fm/640#t=4287\">1:11:27</a></td>\n<td>Brand new vs existing apps</td>\n<td>10:38</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.fm/640#t=4925\">1:22:05</a></td>\n<td><a href=\"https://retool.com/changelog\">Sponsor: Retool</a></td>\n<td>03:01</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.fm/640#t=5106\">1:25:06</a></td>\n<td>You can even agentic the settings.json file</td>\n<td>01:15</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.fm/640#t=5181\">1:26:21</a></td>\n<td>Didn't you launch a Zed AI model?</td>\n<td>06:10</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.fm/640#t=5551\">1:32:31</a></td>\n<td>Teams is the model AI brings to Zed's yard</td>\n<td>06:43</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.fm/640#t=5954\">1:39:14</a></td>\n<td>Zed can call Ollama (Hello Ollama!)</td>\n<td>04:03</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.fm/640#t=6197\">1:43:17</a></td>\n<td>How will Zed's business model change?</td>\n<td>04:46</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.fm/640#t=6484\">1:48:04</a></td>\n<td><a href=\"https://zed.dev/agentic\">Go to zed.dev/agentic</a></td>\n<td>02:12</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.fm/640#t=6616\">1:50:16</a></td>\n<td>Wrapping up</td>\n<td>02:09</td>\n</tr>\n</tbody>\n</table>",
+        "id": 516771613,
+        "sender_full_name": "Logbot",
+        "timestamp": 1746654607
+    },
+    {
+        "content": "<p>This was an interesting and it triggered a weird thought in me. Languages like ruby and lisp allow you to change the running AST. In other words you can create and change code that's running. I thought how crazy would it be if the AI was running as a part of the program and rewriting the program as it was running. AI-ception.</p>\n<p>Also fireship had a funny quip in his last video.  To paraphrase: </p>\n<p>ChatGPT says their AI is amongst the top fifty programmers in the world so why are they paying 3 billion dollars for an IDE, couldn't their AI just write one?</p>",
+        "id": 517027799,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1746765565
+    },
+    {
+        "content": "<p>Haha. Because they are paying for the users and data, not the IDE.</p>",
+        "id": 517108589,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1746796437
+    },
+    {
+        "content": "<p>What's weird about the Windsurf acquisition is that I literally no zero people who use Windsurf...</p>",
+        "id": 517108809,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1746796509
+    },
+    {
+        "content": "<p>This episode reminded me to try Zed now that I am using Linux (previously Windows) and wow, I am liking it after a quick look. It is really tasteful in the way it's implemented things. The UI is as snappy and minimal as promised, but there are a _lot_ of features. I love they built in Vim mode. And, as a nix-shell user, I also love that the editor inherits the environment of the terminal I opened it from.</p>",
+        "id": 517127068,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1746801535
+    },
+    {
+        "content": "<p>Same here, I tried it a while back and I don't remember what specifically was missing. But I know my thought was \"it's very fast at doing less than I need to do\" <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span> . Which is honestly a much better starting point than slow at doing more than I need! Definitely queueing up a fresh exploration.</p>",
+        "id": 517138790,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1746804838
+    },
+    {
+        "content": "<p>For me the biggest blocker was a lack of SSH remote editing and since they’ve added it, I’ve been full time Zed user. (Only exception is it reformats the yaml config files at work and i haven’t figured out how to do a per language autoformat off)</p>",
+        "id": 517169112,
+        "sender_full_name": "Dustin",
+        "timestamp": 1746816059
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"750170\">Jerod Santo</span> <a href=\"#narrow/stream/456187-interviews/topic/640.3A.20Building.20Zed's.20agentic.20editing/near/517108809\">said</a>:</p>\n<blockquote>\n<p>What's weird about the Windsurf acquisition is that I literally no zero people who use Windsurf...</p>\n</blockquote>\n<p>Same here honestly. I mean it was Codium before right so anyone you know use that?</p>",
+        "id": 517172046,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1746817365
+    },
+    {
+        "content": "<p>I had the codium extension installed on vs code and occasionally tried it but cody was better even though I need to figure out how to use the completion better. Sometimes cody suggests weird completions but they all do I guess.</p>\n<p>I am now trying some vibe coding AI and it's been a weird adventure so far.</p>",
+        "id": 517191478,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1746826759
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"756209\">@Dustin</span>: I found this in my Zed config, a small modification should help you achieve what you're looking for:</p>\n<div class=\"codehilite\" data-code-language=\"JSON\"><pre><span></span><code><span class=\"err\">...</span>\n<span class=\"w\">    </span><span class=\"nt\">\"format_on_save\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"off\"</span><span class=\"p\">,</span>\n<span class=\"w\">    </span><span class=\"nt\">\"languages\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"p\">{</span>\n<span class=\"w\">        </span><span class=\"nt\">\"Rust\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"p\">{</span>\n<span class=\"w\">            </span><span class=\"nt\">\"format_on_save\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"on\"</span>\n<span class=\"w\">        </span><span class=\"p\">}</span>\n<span class=\"w\">    </span><span class=\"p\">},</span>\n<span class=\"err\">...</span>\n</code></pre></div>",
+        "id": 517253290,
+        "sender_full_name": "Maroš Kučera",
+        "timestamp": 1746878826
+    },
+    {
+        "content": "<p>Amazing <span class=\"user-mention\" data-user-id=\"752835\">@Maroš Kučera</span> thank you!</p>",
+        "id": 517257382,
+        "sender_full_name": "Dustin",
+        "timestamp": 1746882609
+    },
+    {
+        "content": "<p>thanks, enjoyed the interview <span aria-label=\"pray\" class=\"emoji emoji-1f64f\" role=\"img\" title=\"pray\">:pray:</span></p>",
+        "id": 517387832,
+        "sender_full_name": "Scott Chamberlain",
+        "timestamp": 1746990352
+    },
+    {
+        "content": "<p>I'm also having another serious go at switching from VSCode to Zed after this episode. So far, after a couple of days, I think it might be at a point where I can stick with it.</p>",
+        "id": 519633362,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1747839072
+    },
+    {
+        "content": "<p>Ooh, I just found you can do this...</p>\n<div class=\"codehilite\"><pre><span></span><code>  &quot;diagnostics&quot;: {\n    &quot;inline&quot;: {\n      &quot;enabled&quot;: true\n    }\n  }\n</code></pre></div>\n<p>...for ErrorLens style inline diagnostics. I was missing that feature!</p>",
+        "id": 519636048,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1747839704
+    },
+    {
+        "content": "<p>Yeah this episode motivated me to both take another look at Zed and also take a hatchet to my list of VS Code extensions</p>",
+        "id": 519660187,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1747846306
+    },
+    {
+        "content": "<p>Thanks for the snippet <span class=\"user-mention\" data-user-id=\"752943\">@James Thurley</span>, that looks really handy! I'm going to try using it for a while and see whether it sticks.</p>",
+        "id": 519664692,
+        "sender_full_name": "Maroš Kučera",
+        "timestamp": 1747847823
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752943\">James Thurley</span> <a href=\"#narrow/stream/456187-interviews/topic/640.3A.20Building.20Zed's.20agentic.20editing/near/519636048\">said</a>:</p>\n<blockquote>\n<p>Ooh, I just found you can do this...</p>\n<div class=\"codehilite\"><pre><span></span><code>  &quot;diagnostics&quot;: {\n    &quot;inline&quot;: {\n      &quot;enabled&quot;: true\n    }\n  }\n</code></pre></div>\n<p>...for ErrorLens style inline diagnostics. I was missing that feature!</p>\n</blockquote>\n<p>Oh what the heck!? I need to spend far more time configuring Zed to find all the gems like this.</p>",
+        "id": 519697081,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1747859651
+    },
+    {
+        "content": "<p>Glorious interview. An fascinating views Nathan has about AI native environments and software engineering. Had a tonne of fun</p>",
+        "id": 520219560,
+        "sender_full_name": "Jordi Mon Companys",
+        "timestamp": 1748110688
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"750170\">Jerod Santo</span> <a href=\"#narrow/channel/456187-interviews/topic/640.3A.20Building.20Zed's.20agentic.20editing/near/517108809\">said</a>:</p>\n<blockquote>\n<p>What's weird about the Windsurf acquisition is that I literally no zero people who use Windsurf...</p>\n</blockquote>\n<p>I know plenty of people using Codeium/Windsurf. Having said that, it does feel indeed like a risky purchase (certainly at that price point) considering a relatively small user and customer base.</p>",
+        "id": 520269139,
+        "sender_full_name": "Jordi Mon Companys",
+        "timestamp": 1748158125
+    },
+    {
+        "content": "<p>Spending 3 billion dollars on windsurf stinks of some sort of a backroom deal or corruption to me.   It's just a VS fork FFS and it's not like they are buying 300 million users who will be forced to use openAI now.  The product is not sticky either. You can download competitors product in a minute and of course just enable the AI of your choice in your VS code in ten seconds.</p>\n<p>Look at how easily I am jumping from product to product with my vibe coding experiment. The minute they attempt to lock me in or charge me I'll drop it like a hot potato. Actually I will probably drop it anyway because it did such a crap job in my test.  Sketch kicked it's ass in performance even if it was more awkward to use.</p>",
+        "id": 520328802,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1748209647
+    },
+    {
+        "content": "<p>and if you depend on certain VSCode-only extensions, then it might be harder for you to be productive in a VSCode fork: <a href=\"https://github.com/VSCodium/vscodium/issues/448\">https://github.com/VSCodium/vscodium/issues/448</a></p>",
+        "id": 520339785,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1748220415
+    }
+]

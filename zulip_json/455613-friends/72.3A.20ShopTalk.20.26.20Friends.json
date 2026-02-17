@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>Chris Coyier and Dave Rupert join Adam and Jerod for a ShopTalk &amp; Friends conversation on the viability of the web, making content, ads to support that content, Codepen's future plans, books, side quests, and social networks devaluing links. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.com/friends/72\">https://changelog.com/friends/72</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td>00:00</td>\n<td>Let's talk!</td>\n<td>00:44</td>\n</tr>\n<tr>\n<td>02</td>\n<td>00:44</td>\n<td><a href=\"https://sentry.io/events/launch-week/\">Sponsor: Sentry</a></td>\n<td>02:00</td>\n</tr>\n<tr>\n<td>03</td>\n<td>02:47</td>\n<td>Was that a websocket?</td>\n<td>01:34</td>\n</tr>\n<tr>\n<td>04</td>\n<td>04:22</td>\n<td>Does Codepen have sponsors?</td>\n<td>01:35</td>\n</tr>\n<tr>\n<td>05</td>\n<td>05:57</td>\n<td>Tasteful well placed ads</td>\n<td>02:14</td>\n</tr>\n<tr>\n<td>06</td>\n<td>08:11</td>\n<td>Secret Dave dream</td>\n<td>00:58</td>\n</tr>\n<tr>\n<td>07</td>\n<td>09:08</td>\n<td>Devs who don't dev</td>\n<td>03:52</td>\n</tr>\n<tr>\n<td>08</td>\n<td>13:01</td>\n<td>Web component land</td>\n<td>08:42</td>\n</tr>\n<tr>\n<td>09</td>\n<td>21:42</td>\n<td>Humble websites and HN</td>\n<td>01:56</td>\n</tr>\n<tr>\n<td>10</td>\n<td>23:39</td>\n<td>Is the web a viable platform?</td>\n<td>07:08</td>\n</tr>\n<tr>\n<td>11</td>\n<td>30:47</td>\n<td>Devaluing links</td>\n<td>02:44</td>\n</tr>\n<tr>\n<td>12</td>\n<td>33:31</td>\n<td>Attacking what's good abou tthe web</td>\n<td>02:25</td>\n</tr>\n<tr>\n<td>13</td>\n<td>35:57</td>\n<td><a href=\"https://fly.io/\">Sponsor: Fly.io</a></td>\n<td>02:23</td>\n</tr>\n<tr>\n<td>14</td>\n<td>38:20</td>\n<td><a href=\"https://coder.com/\">Sponsor: Coder.com</a></td>\n<td>02:07</td>\n</tr>\n<tr>\n<td>15</td>\n<td>40:27</td>\n<td>Play to the strengths of linking</td>\n<td>03:27</td>\n</tr>\n<tr>\n<td>16</td>\n<td>43:54</td>\n<td>Codepen 2.0?!</td>\n<td>06:26</td>\n</tr>\n<tr>\n<td>17</td>\n<td>50:20</td>\n<td>Codepen World's Fair</td>\n<td>05:07</td>\n</tr>\n<tr>\n<td>18</td>\n<td>55:27</td>\n<td>Always be recording (ABR)</td>\n<td>02:46</td>\n</tr>\n<tr>\n<td>19</td>\n<td>58:13</td>\n<td>Chris likes our ad format</td>\n<td>02:31</td>\n</tr>\n<tr>\n<td>20</td>\n<td>1:00:43</td>\n<td>Win win win</td>\n<td>02:05</td>\n</tr>\n<tr>\n<td>21</td>\n<td>1:02:48</td>\n<td>Selling it for us</td>\n<td>04:52</td>\n</tr>\n<tr>\n<td>22</td>\n<td>1:07:40</td>\n<td><a href=\"https://www.assemblyai.com/?utm_source=changelog&amp;utm_medium=podcast\">Sponsor: AssemblyAI</a></td>\n<td>01:29</td>\n</tr>\n<tr>\n<td>23</td>\n<td>1:09:09</td>\n<td>ShopTalk ambitions</td>\n<td>04:54</td>\n</tr>\n<tr>\n<td>24</td>\n<td>1:14:03</td>\n<td>Niche app builders</td>\n<td>02:47</td>\n</tr>\n<tr>\n<td>25</td>\n<td>1:16:50</td>\n<td>Tech adjacent content</td>\n<td>04:27</td>\n</tr>\n<tr>\n<td>26</td>\n<td>1:21:18</td>\n<td>Chef Frank Proto coming soon</td>\n<td>02:57</td>\n</tr>\n<tr>\n<td>27</td>\n<td>1:24:15</td>\n<td>David Goggins soon?</td>\n<td>01:19</td>\n</tr>\n<tr>\n<td>28</td>\n<td>1:25:34</td>\n<td>Did you read ALL these books?</td>\n<td>01:02</td>\n</tr>\n<tr>\n<td>29</td>\n<td>1:26:35</td>\n<td>SO many dirty dishes</td>\n<td>02:21</td>\n</tr>\n<tr>\n<td>30</td>\n<td>1:28:56</td>\n<td>Trash on the counter (Adam sings)</td>\n<td>01:29</td>\n</tr>\n<tr>\n<td>31</td>\n<td>1:30:25</td>\n<td>The long slow decline</td>\n<td>00:34</td>\n</tr>\n<tr>\n<td>32</td>\n<td>1:30:58</td>\n<td>Closing thoughts and stuff</td>\n<td>02:21</td>\n</tr>\n<tr>\n<td>33</td>\n<td>1:33:20</td>\n<td>++ Teaser</td>\n<td>00:53</td>\n</tr>\n</tbody>\n</table>",
+        "id": 486608489,
+        "sender_full_name": "Logbot",
+        "timestamp": 1733526667
+    },
+    {
+        "content": "<p>Typo on Chapter 12's title.</p>",
+        "id": 486679338,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1733585443
+    },
+    {
+        "content": "<p>The, almost, tangent in the ++ content about prioritizing and time would be a topic I would love to hear more about. It's a tough problem in software to balance what can be done, what should be done, and what you want to do <span aria-label=\"stuck out tongue wink\" class=\"emoji emoji-1f61c\" role=\"img\" title=\"stuck out tongue wink\">:stuck_out_tongue_wink:</span></p>",
+        "id": 487132010,
+        "sender_full_name": "Sukhdeep Brar",
+        "timestamp": 1733792099
+    },
+    {
+        "content": "<p>This was such a fun episode</p>",
+        "id": 487182034,
+        "sender_full_name": "Dustin",
+        "timestamp": 1733817182
+    },
+    {
+        "content": "<p>I was very pleasantly surprised to hear \"Cracking the Cryptic\" mentioned in the show. 4 years ago this video showed up in my Youtube feed. It's one of my favorites and I've been a fan ever since: <a href=\"https://www.youtube.com/watch?v=yKf9aUIxdb4\">https://www.youtube.com/watch?v=yKf9aUIxdb4</a>, although I don't watch them regularly. <br>\nI think it's easy to draw parallels to software engineering, where you sometimes encounter really difficult problems and struggle to find even where to start, but when you get into a flow state suddenly everything clicks into place and you solve the issue.</p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"yKf9aUIxdb4\" href=\"https://www.youtube.com/watch?v=yKf9aUIxdb4\"><img src=\"https://uploads.zulipusercontent.net/b41a7a775b8418794ec7739829d039a0ffb01f31/68747470733a2f2f692e7974696d672e636f6d2f76692f794b6639615549786462342f64656661756c742e6a7067\"></a></div>",
+        "id": 488996445,
+        "sender_full_name": "Matthias Schippling",
+        "timestamp": 1734184544
+    },
+    {
+        "content": "<p>It was fun hearing you tell Chris and Dave about Zulip. In <a href=\"https://shoptalkshow.com/662/\">Shoptalk 662</a> they brought up Changelog's use of Zulip while <a href=\"https://shoptalkshow.com/662/#t=48:23\">talking about</a> Circle. They discussed the virtues of having a searchable archive of answers, which Zulip provides.</p>",
+        "id": 515014765,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1745920375
+    },
+    {
+        "content": "<p>Very cool! I'm excited to hear their thoughts on Circle (which I haven't checked out at all yet)</p>",
+        "id": 515137015,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1745952724
+    }
+]

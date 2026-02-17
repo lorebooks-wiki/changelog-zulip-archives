@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>I want to have have my fridge and chest freezer send temperature telemetry to something I own, either on-prem, cloud, or maybe even a metrics SaaS so I can monitor them and get a notification if things are in a bad state. When I search for this I get a bunch of consumer things that want me to install an app on my phone, which I'm assuming talks to their servers.</p>\n<p>But this should be a pretty simple microcontroller + sensor + battery + wifi thing, so I don't really want to bring a random 3rd party into this. But also, I don't necessarily need to build the thing myself. So I'm wondering if homelabbers know of some off the shelf hardware that's not bound to the vendor's infrastructure in some way.</p>\n<p>Anyone monitoring metrics about their homes? What are you capturing and what are you using to do it?</p>",
+        "id": 525621363,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1750815543
+    },
+    {
+        "content": "<p>i don't know about any wi-fi connected sensors that don't require some cloud service to connect it all together as a one-off operation, let alone any that don't require continuous cloud connectivity</p>\n<p>(they could exist, i just don't know)</p>\n<p>however, for my setup, i grabbed a few of these zigbee connected sensors, and they're working really well without ever having connected them to an app or a cloud: <a href=\"https://3reality.com/product/temperature-and-humidity-sensor-with-digital-lcd-display/\">https://3reality.com/product/temperature-and-humidity-sensor-with-digital-lcd-display/</a></p>\n<p>but i did need to add a zigbee gateway to my setup</p>",
+        "id": 525622248,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1750816296
+    },
+    {
+        "content": "<p><a href=\"https://gist.github.com/sudomateo/90bdb20a7822c119a7054bac3409f300\">https://gist.github.com/sudomateo/90bdb20a7822c119a7054bac3409f300</a></p>\n<p>I threw that on a Pico W to monitor temps.</p>",
+        "id": 525632272,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1750825039
+    },
+    {
+        "content": "<p>i wonder if the Pico W can be shoved in a fridge/freezer? :)</p>",
+        "id": 525633289,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1750825910
+    },
+    {
+        "content": "<p>I recently went on a similar hunt for fridge/freezer sensors that would work with Home Assistant. I wound up settling on these: <a href=\"https://a.co/d/gaf3Z7G\">https://a.co/d/gaf3Z7G</a> </p>\n<p>They work over Bluetooth LE, so you need a bluetooth proxy for HA, but I never installed the Govee app on my phone. They just worked.</p>",
+        "id": 525683602,
+        "sender_full_name": "Scott Abbey",
+        "timestamp": 1750848194
+    },
+    {
+        "content": "<p>Thanks for the suggestions. Yesterday I got rabbit holed because I was trying to figure out if I wanted to try to turn an old Android phone into some kind of BLE telemetry hub with built-in cell+battery failover or add a UPS and cell HAT to a Pi Zero 2 with a sensor probe either directly connected to I2C or wireless with BLE or Zigbee.</p>",
+        "id": 525915306,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1750947442
+    },
+    {
+        "content": "<p>If you want to avoid cloud-connected options I recommend looking for devices that support Matter (<a href=\"https://en.m.wikipedia.org/wiki/Matter_(standard)\">https://en.m.wikipedia.org/wiki/Matter_(standard)</a> )</p>\n<p>Devices that support the Matter protocol typically support either WiFi or Thread as a communication standard. The thread ecosystem is still very young but the Matter over WiFi is a bit more developed.</p>\n<p>Matter was intended to be the interoperable IoT standard, so your basically guaranteed it works without cloud connectivity. It’s also supported by home assistant.</p>",
+        "id": 526374928,
+        "sender_full_name": "Ricky Hussmann",
+        "timestamp": 1751281573
+    }
+]

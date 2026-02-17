@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>My iPhone has lately been developing more and more little disease symptoms that seem like software, not hardware. I have an iPhone 16 so I'm reasonably up to date hardware wise. The most annoying one, which started after I turned on Apple Intelligence <em>but stayed after I turned it off</em> is that voice dictation now pauses for over a minute between when I hit the microphone icon and when I get the beep to start speaking. As a partially blind guy, this is super crippling. Apple Support seems cluelsss <span aria-label=\"slight smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"slight smile\">:slight_smile:</span> Where do you folks go to fix tiny annoying problems like this?</p>",
+        "id": 523300556,
+        "sender_full_name": "Christopher Patti",
+        "timestamp": 1749564387
+    },
+    {
+        "content": "<p>I rarely have much success with Apple issues like that, but these days my first stop would be Perplexity. And then after trying all the suggestions if they don’t work I just give up!</p>",
+        "id": 523911708,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1749808593
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752943\">@James Thurley</span> Thank you I haven't yet tried Perplexity and this might be a good test case <span aria-label=\"slight smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"slight smile\">:slight_smile:</span> Actually, using the tool I have on hand, I'm already paying for Claude, so I asked it and ... BINGO! The correct answer was:</p>\n<ul>\n<li>Go to Settings &gt; Siri &amp; Search</li>\n<li>Turn off \"Listen for 'Hey Siri'\" and \"Press Side Button for Siri\"</li>\n<li>Go to Settings &gt; General &gt; Keyboard</li>\n<li>Turn off \"Enable Dictation\"</li>\n<li>Restart your iPhone (hold side button + volume button, slide to power off)</li>\n<li>Re-enable these features in reverse order</li>\n</ul>",
+        "id": 523955570,
+        "sender_full_name": "Christopher Patti",
+        "timestamp": 1749824103
+    }
+]

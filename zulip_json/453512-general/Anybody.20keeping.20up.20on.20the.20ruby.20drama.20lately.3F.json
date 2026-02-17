@@ -1,0 +1,158 @@
+[
+    {
+        "content": "<p>First ruby central has a tussle with ruby gems and then DHH continues with his racist right wing blog posts pissing off a large section of the community.</p>\n<p>I just adore ruby and even have a great fondness for rails but the community seems to be falling apart.</p>",
+        "id": 540933699,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1758607240
+    },
+    {
+        "content": "<p>there was a talk at RustForge (not yet up on YouTube) where the speaker gave a personal history of starting out in the Ruby community, becoming part of the inner circle, being surrounded by folks that were quite unfriendly and becoming that way themselves, publicly being a jerk to folks in other projects, taking a step back and realising they were making bad choices, and finding other language communities were the inner circle is kinder</p>",
+        "id": 540946670,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1758613001
+    },
+    {
+        "content": "<p>it seems like every technology has trade-offs, and increasingly the trade-offs aren't technical but are in the squishy fleshy organic political human part</p>",
+        "id": 540946863,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1758613077
+    },
+    {
+        "content": "<p>Every open source project is a community and this applies to languages and frameworks even more so. There are apparently 7000 contributors to Rails. If I was to make a bet a non trivial number of those commits are made by immigrants, non whites, and members of the LGBTQ+ community. Apparently both DHH and Tobi are openly hostile towards those groups of people and they are two most influential and powerful people in the Ruby and Rails community and neither one of them are hesitant to broadcast their beliefs on their blogs and greater social media.   </p>\n<p>I don't think this is a great way to grow your community and people certainly have alternatives if they don't feel welcome or wanted in a community.</p>\n<p>I keep thinking this might be a good opportunity for projects like Hanami to attract users to their frameworks. The stink of DHH and Tobi are likely to linger around rails but not necessarily to the greater ruby community.</p>",
+        "id": 540951898,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1758614720
+    },
+    {
+        "content": "<p>RE: indications of a healthy ecosystem: <a href=\"https://pagan.plus/@Cat_LeFey/114014463518452044\">https://pagan.plus/@Cat_LeFey/114014463518452044</a></p>",
+        "id": 540959868,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1758617252
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"755905\">@Tim Uckun</span> is there a blog post rounding up the goings on? I saw the Ruby Central post and a few responses to it, but nothing else. Also, please refrain from name calling (.i.e 'racist') on our Zulip.</p>",
+        "id": 541016860,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1758634590
+    },
+    {
+        "content": "<p>There are quite a few blog posts on these issues.</p>\n<p><a href=\"https://joel.drapper.me/p/rubygems-takeover/\">https://joel.drapper.me/p/rubygems-takeover/</a></p>\n<p><a href=\"https://tekin.co.uk/2025/09/the-ruby-community-has-a-dhh-problem\">https://tekin.co.uk/2025/09/the-ruby-community-has-a-dhh-problem</a></p>\n<p>That last one references this one which is also a good read</p>\n<p><a href=\"https://davidcel.is/articles/rails-needs-new-governance\">https://davidcel.is/articles/rails-needs-new-governance</a></p>\n<p>And to be technical I didn't call DHH racist, I called his posts racist. Subtle difference.</p>",
+        "id": 541104187,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1758663398
+    },
+    {
+        "content": "<p>i think criticising behaviour and explicitly NOT criticising people is of great importance<br>\nit's a cornerstone of forgiveness, to leave space for someone to learn and change their behaviour</p>",
+        "id": 541111473,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1758666751
+    },
+    {
+        "content": "<p><code>rv</code> sounds interesting <br>\nI'm surprised (due to my own ignorance/bubble) there's still enough use of Ruby to justify this sort of investment</p>",
+        "id": 541121451,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1758672822
+    },
+    {
+        "content": "<p>Frankly I don't even understand what DHH is on about. AFIK he lives in California and is an immigrant and is not native. Even if he has another residence in London he is still a non native immigrant.  I mean who cares?</p>\n<p>When I lived in the USA it was pretty uncommon experience to hang out with a Native American, it never bothered me to interact with non natives or immigrants. Now that I live in New Zealand my interactions with native (Maori) people are very common but still most of my interactions are with non natives and immigrants from  other countries. None of that is not and was never a concern or a cause for alarm for me. </p>\n<p>Anyhooo.</p>\n<p>rv does sound interesting and ruby powers shopify, stripe, github, airbnb and lots of other large corporations. There is still plenty of interest in ruby but admittedly it's been fading a bit given the surge in python in AI and JS in web dev work and go/rust in system programming.</p>\n<p>I don't think all this drama is going to attract new users to the language or framework though which I think is sad because as I said before I absolutely adore ruby. It's an amazing language and a joy to program in.</p>",
+        "id": 541137751,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1758686307
+    },
+    {
+        "content": "<p>Well, it might attract _more_ people to Ruby, if those opinions are popular<br>\nAnd polling suggests that they aren't as unpopular as they used to be</p>",
+        "id": 541139290,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1758687598
+    },
+    {
+        "content": "<p>You may be right. Time will tell I guess.</p>",
+        "id": 541139461,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1758687754
+    },
+    {
+        "content": "<p>The drama keeps going on. Friend of the podcast Justin Searls has posted something about it. There is an open letter asking for a hard fork (whatever that means) of rails with a lot of signatories. Both DHH and Tobi are posting alpha male memes on xitter bragging about how powerful and mighty they are and how weak and inept everybody who criticises them are.</p>\n<p>I thought this would die down quickly but people are doubling down on their positions and politics.</p>\n<p>What's missing are the voices from Japan (understandable since AFIK they work mostly on ruby core) and employees from shopify rails and ruby teams (understandable since their paycheck depends of Tobi and DHH).</p>\n<p>Also missing are people who run competing frameworks such as hanami, roda, sinatra etc (I know roda and sinatra aren't really frameworks).  One possible outcome from this is a competing ruby based full stack framework and I for one would welcome that. Rails is full of magic and is a memory hog and isn't that JIT friendly and doesn't work well with jruby. It would be interesting to create a new framework that's no or very low magic and maybe even embraces RBS or Sorbet to provide type safety.</p>",
+        "id": 541919249,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1759094220
+    },
+    {
+        "content": "<p>I hope Matz is okay, this would be pretty upsetting to me if I were the creator of Ruby</p>",
+        "id": 541924105,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1759100596
+    },
+    {
+        "content": "<p>I think the ire is mostly pointed at rails, DHH, and Tobi at this point. Although the rubygems issue effects all ruby users  it was mostly done by  and at the behest of Shopify from what I can tell. </p>\n<p>But I am sure this will have a negative impact on the ruby community as a whole as many people who use ruby and contribute to the tens of thousands of ruby gems are not native, are immigrants or are members of the LGBTQ+ community  and might not feel welcome in a community where the two of the most powerful members of the community are openly hostile to them are mocking them on social media.</p>",
+        "id": 541931499,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1759109162
+    },
+    {
+        "content": "<p>I really hope other prominent members of both rails and ruby communities speak up and assure people that they are welcome in the community despite the hostility expressed by DHH and Tobi.</p>",
+        "id": 541931637,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1759109298
+    },
+    {
+        "content": "<p>Google Trends shows a gentle decline in interest since 2023, but if anything the recent controversy seems to have boosted keyword searches for Ruby over the last few days</p>",
+        "id": 541932132,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1759109786
+    },
+    {
+        "content": "<p>That's not surprising.</p>",
+        "id": 541937632,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1759115436
+    },
+    {
+        "content": "<p>I will say, without getting into specific political viewpoints on either side, this feels like it’s in stark contrast to the welcoming community I just watched in the Python doc.</p>",
+        "id": 541939345,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1759116931
+    },
+    {
+        "content": "<p>does Ruby have any technical advantages over Python these days? or is it mostly brownfield / technical-debt that stops folks from moving over?</p>",
+        "id": 541939558,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1759117122
+    },
+    {
+        "content": "<p>I haven't done a benchmark lately but in the past ruby used to be faster than python. Rubygems and bundler are also superior to the python ecosystem but I understand python has finally cracked that nut after more than a half a dozen attempts at sane package management and env management.</p>\n<p>Other than that it's vibes. Ruby gives me joy to program in. Kind of an ineffable thing.</p>\n<p>Recently I started writing some code to manage my dotfiles (called dotty), since I just bought a new laptop I thought I would also use that to install all the apps I use. Here are some snippets </p>\n<p>Manifest</p>\n<div class=\"codehilite\" data-code-language=\"Ruby\"><pre><span></span><code><span class=\"n\">require_relative</span><span class=\"w\"> </span><span class=\"s1\">'./lib/dotty'</span>\n<span class=\"no\">Dir</span><span class=\"o\">[</span><span class=\"no\">File</span><span class=\"o\">.</span><span class=\"n\">join</span><span class=\"p\">(</span><span class=\"n\">__dir__</span><span class=\"p\">,</span><span class=\"w\"> </span><span class=\"s1\">'recipes'</span><span class=\"p\">,</span><span class=\"w\"> </span><span class=\"s1\">'*.rb'</span><span class=\"p\">)</span><span class=\"o\">].</span><span class=\"n\">sort</span><span class=\"o\">.</span><span class=\"n\">each</span><span class=\"w\"> </span><span class=\"p\">{</span><span class=\"w\"> </span><span class=\"o\">|</span><span class=\"n\">file</span><span class=\"o\">|</span><span class=\"w\"> </span><span class=\"n\">require_relative</span><span class=\"w\"> </span><span class=\"n\">file</span><span class=\"w\"> </span><span class=\"p\">}</span>\n\n<span class=\"no\">Current</span><span class=\"o\">.</span><span class=\"n\">dotty_dir</span><span class=\"w\"> </span><span class=\"o\">=</span><span class=\"w\"> </span><span class=\"no\">File</span><span class=\"o\">.</span><span class=\"n\">join</span><span class=\"p\">(</span><span class=\"n\">__dir__</span><span class=\"p\">,</span><span class=\"w\"> </span><span class=\"s1\">'dotfiles'</span><span class=\"p\">)</span>\n<span class=\"c1\"># pp Current.secret_key</span>\n<span class=\"n\">os</span><span class=\"w\"> </span><span class=\"s1\">'darwin'</span><span class=\"w\"> </span><span class=\"k\">do</span>\n<span class=\"w\">  </span><span class=\"n\">install_xcode_select</span>\n<span class=\"w\">  </span><span class=\"n\">install_homebrew</span>\n<span class=\"w\">  </span><span class=\"n\">ssh_keys</span>\n<span class=\"w\">  </span><span class=\"n\">mise</span>\n<span class=\"w\">  </span><span class=\"n\">brewfile</span>\n<span class=\"w\">  </span><span class=\"n\">symlinks</span><span class=\"w\"> </span><span class=\"sx\">%w[</span>\n<span class=\"sx\">    ~/.zshrc</span>\n<span class=\"sx\">    ~/.oh-my-zsh</span>\n<span class=\"sx\">    ~/.gitconfig</span>\n<span class=\"sx\">    ~/.gitignore_global</span>\n<span class=\"sx\">    ~/.orbstack</span>\n<span class=\"sx\">    ~/.config/mise</span>\n<span class=\"sx\">  ]</span>\n<span class=\"k\">end</span>\n</code></pre></div>\n<p>Here is my ssh recipe</p>\n<div class=\"codehilite\" data-code-language=\"Ruby\"><pre><span></span><code><span class=\"k\">def</span><span class=\"w\"> </span><span class=\"nf\">ssh_keys</span>\n<span class=\"w\">  </span><span class=\"n\">mkdir</span><span class=\"w\"> </span><span class=\"s1\">'~/.ssh'</span><span class=\"p\">,</span><span class=\"w\"> </span><span class=\"ss\">user</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"no\">Current</span><span class=\"o\">.</span><span class=\"n\">user</span><span class=\"p\">,</span><span class=\"w\"> </span><span class=\"ss\">group</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s1\">'staff'</span><span class=\"p\">,</span><span class=\"w\"> </span><span class=\"ss\">mode</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"mi\">0</span><span class=\"n\">o0700</span>\n<span class=\"w\">  </span><span class=\"n\">symlink</span><span class=\"w\"> </span><span class=\"s1\">'~/.ssh/config'</span>\n<span class=\"w\">  </span><span class=\"n\">symlink</span><span class=\"w\"> </span><span class=\"s1\">'~/.ssh/known_hosts'</span>\n<span class=\"w\">  </span><span class=\"n\">symlink</span><span class=\"w\"> </span><span class=\"s1\">'~/.ssh/authorized_keys'</span>\n<span class=\"w\">  </span><span class=\"n\">file</span><span class=\"p\">(</span><span class=\"s1\">'~/.ssh/id_rsa'</span><span class=\"p\">,</span><span class=\"w\"> </span><span class=\"ss\">user</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"no\">Current</span><span class=\"o\">.</span><span class=\"n\">user</span><span class=\"p\">,</span><span class=\"w\"> </span><span class=\"ss\">group</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s1\">'staff'</span><span class=\"p\">,</span><span class=\"w\"> </span><span class=\"ss\">mode</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"mi\">0</span><span class=\"n\">o600</span><span class=\"p\">,</span><span class=\"w\"> </span><span class=\"ss\">encrypted</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"kp\">true</span><span class=\"p\">)</span>\n<span class=\"w\">  </span><span class=\"n\">file</span><span class=\"p\">(</span><span class=\"s1\">'~/.ssh/id_rsa.pub'</span><span class=\"p\">,</span><span class=\"w\"> </span><span class=\"ss\">user</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"no\">Current</span><span class=\"o\">.</span><span class=\"n\">user</span><span class=\"p\">,</span><span class=\"w\"> </span><span class=\"ss\">group</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s1\">'staff'</span><span class=\"p\">,</span><span class=\"w\"> </span><span class=\"ss\">mode</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"mi\">0</span><span class=\"n\">o600</span><span class=\"p\">,</span><span class=\"w\"> </span><span class=\"ss\">encrypted</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"kp\">true</span><span class=\"p\">)</span>\n<span class=\"k\">end</span>\n</code></pre></div>\n<p>Here is my mise recipe</p>\n<div class=\"codehilite\" data-code-language=\"Ruby\"><pre><span></span><code><span class=\"k\">def</span><span class=\"w\"> </span><span class=\"nf\">install_mise</span>\n<span class=\"w\">  </span><span class=\"c1\"># This installs mise and all mise managed packages</span>\n<span class=\"w\">  </span><span class=\"n\">execute</span><span class=\"w\"> </span><span class=\"s1\">'brew install mise &amp;&amp; eval \"$(mise activate zsh)\"'</span><span class=\"p\">,</span>\n<span class=\"w\">          </span><span class=\"ss\">not_if</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s1\">'which mise &gt; /dev/null'</span><span class=\"p\">,</span>\n<span class=\"w\">          </span><span class=\"ss\">msg</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s1\">'Installing mise'</span>\n<span class=\"k\">end</span>\n\n<span class=\"k\">def</span><span class=\"w\"> </span><span class=\"nf\">mise_install</span><span class=\"p\">(</span><span class=\"n\">package</span><span class=\"p\">,</span><span class=\"w\"> </span><span class=\"ss\">version</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"kp\">nil</span><span class=\"p\">,</span><span class=\"w\"> </span><span class=\"ss\">not_if</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"kp\">nil</span><span class=\"p\">)</span>\n<span class=\"w\">  </span><span class=\"n\">version</span><span class=\"w\"> </span><span class=\"o\">||=</span><span class=\"w\"> </span><span class=\"s1\">'latest'</span>\n<span class=\"w\">  </span><span class=\"c1\"># could be mise which, could also grep for the version in which ls but</span>\n<span class=\"w\">  </span><span class=\"c1\"># I can't figure out  how to tell if the latest is installed</span>\n<span class=\"w\">  </span><span class=\"n\">not_if</span><span class=\"w\"> </span><span class=\"o\">||=</span><span class=\"w\"> </span><span class=\"s2\">\"mise ls  </span><span class=\"si\">#{</span><span class=\"n\">package</span><span class=\"si\">}</span><span class=\"s2\"> &gt; /dev/null\"</span>\n<span class=\"w\">  </span><span class=\"n\">execute</span><span class=\"w\"> </span><span class=\"s2\">\"mise use --global </span><span class=\"si\">#{</span><span class=\"n\">package</span><span class=\"si\">}</span><span class=\"s2\">@</span><span class=\"si\">#{</span><span class=\"n\">version</span><span class=\"si\">}</span><span class=\"s2\">\"</span><span class=\"p\">,</span>\n<span class=\"w\">          </span><span class=\"ss\">not_if</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"n\">not_if</span>\n<span class=\"k\">end</span>\n\n<span class=\"k\">def</span><span class=\"w\"> </span><span class=\"nf\">mise</span>\n<span class=\"w\">  </span><span class=\"n\">install_mise</span>\n<span class=\"w\">  </span><span class=\"n\">mise_install</span><span class=\"w\"> </span><span class=\"s1\">'ruby'</span><span class=\"p\">,</span><span class=\"w\"> </span><span class=\"ss\">version</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"mi\">3</span><span class=\"o\">.</span><span class=\"mi\">4</span>\n<span class=\"k\">end</span>\n</code></pre></div>\n<p>You just can't write code like this in python or go or any other language I know.  Not just these snippets but the code they call. It's all just so ergonomic and human.</p>",
+        "id": 541940606,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1759118126
+    },
+    {
+        "content": "<p>yeah, i remember now Ruby being excellent for DSLs</p>",
+        "id": 541940649,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1759118184
+    },
+    {
+        "content": "<p>The cool thing is that everything is a recipe in the recipes folder. I just create a new file, write five or ten lines and voila it's done.</p>\n<p>Having said that the \"symlink\" and \"file\" recipes are much longer because they do all kinds of weird things I want to do. Things like figure out default sources for the file, encrypt and decrypt files, make backups of existing symlinks and files before overwriting them etc.</p>\n<p>The \"symlink\" recipe is the largest one and it's sixty whole lines long including comments.</p>",
+        "id": 541941147,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1759118647
+    },
+    {
+        "content": "<p>i guess Ruby itself may still claim <code>brew</code> as its killer app (besides Rails), so it doesn't need to worry about usage/interest until that project starts looking for greener pastures</p>",
+        "id": 541942019,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1759119396
+    },
+    {
+        "content": "<p>IIRC stripe is a ruby app which is not rails. Rails runs shopify, github, airbnb and a bunch of other good sized apps.</p>",
+        "id": 541942391,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1759119742
+    },
+    {
+        "content": "<p>i consider all of those examples to be companies, not killer apps :)<br>\ndeveloper market/mind share doesn't really care what those are implemented in, so long as the HTTP API stays the same :)<br>\npeople do self-host GitLab which is also written in Ruby, but again, i'm not sure that counts as really exposing developers to Ruby</p>",
+        "id": 541942612,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1759119987
+    }
+]

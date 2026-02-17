@@ -1,0 +1,96 @@
+<html>
+<head><meta charset="utf-8"><title>Fiscal period format · general · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/index.html">general</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Fiscal.20period.20format.html">Fiscal period format</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="494718140"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Fiscal%20period%20format/near/494718140" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> James A Rosen <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Fiscal.20period.20format.html#494718140">(Jan 20 2025 at 04:56)</a>:</h4>
+<p>I need to express "fiscal {month,quarter,year}" compactly, e.g. in a database column or HTTP endpoint. I've done some literature research. <a href="https://cloud.google.com/looker/docs/reference/param-model-fiscal-month-offset">Looker uses fiscal_month_offset</a>, which seems as good a standard as any. But there's nothing on storage/transfer formats. I'm considering these:</p>
+<div class="codehilite"><pre><span></span><code># [u-...] inspired by Temporal API
+2024[u-fmo=-7]    = 2023-06-01 - 2024-05-31
+2025Q2[u-fmo=+3]  = 2025-07-01 - 2026-09-30
+2040M10[u-fmo=-5] = 2040-05-01 - 2040-05-31
+
+# I picked ~ somewhat arbitrarily as a delimiter
+FY2024~-7   = 2023-06-01 - 2024-05-31
+FY2025Q2~+3 = 2025-07-01 - 2026-09-30
+2040M10~-5  = 2040-05-01 - 2040-05-31
+
+# The {...} sets off the month offset visually
+2024{-7}    = 2023-06-01 - 2024-05-31
+2025Q2{3}   = 2025-07-01 - 2026-09-30
+2040M10{-5} = 2040-05-01 - 2040-05-31
+</code></pre></div>
+<p>Does anyone have a favorite? Another idea?</p>
+
+
+
+<a name="494718669"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Fiscal%20period%20format/near/494718669" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nabeel S <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Fiscal.20period.20format.html#494718669">(Jan 20 2025 at 05:02)</a>:</h4>
+<p>I'm tempted to say: just store the start and end dates in your database, and use code to convert to and from the fiscal year format.</p>
+
+
+
+<a name="494887794"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Fiscal%20period%20format/near/494887794" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> James A Rosen <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Fiscal.20period.20format.html#494887794">(Jan 20 2025 at 18:15)</a>:</h4>
+<p>I certainly could do that. One key downside is size.</p>
+<p>I can store <code>fiscal_year</code> and <code>fiscal_offset</code> in two <code>smallint</code>s for 4 bytes. I can store <code>fiscal_year</code>, <code>fiscal_year_start</code>, and <code>fiscal_year_end</code> in one <code>smallint</code> and two <code>Date</code>s for 10 bytes. On a table with 100,000,000 records, that's an extra 600MB at minimum -- more, depending on how well I <a href="https://postgres.fm/episodes/column-tetris">play column Tetris</a>. (I could omit <code>fiscal_year</code>, but by not storing it, I can't partition on it.)</p>
+<p>I'm going to have to convert one way or the other in queries that need to compare fiscal and calendar periods.</p>
+<p>If I store <code>(fiscal_year, fiscal_month_offset)</code>, I need to convert to query by calendar year</p>
+<div class="codehilite" data-code-language="SQL"><pre><span></span><code><span class="k">select</span><span class="w"> </span><span class="o">*</span>
+<span class="k">from</span><span class="w"> </span><span class="n">events</span>
+<span class="k">where</span><span class="w"> </span><span class="n">fiscal_year</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="n">calendar_year_to_fiscal</span><span class="p">(</span><span class="o">?</span><span class="p">,</span><span class="w"> </span><span class="o">?</span><span class="p">)</span>
+<span class="k">and</span><span class="w"> </span><span class="n">fiscal_year</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">calendar_year_to_fiscal</span><span class="p">(</span><span class="o">?</span><span class="p">,</span><span class="w"> </span><span class="o">?</span><span class="p">);</span>
+</code></pre></div>
+<p>Whereas  if I store <code>(calendar_start, calendar_end)</code>, I need to convert to query by fiscal year:</p>
+<div class="codehilite" data-code-language="SQL"><pre><span></span><code><span class="k">select</span><span class="w"> </span><span class="o">*</span>
+<span class="k">from</span><span class="w"> </span><span class="n">events</span>
+<span class="k">where</span><span class="w"> </span><span class="n">calendar_start</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="n">fiscal_year_start</span><span class="p">(</span><span class="o">?</span><span class="p">,</span><span class="w"> </span><span class="o">?</span><span class="p">)</span>
+<span class="k">and</span><span class="w"> </span><span class="n">calendar_end</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">fiscal_year_end</span><span class="p">(</span><span class="o">?</span><span class="p">,</span><span class="w"> </span><span class="o">?</span><span class="p">);</span>
+</code></pre></div>
+
+
+
+<a name="494920872"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Fiscal%20period%20format/near/494920872" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nabeel S <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Fiscal.20period.20format.html#494920872">(Jan 20 2025 at 22:03)</a>:</h4>
+<p>If regular dates will make your life easier, and if the only downside of two dates is size, I would say double check if that's really a downside at all:</p>
+<ul>
+<li>10 bytes might feel like a lot, but a) what's the size of the rest of the data in the column? and b) Is 100M rows really something you're going to have?</li>
+<li>DATE takes 3 bytes vs. the 5 bytes of DATETIME, but again I wonder if that consideration is over-optimization.</li>
+</ul>
+
+
+
+<a name="494934211"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Fiscal%20period%20format/near/494934211" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> James A Rosen <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Fiscal.20period.20format.html#494934211">(Jan 20 2025 at 23:51)</a>:</h4>
+<blockquote>
+<p>100M rows really something you're going to have?</p>
+</blockquote>
+<p>Probably within a few months. Definitely within 12 months.</p>
+<blockquote>
+<p>DATE takes 3 bytes vs. the 5 bytes of DATETIME</p>
+</blockquote>
+<p><a href="https://www.postgresql.org/docs/current/datatype-datetime.html">On Postgres</a>, timestamp is 8B, timestamp with time zone is 8B, and date is 4B.</p>
+
+
+
+<a name="494941104"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Fiscal%20period%20format/near/494941104" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nabeel S <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Fiscal.20period.20format.html#494941104">(Jan 21 2025 at 00:42)</a>:</h4>
+<p>I still don't think saving 300MB is going to be your main concern on a 100GB database :-)</p>
+
+
+
+<a name="494946394"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Fiscal%20period%20format/near/494946394" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> James A Rosen <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Fiscal.20period.20format.html#494946394">(Jan 21 2025 at 01:27)</a>:</h4>
+<p>Fair. Thank you for taking the time to make a suggestion. I appreciate the assist.</p>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

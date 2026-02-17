@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p>Where is a good place to blog if you are hoping to make a couple of cents from your output. If you are self hosting what are you using and is it worth it?</p>",
+        "id": 483346733,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1732047835
+    },
+    {
+        "content": "<p>Molly White wrote up some really detailed advice about how she uses Ghost <a href=\"https://www.citationneeded.news/substack-to-self-hosted-ghost/\">https://www.citationneeded.news/substack-to-self-hosted-ghost/</a></p>",
+        "id": 483358537,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1732052570
+    },
+    {
+        "content": "<p>I'm not hoping to monetise my own blog, so I just built it in 11ty and hosted on Cloudflare Pages <a href=\"https://crabmusket.net/2024/rebuilding-the-blog/\">https://crabmusket.net/2024/rebuilding-the-blog/</a></p>",
+        "id": 483358614,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1732052609
+    },
+    {
+        "content": "<p>I have a blog/notebook on <a href=\"https://hashnode.dev\">Hashnode</a>, they have a decent WYSIWYG editor as well as a markdown editor and you can automatically sync the Markdown files to GitHub. I think it's possible to use your own domain as well. I was just looking for a place to <a href=\"https://pragmaticnotes.hashnode.dev/\">collect notes and how-tos</a> and I've found it to be perfect for this use case.</p>\n<p>As a self-hosted option for long-form articles, I've been playing around with Astro using their <a href=\"https://astro.build/themes/details/blog/\">official blog theme</a> on GitHub Pages, which is straightforward to set up and use.</p>\n<p>Either way, you'll get most of your traffic from search engines (mostly Google) or your own social media. So if generating an income is a goal, I don't think it really matters where you host the blog as long as it's compatible with your chosen way of monetization.</p>\n<p>I think the only way to make money with blogging is through a newsletter subscription. With regular ads you're looking at around $1 per 1,000 visitors, so that's probably not worth it unless you have substantial traffic (plus it might drive away your target audience).  Assuming you're writing about tech, you could look into <a href=\"https://www.ethicalads.io/\">EthicalAds</a> (no affiliation, I just see their ads from time to time). They require at least 50k pageviews per months and claim to pay around $2.50 per 1,000 views, you can use their <a href=\"https://www.ethicalads.io/publishers/calculator/\">calculator</a> to get estimates. </p>\n<p>Based on my own experience, I believe it's unlikely you can get to these sorts of numbers unless you're consistently writing about a very popular topic that lots of people are searching for and where your blog happens to be among the top results, or have a large audience through social media.</p>",
+        "id": 483358845,
+        "sender_full_name": "Kilian Kluge",
+        "timestamp": 1732052711
+    },
+    {
+        "content": "<p>Yeah I built an Astro site and threw it on Netlify (which was very easy). But I'm not looking to make anything off of it</p>",
+        "id": 483380547,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1732060702
+    },
+    {
+        "content": "<p>I use Ghost(Pro) because I don't want to maintain my own setup and I wanted to support the project</p>",
+        "id": 483569325,
+        "sender_full_name": "Brett Cannon",
+        "timestamp": 1732135868
+    },
+    {
+        "content": "<p>Thanks for all the tips guys. I will be looking into them to see what suits best.</p>",
+        "id": 483571615,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1732136833
+    },
+    {
+        "content": "<p>I quite like Mataroa in principle/focus. I haven't blogged in a while, but if I did it'd probably be there :P</p>",
+        "id": 488970987,
+        "sender_full_name": "Owen Valentine",
+        "timestamp": 1734161543
+    },
+    {
+        "content": "<p>Never been there but I did drive through Taihape once on my way to welly from Tauranga.</p>",
+        "id": 488980062,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1734170435
+    },
+    {
+        "content": "<p>I have deployed some blogs/static sites using quarto and deployed them on <a href=\"http://fly.io\">fly.io</a> with a simple nginx deployment.<br>\nThe nginx machines scales to 0 and there is not much traffic, so it is cheap.</p>",
+        "id": 489003093,
+        "sender_full_name": "Erik Lundevall-Zara",
+        "timestamp": 1734189902
+    },
+    {
+        "content": "<p>I just started blogging again. I created <a href=\"https://fieldtheories.blog\">Field Theories</a> which is Astro with a sprinkling of Svelte hosted on Fly.</p>",
+        "id": 490431208,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1734913816
+    },
+    {
+        "content": "<p>I'm also not looking to monetize, so it's just a section of my site built in Zola served on Cloudflare Pages</p>",
+        "id": 490994071,
+        "sender_full_name": "Dustin",
+        "timestamp": 1735307490
+    }
+]

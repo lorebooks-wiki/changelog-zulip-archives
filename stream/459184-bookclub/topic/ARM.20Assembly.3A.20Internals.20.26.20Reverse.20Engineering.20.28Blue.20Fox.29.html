@@ -1,0 +1,59 @@
+<html>
+<head><meta charset="utf-8"><title>ARM Assembly: Internals &amp; Reverse Engineering (Blue Fox) · bookclub · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/index.html">bookclub</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/ARM.20Assembly.3A.20Internals.20.26.20Reverse.20Engineering.20.28Blue.20Fox.29.html">ARM Assembly: Internals &amp; Reverse Engineering (Blue Fox)</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="491820960"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/ARM%20Assembly%3A%20Internals%20%26%20Reverse%20Engineering%20%28Blue%20Fox%29/near/491820960" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Andrew O&#x27;Brien <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/ARM.20Assembly.3A.20Internals.20.26.20Reverse.20Engineering.20.28Blue.20Fox.29.html#491820960">(Jan 03 2025 at 22:35)</a>:</h4>
+<p>I'm about 1/4 of the way through <a href="https://leg-assembly.com/">Maria Markstedter's book on ARM internals</a> (a.k.a. the Blue Fox book). It's answering a lot of the questions that I, as someone who dropped out of CS because Computer Organization was too hard and I wanted to hang out at the coffee shop with my polisci major friends instead, had always wondered about but thought were beyond me. The first couple chapters explained the parts of an ELF file and how the loader uses them. After that, a tour through ARMv8 and AArch64's registers and execution environments, and now I'm starting on the actual assembly language instructions. I'm looking forward to the parts on reverse engineering in the second half.</p>
+<p>Would recommend to anyone who's wondered about such things.</p>
+
+
+
+<a name="491863748"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/ARM%20Assembly%3A%20Internals%20%26%20Reverse%20Engineering%20%28Blue%20Fox%29/near/491863748" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dustin <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/ARM.20Assembly.3A.20Internals.20.26.20Reverse.20Engineering.20.28Blue.20Fox.29.html#491863748">(Jan 04 2025 at 10:00)</a>:</h4>
+<p>What was “Computer Organization”</p>
+
+
+
+<a name="491864144"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/ARM%20Assembly%3A%20Internals%20%26%20Reverse%20Engineering%20%28Blue%20Fox%29/near/491864144" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dustin <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/ARM.20Assembly.3A.20Internals.20.26.20Reverse.20Engineering.20.28Blue.20Fox.29.html#491864144">(Jan 04 2025 at 10:07)</a>:</h4>
+<p>Did you get it in paperback? Or digital</p>
+
+
+
+<a name="492126048"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/ARM%20Assembly%3A%20Internals%20%26%20Reverse%20Engineering%20%28Blue%20Fox%29/near/492126048" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Andrew O&#x27;Brien <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/ARM.20Assembly.3A.20Internals.20.26.20Reverse.20Engineering.20.28Blue.20Fox.29.html#492126048">(Jan 06 2025 at 15:27)</a>:</h4>
+<blockquote>
+<p>What was “Computer Organization”</p>
+</blockquote>
+<p>The sophomore level class where we supposed to use C to shift bits around, look at the assembly, and whatnot (although don't quote me on the name. It's been 20+ years so it might've been called something else). It was required for the major and a pre-req for half of the 300-400 level courses that followed (Systems, OSs, DBs, etc). I ended up cobbling together a CS Minor out of the other half, including an elective Web Programming class that taught me enough LAMP to actually get a job. 20 years later there are still gaps at the lower level, but I fill them in as I go. And I've pretty much never used the polisci degree in anger. :D</p>
+<blockquote>
+<p>Did you get it in paperback? Or digital</p>
+</blockquote>
+<p>Paperback. I generally prefer digital if I think the shelf-life is going to be lower. This one was on the bubble since I'm sure there will be changes to ARM and new editions to come. But I liked the cover. ;)</p>
+
+
+
+<a name="492127296"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/ARM%20Assembly%3A%20Internals%20%26%20Reverse%20Engineering%20%28Blue%20Fox%29/near/492127296" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Andrew O&#x27;Brien <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/ARM.20Assembly.3A.20Internals.20.26.20Reverse.20Engineering.20.28Blue.20Fox.29.html#492127296">(Jan 06 2025 at 15:34)</a>:</h4>
+<p>I still have the textbook from that class: <a href="https://csapp.cs.cmu.edu/2e/home.html">Bryant and O'Hallaron 2nd ed</a></p>
+<p>I'm told that's still a good one. Looking at ARM now, I think the fact that they taught with x86 might've thrown me a bit. I remember hearing at the time (early '00s) that others like MIPS were better first languages (cleaner? Fewer concessions to backward compatibility?). And the few times I've cracked the book since I didn't make much more headway (but mostly due to getting bored with stuff I'd already learned, then getting lost because I missed something new).</p>
+<p>Also, untreated ADHD was probably at play back then. <span aria-label="sweat smile" class="emoji emoji-1f605" role="img" title="sweat smile">:sweat_smile:</span></p>
+
+
+
+<a name="492773053"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/ARM%20Assembly%3A%20Internals%20%26%20Reverse%20Engineering%20%28Blue%20Fox%29/near/492773053" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Andrew O&#x27;Brien <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/ARM.20Assembly.3A.20Internals.20.26.20Reverse.20Engineering.20.28Blue.20Fox.29.html#492773053">(Jan 09 2025 at 17:11)</a>:</h4>
+<p>Oh lord. We've hit the part that's just all of the assembly instructions and their variations. <span aria-label="persevere" class="emoji emoji-1f623" role="img" title="persevere">:persevere:</span> I think I'm going to skim and make note of where I can return to when needed instead of trying to understand every possible subform and ways that it has of MOVing a 32-bit immediate value into a register.</p>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

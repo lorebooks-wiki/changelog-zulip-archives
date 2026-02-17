@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Jerod is joined by Ryan Dahl to discuss his second take on leveling up JavaScript developers all around the world. Jerod asks Ryan why not try to fix or fork Node instead of starting fresh, how Deno (the open source project) can avoid the all too common rug pull (not cool) scenario, what's new in Deno 2 &amp; their pragmatic decision to support npm, they talk JSR, they talk Deno KV &amp; SQLite, they even talk about Ryan's open letter to Oracle in an attempt to free the unused \"JavaScript\" trademark from the giant's clutches.</p>\n<p><span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/610\">https://changelog.fm/610</a></p>",
+        "id": 472930426,
+        "sender_full_name": "Logbot",
+        "timestamp": 1727366735
+    },
+    {
+        "content": "<p>i haven't gotten to the episodes to actually listen yet. but is this on both interviews/jsparty on purpose? it's slightly longer in Interviews :P</p>",
+        "id": 475017508,
+        "sender_full_name": "Dan Cardin",
+        "timestamp": 1728158519
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"753684\">Dan Cardin</span> <a href=\"#narrow/stream/456187-interviews/topic/610.3A.20Leveling.20up.20JavaScript.20with.20Deno.202/near/475017508\">said</a>:</p>\n<blockquote>\n<p>i haven't gotten to the episodes to actually listen yet. but is this on both interviews/jsparty on purpose? it's slightly longer in Interviews :P</p>\n</blockquote>\n<p>It is, on Interviews Jerod explains that (hence the longer run time). I was confused at first too <span aria-label=\"big smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"big smile\">:big_smile:</span></p>",
+        "id": 475019960,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1728159825
+    },
+    {
+        "content": "<p>Yeah we had another interview fall through and figured folks might want to hear from Ryan on that feed vs not having a show that week <span aria-label=\"sunglasses\" class=\"emoji emoji-1f60e\" role=\"img\" title=\"sunglasses\">:sunglasses:</span></p>",
+        "id": 475020407,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1728160144
+    }
+]

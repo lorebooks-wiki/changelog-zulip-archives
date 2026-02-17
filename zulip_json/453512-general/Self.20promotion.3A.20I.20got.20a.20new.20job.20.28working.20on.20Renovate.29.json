@@ -1,0 +1,56 @@
+[
+    {
+        "content": "<p>Folks who may remember me talking about dependencies on <a href=\"https://changelog.com/friends/31\">https://changelog.com/friends/31</a> and/or who've been following my blog for a while may know me as a big fan of the Renovate dependency update tool - well, dream come true, I'm now getting paid to work on it, upstream at Mend <span aria-label=\"rocket\" class=\"emoji emoji-1f680\" role=\"img\" title=\"rocket\">:rocket:</span></p>\n<p><a href=\"https://www.jvt.me/posts/2025/08/27/joining-mend/\">https://www.jvt.me/posts/2025/08/27/joining-mend/</a></p>",
+        "id": 536644108,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1756398362
+    },
+    {
+        "content": "<p>Wow, awesome! I'm a big fan of Renovate, too!</p>",
+        "id": 536676927,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1756411912
+    },
+    {
+        "content": "<p>That's awesome, Jamie! Congrats <span aria-label=\"clap\" class=\"emoji emoji-1f44f\" role=\"img\" title=\"clap\">:clap:</span></p>",
+        "id": 536825463,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1756485252
+    },
+    {
+        "content": "<p>Congrats!</p>",
+        "id": 536848845,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1756494985
+    },
+    {
+        "content": "<p>Congratulations. I'm obviously late to the party here and I'm a large user of Dependabot with all sorts of workflows setup to kick in on every PR. What is the magic that Renovate adds above something like Dependabot that we get with our Github subscription?</p>",
+        "id": 537040731,
+        "sender_full_name": "Stew Robinson",
+        "timestamp": 1756708428
+    },
+    {
+        "content": "<p>Renovate works outside of GitHub, and it's self-host friendly</p>",
+        "id": 537040905,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1756708553
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"941078\">@Stew Robinson</span> check out <a href=\"https://www.jvt.me/posts/2024/04/12/use-renovate/\">https://www.jvt.me/posts/2024/04/12/use-renovate/</a> for my full thoughts, but it's that Renovate has a tonne of extra functionality that Dependabot is behind on, and it allows for much more powerful configuration that follows your workflow, rather than needing to tweak your workflow to follow it</p>",
+        "id": 537045164,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1756710650
+    },
+    {
+        "content": "<p>^ Yeah basically this. I'm a big Renovate user and have read your stuff about it <span class=\"user-mention\" data-user-id=\"755984\">@Jamie Tanna</span> so super good to hear you're joining Mend. :P<br>\nFirst feature request: OpenTofu manager: <a href=\"https://github.com/renovatebot/renovate/issues/30500\">https://github.com/renovatebot/renovate/issues/30500</a> :D (jkjk but maybe...?)</p>",
+        "id": 537230227,
+        "sender_full_name": "Owen Valentine",
+        "timestamp": 1756800591
+    },
+    {
+        "content": "<p>Haha, looks like <a href=\"https://github.com/renovatebot/renovate/issues/29809\">https://github.com/renovatebot/renovate/issues/29809</a> is still needed as a pre-req - not a \"no\" but will see what appetite is, I'm sure there are many folks (as can be seen with the 👍🏼 reactions) who'd be appreciative of support</p>",
+        "id": 537324866,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1756830767
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>I'm about 1/4 of the way through <a href=\"https://leg-assembly.com/\">Maria Markstedter's book on ARM internals</a> (a.k.a. the Blue Fox book). It's answering a lot of the questions that I, as someone who dropped out of CS because Computer Organization was too hard and I wanted to hang out at the coffee shop with my polisci major friends instead, had always wondered about but thought were beyond me. The first couple chapters explained the parts of an ELF file and how the loader uses them. After that, a tour through ARMv8 and AArch64's registers and execution environments, and now I'm starting on the actual assembly language instructions. I'm looking forward to the parts on reverse engineering in the second half.</p>\n<p>Would recommend to anyone who's wondered about such things.</p>",
+        "id": 491820960,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1735943730
+    },
+    {
+        "content": "<p>What was “Computer Organization”</p>",
+        "id": 491863748,
+        "sender_full_name": "Dustin",
+        "timestamp": 1735984835
+    },
+    {
+        "content": "<p>Did you get it in paperback? Or digital</p>",
+        "id": 491864144,
+        "sender_full_name": "Dustin",
+        "timestamp": 1735985242
+    },
+    {
+        "content": "<blockquote>\n<p>What was “Computer Organization”</p>\n</blockquote>\n<p>The sophomore level class where we supposed to use C to shift bits around, look at the assembly, and whatnot (although don't quote me on the name. It's been 20+ years so it might've been called something else). It was required for the major and a pre-req for half of the 300-400 level courses that followed (Systems, OSs, DBs, etc). I ended up cobbling together a CS Minor out of the other half, including an elective Web Programming class that taught me enough LAMP to actually get a job. 20 years later there are still gaps at the lower level, but I fill them in as I go. And I've pretty much never used the polisci degree in anger. :D</p>\n<blockquote>\n<p>Did you get it in paperback? Or digital</p>\n</blockquote>\n<p>Paperback. I generally prefer digital if I think the shelf-life is going to be lower. This one was on the bubble since I'm sure there will be changes to ARM and new editions to come. But I liked the cover. ;)</p>",
+        "id": 492126048,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1736177253
+    },
+    {
+        "content": "<p>I still have the textbook from that class: <a href=\"https://csapp.cs.cmu.edu/2e/home.html\">Bryant and O'Hallaron 2nd ed</a></p>\n<p>I'm told that's still a good one. Looking at ARM now, I think the fact that they taught with x86 might've thrown me a bit. I remember hearing at the time (early '00s) that others like MIPS were better first languages (cleaner? Fewer concessions to backward compatibility?). And the few times I've cracked the book since I didn't make much more headway (but mostly due to getting bored with stuff I'd already learned, then getting lost because I missed something new).</p>\n<p>Also, untreated ADHD was probably at play back then. <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 492127296,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1736177673
+    },
+    {
+        "content": "<p>Oh lord. We've hit the part that's just all of the assembly instructions and their variations. <span aria-label=\"persevere\" class=\"emoji emoji-1f623\" role=\"img\" title=\"persevere\">:persevere:</span> I think I'm going to skim and make note of where I can return to when needed instead of trying to understand every possible subform and ways that it has of MOVing a 32-bit immediate value into a register.</p>",
+        "id": 492773053,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1736442679
+    }
+]

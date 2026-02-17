@@ -1,0 +1,344 @@
+[
+    {
+        "content": "<p>Who has a blog and wants to share it? I'd love to add some new sites to my RSS reader app!</p>",
+        "id": 517686896,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1747091497
+    },
+    {
+        "content": "<p>I'll go first ;) <a href=\"https://crabmusket.net\">https://crabmusket.net</a></p>\n<p>I'm trying to blog a little more frequently in smaller chunks this year. Topics range from web-focused tech to housing and general interest stuff to religion. The post titles in the archive might give a good sense of things! <a href=\"https://crabmusket.net/archive/\">https://crabmusket.net/archive/</a></p>",
+        "id": 517687309,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1747091659
+    },
+    {
+        "content": "<p>Does one post every 2 years qualify <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span></p>",
+        "id": 517744495,
+        "sender_full_name": "Dustin",
+        "timestamp": 1747116631
+    },
+    {
+        "content": "<p>Since this seems a good first post (just joined), and you asked for it ;-) , I plug my one  :-) </p>\n<p><a href=\"https://a4z.gitlab.io/blog/\">https://a4z.gitlab.io/blog/</a></p>",
+        "id": 517745580,
+        "sender_full_name": "a4z",
+        "timestamp": 1747117147
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"756209\">@Dustin</span> yes, RSS is great for that as I'll see your site turn up once every 2 years ;)</p>",
+        "id": 517748510,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1747118377
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"911733\">@a4z</span> welcome!</p>",
+        "id": 517748537,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1747118391
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752986\">@Daniel Buckmaster</span> I love the link dumps! How do you decide what goes in them</p>",
+        "id": 517748759,
+        "sender_full_name": "Dustin",
+        "timestamp": 1747118481
+    },
+    {
+        "content": "<p><a href=\"https://dustin.knopoff.dev/categories/blog/\">https://dustin.knopoff.dev/categories/blog/</a></p>",
+        "id": 517748839,
+        "sender_full_name": "Dustin",
+        "timestamp": 1747118519
+    },
+    {
+        "content": "<p>Also! <a href=\"https://indieblog.page/\">https://indieblog.page/</a> the random page button is super fun for finding niche interesting things on the web</p>",
+        "id": 517749258,
+        "sender_full_name": "Dustin",
+        "timestamp": 1747118703
+    },
+    {
+        "content": "<p>Just started! <a href=\"https://blog.femtodata.com/\">https://blog.femtodata.com/</a></p>",
+        "id": 517855513,
+        "sender_full_name": "Alexander Ou",
+        "timestamp": 1747148637
+    },
+    {
+        "content": "<p><a href=\"https://matthewsanabria.dev\">https://matthewsanabria.dev</a></p>",
+        "id": 517876727,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1747154117
+    },
+    {
+        "content": "<p>I'm writing occasionally on medium: <a href=\"https://marcusedwards-20301.medium.com/\">https://marcusedwards-20301.medium.com/</a>. I am also working on a writer's website here: <a href=\"https://marcusedwards.me/author-website\">https://marcusedwards.me/author-website</a>. :)</p>",
+        "id": 517877784,
+        "sender_full_name": "Marcus Edwards",
+        "timestamp": 1747154440
+    },
+    {
+        "content": "<p>I don't have a blog to promote (although, I will soon stand up my old blog) but I just released my last interview for Software Engineering Daily, my swan song! <a href=\"https://softwareengineeringdaily.com/2025/05/13/anthropic-and-the-model-context-protocol-with-david-soria-parra/\">https://softwareengineeringdaily.com/2025/05/13/anthropic-and-the-model-context-protocol-with-david-soria-parra/</a></p>",
+        "id": 517884238,
+        "sender_full_name": "Jordi Mon Companys",
+        "timestamp": 1747156459
+    },
+    {
+        "content": "<p><a href=\"https://snarky.ca\">https://snarky.ca</a></p>",
+        "id": 517889667,
+        "sender_full_name": "Brett Cannon",
+        "timestamp": 1747158296
+    },
+    {
+        "content": "<p>One of the things I love about the small web is everyone organizes things differently <span aria-label=\"smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"smile\">:smile:</span> Always interesting to see the different visual and organizational structure</p>",
+        "id": 517906696,
+        "sender_full_name": "Dustin",
+        "timestamp": 1747164293
+    },
+    {
+        "content": "<p>Always happy for a chance to self promote! <a href=\"https://www.jvt.me\">https://www.jvt.me</a> is my site, of which <a href=\"https://www.jvt.me/kind/articles/\">https://www.jvt.me/kind/articles/</a> is pure blog posts, and <a href=\"https://www.jvt.me/subscribe/\">https://www.jvt.me/subscribe/</a> for all the ways to subscribe (ie RSS)</p>",
+        "id": 517922159,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1747169975
+    },
+    {
+        "content": "<p>Just spun up a very simple Hugo blog recently that could have been named The Anxious Engineer: <a href=\"https://www.sononick.com/thoughts\">https://www.sononick.com/thoughts</a></p>",
+        "id": 517945166,
+        "sender_full_name": "Nick Campbell",
+        "timestamp": 1747182355
+    },
+    {
+        "content": "<p>Thanks everyone <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span> keep it up!</p>",
+        "id": 518385698,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1747337879
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"756209\">@Dustin</span> RE link dumps, it was inspired by Cory Doctorow. It's just gut feeling really. There are things I read that resonate strongly, or that I find worth promoting, but when it comes time to make a post I just try to choose a selection that's a bit varied.</p>\n<p>I think the first one I did, my partner saw an article that made her say \"wow, you didn't tell me about this!\" so I try to keep that metric in mind <span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span></p>",
+        "id": 518386301,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1747338078
+    },
+    {
+        "content": "<p><a href=\"https://nabeel.dev/blog/\">https://nabeel.dev/blog/</a> (<a href=\"https://nabeel.dev/feed\">https://nabeel.dev/feed</a> for the RSS)<br>\nThough I haven't posted much in a very long time. I really want to blog more, but kids <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span> <span aria-label=\"laughter tears\" class=\"emoji emoji-1f602\" role=\"img\" title=\"laughter tears\">:laughter_tears:</span></p>",
+        "id": 518880089,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1747538418
+    },
+    {
+        "content": "<p>I started mine a bit ago, but haven’t found too much to write about yet: <a href=\"https://williamvdg.me/\">https://williamvdg.me/</a>. <br>\nThe feed is here: <a href=\"https://williamvdg.me/rss\">https://williamvdg.me/rss</a> (just looking at it now makes me thing it might be broken)</p>",
+        "id": 518981598,
+        "sender_full_name": "William V",
+        "timestamp": 1747622021
+    },
+    {
+        "content": "<p>This post is particularly timely given the recent content about AI: <a href=\"https://matthewsanabria.dev/posts/ai-for-adults/\">https://matthewsanabria.dev/posts/ai-for-adults/</a></p>",
+        "id": 523100770,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1749478084
+    },
+    {
+        "content": "<p>Useful focusing thoughts in that post <span class=\"user-mention\" data-user-id=\"752976\">@Matthew Sanabria</span> <span aria-label=\"thumbs up\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"thumbs up\">:thumbs_up:</span> . I particularly dig the bit about faciliating context switching. I still have to figure that bit out myself. I tried an app called Pieces a while back that _seemed_ geared toward that but it was really good at capturing stuff I didn't care about and worse at capturing stuff I needed <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span> . I've had Scott Hanselman's \"dull, dirty, or dangerous\" in my head, and I love the idea of having a personal context switching co-processor (even if it's on acid and/or wielding chainsaws)</p>",
+        "id": 523102739,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1749478755
+    },
+    {
+        "content": "<p>Same! Even if it helps me shave off a few minutes in context switching that will add up to maybe hours over the span of a day or week. That's worth it to me. It's not perfect but it doesn't have to be. It just has to enable me to get back in the zone quickly.</p>",
+        "id": 523105061,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1749479575
+    },
+    {
+        "content": "<p>I really wonder if I’m holding these AI agents wrong! I’ll I’ve ever managed to get from them is burning money trying and failing to answer my prompt. Is there anything in particular you do to get good output from them?</p>",
+        "id": 523106318,
+        "sender_full_name": "Dustin",
+        "timestamp": 1749479998
+    },
+    {
+        "content": "<p>I generally keep things prescriptive. Previously I've used prompts to tell it what to do but I've been moving to plan files (i.e., a file with steps to follow) for the larger body of work I need to do. I'm specific enough to do a small to medium task but not overly specific as to waste my time typing.</p>\n<p>Here's a prompt I gave Claude Code on the Oxide Packer plugin I'm building.</p>\n<blockquote>\n<p>Implement the <code>Cleanup</code> method for the steps in the builder component. Only populate the <code>Cleanup</code> method if there were any Oxide resources created in the respective <code>Run</code> method. Do not change anything other than the <code>Cleanup</code> method and do not change its function signature as it's required to implement an interface.</p>\n</blockquote>\n<p>Here's the diff.</p>\n<div class=\"codehilite\" data-code-language=\"Diff\"><pre><span></span><code><span class=\"gh\">diff --git a/component/builder/instance/step_image_create.go b/component/builder/instance/step_image_create.go</span>\n<span class=\"gh\">index d9586909e7..9e67082f29 100644</span>\n<span class=\"gd\">--- a/component/builder/instance/step_image_create.go</span>\n<span class=\"gi\">+++ b/component/builder/instance/step_image_create.go</span>\n<span class=\"gu\">@@ -49,4 +49,17 @@</span>\n<span class=\"w\"> </span>       return multistep.ActionContinue\n<span class=\"w\"> </span>}\n\n<span class=\"gd\">-func (s *stepImageCreate) Cleanup(stateBag multistep.StateBag) {}</span>\n<span class=\"gi\">+func (s *stepImageCreate) Cleanup(stateBag multistep.StateBag) {</span>\n<span class=\"gi\">+       if imageIDRaw, ok := stateBag.GetOk(\"image_id\"); ok {</span>\n<span class=\"gi\">+               oxideClient := stateBag.Get(\"client\").(*oxide.Client)</span>\n<span class=\"gi\">+               ui := stateBag.Get(\"ui\").(packer.Ui)</span>\n<span class=\"gi\">+               imageID := imageIDRaw.(string)</span>\n<span class=\"gi\">+</span>\n<span class=\"gi\">+               ui.Say(\"Cleaning up Oxide image...\")</span>\n<span class=\"gi\">+               if err := oxideClient.ImageDelete(context.Background(), oxide.ImageDeleteParams{</span>\n<span class=\"gi\">+                       Image: oxide.NameOrId(imageID),</span>\n<span class=\"gi\">+               }); err != nil {</span>\n<span class=\"gi\">+                       ui.Error(\"Failed to delete Oxide image during cleanup.\")</span>\n<span class=\"gi\">+               }</span>\n<span class=\"gi\">+       }</span>\n<span class=\"gi\">+}</span>\n<span class=\"gh\">diff --git a/component/builder/instance/step_instance_create.go b/component/builder/instance/step_instance_create.go</span>\n<span class=\"gh\">index 0e95323c7e..30b8fa6375 100644</span>\n<span class=\"gd\">--- a/component/builder/instance/step_instance_create.go</span>\n<span class=\"gi\">+++ b/component/builder/instance/step_instance_create.go</span>\n<span class=\"gu\">@@ -81,4 +81,17 @@</span>\n<span class=\"w\"> </span>       return multistep.ActionContinue\n<span class=\"w\"> </span>}\n\n<span class=\"gd\">-func (o *stepInstanceCreate) Cleanup(stateBag multistep.StateBag) {}</span>\n<span class=\"gi\">+func (o *stepInstanceCreate) Cleanup(stateBag multistep.StateBag) {</span>\n<span class=\"gi\">+       if instanceIDRaw, ok := stateBag.GetOk(\"instance_id\"); ok {</span>\n<span class=\"gi\">+               oxideClient := stateBag.Get(\"client\").(*oxide.Client)</span>\n<span class=\"gi\">+               ui := stateBag.Get(\"ui\").(packer.Ui)</span>\n<span class=\"gi\">+               instanceID := instanceIDRaw.(string)</span>\n<span class=\"gi\">+</span>\n<span class=\"gi\">+               ui.Say(\"Cleaning up Oxide instance...\")</span>\n<span class=\"gi\">+               if err := oxideClient.InstanceDelete(context.Background(), oxide.InstanceDeleteParams{</span>\n<span class=\"gi\">+                       Instance: oxide.NameOrId(instanceID),</span>\n<span class=\"gi\">+               }); err != nil {</span>\n<span class=\"gi\">+                       ui.Error(\"Failed to delete Oxide instance during cleanup.\")</span>\n<span class=\"gi\">+               }</span>\n<span class=\"gi\">+       }</span>\n<span class=\"gi\">+}</span>\n<span class=\"gh\">diff --git a/component/builder/instance/step_snapshot_create.go b/component/builder/instance/step_snapshot_create.go</span>\n<span class=\"gh\">index 2544d21355..cffe055674 100644</span>\n<span class=\"gd\">--- a/component/builder/instance/step_snapshot_create.go</span>\n<span class=\"gi\">+++ b/component/builder/instance/step_snapshot_create.go</span>\n<span class=\"gu\">@@ -44,4 +44,17 @@</span>\n<span class=\"w\"> </span>       return multistep.ActionContinue\n<span class=\"w\"> </span>}\n\n<span class=\"gd\">-func (s *stepSnapshotCreate) Cleanup(stateBag multistep.StateBag) {}</span>\n<span class=\"gi\">+func (s *stepSnapshotCreate) Cleanup(stateBag multistep.StateBag) {</span>\n<span class=\"gi\">+       if snapshotIDRaw, ok := stateBag.GetOk(\"snapshot_id\"); ok {</span>\n<span class=\"gi\">+               oxideClient := stateBag.Get(\"client\").(*oxide.Client)</span>\n<span class=\"gi\">+               ui := stateBag.Get(\"ui\").(packer.Ui)</span>\n<span class=\"gi\">+               snapshotID := snapshotIDRaw.(string)</span>\n<span class=\"gi\">+</span>\n<span class=\"gi\">+               ui.Say(\"Cleaning up Oxide snapshot...\")</span>\n<span class=\"gi\">+               if err := oxideClient.SnapshotDelete(context.Background(), oxide.SnapshotDeleteParams{</span>\n<span class=\"gi\">+                       Snapshot: oxide.NameOrId(snapshotID),</span>\n<span class=\"gi\">+               }); err != nil {</span>\n<span class=\"gi\">+                       ui.Error(\"Failed to delete Oxide snapshot during cleanup.\")</span>\n<span class=\"gi\">+               }</span>\n<span class=\"gi\">+       }</span>\n<span class=\"gi\">+}</span>\n</code></pre></div>",
+        "id": 523111993,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1749481788
+    },
+    {
+        "content": "<p>Now this is not how I would have coded things up. I'd prefer to use an early return here instead and it's not removing the object from the Packer state upon successful cleanup but it's enough for me to quickly edit in between meetings.</p>",
+        "id": 523112360,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1749481909
+    },
+    {
+        "content": "<p>I liken it to the LSP \"fill struct\" functionality. You know that you want to populate a struct but you don't want to type all the fields or even need all the fields. You tell LSP to fill the struct and you populate the fields you care about and remove the ones you don't. Same thing with AI. Rinse and repeat.</p>",
+        "id": 523112553,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1749481976
+    },
+    {
+        "content": "<p>I see I see! This is much closer to how I use Claude than what I was expecting. The only difference is I manually copy the relevant context into a chat window instead of I guess telling to find that?</p>",
+        "id": 523112574,
+        "sender_full_name": "Dustin",
+        "timestamp": 1749481984
+    },
+    {
+        "content": "<p>Yep! I just let it find things by being specific enough. I could have used Claude Code's <code>@</code> to specifically target files but I let AI figure that out instead.</p>",
+        "id": 523112688,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1749482028
+    },
+    {
+        "content": "<div class=\"codehilite\"><pre><span></span><code>Total cost:            $0.1858\nTotal duration (API):  2m 23.4s\nTotal duration (wall): 8m 26.6s\nTotal code changes:    42 lines added, 3 lines removed\nToken usage by model:\n    claude-3-5-haiku:  13.2k input, 484 output, 0 cache read, 0 cache write\n       claude-sonnet:  46 input, 2.6k output, 167.7k cache read, 22.5k cache write\n</code></pre></div>",
+        "id": 523112769,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1749482061
+    },
+    {
+        "content": "<p>That's a small task and only required one prompt from me so it was pretty cheap.</p>",
+        "id": 523112827,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1749482080
+    },
+    {
+        "content": "<blockquote>\n<p>I'd prefer to use an early return here instead and it's not removing the object from the Packer state upon successful cleanup but it's enough for me to quickly edit in between meetings.</p>\n</blockquote>\n<p>This is where I've gotten stuck asking myself if it's worth burning a prompt to tell it to fix it or I should just do it myself. (In my case a <code>Makefile</code> recipe that used paths instead of variables.) But when I do it myself it feels like I'm not fully Embracing the Future.</p>\n<p>With Copilot I wouldn't have thought twice since Pro is a flat fee for chats and their (admittedly less-capable, but adequate for that use) Agent Mode. But even though I still have &gt;130 prompts in my free Cursor trial and I probably shouldn't be bean counting $0.04, I feel the pressure to make each one worth it a lot more than Copilot.</p>\n<p>(I'm open to hearing ways or reasons why I just need to get over that.)</p>",
+        "id": 523116748,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1749483331
+    },
+    {
+        "content": "<p>I'm glad you brought that up because I've had an entire \"range anxiety\" conversation with my colleagues and peers. Right now I'm using the ad-hoc API pricing for Anthropic so I find myself checking the cost too often when I really shouldn't care as much. This has gotten me to the point where I'm ready to subscribe to the monthly plan to free myself from that anxiety.</p>\n<p>In this case the change was small so I don't mind fixing it as I do my review of the code itself.</p>",
+        "id": 523118954,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1749483858
+    },
+    {
+        "content": "<p>To answer directly I'm trying to get over that myself. You should try to \"make the prompts count\" so costs stays low and effectiveness stays high but also there's an escape hatch in the monthly plan that frees you from that and allows you to use AI with more rigor without worrying about cost.</p>",
+        "id": 523119272,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1749483926
+    },
+    {
+        "content": "<p>Mind if I ask if the company is picking up the tab for that? And if so, is that a less structured \"just send the receipts and we'll reimburse\" kind of thing or a more formal budgeted \"we plan on an average of $x/month/engineer\" allotment? (Asking because we're currently more the former and I'm wondering if/when others are transitioning to the later—especially in more engineer-driven cultures.)</p>",
+        "id": 523133287,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1749488127
+    },
+    {
+        "content": "<p>Great question! There are people at Oxide that expense their monthly AI bill, among other things. We generally have a \"if you need it to do your job better, expense it\" policy but Bryan Cantrill is writing up an RFD specifically about AI so I imagine there will be some details in there about the future of such budget for AI tools. At this time we don't have a corporate AI account or similar. I'm currently deciding whether I sign up for a monthly plan and expense it with Oxide.</p>",
+        "id": 523134529,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1749488598
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752976\">@Matthew Sanabria</span> I enjoyed that post! I like how you considered your values and priorities and worked out how you could leverage tools to help those.</p>",
+        "id": 523174026,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1749505614
+    },
+    {
+        "content": "<p>I wrote up my own short dissenting opinion over the weekend, as I felt like lots of responses to the \"you're all nuts\" piece weren't addressing the fundamental issue: yes, I am nuts!</p>\n<p><a href=\"https://crabmusket.net/2025/on-being-nuts/\">https://crabmusket.net/2025/on-being-nuts/</a></p>",
+        "id": 523174456,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1749505760
+    },
+    {
+        "content": "<p>What started as a blog and ended up as a published book... my introduction to quantum computing for computer engineers. Now available for pre-order! </p>\n<p><a href=\"https://www.indigo.ca/en-ca/an-introduction-to-quantum-computing-for-computer-engineers/9783032036490.html\">https://www.indigo.ca/en-ca/an-introduction-to-quantum-computing-for-computer-engineers/9783032036490.html</a></p>",
+        "id": 536041849,
+        "sender_full_name": "Marcus Edwards",
+        "timestamp": 1756133116
+    },
+    {
+        "content": "<p>Wrote this blog of what I love to do in my subject Labs <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span>. So i thought let's share it with everyone.</p>\n<p>Terminal Tomfoolery: SSH Pranks to Try on Your Friends - DEV Community<br>\n<a href=\"https://dev.to/dixitram/terminal-tomfoolery-ssh-pranks-to-try-on-your-friends-mj0\">https://dev.to/dixitram/terminal-tomfoolery-ssh-pranks-to-try-on-your-friends-mj0</a></p>",
+        "id": 538699213,
+        "sender_full_name": "Dixit Ram",
+        "timestamp": 1757523182
+    },
+    {
+        "content": "<p>I wrote up a post about my experience setting up Talos clusters for testing: </p>\n<ul>\n<li><a href=\"https://nabeel.dev/2025/09/28/talos-in-five\">https://nabeel.dev/2025/09/28/talos-in-five</a></li>\n<li><a href=\"https://dev.to/nabsul/talos-kubernetes-in-five-minutes-1p1h\">https://dev.to/nabsul/talos-kubernetes-in-five-minutes-1p1h</a></li>\n</ul>",
+        "id": 541927182,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1759104704
+    },
+    {
+        "content": "<p>Inspired by the chat in <a class=\"stream-topic\" data-stream-id=\"481259\" href=\"/#narrow/channel/481259-fallthrough/topic/43.3A.20JJ.20and.20How.20to.20Evolve.20an.20Open.20Source.20Ecosystem/with/547823469\">#fallthrough &gt; 43: JJ and How to Evolve an Open Source Ecosystem</a>, I just made a little post about a cool thing I did with <code>jj</code> this week:</p>\n<p><a href=\"https://crabmusket.net/2025/jj-bough-a-useful-alias-for-stacked-branches/\">https://crabmusket.net/2025/jj-bough-a-useful-alias-for-stacked-branches/</a></p>",
+        "id": 547841352,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1761789867
+    },
+    {
+        "content": "<p>I've had my ZSA Voyager for almost a year and wrote up a blog post on it <a href=\"https://lars-ellingsen.dev/blog/voyager-keyboard/\">https://lars-ellingsen.dev/blog/voyager-keyboard/</a></p>",
+        "id": 548030915,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1761857363
+    },
+    {
+        "content": "<p>Great timing! I'm waiting for my Voyager <span aria-label=\"blush\" class=\"emoji emoji-1f60a\" role=\"img\" title=\"blush\">:blush:</span></p>",
+        "id": 548055686,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1761870868
+    },
+    {
+        "content": "<p>I hope you enjoy it! I still love mine. Ended up ordering sunset orange switches after writing up that post <span aria-label=\"eyes\" class=\"emoji emoji-1f440\" role=\"img\" title=\"eyes\">:eyes:</span></p>",
+        "id": 548207043,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1761930064
+    },
+    {
+        "content": "<p>Deciding on the switched was tough!</p>",
+        "id": 548209564,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1761930812
+    },
+    {
+        "content": "<p>I dug your keyboard post too, as a fellow MS Natural --&gt; ZSA convert. Haven't quite gotten on the Colemak train though (yet? <span aria-label=\"thinking\" class=\"emoji emoji-1f914\" role=\"img\" title=\"thinking\">:thinking:</span> )</p>",
+        "id": 548215543,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1761933046
+    },
+    {
+        "content": "<p>I miss the MS Sculpt keyboard. That was my go-to for close to a decade. I don't think I'll mess with Colemak TBH. Not sure if the juice is worth the squeeze :-D</p>",
+        "id": 548215917,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1761933178
+    },
+    {
+        "content": "<p>Thank you! Honestly I didn’t expect anyone to read this so I appreciate the responses <span aria-label=\"smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"smile\">:smile:</span></p>\n<p><span class=\"user-mention\" data-user-id=\"752922\">@Nabeel S</span> what switches did you end up choosing?</p>\n<p>I’d recommend you both give Colemak a shot. I wasn’t sure but now I never want to switch back. The biggest issue has been hjkl in Vim <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 548227327,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1761937349
+    },
+    {
+        "content": "<p>Did you map all the vim chars to where hjkl were in qwerty?</p>",
+        "id": 548235740,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1761940327
+    },
+    {
+        "content": "<p>I ended up leaving them as-is. I definitely thought about it, but I use Vim bindings in other apps (tmux, Obsidian, etc.) so I figured I should probably just get used to it. Not to mention having to remap what I was using those keys for (m, e, i, o - all used for lots of other stuff). But, I could see either option being totally viable</p>",
+        "id": 548240663,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1761942308
+    },
+    {
+        "content": "<blockquote>\n<p>what switches did you end up choosing?<br>\nPro red (linear light)</p>\n</blockquote>",
+        "id": 548252719,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1761949103
+    },
+    {
+        "content": "<p>I don't think I have the mental energy for Colemak right now, but maybe one day :-D</p>",
+        "id": 548270136,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1761966704
+    },
+    {
+        "content": "<p>Here's mine! <a href=\"https://fieldtheories.blog/\">https://fieldtheories.blog/</a></p>",
+        "id": 553203341,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1762045802
+    },
+    {
+        "content": "<p>i just published a blog post to add my freshest thoughts and painful experiences to the ever-evolving “AI and coding” conversation: <a href=\"https://acusti.ca/blog/2025/12/09/how-ai-coding-agents-hid-a-timebomb-in-our-app/\">https://acusti.ca/blog/2025/12/09/how-ai-coding-agents-hid-a-timebomb-in-our-app/</a></p>",
+        "id": 563028741,
+        "sender_full_name": "Andrew Patton",
+        "timestamp": 1765393319
+    },
+    {
+        "content": "<p>I just posted about how to speed up cross-platform Docker builds: <a href=\"https://nabeel.dev/2026/02/08/github-docker-multi-platform\">https://nabeel.dev/2026/02/08/github-docker-multi-platform</a></p>",
+        "id": 572807628,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1770649873
+    }
+]

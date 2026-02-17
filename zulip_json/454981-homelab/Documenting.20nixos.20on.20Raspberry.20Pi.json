@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p><span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span> I finally had time to experiment with nixos on a raspberry pi, though not exactly for a server, but for a digital signage application for my mom's store <span aria-label=\"blush\" class=\"emoji emoji-1f60a\" role=\"img\" title=\"blush\">:blush:</span></p>\n<p>I wanted to make the setup reproducible, since we'll put the Pis in 3 or 4 shops, so with help from a friend I tried nixos. I didn't know it was possible to create an image from a nixos definition (that's super cool!) </p>\n<p>It's also cool that you can update the Pi remotely via nixos-rebuild!</p>\n<p>But unfortunately for my project there's one big issue, which is the missing hw acceleration for video playback, so all the videos are basically stuttering, I've done some research, but haven't found an approach that works :(</p>\n<p>Here's my code for people that are curious <a href=\"https://github.com/patrick91/nix-pi-example/\">https://github.com/patrick91/nix-pi-example/</a> :D</p>",
+        "id": 491433542,
+        "sender_full_name": "Patrick Arminio",
+        "timestamp": 1735672216
+    },
+    {
+        "content": "<p>Yeah, the Raspberry Pi company basically gave up on hardware decoding and assumes that the CPUs are fast enough</p>",
+        "id": 491458183,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1735694511
+    },
+    {
+        "content": "<p>that's a shame, I wish I knew enough to help! For now I think I might just create an image based on raspbian and a script to download my app <span aria-label=\"blush\" class=\"emoji emoji-1f60a\" role=\"img\" title=\"blush\">:blush:</span></p>",
+        "id": 491458660,
+        "sender_full_name": "Patrick Arminio",
+        "timestamp": 1735694963
+    },
+    {
+        "content": "<p>It's probably worth experimenting with codecs and frame rates and resolutions for your videos<br>\nYou _should_ be able to find a combination that works well enough on a RPi 3 or 4</p>",
+        "id": 491459592,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1735695911
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"771585\">@Ron Waldon-Howe</span> ah, good to know, I'll explore that in future! for now I want to get this project done :D</p>",
+        "id": 491459836,
+        "sender_full_name": "Patrick Arminio",
+        "timestamp": 1735696187
+    }
+]

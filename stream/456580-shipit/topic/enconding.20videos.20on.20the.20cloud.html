@@ -1,0 +1,78 @@
+<html>
+<head><meta charset="utf-8"><title>enconding videos on the cloud · shipit · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/index.html">shipit</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/enconding.20videos.20on.20the.20cloud.html">enconding videos on the cloud</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="489111634"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/enconding%20videos%20on%20the%20cloud/near/489111634" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Arminio <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/enconding.20videos.20on.20the.20cloud.html#489111634">(Dec 15 2024 at 20:16)</a>:</h4>
+<p>Hi there! I'm trying to encode some videos uploaded by users, I'm currently using <a href="http://fly.io">fly.io</a> and spinning up a machine that has ffmpeg and passing the video to be encoded, with these params:</p>
+<p><code>ffmpeg -i /var/folders/5d/4zxvbq_x2q79fww0hg7k1ryh0000gn/T/tmpoe4qof00 -filter_complex [0]scale=height=-1:width=1920[s0] -map [s0] -b:a 128k -acodec aac -crf 23 -preset medium -vcodec libx264 /var/folders/5d/4zxvbq_x2q79fww0hg7k1ryh0000gn/T/tmpp6awkpor.mp4 -y</code></p>
+<p>I'm not sure if I'm doing anything wrong, but even using a performance machine the speed is not ideal (I get 0.305x)</p>
+<p>Does anyone have experience in something like this?</p>
+<p>For context these video will be running on screens in my parents' shop (via chrome) <span aria-label="blush" class="emoji emoji-1f60a" role="img" title="blush">:blush:</span></p>
+
+
+
+<a name="489113101"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/enconding%20videos%20on%20the%20cloud/near/489113101" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/enconding.20videos.20on.20the.20cloud.html#489113101">(Dec 15 2024 at 20:39)</a>:</h4>
+<p>That sounds like it's software encoding on a CPU that doesn't have favorable encoding functionality. I don't use Fly but do you know if they have hardware acceleration capabilities that guests can use? That's likely what you'll need.</p>
+
+
+
+<a name="489113410"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/enconding%20videos%20on%20the%20cloud/near/489113410" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Arminio <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/enconding.20videos.20on.20the.20cloud.html#489113410">(Dec 15 2024 at 20:44)</a>:</h4>
+<p><span class="user-mention" data-user-id="752976">@Matthew Sanabria</span> I can use one of these GPUs if that's what you mean: <code>a10</code>, <code>l40s</code>, <code>a100-pcie-40gb</code> and <code>a100-sxm4-80gb</code></p>
+<p>from <a href="https://fly.io/docs/reference/configuration/#gpu_kind">https://fly.io/docs/reference/configuration/#gpu_kind</a></p>
+
+
+
+<a name="489113550"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/enconding%20videos%20on%20the%20cloud/near/489113550" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/enconding.20videos.20on.20the.20cloud.html#489113550">(Dec 15 2024 at 20:46)</a>:</h4>
+<p>That should work! I don't see anything in their documentation about hardware acceleration on CPU only machines. It's likely they want you to use their GPU machines.</p>
+
+
+
+<a name="489113561"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/enconding%20videos%20on%20the%20cloud/near/489113561" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/enconding.20videos.20on.20the.20cloud.html#489113561">(Dec 15 2024 at 20:46)</a>:</h4>
+<p>They are more expensive though.</p>
+
+
+
+<a name="489113585"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/enconding%20videos%20on%20the%20cloud/near/489113585" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/enconding.20videos.20on.20the.20cloud.html#489113585">(Dec 15 2024 at 20:46)</a>:</h4>
+<p>Mind you, I haven't used Fly ever so perhaps I'm missing something. But that performance you're noting seems very much like software encoding.</p>
+
+
+
+<a name="489113621"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/enconding%20videos%20on%20the%20cloud/near/489113621" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Arminio <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/enconding.20videos.20on.20the.20cloud.html#489113621">(Dec 15 2024 at 20:47)</a>:</h4>
+<p>thanks! I'll give it a try :D</p>
+
+
+
+<a name="489113625"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/enconding%20videos%20on%20the%20cloud/near/489113625" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/enconding.20videos.20on.20the.20cloud.html#489113625">(Dec 15 2024 at 20:47)</a>:</h4>
+<p>Good luck!</p>
+
+
+
+<a name="489232077"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/enconding%20videos%20on%20the%20cloud/near/489232077" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Arminio <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/enconding.20videos.20on.20the.20cloud.html#489232077">(Dec 16 2024 at 13:08)</a>:</h4>
+<p><span class="user-mention" data-user-id="752976">@Matthew Sanabria</span> I got this working with a GPU (I had to find a good base docker image as I was having troubles compiling ffmpeg on my own), it's definitely faster, but I need to tweak the settings now <span aria-label="blush" class="emoji emoji-1f60a" role="img" title="blush">:blush:</span></p>
+
+
+
+<a name="489280940"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/enconding%20videos%20on%20the%20cloud/near/489280940" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/enconding.20videos.20on.20the.20cloud.html#489280940">(Dec 16 2024 at 16:24)</a>:</h4>
+<p>Heck yeah! Glad to hear it.</p>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

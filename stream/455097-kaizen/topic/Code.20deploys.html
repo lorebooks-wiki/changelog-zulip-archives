@@ -1,0 +1,1093 @@
+<html>
+<head><meta charset="utf-8"><title>Code deploys · kaizen · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/index.html">kaizen</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html">Code deploys</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="477251247"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/477251247" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#477251247">(Oct 16 2024 at 16:04)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/51ce73830256b3db6e21f3f8df73a4a604c68201">51ce73830256b3db6e21f3f8df73a4a604c68201</a></p>
+
+
+
+<a name="477251742"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/477251742" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jerod Santo <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#477251742">(Oct 16 2024 at 16:06)</a>:</h4>
+<p>Ok so that worked <span aria-label="sweat smile" class="emoji emoji-1f605" role="img" title="sweat smile">:sweat_smile:</span> </p>
+<p>Now I have to figure out how to get the commit message in a reliable way. Has anyone done this before? I'm not a GH Actions expert by any means...</p>
+<p>Also, once you get the message itself, how do you best wrap/format it for Zulip display?</p>
+
+
+
+<a name="477252001"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/477252001" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jerod Santo <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#477252001">(Oct 16 2024 at 16:08)</a>:</h4>
+<p>Hmm also can you not mute a specific topic inside a channel? I can see people wanting to mute this one but not all of the other kazen'ing that's going on...</p>
+
+
+
+<a name="477252386"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/477252386" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jerod Santo <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#477252386">(Oct 16 2024 at 16:10)</a>:</h4>
+<p><a href="/user_uploads/66849/crqY4V-FTxh0IUJoWWCsZbI0/CleanShot-2024-10-16-at-11.09.042x.png">CleanShot 2024-10-16 at 11.09.04@2x.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/66849/crqY4V-FTxh0IUJoWWCsZbI0/CleanShot-2024-10-16-at-11.09.042x.png" title="CleanShot 2024-10-16 at 11.09.04@2x.png"><img data-original-dimensions="2048x1152" src="/user_uploads/thumbnail/66849/crqY4V-FTxh0IUJoWWCsZbI0/CleanShot-2024-10-16-at-11.09.042x.png/840x560.webp"></a></div><p>Ok it looks like you <em>can</em> mute a topic inside a channel. I was just confused by the wording on this popover...</p>
+
+
+
+<a name="477318702"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/477318702" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Philip Durbin <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#477318702">(Oct 16 2024 at 23:29)</a>:</h4>
+<p>It looks like Zulip itself sends commits to a channel: <a href="https://chat.zulip.org/#narrow/channel/8-commits/topic/zulip.20.2F.20main/near/1963618">https://chat.zulip.org/#narrow/channel/8-commits/topic/zulip.20.2F.20main/near/1963618</a></p>
+
+
+
+<a name="477319141"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/477319141" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Philip Durbin <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#477319141">(Oct 16 2024 at 23:33)</a>:</h4>
+<p>Based on <a href="https://github.com/zulip/zulip/blob/9.2/.github/workflows/zulip-ci.yml#L258">https://github.com/zulip/zulip/blob/9.2/.github/workflows/zulip-ci.yml#L258</a> maybe they use <a href="https://github.com/zulip/github-actions-zulip/blob/main/send-message/README.md">https://github.com/zulip/github-actions-zulip/blob/main/send-message/README.md</a> ?</p>
+
+
+
+<a name="477319198"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/477319198" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Philip Durbin <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#477319198">(Oct 16 2024 at 23:33)</a>:</h4>
+<p>Oh, send-message is what you're already using. <span aria-label="sweat smile" class="emoji emoji-1f605" role="img" title="sweat smile">:sweat_smile:</span></p>
+
+
+
+<a name="477326957"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/477326957" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Daniel Buckmaster <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#477326957">(Oct 17 2024 at 01:06)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="750170">Jerod Santo</span> <a href="#narrow/stream/455097-kaizen/topic/Code.20deploys/near/477252386">said</a>:</p>
+<blockquote>
+<p>I was just confused by the wording on this popover...</p>
+</blockquote>
+<p>Ah dang that's unfortunate. On mobile it's much clearer with a "Mute topic" menu option.</p>
+
+
+
+<a name="477445761"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/477445761" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jerod Santo <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#477445761">(Oct 17 2024 at 13:36)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="752868">Philip Durbin</span> <a href="#narrow/channel/455097-kaizen/topic/Code.20deploys/near/477318702">said</a>:</p>
+<blockquote>
+<p>It looks like Zulip itself sends commits to a channel</p>
+</blockquote>
+<p>Seems like they are only reporting failures on that one.</p>
+<div class="codehilite" data-code-language="YAML"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Report status to CZO</span>
+<span class="w">        </span><span class="l l-Scalar l-Scalar-Plain">if</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">${{ failure() &amp;&amp; github.repository == 'zulip/zulip' &amp;&amp; github.event_name == 'push' }}</span>
+<span class="w">        </span><span class="l l-Scalar l-Scalar-Plain">uses</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">zulip/github-actions-zulip/send-message@v1</span>
+<span class="w">        </span><span class="l l-Scalar l-Scalar-Plain">with</span><span class="p p-Indicator">:</span>
+<span class="w">          </span><span class="nt">api-key</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">${{ secrets.ZULIP_BOT_KEY }}</span>
+<span class="w">          </span><span class="nt">email</span><span class="p">:</span><span class="w"> </span><span class="s">"github-actions-bot@chat.zulip.org"</span>
+<span class="w">          </span><span class="nt">organization-url</span><span class="p">:</span><span class="w"> </span><span class="s">"https://chat.zulip.org"</span>
+<span class="w">          </span><span class="nt">to</span><span class="p">:</span><span class="w"> </span><span class="s">"automated</span><span class="nv"> </span><span class="s">testing"</span>
+<span class="w">          </span><span class="nt">topic</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">${{ steps.failure_report_string.outputs.topic }}</span>
+<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"stream"</span>
+<span class="w">          </span><span class="nt">content</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">${{ steps.failure_report_string.outputs.content }}</span>
+</code></pre></div>
+
+
+
+<a name="477486648"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/477486648" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#477486648">(Oct 17 2024 at 16:54)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/f168c4ead1da6025f2cc3a52d9973dc781adf0fb">f168c4ea</a></p>
+<p>Attempt to fix short SHA fetching in Actions</p>
+
+
+
+<a name="477538903"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/477538903" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Philip Durbin <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#477538903">(Oct 17 2024 at 23:25)</a>:</h4>
+<p><span class="user-mention" data-user-id="750170">@Jerod Santo</span> you fixed it! Seems like <code>${{ github.event.commits[0].message }}</code> is working for you based on <a href="https://github.com/thechangelog/changelog.com/blob/f168c4ead1da6025f2cc3a52d9973dc781adf0fb/.github/workflows/dagger_on_namespace.yml#L80">https://github.com/thechangelog/changelog.com/blob/f168c4ead1da6025f2cc3a52d9973dc781adf0fb/.github/workflows/dagger_on_namespace.yml#L80</a></p>
+
+
+
+<a name="477661505"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/477661505" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#477661505">(Oct 18 2024 at 13:55)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/b8343c697ad41964511ce7fe06449ea54d25cb78">b8343c69</a>:</p>
+<blockquote>
+<p>Tweak Zulip deploy message format</p>
+</blockquote>
+
+
+
+<a name="478562293"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/478562293" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#478562293">(Oct 23 2024 at 18:50)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/1dab3df096d8fe73fdcafc3fa2145e40081925da">1dab3df0</a>:</p>
+<blockquote>
+<p>Blech! (mix deps.get_dev strikes again)</p>
+</blockquote>
+
+
+
+<a name="478738945"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/478738945" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#478738945">(Oct 24 2024 at 15:02)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/50462905af41d6a8feeaeeff188010edd46478c1">50462905</a>:</p>
+<blockquote>
+<p>Fix call to queue an Overcast ping</p>
+</blockquote>
+
+
+
+<a name="478747958"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/478747958" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jerod Santo <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#478747958">(Oct 24 2024 at 15:46)</a>:</h4>
+<p>ok so what's the easiest/best way to have this post "the list of commits since the last deploy"?</p>
+
+
+
+<a name="478757926"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/478757926" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#478757926">(Oct 24 2024 at 16:39)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/9d150fd0181091d392586aba3754cc2de6d78061">9d150fd0</a>:</p>
+<blockquote>
+<p>Reduce Overcast ping rate limit</p>
+</blockquote>
+
+
+
+<a name="479761026"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/479761026" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#479761026">(Oct 30 2024 at 20:39)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/19246f722fdc828815cdc963642831e25aa54a63">19246f72</a>:</p>
+<blockquote>
+<p>Add chapters to Zulip new episode messages</p>
+</blockquote>
+
+
+
+<a name="479889331"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/479889331" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#479889331">(Oct 31 2024 at 14:21)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/4926360888a264418312a4a727c36923110306b1">49263608</a>:</p>
+<blockquote>
+<p>[admin] Add daily subs chart</p>
+</blockquote>
+
+
+
+<a name="480935274"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/480935274" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#480935274">(Nov 06 2024 at 14:44)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/0db349cca521c90da4a72bc33d00e0e9ef5cd63d">0db349cc</a>:</p>
+<blockquote>
+<p>Improve header links in News emails</p>
+</blockquote>
+
+
+
+<a name="480993187"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/480993187" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#480993187">(Nov 06 2024 at 20:15)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/622dfe31253c4442114c95d9ee679df52373d020">622dfe31</a>:</p>
+<blockquote>
+<p>Add Merch link to header nav</p>
+</blockquote>
+
+
+
+<a name="481382317"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/481382317" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#481382317">(Nov 08 2024 at 20:32)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/bf0bc864ae0704244443658c1474331bae63876c">bf0bc864</a>:</p>
+<blockquote>
+<p>Link to the episode before the chapters in Zulip messages</p>
+</blockquote>
+
+
+
+<a name="482640637"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/482640637" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#482640637">(Nov 15 2024 at 15:41)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/86c763cb0413cc97165b56503485a324449a153a">86c763cb</a>:</p>
+<blockquote>
+<p>update &lt;itunes:explicit&gt; tag from  "no" to "false"  (#531)</p>
+</blockquote>
+<ul>
+<li>&lt;itunes:explicit&gt; no → false</li>
+</ul>
+<p>Signed-off-by: Alex Zamai &lt;<a href="mailto:zamaialexander@gmail.com">zamaialexander@gmail.com</a>&gt;</p>
+<ul>
+<li>Update feed.ex</li>
+</ul>
+<p>Signed-off-by: Alex Zamai &lt;<a href="mailto:zamaialexander@gmail.com">zamaialexander@gmail.com</a>&gt;</p>
+<ul>
+<li>Update podcast.ex</li>
+</ul>
+<p>Signed-off-by: Alex Zamai &lt;<a href="mailto:zamaialexander@gmail.com">zamaialexander@gmail.com</a>&gt;</p>
+<hr>
+<p>Signed-off-by: Alex Zamai &lt;<a href="mailto:zamaialexander@gmail.com">zamaialexander@gmail.com</a>&gt;</p>
+
+
+
+<a name="483512772"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/483512772" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#483512772">(Nov 20 2024 at 15:33)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/f1814e03632b5ac8dd74ddcd1d28a146fa21f9bb">f1814e03</a>:</p>
+<blockquote>
+<p>Various episode/news img tweaks</p>
+</blockquote>
+
+
+
+<a name="483770908"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/483770908" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#483770908">(Nov 21 2024 at 19:15)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/de716075347e582180dfcba636b246ff4bd6ac5f">de716075</a>:</p>
+<blockquote>
+<p>Subtitle size tweak</p>
+</blockquote>
+
+
+
+<a name="484354723"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/484354723" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#484354723">(Nov 25 2024 at 17:21)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/d69bc734b89ea50af9d43ca913eada8a81e4fde7">d69bc734</a>:</p>
+<blockquote>
+<p>Link up sotl 2024 form</p>
+</blockquote>
+
+
+
+<a name="484761624"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/484761624" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#484761624">(Nov 27 2024 at 16:46)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/3440f5e04feac192c1926c33f38ef0081223e21c">3440f5e0</a>:</p>
+<blockquote>
+<p>Enable team members to replace changelog_dev with a prod db dump (#533)</p>
+</blockquote>
+<ul>
+<li>Enable team members to replace changelog_dev with a prod db dump</li>
+</ul>
+<p>There is a single command to run:</p>
+<div class="codehilite"><pre><span></span><code>just restore-dev-db-from-prod
+</code></pre></div>
+
+<p>This implies that:</p>
+<ul>
+<li>
+<p><a href="http://direnv.net">direnv.net</a> is hooked into the shell<br>
+-<code>just envrc-secrets</code> has already run &amp; <code>.envrc.secrets</code> exists</p>
+</li>
+<li>
+<p>Posgres 16 has been installed using <code>just postgres</code></p>
+</li>
+</ul>
+<p>Part of this change we exposed a few more private recipes and made it<br>
+clear who they are meant for:</p>
+<ul>
+<li><code>contributor</code> means anyone that wants to play with this repo locally</li>
+<li><code>team</code> means Adam, Jerod &amp; Gerhard</li>
+</ul>
+<p>We also added <code>just add-oban-pro-repo</code> so that we make this integration<br>
+easier for team members - I always forget about it!</p>
+<p>Signed-off-by: Gerhard Lazu &lt;<a href="mailto:gerhard@changelog.com">gerhard@changelog.com</a>&gt;</p>
+<ul>
+<li>Go back to managing Postgres with asdf</li>
+</ul>
+<p>Single tool to rule them all <span aria-label="fist" class="emoji emoji-270a" role="img" title="fist">:fist:</span> icu4c seems to be working on macOS 14.7<br>
+ARM now. Checked that the new command works as expected. Also confirmed<br>
+that CI works locally.</p>
+<p>Also run:</p>
+<div class="codehilite"><pre><span></span><code>npx browserslist@latest --update-db
+</code></pre></div>
+
+<p>Signed-off-by: Gerhard Lazu &lt;<a href="mailto:gerhard@changelog.com">gerhard@changelog.com</a>&gt;</p>
+<hr>
+<p>Signed-off-by: Gerhard Lazu &lt;<a href="mailto:gerhard@changelog.com">gerhard@changelog.com</a>&gt;</p>
+
+
+
+<a name="486349026"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/486349026" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#486349026">(Dec 05 2024 at 16:41)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/7c1500d91486da0aaab558251f5da82d49ad5076">7c1500d9</a>:</p>
+<blockquote>
+<p>Enable team members to run dev with a Neon db branch (#534)</p>
+</blockquote>
+<p>Single command:</p>
+<div class="codehilite"><pre><span></span><code>just dev-with-neon-branch gerhard-2024-11-29
+</code></pre></div>
+
+<p>The above uses a branch that I created on the 29th of November. You can<br>
+create a new Neon db branch today, using your <code>$USER</code>, with the following<br>
+command:</p>
+<div class="codehilite"><pre><span></span><code>just neon-create-branch
+</code></pre></div>
+
+<p>This will create e.g. <code>USER-YYYY-MM-DD</code> prod db branch.</p>
+<p>Here is a list of all the new commands that go well together:</p>
+<div class="codehilite"><pre><span></span><code>[team]
+dev-with-neon-branch branch                  # Run app in dev mode with $branch
+neon-branch-connection branch *ARGS          # Show $branch connection details
+neon-branches                                # List prod db branches
+neon-create-branch                           # Create a new branch off the prod db
+</code></pre></div>
+
+<p>This change also removes the now redundant way of creating Neon db branches.</p>
+<p>Follow-up to:</p>
+<ul>
+<li><a href="https://github.com/thechangelog/changelog.com/pull/533">https://github.com/thechangelog/changelog.com/pull/533</a></li>
+<li><a href="https://github.com/thechangelog/changelog.com/pull/508">https://github.com/thechangelog/changelog.com/pull/508</a></li>
+</ul>
+<p>Signed-off-by: Gerhard Lazu &lt;<a href="mailto:gerhard@changelog.com">gerhard@changelog.com</a>&gt;</p>
+
+
+
+<a name="486350110"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/486350110" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#486350110">(Dec 05 2024 at 16:46)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/5933c0c236e21c24a0ca5828d68c7d70d03d21e4">5933c0c2</a>:</p>
+<blockquote>
+<p>Improve on the Zulip auth app integration (#535)</p>
+</blockquote>
+<p>We want to reference all secrets from 1Password so that when we need to<br>
+rotate anything, we simply update the values in 1Password and restart<br>
+the app so that it reads the new values just-in-time, at boot time.</p>
+<p>FTR:</p>
+<ul>
+<li><a href="https://github.com/thechangelog/changelog.com/pull/492#issuecomment-1872528092">https://github.com/thechangelog/changelog.com/pull/492#issuecomment-1872528092</a></li>
+</ul>
+<p>Signed-off-by: Gerhard Lazu &lt;<a href="mailto:gerhard@changelog.com">gerhard@changelog.com</a>&gt;</p>
+
+
+
+<a name="486355391"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/486355391" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#486355391">(Dec 05 2024 at 17:11)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/2182a223468f4989355e11d2c4a7db854e50e0e5">2182a223</a>:</p>
+<blockquote>
+<p>Announce deploys in Zulip from GitHub runners too (#536)</p>
+</blockquote>
+<p>If <a href="http://Namespace.so">Namespace.so</a> was to fail - Always run 2 of everything™ - we want to<br>
+notify Zulip of a deploy when we fallback to the GitHub runner.</p>
+<p>Signed-off-by: Gerhard Lazu &lt;<a href="mailto:gerhard@changelog.com">gerhard@changelog.com</a>&gt;</p>
+
+
+
+<a name="487324767"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/487324767" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#487324767">(Dec 10 2024 at 19:17)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/3b0af88d864c9cf4779b27868bdcbf58000f879d">3b0af88d</a>:</p>
+<blockquote>
+<p>Linkify chapters in Zulip new episode messages</p>
+</blockquote>
+
+
+
+<a name="490024095"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/490024095" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#490024095">(Dec 19 2024 at 18:19)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/4a30b6136d4a42bcdec51ec71a01702307a58693">4a30b613</a>:</p>
+<blockquote>
+<p>Ensure post news items receive correct type</p>
+</blockquote>
+
+
+
+<a name="492783403"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/492783403" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#492783403">(Jan 09 2025 at 17:57)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/3d9959414042f3e06bc68b334373d7ec543d7f44">3d995941</a>:</p>
+<blockquote>
+<p>Back to Elixir 1.16.3, Erlang 26.2.5</p>
+</blockquote>
+
+
+
+<a name="493785985"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/493785985" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#493785985">(Jan 15 2025 at 05:22)</a>:</h4>
+<p>adamstac just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/d1c76d4b0e0ec191a495a564f22b67a43243dc40">d1c76d4b</a>:</p>
+<blockquote>
+<p>Update sponsor/pricing and podcasts</p>
+</blockquote>
+
+
+
+<a name="493787081"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/493787081" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#493787081">(Jan 15 2025 at 05:36)</a>:</h4>
+<p>adamstac just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/6cca8907757e9b69fc47db855e0c12edb6069f6d">6cca8907</a>:</p>
+<blockquote>
+<p>Update sponsor/pricing</p>
+</blockquote>
+
+
+
+<a name="494201093"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/494201093" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#494201093">(Jan 16 2025 at 17:39)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/ced8cad4312963b0eb9d1e2b808bce103323f512">ced8cad4</a>:</p>
+<blockquote>
+<p>Guest guide tweaks for video</p>
+</blockquote>
+
+
+
+<a name="494212317"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/494212317" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#494212317">(Jan 16 2025 at 18:44)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/db57966923705dc2bb13cb431c6b6d70886c1686">db579669</a>:</p>
+<blockquote>
+<p>Add YouTube ID to top of published episode form</p>
+</blockquote>
+
+
+
+<a name="495280651"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/495280651" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#495280651">(Jan 22 2025 at 13:17)</a>:</h4>
+<p>gerhard just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/2de2e2902ae6f449d7d3325363113c3a386c11d0">2de2e290</a>:</p>
+<blockquote>
+<p>Fix variable reference</p>
+</blockquote>
+<p>Signed-off-by: Gerhard Lazu &lt;<a href="mailto:gerhard@changelog.com">gerhard@changelog.com</a>&gt;</p>
+
+
+
+<a name="495321330"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/495321330" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#495321330">(Jan 22 2025 at 16:18)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/36f467144cdc0687a762bbc8c9b3cbfebbc3541d">36f46714</a>:</p>
+<blockquote>
+<p>[admin] Add basic YT chapters support</p>
+</blockquote>
+
+
+
+<a name="495358316"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/495358316" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#495358316">(Jan 22 2025 at 19:23)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/43c40273050c6e798b15c328105c034250ec924c">43c40273</a>:</p>
+<blockquote>
+<p>Only socialize Changelog pods</p>
+</blockquote>
+
+
+
+<a name="495561227"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/495561227" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#495561227">(Jan 23 2025 at 18:23)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/4b679603437dcc6db79a890b33afab5fee7c93d1">4b679603</a>:</p>
+<blockquote>
+<p>[admin] Improve YT description output</p>
+</blockquote>
+
+
+
+<a name="495594096"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/495594096" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#495594096">(Jan 23 2025 at 22:08)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/2f540341f07166bf7eac7fb1d8e4931e7b7a0b46">2f540341</a>:</p>
+<blockquote>
+<p>Fix parsing of marker CSVs that have escape chars</p>
+</blockquote>
+
+
+
+<a name="496769459"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/496769459" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#496769459">(Jan 30 2025 at 12:54)</a>:</h4>
+<p>gerhard just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/0a7b59bb308ada99058763b0abc45cf6d9628554">0a7b59bb</a>:</p>
+<blockquote>
+<p>Fix runtime deps in ProductionClean</p>
+</blockquote>
+<p>Follow-up to:</p>
+<ul>
+<li><a href="https://github.com/thechangelog/changelog.com/pull/541">https://github.com/thechangelog/changelog.com/pull/541</a></li>
+</ul>
+<p>A clean-up in this area is long overdue!</p>
+<p>Signed-off-by: Gerhard Lazu &lt;<a href="mailto:gerhard@changelog.com">gerhard@changelog.com</a>&gt;</p>
+
+
+
+<a name="496829362"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/496829362" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#496829362">(Jan 30 2025 at 17:20)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/87a5728901279078b9e4f83c5b0a9a92debe84fc">https://github.com/thechangelog/changelog.com/commit/87a5728901279078b9e4f83c5b0a9a92debe84fc</a>:</p>
+<blockquote>
+<p>Upgrade all mix deps</p>
+</blockquote>
+<ul>
+<li>No longer need private oban_web repo</li>
+<li>otel deps have a dep conflict of their own</li>
+<li>phoenix_html 4 requires import changes</li>
+</ul>
+
+
+
+<a name="497284310"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/497284310" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#497284310">(Feb 02 2025 at 19:36)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/87a5728901279078b9e4f83c5b0a9a92debe84fc">87a57289</a>:</p>
+<blockquote>
+<p>Upgrade all mix deps</p>
+</blockquote>
+<ul>
+<li>No longer need private oban_web repo</li>
+<li>otel deps have a dep conflict of their own</li>
+<li>phoenix_html 4 requires import changes</li>
+</ul>
+
+
+
+<a name="497759015"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/497759015" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#497759015">(Feb 04 2025 at 21:22)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/62a661df51490fdd56723b288b720b9e7f944c2c">62a661df</a>:</p>
+<blockquote>
+<p>[admin] Link to people/show instead of edit</p>
+</blockquote>
+
+
+
+<a name="497764315"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/497764315" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#497764315">(Feb 04 2025 at 21:57)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/de4700e9b6441246ec8ca1ccc5be16c9bde2f0a9">de4700e9</a>:</p>
+<blockquote>
+<p>[admin] Add plusplus label to feed index</p>
+</blockquote>
+
+
+
+<a name="498179920"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/498179920" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#498179920">(Feb 06 2025 at 17:56)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/bdf514696da8f0fd1b57e2a5c60d25f85717929e">bdf51469</a>:</p>
+<blockquote>
+<p>Add redirect for new Friendly Feud form</p>
+</blockquote>
+
+
+
+<a name="499054708"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/499054708" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#499054708">(Feb 11 2025 at 16:55)</a>:</h4>
+<p>adamstac just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/29e7d6d0ff5b6da0ca38a07052d78265084cb019">29e7d6d0</a>:</p>
+<blockquote>
+<p>Updates to sponsorships</p>
+</blockquote>
+
+
+
+<a name="499276586"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/499276586" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#499276586">(Feb 12 2025 at 16:27)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/cbc4df26055920b17241b47a6ae5d9bf1c1e4b40">cbc4df26</a>:</p>
+<blockquote>
+<p>Add "Watch" buttons to episodes with YT videos</p>
+</blockquote>
+
+
+
+<a name="499289602"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/499289602" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#499289602">(Feb 12 2025 at 17:27)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/ad2b356f06a2158a3cc92b1ee79d595ad59fb4e4">ad2b356f</a>:</p>
+<blockquote>
+<p>Embed and display YT video in page where applicable</p>
+</blockquote>
+
+
+
+<a name="501256510"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/501256510" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#501256510">(Feb 22 2025 at 11:50)</a>:</h4>
+<p>gerhard just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/754038bc9a2bf4dcb3d3d395efb608b41f0d4f43">754038bc</a>:</p>
+<blockquote>
+<p>Make app resilient to <a href="http://Fly.io">Fly.io</a> IAD region failures (#543)</p>
+</blockquote>
+<p>This is the first learning implemented from<br>
+<a href="https://status.changelog.com/incident/513790">https://status.changelog.com/incident/513790</a></p>
+<p>It's captured as a new just command:</p>
+<div class="codehilite"><pre><span></span><code>just prod-region-resilient
+</code></pre></div>
+
+<p>The second learning is already in the works, but it will take a while<br>
+longer to take across the finish line.</p>
+<p>As I was doing this, I refreshed INFRASTRUCTURE.md.</p>
+<p>Signed-off-by: Gerhard Lazu &lt;<a href="mailto:gerhard@changelog.com">gerhard@changelog.com</a>&gt;</p>
+
+
+
+<a name="503631315"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/503631315" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#503631315">(Mar 05 2025 at 20:54)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/076ca4710b28bf0baea145a3acf4bde22efe9382">https://github.com/thechangelog/changelog.com/commit/076ca4710b28bf0baea145a3acf4bde22efe9382</a>:</p>
+<blockquote>
+<p>Teach redirector to use regexes, redirect /practicalai</p>
+</blockquote>
+
+
+
+<a name="504289036"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/504289036" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#504289036">(Mar 08 2025 at 15:41)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/cd34a1d36a1287b947abd4ff505a58f91cf6987d">https://github.com/thechangelog/changelog.com/commit/cd34a1d36a1287b947abd4ff505a58f91cf6987d</a>:</p>
+<blockquote>
+<p>Upgrade to latest mix deps</p>
+</blockquote>
+
+
+
+<a name="504300717"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/504300717" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#504300717">(Mar 08 2025 at 17:48)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/cd34a1d36a1287b947abd4ff505a58f91cf6987d">cd34a1d3</a>:</p>
+<blockquote>
+<p>Upgrade to latest mix deps</p>
+</blockquote>
+
+
+
+<a name="506520046"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/506520046" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#506520046">(Mar 18 2025 at 16:00)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/cd1d6b0c9b2dd92144f830632349c7c5e526181e">cd1d6b0c</a>:</p>
+<blockquote>
+<p>Pin Hackney 1.21 to fix Shopify API TLS error</p>
+</blockquote>
+
+
+
+<a name="508756702"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/508756702" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#508756702">(Mar 28 2025 at 13:36)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/15f730ea267ea7d1e6c41eb7b01137ef0767b148">15f730ea</a>:</p>
+<blockquote>
+<p>Add another News testimonial</p>
+</blockquote>
+
+
+
+<a name="509268054"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/509268054" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#509268054">(Mar 31 2025 at 17:55)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/8cd8474f4479ec9355bdd88da8f0ffd5e5a522d4">8cd8474f</a>:</p>
+<blockquote>
+<p>Minor email ul/ol style tweaks</p>
+</blockquote>
+
+
+
+<a name="509511553"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/509511553" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#509511553">(Apr 01 2025 at 17:39)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/50914ba6f0517286eb0914c2d7f12d67e241d027">50914ba6</a>:</p>
+<blockquote>
+<p>Only list topics on index that have episodes</p>
+</blockquote>
+
+
+
+<a name="511511768"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/511511768" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#511511768">(Apr 10 2025 at 21:34)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/82ca3fd13f23fb72c78e78fb336030c29be94c40">82ca3fd1</a>:</p>
+<blockquote>
+<p>Simplify podcasts index</p>
+</blockquote>
+
+
+
+<a name="511701448"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/511701448" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#511701448">(Apr 11 2025 at 17:27)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/81004f8f1fa624d34b23497a7cd5ba8abdc28bf5">81004f8f</a>:</p>
+<blockquote>
+<p>[admin] Only active pods belong in download aggregates</p>
+</blockquote>
+
+
+
+<a name="513400105"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/513400105" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#513400105">(Apr 21 2025 at 13:28)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/2f43359988a92e8bcf27bfcdc0b10c5b4a77cf86">2f433599</a>:</p>
+<blockquote>
+<p>Update deps</p>
+</blockquote>
+
+
+
+<a name="513931307"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/513931307" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#513931307">(Apr 23 2025 at 17:46)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/abf351cd6b801d99b486feda59aebac4925e51a3">abf351cd</a>:</p>
+<blockquote>
+<p>[admin] You can now specify which news issue to preview/send</p>
+</blockquote>
+
+
+
+<a name="514215550"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/514215550" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#514215550">(Apr 24 2025 at 19:40)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/3bf63c6331302c1c53e2a70f6f2c08a2ba0e6021">3bf63c63</a>:</p>
+<ul>
+<li>[admin] De-dupe mailer previews (4afef58)</li>
+<li>Link up Beats on Merch (789ab67)</li>
+<li>Attempt to log all pushed commits to Zulip (3bf63c6)</li>
+</ul>
+
+
+
+<a name="514833678"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/514833678" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#514833678">(Apr 28 2025 at 14:45)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/87a424631eb7a8370af12359bf500bea3dc8375b">87a42463</a>:</p>
+<ul>
+<li>Include email tease in plaintext (for Gmail) (bd5f6fe)</li>
+<li>Add List-Unsubscribe header to mass emails (87a4246)</li>
+</ul>
+
+
+
+<a name="514882955"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/514882955" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#514882955">(Apr 28 2025 at 18:51)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/25de8177bd4a6d189128b4c55aed1288874299fc">25de8177</a>:</p>
+<ul>
+<li>Only set unsub header when person in context (e3c25c3)</li>
+<li>Tweak email ul/ol formatting (25de817)</li>
+</ul>
+
+
+
+<a name="515109687"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/515109687" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#515109687">(Apr 29 2025 at 16:26)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/6298fdb4c1a7346bdbdf4cd6e3f170aea3c05bc7">6298fdb4</a>:</p>
+<ul>
+<li>Add Bandcamp URL to After Party album (6298fdb)</li>
+</ul>
+
+
+
+<a name="516034478"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/516034478" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#516034478">(May 04 2025 at 14:39)</a>:</h4>
+<p>gerhard just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/29248124b03d3a5871c35bf42280f19e3d100038">29248124</a>:</p>
+<ul>
+<li>Add new instructions for promoting a new app instance to prod</li>
+</ul>
+<p>Took the opportunity to refresh instructions for creating a new app instance.</p>
+<p>Signed-off-by: Gerhard Lazu &lt;<a href="mailto:gerhard@changelog.com">gerhard@changelog.com</a>&gt; (2924812)</p>
+
+
+
+<a name="516053697"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/516053697" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#516053697">(May 04 2025 at 18:14)</a>:</h4>
+<p>gerhard just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/808dfe5ef09362579594751def93c1fff2c583c3">808dfe5e</a>:</p>
+<ul>
+<li>Update Ubuntu base image to latest</li>
+</ul>
+<p>Also lines up versions across dev, CONTRIBUTING &amp; .devcontainer.</p>
+<p>Worth remembering: LTS == fewer surprises <span aria-label="green heart" class="emoji emoji-1f49a" role="img" title="green heart">:green_heart:</span></p>
+<p>Signed-off-by: Gerhard Lazu &lt;<a href="mailto:gerhard@changelog.com">gerhard@changelog.com</a>&gt; (808dfe5)</p>
+
+
+
+<a name="516695065"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/516695065" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#516695065">(May 07 2025 at 14:39)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/16d4c0c8d0946cffe4fb9ac84b8121bffc517132">16d4c0c8</a>:</p>
+<ul>
+<li>Disable Slack new episode/post notifications (537766a)</li>
+<li>Add Social/Zulip new post notifications (16d4c0c)</li>
+</ul>
+
+
+
+<a name="516896383"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/516896383" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#516896383">(May 08 2025 at 13:30)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/486146fdc14842d94397649334288ca3c97c955b">486146fd</a>:</p>
+<ul>
+<li>Minor (486146f)</li>
+</ul>
+
+
+
+<a name="517259071"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/517259071" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#517259071">(May 10 2025 at 13:34)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/95b66f6d6076b8d5dd7db9f799532a9200a957b0">95b66f6d</a>:</p>
+<ul>
+<li>
+<p>Add support for experimental app instances (#545)</p>
+</li>
+<li>
+<p>Update recording emoji in tag-kaizen</p>
+</li>
+</ul>
+<p><span aria-label="play" class="emoji emoji-25b6" role="img" title="play">:play:</span> Video-first!</p>
+<p>Signed-off-by: Gerhard Lazu &lt;<a href="mailto:gerhard@changelog.com">gerhard@changelog.com</a>&gt;</p>
+<ul>
+<li>Add support for experimental app instance</li>
+</ul>
+<p>As discussed in <a href="https://changelog.com/friends/92#t=1692">https://changelog.com/friends/92#t=1692</a></p>
+<p>Signed-off-by: Gerhard Lazu &lt;<a href="mailto:gerhard@changelog.com">gerhard@changelog.com</a>&gt;</p>
+<ul>
+<li>Skip steps that are only relevant when deploying</li>
+</ul>
+<p>Signed-off-by: Gerhard Lazu &lt;<a href="mailto:gerhard@changelog.com">gerhard@changelog.com</a>&gt;</p>
+<hr>
+<p>Signed-off-by: Gerhard Lazu &lt;<a href="mailto:gerhard@changelog.com">gerhard@changelog.com</a>&gt; (95b66f6)</p>
+
+
+
+<a name="517261325"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/517261325" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#517261325">(May 10 2025 at 14:06)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/6e9050020e6a61241989352930d0ba648d9397ab">6e905002</a>:</p>
+<ul>
+<li>Fix post rendering bug in search results (6e90500)</li>
+</ul>
+
+
+
+<a name="517572192"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/517572192" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#517572192">(May 12 2025 at 14:47)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/9506aeff6991470bc530fc32bfa4b6a46e702627">9506aeff</a>:</p>
+<ul>
+<li>Empty Oban queues for non-prod "prod" instances (9506aef)</li>
+</ul>
+
+
+
+<a name="517893855"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/517893855" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#517893855">(May 13 2025 at 18:09)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/ed67dcb5acc41e21fa374d243baaae24b0c8a684">ed67dcb5</a>:</p>
+<ul>
+<li>[admin] Fix Zulip invite (ed67dcb)</li>
+</ul>
+
+
+
+<a name="518130722"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/518130722" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#518130722">(May 14 2025 at 18:14)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/c230e6ead5a5e3fd2fd2e1f91506d6fcb2c5f214">c230e6ea</a>:</p>
+<ul>
+<li>Add Premailex to inline email styles (c230e6e)</li>
+</ul>
+
+
+
+<a name="518153990"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/518153990" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#518153990">(May 14 2025 at 20:32)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/b8cf5287d40ea4c2a4464c7c2a9eb4cda3570ecb">b8cf5287</a>:</p>
+<ul>
+<li>Replace latent Slack mentions with Zulip (b8cf528)</li>
+</ul>
+
+
+
+<a name="518356607"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/518356607" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#518356607">(May 15 2025 at 16:59)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/5396cd84435afe1841f39d1b6979a8a4f727f376">5396cd84</a>:</p>
+<ul>
+<li>Render News styles from partial, remove from asset pipeline (5396cd8)</li>
+</ul>
+
+
+
+<a name="519376629"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/519376629" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#519376629">(May 20 2025 at 12:50)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/ac15f26d26b8afd4c57940299684fb2d771a028b">ac15f26d</a>:</p>
+<ul>
+<li>Fix news styling color scheme importance (ac15f26)</li>
+</ul>
+
+
+
+<a name="521773218"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/521773218" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#521773218">(Jun 02 2025 at 15:15)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/eda92c117f6613266fb020cb9c4b1a93f0fc9f87">eda92c11</a>:</p>
+<ul>
+<li>Use <a href="http://changelog.news">changelog.news</a> where applicable (78105eb)</li>
+<li>New live page with Denver show info (eda92c1)</li>
+</ul>
+
+
+
+<a name="525938187"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/525938187" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#525938187">(Jun 26 2025 at 16:06)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/d6cc838d2864bb656a0aaf03359f82e9ffa34c86">d6cc838d</a>:</p>
+<ul>
+<li>Improve handling of failed bounce/spam deletions (e28f40b)</li>
+<li>Add redirect for /upload (bd80bdd)</li>
+<li>Guest guide improvements (d6cc838)</li>
+</ul>
+
+
+
+<a name="526836094"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/526836094" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#526836094">(Jul 02 2025 at 16:04)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/948a72c30a486b912a6f26fbcf0d76273db73a66">948a72c3</a>:</p>
+<ul>
+<li>Moar live show details (948a72c)</li>
+</ul>
+
+
+
+<a name="528706112"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/528706112" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#528706112">(Jul 14 2025 at 17:08)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/7fdcdc133a334fe4d9d5e613e2a3c01455788eee">7fdcdc13</a>:</p>
+<ul>
+<li>Fix bug in feed policy with unloaded/nil associations (7fdcdc1)</li>
+</ul>
+
+
+
+<a name="529894445"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/529894445" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#529894445">(Jul 21 2025 at 13:44)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/1ad90659a3643bfe213b094225b989eb7476a094">1ad90659</a>:</p>
+<ul>
+<li>Moar live show details (1ad9065)</li>
+</ul>
+
+
+
+<a name="530588686"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/530588686" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#530588686">(Jul 24 2025 at 15:21)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/4ae8a70154267b64fbfde2817a12d10b8fb40092">4ae8a701</a>:</p>
+<ul>
+<li>Force utf-8 when writing stat log files (1042fa8)</li>
+<li>Add Pipedream purge handler for non-success responses (4ae8a70)</li>
+</ul>
+
+
+
+<a name="531685149"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/531685149" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#531685149">(Jul 29 2025 at 19:35)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/f6e61728d1c4dacbacc4f2b64cdac76a46b729ca">f6e61728</a>:</p>
+<ul>
+<li>Add watch buttons to applicable News issues (f6e6172)</li>
+</ul>
+
+
+
+<a name="532142552"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/532142552" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#532142552">(Jul 31 2025 at 18:29)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/4851b1f54c91f18609b07d624131c50c18df4a83">4851b1f5</a>:</p>
+<ul>
+<li>Ensure ++ feed 404s when slug is missing (4851b1f)</li>
+</ul>
+
+
+
+<a name="533303938"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/533303938" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#533303938">(Aug 07 2025 at 14:20)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/93e1af029022626f5743c8bdde859413d1450765">93e1af02</a>:</p>
+<ul>
+<li>[admin] Add new sub import via CSV (34d0897)</li>
+<li>Disable autocorrect (et al) on appropriate inputs</li>
+</ul>
+<p>Thanks for the suggestion, @sj26! (93e1af0)</p>
+
+
+
+<a name="534491019"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/534491019" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#534491019">(Aug 14 2025 at 14:08)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/83881e48eb270efc6a3e276d02ce4901be2ca91e">83881e48</a>:</p>
+<ul>
+<li>Update /live with Denver videos (83881e4)</li>
+</ul>
+
+
+
+<a name="541263314"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/541263314" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#541263314">(Sep 24 2025 at 15:43)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/f9407146575f5e9f182ce567672691c319531a2a">f9407146</a>:</p>
+<ul>
+<li>[admin] Fix bug nil input bug in string kit (44cf84d)</li>
+<li>Update public profile to be all about episode appearances (f940714)</li>
+</ul>
+
+
+
+<a name="541484212"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/541484212" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#541484212">(Sep 25 2025 at 15:12)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/885dc6f554297efb6923e75bf2a212fa6c8bc277">885dc6f5</a>:</p>
+<ul>
+<li>Ensure active membership is loaded on all feed routes (885dc6f)</li>
+</ul>
+
+
+
+<a name="543183853"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/543183853" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#543183853">(Oct 05 2025 at 18:27)</a>:</h4>
+<p>gerhard just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/93e32f6927cb8c28489f72197947d6470c330d25">93e32f69</a>:</p>
+<ul>
+<li>
+<p>Promote <a href="http://changelog-2025-05-05.fly.dev">changelog-2025-05-05.fly.dev</a> to new production (#552)</p>
+</li>
+<li>
+<p>Disable redirect uri in GitHub auth</p>
+</li>
+</ul>
+<p>Signed-off-by: Gerhard Lazu &lt;<a href="mailto:gerhard@changelog.com">gerhard@changelog.com</a>&gt;</p>
+<ul>
+<li>Promote <a href="http://changelog-2025-05-05.fly.dev">changelog-2025-05-05.fly.dev</a> to new production</li>
+</ul>
+<p>The new setup has been serving production traffic for a few months now.<br>
+Given all the metrics, we are confident that its time to switchneverything across.nnSince 98% of the requests are cached in the new setup, we canncomfortably reduce the app size by 50%, and still deliver much betternperformance than before. Stay tuned, well unpack this in Kaizen 21:<br>
+<a href="https://github.com/thechangelog/changelog.com/discussions/551">https://github.com/thechangelog/changelog.com/discussions/551</a></p>
+<p>Signed-off-by: Gerhard Lazu &lt;<a href="mailto:gerhard@changelog.com">gerhard@changelog.com</a>&gt;</p>
+<hr>
+<p>Signed-off-by: Gerhard Lazu &lt;<a href="mailto:gerhard@changelog.com">gerhard@changelog.com</a>&gt; (93e32f6)</p>
+
+
+
+<a name="543184665"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/543184665" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#543184665">(Oct 05 2025 at 18:42)</a>:</h4>
+<p>gerhard just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/2aa2ae474fb5048eafe8ff2ac2a385805fb97517">2aa2ae47</a>:</p>
+<ul>
+<li>Update INFRASTRUCTURE Last Updated On</li>
+</ul>
+<p>Signed-off-by: Gerhard Lazu &lt;<a href="mailto:gerhard@changelog.com">gerhard@changelog.com</a>&gt; (2aa2ae4)</p>
+
+
+
+<a name="543184817"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/543184817" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#543184817">(Oct 05 2025 at 18:45)</a>:</h4>
+<p>gerhard just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/601d1eab450a2acbf0edfa6b59c229e1b8e6132d">601d1eab</a>:</p>
+<ul>
+<li>Update CI/CD notifications channel</li>
+</ul>
+<p>Signed-off-by: Gerhard Lazu &lt;<a href="mailto:gerhard@changelog.com">gerhard@changelog.com</a>&gt; (601d1ea)</p>
+
+
+
+<a name="553869071"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/553869071" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#553869071">(Nov 05 2025 at 14:20)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/313fa4d685548f312f2a24ae4d076fb1578e8dcb">313fa4d6</a>:</p>
+<ul>
+<li>gitignore .claude dir (3ffa0ef)</li>
+<li>[admin] Switch news decline to POST (ad1d4ef)</li>
+<li>Add proper env setup in Pipedream tests (313fa4d)</li>
+</ul>
+
+
+
+<a name="553926809"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/553926809" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#553926809">(Nov 05 2025 at 17:54)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/93c9faf9a4e63b43f6baf88dc825fb3076070d02">93c9faf9</a>:</p>
+<ul>
+<li>Remove unused Go import (93c9faf)</li>
+</ul>
+
+
+
+<a name="553932586"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/553932586" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#553932586">(Nov 05 2025 at 18:20)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/591f9f852d199e30af2e1a1abecf0661b727f761">591f9f85</a>:</p>
+<ul>
+<li>Disable root layout a bunch of places (591f9f8)</li>
+</ul>
+
+
+
+<a name="561196532"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/561196532" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#561196532">(Dec 01 2025 at 15:39)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/0658489eaea09857b5d815b8049637b0c58acab1">0658489</a>:</p>
+<ul>
+<li>New redirects for "sotl" 2025 (0658489)</li>
+</ul>
+
+
+
+<a name="563920333"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/563920333" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#563920333">(Dec 15 2025 at 20:38)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/fbc03b0c2673051461961e29faa5ccf81144c69c">fbc03b0c</a>:</p>
+<ul>
+<li>Increase FeedStatsProcessor timeout to 10 mins (fbc03b0)</li>
+</ul>
+
+
+
+<a name="567005547"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/567005547" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#567005547">(Jan 08 2026 at 18:20)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/eaac0f907cf7d6b45bfd6fe8c609d5ba7e9f5ce1">eaac0f90</a>:</p>
+<ul>
+<li>Update mix deps (e3f39c8)</li>
+<li>Update how Oban sends errors to Sentry (eaac0f9)</li>
+</ul>
+
+
+
+<a name="567011365"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/567011365" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#567011365">(Jan 08 2026 at 18:55)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/2081ed2bc4be43614ee0f5f73ed2947b15f22be7">2081ed2b</a>:</p>
+<ul>
+<li>Improve content purge Sentry messages (2081ed2)</li>
+</ul>
+
+
+
+<a name="567022039"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/567022039" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#567022039">(Jan 08 2026 at 19:59)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/73fdd9e19cb609573f9cd8ed195cd9abaeb24f8a">73fdd9e</a>:</p>
+<ul>
+<li>Point app config to new Pipedream host (73fdd9e)</li>
+</ul>
+
+
+
+<a name="568484776"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Code%20deploys/near/568484776" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Code.20deploys.html#568484776">(Jan 16 2026 at 17:19)</a>:</h4>
+<p>jerodsanto just successfully deployed <a href="https://github.com/thechangelog/changelog.com/commit/cd9c7cfeaed7bec39227f38826ecb980938f6bfd">cd9c7cfe</a>:</p>
+<ul>
+<li>Remove downloads until we can get them sorted (48eab89)</li>
+<li>Update mix deps (037e185)</li>
+<li>Redirect /sponsor/media-kit requests (cd9c7cf)</li>
+</ul>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

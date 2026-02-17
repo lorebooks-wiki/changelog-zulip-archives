@@ -1,0 +1,134 @@
+[
+    {
+        "content": "<p>Hi all! We've shipped episode 2 of Fallthrough. You can listen to it here: <a href=\"https://fallthrough.fm/ep/2\">https://fallthrough.fm/ep/2</a><br>\nOr if you want to watch, it's also published on YouTube!<br>\n<a href=\"https://youtu.be/b2Llr4tdwkc\">https://youtu.be/b2Llr4tdwkc</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"b2Llr4tdwkc\" href=\"https://youtu.be/b2Llr4tdwkc\"><img src=\"https://uploads.zulipusercontent.net/88cf13aafe7d2354d31c116de3205f4542a5d37c/68747470733a2f2f692e7974696d672e636f6d2f76692f62324c6c72347464776b632f64656661756c742e6a7067\"></a></div>",
+        "id": 493481763,
+        "sender_full_name": "Kris Brandow",
+        "timestamp": 1736814869
+    },
+    {
+        "content": "<p>Are you going to set up a zulip for your podcast or continue to piggyback here?</p>",
+        "id": 493670279,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1736888701
+    },
+    {
+        "content": "<p>I'll bring it up with the rest of the team to discuss. As far as I know we don't have immediate plans for our own Zulip or similar.</p>",
+        "id": 493958541,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1736956255
+    },
+    {
+        "content": "<p>My personal gem is No Color Function for async, it is such a pain in most other language and make the language less readable, more complex and make functions more specialized . My other gem is Embed keyword! So good, to have file with linter and good sperations. My warts are nil map on init, and some var initialization that you can easily accidentally shadow a variable.</p>\n<p>I would also love to have a if x, err :=...<br>\nWhere x can be outer scope</p>",
+        "id": 494755024,
+        "sender_full_name": "Maxime Thomassin",
+        "timestamp": 1737364353
+    },
+    {
+        "content": "<p>Oh embed is a good gem. Totally forgot about that.</p>\n<p>I don't mind shadowing so much. I would like to be able to shadow and change types or shadow during x, err.</p>\n<p>Tooling is fantastic. It feels like everything I need is behind the go command whereas other languages (JavaScript) require many packages to be usable. Other \"newer\" languages like Rust and Zig are doing a good job of tooling too.</p>",
+        "id": 494784902,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1737372412
+    },
+    {
+        "content": "<p>My warts. </p>\n<p>Context: I only use it when I am calling a library, I have no idea why I am passing it in, I do nothing with it afterwards, I always just pass in context.background (or whatever they use in the documentation example).  Sometimes I look at the source code of the lib and guess what, they aren't using it either, they only want me to pass in a context because they have to pass it in to some call in the std lib.</p>\n<p>No enums. Honestly WTF is this about. It seems like a petty childish thing to leave out of a language for no reason. Just give me enums already.</p>\n<p>You don't have to assign the return variable if all you are returning it an error. Why does this code even compile let alone run without errors? <a href=\"https://go.dev/play/p/UKxcLnmpoJP\">https://go.dev/play/p/UKxcLnmpoJP</a> </p>\n<p>Similarly you don't have to handle errors and from what I can see 90% of the time nobody handles errors. They just pass it up the chain. Why not make this 90% use case more convenient and less verbose for the programmers.</p>\n<p>Package management is far inferior to languages like ruby and java or whatever.  There are many reasons I won't go into but it's really a pain to pin to particular versions of libraries, only include packages in certain environments etc. </p>\n<p>The new iterators are like nails on a chalkboard for anybody who has ever used a language with proper iterators. Why go team? Why did you do this to us? Why not just have map and fold and whatnot like every other damned language?</p>\n<p>Strict tags should be first class language feature so you don't have to put everything into a giant string, you should be able to put inspectable metadata tags on any element of the struct and the struct itself for that matter. This would also be super handy for generating documentation.</p>\n<p>It should be much easier to manage different environments in go. </p>\n<p>I could go and on but let me end with this.</p>\n<p>Go devs should really just admit that go is an object oriented language and embedding structs is no different than inheritance and that packages are just modules with their module level variables and constructors and such.</p>\n<p>I have some gems too but I'll stop while I am unpopular.</p>",
+        "id": 494910860,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1737406190
+    },
+    {
+        "content": "<p>I won't bother getting serious with Go again until it has data-race protection like Swift/Rust/Pony/Elixir and until it has Rust-style enums (I think they're called algebraic sum types or something)<br>\nI hate that Go/Java/Kotlin makes me look at documentation to know whether something is thread safe: the compiler and type system should tell me that I've not sufficiently locked a data structure</p>",
+        "id": 494930196,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1737415125
+    },
+    {
+        "content": "<p>Really, languages shouldn't add any way to share data between threads without requiring that it be done safely</p>",
+        "id": 494930388,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1737415226
+    },
+    {
+        "content": "<p>Good list of warts!</p>\n<p>Things like Println and such are good examples of functions that return errors that we largely ignore.</p>\n<p>Go's v2+ module versioning rules are wonky and make me never want to release a library publicly.</p>\n<p>I wish Go had map and fold. I haven't used the new iterators yet and I'm afraid to, if ever.</p>",
+        "id": 494935438,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1737417609
+    },
+    {
+        "content": "<p>I thought of many more while at the gym, here are a few.</p>\n<p>why can't the go compiler ignore the shebang line? Such a trivial amount of effort.</p>\n<p>Why can't I define an interface for a struct member, who do interfaces only apply to struct methods? </p>\n<p>Default values are a huge wart.  At a minimum let me set default values myself </p>\n<p>I want to write functions with default values for params (which implies an optional param). </p>\n<p>Method overloading was already mentioned but yea that would be super nice. You guys also talked about operator overloading and I just don't understand why people get worked up over this. I have used this in postgres for more than a decade and postgres wouldn't even work without it. Same goes for defining your own operators. Super useful stuff.</p>",
+        "id": 494946040,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1737422673
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"771585\">Ron Waldon-Howe</span> <a href=\"#narrow/channel/455709-gotime/topic/Fallthrough.202.3A.20The.20Gems.20.26.20Warts.20of.20Go/near/494930196\">said</a>:</p>\n<blockquote>\n<p>Rust-style enums (I think they're called algebraic sum types or something)</p>\n</blockquote>\n<p><a href=\"https://en.wikipedia.org/wiki/Algebraic_data_type\">Algebraic data types</a> is a broader category, and sum types are an example:</p>\n<blockquote>\n<p>Two common classes of algebraic types are product types (i.e., tuples, and records) and sum types (i.e., tagged or disjoint unions, coproduct types or variant types).</p>\n</blockquote>\n<p>Rust's enums are _sum_ types, which are less common in mainstream languages than _product_ types. Sum types are common in ML-inspired languages, which I count Rust as.</p>\n<p>The \"algebra\", I believe, refers to the set theory of values that can be instances of a particular type.</p>",
+        "id": 495174750,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1737507807
+    },
+    {
+        "content": "<p>Default values are a pretty huge wart. Especially in the context of constructing safe structs. Do I make the type or fields unexported to force callers through a constructor? Do I put a bunch of nil checks on methods? Do I just not care?</p>",
+        "id": 495838967,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1737783874
+    },
+    {
+        "content": "<p>I dislike that Java/Go/Kotlin packages can span multiple files<br>\nI like being able to look at a file and know that I'm seeing the whole thing, I suppose<br>\nI guess we have LSP and go-to-definition, so it's not a huge deal, but it's something I find non-intuitive and confusing</p>",
+        "id": 495842111,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1737786743
+    },
+    {
+        "content": "<p>Go packages can also span across files, but they must remain in the same directory. Agree that that's a nice feature of the language and it makes it easier to reason about a codebase.</p>",
+        "id": 495876702,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1737816337
+    },
+    {
+        "content": "<p>One nice side effect of default values is named parameters.  That seems like such a no brainer to me. Makes the code much easier to read and write.</p>\n<p>I guess in go you just use structs for everything so they thought just pass in a struct</p>",
+        "id": 495903816,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1737838044
+    },
+    {
+        "content": "<p>Yeah I think that's the idiom. Make some config or params struct that you pass into a function. Still doesn't get that guarantee they the object was initialized correctly but at least it's documenting.</p>",
+        "id": 495905176,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1737839097
+    },
+    {
+        "content": "<p>I think pointers-versus-values in Go function signatures and invocations conflate too many concepts and are very confusing</p>\n<ul>\n<li>does a function ask for a pointer to avoid allocations?</li>\n<li>to signal that it will mutate it?</li>\n<li>what does it mean if a function asks for a value instead?</li>\n<li>there's no consensus on what is a good default practice here, why is Go making me think so hard about every function argument?</li>\n</ul>",
+        "id": 495915934,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1737849686
+    },
+    {
+        "content": "<p>It does get very confusing and it makes the programmer spend too much time thinking about it. When I read other people's code I often don't know what their intention is for pointer receivers.</p>",
+        "id": 495920431,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1737854163
+    },
+    {
+        "content": "<p>This is a good read, too: <a href=\"https://fasterthanli.me/articles/i-want-off-mr-golangs-wild-ride\">https://fasterthanli.me/articles/i-want-off-mr-golangs-wild-ride</a></p>",
+        "id": 495922982,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1737856685
+    },
+    {
+        "content": "<p>I feel like I read that one when it came out around COVID. I recall it being a good article. Gonna read it again.</p>",
+        "id": 495983285,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1737910890
+    },
+    {
+        "content": "<p>For all my complaining, I do think painless cross-compilation, even using Linux to make macOS executables, is a Go gem<br>\nAnd while the standard library lacks loads of basic things around primitive types, the fact that it includes so many other things like HTTP, SSH, SQL, etc is often a gem ( but then also sometimes a wart :P )</p>",
+        "id": 495998947,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1737923442
+    },
+    {
+        "content": "<p>I know that vlang was invented to be a better go and there is a lot of controversy around it but has anybody tried crystal? I think as a language crystal has gotten all the things we talk about right. Enums, Iterators, generics, named parameters, overloading, namespaces, packages, and a rich standard library. It also has macros.  It is a compiled language but also has an interpreter for development. </p>\n<p>It hasn't seemed to have caught on which is a shame because it could use a more active community.</p>",
+        "id": 496001316,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1737925295
+    }
+]

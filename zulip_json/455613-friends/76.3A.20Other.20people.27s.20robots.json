@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>Jerod &amp; Adam discuss Nvidia's recently announced personal AI supercomputer, Waymo's latest infinite loop, what's involved in getting a \"modern\" terminal setup, and whether or not AI has gone mainstream... warts &amp; all! <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.am/76\">https://changelog.am/76</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.am/76#t=0\">00:00</a></td>\n<td>Let's talk!</td>\n<td>00:38</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.am/76#t=38\">00:38</a></td>\n<td><a href=\"https://www.augmentcode.com\">Sponsor: Augment Code</a></td>\n<td>03:30</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.am/76#t=248\">04:08</a></td>\n<td>AI &amp; Friends</td>\n<td>01:49</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.am/76#t=357\">05:57</a></td>\n<td>Adam's AI fun times</td>\n<td>02:08</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.am/76#t=485\">08:05</a></td>\n<td>Jerod's AI boring times</td>\n<td>02:42</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.am/76#t=647\">10:47</a></td>\n<td>Arc is not a dead dog</td>\n<td>01:59</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.am/76#t=765\">12:45</a></td>\n<td><a href=\"https://minbrowser.org/\">The Min Browser</a></td>\n<td>02:28</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.am/76#t=914\">15:14</a></td>\n<td>AI really is mainstream?</td>\n<td>02:26</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.am/76#t=1059\">17:39</a></td>\n<td>ChatGPT helps with tires</td>\n<td>03:05</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.am/76#t=1244\">20:44</a></td>\n<td><a href=\"https://www.theverge.com/2025/1/6/24337530/nvidia-ces-digits-super-computer-ai\">Nvidia's personal AI supercomputer</a></td>\n<td>10:17</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.am/76#t=1861\">31:01</a></td>\n<td><a href=\"https://fly.io/\">Sponsor: Fly.io</a></td>\n<td>02:29</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.am/76#t=2010\">33:30</a></td>\n<td>Local network LLMs</td>\n<td>02:30</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.am/76#t=2160\">36:00</a></td>\n<td>Alexa relations</td>\n<td>04:03</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.am/76#t=2403\">40:03</a></td>\n<td>Apple Intelligence kinda sucks</td>\n<td>00:57</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.am/76#t=2460\">41:00</a></td>\n<td>Meme reference fail</td>\n<td>00:59</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.am/76#t=2519\">41:59</a></td>\n<td>Perplexity miss</td>\n<td>00:59</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.am/76#t=2578\">42:58</a></td>\n<td>Adam is a Luddite?</td>\n<td>02:27</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.am/76#t=2724\">45:24</a></td>\n<td>Car Play Maps woes</td>\n<td>02:20</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.am/76#t=2864\">47:44</a></td>\n<td>AI warts &amp; all</td>\n<td>01:40</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.am/76#t=2964\">49:24</a></td>\n<td>Car Play tricks</td>\n<td>02:55</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.am/76#t=3139\">52:19</a></td>\n<td><a href=\"https://joindeleteme.com\">Sponsor: DeleteMe</a></td>\n<td>01:55</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.am/76#t=3255\">54:15</a></td>\n<td><a href=\"https://techcrunch.com/2025/01/08/we-talked-to-the-guy-who-was-stuck-in-a-waymo-robotaxi-on-an-dizzying-loop/\">Waymo infinite loop guy</a></td>\n<td>04:19</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.am/76#t=3514\">58:34</a></td>\n<td>Waymo locations</td>\n<td>02:07</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.am/76#t=3640\">1:00:40</a></td>\n<td>The Trigger Effect</td>\n<td>01:35</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://changelog.am/76#t=3736\">1:02:16</a></td>\n<td>Adam's biggest fear</td>\n<td>01:45</td>\n</tr>\n<tr>\n<td>26</td>\n<td><a href=\"https://changelog.am/76#t=3841\">1:04:01</a></td>\n<td><a href=\"https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/\">Modern terminal setups</a></td>\n<td>11:51</td>\n</tr>\n<tr>\n<td>27</td>\n<td><a href=\"https://changelog.am/76#t=4552\">1:15:52</a></td>\n<td><a href=\"https://changelog.com/community\">Join our Zulip!</a></td>\n<td>02:20</td>\n</tr>\n<tr>\n<td>28</td>\n<td><a href=\"https://changelog.am/76#t=4693\">1:18:13</a></td>\n<td><a href=\"https://youtube.com/changelog\">We are on YouTube</a></td>\n<td>00:57</td>\n</tr>\n<tr>\n<td>29</td>\n<td><a href=\"https://changelog.am/76#t=4749\">1:19:09</a></td>\n<td>Upcoming interviews</td>\n<td>01:40</td>\n</tr>\n<tr>\n<td>30</td>\n<td><a href=\"https://changelog.am/76#t=4849\">1:20:49</a></td>\n<td>Bye, friends</td>\n<td>00:12</td>\n</tr>\n<tr>\n<td>31</td>\n<td><a href=\"https://changelog.am/76#t=4861\">1:21:01</a></td>\n<td>Coming up next</td>\n<td>02:04</td>\n</tr>\n</tbody>\n</table>",
+        "id": 494434502,
+        "sender_full_name": "Logbot",
+        "timestamp": 1737145808
+    },
+    {
+        "content": "<p>Check out <a href=\"https://docs.openwebui.com/\">Open Web UI</a> as a front end for ollama.</p>",
+        "id": 494923932,
+        "sender_full_name": "Blake Arnold",
+        "timestamp": 1737412006
+    },
+    {
+        "content": "<p>Connections is friggin’ awesome. Haven’t watched it since I was a kid. My dad taught at a community college and would routinely drop me off at the library while he had to do work and that was one of my favorite shows to watch there. Awesome that it’s on IA.</p>",
+        "id": 495379059,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1737582220
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752964\">Andrew O'Brien</span> <a href=\"#narrow/channel/455613-friends/topic/76.3A.20Other.20people's.20robots/near/495379059\">said</a>:</p>\n<blockquote>\n<p>Connections is friggin’ awesome. Haven’t watched it since I was a kid. My dad taught at a community college and would routinely drop me off at the library while he had to do work and that was one of my favorite shows to watch there. Awesome that it’s on IA.</p>\n</blockquote>\n<p>Agreed. I was glad to find it there as well. I'm starting to watch it with my oldest son.</p>",
+        "id": 495381811,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1737583363
+    },
+    {
+        "content": "<p>Has anybody used Emacs shell? Emacs makes a surprisingly excellent terminal</p>",
+        "id": 495596941,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1737671474
+    },
+    {
+        "content": "<p>Regarding fear of caves. <a href=\"https://www.reddit.com/r/SweatyPalms/comments/6yjog3/spelunker_john_jones_stuck_upside_down_in_a_cave/?utm_source=embedv2&amp;utm_medium=post_embed&amp;utm_content=whitespace&amp;embed_host_url=http://admin.iflscience.qa/articles/75444/edit&amp;rdt=53756\">This is a sad and very scary cave accident. Just reading it made me anxious.</a></p>",
+        "id": 495977407,
+        "sender_full_name": "Brandon Whichard",
+        "timestamp": 1737906510
+    },
+    {
+        "content": "<p>05:57 <span class=\"user-mention\" data-user-id=\"750017\">@Adam Stacoviak</span> The next time you need to batch-rename-sequence hidden files on macOS, two Finder tips: <code>Cmd</code>-<code>Shift</code>-<code>.</code> toggles showing hidden files in finder windows, and if you multiple-select and open the context menu, there is a \"Rename...\" option that supports a variety of options including replace text and adding an index number!</p>",
+        "id": 497211021,
+        "sender_full_name": "Nick Reilingh",
+        "timestamp": 1738455798
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"818482\">Nick Reilingh</span> <a href=\"#narrow/channel/455613-friends/topic/76.3A.20Other.20people's.20robots/near/497211021\">said</a>:</p>\n<blockquote>\n<p>05:57 <span class=\"user-mention silent\" data-user-id=\"750017\">Adam Stacoviak</span> The next time you need to batch-rename-sequence hidden files on macOS, two Finder tips: <code>Cmd</code>-<code>Shift</code>-<code>.</code> toggles showing hidden files in finder windows, and if you multiple-select and open the context menu, there is a \"Rename...\" option that supports a variety of options including replace text and adding an index number!</p>\n</blockquote>\n<p>Yea, that's the less fun way.</p>",
+        "id": 497211096,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1738455882
+    }
+]

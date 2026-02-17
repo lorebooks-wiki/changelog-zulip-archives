@@ -1,0 +1,237 @@
+<html>
+<head><meta charset="utf-8"><title>660: Reinventing Python tooling with Rust · interviews · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/index.html">interviews</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/660.3A.20Reinventing.20Python.20tooling.20with.20Rust.html">660: Reinventing Python tooling with Rust</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="542568476"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/660%3A%20Reinventing%20Python%20tooling%20with%20Rust/near/542568476" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/660.3A.20Reinventing.20Python.20tooling.20with.20Rust.html#542568476">(Oct 01 2025 at 19:30)</a>:</h4>
+<p>Charlie Marsh built <a href="https://docs.astral.sh/uv/">Ruff</a> (an extremely fast Python linter written in Rust) and <a href="https://docs.astral.sh/uv/">uv</a> (an extremely fast Python package manager written in Rust) because he believes great tools can have an outsized impact. He believes it so much, in fact, that he started an entire company that builds next-gen Python tooling.</p>
+<p>On this episode, Charlie joins us to tell us all about it: why Python, why Rust, how they make everything so fast, how they're starting to make money, what other products he's dreaming up, and more. <span aria-label="link" class="emoji emoji-1f517" role="img" title="link">:link:</span> <a href="https://changelog.fm/660">https://changelog.fm/660</a></p>
+<table>
+<thead>
+<tr>
+<th>Ch</th>
+<th>Start</th>
+<th>Title</th>
+<th>Runs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>01</td>
+<td><a href="https://changelog.fm/660#t=0">00:00</a></td>
+<td>Welcome to The Changelog</td>
+<td>01:09</td>
+</tr>
+<tr>
+<td>02</td>
+<td><a href="https://changelog.fm/660#t=69">01:09</a></td>
+<td><a href="https://depot.dev">Sponsor: Depot</a></td>
+<td>02:12</td>
+</tr>
+<tr>
+<td>03</td>
+<td><a href="https://changelog.fm/660#t=201">03:21</a></td>
+<td>Start the show!</td>
+<td>00:43</td>
+</tr>
+<tr>
+<td>04</td>
+<td><a href="https://changelog.fm/660#t=244">04:04</a></td>
+<td>Intro to uv</td>
+<td>02:18</td>
+</tr>
+<tr>
+<td>05</td>
+<td><a href="https://changelog.fm/660#t=382">06:22</a></td>
+<td>Inspired by Cargo</td>
+<td>02:25</td>
+</tr>
+<tr>
+<td>06</td>
+<td><a href="https://changelog.fm/660#t=527">08:47</a></td>
+<td>Past tech for the future</td>
+<td>04:11</td>
+</tr>
+<tr>
+<td>07</td>
+<td><a href="https://changelog.fm/660#t=778">12:58</a></td>
+<td>Full circle pollination</td>
+<td>03:29</td>
+</tr>
+<tr>
+<td>08</td>
+<td><a href="https://changelog.fm/660#t=987">16:27</a></td>
+<td>Why fix Python packaging</td>
+<td>05:09</td>
+</tr>
+<tr>
+<td>09</td>
+<td><a href="https://changelog.fm/660#t=1296">21:36</a></td>
+<td>First steps</td>
+<td>05:44</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://changelog.fm/660#t=1640">27:20</a></td>
+<td>No pitch deck required</td>
+<td>01:42</td>
+</tr>
+<tr>
+<td>11</td>
+<td><a href="https://changelog.fm/660#t=1742">29:02</a></td>
+<td>Clauding away</td>
+<td>02:31</td>
+</tr>
+<tr>
+<td>12</td>
+<td><a href="https://changelog.fm/660#t=1893">31:33</a></td>
+<td>The right way to install</td>
+<td>01:10</td>
+</tr>
+<tr>
+<td>13</td>
+<td><a href="https://changelog.fm/660#t=1963">32:43</a></td>
+<td>uv init / add</td>
+<td>02:27</td>
+</tr>
+<tr>
+<td>14</td>
+<td><a href="https://changelog.fm/660#t=2109">35:09</a></td>
+<td>The global cache</td>
+<td>02:34</td>
+</tr>
+<tr>
+<td>15</td>
+<td><a href="https://changelog.fm/660#t=2263">37:43</a></td>
+<td>Rust project structure</td>
+<td>01:31</td>
+</tr>
+<tr>
+<td>16</td>
+<td><a href="https://changelog.fm/660#t=2354">39:14</a></td>
+<td>Python or Rust?</td>
+<td>02:50</td>
+</tr>
+<tr>
+<td>17</td>
+<td><a href="https://changelog.fm/660#t=2524">42:04</a></td>
+<td>Rust ownership deep-dive</td>
+<td>04:34</td>
+</tr>
+<tr>
+<td>18</td>
+<td><a href="https://changelog.fm/660#t=2797">46:37</a></td>
+<td>3 ownership rules</td>
+<td>01:10</td>
+</tr>
+<tr>
+<td>19</td>
+<td><a href="https://changelog.fm/660#t=2868">47:48</a></td>
+<td>Impossible vulns</td>
+<td>01:38</td>
+</tr>
+<tr>
+<td>20</td>
+<td><a href="https://changelog.fm/660#t=2966">49:26</a></td>
+<td>The source of speed</td>
+<td>05:50</td>
+</tr>
+<tr>
+<td>21</td>
+<td><a href="https://changelog.fm/660#t=3316">55:16</a></td>
+<td>First product! pyx</td>
+<td>03:05</td>
+</tr>
+<tr>
+<td>22</td>
+<td><a href="https://changelog.fm/660#t=3500">58:20</a></td>
+<td>A future public registry?</td>
+<td>03:26</td>
+</tr>
+<tr>
+<td>23</td>
+<td><a href="https://changelog.fm/660#t=3706">1:01:46</a></td>
+<td>What it means to be GPU-aware</td>
+<td>06:53</td>
+</tr>
+<tr>
+<td>24</td>
+<td><a href="https://changelog.fm/660#t=4119">1:08:39</a></td>
+<td>Other product ideas</td>
+<td>04:07</td>
+</tr>
+<tr>
+<td>25</td>
+<td><a href="https://changelog.fm/660#t=4366">1:12:46</a></td>
+<td>A new Python runtime?!</td>
+<td>07:34</td>
+</tr>
+<tr>
+<td>26</td>
+<td><a href="https://changelog.fm/660#t=4821">1:20:21</a></td>
+<td>Why a new runtime?</td>
+<td>08:44</td>
+</tr>
+<tr>
+<td>27</td>
+<td><a href="https://changelog.fm/660#t=5345">1:29:05</a></td>
+<td>Astral's brand</td>
+<td>09:59</td>
+</tr>
+<tr>
+<td>28</td>
+<td><a href="https://changelog.fm/660#t=5943">1:39:03</a></td>
+<td>Can't outsource voice</td>
+<td>01:59</td>
+</tr>
+<tr>
+<td>29</td>
+<td><a href="https://changelog.fm/660#t=6063">1:41:03</a></td>
+<td>Wrapping up</td>
+<td>00:42</td>
+</tr>
+<tr>
+<td>30</td>
+<td><a href="https://changelog.fm/660#t=6104">1:41:44</a></td>
+<td><a href="https://forms.gle/yCJirHRCWkdbG5qK6">Closing thoughts</a></td>
+<td>01:34</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<a name="543143002"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/660%3A%20Reinventing%20Python%20tooling%20with%20Rust/near/543143002" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/660.3A.20Reinventing.20Python.20tooling.20with.20Rust.html#543143002">(Oct 05 2025 at 07:08)</a>:</h4>
+<p>No mention of Mojo :)</p>
+
+
+
+<a name="543148311"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/660%3A%20Reinventing%20Python%20tooling%20with%20Rust/near/543148311" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/660.3A.20Reinventing.20Python.20tooling.20with.20Rust.html#543148311">(Oct 05 2025 at 08:53)</a>:</h4>
+<p>I wonder what language the Mojo compiler is written in?<br>
+Looks like it it's possible to integrate Rust code in a Mojo project <span aria-label="crab" class="emoji emoji-1f980" role="img" title="crab">:crab:</span></p>
+
+
+
+<a name="545007537"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/660%3A%20Reinventing%20Python%20tooling%20with%20Rust/near/545007537" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Lars Ellingsen <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/660.3A.20Reinventing.20Python.20tooling.20with.20Rust.html#545007537">(Oct 15 2025 at 16:06)</a>:</h4>
+<p>Cool episode. I've loved their projects so far (although we mostly use Poetry still, not uv), and I'm excited to try their language server when it's out of beta <span aria-label="eyes" class="emoji emoji-1f440" role="img" title="eyes">:eyes:</span></p>
+
+
+
+<a name="545129491"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/660%3A%20Reinventing%20Python%20tooling%20with%20Rust/near/545129491" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/660.3A.20Reinventing.20Python.20tooling.20with.20Rust.html#545129491">(Oct 15 2025 at 21:22)</a>:</h4>
+<p>Mojo uses LLVM so the compiler could have been written in anything including python I suppose.</p>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

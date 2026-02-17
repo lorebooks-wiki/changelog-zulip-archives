@@ -1,0 +1,67 @@
+<html>
+<head><meta charset="utf-8"><title>124: You suck at programming · shipit · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/index.html">shipit</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/124.3A.20You.20suck.20at.20programming.html">124: You suck at programming</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="474907915"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/124%3A%20You%20suck%20at%20programming/near/474907915" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/124.3A.20You.20suck.20at.20programming.html#474907915">(Oct 04 2024 at 22:17)</a>:</h4>
+<p>Dave Eddy has learned systems programming the traditional way with books and man pages. Now he's sharing what he's learned, starting with bash.</p>
+<p><span aria-label="link" class="emoji emoji-1f517" role="img" title="link">:link:</span> <a href="https://shipit.show/124">https://shipit.show/124</a></p>
+
+
+
+<a name="475001431"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/124%3A%20You%20suck%20at%20programming/near/475001431" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Andrew O&#x27;Brien <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/124.3A.20You.20suck.20at.20programming.html#475001431">(Oct 05 2024 at 17:52)</a>:</h4>
+<p>I consider myself pretty handy with bash but don’t even bother asking me how to do anything with arrays (especially associative). So that’s also a role of thumb for me.</p>
+
+
+
+<a name="475002165"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/124%3A%20You%20suck%20at%20programming/near/475002165" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Andrew O&#x27;Brien <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/124.3A.20You.20suck.20at.20programming.html#475002165">(Oct 05 2024 at 17:59)</a>:</h4>
+<p>Also glad to hear the same reservations about Go. I’ve been getting deeper into Kubernetes and have been trying to force myself to like it.</p>
+<p>I fully respect that people have done great things with it. There’s nothing too hard about it as a language. It would give me the benefits I want (speed, concurrency, ease of deployment) at the level I mostly work at (between system and application). But after trying about 4 times I don’t like writing it and reading it feels kind of like PHP for me. (No shade intended, just not my taste.)</p>
+
+
+
+<a name="475070131"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/124%3A%20You%20suck%20at%20programming/near/475070131" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Konrad <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/124.3A.20You.20suck.20at.20programming.html#475070131">(Oct 06 2024 at 07:39)</a>:</h4>
+<p>Bash definitely has its place, just think about all these java tools which require lots of startup parameters nobody can recall and everybody just wraps in a small script <span aria-label="sweat smile" class="emoji emoji-1f605" role="img" title="sweat smile">:sweat_smile:</span> </p>
+<p>But also for more complex stuff. When we started using docker at work, there was nur a clear guidance if docker swarm or kubernetes will win the orchestration game. I just needed a single node installer and as less as overhead for customers. I ended up writing a kind of mini-installer/runner in bash. It was advancing over time and was just packaged as rpm. Batteries included basically, just docker or later podman was required, the rpm even included the container images (I know, typically I should use registries for that, but I needed to serve air-gapped environments).</p>
+<p>Bash did all the heavy lifting, creating secrets or prompted for values, displayed licenses, we supported even localisation to different languages. <br>
+It handled the correct startup and shutdown of services, provided backup and log collection utilities.<br>
+Eventually we could even setup database replication over the bash script.</p>
+<p>There were steps which I did not love and would probably have done in golang today, but bash served me well all the years and I did not need to recompile it with most recent golang to fix CVEs <span aria-label="laughing" class="emoji emoji-1f606" role="img" title="laughing">:laughing:</span> <br>
+Also, the prototype startup script was working in a few hours and I kept advancing it iterativly. I could get quite fast quite far with bash and the "runtime" was just part of the default os packages, which is also a plus for security concerned customers. Those were also not that happy about docker at all <span aria-label="see no evil" class="emoji emoji-1f648" role="img" title="see no evil">:see_no_evil:</span></p>
+
+
+
+<a name="475167741"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/124%3A%20You%20suck%20at%20programming/near/475167741" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Justin Garrison <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/124.3A.20You.20suck.20at.20programming.html#475167741">(Oct 07 2024 at 01:44)</a>:</h4>
+<p>Packaging containers in rpm is such a neat idea! If you already have an rpm repo (directory with web server) you don’t need to overly complicate it. Now I want to make a <code>createrepo</code> for oci artifacts on the file system</p>
+
+
+
+<a name="475308975"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/124%3A%20You%20suck%20at%20programming/near/475308975" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Andrew O&#x27;Brien <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/124.3A.20You.20suck.20at.20programming.html#475308975">(Oct 07 2024 at 14:19)</a>:</h4>
+<p>We have to push docker images out (no pull) in some of our deployment scenarios. Docker-exporting to tgz and then deploying metal components packaged a .debs has always felt hacky to me.</p>
+<p>I had been considering putting the images in .debs too just to make it more consistent, but didn’t because I thought the package gods would strike me down. But knowing that someone else has done something similar gives me a little more confidence.</p>
+
+
+
+<a name="476600379"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/124%3A%20You%20suck%20at%20programming/near/476600379" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Konrad <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/124.3A.20You.20suck.20at.20programming.html#476600379">(Oct 13 2024 at 11:47)</a>:</h4>
+<p><span class="user-mention" data-user-id="760607">@Justin Garrison</span> It was the simplest approach I could imagine. Some enterprise customers already had internal rpm repos for their red hat fleet, others could just upload the rpm to their VM and locally install it. I noticed if I save a list of images with <code>docker save</code> it even deduplicates image layers. I pushed everything out as a single rpm, customers just imported the rpm in the repositories and ran <code>yum update</code>. The rpm postinstall hook just executed <code>docker load</code>.<br>
+The cli command was shipped as part of the rpm as well. <br>
+If customers just updated the rpm, the old containers kept running, so no outage. Once a short outage of a minute or so was feasible, they could use the <code>restart</code> option which would update the containers with the new images.<br>
+I had other scripts available to setup database replication if HA was required, but it was quite simple to get running which helped a lot in doing POCs especially for conservative customers.</p>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

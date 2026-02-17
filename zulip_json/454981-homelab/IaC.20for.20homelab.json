@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>What configuration tools/language do you use for your homelab? Terraform? Dagger? Anisible? something else?</p>\n<p>My Raspberry Pi has died so I'm about to recreate it, but figure I would like all the config somewhere so I can easily recreate it in future.</p>\n<p>Looking for recommendations! Thanks <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+        "id": 478440322,
+        "sender_full_name": "Andy Miller",
+        "timestamp": 1729672348
+    },
+    {
+        "content": "<p>I'm using saltstack but mostly because I work with Industrial IoT devices where that works better than something like Ansible so wanted to get some hands on time with it. I do like it, but I don't have enough experience to say if it is the best option for most people.</p>",
+        "id": 478440690,
+        "sender_full_name": "James McNally",
+        "timestamp": 1729672464
+    },
+    {
+        "content": "<p>I guess it kind of depends on how far you want to go. Personally, I have a git repo on github that holds a lot of docker compose stacks, which I push via github actions over tailscale down to my NAS. Renovate is watching the repo and proposes updates.<br>\nI manage a few things that way, other systems like pihole I just set up manually, but I push my dns records into it via github actions as well. But the base OS was hand crafted more or less, I only automated the software provisioning on top. </p>\n<p>A fun project I am tinkering on uses talos. If you can run your workload on kubernetes, that might be an option as well. It is basically a fully api driven OS to run Kubernetes. You push your config and get a kubeconfig, from there you can push your YAML to the cluster or pull it e.g. via ArgoCD.</p>",
+        "id": 478583653,
+        "sender_full_name": "Konrad",
+        "timestamp": 1729717706
+    },
+    {
+        "content": "<p>I’ve used a git repo to keep track of changes and typically start with a bunch of notes, references, and commands recorded in Markdown files. I’ve tried to build out Ansible configs for the bare metal hosts I have in my home lab, but that is more for the practice and possible ability to reproduce the same configuration across multiple mini PCs. It likely depends on how complex the hosts end up being and what all you want to have documented.</p>\n<p>My approach to a home lab is to establish something I can spin up VMs on top of and I organize all the VMs as independent experiments that I keep in separate directories in the git repo so that I can spin something up or down locally using terraform and manage the configuration with ansible. It’s a lot of work up front… but once there is an established pattern it’s nice to be able to reuse pieces for playing with different kinds of software and other infrastructure.</p>",
+        "id": 478590820,
+        "sender_full_name": "Matt Johnson",
+        "timestamp": 1729721004
+    },
+    {
+        "content": "<p>I'm using Ansible to configure my Raspberry Pis (LEDs/Bluetooth/WiFi on/off), to do dist-upgrades and setup containers with Docker. That's been working well for me so far.</p>\n<p>I've started using Terraform to configure my domains' DNS and my home network's Mikrotik Router and UniFi AP. But that is still in its early stages and I can't give any recommendation either way :-).</p>",
+        "id": 479162218,
+        "sender_full_name": "Matthias Schippling",
+        "timestamp": 1730060547
+    },
+    {
+        "content": "<p>I use NixOS for most OS's (which has its own language to configure itself), with Ansible to orchestrate both NixOS nodes, and fully provision other misc things.</p>",
+        "id": 479294567,
+        "sender_full_name": "shaun smiley",
+        "timestamp": 1730127279
+    },
+    {
+        "content": "<p>I'm using Ansible aswell. Haven't yet figured out how to manage bhyve virtual machines but I'm guessing it's doable with Ansible.</p>",
+        "id": 480401815,
+        "sender_full_name": "Jari",
+        "timestamp": 1730712887
+    }
+]

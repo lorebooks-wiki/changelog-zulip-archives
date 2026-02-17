@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p>Hi everyone! I swear I remember hearing about a tool mentioned on an episode, but all of my efforts to find it via transcripts have come up short and I was hoping others here might remember.  I think it may have been Nick or Jerod mentioning it on a episode covering different tools, and I think it may have been in a Neovim setup around language server configuration, but IIRC the idea is that you'd use it to run commands or hit upstream API and it would cache the output/reponse for you, and I <em>think</em> maybe there was even mention of it serving stale results?  Does that ring a bell with anyone?</p>",
+        "id": 506514419,
+        "sender_full_name": "Rob Hoelz",
+        "timestamp": 1742312287
+    },
+    {
+        "content": "<p>Maybe the old <a href=\"https://github.com/vcr/vcr\">VCR</a> ruby gem? I brought that up <a href=\"https://changelog.com/friends/73#transcript-402\">on Kaizen 17</a></p>",
+        "id": 506515921,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1742312670
+    },
+    {
+        "content": "<p>Oh, that's a good tool, but I don't know if that was the one I had in mind!</p>",
+        "id": 506553916,
+        "sender_full_name": "Rob Hoelz",
+        "timestamp": 1742323275
+    },
+    {
+        "content": "<p>I don't recall anything in the context of Neovim. Sorry.</p>",
+        "id": 506558304,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1742324379
+    },
+    {
+        "content": "<p>That's ok - thanks for chiming in!</p>",
+        "id": 506564094,
+        "sender_full_name": "Rob Hoelz",
+        "timestamp": 1742326454
+    },
+    {
+        "content": "<p>A semantic search of Changelog transcripts would be neat for things like this...</p>",
+        "id": 506589679,
+        "sender_full_name": "Sukhdeep Brar",
+        "timestamp": 1742335574
+    },
+    {
+        "content": "<p>I bet you’re thinking of Varnish: <a href=\"https://varnish-cache.org/\">https://varnish-cache.org/</a></p>\n<p>Mentioned on a Kaizen podcast I think</p>",
+        "id": 506627908,
+        "sender_full_name": "Joe",
+        "timestamp": 1742356345
+    },
+    {
+        "content": "<p>Nevermind (should have read the whole original post <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span>), Varnish is unrelated</p>",
+        "id": 506627958,
+        "sender_full_name": "Joe",
+        "timestamp": 1742356385
+    },
+    {
+        "content": "<p>I almost suggested varnish too <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span><span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span></p>",
+        "id": 506638458,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1742362658
+    },
+    {
+        "content": "<p>After talking to Copilot in the transcript repo, I think you're thinking about Dredd (<a href=\"http://dredd.org/en/latest/\">http://dredd.org/en/latest/</a>)<br>\n Transcript link:  <a href=\"https://github.com/thechangelog/transcripts/blob/6d5ae085b23bd591d33bcf8780adfa0e4498dc43/gotime/go-time-5.md?plain=1#L276-L304\">https://github.com/thechangelog/transcripts/blob/6d5ae085b23bd591d33bcf8780adfa0e4498dc43/gotime/go-time-5.md?plain=1#L276-L304</a></p>",
+        "id": 506809731,
+        "sender_full_name": "Sukhdeep Brar",
+        "timestamp": 1742411741
+    },
+    {
+        "content": "<p>That _does_ sound a little familiar, but that's from Go Time #5 - I don't think I mentioned in my original post, but this was within the last year or so</p>",
+        "id": 506836375,
+        "sender_full_name": "Rob Hoelz",
+        "timestamp": 1742421832
+    },
+    {
+        "content": "<p>Thanks for thinking about this, everyone! I did some combing through the transcripts, and the <em>closest</em> thing I can find is the null-ls language server, so maybe that was it?  I think I just need to let it go <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 506974919,
+        "sender_full_name": "Rob Hoelz",
+        "timestamp": 1742477758
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Anyone have a recommendation for a small 1U NAS? Something that can fit into a half-depth network rack.</p>",
+        "id": 468940091,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1725925688
+    },
+    {
+        "content": "<p>Haven't used their hardware before but there's a few options here <a href=\"https://www.qnap.com/en-us/product?conditions=form_factor-short_depth_rackmount\">https://www.qnap.com/en-us/product?conditions=form_factor-short_depth_rackmount</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://www.qnap.com/en-us/product?conditions=form_factor-short_depth_rackmount\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/dcd3bdc6205b2c34f08f290415f5772c4d65fe1a/68747470733a2f2f7777772e716e61702e636f6d2f6173736574732f696d672f6c6f676f2f64656675616c742d73686172696e672e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://www.qnap.com/en-us/product?conditions=form_factor-short_depth_rackmount\" title=\"Compare Products\">Compare Products</a></div><div class=\"message_embed_description\">QNAP’s comprehensive selection of NAS solutions meets different consumer needs from small bay models designed for home users to tower and rackmount level NAS for businesses and workgroups. &lt;a href=&quot;https://www.qnap.com/event/starter-guide/en/home.php&quot; target=&quot;_blank&quot;&gt;Learn more&lt;i class=&quot;bi bi-chevron-right ms-2&quot;&gt;&lt;/i&gt;&lt;/a&gt;</div></div></div>",
+        "id": 468966818,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1725938201
+    },
+    {
+        "content": "<p>Oh I've heard of qnap before. Thanks Adam!</p>",
+        "id": 468970067,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1725939112
+    }
+]

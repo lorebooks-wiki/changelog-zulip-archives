@@ -1,0 +1,348 @@
+<html>
+<head><meta charset="utf-8"><title>649: Lightspeed search built for devs · interviews · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/index.html">interviews</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html">649: Lightspeed search built for devs</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="528068685"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/528068685" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#528068685">(Jul 10 2025 at 12:19)</a>:</h4>
+<p>We talk with Don MacKinnon, Co-founder and CTO of Searchcraft—a lightspeed search engine built in Rust. We dig into the future of search, how it blends vector embeddings with classic ranking, and what it takes to build developer-friendly, production-grade search from the ground up. <span aria-label="link" class="emoji emoji-1f517" role="img" title="link">:link:</span> <a href="https://changelog.fm/649">https://changelog.fm/649</a></p>
+<table>
+<thead>
+<tr>
+<th>Ch</th>
+<th>Start</th>
+<th>Title</th>
+<th>Runs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>01</td>
+<td><a href="https://changelog.fm/649#t=0">00:00</a></td>
+<td>This week on The Changelog</td>
+<td>01:07</td>
+</tr>
+<tr>
+<td>02</td>
+<td><a href="https://changelog.fm/649#t=67">01:07</a></td>
+<td><a href="https://auth0.com/ai">Sponsor: Auth0</a></td>
+<td>01:29</td>
+</tr>
+<tr>
+<td>03</td>
+<td><a href="https://changelog.fm/649#t=160">02:40</a></td>
+<td>Start the show!</td>
+<td>03:07</td>
+</tr>
+<tr>
+<td>04</td>
+<td><a href="https://changelog.fm/649#t=348">05:48</a></td>
+<td>LIVE in Denver</td>
+<td>02:13</td>
+</tr>
+<tr>
+<td>05</td>
+<td><a href="https://changelog.fm/649#t=481">08:01</a></td>
+<td>Searchcraft</td>
+<td>03:40</td>
+</tr>
+<tr>
+<td>06</td>
+<td><a href="https://changelog.fm/649#t=701">11:41</a></td>
+<td>Search in 2021</td>
+<td>03:07</td>
+</tr>
+<tr>
+<td>07</td>
+<td><a href="https://changelog.fm/649#t=888">14:48</a></td>
+<td>Why rust? Design decisions.</td>
+<td>05:16</td>
+</tr>
+<tr>
+<td>08</td>
+<td><a href="https://changelog.fm/649#t=1203">20:03</a></td>
+<td>Storage engine</td>
+<td>06:36</td>
+</tr>
+<tr>
+<td>09</td>
+<td><a href="https://changelog.fm/649#t=1600">26:40</a></td>
+<td><a href="https://depot.dev">Sponsor: Depot</a></td>
+<td>02:09</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://changelog.fm/649#t=1729">28:49</a></td>
+<td>Why is search cool?</td>
+<td>11:28</td>
+</tr>
+<tr>
+<td>11</td>
+<td><a href="https://changelog.fm/649#t=2417">40:17</a></td>
+<td>Mo' money?</td>
+<td>02:57</td>
+</tr>
+<tr>
+<td>12</td>
+<td><a href="https://changelog.fm/649#t=2595">43:15</a></td>
+<td>"Craft" is cool</td>
+<td>01:53</td>
+</tr>
+<tr>
+<td>13</td>
+<td><a href="https://changelog.fm/649#t=2708">45:08</a></td>
+<td>"All angels" funding</td>
+<td>02:24</td>
+</tr>
+<tr>
+<td>14</td>
+<td><a href="https://changelog.fm/649#t=2852">47:32</a></td>
+<td>Pitch decks, 5 years later</td>
+<td>10:05</td>
+</tr>
+<tr>
+<td>15</td>
+<td><a href="https://changelog.fm/649#t=3457">57:37</a></td>
+<td>Ethics of training data</td>
+<td>10:37</td>
+</tr>
+<tr>
+<td>16</td>
+<td><a href="https://changelog.fm/649#t=4094">1:08:14</a></td>
+<td><a href="https://agntcy.org">Sponsor: Outshift by Cisco</a></td>
+<td>01:03</td>
+</tr>
+<tr>
+<td>17</td>
+<td><a href="https://changelog.fm/649#t=4158">1:09:18</a></td>
+<td>The "infringiness" of it</td>
+<td>16:10</td>
+</tr>
+<tr>
+<td>18</td>
+<td><a href="https://changelog.fm/649#t=5127">1:25:27</a></td>
+<td>What's just over the horizon?</td>
+<td>04:42</td>
+</tr>
+<tr>
+<td>19</td>
+<td><a href="https://changelog.fm/649#t=5410">1:30:10</a></td>
+<td>It's ready. You should try it.</td>
+<td>00:33</td>
+</tr>
+<tr>
+<td>20</td>
+<td><a href="https://changelog.fm/649#t=5443">1:30:43</a></td>
+<td>Cool AI images</td>
+<td>06:08</td>
+</tr>
+<tr>
+<td>21</td>
+<td><a href="https://changelog.fm/649#t=5811">1:36:51</a></td>
+<td>Closing thoughts</td>
+<td>01:38</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<a name="528086304"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/528086304" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Siddhartha Golu <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#528086304">(Jul 10 2025 at 13:47)</a>:</h4>
+<p>Excited for this one!</p>
+
+
+
+<a name="528166687"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/528166687" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Don MacKinnon <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#528166687">(Jul 10 2025 at 22:15)</a>:</h4>
+<p>I didn't notice at the time but Adam has Silicon Valley playing in the background behind him <span aria-label="joy" class="emoji emoji-1f602" role="img" title="joy">:joy:</span></p>
+
+
+
+<a name="528468163"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/528468163" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Chris Duzan <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#528468163">(Jul 12 2025 at 16:00)</a>:</h4>
+<p>Great show! Not quite finished with it but it got me thinking about a lot of things. Particularly when you guys got on the AI copyright topic.</p>
+<p>I was driving so I couldn't write down my thoughts at the time, but 2 are sticking in my mind.</p>
+
+
+
+<a name="528468389"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/528468389" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Chris Duzan <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#528468389">(Jul 12 2025 at 16:05)</a>:</h4>
+<ol>
+<li>Are writers and illustrators going to become very niche? I don't know the exact term, but I've come across some people who have specialized in old "craftsmanship" professions (eg. fletching, armor smithing, etc). Will this be the case for writers and illustrators where it won't be a profession anymore. But there are highly specialized cases where a small number of people make a living off of them?</li>
+</ol>
+
+
+
+<a name="528468537"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/528468537" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Chris Duzan <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#528468537">(Jul 12 2025 at 16:08)</a>:</h4>
+<ol start="2">
+<li>The mention of libraries when it comes to having the ability to share books. If you've ever used digital downloads for a library, you'll know that they can't give out infinite copies of a digital book. They are restricted to a certain number that can be "checked out" at a time.</li>
+</ol>
+<p>Can this be replicated with model training? I don't know what this would actually look like under the hood. But something a long the lines of "you can only work on one instance of this data at a time." And you would have to buy more "licenses" to train on the same data concurrently.</p>
+<p>If we are working off the analogy that someone learning from a piece of work is the same as a model being trained on a piece of work, I think you could also make the argument that models training on it are more like multiple people training at the same time. So each "person" would need a copy of the work.</p>
+
+
+
+<a name="528468948"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/528468948" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Chris Duzan <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#528468948">(Jul 12 2025 at 16:16)</a>:</h4>
+<p>Still, maybe it's not a helpful analogy because these things "learn" on a different timeframe than humans.</p>
+
+
+
+<a name="528485608"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/528485608" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#528485608">(Jul 12 2025 at 21:32)</a>:</h4>
+<p><span class="user-mention" data-user-id="758958">@Chris Duzan</span> I think both of these things are solved by abolishing the concept of Intellectual Property (OpenAI and Meta already behave as though this concept protects yet does not restrain them), and some sort of Universal Basic Income or similar so that any individual that previously relied on IP to feed their families will be able to continue to do so whilst learning whatever the new valuable skills are</p>
+
+
+
+<a name="528485661"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/528485661" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#528485661">(Jul 12 2025 at 21:34)</a>:</h4>
+<p>But yes, "artisanal" comes to mind: artisanal poetry, artisanal illustrations, etc<br>
+Some folks with means may decide they are okay with paying more for this, just like for artisanal furniture, etc</p>
+
+
+
+<a name="528489325"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/528489325" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#528489325">(Jul 12 2025 at 23:07)</a>:</h4>
+<p>I honestly think UBI will not work. Any extra money in the pockets of consumers will quickly flow upstream to the landlords, corporations, etc. </p>
+<p>A better alternative would be to provide people with free food, shelter and healthcare.  This doesn't have to be anything fancy, minimal amount required to keep a person alive and relatively healthy. I am imagining something like dormitories or tiny apartments like those found in Tokyo and Hong Kong. With meals provided as MRE or freeze dried meals like the ones you take camping.  There would be building and floor supervisors who would be responsible for making sure people don't abuse the system by using their quarters for storage or being destructive and whatnot.</p>
+<p>This would provide a downward pressure on housing, food, and energy costs as the private sector has to deal with the release valve of government provided basic services.   At the same time although these conditions are sufficient to keep somebody alive they are not pleasant and would continue to encourage people to seek employment for better living conditions.</p>
+<p>Of course if they let me design society the conditions would improve as productivity from automation goes up and who knows maybe some day everybody will get a three bedroom house with a yard.</p>
+
+
+
+<a name="528491553"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/528491553" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Andrew O&#x27;Brien <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#528491553">(Jul 13 2025 at 00:08)</a>:</h4>
+<p>Please tell me Vectron is a Mitchell &amp; Webb reference: <a href="https://youtu.be/icTrzUuWlHI?si=ZwcoflFJ-VTJ2tC8">https://youtu.be/icTrzUuWlHI?si=ZwcoflFJ-VTJ2tC8</a></p>
+<div class="youtube-video message_inline_image"><a data-id="icTrzUuWlHI" href="https://youtu.be/icTrzUuWlHI?si=ZwcoflFJ-VTJ2tC8"><img src="https://uploads.zulipusercontent.net/ba7643c6b570388b904452b37b2cad7fcb10db38/68747470733a2f2f692e7974696d672e636f6d2f76692f696354727a5575576c48492f6d7164656661756c742e6a7067"></a></div>
+
+
+
+<a name="528728802"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/528728802" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Don MacKinnon <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#528728802">(Jul 14 2025 at 19:45)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="752964">Andrew O'Brien</span> <a href="#narrow/channel/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs/near/528491553">said</a>:</p>
+<blockquote>
+<p>Please tell me Vectron is a Mitchell &amp; Webb reference: <a href="https://youtu.be/icTrzUuWlHI?si=ZwcoflFJ-VTJ2tC8">https://youtu.be/icTrzUuWlHI?si=ZwcoflFJ-VTJ2tC8</a></p>
+</blockquote>
+<p>It would be pretty cool if it was but alas no. We thought we made it up <span aria-label="smiley" class="emoji emoji-1f603" role="img" title="smiley">:smiley:</span></p>
+
+
+
+<a name="528762962"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/528762962" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Daniel Buckmaster <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#528762962">(Jul 15 2025 at 00:47)</a>:</h4>
+<p>Well hopefully this lightens things up around the office, by Vectron's mighty gaze!</p>
+
+
+
+<a name="528778050"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/528778050" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Andrew O&#x27;Brien <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#528778050">(Jul 15 2025 at 04:39)</a>:</h4>
+<p><span class="user-mention" data-user-id="756263">@Don MacKinnon</span> May Vectron smile upon you anyway and carry your business aloft on his golden pinions!</p>
+
+
+
+<a name="528794895"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/528794895" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> James McNally <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#528794895">(Jul 15 2025 at 07:24)</a>:</h4>
+<p>You are helping me on the AI moral question in processing my thoughts on it.</p>
+<p>You touched on scale and I think that is the key departure here. Similar to issues around privacy. </p>
+<p>By the basic concept, folks have published in public for various reasons assuming there is a limit to what can be done reworking that information that means they still see some benefit. But AI changes that scale.</p>
+<p>Probably the law needs revisiting with this scale in mind to get back to the intention of copyright, allowing a producer some control over the use of their work</p>
+<p>Not a simple task!</p>
+
+
+
+<a name="528914423"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/528914423" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Don MacKinnon <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#528914423">(Jul 15 2025 at 17:58)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="752986">Daniel Buckmaster</span> <a href="#narrow/channel/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs/near/528762962">said</a>:</p>
+<blockquote>
+<p>Well hopefully this lightens things up around the office, by Vectron's mighty gaze!</p>
+</blockquote>
+<p>We loved the clip, now I need to go check out the rest of the show.</p>
+
+
+
+<a name="529476358"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/529476358" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Andrew O&#x27;Brien <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#529476358">(Jul 18 2025 at 14:45)</a>:</h4>
+<p><span class="user-mention" data-user-id="756263">@Don MacKinnon</span> it’s well worth it.</p>
+<p>I’d also highly recommend Peep Show, which is the same guys (plus a younger, now Oscar winning Olivia Colman) in a sitcom that’s sort of an Odd Couple except shot from alternating 1st person perspectives where you hear their inner monologues.</p>
+
+
+
+<a name="529533326"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/529533326" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#529533326">(Jul 18 2025 at 22:32)</a>:</h4>
+<p>You know sometimes I watch shows from the 60s and 70s and it's amazing how much more "blue" they are than shows today. Something happened in the 80s or 90s which turned  television and movies much more prudish and conservative. There is a marked shift from using sexual innuendo and sexy outfits to violence and carnage in order to hold the audience attention.  Back then you'd never even see blood on television and movies let alone the kinds of gruesome deaths, spurting blood, mass casualties, non stop explosions etc.</p>
+<p>We have become less interested in pleasure and more interested in violence I guess.</p>
+
+
+
+<a name="529540744"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/529540744" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Andrew O&#x27;Brien <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#529540744">(Jul 19 2025 at 00:46)</a>:</h4>
+<p>Yeah, I mean I always feel slightly awkward  going from something pretty clean to more mature content with someone who I don’t know what their tolerance is without putting some kind of warning in, especially in a semi-professional space like this.</p>
+<p>And I wouldn’t even say it’s that extreme. It’s like Letterkenny, Always Sunny in Philadelphia, or an HBO comedy here. But not HR friendly.</p>
+
+
+
+<a name="529552665"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/529552665" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#529552665">(Jul 19 2025 at 05:15)</a>:</h4>
+<p>I think it's interesting people consider a double entendre mature content but not somebody getting shot or stabbed or being bit by a vampire.</p>
+
+
+
+<a name="529556575"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/529556575" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#529556575">(Jul 19 2025 at 06:39)</a>:</h4>
+<p><span class="user-mention" data-user-id="755905">@Tim Uckun</span> I think that's cultural <br>
+In Europe, parents are more concerned about exposing children to violence <br>
+But in the USA, they've given up protecting children from violence (Sandyhook is proof), so they seem to care most about exposing children to sexual content</p>
+
+
+
+<a name="529577351"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/529577351" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jerod Santo <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#529577351">(Jul 19 2025 at 13:44)</a>:</h4>
+<p>Overgeneralize much?</p>
+
+
+
+<a name="529616809"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/529616809" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#529616809">(Jul 19 2025 at 22:49)</a>:</h4>
+<p>Generalise,  sure<br>
+But there doesn't seem to be any action to prevent gun violence in schools in the USA, security theatre, but no actual reform<br>
+Versus literal book burnings by anti-LGBT folks in the name of protecting children from supposed inappropriate content</p>
+
+
+
+<a name="529619014"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/529619014" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Andrew O&#x27;Brien <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#529619014">(Jul 19 2025 at 23:52)</a>:</h4>
+<p>Look, all’s I was trying to do was prevent an embarrassing work situation. I don’t know what kinds of fuckwords and depictions of crack smoking are permissible at everyone’s places of business.</p>
+
+
+
+<a name="529629875"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/529629875" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#529629875">(Jul 20 2025 at 04:38)</a>:</h4>
+<p><a href="https://en.wikipedia.org/wiki/%27No_Way_to_Prevent_This,%27_Says_Only_Nation_Where_This_Regularly_Happens">https://en.wikipedia.org/wiki/%27No_Way_to_Prevent_This,%27_Says_Only_Nation_Where_This_Regularly_Happens</a></p>
+
+
+
+<a name="529691437"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/529691437" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Alex Barnes <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#529691437">(Jul 20 2025 at 14:17)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="752964">Andrew O'Brien</span> <a href="#narrow/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs/near/529619014">said</a>:</p>
+<blockquote>
+<p>Look, all’s I was trying to do was prevent an embarrassing work situation. I don’t know what kinds of fuckwords and depictions of crack smoking are permissible at everyone’s places of business.</p>
+</blockquote>
+<p>Chance would be a fine thing!</p>
+
+
+
+<a name="530392930"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/649%3A%20Lightspeed%20search%20built%20for%20devs/near/530392930" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Don MacKinnon <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs.html#530392930">(Jul 23 2025 at 16:54)</a>:</h4>
+<p>I had some folks pop into the Searchcraft discord asking about Sled after the episode dropped. Here's a talk that Tyler (aka Spacejam) gave about Sled and io_uring back in 2020 that folks may find interesting <a href="https://archive.fosdem.org/2020/schedule/event/rust_techniques_sled/">https://archive.fosdem.org/2020/schedule/event/rust_techniques_sled/</a></p>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

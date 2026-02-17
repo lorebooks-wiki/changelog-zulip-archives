@@ -1,0 +1,56 @@
+[
+    {
+        "content": "<p>Tech twitter (\"tech X\"?) is abuzz with Paul Graham's <a href=\"https://paulgraham.com/foundermode.html\">Founder Mode</a> essay. How does that affect you or come into play when you're not a founder? Does it matter at all to you, your projects &amp; your code?</p>\n<p><span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://gotime.fm/332\">https://gotime.fm/332</a></p>",
+        "id": 472558382,
+        "sender_full_name": "Logbot",
+        "timestamp": 1727205331
+    },
+    {
+        "content": "<p>Spicy... Only people whose native language US English is, should write (about) Software :P</p>",
+        "id": 472892750,
+        "sender_full_name": "Chris Glaubitz",
+        "timestamp": 1727356128
+    },
+    {
+        "content": "<p>i pick up your spice and add:</p>\n<p>Only people with 2 conversational languages and a passport should claim such a thing!</p>\n<p><span aria-label=\"flag austria\" class=\"emoji emoji-1f1e6-1f1f9\" role=\"img\" title=\"flag austria\">:flag_austria:</span></p>",
+        "id": 472910402,
+        "sender_full_name": "René",
+        "timestamp": 1727360876
+    },
+    {
+        "content": "<p>I think that was the very first unpop where I thought... well, that's really going to be unpop... at least in all-but-one-country in the world <span aria-label=\"big smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"big smile\">:big_smile:</span></p>",
+        "id": 472918636,
+        "sender_full_name": "Chris Glaubitz",
+        "timestamp": 1727363183
+    },
+    {
+        "content": "<p>And I was reminded of some old episode. Matt said something like: Thank you for correcting my correct English into incorrect English.</p>",
+        "id": 472920932,
+        "sender_full_name": "Chris Glaubitz",
+        "timestamp": 1727363867
+    },
+    {
+        "content": "<p>I remember that one. It was about the pronounciation of beta <span aria-label=\"big smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"big smile\">:big_smile:</span></p>",
+        "id": 473028102,
+        "sender_full_name": "Maroš Kučera",
+        "timestamp": 1727420404
+    },
+    {
+        "content": "<p>I really liked Kris' unpopular opinion and general stance on using accurate vocabulary in this industry. I'm aware that not everyone speaks English or learned English as a primary or first language. Kris didn't say that only people that know English well should write software, but rather than people should make more of an effort to look up the definitions of words and use the correct words to describe things. That's true of any language one is writing in. English just happens to be the ubiquitous language for software.</p>\n<p>I understand people are busy and may not have time to correct their writing but I too would like to see more of an effort for clear communication. Too many acronyms and words used in the wrong context. I've seen it confuse people and I've been confused by it.</p>",
+        "id": 473407467,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1727580964
+    },
+    {
+        "content": "<p>I would like a episode called “spice with Kris”, his rants are work of art. He clearly has a material for at least a full episode. And yes by his standards i should not be allowed to write software with my terrible english. But whatever he isn’t running the world.</p>",
+        "id": 476238382,
+        "sender_full_name": "Matous Michalik",
+        "timestamp": 1728600138
+    },
+    {
+        "content": "<p>Kris's rant was interesting, but I have to disagree! (I guess that's the point of an <em>unpopular</em> opinion, right?)<br>\nMy interpretation of his stance: he thinks we (software engineers) are terrible at naming things, which causes unnecessary confusion. He claims not just that our naming is poor, but that it's incorrect English, and his primary example is the usage of \"asynchronous\", \"concurrent\", and \"parallel\", which he claims are completely wrong and inconsistent with common English language definitions.</p>\n<p>Firstly, I don't know if the software industry is any better or worse at naming things than other industries (think of all the incomprehensible jargon in legalese, and there are plenty of lawyers with liberal arts degrees!), but I do take issue with the example of \"asynchronous\"/\"concurrent\" being \"just wrong\" English.</p>\n<p>\"Asynchronous\" is commonly used in contrast to \"real-time\" with respect to communication: A phone call is \"real-time\" (or \"synchronous\"), while email is \"asynchronous\". This is not a software engineering idiom, it is <a href=\"https://www.merriam-webster.com/dictionary/asynchronous#examples\">common English usage</a>.</p>\n<p>So Bob can send Alice an email. Alice can respond whenever she wants, and while Bob waits for a reply, he can do other tasks like read a book. This is \"asynchronous\" communication, in the software-sense and in common English.</p>\n<p>Confusingly, <a href=\"https://www.merriam-webster.com/thesaurus/asynchronous\">\"concurrent\" is technically an *antonym* of asynchronous</a>, but this is NOT a contradiction. It just depends on what you are describing in relation to what. In the example above:</p>\n<ul>\n<li>Bob can read a book while Alice responds: these two tasks are \"concurrent\" because they are happening at the same time</li>\n<li>The communication between Alice and Bob is asynchronous: Alice can respond when she wants, and Bob can do other things while he waits</li>\n</ul>\n<p>So the communication is asynchronous, which enables Bob and Alice to do <em>other</em> tasks concurrently.</p>\n<p>In this framing, it makes pretty good sense to me why JS functions are called \"async\" and how they can be used to achieve \"concurrency\". Ultimately, these are complex and nuanced topics. It takes experience to grok them, and I think if we consulted all the top English majors in the world to come up with better names, there would still be confusion (maybe even more so <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span> )</p>\n<p>To the larger point: yes, communication is hard, and probably a lot of engineers could do more to develop this skill. Relevant context and precise language are always better. You can't just say \"implement this async\" without any context and expect 100 other engineers know what it means, but that's true of almost any phrase used out of context.</p>",
+        "id": 476529625,
+        "sender_full_name": "Brian Buchholz",
+        "timestamp": 1728744741
+    }
+]

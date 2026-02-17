@@ -1,0 +1,14 @@
+# Want to add more channels? Just send a merge request to this file.
+included:
+  - applenerds
+  - bookclub
+  - friends
+  - games
+  - general
+  - gotime
+  - homelab
+  - interviews
+  - jsparty
+  - kaizen
+  - practicalai
+  - shipit

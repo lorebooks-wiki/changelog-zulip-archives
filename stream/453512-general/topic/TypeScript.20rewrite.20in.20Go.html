@@ -1,0 +1,241 @@
+<html>
+<head><meta charset="utf-8"><title>TypeScript rewrite in Go · general · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/index.html">general</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html">TypeScript rewrite in Go</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="505243213"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505243213" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jerod Santo <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505243213">(Mar 12 2025 at 20:33)</a>:</h4>
+<p>Curious what everyone's thoughts/excitement level are on yesterday's announcement from Anders Hejlsberg and the TypeScript team. </p>
+<p>Adam and I recorded a little something about it: <a href="https://youtu.be/73cUBCzS8NQ">https://youtu.be/73cUBCzS8NQ</a></p>
+<div class="youtube-video message_inline_image"><a data-id="73cUBCzS8NQ" href="https://youtu.be/73cUBCzS8NQ"><img src="https://uploads.zulipusercontent.net/3746de266c92b9eec9b10cc85f12d59d26382ff8/68747470733a2f2f692e7974696d672e636f6d2f76692f3733635542437a53384e512f6d7164656661756c742e6a7067"></a></div>
+
+
+
+<a name="505247287"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505247287" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505247287">(Mar 12 2025 at 20:53)</a>:</h4>
+<p>I read the news but I thought it was the compilation speed that was sped up not the runtime.</p>
+
+
+
+<a name="505248697"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505248697" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Alex Barnes <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505248697">(Mar 12 2025 at 21:00)</a>:</h4>
+<p>Yes I thought the same, the press release spoke of 10x speed increases in compilation. Don't remember seeing anything about runtime.</p>
+
+
+
+<a name="505251298"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505251298" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505251298">(Mar 12 2025 at 21:13)</a>:</h4>
+<p>Well, the runtime is up to JavaScriptCore, V8, Spider monkey, etc<br>
+It's plain JavaScript at runtime</p>
+
+
+
+<a name="505251805"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505251805" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505251805">(Mar 12 2025 at 21:16)</a>:</h4>
+<p>But yeah, very interesting <br>
+And the presentation mentioned "porting" and "circular references" which does explain why they wouldn't go for Rust, as a TypeScript code base is going to have loads of data structures and data flows that need a bit of a rethink in Rust<br>
+What's strange is that both Go and C# seem like reasonable targets for porting TypeScript line by line, but they chose not to go with C#</p>
+
+
+
+<a name="505252519"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505252519" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Alex Barnes <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505252519">(Mar 12 2025 at 21:20)</a>:</h4>
+<p>From the interview:</p>
+<p>Dimitri: Was C# considered?</p>
+<p>Anders: It was, but I will say that I think Go definitely is -- it's, I'd say, the lowest-level language we can get to and still have automatic garbage collection. It's the most native-first language we can get to and still have automatic GC. In C#, it's sort of bytecode first, if you will; there is some ahead-of-time compilation available, but it's not on all platforms and it doesn't have a decade or more of hardening. It was not geared that way to begin with. Additionally, I think Go has a little more expressiveness when it comes to data structure layout, inline structs, and so forth. For us, one additional thing is that our JavaScript codebase is written in a highly functional style -- we use very few classes; in fact, the core compiler doesn't use classes at all -- and that is actually a characteristic of Go as well. Go is based on functions and data structures, whereas C# is heavily OOP-oriented, and we would have had to switch to an OOP paradigm to move to C#. That transition would have involved more friction than switching to Go. Ultimately, that was the path of least resistance for us.</p>
+
+
+
+<a name="505254816"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505254816" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505254816">(Mar 12 2025 at 21:32)</a>:</h4>
+<p>Ah, that makes sense</p>
+
+
+
+<a name="505254881"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505254881" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505254881">(Mar 12 2025 at 21:32)</a>:</h4>
+<p>I forgot that C# (like Java that inspired it) is classes first</p>
+
+
+
+<a name="505255380"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505255380" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505255380">(Mar 12 2025 at 21:35)</a>:</h4>
+<p>I really wish more folks would follow Mitchell Hashimoto's example and feel free to say that they make technical choices based on subjective factors (e.g. he just enjoys writing in Zig)</p>
+<p>I wonder if there was just plain more love for Go than C# on the TypeScript team?</p>
+
+
+
+<a name="505263453"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505263453" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Alex Barnes <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505263453">(Mar 12 2025 at 22:20)</a>:</h4>
+<p>Yes it had me puzzled why they would pick go too. But makes sense. <br>
+There was large part of the transcript in this Reddit post. <a href="https://www.reddit.com/r/golang/comments/1j8shzb/microsoft_rewriting_typescript_in_go">https://www.reddit.com/r/golang/comments/1j8shzb/microsoft_rewriting_typescript_in_go</a><br>
+It read really well and makes a lot of sense.</p>
+
+
+
+<a name="505303819"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505303819" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Daniel Buckmaster <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505303819">(Mar 13 2025 at 03:01)</a>:</h4>
+<p>I'm pretty excited for this. In a large Vue codebase, my VS Code intellisense is basically useless. Here's hoping we get a speed bump out of this. Of course, we are also behind on moving to Vite from Webpack so that might help too, but I'm not sure how much that has to do with the IDE performance.</p>
+
+
+
+<a name="505304023"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505304023" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Daniel Buckmaster <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505304023">(Mar 13 2025 at 03:02)</a>:</h4>
+<p>I'm pretty surprised how much confusion there was about compiler performance versus runtime performance. I guess I just live and breathe this stuff, and there are lots of people seeing this who don't write TypeScript every day. On the other hand, people wishing for a "real TypeScript runtime" or "compiling TypeScript to native code" or "optimising TypeScript using its types" has been a persistent meme with little backing in real projects.</p>
+
+
+
+<a name="505306340"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505306340" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505306340">(Mar 13 2025 at 03:18)</a>:</h4>
+<p>The main project I maintain at work is large enough that it takes a few seconds for go-to-definition to start working in a fresh editor/LSP process<br>
+But what I'm really looking forward to here is ESLint's performance when using it with the TypeScript plugin and enabling the linter rules that require the LSP service</p>
+
+
+
+<a name="505390984"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505390984" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> valon-loshaj <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505390984">(Mar 13 2025 at 11:14)</a>:</h4>
+<p>overall i think this is a great move for typescript. tsc sits in every dev’s workflow (at least the ones that work in ts). reducing this step in the workflow to something nominal is fantastic.</p>
+<p>regarding the confusion around runtime and compilation time, my thought is people are reading the headlines and not the details of the announcement. i saw quite a few headlines in my news feed saying things like “typescript just got 10x faster” which is a bit misleading.</p>
+<p>lesson to anyone baited by headlines, always read the post and assume the title is mainly written to lure you in and drive the click <span aria-label="wink" class="emoji emoji-1f609" role="img" title="wink">:wink:</span></p>
+
+
+
+<a name="505520914"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505520914" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505520914">(Mar 13 2025 at 20:37)</a>:</h4>
+<p>It seems like a big part of the speed up here is being able to process files concurrently <br>
+And Node.js does have threads, but I assume the next problem after that is sharing data between threads in an efficient and safe manner</p>
+
+
+
+<a name="505578578"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505578578" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Daniel Buckmaster <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505578578">(Mar 14 2025 at 04:07)</a>:</h4>
+<p>RE performance, Axel has a pretty good summary in this section of his article: <a href="https://2ality.com/2025/03/typescript-in-go.html#where-does-the-10%C3%97-speedup-come-from%3F">https://2ality.com/2025/03/typescript-in-go.html#where-does-the-10%C3%97-speedup-come-from%3F</a></p>
+
+
+
+<a name="505578682"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505578682" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Daniel Buckmaster <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505578682">(Mar 14 2025 at 04:08)</a>:</h4>
+<p>Node has pretty good primitives for message passing between threads, but not for shared memory.</p>
+
+
+
+<a name="505657987"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505657987" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> valon-loshaj <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505657987">(Mar 14 2025 at 12:07)</a>:</h4>
+<p>to implement multi-threading natively with javascript there would be too many changes required. between the event loop and object access it’s hard to see a path to a multi-threaded future for javascript natively.</p>
+<p>however, it wouldn’t be impossible to imagine an abstraction layer for javascript that could support multi-threading (there are already a few oss libraries out in the wild that do a version of this).</p>
+<p>one thing’s for sure, javascript gets so much love, has such a strong community and now with the assistance of gen-ai it’s only a matter of time before we start seeing some huge leaps forward in programming language performance….or maybe i’m just being overly optimistic <span aria-label="sweat smile" class="emoji emoji-1f605" role="img" title="sweat smile">:sweat_smile:</span></p>
+
+
+
+<a name="505765579"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505765579" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505765579">(Mar 14 2025 at 20:56)</a>:</h4>
+<p>Personally I think typescript goes overboard but there is no reason why somebody can't build a proper compiler for it. Not a transpiler to JS but an actual compiler. </p>
+<p>That's what Mojo is doing with python.</p>
+<p>Then again with the rise of AI I think somebody will make a language specific for AI. Something that may be difficult for humans to deal with but trivial for AI but one which can be proven to bug free at runtime. Something like elm or coq or one of those super strict provable languages.</p>
+<p>The AI will spit out the code and will run it through the prover and on the other end you'll be assured it's solid code that won't blow up.</p>
+
+
+
+<a name="505780590"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505780590" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505780590">(Mar 14 2025 at 23:03)</a>:</h4>
+<p>I would love TypeScript so much more if there was a way to disable all the little compromises it makes in order to be compatible with JavaScript</p>
+
+
+
+<a name="505883337"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505883337" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505883337">(Mar 15 2025 at 20:35)</a>:</h4>
+<p>Honestly I just want somebody to make the crystal tooling better. It's such a nice language but the tooling and the compiler suffers which hinders wider adoption and vibrant community.</p>
+
+
+
+<a name="505900438"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505900438" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505900438">(Mar 16 2025 at 00:37)</a>:</h4>
+<p>I've certainly been spoiled by Rust and Go and other modern and well-furnished languages <br>
+It's hard for me to consider adding a language to my toolbox if it doesn't have:</p>
+<ul>
+<li>opinionated auto-formatter</li>
+<li>LSP server go-to-definition, linting, etc</li>
+<li>treesitter grammar for syntax highlighting</li>
+<li>version manager for the compiler/interpreter </li>
+<li>dependency management </li>
+<li>dependency repository </li>
+<li>idiomatic first-party SDKs for AWS/GCP/Azure</li>
+<li>idiomatic clients for SQLite/Postgres/Valkey</li>
+<li>support for WASM/ARM64/AMD64</li>
+<li>support for macOS/Linux</li>
+</ul>
+
+
+
+<a name="505901500"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505901500" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> valon-loshaj <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505901500">(Mar 16 2025 at 00:54)</a>:</h4>
+<p>listened to the 2015 interview with anders… <span class="user-mention" data-user-id="750170">@Jerod Santo</span> sounded like he was a typescript fan at a couple moments in the interview <span aria-label="face with hand over mouth" class="emoji emoji-1f92d" role="img" title="face with hand over mouth">:face_with_hand_over_mouth:</span></p>
+
+
+
+<a name="505956270"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505956270" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jerod Santo <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505956270">(Mar 16 2025 at 13:15)</a>:</h4>
+<p>That was back before I was contractually obligated to hate it <span aria-label="wink" class="emoji emoji-1f609" role="img" title="wink">:wink:</span></p>
+
+
+
+<a name="505964994"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505964994" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> valon-loshaj <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505964994">(Mar 16 2025 at 15:00)</a>:</h4>
+<p>is there a plan to have anders on the pod again soon given the recent go rewrite?</p>
+<p>beyond the go rewrite, would love to hear he perspective on the state of open source in this new gen-ai age.</p>
+
+
+
+<a name="505988610"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505988610" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Yawar Amin <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505988610">(Mar 16 2025 at 19:34)</a>:</h4>
+<p>So, this is obviously very exciting, a 10x improvement in performance is going to save a TON of CI minutes and money for people. this is unambiguously good. in fact, this single port is probably going to save a ton of carbon emissions from happening to, probably far more than most people who talk about doing fancy stuff with programming language power efficiency.</p>
+
+
+
+<a name="505988860"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505988860" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Yawar Amin <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505988860">(Mar 16 2025 at 19:37)</a>:</h4>
+<p>something that i find kind of amusing about TypeScript is that out of the AltJS compilers, it's been the odd one out by being implemented in itself. Flow is implemented in OCaml; ReScript is in OCaml; Gleam is in Rust; Elm and PureScript are in Haskell. and looking at Flow, which is the closest direct TypeScript alternative, it has evolved specialized techniques–like interface files–for speeding up compilation at Facebook/Meta scale.</p>
+
+
+
+<a name="505988961"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505988961" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Yawar Amin <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505988961">(Mar 16 2025 at 19:38)</a>:</h4>
+<p>TypeScript is kind of playing catch-up now with the Go port</p>
+
+
+
+<a name="505995693"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505995693" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505995693">(Mar 16 2025 at 20:56)</a>:</h4>
+<p><span class="user-mention" data-user-id="771585">@Ron Waldon-Howe</span> </p>
+<p>These days if you are writing a language start with the tooling first.</p>
+<p>The go tooling is first rate (except for package management) but the language could use quite a bit of improvement.</p>
+
+
+
+<a name="505996415"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505996415" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505996415">(Mar 16 2025 at 21:05)</a>:</h4>
+<p><span class="user-mention" data-user-id="755905">@Tim Uckun</span> yeah, the tooling is terrific <br>
+Go loses points for me because of governance (the go.mod debacle), the lack of data-race safety,  and how confusing/magical/inconsistent it is in the name of "simplicity"</p>
+
+
+
+<a name="505996587"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/505996587" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#505996587">(Mar 16 2025 at 21:07)</a>:</h4>
+<p>I have a long list of gripes against go the language. As I mentioned before Crystal is a much better language and fixes most if not all of them. Governance of Crystal is a bit insular though. The core team hasn't been all that great at building a community.</p>
+
+
+
+<a name="506254296"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/TypeScript%20rewrite%20in%20Go/near/506254296" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Brett Cannon <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/TypeScript.20rewrite.20in.20Go.html#506254296">(Mar 17 2025 at 20:31)</a>:</h4>
+<p>For anyone else looking for the original link: <a href="https://devblogs.microsoft.com/typescript/typescript-native-port/">https://devblogs.microsoft.com/typescript/typescript-native-port/</a></p>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

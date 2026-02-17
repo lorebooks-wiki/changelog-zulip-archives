@@ -1,0 +1,86 @@
+<html>
+<head><meta charset="utf-8"><title>PiHole: Proxmox vs base metal · homelab · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/index.html">homelab</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/PiHole.3A.20Proxmox.20vs.20base.20metal.html">PiHole: Proxmox vs base metal</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="480242047"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/PiHole%3A%20Proxmox%20vs%20base%20metal/near/480242047" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Colin Dean <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/PiHole.3A.20Proxmox.20vs.20base.20metal.html#480242047">(Nov 02 2024 at 18:51)</a>:</h4>
+<p>My RPi 4-based PiHole DNS system is not performing adequately. Lookups are fine, although running Unbounded as a local resolver can be frustrating because of the time delay inherent in a more privacy-focus DNS configuration. Ultimately, using the admin tool — something I've had to do frequently, frustratingly, because of the slowness issues and incorrect lookups creating HSTS errors — is painful. The log pages take too long to populate and search almost doesn't work.</p>
+<p>I'm considering replacing this w/ an Intel Atom N95-based SBC, already acquired &amp; in testing, running Proxmox with a DietPi VM configured with PiHole.</p>
+<p>I anticipate the SBC not doing much beyond DNS. Should I ditch Proxmox and install DietPi to the metal? This is my first experiment with Proxmox and it's going _okay_ so far.</p>
+<p>I'll probably keep the Raspberry Pi PiHole around as a secondary/fallback in any case. I don't have much of a use for it otherwise at the moment. I might sell it and another RPi4 in a SmartiPi case with display to fund the purchase of a RPi 5 for use as a desktop control panel / monitoring device as I used the RPi4+SmartiPi in the past (its virtual kbd was too cumbersome; this was fixed in the most recent RaspPiOs release!).</p>
+<p>Public fediverse thread with this quandary: <a href="https://mastodon.social/@colindean/113414533649947543">https://mastodon.social/@colindean/113414533649947543</a></p>
+<p>Thoughts?</p>
+
+
+
+<a name="480244868"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/PiHole%3A%20Proxmox%20vs%20base%20metal/near/480244868" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Konrad <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/PiHole.3A.20Proxmox.20vs.20base.20metal.html#480244868">(Nov 02 2024 at 19:34)</a>:</h4>
+<p>I have a similar setup inspired by this video:<br>
+<a href="https://youtu.be/hPfk0qd4xEY?si=j9DO7-1b4-WbXJMD">https://youtu.be/hPfk0qd4xEY?si=j9DO7-1b4-WbXJMD</a></p>
+<div class="youtube-video message_inline_image"><a data-id="hPfk0qd4xEY" href="https://youtu.be/hPfk0qd4xEY?si=j9DO7-1b4-WbXJMD"><img src="https://uploads.zulipusercontent.net/c209c0aff08ce490cd2e799f366fcab97c1f6fb2/68747470733a2f2f692e7974696d672e636f6d2f76692f6850666b307164347845592f64656661756c742e6a7067"></a></div><p>Basically, I run Proxmox on an old laptop and installed my primary pihole on that inside a VM. That allows me to use the hardware for multiple purposes, but it also provides an easy way to backup the pihole instance by sending a VM backup to my NAS.<br>
+My secondary instance is running on a RaspberryPi. If I reboot my proxmox host, keepalived switches the IP to the Pi. If it comes back, the IP switches back as well.</p>
+<p>I mainly use the piholes for ad blocking and DNS resolution in my LAN. Ad blocking does not require syncing. The DNS records are synced via Github actions by copying /etc/pihole/custom.list to the target systems and executing <code>pihole restartdns reload</code>.</p>
+<p>Overall, the setup works quite well. My router uses the floating IP of the pihole setup for the DHCP responses so that all my non static devices get the right nameserver setups automatically.</p>
+
+
+
+<a name="480245072"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/PiHole%3A%20Proxmox%20vs%20base%20metal/near/480245072" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Konrad <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/PiHole.3A.20Proxmox.20vs.20base.20metal.html#480245072">(Nov 02 2024 at 19:37)</a>:</h4>
+<p>Besides having redundancy, it also allows to test pihole upgrades on one instance, and if things would break, there would still be the secondary instance. On proxmox, you can even create a snapshot and rollback if necessary.</p>
+
+
+
+<a name="480767783"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/PiHole%3A%20Proxmox%20vs%20base%20metal/near/480767783" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Raúl <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/PiHole.3A.20Proxmox.20vs.20base.20metal.html#480767783">(Nov 05 2024 at 17:18)</a>:</h4>
+<p>My suggestion: skip Proxmox and VMs for everything you can and use simple containers instead in whatever Linux distribution you feel comfortable with. VMs just add a layer of wasted CPU cycles and memory, are much slower, and a ton more work. I never understood why VMs in Proxmox seem to be the default solution people reach out to. With a VM, you're running an entire operating system, with all the resource consumption and maintenance overhead it entails, and without any real benefit. I have an Intel nuc running more than 20 services with Docker Compose, including pi-hole and adguard home. I cannot imagine having to manage 20+ VMs, with updates, configuration, individual backups, etc.</p>
+<p>More to the point of your RPi not performing adequately, unless you have a very large amount of DNS traffic, I'd say something else is wrong there. I have a RPi 2 running pi-hole and it there's no slowdown whatsoever. If you have a 4 and it's performing poorly, I'd say there's probably another bottleneck somewhere. SD card, perhaps?</p>
+
+
+
+<a name="480768166"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/PiHole%3A%20Proxmox%20vs%20base%20metal/near/480768166" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Raúl <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/PiHole.3A.20Proxmox.20vs.20base.20metal.html#480768166">(Nov 05 2024 at 17:20)</a>:</h4>
+<p>If you try the containers route, this will be useful: <a href="https://www.linuxserver.io/">https://www.linuxserver.io/</a></p>
+
+
+
+<a name="480980655"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/PiHole%3A%20Proxmox%20vs%20base%20metal/near/480980655" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Alex Barnes <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/PiHole.3A.20Proxmox.20vs.20base.20metal.html#480980655">(Nov 06 2024 at 18:47)</a>:</h4>
+<p>Until recently I followed similiar route and just had everything running in docker on an Odroid. But after having to reset up the whole thing multiple times, due to random crashes and updates. I decided to give proxmox a try, and wouldn't go back now.<br>
+I have a single VM with docker running and all same containers as before. But I have nightly backups scheduled. So if I encounter an error I can restore from backup extremely easily.<br>
+Also like the fact I can quickly spin up and new VM to try stuff out, without affecting the setup that is running all my services in docker.</p>
+
+
+
+<a name="480990397"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/PiHole%3A%20Proxmox%20vs%20base%20metal/near/480990397" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Adam Stacoviak <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/PiHole.3A.20Proxmox.20vs.20base.20metal.html#480990397">(Nov 06 2024 at 19:55)</a>:</h4>
+<p>Yup VMs are nice for backup and moving around. I have backups going to TrueNAS and can restore a VM on any Proxmox machine on the network that has access to that backup store. Don't hate on VMs.</p>
+<p>I can also easily spin up a new VM based on a template that's already primed with a set Ubuntu version, ssh key, Docker, etc.</p>
+
+
+
+<a name="481545797"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/PiHole%3A%20Proxmox%20vs%20base%20metal/near/481545797" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Raúl <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/PiHole.3A.20Proxmox.20vs.20base.20metal.html#481545797">(Nov 10 2024 at 09:47)</a>:</h4>
+<p>But you can also automate backups with containers.</p>
+<p>The only advantage I can see on the Proxmox side (and that's Proxmox only, not VMs in general) is the convenience of clicking a few buttons and having a backup done (which can still be achieved for containers by using one of the many backups softwares available). But that means you're backing up the entire VM, OS included, which is hundreds of orders of magnitude larger than what you need for many (I would even say most) of the workloads you run.</p>
+<p>With containers, you mount a directory onto the container as a volume containing the configuration files for the software in the container, perhaps another one for any user-created files, and you just backup those directories. Some of those backups are not even 1 MB. Compared to a few GB for backing up a VM that does exactly the same thing, it just doesn't seem to make sense. Sure, some backups, even if just capturing the mounted directory, will be several hundred GB or even TB, if we're talking about audio or video - but how many of those do you have, versus how many of the config-files-only?</p>
+<p>If what you want is the convenience and ease of use of proxmox, there are some backup software that makes it as easy for regular backups, and you just need to select the directories you want.</p>
+<p>As for moving VMs around, you can also do it with containers. Just move the mounted directories and possibly a docker-compose.yaml file. That's one of the beauties of containers, they're (mostly) idempotent and fully reproducible with ease.</p>
+<p>So by using containers, you'll be saving on disk space, external storage costs (you are keeping a copy of your backups elsewhere, right?), CPU usage by not running a full OS on top of the host OS, and time not spent managing a fleet of virtual machines. This translates to both money savings, and environmental savings. I just don't get it.</p>
+
+
+
+<a name="481546081"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/PiHole%3A%20Proxmox%20vs%20base%20metal/near/481546081" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Raúl <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/PiHole.3A.20Proxmox.20vs.20base.20metal.html#481546081">(Nov 10 2024 at 09:51)</a>:</h4>
+<p>As for the templates, that would be a docker-compose.yaml file. A few Kb. Also much easier to manage than a full disk image of a VM. And if you want a visual tool to manage it like Proxmox, you can use Portainer or one of the various alternatives.</p>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

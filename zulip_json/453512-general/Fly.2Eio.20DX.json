@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>I deployed something to <a href=\"http://Fly.io\">Fly.io</a> for the first time this morning, and already I bloody love it. The tooling just works beautifully. I wanted to share it here as obviously Changelog had some influence in my decision to give them a go <span aria-label=\"big smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"big smile\">:big_smile:</span></p>\n<p>I'm kinda hoping to use Rebel Alliance type services for this project rather than Big Cloud, and it's off to a great start.</p>",
+        "id": 500392509,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1739882791
+    },
+    {
+        "content": "<p>I should second it, definitely investigated after hearing so much on change log and hopefully lining it up for my next project</p>",
+        "id": 500479088,
+        "sender_full_name": "James McNally",
+        "timestamp": 1739901476
+    },
+    {
+        "content": "<p>The only thing I have deployed on fly so far is  my bookmark manager Linkding. <br>\nEasy to get up and running, and since it does not need much it free as the bill is under $5 every month. <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+        "id": 512141374,
+        "sender_full_name": "Bjørn Gustav Baklid",
+        "timestamp": 1744653177
+    }
+]

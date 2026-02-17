@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>I did a little rant about my WTF experience with dropbox so I am looking for an alternative. The reason I am using dropbox are the following.</p>\n<ol>\n<li>Generous free tier, I am not paying for it. Having said that MEGA gives you more for free.</li>\n<li>Seamless sync on the mac and phone. </li>\n<li>WebDav like feature so I don't have to host all the files on all the machines. </li>\n<li>Being able to wipe the folders from a machine remotely. I really want this in case I lose my laptop or it's stolen. I want to be able to log in and say \"remove this device and wipe all the files on it\" and have it do it.</li>\n</ol>\n<p>AFIK dropbox is the only thing that offers that 4th feature. </p>\n<p>Any advice?</p>",
+        "id": 540731347,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1758527770
+    },
+    {
+        "content": "<p>You don't want to go lower level like AWS S3 or CloudFlare R2?</p>",
+        "id": 540907817,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1758583813
+    },
+    {
+        "content": "<p>I thought about that but I would have to code up the function I want which would somehow get a signal from someplace and wipe the local drive in case I lose my laptop or get it stolen. Also I kind of like the idea of webdav in that I don't necessarily want all the files on all the machines all the time. </p>\n<p>I know, I know, I could always encrypt the hard drive and yea I might have to do that if I can't find a decent alternative.</p>",
+        "id": 540927207,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1758602053
+    }
+]

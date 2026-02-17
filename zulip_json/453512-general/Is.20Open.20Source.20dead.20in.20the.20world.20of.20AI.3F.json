@@ -1,0 +1,68 @@
+[
+    {
+        "content": "<p>Trying to not call you out negatively, <span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span>, but thinking about what place Open Source has when everyone's building things from scratch with LLMs, and wrote some thoughts:</p>\n<p><a href=\"https://www.jvt.me/posts/2025/11/17/llm-oss/\">https://www.jvt.me/posts/2025/11/17/llm-oss/</a></p>\n<p>I know you've mentioned you've got an upcoming post so interested to ready more</p>",
+        "id": 556808644,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1763380053
+    },
+    {
+        "content": "<p>Good thoughts, I'm wrestling with this as well. On the margins, I think it's inevitable that codegen trends upward and open source (in the small) trends downward. (Unless we are already enjoying Peak LLM.)</p>\n<p>I can see both the pros and cons to this inevitability, but as a guy who has mostly been an open source consumer (while contributing back as much as it made sense/possible) over the course of my career, I'm leaning toward it being more good than bad.</p>\n<p>At least, that's my current stance on the topic! We'll see how I feel tomorrow <span aria-label=\"rolling on the floor laughing\" class=\"emoji emoji-1f923\" role=\"img\" title=\"rolling on the floor laughing\">:rolling_on_the_floor_laughing:</span></p>",
+        "id": 556859367,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1763392930
+    },
+    {
+        "content": "<p>Dan Abramov had some loosely-related posts on Blue sky recently on this:</p>\n<ul>\n<li><a href=\"https://bsky.app/profile/danabra.mov/post/3m4hukgazik2e\">https://bsky.app/profile/danabra.mov/post/3m4hukgazik2e</a></li>\n<li><a href=\"https://bsky.app/profile/danabra.mov/post/3m3tasjyl2s2h\">https://bsky.app/profile/danabra.mov/post/3m3tasjyl2s2h</a></li>\n</ul>",
+        "id": 556905952,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1763404932
+    },
+    {
+        "content": "<p>they're bullish on local LLMs, once all the VC/PE money dries up and all the cloud-hosted LLMs need sustainable business models (i.e. actually need to charge more money than they spend, what a concept)</p>",
+        "id": 556906132,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1763405000
+    },
+    {
+        "content": "<p>so, in that light, maybe LLM usage will be similar to folks that compile from source rather than download: most people won't bother</p>",
+        "id": 556906487,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1763405127
+    },
+    {
+        "content": "<p>and if most people are preferring to download rather than LLM-generate, then maybe this won't impact the usage of open source too much?</p>",
+        "id": 556906870,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1763405265
+    },
+    {
+        "content": "<p>all of that assumes the VC/PE money will dry up, however, and the counter example is Uber which has lit 10s of billions of dollars on fire, has <strong>never</strong> been profitable (effectively cooks the books to seem otherwise), and yet is still around<br>\ni'm really hoping we, as a species, stop rewarding unsustainable business models at some point <span aria-label=\"fingers crossed\" class=\"emoji emoji-1f91e\" role=\"img\" title=\"fingers crossed\">:fingers_crossed:</span></p>",
+        "id": 556907569,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1763405508
+    },
+    {
+        "content": "<p>Thanks for sharing on News btw!</p>",
+        "id": 556938483,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1763417023
+    },
+    {
+        "content": "<p>\"compile from source\" is a really interesting angle on this - I wonder if that will be how it goes <span aria-label=\"eyes\" class=\"emoji emoji-1f440\" role=\"img\" title=\"eyes\">:eyes:</span></p>",
+        "id": 556938623,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1763417073
+    },
+    {
+        "content": "<p>This recently came across my RSS also - <a href=\"https://nolanlawson.com/2025/11/16/the-fate-of-small-open-source/\">https://nolanlawson.com/2025/11/16/the-fate-of-small-open-source/</a></p>\n<p>EDIT: and of course <em>now</em> I open Jamie's article and see you cited this <span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span></p>",
+        "id": 557874740,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1763457212
+    },
+    {
+        "content": "<blockquote>\n<p>i'm really hoping we, as a species, stop rewarding unsustainable business models at some point</p>\n</blockquote>\n<p>Maybe tech companies will become the new beneficiaries of Modern Monetary Theory - if VCs are willing to prop up the currency supply then who's to tell them otherwise!</p>",
+        "id": 557877279,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1763457974
+    }
+]

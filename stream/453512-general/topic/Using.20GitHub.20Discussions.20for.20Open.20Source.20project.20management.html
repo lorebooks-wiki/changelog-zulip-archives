@@ -1,0 +1,223 @@
+<html>
+<head><meta charset="utf-8"><title>Using GitHub Discussions for Open Source project management · general · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/index.html">general</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html">Using GitHub Discussions for Open Source project management</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="566836738"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/566836738" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jamie Tanna <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#566836738">(Jan 07 2026 at 22:46)</a>:</h4>
+<p>Ghostty recently was the focus on Hacker News about how they use Discussions for managing user questions/reports, but given they'd taken some inspiration from Renovate, I thought I'd write up some of the things we've learned in the 5 years we've used it: <a href="https://www.jvt.me/posts/2026/01/07/renovate-why-discussions/">https://www.jvt.me/posts/2026/01/07/renovate-why-discussions/</a></p>
+
+
+
+<a name="566854426"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/566854426" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#566854426">(Jan 08 2026 at 02:03)</a>:</h4>
+<p>oh, very nice<br>
+and here I am raising a PR without a discussion, haha oops<br>
+<a href="https://github.com/renovatebot/renovate/pull/40264">https://github.com/renovatebot/renovate/pull/40264</a></p>
+
+
+
+<a name="566856058"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/566856058" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#566856058">(Jan 08 2026 at 02:23)</a>:</h4>
+<p>yeah, I think Discussions was a good addition to GitHub, as many things don't fit the open-then-comment-then-fix-then-close pattern<br>
+it's interesting (and maybe even a little confusing to me) that Discussions does have an "answer" feature</p>
+
+
+
+<a name="566901844"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/566901844" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jamie Tanna <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#566901844">(Jan 08 2026 at 09:39)</a>:</h4>
+<p>Haha it's absolutely fine - I dint think we've had too many we've closed as they've needed discussing (<a href="https://github.com/renovatebot/renovate/pulls?q=is%3Apr+label%3Aauto%3Adiscussion-first+is%3Aclosed">https://github.com/renovatebot/renovate/pulls?q=is%3Apr+label%3Aauto%3Adiscussion-first+is%3Aclosed</a> or <a href="https://github.com/renovatebot/renovate/pulls?q=is%3Apr+label%3Aneeds-discussion+is%3A">https://github.com/renovatebot/renovate/pulls?q=is%3Apr+label%3Aneeds-discussion+is%3A</a> closed)</p>
+
+
+
+<a name="566901966"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/566901966" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jamie Tanna <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#566901966">(Jan 08 2026 at 09:40)</a>:</h4>
+<p>We quite like having answer mode on, for our "request help" (but not other types) so it's clear to show what the solution was</p>
+
+
+
+<a name="566902003"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/566902003" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jamie Tanna <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#566902003">(Jan 08 2026 at 09:40)</a>:</h4>
+<p>Out of interest, what do you find confusing here?</p>
+
+
+
+<a name="567036775"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/567036775" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#567036775">(Jan 08 2026 at 21:32)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="755984">Jamie Tanna</span> <a href="#narrow/channel/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management/near/566902003">said</a>:</p>
+<blockquote>
+<p>Out of interest, what do you find confusing here?</p>
+</blockquote>
+<p>mostly just as a product feature: how did they go from forum to mini-StackOverflow?</p>
+
+
+
+<a name="567036894"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/567036894" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#567036894">(Jan 08 2026 at 21:32)</a>:</h4>
+<p>I don't hate it or anything, just surprised that it's there</p>
+
+
+
+<a name="567037108"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/567037108" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#567037108">(Jan 08 2026 at 21:34)</a>:</h4>
+<p>probably my lack of imagination, and thinking Discourse's feature set was the final list for discussions/forums</p>
+
+
+
+<a name="569786072"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/569786072" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#569786072">(Jan 23 2026 at 19:02)</a>:</h4>
+<p>I really want to switch to discussions instead of issues but I want GitHub to stop tying Discussions, Issues, etc to a repository.</p>
+
+
+
+<a name="569786193"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/569786193" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#569786193">(Jan 23 2026 at 19:03)</a>:</h4>
+<p>I want like an Oxide wide discussions space where users could select some repository or category. I'm getting real tired of switching repositories just to view different issues or discussions.</p>
+
+
+
+<a name="569786338"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/569786338" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#569786338">(Jan 23 2026 at 19:04)</a>:</h4>
+<p>Like the model is wrong. I want to view "discussions for the projects I own" rather than "enumerate every project I own and then view discussions separately".</p>
+
+
+
+<a name="569786548"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/569786548" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#569786548">(Jan 23 2026 at 19:05)</a>:</h4>
+<p>It becomes a pain when you have multiple related repositories too. Say you have a core plugin plus some UI component in separate repositories. Now you have separate issues and discussions but the projects are part of the same logical component. Sure you can create a monorepo but they really are separate code bases and the same logical concept.</p>
+
+
+
+<a name="569786657"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/569786657" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#569786657">(Jan 23 2026 at 19:06)</a>:</h4>
+<p>Anyway. The only thing I'm missing from Discussions is that they aren't easily transferred or sync'd to external systems. If you're a Jira shop or something you can't easily get the data from discussions synthesized into Jira issues.</p>
+
+
+
+<a name="569807416"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/569807416" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#569807416">(Jan 23 2026 at 21:43)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="752976">Matthew Sanabria</span> <a href="#narrow/channel/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management/near/569786338">said</a>:</p>
+<blockquote>
+<p>Like the model is wrong. I want to view "discussions for the projects I own" rather than "enumerate every project I own and then view discussions separately".</p>
+</blockquote>
+<p>sounds like the GitHub solution is to monorepo</p>
+
+
+
+<a name="569807498"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/569807498" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#569807498">(Jan 23 2026 at 21:44)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="752976">Matthew Sanabria</span> <a href="#narrow/channel/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management/near/569786657">said</a>:</p>
+<blockquote>
+<p>Anyway. The only thing I'm missing from Discussions is that they aren't easily transferred or sync'd to external systems. If you're a Jira shop or something you can't easily get the data from discussions synthesized into Jira issues.</p>
+</blockquote>
+<p>yeah, the data model for discussions is not a single thread of comments, so it doesn't map to comments in JIRA or elsewhere</p>
+
+
+
+<a name="569811197"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/569811197" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#569811197">(Jan 23 2026 at 22:18)</a>:</h4>
+<p>huh, now I'm wondering how industry practices have shifted to better fit GitHub's data model<br>
+what would the industry look like if source code hosting had been done differently?</p>
+
+
+
+<a name="569832031"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/569832031" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nabeel S <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#569832031">(Jan 24 2026 at 03:28)</a>:</h4>
+<blockquote>
+<p>I really want to switch to discussions instead of issues but I want GitHub to stop tying Discussions, Issues, etc to a repository.</p>
+</blockquote>
+<p>One work around for this is to have a repo that's not dedicated to any one piece of code/project. This one repo has issues and discussions enabled, while all other repos have those features disabled.</p>
+<p>Besides being where all issues and discussions happen, the central git repo itself can also act as the main documentation hub. So after a discussion runs its course, someone can distill the conclusions/decisions into documents that are checked into git.</p>
+<p>Full disclosure: I work at GItHub.</p>
+
+
+
+<a name="569832174"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/569832174" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nabeel S <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#569832174">(Jan 24 2026 at 03:31)</a>:</h4>
+<p>(and you can use tags to label individual discussions by repo/project for filtering purposes)</p>
+
+
+
+<a name="569858867"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/569858867" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jamie Tanna <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#569858867">(Jan 24 2026 at 11:36)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="752976">Matthew Sanabria</span> <a href="#narrow/channel/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management/near/569786072">said</a>:</p>
+<blockquote>
+<p>I really want to switch to discussions [...] but I want GitHub to stop tying Discussions, [...] to a repository.</p>
+</blockquote>
+<p>You can have Discussions at an org-level, at least - not the others though</p>
+<p>(It'll then put them into a specific repo for storage, but folks can interact with it from the top-level view on an org)</p>
+
+
+
+<a name="569858992"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/569858992" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jamie Tanna <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#569858992">(Jan 24 2026 at 11:38)</a>:</h4>
+<p>I've written a thing to sync from GitHub Discussions to a local SQLite database, so I can have raw access to all the data, without needing to hit the GitHub APIs for it, and that's worked nicely - would be straightforward to (vibe)code something that syncs to JIRA, but agreed that it's a pain!</p>
+<p>I guess not enough orgs use Discussions for it to be a first-class feature, as well as a more graph-based / non-linear flow for Discussions (due to threading)</p>
+
+
+
+<a name="574150014"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/574150014" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#574150014">(Feb 16 2026 at 16:44)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="752922">Nabeel S</span> <a href="#narrow/channel/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management/near/569832031">said</a>:</p>
+<blockquote>
+<blockquote>
+<p>I really want to switch to discussions instead of issues but I want GitHub to stop tying Discussions, Issues, etc to a repository.</p>
+</blockquote>
+<p>One work around for this is to have a repo that's not dedicated to any one piece of code/project. This one repo has issues and discussions enabled, while all other repos have those features disabled.</p>
+<p>Besides being where all issues and discussions happen, the central git repo itself can also act as the main documentation hub. So after a discussion runs its course, someone can distill the conclusions/decisions into documents that are checked into git.</p>
+<p>Full disclosure: I work at GItHub.</p>
+</blockquote>
+<p>Is this one repository meant to be a company wide repository that just holds a GitHub Projects project? It would be better if GitHub decoupled GitHub Projects from a repository and allowed you to make them at the organization level.</p>
+
+
+
+<a name="574185910"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/574185910" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#574185910">(Feb 16 2026 at 21:30)</a>:</h4>
+<p>You guys should look into fossil <a href="https://fossil-scm.org/home/doc/trunk/www/index.wiki">https://fossil-scm.org/home/doc/trunk/www/index.wiki</a></p>
+<p>Seems to be a batteries included SCM which would provide you with all that you are looking for.</p>
+
+
+
+<a name="574241771"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/574241771" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tommy Byrd <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#574241771">(Feb 17 2026 at 08:58)</a>:</h4>
+<p><a href="https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project#creating-an-organization-project">https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project#creating-an-organization-project</a></p>
+<p><a href="https://docs.github.com/en/organizations/managing-organization-settings/enabling-or-disabling-github-discussions-for-an-organization">https://docs.github.com/en/organizations/managing-organization-settings/enabling-or-disabling-github-discussions-for-an-organization</a></p>
+<hr>
+<p>Projects are org level. The project items are generally issues/PRs across repos, but you can also make <a href="https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-items-in-your-project/adding-items-to-your-project#creating-draft-issues">draft</a> issues that only live in the project.</p>
+<p>Organization discussions are inherently linked to a dedicated repo, but I think that's mostly because you need a place to configure read/write access and moderation workflows anyway. So the idea is you just delegate a repo to be the place where all that's stored, and then in your org configuration you just pick that repo as the source. </p>
+<p>(disclaimer: I also work at GitHub, but not on the product team)</p>
+
+
+
+<a name="574302321"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/574302321" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#574302321">(Feb 17 2026 at 14:22)</a>:</h4>
+<p>Ha. I tried all of those already but it's not there yet.</p>
+
+
+
+<a name="574302440"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/574302440" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#574302440">(Feb 17 2026 at 14:23)</a>:</h4>
+<p>Draft issues can't have labels. Projects are at the org level but state is stored in the project itself with no ability to have org wide project fields.</p>
+
+
+
+<a name="574302505"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/574302505" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#574302505">(Feb 17 2026 at 14:23)</a>:</h4>
+<p>Parent child relationships are 1:1.</p>
+
+
+
+<a name="574302642"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Using%20GitHub%20Discussions%20for%20Open%20Source%20project%20management/near/574302642" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management.html#574302642">(Feb 17 2026 at 14:23)</a>:</h4>
+<p>Hopefully it continues to get better but I haven't seen much love on the projects feature in a while and I'm starting to get worried.</p>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

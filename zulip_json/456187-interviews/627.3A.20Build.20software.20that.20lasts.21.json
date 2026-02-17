@@ -1,0 +1,158 @@
+[
+    {
+        "content": "<p>After 30+ years in the software industry, Bert Hubert has experienced a lot. He founded PowerDNS, published articles for places like IETF / IEEE, and built his own parliament monitoring system. That just scratches the surface.</p>\n<p>Recently, Bert wrote about what it takes to build software for the long term. Let's dig in. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/627\">https://changelog.fm/627</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.fm/627#t=0\">00:00</a></td>\n<td>Welcome to The Changelog</td>\n<td>01:10</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.fm/627#t=70\">01:10</a></td>\n<td><a href=\"https://retool.com/changelog\">Sponsor: Retool</a></td>\n<td>02:45</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.fm/627#t=236\">03:56</a></td>\n<td>Start the show!</td>\n<td>00:27</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.fm/627#t=263\">04:23</a></td>\n<td>Bert's first job</td>\n<td>03:37</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.fm/627#t=480\">08:00</a></td>\n<td>\"Redundant\" setups</td>\n<td>03:49</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.fm/627#t=709\">11:49</a></td>\n<td>Monitoring the Dutch parliament</td>\n<td>02:33</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.fm/627#t=863\">14:23</a></td>\n<td>Learning in production</td>\n<td>00:56</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.fm/627#t=918\">15:18</a></td>\n<td>MS email scanner now POSTs</td>\n<td>02:46</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.fm/627#t=1085\">18:05</a></td>\n<td>Government data formats</td>\n<td>04:31</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.fm/627#t=1355\">22:35</a></td>\n<td>New Zealand's haka protest</td>\n<td>02:25</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.fm/627#t=1501\">25:01</a></td>\n<td><a href=\"https://temporal.io\">Sponsor: Temporal</a></td>\n<td>02:01</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.fm/627#t=1622\">27:02</a></td>\n<td>Long-term development</td>\n<td>08:43</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.fm/627#t=2145\">35:45</a></td>\n<td>Focusing on simplicity</td>\n<td>14:49</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.fm/627#t=3033\">50:33</a></td>\n<td><a href=\"https://joindeleteme.com\">Sponsor: DeleteMe</a></td>\n<td>01:52</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.fm/627#t=3145\">52:25</a></td>\n<td>How many deps is too many deps?</td>\n<td>04:08</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.fm/627#t=3393\">56:33</a></td>\n<td>You can't trust the network</td>\n<td>01:45</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.fm/627#t=3498\">58:18</a></td>\n<td>When dependencies go wrong</td>\n<td>03:21</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.fm/627#t=3699\">1:01:39</a></td>\n<td>Dependency decision tree</td>\n<td>02:20</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.fm/627#t=3839\">1:03:59</a></td>\n<td>Dependency selection efforts</td>\n<td>01:34</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.fm/627#t=3933\">1:05:33</a></td>\n<td>Dealing with new things</td>\n<td>04:39</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.fm/627#t=4212\">1:10:12</a></td>\n<td>Bert's invested languages</td>\n<td>03:44</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.fm/627#t=4436\">1:13:56</a></td>\n<td>Bert's language wish</td>\n<td>03:04</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.fm/627#t=4620\">1:17:00</a></td>\n<td>Don't resist the future</td>\n<td>02:36</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.fm/627#t=4776\">1:19:36</a></td>\n<td>AI dependency selection</td>\n<td>01:35</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://changelog.fm/627#t=4870\">1:21:10</a></td>\n<td>Dig in!</td>\n<td>01:06</td>\n</tr>\n<tr>\n<td>26</td>\n<td><a href=\"https://changelog.fm/627#t=4936\">1:22:16</a></td>\n<td>Share your findings!</td>\n<td>01:02</td>\n</tr>\n<tr>\n<td>27</td>\n<td><a href=\"https://changelog.fm/627#t=4998\">1:23:18</a></td>\n<td>Join the community!</td>\n<td>00:16</td>\n</tr>\n<tr>\n<td>28</td>\n<td><a href=\"https://changelog.fm/627#t=5014\">1:23:34</a></td>\n<td>Connecting with Bert</td>\n<td>02:21</td>\n</tr>\n<tr>\n<td>29</td>\n<td><a href=\"https://changelog.fm/627#t=5154\">1:25:54</a></td>\n<td>Closing thoughts and stuff</td>\n<td>01:55</td>\n</tr>\n</tbody>\n</table>",
+        "id": 497975383,
+        "sender_full_name": "Logbot",
+        "timestamp": 1738786508
+    },
+    {
+        "content": "<p>I really enjoyed this interview. I've worked as an IT-consultant for seven years and I've really seen this tendency to pull in a world of dependencies, based on what's popular this or that calendar quarter. </p>\n<p>Some dynamics I also think contribute to complexity over time: </p>\n<ul>\n<li>The company might want to build long-lived software using very simple tools. But the developers are concerned about building an impressive portfolio of popular projects. As knowledge workers, I think many grativate towards complex technologies because profisciency builds clout. </li>\n<li>Also reversely, maybe the developers are really set on building super-simple stuff maybe host it old-school on a plain Linux VM. But management have just signed a super a big enterprise deal with $CLOUD_VENDOR. </li>\n</ul>\n<p>We need to make simple long-lived stuff cool. <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 498340087,
+        "sender_full_name": "Nils",
+        "timestamp": 1738934695
+    },
+    {
+        "content": "<p>This is making me think of the old quote, something like \"If I had more time, I would have written a shorter letter\". Simplicity needs to be worked on constantly, like keeping your sink empty of dishes</p>",
+        "id": 498467972,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1738989849
+    },
+    {
+        "content": "<p>(I'm also enjoying it <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span>)</p>",
+        "id": 498467995,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1738989884
+    },
+    {
+        "content": "<p>I was surprised by the line where Bert mentioned both Awk and Perl as languages you should probably abandon. Really I didn't get the sense that this should be taken literally but more to mean that there is some line where the industry moves on and you should follow along, but still it got me thinking. </p>\n<p>I use Perl oneliners frequently in Bash, both in scripts and on the command line, in place of Awk, because it works the same on Mac and Linux and has a Regex implementation and syntax that I'm more comfortable with. But online, Awk is recommended more often than Perl today despite being functionally replaced by this newer language that is often also installed on most systems by default. This is curious to me. Now in this interview, both languages are mentioned as obsolete ... but I know of no better alternative for on-the-fly text processing. Have I missed something?</p>",
+        "id": 498477028,
+        "sender_full_name": "Pontus",
+        "timestamp": 1738998450
+    },
+    {
+        "content": "<p>I'm guessing the popular approach for text processing these days is a general purpose language, probably Python? Or reaching for an LLM?</p>",
+        "id": 498482626,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1739003975
+    },
+    {
+        "content": "<p>I was surprised to not hear Socket brought up for dependency analysis (unless I missed it)</p>",
+        "id": 498528635,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1739042747
+    },
+    {
+        "content": "<p>Perl was intended to replace awk and sed etc. Ruby is my goto for text processing, unlike python it has no significant whitespace so it's easy to write tiny little scripts and execute them from the command line.  I also use it for processing JSON, YAML  and CSV from the command line.</p>\n<p>There are a couple of books on the subject but this web site can get you started. <br>\n<a href=\"https://learnbyexample.github.io/learn_ruby_oneliners/one-liner-introduction.html\">https://learnbyexample.github.io/learn_ruby_oneliners/one-liner-introduction.html</a></p>\n<p>This bundle contains three books for ten bucks</p>\n<p><a href=\"https://leanpub.com/b/ruby-textprocessing\">https://leanpub.com/b/ruby-textprocessing</a></p>",
+        "id": 498534818,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1739047610
+    },
+    {
+        "content": "<p>Ruby wins (for me) for insignificant whitespace, but Python tends to be pre-installed in more places and is probably faster<br>\nI believe Google and Meta have invested in making Python faster, whilst Ruby doesn't seem to have an experienced corporate sponsor like that<br>\nRuby and Python do seem to occupy the same use case (sloppy/dynamic types, garbage collected, easier to learn than Java), so it's interesting that Python is so much more popular i.e. with data science and machine learning <br>\nWas the difficulty in getting Ruby working on Windows such a huge factor?</p>",
+        "id": 498544159,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1739055703
+    },
+    {
+        "content": "<p>Ruby is getting faster with every version. They added a JIT for example and they are constantly working on performance of not only the core language but also the standard library.  Shopify, stripe, github and of course 37 signals have invested millions on making ruby faster, they are the de facto corporate sponsors of ruby. They employ many of the core developers. </p>\n<p>My personal experience and benchmarks show that ruby is faster than Python on almost everything I have tried.   Python relies mostly on the C libs for math and ML work and ruby can call the same libraries. </p>\n<p>AFIK the reason python is more popular is because somebody taught it to physics graduate students and it took off amongst the academia from there. It was a more pleasant alternative to matlab and fortran. Of course they used it to create the ML libs and the pandas interfaces we all use today.</p>\n<p>As far as being installed on platforms it comes installed on the mac but I am not sure about linux but it's an apt-get away in any case.  It's also available on windows, in fact more than fifteen years ago I was working on a dumb thing and tried python but had problems calling COM objects with it but it worked with ruby so I used that instead. Remember COM?</p>",
+        "id": 498635061,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1739135885
+    },
+    {
+        "content": "<p>I have the good (?) fortune of never programming for Windows :)</p>",
+        "id": 498641116,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1739141035
+    },
+    {
+        "content": "<p>Python is used for loads of distribution-specific tooling, too, so it tends to be a mandatory component in even minimal OS installations <br>\nI think macOS removed a bunch of things like MySQL, etc<br>\nI can't remember if Python is still there</p>",
+        "id": 498641414,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1739141286
+    },
+    {
+        "content": "<p>I think the Python FFI at least was more straightforward than Ruby FFI in the past, so in data science space a bit easier to make wrappers in Python for various libraries written in C/C++/Fortran etc.</p>\n<p>The main competitor for Python in academia for dynamic languages would rather be R I think, which is strong in statistical analysis and also wraps many high performance libraries. R is really a statistical analysis DSL, but if you squint a bit it looks almost like a general purpose language.</p>\n<p>Academia/data science has struggled with what they call the \"2 language problem\", i.e. prototype and work with higher level languages first, but then have to rewrite stuff in C/C++/Fortran to get the required performance - which is one reason people created Julia language (both high level syntax and performant). Even that is not enough to dethrone Python or R in that space.</p>",
+        "id": 498732429,
+        "sender_full_name": "Erik Lundevall-Zara",
+        "timestamp": 1739185868
+    },
+    {
+        "content": "<p>Julia looks like a really interesting language.</p>",
+        "id": 498865825,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1739222512
+    },
+    {
+        "content": "<p>I noticed it now has a first party toolchain manager juliaup<br>\nThis feature should be mandatory for new languages :)</p>",
+        "id": 498870149,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1739223925
+    },
+    {
+        "content": "<p>I agree Bert wasn't singling out Perl because of any specific ire toward it. He even admitted later on in the conversation that the Perl folk still have their wits about them when it comes to processing lots of text.</p>\n<p>I cut my scripting teeth on Perl, but ditched it once I found Ruby. Matz did a good job of stealing \"the good parts\" from Perl when it comes to command-line invocation, system utilities, file/text processing, etc. He also stole some of the \"bad parts\" (obscure global variables), but oh well.</p>\n<p>Still, I have a lot of respect for Perl and would <em>love</em> to have Larry Wall on the show (but he's hard to reach, sadly)...</p>",
+        "id": 499307306,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1739387003
+    },
+    {
+        "content": "<p>During the talk of dependency information, y'all may remember <a href=\"https://changelog.com/friends/31\">https://changelog.com/friends/31</a> where we talked about my project Dependency Management Data, which does provide a number of these insights - but appreciate it doesn't have the coolness of \".ai\" <span aria-label=\"stuck out tongue closed eyes\" class=\"emoji emoji-1f61d\" role=\"img\" title=\"stuck out tongue closed eyes\">:stuck_out_tongue_closed_eyes:</span></p>",
+        "id": 499396763,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1739432345
+    },
+    {
+        "content": "<p>And re grading of dependencies, Microsoft have a version of this (<a href=\"https://podcast.chaoss.community/77\">https://podcast.chaoss.community/77</a>) which we're building at Elastic as a way of giving folks that view of \"is this dependency used at the org\" or \"does this fit in org policies\"</p>",
+        "id": 499401120,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1739433792
+    },
+    {
+        "content": "<p>about the Haka.</p>\n<p>There are many types of Haka, they are kind of songs or chants or challenges to be used in various events and ceremonies.  It's a part and parcel of Maori and therefore NZ culture.</p>\n<p>The particular Haka performed in the parliament is called \"Ka Mate\" and it's the most famous Haka due to it's usage by the NZ sports teams and the military. It's a kind of a war cry declaring that you are ready to fight, endure hardship, and if necessary to die in order to triumph.  <a href=\"https://en.wikipedia.org/wiki/Ka_Mate\">https://en.wikipedia.org/wiki/Ka_Mate</a></p>\n<p>The bill in question was trying to undermine the foundational treaty between the Maori and the crown (the queen of England) which established the rights and the privileges of the indigenous population of the land and the colonial power. The treaty was written after a prolonged war.  It is seen as a foundational document for the state of New Zealand.  The current right wing government is formed by a \"libertarian\" (supposedly) party which seeks to undermine the treaty and strip rights from the Maori which were granted by the treaty.  This party has ties to various right wing parties in the USA, UK and Europe and is funded by the same think tanks and PACs that are active over there.  They don't have a lot of support in terms of percentage of voters but due to the nature of parliamentary government they have tremendous power in running the country right now.</p>",
+        "id": 499619177,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1739497243
+    },
+    {
+        "content": "<p>Oh and here is a link to the actual performance <a href=\"https://www.youtube.com/watch?v=25AUCNZKEnY\">https://www.youtube.com/watch?v=25AUCNZKEnY</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"25AUCNZKEnY\" href=\"https://www.youtube.com/watch?v=25AUCNZKEnY\"><img src=\"https://uploads.zulipusercontent.net/56b2b1d36a91d5caa78745a5d9b645bfd368d40f/68747470733a2f2f692e7974696d672e636f6d2f76692f32354155434e5a4b456e592f64656661756c742e6a7067\"></a></div><p>I should have noted that certain passages and emotions expressed by a haka have corresponding physical and facial expressions. These are postures, hand gestures, facial expressions including mouth and tongue gestures.</p>",
+        "id": 499628663,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1739502798
+    },
+    {
+        "content": "<p>There was a part in this episode when they spoke about building software that's responsible for life. Then another part talking about how the ability of people to build software without or with minimal dependencies or access to the network is fading. Those parts spoke to me especially as we put more and more dependencies out there and programming languages just converge into the same cafeteria Wednesday special slob. It's nice to build with constraints because it forces people to limit dependencies and their access to the network. It forces people to think.</p>",
+        "id": 499951982,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1739654985
+    },
+    {
+        "content": "<p>Voyager 1 was launched in 1977, it's been going for 48  years.  It has a 16 bit processor and 70 KB of memory.  It was programmed in assembly and fortran.</p>\n<p>Many of our other space probes were programmed in ada.</p>\n<p>Maybe it's time we took a second look at ADA and Fortran!</p>",
+        "id": 500044837,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1739739758
+    },
+    {
+        "content": "<p>I'd suggest the programmer attitude made more of a difference than language choice<br>\nThese days, it's far more common to assume infinite system resources and assume problems will be solved by the hardware</p>",
+        "id": 500046028,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1739740760
+    },
+    {
+        "content": "<p>I never got into Ruby, and didn't know there was an '-e' flag. Interesting! Python on the other hand is clearly not an alternative for me. I can see why people who are proficient with it use it, but I'm not great with it and find the relevant white space really inconvenient.</p>",
+        "id": 500085868,
+        "sender_full_name": "Pontus",
+        "timestamp": 1739770133
+    },
+    {
+        "content": "<p>In ruby you can also shell out to bash using the backtick which is a bashism. Makes it super easy, barely an inconvenience.</p>",
+        "id": 500277690,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1739828171
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"771585\">Ron Waldon-Howe</span> <a href=\"#narrow/stream/456187-interviews/topic/627.3A.20Build.20software.20that.20lasts!/near/498641414\">said</a>:</p>\n<blockquote>\n<p>I think macOS removed a bunch of things like MySQL, etc<br>\nI can't remember if Python is still there</p>\n</blockquote>\n<p>Python is still on macOS by default. They even upgraded to 3.12.</p>",
+        "id": 500284865,
+        "sender_full_name": "Joe",
+        "timestamp": 1739831850
+    }
+]

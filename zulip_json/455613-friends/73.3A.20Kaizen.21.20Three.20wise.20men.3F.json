@@ -1,0 +1,170 @@
+[
+    {
+        "content": "<p>Gerhard is back for <a href=\"https://github.com/thechangelog/changelog.com/discussions/525\">Kaizen 17</a>! We discuss our <a href=\"http://CPU.fm\">CPU.fm</a> changes in-depth, detail new Zulip / Neon integrations &amp; put our Pipedream to the test. Oh, and a Gerhard surprise (of course)! <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.com/friends/73\">https://changelog.com/friends/73</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.com/friends/73#t=0\">00:00</a></td>\n<td>Let's Kaizen!</td>\n<td>00:38</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.com/friends/73#t=38\">00:38</a></td>\n<td><a href=\"https://sentry.io/events/launch-week/\">Sponsor: Sentry</a></td>\n<td>02:04</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.com/friends/73#t=162\">02:42</a></td>\n<td><a href=\"https://ia.net/presenter\">iA Presenter &amp; Friends</a></td>\n<td>01:42</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.com/friends/73#t=264\">04:24</a></td>\n<td>The main thing</td>\n<td>04:36</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.com/friends/73#t=540\">09:00</a></td>\n<td><a href=\"https://cpu.fm\">CPU.fm</a></td>\n<td>03:59</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.com/friends/73#t=779\">12:59</a></td>\n<td>JOMO</td>\n<td>04:04</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.com/friends/73#t=1023\">17:03</a></td>\n<td>Jerod's KDD</td>\n<td>01:48</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.com/friends/73#t=1131\">18:51</a></td>\n<td>Embedded Kaizen</td>\n<td>01:44</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.com/friends/73#t=1235\">20:35</a></td>\n<td>Early Xmas</td>\n<td>01:59</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.com/friends/73#t=1354\">22:34</a></td>\n<td>just contribute?</td>\n<td>02:20</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.com/friends/73#t=1494\">24:54</a></td>\n<td><a href=\"http://jellyfin.makeitwork.tv\">jellyfin.makeitwork.tv</a></td>\n<td>05:31</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.com/friends/73#t=1824\">30:24</a></td>\n<td><a href=\"https://github.com/thechangelog/changelog.com/pull/533\">PR #533</a></td>\n<td>05:36</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.com/friends/73#t=2160\">36:00</a></td>\n<td><a href=\"https://coder.com/\">Sponsor: Coder.com</a></td>\n<td>02:24</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.com/friends/73#t=2304\">38:24</a></td>\n<td><a href=\"https://github.com/thechangelog/changelog.com/pull/534\">PR #534</a></td>\n<td>04:29</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.com/friends/73#t=2574\">42:54</a></td>\n<td>All-in on Zulip</td>\n<td>10:49</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.com/friends/73#t=3222\">53:42</a></td>\n<td>Chapters in Zulip</td>\n<td>05:52</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.com/friends/73#t=3574\">59:34</a></td>\n<td>Deploys in Zulip</td>\n<td>07:41</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.com/friends/73#t=4035\">1:07:15</a></td>\n<td><a href=\"https://www.eightsleep.com/changelog\">Sponsor: Eight Sleep</a></td>\n<td>02:29</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.com/friends/73#t=4184\">1:09:44</a></td>\n<td><a href=\"https://www.wix.com/studio\">Sponsor: Wix Studio</a></td>\n<td>00:55</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.com/friends/73#t=4239\">1:10:39</a></td>\n<td><a href=\"https://github.com/thechangelog/pipedream\">Testing our Pipedream</a></td>\n<td>11:43</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.com/friends/73#t=4942\">1:22:22</a></td>\n<td><a href=\"https://pipely.tech\">A new CDN is born</a></td>\n<td>09:47</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.com/friends/73#t=5528\">1:32:08</a></td>\n<td>How close is the Pipedream</td>\n<td>07:35</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.com/friends/73#t=5984\">1:39:44</a></td>\n<td>Bye, friends</td>\n<td>00:59</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.com/friends/73#t=6042\">1:40:42</a></td>\n<td>Coming up next</td>\n<td>01:53</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://changelog.com/friends/73#t=6155\">1:42:35</a></td>\n<td>(Your favorite ever show)</td>\n<td>01:29</td>\n</tr>\n</tbody>\n</table>",
+        "id": 488911259,
+        "sender_full_name": "Logbot",
+        "timestamp": 1734120010
+    },
+    {
+        "content": "<p>Check out those <span aria-label=\"point up\" class=\"emoji emoji-1f446\" role=\"img\" title=\"point up\">:point_up:</span> chapter start time links <span class=\"user-mention\" data-user-id=\"755424\">@Gerhard</span> <span class=\"user-mention\" data-user-id=\"750017\">@Adam Stacoviak</span> <span aria-label=\"star struck\" class=\"emoji emoji-1f929\" role=\"img\" title=\"star struck\">:star_struck:</span></p>",
+        "id": 488911422,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1734120076
+    },
+    {
+        "content": "<p>I immediately jumped here to check those chapter links. They look great!</p>\n<p>Anyway while I’m here, I wish you all the best in the future. Those changes you talked about are big and from outside they look scary. But I can’t say they’re unexpected. </p>\n<p>I will definitely miss the Go time song though.</p>",
+        "id": 488924824,
+        "sender_full_name": "Matous Michalik",
+        "timestamp": 1734125722
+    },
+    {
+        "content": "<p>You don't have to miss it! <a href=\"https://changelog.com/beats/theme-songs\">https://changelog.com/beats/theme-songs</a></p>",
+        "id": 488927619,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1734127125
+    },
+    {
+        "content": "<p>TIL there's a Zulip app, I thought it was only mobile web, so I'm now using that - big pain point of contributing to the community is it's mostly from mobile, and the editing experience is subpar on mobile Web (keyboard pops over the text box, etc)</p>",
+        "id": 488985066,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1734175011
+    },
+    {
+        "content": "<p>I don't think I ever noticed the link structure for the links that go directly to a chapter. I had a little fun trying to find a specific spot in one of the chapters and linking to it (<a href=\"https://changelog.com/friends/73#t=3185\">/friends/73#t=3185</a> or <a href=\"https://changelog.com/friends/73#t=53:05\">/friends/73#t=53:05</a>) <span aria-label=\"green heart\" class=\"emoji emoji-1f49a\" role=\"img\" title=\"green heart\">:green_heart:</span></p>",
+        "id": 488996417,
+        "sender_full_name": "Matt Johnson",
+        "timestamp": 1734184513
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"753112\">@Matt Johnson</span> hard-to-notice feature, but there's also a button in the player that will copy a timestamp link for sharing</p>\n<p><a href=\"/user_uploads/66849/UnHr7OrfKQ09GI4pbJOH539F/CleanShot-2024-12-14-at-08.09.542x.png\">CleanShot 2024-12-14 at 08.09.54@2x.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/UnHr7OrfKQ09GI4pbJOH539F/CleanShot-2024-12-14-at-08.09.542x.png\" title=\"CleanShot 2024-12-14 at 08.09.54@2x.png\"><img data-original-dimensions=\"3024x1476\" src=\"/user_uploads/thumbnail/66849/UnHr7OrfKQ09GI4pbJOH539F/CleanShot-2024-12-14-at-08.09.542x.png/840x560.webp\"></a></div>",
+        "id": 488997634,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1734185467
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755984\">Jamie Tanna</span> <a href=\"#narrow/stream/455613-friends/topic/73.3A.20Kaizen!.20Three.20wise.20men.3F/near/488985066\">said</a>:</p>\n<blockquote>\n<p>TIL there's a Zulip app</p>\n</blockquote>\n<p>I’m a bit disappointed. There’s a new flutter version in beta which is supposedly faster and more reliable but it doesn’t look like they’ve rethought the UX at all. For the most part I rarely notice the difference between Slack and Zulip but on mobile, finding any conversation I was a part of and have already marked read is basically gonna forever.</p>",
+        "id": 489005975,
+        "sender_full_name": "Dustin",
+        "timestamp": 1734192319
+    },
+    {
+        "content": "<p>I agree with mobile app is nowhere near Slack's in usefulness/quality. That's bad news that the new version doesn't rethink the UX much...</p>",
+        "id": 489006233,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1734192536
+    },
+    {
+        "content": "<p>FWIW, I’m going off the 2 screenshots in this blogpost <a href=\"https://blog.zulip.com/2024/12/12/new-flutter-mobile-app-beta/\">https://blog.zulip.com/2024/12/12/new-flutter-mobile-app-beta/</a> not from having played with it</p>",
+        "id": 489009923,
+        "sender_full_name": "Dustin",
+        "timestamp": 1734195657
+    },
+    {
+        "content": "<p>I'm using it right now, and you're right that the fundamental navigation hasn't really changed. There's a lot of feedback happening in <a href=\"http://chat.zulip.org\">chat.zulip.org</a> if you want to make your voice heard!</p>",
+        "id": 489027590,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1734211537
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span> I’m having the exact same dilemma as you about the new MacBook pros!</p>",
+        "id": 489086340,
+        "sender_full_name": "Dustin",
+        "timestamp": 1734271455
+    },
+    {
+        "content": "<p>Also wondering if it makes sense to have a \"Untopic\" topic in #general for the stuff that doesn't yet have a topic.</p>",
+        "id": 489086510,
+        "sender_full_name": "Dustin",
+        "timestamp": 1734271661
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752986\">Daniel Buckmaster</span> <a href=\"#narrow/channel/455613-friends/topic/73.3A.20Kaizen!.20Three.20wise.20men.3F/near/489027590\">said</a>:</p>\n<blockquote>\n<p>I'm using it right now, and you're right that the fundamental navigation hasn't really changed. There's a lot of feedback happening in <a href=\"http://chat.zulip.org\">chat.zulip.org</a> if you want to make your voice heard!</p>\n</blockquote>\n<p>I hate reporting UX issues without being able to suggest a solution <span aria-label=\"sad\" class=\"emoji emoji-2639\" role=\"img\" title=\"sad\">:sad:</span> And I don't really feel like I have a strong sense for what a better experience would be! Slack's is better but I don't think it's ideal by any stretch.</p>",
+        "id": 489086592,
+        "sender_full_name": "Dustin",
+        "timestamp": 1734271742
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"756209\">Dustin</span> <a href=\"#narrow/channel/455613-friends/topic/73.3A.20Kaizen!.20Three.20wise.20men.3F/near/489086510\">said</a>:</p>\n<blockquote>\n<p>Also wondering if it makes sense to have a \"Untopic\" topic in #general for the stuff that doesn't yet have a topic.</p>\n</blockquote>\n<p>This Zulip instance is not configured to require topics so you could just go for it. Just leave out the topic, I mean.</p>",
+        "id": 489091703,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1734276445
+    },
+    {
+        "content": "<p>Still like Pipedream (or Dreampipe) as name because it's a pipe that's a dream to work with. But I'm guessing that's already trademarked.</p>",
+        "id": 489256273,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1734360560
+    },
+    {
+        "content": "<p>Today I learned that there was no direct mention of three wise men, just three gifts.</p>",
+        "id": 489377927,
+        "sender_full_name": "Troy Witthoeft",
+        "timestamp": 1734396927
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"755424\">@Gerhard</span> Regarding the testing of VCL did you consider the build in test tool VTC ?<br>\n<a href=\"https://varnish-cache.org/docs/trunk/reference/vtc.html\">https://varnish-cache.org/docs/trunk/reference/vtc.html#</a></p>\n<p>Can not find any mentioning of it in <a href=\"https://github.com/thechangelog/pipedream/pull/3\">https://github.com/thechangelog/pipedream/pull/3</a><br>\nIf not I would urge you to take a look at it it allows you to build test where you can \"fake\" the backend and allows you to run all tests locally.  Also Varnish useses it to test them self so there is a lot of example code to look at.</p>",
+        "id": 489563669,
+        "sender_full_name": "Pontus Ullgren",
+        "timestamp": 1734465971
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"760321\">@Troy Witthoeft</span> correct. Also they weren't there at Jesus' birth. They visited &lt;= 2 years later.</p>\n<p>Cultural depictions of the Bible are shockingly wrong in the most obvious ways, once you read it carefully for yourself. The Mandella Effect is strong with this one. </p>\n<p>A few other examples, off the top of my head:</p>\n<ul>\n<li>It doesn't say Adam and Eve ate an apple</li>\n<li>It doesn't say Jonah was swallowed by a whale</li>\n<li>It doesn't say money is the root of all evil</li>\n</ul>",
+        "id": 490306334,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1734794126
+    },
+    {
+        "content": "<p>One of the interesting things in genesis is in the garden there is the tree of knowledge and the tree of life. Adam and Eve eat the fruit and gain knowledge of good and evil and once god finds out he sends out cherubim to put flaming swords in front of the tree of life so that they don't eat the fruit of that tree and become immortal and become like gods.</p>\n<p>There is so much to unpack in that story. From the fact that god lied when he told them they would die on the day they ate the fruit and the serpent told them the truth when he said he said god was lying to the fact that immortality was within reach for humanity and prevented with swinging flaming swords at the east border of the garden (the garden apparently has borders!)</p>\n<p>Anyway it's a funny origin story.</p>",
+        "id": 490328594,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1734813530
+    },
+    {
+        "content": "<p>Well, they did sort of die: their old pre-knowledge lives were over<br>\nLike in Tarot, perhaps death here was a symbol of significant change</p>",
+        "id": 490340524,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1734824718
+    },
+    {
+        "content": "<p>The exact quote is \"\"But of the tree of the knowledge of good and evil you shall not eat, for in the day that you eat of it you shall surely die\". Seems pretty straightforward to me but I get that billions of people tend to interpret the bible in millions of ways.</p>\n<p>The serpent on the other hand says </p>\n<p>\"“You will not certainly die,” the serpent said to the woman. 5 “For God knows that when you eat from it your eyes will be opened, and you will be like God, knowing good and evil.”\"</p>\n<p>Which did indeed turn out to be true.</p>\n<p>Here is another wild thing. God told them they could eat the fruit of any tree except the tree of knowledge. He didn't mention the tree of life which means if they did eat from that tree they would be immortal. He also prevented them from eating the fruit of tree of life despite not telling them not to eat it.</p>\n<p>Like I said it's a funny origin story. </p>\n<p>My favorite origin story is the one where many universes are created every time Mahavishnu exhales.  Each universe is created, exists for a certain period of time, and is then destroyed, only to be recreated again in an endless cycle. </p>\n<p>Kind of cool to have a multiverse origin story and the breathing cycle of mahavishnu is the age of the universe.</p>",
+        "id": 490352471,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1734837000
+    },
+    {
+        "content": "<p>These looking amazing!</p>\n<p>I love the tight integration between the Changelog episodes &amp; Zulip. Now Zulip feels like a proper extension of the content, and based on all the comments in this one thread alone, I think that it's working really well.</p>\n<p>I also think that we have the first topic for the next Kaizen: <a href=\"https://github.com/thechangelog/changelog.com/discussions/538\">https://github.com/thechangelog/changelog.com/discussions/538</a></p>\n<p><a href=\"/user_uploads/66849/MI8YbRNiktQFucdRak0NPq1p/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/MI8YbRNiktQFucdRak0NPq1p/image.png\" title=\"image.png\"><img data-original-dimensions=\"1205x513\" src=\"/user_uploads/thumbnail/66849/MI8YbRNiktQFucdRak0NPq1p/image.png/840x560.webp\"></a></div>",
+        "id": 490387050,
+        "sender_full_name": "Gerhard",
+        "timestamp": 1734872038
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752964\">Andrew O'Brien</span> <a href=\"#narrow/channel/455613-friends/topic/73.3A.20Kaizen!.20Three.20wise.20men.3F/near/489256273\">said</a>:</p>\n<blockquote>\n<p>Still like Pipedream (or Dreampipe) as name because it's a pipe that's a dream to work with. But I'm guessing that's already trademarked.</p>\n</blockquote>\n<p>Yes, <code>Pipedream</code> had a nice ring to it, but it was less practical as a domain name: <a href=\"https://www.spaceship.com/domain-search/?query=pipedream.tech&amp;beast=false&amp;tab=domains\">https://www.spaceship.com/domain-search/?query=pipedream.tech&amp;beast=false&amp;tab=domains</a></p>\n<p><a href=\"/user_uploads/66849/X02czGLqaKyaGpMfnxaflJYL/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/X02czGLqaKyaGpMfnxaflJYL/image.png\" title=\"image.png\"><img data-original-dimensions=\"3104x3414\" src=\"/user_uploads/thumbnail/66849/X02czGLqaKyaGpMfnxaflJYL/image.png/840x560.webp\"></a></div><p>It might still come back in the future - <a href=\"http://pipedream.com\">pipedream.com</a> if the idea sticks &amp; grows financially - but for now this makes for a great story, and only those that were there at the beginning get this:</p>\n<p><a href=\"/user_uploads/66849/3_qSArlXdpyQDgJYcMkQ03mG/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/3_qSArlXdpyQDgJYcMkQ03mG/image.png\" title=\"image.png\"><img data-original-dimensions=\"2866x1694\" src=\"/user_uploads/thumbnail/66849/3_qSArlXdpyQDgJYcMkQ03mG/image.png/840x560.webp\"></a></div><p>I expect us to brainstorm some more and find a way to throw a twist of <code>Pied Piper</code> somehow in the mix.</p>\n<p>Current state: <a href=\"https://pipely.tech\">https://pipely.tech</a> 🧙🏼‍♂️🧙🏼‍♂️🧙🏼‍♂️</p>",
+        "id": 490387880,
+        "sender_full_name": "Gerhard",
+        "timestamp": 1734872774
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"754986\">Pontus Ullgren</span> <a href=\"#narrow/channel/455613-friends/topic/73.3A.20Kaizen!.20Three.20wise.20men.3F/near/489563669\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"755424\">Gerhard</span> Regarding the testing of VCL did you consider the build in test tool VTC ?<br>\n<a href=\"https://varnish-cache.org/docs/trunk/reference/vtc.html\">https://varnish-cache.org/docs/trunk/reference/vtc.html#</a></p>\n<p>Can not find any mentioning of it in <a href=\"https://github.com/thechangelog/pipedream/pull/3\">https://github.com/thechangelog/pipedream/pull/3</a><br>\nIf not I would urge you to take a look at it it allows you to build test where you can \"fake\" the backend and allows you to run all tests locally.  Also Varnish useses it to test them self so there is a lot of example code to look at.</p>\n</blockquote>\n<p>I missed this while looking at Varnish. This is super useful, thank you <span class=\"user-mention\" data-user-id=\"754986\">@Pontus Ullgren</span> <span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+        "id": 490387916,
+        "sender_full_name": "Gerhard",
+        "timestamp": 1734872818
+    },
+    {
+        "content": "<p>Pied Pipedream</p>",
+        "id": 490405383,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1734888609
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755424\">Gerhard</span> <a href=\"#narrow/channel/455613-friends/topic/73.3A.20Kaizen!.20Three.20wise.20men.3F/near/490387916\">said</a>:</p>\n<blockquote>\n<p>I missed this while looking at Varnish. This is super useful, thank you <span class=\"user-mention silent\" data-user-id=\"754986\">Pontus Ullgren</span> <span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>\n</blockquote>\n<p>As always the docs can be better around this tool. But a few years ago I was working building varnish vmods and all the tests was made using VTC. I found that the collection of tests from the varnish-cache source code was the best source of information. <a href=\"https://github.com/varnishcache/varnish-cache/tree/master/bin/varnishtest/tests\">https://github.com/varnishcache/varnish-cache/tree/master/bin/varnishtest/tests</a></p>\n<p>Most test has the vcl inline in the test but you can also include vcl files as shown in <a href=\"https://github.com/varnishcache/varnish-cache/blob/master/bin/varnishtest/tests/v00046.vtc\">https://github.com/varnishcache/varnish-cache/blob/master/bin/varnishtest/tests/v00046.vtc</a></p>",
+        "id": 490899957,
+        "sender_full_name": "Pontus Ullgren",
+        "timestamp": 1735234517
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"754986\">Pontus Ullgren</span> <a href=\"#narrow/channel/455613-friends/topic/73.3A.20Kaizen!.20Three.20wise.20men.3F/near/489563669\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"755424\">Gerhard</span> Regarding the testing of VCL did you consider the build in test tool VTC ?<br>\n<a href=\"https://varnish-cache.org/docs/trunk/reference/vtc.html\">https://varnish-cache.org/docs/trunk/reference/vtc.html#</a></p>\n<p>Can not find any mentioning of it in <a href=\"https://github.com/thechangelog/pipedream/pull/3\">https://github.com/thechangelog/pipedream/pull/3</a><br>\nIf not I would urge you to take a look at it it allows you to build test where you can \"fake\" the backend and allows you to run all tests locally.  Also Varnish useses it to test them self so there is a lot of example code to look at.</p>\n</blockquote>\n<p>This landed, we'll talk about it in the next Kaizen <span aria-label=\"muscle\" class=\"emoji emoji-1f4aa\" role=\"img\" title=\"muscle\">:muscle:</span> <a href=\"https://github.com/thechangelog/pipely/tree/v0.0.3/test/vtc\">https://github.com/thechangelog/pipely/tree/v0.0.3/test/vtc</a></p>\n<p><a href=\"/user_uploads/66849/AiGqC9HEaOjCqHB0xGm01jO-/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/AiGqC9HEaOjCqHB0xGm01jO-/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"2032x1677\" src=\"/user_uploads/thumbnail/66849/AiGqC9HEaOjCqHB0xGm01jO-/image.png/840x560.webp\"></a></div>",
+        "id": 516160943,
+        "sender_full_name": "Gerhard",
+        "timestamp": 1746441476
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "content": "<p>Any of yinz got ACME running inside your home network? I'm thinking about it but not really sure if it's really that worth it.</p>",
+        "id": 500799805,
+        "sender_full_name": "Colin Dean",
+        "timestamp": 1740031400
+    },
+    {
+        "content": "<p>Yes via cert-manager running in Kubernetes.</p>",
+        "id": 500946799,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1740076926
+    },
+    {
+        "content": "<p>Showed it in action here a bit: <a href=\"https://www.youtube.com/live/Hi__SsHcjEc?feature=shared\">https://www.youtube.com/live/Hi__SsHcjEc?feature=shared</a></p>",
+        "id": 500946931,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1740076971
+    },
+    {
+        "content": "<p>I got a public domain and have a local pihole to resolve DNS entries. I don't want to run my homelab with open ports, so I use the ACME dns challenge. Works fine with traefik on k3s and on proxmox, homeassistant and synology.</p>",
+        "id": 506827442,
+        "sender_full_name": "Konrad",
+        "timestamp": 1742418109
+    },
+    {
+        "content": "<p>I ended up pulling off some crazy shenanigans with a public domain using Cloudflare for public DNS, a tool called acme-dns (<a href=\"https://github.com/joohoi/acme-dns\">https://github.com/joohoi/acme-dns</a>) that I learned about from an EFF blog article (<a href=\"https://www.eff.org/de/deeplinks/2018/02/technical-deep-dive-securing-automation-acme-dns-challenge-validation\">https://www.eff.org/de/deeplinks/2018/02/technical-deep-dive-securing-automation-acme-dns-challenge-validation</a>), and then set up PowerDNS as my local DNS resolver and split authoritative server for the same public domain on my LAN. I have acme-dns running on a tiny VM in GCP hosting a separate DNS sub domain zone of the public domain and it has an HTTP API I can hit from my anything in my home lab. I set up a bash script to help with registering a new record with acme-dns, then use that to set up a CNAME record as a magic subdomain (_acme-challenge.*) in Cloudflare  pointing to the address registered with the zone operated by acme-dns. Once that's all in place I use certbot on any system in my home lab to request a cert for the domain it has set up with acme-dns. Certbot has support for working with acme-dns (<code>--manual-auth-hook 'acme-dns-client'</code>) so it authenticated with the acme-dns HTTP API and sets the verification value in the DNS record for DNS verification of the certificate without having to reach into my home lab.</p>\n<p>Ya know typing all that out makes me realize I need a better way of describing all the pieces involved here, it's a bit much. I don't think about it much anymore since I have all the pieces automated with some Terraform and Ansible pieces to automatically do all the work on any system I spin up in my home lab.</p>\n<p>The end result is that there is no public access into my home lab, I have publicly valid certificates that I can create and have individual machines in my home lab manage independently using certbot on each system isolating one system from another. My public DNS just has a bunch of those magic sub domain CNAME records pointing to some other DNS zone that just has a bunch of random records that were used for cert validation with Let's Encrypt. All the IP addresses of the systems in my home lab are all local and managed by PowerDNS within my home lab.</p>",
+        "id": 507118437,
+        "sender_full_name": "Matt Johnson",
+        "timestamp": 1742527393
+    },
+    {
+        "content": "<p>Thanks for that guide, Matt. </p>\n<p>The biggest roadblock for me is not having a public IP. My ISP uses CGNAT and so far, I haven't found a way to figure out accessing my homelab securely without using a 3rd party like Tailscale. I have a wireguard \"server\" running on a VPS through which I'm routing the connections, but obviously latency becomes a problem in this case.</p>\n<p>I'd love to know if anyone has figured out a neat way to get https access to a homelab behind CGNAT.</p>",
+        "id": 507201633,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1742539276
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"756545\">@Siddhartha Golu</span> not sure if I fully understand your use case, but isn't the CGNAT problem unrelated to running tls in your homelab? <br>\nI mean if you run acme DNS challenges and a local dns server, you don't need to expose any ports from your LAN publicly. <br>\nI typically use tailscale for setting up external access, but this is just a plus and not a must. <br>\nIf I am at home, I can just connect to wifi and resolve my services with valid tls certs. <br>\nAlso, you can run tailscale on a public vps and redirect traffic from there to your local system via a reverse proxy. Caddy is quite easy to setup for that. </p>\n<p>Alternatively, you can also go with your own CA, the downside is you need to import the root CA cert on any of your clients. I used that before, but let's encrypt is much more convenient in comparison.</p>",
+        "id": 507654912,
+        "sender_full_name": "Konrad",
+        "timestamp": 1742795095
+    },
+    {
+        "content": "<p>You're right <span class=\"user-mention\" data-user-id=\"752887\">@Konrad</span> in that TLS and external access are two different problems. I guess I was looking for an easy way to 1) get access to things running in my homelab behind CGNAT 2) with https 3) without relying on any external services like Tailscale.</p>\n<p>I think what I'm wishing for is simply not possible without a public IP.</p>",
+        "id": 507678192,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1742803686
+    },
+    {
+        "content": "<p>Sometimes, you get a range of ipv6 addresses that might be routable. If that's the case, you could at least reach your services in networks that support ipv6. But yeah... I prefer vpn anyways, tailscale is great, but getting a cheap vps and put some flavor of wireguard should work as well.</p>",
+        "id": 507679028,
+        "sender_full_name": "Konrad",
+        "timestamp": 1742803917
+    }
+]

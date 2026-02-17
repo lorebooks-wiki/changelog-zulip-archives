@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>Got a new M1 Mac Air at work this week. So far it is awesome. Haven't had an Air in years.</p>",
+        "id": 517104881,
+        "sender_full_name": "Marcus Edwards",
+        "timestamp": 1746795328
+    },
+    {
+        "content": "<p>Sorry about creating an extra topic. I am figuring out zulip!</p>",
+        "id": 517104974,
+        "sender_full_name": "Marcus Edwards",
+        "timestamp": 1746795362
+    },
+    {
+        "content": "<p>All good on the new topic! One cool thing about Zulip is you can move messages/threads to different topics after the fact, so it's low risk to just create a new one and let somebody else who's been hanging around longer re-categorize things when appropriate.</p>",
+        "id": 517108596,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1746796440
+    },
+    {
+        "content": "<p>Also, is it an M1?! Because I think they're on M4 or something by now...</p>",
+        "id": 517108694,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1746796462
+    },
+    {
+        "content": "<p>Yeah, I know. I have an M3 pro that I usually use for personal stuff, open source and school.</p>",
+        "id": 517110464,
+        "sender_full_name": "Marcus Edwards",
+        "timestamp": 1746797021
+    },
+    {
+        "content": "<p>Carrying around the Air is nice though, even if it's an M1. Very light in my backpack.</p>",
+        "id": 517110934,
+        "sender_full_name": "Marcus Edwards",
+        "timestamp": 1746797163
+    },
+    {
+        "content": "<p>Yeah my wife has an Air and I'm sometimes jealous of just how portable that sucker is</p>",
+        "id": 517112787,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1746797663
+    },
+    {
+        "content": "<p>I am still hanging on to my m1 air but I think I am going to upgrade to the m4 this year. I like the smaller sizes. I miss my tiny 11 inch macbook air and wish they brought it back. Having said that my eyes have gotten worse since I had it so maybe I wouldn't enjoy it as much. I used to love that thing though. The best machine I remember.</p>",
+        "id": 517191136,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1746826562
+    },
+    {
+        "content": "<p>I use an M3 Air as my main machine, plugged into a 43” monitor. Love it. Sometimes I do wonder how much quicker a Pro would be at compiling Rust code, but there is something so mentally satisfying about the Air that I wouldn’t want to switch <span aria-label=\"smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"smile\">:smile:</span></p>",
+        "id": 517232313,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1746860697
+    },
+    {
+        "content": "<p>I use a mac mini as my desktop and have my mac mini as my \"upstairs computer\". It gets used more than the mini in my office.</p>",
+        "id": 517307466,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1746923243
+    }
+]

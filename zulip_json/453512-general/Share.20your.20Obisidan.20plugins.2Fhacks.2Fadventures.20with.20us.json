@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>I've been using \"vanilla\" Obsidian for years, but I'm just now starting to do more hacking with it. </p>\n<p>Most noteworthily, this week I found Jarkko Linnanvirta's <a href=\"https://github.com/Taitava/obsidian-shellcommands\">Shell commands plugin</a> and I've used it to add three niceties to my workflow:</p>\n<ol>\n<li>\"Convert to transcript\" takes the current file's contents (a Changelog News issue) and converts it into a formatted transcript for me</li>\n<li>\"Send to transcripts\" takes the current file's contents, creates a new file in our transcripts repo, commits it, pushes it to GH</li>\n<li>\"Copy absolute path\" pastes the current file's absolute file path (not Obsidian URL) to my clipboard (which really should be a built-in thing...)</li>\n</ol>\n<p>How about you? Have any good Obsidian plugins/hacks/adventures to share with us?</p>",
+        "id": 512592039,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1744819722
+    },
+    {
+        "content": "<p>Oh damn I wish I'd known about that when I was still using Obsidian! I had built out a PoC of using ripgrep to replace search as even a few months in I'd started finding it hard to find files</p>",
+        "id": 512679762,
+        "sender_full_name": "Dustin",
+        "timestamp": 1744835019
+    },
+    {
+        "content": "<p>This is great! I'm just starting to write out some more complex scripts that I've been just calling from the terminal. </p>\n<p>I've gotten some questions from folks about my Obsidian notebook setup so I started writing up a blog post, I'll share it when it's baked.</p>",
+        "id": 512709263,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1744848529
+    },
+    {
+        "content": "<p>Some of my most used are:</p>\n<p>Dataloom - I basically use this as a task list I can drag and drop items into an order. The files are a custom format that is JSON under the hood which isn't ideal, but yet to find a better alternative.</p>\n<p>Dataview - really useful, I mainly use it for it's ability to write js functions in files.</p>\n<p>Folder notes - I like to use this so that I can click on folders and have a contents page showing the files inside folder. Makes navigation easier for me. </p>\n<p>Slash commander - use too add new slash commands for commands I run regularly </p>\n<p>Templater - I use this a lot for regular notes I make, so I can set the same basic layout for my weekly organiser and also set the date as the title. </p>\n<p>Sync - finally bit the bullet and paid for the official sync service. Really glad I did, I was using a plugin called remotely save for a long time with minio. But had issues with files not syncing and losing changes. This feels a lot more polished.</p>",
+        "id": 512880826,
+        "sender_full_name": "Alex Barnes",
+        "timestamp": 1744911310
+    },
+    {
+        "content": "<p>The shell commands plugin looks really code. One thing I always miss when using Obsidian is the built-in terminal like in VS Code.</p>\n<p>I also use the Sync plugin like Alex and it's worth the $. It just works.</p>\n<p>Before using Obsidian, I just had a pile of markdown files I stored in git. I wrote a Python script to aggregate all my TODOs into a single top-level TODO.md file. When I switched to Obsidian, I didn't want to run the script out-of-band so I made my own extension. I creatively named it <a href=\"https://github.com/joeriddles/extended-task-lists\">Extended Task Lists</a>.</p>\n<p>It automatically aggregates your TODOs and also adds two new types of TODO: <code>- [~]</code> for things you won't do and <code>- [.]</code> for things in progress. Something I kinda picked up from Adam Savage's book Every Tools a Hammer is partially filling in TODOs (with pen + paper).</p>",
+        "id": 512882055,
+        "sender_full_name": "Joe",
+        "timestamp": 1744911693
+    },
+    {
+        "content": "<p>I am amazed that you guys are so organized and have to much information to keep track of. I have never used a todo list other than my mail client. </p>\n<p>I have flirted with some personal information managers back in the stone ages of computing. Two of my favorites were Ecco Pro which got sold and immediately shelved and info select which was a DOS program at the time and still exists (much to my surprise). I even tried org mode for a day or two.</p>\n<p>Today I have some snippets of notes on apple notes and some on google keep. Just tiny little snippets of information.</p>",
+        "id": 512927566,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1744929256
+    },
+    {
+        "content": "<p>I keep wanting to adopt some sort of system, but then I allow perfect to become the enemy of good, wanting an impossible combination of features before getting started</p>",
+        "id": 512930237,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1744930891
+    },
+    {
+        "content": "<p>I used to use Obsidian with a couple of plugins, but ended up switching to Logseq instead after 2+ years. It was too much time spent trying to optimise my setup. Logseq gives good enough organisation support right away, and also uses local markdown files.</p>\n<p>For long form writing though, Obsidian was perhaps better.</p>",
+        "id": 513263873,
+        "sender_full_name": "Erik Lundevall-Zara",
+        "timestamp": 1745147124
+    }
+]

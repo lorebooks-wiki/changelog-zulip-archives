@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p><a href=\"https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation\">https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation</a></p>",
+        "id": 562799597,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1765314659
+    },
+    {
+        "content": "<p>hmmm, interesting <br>\nit doesn't look like it changes anything practically, as the listed corporations were already working together anyway <br>\nso, perhaps it's mostly an appeal to folks that still haven't hopped aboard MCP due to governance concerns? <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span></p>",
+        "id": 562812756,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1765319183
+    },
+    {
+        "content": "<p>good to see Block in the mix, although I've still not got <code>goose</code> working with local+offline models<br>\nthat's my blocker for getting series with agents, at least until I'm forced to adopt a cloud+subscription model (e.g. if my employment depends upon it)</p>",
+        "id": 562813393,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1765319408
+    }
+]

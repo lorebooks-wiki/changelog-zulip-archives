@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>Guess who has DeepSeek-R1 running in their new AI Homelab? I really need to build a better rig. The integrated GPU I’m running is fine for smaller models, but this isn’t going to be much fun “unless you’ve got more power!”</p>",
+        "id": 497195989,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1738442001
+    },
+    {
+        "content": "<p>Do you have any photos of this new experiment you've got running?</p>",
+        "id": 497196101,
+        "sender_full_name": "Matt Johnson",
+        "timestamp": 1738442104
+    },
+    {
+        "content": "<p>Soon</p>",
+        "id": 497196116,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1738442121
+    },
+    {
+        "content": "<p>I wonder if these sorts of USB devices are still useful for these kinds of models and sizes of models? <a href=\"https://coral.ai/products/accelerator/\">https://coral.ai/products/accelerator/</a></p>",
+        "id": 497206759,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1738451497
+    },
+    {
+        "content": "<p>How are accessing it? Home Assistant?</p>",
+        "id": 497310206,
+        "sender_full_name": "Sukhdeep Brar",
+        "timestamp": 1738544902
+    },
+    {
+        "content": "<p>I'm so excited to get started with this. I... need a GPU first. </p>\n<p><span class=\"user-mention\" data-user-id=\"760607\">@Justin Garrison</span>  had a good video on doing this with Talos: <a href=\"https://www.youtube.com/watch?v=HiDWGs1PYhc\">https://www.youtube.com/watch?v=HiDWGs1PYhc</a> </p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"HiDWGs1PYhc\" href=\"https://www.youtube.com/watch?v=HiDWGs1PYhc\"><img src=\"https://uploads.zulipusercontent.net/4af7d0bfc63b593bacfcec0c6518f0a052ca3f0a/68747470733a2f2f692e7974696d672e636f6d2f76692f48694457477331505968632f64656661756c742e6a7067\"></a></div><p>I run Talos across a few Raspberry Pis. I'm going to either build a tower with a GPU to act as another node that can run AI or try to get a Jepson.</p>",
+        "id": 499957261,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1739660161
+    },
+    {
+        "content": "<p>I've had good success running Deep Seek with Ollama on my Mac M4. Not really home lab, since I don't have my (work) laptop running 24/7, but just wanted to point out that a Mac Mini for local AI is a real option. Depending on the use cases, even running on a CPU is fine, if the task isn't time sensitive (like some agentic/reasoning workflows)</p>",
+        "id": 500061341,
+        "sender_full_name": "Sukhdeep Brar",
+        "timestamp": 1739754002
+    }
+]

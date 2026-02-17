@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>I came across <a href=\"https://anytype.io/\">https://anytype.io/</a> and it seems like the only open-source Notion-like that has native Android/iOS apps (although the Android app implements an iOS look and feel, but still incredibly smooth)</p>\n<p>I haven't played with this too much, not have I played with Notion much, either </p>\n<p>And I do need to confirm that it's possible to self-host, but otherwise this seems really promising</p>",
+        "id": 513307291,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1745183419
+    },
+    {
+        "content": "<p>Wow that looks really neat. I am curious as to how it works so I am going to download it and see.</p>",
+        "id": 513309703,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1745185481
+    },
+    {
+        "content": "<p>They invented a new license?</p>",
+        "id": 513325916,
+        "sender_full_name": "loudgolem",
+        "timestamp": 1745199852
+    },
+    {
+        "content": "<p>Yeah, just noticed that, good thing you're awake :)</p>",
+        "id": 513326006,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1745199948
+    },
+    {
+        "content": "<p>It doesn't seem especially unique except for explicitly listing the remote domains that the clients connect to</p>",
+        "id": 513326078,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1745199986
+    },
+    {
+        "content": "<p>Looks like the protocols are MIT, and the apps are all source available <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span></p>",
+        "id": 513342151,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1745211408
+    },
+    {
+        "content": "<p>I've been using Anytype for about two years, I love it. I wanted to be able to make custom types like a habit tracker which took a little bit to figure out but once I set it up it works flawlessly. A big part of why i wanted to use it is because I share can my workspace between all my devices (mac, iOS, windows). You can also replicate to your own network storage if you want to totally own all your data which is real nice.</p>",
+        "id": 514392893,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1745591428
+    },
+    {
+        "content": "<p>Too bad you can't use it as a public blogging forum.</p>",
+        "id": 514469223,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1745618971
+    }
+]

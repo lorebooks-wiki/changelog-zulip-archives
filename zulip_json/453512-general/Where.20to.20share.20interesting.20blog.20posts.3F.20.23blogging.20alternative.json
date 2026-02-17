@@ -1,0 +1,98 @@
+[
+    {
+        "content": "<p>On Slack, we had #general and #blogging for dropping in interesting links from time to time - sometimes it generated some good discussion, but sometimes it didn't. How's best to share these things, here?</p>",
+        "id": 475075940,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1728203957
+    },
+    {
+        "content": "<p>Good question!</p>\n<p>The challenge with naming things (channels, in this case) is you think a name is appropriately scoped, but then here comes a new use-case...</p>\n<p>Example: <a class=\"stream\" data-stream-id=\"460285\" href=\"/#narrow/stream/460285-tv-movies\">#tv-movies</a> is \"A place to discuss media\", but let's say I come across an awesome video on YouTube that I'd like to share. Is it tv? Is it a movie? Do I go against the channel's grain or do I start a new one called #other-videos-that-arent-tv-or-movies?</p>\n<p>I suggest (open to discussion, of course) that we try to organize around specific-yet-generic verbs for channels and see how that works. So we might create:</p>\n<ul>\n<li>#reading (post about things you're reading or think others might enjoy)</li>\n<li>#writing (post about the art/craft of... writing)</li>\n<li>#watching (we could rename <a class=\"stream\" data-stream-id=\"460285\" href=\"/#narrow/stream/460285-tv-movies\">#tv-movies</a> to this)</li>\n<li>#listening (maybe for non-changelog-specific podcasts, music, I dunno this one might be bad)</li>\n</ul>\n<p>Has anybody ever tried organizing discussions this way? Might it work well?</p>",
+        "id": 475101014,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1728222176
+    },
+    {
+        "content": "<p>I like this idea! I had the same thought as Jamie yesterday but in relation to the <a class=\"stream\" data-stream-id=\"460285\" href=\"/#narrow/stream/460285-tv-movies\">#tv-movies</a> channel we had in Slack... so I went and created it, but maybe I shouldn't have <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span> </p>\n<p>If we went this route, we could rename <a class=\"stream\" data-stream-id=\"459184\" href=\"/#narrow/stream/459184-bookclub\">#bookclub</a> into #reading. One thing I'd say is a #writing channel would probably be pretty quiet most of the time, and if you've written a blog post, it might be confusing whether to put that in #reading or #writing... maybe the producer and consumer side of these get collapsed into just one, and separated by topics?</p>",
+        "id": 475107692,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1728228166
+    },
+    {
+        "content": "<p>I think that is a good idea worth exploring! If some topic or group of topics get popular enough, it could potentially move to a separate channel, and new use cases would still have a home in the more generic channel.</p>\n<p>I do not see much co fusion between #reading and #writing - if I am interested in feedback or exposure to the content, that would go into #reading, and if I was more intersted in discussing how to convey certain information, adress certain target groups or write certain types of material, that would go into #writing.<br>\nEven discussing tools to support writing/documentation processes would fit into #writing I think.</p>",
+        "id": 475118667,
+        "sender_full_name": "Erik Lundevall-Zara",
+        "timestamp": 1728235728
+    },
+    {
+        "content": "<p>#writing might be too narrowly scoped. Perhaps a more general #content-creation?</p>",
+        "id": 475119219,
+        "sender_full_name": "Scott Abbey",
+        "timestamp": 1728236147
+    },
+    {
+        "content": "<p>My impression of Zulip is that very broad categories should apply to channels, and manage scope with topics, then if a particular topic generates a lot of ongoing interest, break that into its own channel</p>",
+        "id": 475119300,
+        "sender_full_name": "Scott Abbey",
+        "timestamp": 1728236208
+    },
+    {
+        "content": "<p>The way they describe it in official docs/marketing is that channels determine who sees a message, and the topic is what the message is, well, about. E.g. here <a href=\"https://zulip.com/why-zulip/#zulips-unique-topic-based-threading-model-makes-efficient-communication-possible-heres-how\">https://zulip.com/why-zulip/#zulips-unique-topic-based-threading-model-makes-efficient-communication-possible-heres-how</a></p>\n<p>So I guess that implies some sort of channel structure based on audiences? But that seems less straightforward outside a work/project context, where we're here just as a group of people hanging out based on a big shared Venn diagram of overlapping interests.</p>",
+        "id": 475119531,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1728236365
+    },
+    {
+        "content": "<p>I like the idea of <code>#reading</code>, <code>#watching</code>, <code>#listening</code> and <code>#content-creation</code>.</p>",
+        "id": 475240362,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1728289275
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752943\">James Thurley</span> <a href=\"#narrow/stream/453512-general/topic/Where.20to.20share.20interesting.20blog.20posts.3F.20.23blogging.20alternative/near/475240362\">said</a>:</p>\n<blockquote>\n<p>I like the idea of <code>#reading</code>, <code>#watching</code>, <code>#listening</code> and <code>#content-creation</code>.</p>\n</blockquote>\n<p>Possibly even <code>#projects</code> as a place to share (open sourcey ??) things people are working on.</p>",
+        "id": 475282299,
+        "sender_full_name": "Fershad Irani",
+        "timestamp": 1728302983
+    },
+    {
+        "content": "<p>Ooo, I love the idea of having a place to share open source projects.</p>",
+        "id": 475411545,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1728339449
+    },
+    {
+        "content": "<p>What about <code>#building</code> for \"projects\" so it is in theme with the other verbs?</p>",
+        "id": 475881264,
+        "sender_full_name": "Justin",
+        "timestamp": 1728484500
+    },
+    {
+        "content": "<p>Hmm, or #making but that may imply the maker movement. <span aria-label=\"thinking\" class=\"emoji emoji-1f914\" role=\"img\" title=\"thinking\">:thinking:</span></p>",
+        "id": 476003369,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1728527301
+    },
+    {
+        "content": "<p>Did we decide what we want to do with i.e. <code>#blogging</code>? I ask as I've got something I want to share <span aria-label=\"eyes\" class=\"emoji emoji-1f440\" role=\"img\" title=\"eyes\">:eyes:</span></p>",
+        "id": 482897764,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1731878825
+    },
+    {
+        "content": "<p><a href=\"#narrow/channel/453512-general/topic/new.20channels/near/474035664\">Last time I asked about a new channel</a>, someone suggested I just make a topic in #general, which is what I did.<br>\nWhat about making a topic for your post containing the word <code>#blogging</code> in the title? Then if anyone wants to search for all blog related topics, they can search for the term <code>\"#blogging\"</code> in global search and find everything?<br>\nThat might also help admins move topics later if a blogging channel gets created :)</p>",
+        "id": 482912091,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1731892305
+    },
+    {
+        "content": "<p>Related question. If I wanted to start blogging with the hopes of making ten or twenty cents from the effort in the future what's a good platform? Should I just deploy my own ghost or something?</p>",
+        "id": 483125410,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1731964794
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"755905\">@Tim Uckun</span> I'd say let's create a separate topic, I think there's a lot to say on this topic <span aria-label=\"eyes\" class=\"emoji emoji-1f440\" role=\"img\" title=\"eyes\">:eyes:</span></p>",
+        "id": 483126124,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1731965029
+    }
+]

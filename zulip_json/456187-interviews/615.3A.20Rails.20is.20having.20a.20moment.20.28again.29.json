@@ -1,0 +1,128 @@
+[
+    {
+        "content": "<p>(Includes expletives) David Heinemeier Hansson (DHH), creator of Ruby on Rails and co-owner of 37signals, joined the show to discuss this Rails moment and renewed excitement for Rails. We discuss hard opinions, developers being cooked too long in the JavaScript soup, finding developer joy, the pros and cons of the BDFL, the ongoing WordPress drama with WP Engine, and what's to come in Rails 8.</p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td>00:00</td>\n<td>This week on The Changelog</td>\n<td>01:20</td>\n</tr>\n<tr>\n<td>02</td>\n<td>01:20</td>\n<td><a href=\"https://fly.io/\">Sponsor: Fly.io</a></td>\n<td>02:45</td>\n</tr>\n<tr>\n<td>03</td>\n<td>04:06</td>\n<td>Start the show!</td>\n<td>03:09</td>\n</tr>\n<tr>\n<td>04</td>\n<td>07:15</td>\n<td>Say 5 nice things about JavaScript</td>\n<td>02:22</td>\n</tr>\n<tr>\n<td>05</td>\n<td>09:37</td>\n<td>What is JavaScript soup?</td>\n<td>04:33</td>\n</tr>\n<tr>\n<td>06</td>\n<td>14:10</td>\n<td>#NoBuild</td>\n<td>07:08</td>\n</tr>\n<tr>\n<td>07</td>\n<td>21:19</td>\n<td>Rails' beliefs</td>\n<td>14:30</td>\n</tr>\n<tr>\n<td>08</td>\n<td>35:49</td>\n<td>SQLite is new again</td>\n<td>09:34</td>\n</tr>\n<tr>\n<td>09</td>\n<td>45:23</td>\n<td><a href=\"https://speakeasy.com/\">Sponsor: Speakeasy</a></td>\n<td>00:53</td>\n</tr>\n<tr>\n<td>10</td>\n<td>46:16</td>\n<td>No PaaS required.</td>\n<td>21:27</td>\n</tr>\n<tr>\n<td>11</td>\n<td>1:07:43</td>\n<td>Turso is cool</td>\n<td>02:42</td>\n</tr>\n<tr>\n<td>12</td>\n<td>1:10:25</td>\n<td>What if DHH goes on a bender?</td>\n<td>07:09</td>\n</tr>\n<tr>\n<td>13</td>\n<td>1:17:34</td>\n<td>Nothing lasts forever</td>\n<td>02:01</td>\n</tr>\n<tr>\n<td>14</td>\n<td>1:19:36</td>\n<td><a href=\"https://workos.com\">Sponsor: WorkOS</a></td>\n<td>03:17</td>\n</tr>\n<tr>\n<td>15</td>\n<td>1:22:52</td>\n<td><a href=\"https://getunblocked.com\">Sponsor: Unblocked</a></td>\n<td>02:02</td>\n</tr>\n<tr>\n<td>16</td>\n<td>1:24:55</td>\n<td>Almost canceled.</td>\n<td>06:15</td>\n</tr>\n<tr>\n<td>17</td>\n<td>1:31:11</td>\n<td>Rails with a green hacker heart</td>\n<td>02:48</td>\n</tr>\n<tr>\n<td>18</td>\n<td>1:33:59</td>\n<td>David, you're doing it wrong.</td>\n<td>05:44</td>\n</tr>\n<tr>\n<td>19</td>\n<td>1:39:43</td>\n<td>Don't force me bro</td>\n<td>02:36</td>\n</tr>\n<tr>\n<td>20</td>\n<td>1:42:19</td>\n<td>The missing context</td>\n<td>09:53</td>\n</tr>\n<tr>\n<td>21</td>\n<td>1:52:12</td>\n<td>OK, Laravel.</td>\n<td>04:39</td>\n</tr>\n<tr>\n<td>22</td>\n<td>1:56:51</td>\n<td>Rails 8?</td>\n<td>01:30</td>\n</tr>\n<tr>\n<td>23</td>\n<td>1:58:21</td>\n<td>This was fun</td>\n<td>01:00</td>\n</tr>\n<tr>\n<td>24</td>\n<td>1:59:21</td>\n<td>Closing thoughts and stuff</td>\n<td>02:04</td>\n</tr>\n<tr>\n<td>25</td>\n<td>2:01:25</td>\n<td>BONUS (teaser) !!</td>\n<td>00:45</td>\n</tr>\n</tbody>\n</table>\n<p><span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/615\">https://changelog.fm/615</a></p>",
+        "id": 479958552,
+        "sender_full_name": "Logbot",
+        "timestamp": 1730408346
+    },
+    {
+        "content": "<p>To be super clear, this one does include explicit language. Too many to bleep. ￼￼</p>",
+        "id": 479969817,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1730414736
+    },
+    {
+        "content": "<p>Hearing DHH's opinions and approach to governance makes me think back on the Pieter Hintjens episode (#205). I wonder how ZeroMQ is getting long after his passing! It would be super interesting to check in with the new leadership. He had such a unique take on running a community and project.</p>",
+        "id": 480041663,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1730463011
+    },
+    {
+        "content": "<p>Really good idea <span class=\"user-mention\" data-user-id=\"752986\">@Daniel Buckmaster</span></p>",
+        "id": 480041920,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1730463155
+    },
+    {
+        "content": "<p>I didn't mind the unbleeped episode, but it might have been good to note that at the beginning of the episode for people who care.</p>\n<p>Also interesting idea: could plus plus feeds be customized to disable bleeping? <span aria-label=\"smiley\" class=\"emoji emoji-1f603\" role=\"img\" title=\"smiley\">:smiley:</span></p>",
+        "id": 480237142,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1730568920
+    },
+    {
+        "content": "<p>It was mentioned in the intro to expect explicits.</p>",
+        "id": 480247986,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1730579197
+    },
+    {
+        "content": "<p>I enjoyed the DHH interview. Makes me want to fire up a new app and give it a try. </p>\n<p>Aside from that DHH has got to be the easiest interview ever. Just make a comment and he can talk for an hour about it.</p>",
+        "id": 480248768,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1730580023
+    },
+    {
+        "content": "<p>That was a great episode.  I disagree with DHH on some things it's always entertaining to hear his passion on defending his opinions.</p>",
+        "id": 480320788,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1730652013
+    },
+    {
+        "content": "<p>DHH is always a fresh wind to hear. Great conclusion with that just more or listening the first half and more of discussion during the second half.</p>",
+        "id": 480320986,
+        "sender_full_name": "Anders Johansson",
+        "timestamp": 1730652138
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755905\">Tim Uckun</span> <a href=\"#narrow/stream/456187-interviews/topic/615.3A.20Rails.20is.20having.20a.20moment.20.28again.29/near/480248768\">said</a>:</p>\n<blockquote>\n<p>Aside from that DHH has got to be the easiest interview ever. Just make a comment and he can talk for an hour about it.</p>\n</blockquote>\n<p>I was thinking the same thing, lol</p>\n<p>Yeah this was a great listen. It makes me want to try Rails again. Although I do prefer strongly typed languages...</p>",
+        "id": 480324573,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1730655086
+    },
+    {
+        "content": "<p>The \"Apache foundation is like a retirement home\" comment  had me laughing out loud</p>",
+        "id": 480324641,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1730655128
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752880\">@Lars Ellingsen</span> The thing most people miss is that ruby is an optionally typed language.  There are two typing systems, one built into ruby and one by stripe called sorbet. I prefer the latter because it has type annotations in the code.  I believe both Stripe and Shopify are heavy users of Sorbet so it's in use in massive codebases.</p>\n<p>Most rubyists don't use them because they don't like types but if you do like them they are available for you.</p>\n<p>Finally the sorbet type system is pretty nice. Much nicer that the lame type system in go.</p>",
+        "id": 480339977,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1730669531
+    },
+    {
+        "content": "<p>Yeah that Apache comment was gold.</p>",
+        "id": 480471171,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1730734549
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"755905\">@Tim Uckun</span> yeah from hearing about Sorbet I'd definitely use it if I started a Rails project. Kind of wish I could instead of using Python at work <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 480471416,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1730734620
+    },
+    {
+        "content": "<p>Yeah this was a great listen. It makes me want to try Rails again. Although I do prefer strongly typed languages...</p>\n<p>I prefer strongly typed languages these days as well.</p>",
+        "id": 480471718,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1730734702
+    },
+    {
+        "content": "<p>I laughed at the Apache crack but how true is it? We use Solr at work and have trouble keeping up with releases.</p>",
+        "id": 480537110,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1730759511
+    },
+    {
+        "content": "<p>I wonder if people increasingly prefer strongly typed languages the more time they spend in the industry (as a generalisation, accepting there will be many exceptions)?</p>",
+        "id": 480611269,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1730790317
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"771585\">@Ron Waldon-Howe</span> There have been numerous polls and studies done and there doesn't seem to be a trend or a clear winner in terms of productivity, less bugs etc.   </p>\n<p>My take is that people are attracted to tooling and strongly typed languages tended to have better IDE support.   It will be interesting to see what direction AI driven tools will have on this choice. </p>\n<p>My experience is that there are definitely tradeoffs when using types often at the cost of bloat and messiness of code especially when you are dealing with garbage coming in from the outside world.  In those cases you basically have to build your own type checking at runtime and try and shoehorn that messy data into your neatly typed hierarchy. This kind of stuff is much easier in a language like ruby.</p>",
+        "id": 480796855,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1730839403
+    },
+    {
+        "content": "<p>DHH's takes on pendulum swings remind me of this classic tweet:<br>\n<a href=\"https://x.com/swyx/status/1260019961868677121\">https://x.com/swyx/status/1260019961868677121</a><br>\n<a href=\"/user_uploads/66849/z4xrw7rdmIYYF4LbZQ2HRYDV/EXx9RHYVAAUgegZ.jpg\">EXx9RHYVAAUgegZ.jpg</a><br>\n(Image: \"Cynics versus builders\". Left hand shows a drawing of a pendulum labeled \"Cynics see a pendulum\". Right hand side shows an arrow which oscilates left to right while travelling up the page, labeled \"Builders see switchbacks\")</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/z4xrw7rdmIYYF4LbZQ2HRYDV/EXx9RHYVAAUgegZ.jpg\" title=\"EXx9RHYVAAUgegZ.jpg\"><img data-original-dimensions=\"680x463\" src=\"/user_uploads/thumbnail/66849/z4xrw7rdmIYYF4LbZQ2HRYDV/EXx9RHYVAAUgegZ.jpg/840x560.webp\"></a></div>",
+        "id": 480843141,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1730867492
+    },
+    {
+        "content": "<p>Yes, just like fashion and other areas of human culture, technology certainly has its cycles and pendulums :)</p>",
+        "id": 480843368,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1730867688
+    },
+    {
+        "content": "<p>My take on strongly typed languages is: If the compiler isn't checking my types then I have to be. And I'm lazy.</p>",
+        "id": 480871900,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1730883585
+    }
+]

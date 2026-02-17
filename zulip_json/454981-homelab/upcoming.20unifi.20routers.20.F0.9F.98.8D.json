@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p><a href=\"https://youtu.be/RsZFbkVRN80?si=Z0PHTYH_8TUcnpyk\">https://youtu.be/RsZFbkVRN80?si=Z0PHTYH_8TUcnpyk</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"RsZFbkVRN80\" href=\"https://youtu.be/RsZFbkVRN80?si=Z0PHTYH_8TUcnpyk\"><img src=\"https://uploads.zulipusercontent.net/33b09a91c18b864ed8c460d7fbaacf8e41d61656/68747470733a2f2f692e7974696d672e636f6d2f76692f52735a46626b56524e38302f64656661756c742e6a7067\"></a></div><p>I just got the UCG-MAX but these look way awesome <span aria-label=\"sob\" class=\"emoji emoji-1f62d\" role=\"img\" title=\"sob\">:sob:</span><span aria-label=\"star struck\" class=\"emoji emoji-1f929\" role=\"img\" title=\"star struck\">:star_struck:</span><span aria-label=\"losing money\" class=\"emoji emoji-1f4b8\" role=\"img\" title=\"losing money\">:losing_money:</span><span aria-label=\"losing money\" class=\"emoji emoji-1f4b8\" role=\"img\" title=\"losing money\">:losing_money:</span><span aria-label=\"losing money\" class=\"emoji emoji-1f4b8\" role=\"img\" title=\"losing money\">:losing_money:</span></p>",
+        "id": 501955144,
+        "sender_full_name": "Jarvis",
+        "timestamp": 1740541510
+    },
+    {
+        "content": "<p>The latest UniFi stuff looks so cool. Im fighting the temptation to upgrade my older UDM and switches that work just fine <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span></p>",
+        "id": 504145083,
+        "sender_full_name": "Steven Turturo",
+        "timestamp": 1741368065
+    },
+    {
+        "content": "<p>Got money to burn? Buy new stuff. Else, hold on to your older gear.</p>",
+        "id": 504145869,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1741368331
+    },
+    {
+        "content": "<p>2.5 and 10 Gbps is tempting tho.</p>",
+        "id": 504146030,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1741368380
+    },
+    {
+        "content": "<p>I have 3x node Netgear mesh, and I doubt it conforms to any interoperability standard, so it's probably not something I can replace piece by piece <br>\nI do love Ubiquiti stuff generally<br>\nEach mesh node has a cute little Ubiquiti USB-C powered 5-port ethernet hub dangling off it, very convenient</p>",
+        "id": 504185528,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1741382094
+    }
+]

@@ -1,0 +1,164 @@
+[
+    {
+        "content": "<p>Voices of Oxide on the pod! Cliff Biffle (engineer), Dave Pacheco (engineer), and Ben Leonard (designer) are on the show today. Jerod and I were invited to Oxide's annual internal conference called OxCon to meet the people and to hear the stories of what makes Oxide a truly special place to work right now.</p>\n<p>Cliff Biffle is working on all Hubris and firmware. Cliff says \"There's a lot that happens before the 'main CPU' can even power on.\" Dave Pacheco is leading the efforts on Oxide's \"Update\" system. And Ben Leonard in charge of all things brand and design at Oxide. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/659\">https://changelog.fm/659</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.fm/659#t=0\">00:00</a></td>\n<td>This week on The Changelog</td>\n<td>01:22</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.fm/659#t=82\">01:22</a></td>\n<td><a href=\"https://depot.dev\">Sponsor: Depot</a></td>\n<td>02:12</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.fm/659#t=220\">03:40</a></td>\n<td>Cliff Biffle on Hubris</td>\n<td>01:56</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.fm/659#t=336\">05:36</a></td>\n<td>Oxide's writing culture</td>\n<td>01:41</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.fm/659#t=437\">07:17</a></td>\n<td>Cliff's blogging</td>\n<td>01:12</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.fm/659#t=508\">08:28</a></td>\n<td>Caring for product</td>\n<td>01:30</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.fm/659#t=598\">09:58</a></td>\n<td>Into the firmware</td>\n<td>02:04</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.fm/659#t=722\">12:02</a></td>\n<td>Cliff on Go</td>\n<td>00:32</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.fm/659#t=754\">12:34</a></td>\n<td>Tried to not write Hubris</td>\n<td>01:41</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.fm/659#t=855\">14:15</a></td>\n<td>Kernaling Hubris</td>\n<td>01:14</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.fm/659#t=929\">15:29</a></td>\n<td>One rack. Many Hubris'.</td>\n<td>00:42</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.fm/659#t=971\">16:11</a></td>\n<td>Oxide chips</td>\n<td>01:06</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.fm/659#t=1036\">17:16</a></td>\n<td>Users of Hubris</td>\n<td>01:13</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.fm/659#t=1109\">18:29</a></td>\n<td>Being IRL together</td>\n<td>01:29</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.fm/659#t=1199\">19:59</a></td>\n<td>Being on the inside</td>\n<td>00:32</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.fm/659#t=1231\">20:31</a></td>\n<td>The Office meets Silicon Valley</td>\n<td>01:46</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.fm/659#t=1337\">22:17</a></td>\n<td>People churn</td>\n<td>01:36</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.fm/659#t=1432\">23:52</a></td>\n<td>Uniform compensation</td>\n<td>02:01</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.fm/659#t=1553\">25:53</a></td>\n<td>We're all owners in some way</td>\n<td>01:40</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.fm/659#t=1653\">27:33</a></td>\n<td><a href=\"https://www.coderabbit.ai\">Sponsor: CodeRabbit</a></td>\n<td>01:07</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.fm/659#t=1720\">28:40</a></td>\n<td>Dave Pacheco on Update</td>\n<td>01:29</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.fm/659#t=1809\">30:09</a></td>\n<td>It's Mupdate</td>\n<td>01:37</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.fm/659#t=1907\">31:47</a></td>\n<td>What's an \"Update\"?</td>\n<td>02:44</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.fm/659#t=2071\">34:31</a></td>\n<td>Air gap users</td>\n<td>00:47</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://changelog.fm/659#t=2118\">35:18</a></td>\n<td>Update on Hubris</td>\n<td>02:13</td>\n</tr>\n<tr>\n<td>26</td>\n<td><a href=\"https://changelog.fm/659#t=2251\">37:31</a></td>\n<td>Update without rebooting</td>\n<td>03:24</td>\n</tr>\n<tr>\n<td>27</td>\n<td><a href=\"https://changelog.fm/659#t=2455\">40:55</a></td>\n<td>Failure to Update</td>\n<td>04:40</td>\n</tr>\n<tr>\n<td>28</td>\n<td><a href=\"https://changelog.fm/659#t=2735\">45:35</a></td>\n<td>What if you didn't have to reboot?</td>\n<td>02:15</td>\n</tr>\n<tr>\n<td>29</td>\n<td><a href=\"https://changelog.fm/659#t=2870\">47:50</a></td>\n<td>New novel testing</td>\n<td>02:52</td>\n</tr>\n<tr>\n<td>30</td>\n<td><a href=\"https://changelog.fm/659#t=3042\">50:42</a></td>\n<td>Dave and Bryan is history</td>\n<td>02:25</td>\n</tr>\n<tr>\n<td>31</td>\n<td><a href=\"https://changelog.fm/659#t=3187\">53:07</a></td>\n<td>Solving these problems with Rust</td>\n<td>04:37</td>\n</tr>\n<tr>\n<td>32</td>\n<td><a href=\"https://changelog.fm/659#t=3464\">57:44</a></td>\n<td>Dave on OxCon</td>\n<td>01:49</td>\n</tr>\n<tr>\n<td>33</td>\n<td><a href=\"https://changelog.fm/659#t=3573\">59:33</a></td>\n<td>Ben Leonard on Oxide's design</td>\n<td>01:01</td>\n</tr>\n<tr>\n<td>34</td>\n<td><a href=\"https://changelog.fm/659#t=3634\">1:00:34</a></td>\n<td>Subtle tweaks</td>\n<td>00:41</td>\n</tr>\n<tr>\n<td>35</td>\n<td><a href=\"https://changelog.fm/659#t=3674\">1:01:14</a></td>\n<td>Product is the design</td>\n<td>01:55</td>\n</tr>\n<tr>\n<td>36</td>\n<td><a href=\"https://changelog.fm/659#t=3789\">1:03:09</a></td>\n<td>Designing Oxide's rack</td>\n<td>03:23</td>\n</tr>\n<tr>\n<td>37</td>\n<td><a href=\"https://changelog.fm/659#t=3992\">1:06:32</a></td>\n<td>Designing the unseen hardware</td>\n<td>01:53</td>\n</tr>\n<tr>\n<td>38</td>\n<td><a href=\"https://changelog.fm/659#t=4104\">1:08:24</a></td>\n<td>Oxide's values to design values</td>\n<td>01:30</td>\n</tr>\n<tr>\n<td>39</td>\n<td><a href=\"https://changelog.fm/659#t=4194\">1:09:54</a></td>\n<td>Properly excited</td>\n<td>02:05</td>\n</tr>\n<tr>\n<td>40</td>\n<td><a href=\"https://changelog.fm/659#t=4319\">1:11:59</a></td>\n<td>It's the little things</td>\n<td>00:57</td>\n</tr>\n<tr>\n<td>41</td>\n<td><a href=\"https://changelog.fm/659#t=4376\">1:12:56</a></td>\n<td>Is growth exciting?</td>\n<td>01:06</td>\n</tr>\n<tr>\n<td>42</td>\n<td><a href=\"https://changelog.fm/659#t=4442\">1:14:02</a></td>\n<td>Super awesome and beautiful</td>\n<td>00:33</td>\n</tr>\n<tr>\n<td>43</td>\n<td><a href=\"https://changelog.fm/659#t=4475\">1:14:35</a></td>\n<td>Closing thoughts and stuff</td>\n<td>01:38</td>\n</tr>\n</tbody>\n</table>",
+        "id": 541740308,
+        "sender_full_name": "Logbot",
+        "timestamp": 1758918247
+    },
+    {
+        "content": "<p>Great episode! I think you all covered 3 great areas of the Oxide stack.</p>",
+        "id": 541761798,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1758933566
+    },
+    {
+        "content": "<p>I really enjoyed this episode a lot.</p>",
+        "id": 543335903,
+        "sender_full_name": "Colin Dean",
+        "timestamp": 1759761925
+    },
+    {
+        "content": "<p>Me too. If my skills overlapped I’d definitely apply there, it sounds like a great place to work all around. </p>\n<p>Also, as a fully remote employee who wants to stay that way, +1 for offsites/in-person gatherings being very helpful</p>",
+        "id": 543635089,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1759878437
+    },
+    {
+        "content": "<p>It's a little disappointing to still encounter guests that still don't have a non-Xitter social presence<br>\nNo, LinkedIn doesn't count, don't \"at\" me :P<br>\nBut at least they have a GitHub :)</p>",
+        "id": 543635880,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1759878993
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752976\">@Matthew Sanabria</span> maybe Oxide should host their own Mastodon on a rack, and provide staff (and only staff) with an account? :)</p>",
+        "id": 543635952,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1759879051
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"771585\">Ron Waldon-Howe</span> <a href=\"#narrow/channel/456187-interviews/topic/659.3A.20Voices.20of.20Oxide/near/543635952\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"752976\">Matthew Sanabria</span> maybe Oxide should host their own Mastodon on a rack, and provide staff (and only staff) with an account? :)</p>\n</blockquote>\n<p>That would be cool! I want to run my Bluesky PDS on Oxide but haven't gotten around to it.</p>",
+        "id": 543643054,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1759884607
+    },
+    {
+        "content": "<p>oh yeah, Bluesky is probably the more obvious Xitter alternative given that it's actually popular and _some_ people have heard of it :P</p>",
+        "id": 543644604,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1759885832
+    },
+    {
+        "content": "<p>Yeah haha. Although I'm not finding Bluesky to be as diverse yet. Too much of an echo chamber tech crowd for now.</p>",
+        "id": 543645045,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1759886237
+    },
+    {
+        "content": "<p>Oddly enough I'm finding LinkedIn to be good generally and Mastodon to be good for tech specific things. Like to actually get some niche tech reply.</p>",
+        "id": 543645198,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1759886379
+    },
+    {
+        "content": "<p>yeah, every time i get a reply from a Mastodon instance i've never heard of, it amazes me<br>\nfederation actually works :)</p>",
+        "id": 543645460,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1759886604
+    },
+    {
+        "content": "<p>It really does. If you tag your post with a specific hashtag you'll likely get the eyes you're looking for.</p>",
+        "id": 543645497,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1759886644
+    },
+    {
+        "content": "<p>A good portion of tech folks are on Bsky but getting actual conversations going is hit or miss, decent number of accounts but activity isn't consistent. I stopped being active on Twitter after it got bought.</p>",
+        "id": 543834110,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1759957338
+    },
+    {
+        "content": "<p>Agreed. Oh I should note that if  you listened to this episode and have Oxide questions I'm happy to chat about them.</p>\n<p>Disclaimer being I work at Oxide.</p>",
+        "id": 543836716,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1759958446
+    },
+    {
+        "content": "<p>This is off-topic entirely, but Cliff Biffle is a fantastic name</p>",
+        "id": 544499664,
+        "sender_full_name": "Owen Valentine",
+        "timestamp": 1760346840
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752976\">@Matthew Sanabria</span> does Oxide use a particular planning methodology like OKRs?</p>\n<p>I only thought to ask because someone recommended I read Measure What Matters. It talks about a lot of companies who use OKRs, and it made me curious. OKRs sound like they'd be a good fit for Oxide's culture, but I'd expect the founders have strong opinions that don't involve subscribing to named and acronymmed management philosophies <span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span></p>",
+        "id": 546820901,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1761288452
+    },
+    {
+        "content": "<p>We don't use OKRs in the strict definition of them. We instead write Request for Discussion (RFD) documents to describe what, why, and how we're trying to build and create tickets to track the work for it. Generally the work is tied to a release of Oxide and has things that we'll use to measure that the work was successful.</p>",
+        "id": 546894539,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1761311651
+    },
+    {
+        "content": "<p>But there's no top-level OKR like at other places. Steve and Bryan give us our priorities and we're left to execute on them.</p>",
+        "id": 546894657,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1761311687
+    },
+    {
+        "content": "<p>We've cargo culted OKRs for a few years now where I work<br>\nIdeally, missing a goal would trigger a conversation about work load, focus, assistance, etc<br>\nBut they also seem very easy to weaponise against you if the company needs reasons to fire you</p>",
+        "id": 547002226,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1761341519
+    },
+    {
+        "content": "<p>Interesting that RFDs can fill that role, I guess it makes total sense given the overlapping aims of transparency, alignment, focus etc.</p>\n<p>In my current headspace I would love a podcast episode about the different management approaches that people are Oxide have encountered, it seems like you all have a great mix of experiences and opinions. But I can understand that would probably be deathly boring to everyone else <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span></p>",
+        "id": 547020386,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1761359465
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"771585\">@Ron Waldon-Howe</span> yes I doubt any process can really produce good results independent of a culture of people who care and act in good faith!</p>",
+        "id": 547020423,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1761359496
+    },
+    {
+        "content": "<p>Oh, I've been meaning to ask: what's the intellectual property agreement at Oxide? Is it like <a href=\"https://github.com/github/balanced-employee-ip-agreement\">https://github.com/github/balanced-employee-ip-agreement</a> or will the company sue you if you claim to own a 2 line change to your dotfiles? (probably not the latter)</p>",
+        "id": 547023111,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1761363221
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752986\">Daniel Buckmaster</span> <a href=\"#narrow/channel/456187-interviews/topic/659.3A.20Voices.20of.20Oxide/near/547020386\">said</a>:</p>\n<blockquote>\n<p>Interesting that RFDs can fill that role, I guess it makes total sense given the overlapping aims of transparency, alignment, focus etc.</p>\n<p>In my current headspace I would love a podcast episode about the different management approaches that people are Oxide have encountered, it seems like you all have a great mix of experiences and opinions. But I can understand that would probably be deathly boring to everyone else <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span></p>\n</blockquote>\n<p>That would be a good topic!</p>",
+        "id": 547629633,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1761714034
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"771585\">Ron Waldon-Howe</span> <a href=\"#narrow/channel/456187-interviews/topic/659.3A.20Voices.20of.20Oxide/near/547023111\">said</a>:</p>\n<blockquote>\n<p>Oh, I've been meaning to ask: what's the intellectual property agreement at Oxide? Is it like <a href=\"https://github.com/github/balanced-employee-ip-agreement\">https://github.com/github/balanced-employee-ip-agreement</a> or will the company sue you if you claim to own a 2 line change to your dotfiles? (probably not the latter)</p>\n</blockquote>\n<p>I haven't seen anything that suggests an issue here. Most things are open source under a pretty permissive license.</p>",
+        "id": 547629713,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1761714066
+    },
+    {
+        "content": "<p>Ah, of course, open source</p>",
+        "id": 547629777,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1761714088
+    },
+    {
+        "content": "<p>I'm on one of our internal cloud platform teams, so nothing we sell or make money from, and trying to get clearance for us to be open by default has been like pulling teeth</p>",
+        "id": 547629923,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1761714130
+    },
+    {
+        "content": "<p>That's really unfortunate. Especially because even just publishing that software gives you a great conversation piece with customers. Not to mention it's a good way to showcase your work.</p>",
+        "id": 547632430,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1761716470
+    }
+]

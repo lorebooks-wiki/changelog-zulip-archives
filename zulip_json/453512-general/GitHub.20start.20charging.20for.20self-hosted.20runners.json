@@ -1,0 +1,92 @@
+[
+    {
+        "content": "<p><a href=\"https://github.blog/changelog/2025-12-16-coming-soon-simpler-pricing-and-a-better-experience-for-github-actions/\">https://github.blog/changelog/2025-12-16-coming-soon-simpler-pricing-and-a-better-experience-for-github-actions/</a></p>",
+        "id": 564145832,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1765925248
+    },
+    {
+        "content": "<p>There's some (mostly reasonable) discussion on Hacker News, but it's an interesting one and will be interesting to see how things pan out</p>",
+        "id": 564145887,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1765925285
+    },
+    {
+        "content": "<p>i've noticed a bunch of sign ups on <a href=\"http://tangled.org\">tangled.org</a> , potentially as a result of GitHub enshittification</p>",
+        "id": 564184271,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1765955500
+    },
+    {
+        "content": "<p>I generally use gitlab but have one customer who wanted to use GitHub because it was cost free. I was considering migrating the actions to gitlab still as my gitlab runners are more robust and better support windows docker (we need windows builds)</p>\n<p>It will be interesting to cost this up now. I don't begrudge having to charge for things but I am on the side of the sentiment that actions feel like a bad product which I can swallow for free but any payment wrong</p>",
+        "id": 564189873,
+        "sender_full_name": "James McNally",
+        "timestamp": 1765958235
+    },
+    {
+        "content": "<p>The feedback i have been hearing on LinkedIn and BlueSky has been pretty negative about this change.</p>",
+        "id": 564306825,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1765992330
+    },
+    {
+        "content": "<p>I'm all for customers knowing how much it costs to run a service and paying their fair share, and it should be this way from the very beginning <br>\nI resent business models that rely on burning cash for decades as a path to monopoly, this is just another kind of rug pull<br>\nand I resent the investors that enable this business model</p>",
+        "id": 564334327,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1766002248
+    },
+    {
+        "content": "<p>also, how much of this fee is actually going to orchestrating GitHub Actions? and how much of it is going to GPUs and LLM data centres completely unrelated to Actions?</p>",
+        "id": 564334517,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1766002310
+    },
+    {
+        "content": "<p>Annnnd they walked it back <a href=\"https://github.com/orgs/community/discussions/182186\">https://github.com/orgs/community/discussions/182186</a></p>",
+        "id": 564522586,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1766079429
+    },
+    {
+        "content": "<p>I think the damage is done. The dev world is now making changes to de-GitHub their stack in various ways.</p>",
+        "id": 564542526,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1766085824
+    },
+    {
+        "content": "<p>Yesterday was the first time I questioned leading with GitHub auth vs magic link + auth code.</p>",
+        "id": 564542652,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1766085870
+    },
+    {
+        "content": "<p>To be clear, they should charge appropriately for the control plane. Id be interested in a conversation about what it actually takes to run Actions.</p>",
+        "id": 564542921,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1766085962
+    },
+    {
+        "content": "<p>Is charging for Releases next?</p>",
+        "id": 564543035,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1766085992
+    },
+    {
+        "content": "<p>we had <a href=\"https://ziglang.org/news/migrating-from-github-to-codeberg/\">https://ziglang.org/news/migrating-from-github-to-codeberg/</a> already, too</p>",
+        "id": 564572603,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1766094219
+    },
+    {
+        "content": "<p>it's awkward for the Rust ecosystem, because <a href=\"http://crates.io\">crates.io</a> only offers GitHub authentication, and the official builds run on donated GitHub Actions<br>\nbut it'd be so nice for it to be more independent</p>",
+        "id": 564572846,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1766094328
+    },
+    {
+        "content": "<p>maybe, ultimately, this is how open-source gets sustainably funded? we all self-host our repositories in <a href=\"http://tangled.org\">tangled.org</a> or <a href=\"http://radicle.xyz\">radicle.xyz</a> or similar, and if a big corporation uses our code and puts heavy load on our servers, they have to pay us for the self-hosting costs plus a little bit on top?</p>",
+        "id": 564573271,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1766094529
+    }
+]

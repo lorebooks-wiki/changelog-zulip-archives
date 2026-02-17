@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>I've been listening to the changelog for ages. At least a decade at this point.</p>\n<p>What would be really interesting to me is if there were some episodes that revisited an old topic with the original guest. And I don't mean topics from 2 or 3 years ago, I mean 10 or more. For example you could revisited \"The Rise of io.js #139\",  \"Hoodie, noBackend, Offline-First #111\", or \"<a href=\"http://Exercism.io\">Exercism.io</a> and Crowd-Sourced Code Reviews #108\".</p>\n<p>This would be super interesting as some stories would be successes, and others failures. Hearing about what those people learned over the last decade, and how the project progressed would provide an awesome insight.</p>",
+        "id": 507805316,
+        "sender_full_name": "Brian Douglas",
+        "timestamp": 1742830962
+    },
+    {
+        "content": "<p>I suggested this on the Slack a while ago but it'd be really interesting to check in with the ZeroMQ community. The Pieter Hintjens episode was fantastic. <a href=\"https://changelog.com/podcast/205\">https://changelog.com/podcast/205</a></p>",
+        "id": 507878443,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1742851248
+    },
+    {
+        "content": "<p>Yea, I think it would be great. I'm kind of fed up about hearing about \"new\" libraries and frameworks, that just seem to be clones of older libraries and frameworks. For instance \"local first\" has become trendy, but that is an old concept.</p>",
+        "id": 507961101,
+        "sender_full_name": "Brian Douglas",
+        "timestamp": 1742892787
+    },
+    {
+        "content": "<p>Who was the Posse person? The write once syndicate everywhere?</p>",
+        "id": 509353300,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1743480301
+    },
+    {
+        "content": "<p>Found it!</p>\n<p><a href=\"https://justin.searls.co/about\">https://justin.searls.co/about</a></p>",
+        "id": 509353565,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1743480424
+    },
+    {
+        "content": "<p>Really interesting stuff. I'm personally interested in that model.</p>",
+        "id": 509353621,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1743480451
+    },
+    {
+        "content": "<p>Indieweb has a pretty good guide on POSSE: <a href=\"https://indieweb.org/POSSE\">https://indieweb.org/POSSE</a></p>",
+        "id": 509445626,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1743512553
+    }
+]

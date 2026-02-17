@@ -1,0 +1,116 @@
+[
+    {
+        "content": "<p>Has anyone given <a href=\"https://block.github.io/goose/\">Goose</a> a go? I've been using some Agents for work, and it's a game changer (for me). It's not faster, but, it can work while I'm in a meeting or doing something else.</p>",
+        "id": 507634323,
+        "sender_full_name": "Sukhdeep Brar",
+        "timestamp": 1742783703
+    },
+    {
+        "content": "<p>I installed goose, with ollama and qwen2.5<br>\nBut I can't get it to modify any files<br>\nI'm not sure what I'm missing</p>",
+        "id": 507643140,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1742789145
+    },
+    {
+        "content": "<p>And it seems like it isn't reading files either<br>\nIt only ever spits out generic suggestions in the chat expecting me to do the work</p>",
+        "id": 507643263,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1742789194
+    },
+    {
+        "content": "<p>I did configure it to prompt me before changing files<br>\nBut it never actually does this<br>\nMaybe I need to configure it to do whatever it likes without any warning? (I really do not want this)</p>",
+        "id": 507643494,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1742789367
+    },
+    {
+        "content": "<p>I’m trying to figure out…what does it do?</p>",
+        "id": 507673463,
+        "sender_full_name": "Dustin",
+        "timestamp": 1742802335
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"756209\">Dustin</span> <a href=\"#narrow/stream/453512-general/topic/Home.20Agents/near/507673463\">said</a>:</p>\n<blockquote>\n<p>I’m trying to figure out…what does it do?</p>\n</blockquote>\n<p><a href=\"https://youtu.be/kGUrSzJWgL4\">https://youtu.be/kGUrSzJWgL4</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"kGUrSzJWgL4\" href=\"https://youtu.be/kGUrSzJWgL4\"><img src=\"https://uploads.zulipusercontent.net/b2d93caa379059999ee6342298e95b1037982bee/68747470733a2f2f692e7974696d672e636f6d2f76692f6b475572537a4a57674c342f6d7164656661756c742e6a7067\"></a></div>",
+        "id": 507688296,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1742806350
+    },
+    {
+        "content": "<p>But I can't get very far with that demo, because it doesn't edit files or run commands on my system, unlike in the video</p>",
+        "id": 507688497,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1742806409
+    },
+    {
+        "content": "<p>Which qwen model are you using? I had luck with the 14b. Every smaller model I tried didn't end up doing any tool calls. <br>\nGoose is pretty explicit when it _wants_ to do a tool call, but doesn't because you configured it not to. You either get a prompt saying what it's going to do with an OK button or it says what it wants to do but says it won't since you're in chat only mode</p>",
+        "id": 507713213,
+        "sender_full_name": "Sukhdeep Brar",
+        "timestamp": 1742812096
+    },
+    {
+        "content": "<p>Goose is an OSS option for doing tasks similar to Claude Computer Use.</p>",
+        "id": 507713603,
+        "sender_full_name": "Sukhdeep Brar",
+        "timestamp": 1742812180
+    },
+    {
+        "content": "<p>I'm using the 7b<br>\nThanks for the hint, I'll give a larger model a try<br>\nI think I have been sticking with models &lt; 8GiB size to try to cater to the different GPUs I have on different machines, with 8GiB VRAM being the lowest common denominator</p>",
+        "id": 507883445,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1742853409
+    },
+    {
+        "content": "<p>The model license also matters</p>",
+        "id": 507883675,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1742853520
+    },
+    {
+        "content": "<p>I need to double check the Gemma 3 licence, because that model is optimised for single GPUs which could be an improvement</p>",
+        "id": 507886923,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1742855068
+    },
+    {
+        "content": "<p>Ah, so Gemma 3 doesn't support tool use, so that's out<br>\nI'm going to try phi4-mini:3b and qwen2.5:14b and maybe a few others and see how it goes</p>",
+        "id": 508226642,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1742982904
+    },
+    {
+        "content": "<p><a href=\"#narrow/channel/453512-general/topic/Home.20Agents/near/508226642\">A message</a> was moved here from <a class=\"stream-topic\" data-stream-id=\"453512\" href=\"/#narrow/channel/453512-general/topic/\">#general &gt; <em>general chat</em></a> by <span class=\"user-mention silent\" data-user-id=\"771585\">Ron Waldon-Howe</span>.</p>",
+        "id": 508226748,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1742982936
+    },
+    {
+        "content": "<p>There's a newer demonstration video: <a href=\"https://www.youtube.com/watch?v=cLPKU53vlTI\">https://www.youtube.com/watch?v=cLPKU53vlTI</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"cLPKU53vlTI\" href=\"https://www.youtube.com/watch?v=cLPKU53vlTI\"><img src=\"https://uploads.zulipusercontent.net/7529c183aa103d18e354701a0d66169025e92dd1/68747470733a2f2f692e7974696d672e636f6d2f76692f634c504b553533766c54492f6d7164656661756c742e6a7067\"></a></div>",
+        "id": 508226798,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1742982955
+    },
+    {
+        "content": "<p>I want to use the same model for both work and personal usage, which rules out Llama due to its usage restrictions</p>",
+        "id": 508227070,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1742983035
+    },
+    {
+        "content": "<p>I'm curious to know: for people using this, what's the typical use case? </p>\n<p>I've been using Aider on and off for some time, and generally like the paradigm of user being ultimately in control of steering the output turn by turn. Are the current agents capable enough to do non-trivial tasks fully autonomously?</p>",
+        "id": 508231739,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1742984270
+    },
+    {
+        "content": "<p>I am curious, too. What hardware are you running those models on? I don't own any dedicated gpus so far and played a bit with ollama and open webui on my cpu based system. But yeah... all cpu cores at 100% and still painfully slow... I guess without gpus, you are actually forced to use cloud based models to reach any acceptable performance ...<br>\nI thought about building one system for Ai workload. Maybe besides coding and general chat applications, I could connect it to homeassistant somehow.</p>",
+        "id": 524154802,
+        "sender_full_name": "Konrad",
+        "timestamp": 1750020733
+    },
+    {
+        "content": "<p>(deleted)</p>",
+        "id": 524170426,
+        "sender_full_name": "Dixit Ram",
+        "timestamp": 1750040730
+    }
+]

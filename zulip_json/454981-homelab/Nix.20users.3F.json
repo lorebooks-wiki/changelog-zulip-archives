@@ -1,0 +1,158 @@
+[
+    {
+        "content": "<p>Anyone fiddling with nix, nix-darwin for their computer setup and what not?</p>",
+        "id": 479025565,
+        "sender_full_name": "Anders Johansson",
+        "timestamp": 1729923408
+    },
+    {
+        "content": "<p>Not yet but I saw that this was announced: <a href=\"https://determinate.systems/\">https://determinate.systems/</a></p>",
+        "id": 479031508,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1729930413
+    },
+    {
+        "content": "<p>I use their nix installer script. Really easy.</p>",
+        "id": 479035119,
+        "sender_full_name": "Anders Johansson",
+        "timestamp": 1729933913
+    },
+    {
+        "content": "<p>I tried out NixOS a few years ago, and now only have 2 (out of 15) nodes converted.  Going all in wasn't my plan, but it was just too good.  I have some experience with Nix on other OS's as well, as I am slowly rolling Nix out for developer environments on other Linux Distros and Mac.</p>",
+        "id": 479295126,
+        "sender_full_name": "shaun smiley",
+        "timestamp": 1730127424
+    },
+    {
+        "content": "<p>Nice - I’ve been looking at it from the side lines for quite some time now before taking the decision to migrate from my ansible setup for my computer setup. And now roughly five days into it I’m almost done and can honestly say that I’m amazed on how awesomely it has been to learn.</p>",
+        "id": 479296223,
+        "sender_full_name": "Anders Johansson",
+        "timestamp": 1730127686
+    },
+    {
+        "content": "<p>I've been daily driving NixOs for more then 2 years now. I deploy blog, home server and personal machine. It's absolutely irreplaceable for me now</p>",
+        "id": 479322328,
+        "sender_full_name": "FlakM",
+        "timestamp": 1730134901
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"758534\">@FlakM</span> what made you decide on NixOS?</p>",
+        "id": 479328238,
+        "sender_full_name": "Anders Johansson",
+        "timestamp": 1730136896
+    },
+    {
+        "content": "<p>If I recall correctly I got annoyed at jumping between machines with different software versions and missing configuration. But since then I've found out so many little use cases that made the whole effort worthwhile.</p>",
+        "id": 479333329,
+        "sender_full_name": "FlakM",
+        "timestamp": 1730138744
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"758762\">@Anders Johansson</span> kudos on the journey! Wait until a year from now you will come back and understand the system in 30 seconds <span aria-label=\"heart eyes\" class=\"emoji emoji-1f60d\" role=\"img\" title=\"heart eyes\">:heart_eyes:</span> Did you have any major problems with migrating?</p>",
+        "id": 479336571,
+        "sender_full_name": "FlakM",
+        "timestamp": 1730139941
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"758534\">@FlakM</span> thank you <span aria-label=\"folded hands\" class=\"emoji emoji-1f64f\" role=\"img\" title=\"folded hands\">:folded_hands:</span> no real issues. The major ones was mostly figure out nix-darwin and home-manager. Once I did that it was pretty smooth sailing from that. Only thing left now is make the setup a little more modular so work both for my private and work computers.</p>",
+        "id": 479338025,
+        "sender_full_name": "Anders Johansson",
+        "timestamp": 1730140530
+    },
+    {
+        "content": "<p>Btw to procrastinate from other work Im reading the PhD thesis describing nix and Nixos by Elco <a href=\"https://edolstra.github.io/pubs/nspfssd-lisa2004-final.pdf\">https://edolstra.github.io/pubs/nspfssd-lisa2004-final.pdf</a> it's a fascinating read. Especially when I take into the consideration release year (20 years ago!)</p>",
+        "id": 479344676,
+        "sender_full_name": "FlakM",
+        "timestamp": 1730143186
+    },
+    {
+        "content": "<p>It's scary how much of the PITA still the deployment ecosystem is 20 years later</p>",
+        "id": 479344934,
+        "sender_full_name": "FlakM",
+        "timestamp": 1730143296
+    },
+    {
+        "content": "<p>Nice - I’m in  transition between positions so some great reading is most welcome 👍🏻</p>",
+        "id": 479400568,
+        "sender_full_name": "Anders Johansson",
+        "timestamp": 1730177108
+    },
+    {
+        "content": "<p>I've dabbled with dev shells but not got as far as the OS. I'm still very lost on understanding the progression with flakes!</p>",
+        "id": 479442590,
+        "sender_full_name": "James McNally",
+        "timestamp": 1730196546
+    },
+    {
+        "content": "<p>That's a mess. Flakes should have become a non experimental feature long time ago.</p>",
+        "id": 479446953,
+        "sender_full_name": "FlakM",
+        "timestamp": 1730198117
+    },
+    {
+        "content": "<p>Ya'll using NixOS or just Nix package manager?</p>",
+        "id": 479979354,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1730422375
+    },
+    {
+        "content": "<p>Nixos on Linux machines and nix on macs. My colleagues use nix on Ubuntu systems since they don't want to invest too much time into learning but still appreciate dev shells in our projects</p>",
+        "id": 480005331,
+        "sender_full_name": "FlakM",
+        "timestamp": 1730443903
+    },
+    {
+        "content": "<p>Only nix on Mac as of now. Started to look into maybe use the arm port of Nixon on my arm Mac at home. Who knows where this rabbit hole will take me <span aria-label=\"nerd\" class=\"emoji emoji-1f913\" role=\"img\" title=\"nerd\">:nerd:</span></p>",
+        "id": 480062904,
+        "sender_full_name": "Anders Johansson",
+        "timestamp": 1730472051
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"762853\">James McNally</span> <a href=\"#narrow/channel/454981-homelab/topic/Nix.20users.3F/near/479442590\">said</a>:</p>\n<blockquote>\n<p>I've dabbled with dev shells but not got as far as the OS. I'm still very lost on understanding the progression with flakes!</p>\n</blockquote>\n<p>We could probably start a new topic just for that.  Once you get the \"right\" view of them, the extra value they add are totally worth it, and they actually simplify a lot of stuff.  I don't use channels at all any more, and all of the exact versions of repos are pinned in the lock file (and version controlled), just like you'd expect with package-lock.json, cargo.lock etc.</p>",
+        "id": 493160872,
+        "sender_full_name": "shaun smiley",
+        "timestamp": 1736662552
+    },
+    {
+        "content": "<p>I haven't used Nix, but on the topic of portable/reproducible machine configurations, I've been working on this project: <a href=\"https://github.com/colececil/familiar.sh\">https://github.com/colececil/familiar.sh</a>.</p>\n<p>I've made some good progress, but I haven't quite gotten to the MVP stage yet. I got distracted by other projects for a bit, but I'll be working on this again soon and hopefully doing an initial launch before too terribly long.</p>",
+        "id": 494551823,
+        "sender_full_name": "Cole Cecil",
+        "timestamp": 1737232251
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"815069\">@Cole Cecil</span> That looks like an ambitious project especially given ansible, puppet, chef and dozens of other things already exist.</p>\n<p>I started writing a ruby script to manage my mac but put it down after a few days out of boredom more than anything. I was pretty trivial in ruby to manage the files, templates, brew packages etc but I wouldn't even attempt something that covers all the operating systems. That takes bravery.</p>\n<p>Good luck to you.</p>",
+        "id": 494553508,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1737233666
+    },
+    {
+        "content": "<p>Thanks, <span class=\"user-mention\" data-user-id=\"755905\">@Tim Uckun</span>! I looked at several of those and others but was surprised not to find anything that felt like it quite fit my use case and worked across platforms. I also tried writing and maintaining a bash script for a bit, but it ended up feeling too clunky.</p>",
+        "id": 494555505,
+        "sender_full_name": "Cole Cecil",
+        "timestamp": 1737235084
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"815069\">@Cole Cecil</span> that looks great, I've been looking for something just like that, I was begining to consider writing something myself. Just wanted something simple where I could define what packages and config I want in a file or two. Will definitely give it a try when your at MVP stage.</p>",
+        "id": 494559745,
+        "sender_full_name": "Alex Barnes",
+        "timestamp": 1737236786
+    },
+    {
+        "content": "<p>I want a nix that is implemented in a memory safe language and doesn't require me to learn a bonkers single-purpose nix-only language to use</p>",
+        "id": 494578685,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1737241105
+    },
+    {
+        "content": "<p>Anyone know if you can use flox without it involving any calls to <code>nix</code> and no use of the Nix language at all? <a href=\"https://aus.social/@jokeyrhyme/113846772546642254\">https://aus.social/@jokeyrhyme/113846772546642254</a></p>",
+        "id": 494578719,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1737241160
+    },
+    {
+        "content": "<p><a href=\"https://www.tangram.dev/\">https://www.tangram.dev/</a> and <a href=\"https://brioche.dev/\">https://brioche.dev/</a> look intriguing</p>",
+        "id": 494578756,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1737241203
+    }
+]

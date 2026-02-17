@@ -1,0 +1,72 @@
+<html>
+<head><meta charset="utf-8"><title>Labeling home videos with LLMs · general · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/index.html">general</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Labeling.20home.20videos.20with.20LLMs.html">Labeling home videos with LLMs</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="494907416"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Labeling%20home%20videos%20with%20LLMs/near/494907416" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dustin <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Labeling.20home.20videos.20with.20LLMs.html#494907416">(Jan 20 2025 at 20:29)</a>:</h4>
+<p>This is a shot in the dark, but has anyone built or know of an existing library/project that uses LLMS to describe the contents of videos? (Not Whisper transcriptions) I have many videos from  the 90s/00s that are cassette tape length in size (~2hrs) and I'd love to be able to have a text form I could query so I can search like "boy eating pear" and it will pick up which video that scene was in (and ideally even roughly the timestamp of that scene!).</p>
+<p>Alternatively, is this currently possible with today's tech?</p>
+
+
+
+<a name="494929656"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Labeling%20home%20videos%20with%20LLMs/near/494929656" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Labeling.20home.20videos.20with.20LLMs.html#494929656">(Jan 20 2025 at 23:14)</a>:</h4>
+<p>You could take a look at the bots that Mastodon folks use for adding alt-descriptions to images for the seeing-impaired<br>
+Maybe use ffmpeg or something to extract an image from your video every so often, and then have those images labelled?</p>
+
+
+
+<a name="495103497"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Labeling%20home%20videos%20with%20LLMs/near/495103497" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Don MacKinnon <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Labeling.20home.20videos.20with.20LLMs.html#495103497">(Jan 21 2025 at 17:00)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="756209">Dustin</span> <a href="#narrow/channel/453512-general/topic/Labeling.20home.20videos.20with.20LLMs/near/494907416">said</a>:</p>
+<blockquote>
+<p>This is a shot in the dark, but has anyone built or know of an existing library/project that uses LLMS to describe the contents of videos? (Not Whisper transcriptions) I have many videos from  the 90s/00s that are cassette tape length in size (~2hrs) and I'd love to be able to have a text form I could query so I can search like "boy eating pear" and it will pick up which video that scene was in (and ideally even roughly the timestamp of that scene!).</p>
+<p>Alternatively, is this currently possible with today's tech?</p>
+</blockquote>
+<p>There are Cloud API services that do this for images, not sure about  video. I saw some repos on github like this one that does keyframe snapshots. <a href="https://github.com/byjlw/video-analyzer">https://github.com/byjlw/video-analyzer</a> I haven't used any of these but I'd be interested in seeing if anyone else in the community has experience with this. AWS and GCP both have services for images but I want to try some video and image tools for doing this analysis work on self-hosted.</p>
+
+
+
+<a name="495154681"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Labeling%20home%20videos%20with%20LLMs/near/495154681" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dustin <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Labeling.20home.20videos.20with.20LLMs.html#495154681">(Jan 21 2025 at 22:19)</a>:</h4>
+<p>Keyframes set me off in a great direction, thanks!</p>
+
+
+
+<a name="495159173"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Labeling%20home%20videos%20with%20LLMs/near/495159173" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Alden <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Labeling.20home.20videos.20with.20LLMs.html#495159173">(Jan 21 2025 at 22:50)</a>:</h4>
+<p>I’m only familiar with Gemini, but you should be able to chop up your videos into 50 minute  chunks (I think that’s the limit) with ffmpeg and then ask the model for timestamps of scene changes. Then take those timestamps and use ffmpeg to chop the videos into scenes and then ask gemini to describe each scene. Then you’d get more manageable videos instead of two hour long ones where you don’t know where that part you’re looking for is.</p>
+
+
+
+<a name="495315910"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Labeling%20home%20videos%20with%20LLMs/near/495315910" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> James Thurley <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Labeling.20home.20videos.20with.20LLMs.html#495315910">(Jan 22 2025 at 15:53)</a>:</h4>
+<p>This just popped up in my news feed:<br>
+<a href="https://www.theverge.com/2025/1/22/24349299/adobe-premiere-pro-after-effects-media-intelligence-search">https://www.theverge.com/2025/1/22/24349299/adobe-premiere-pro-after-effects-media-intelligence-search</a></p>
+<blockquote>
+<p>Search in Premiere Pro has been updated with AI-powered visual recognition, allowing users to find videos by describing the contents of the footage. Users can enter search terms like “a person skating with a lens flare” to find corresponding clips within their media library.</p>
+</blockquote>
+
+
+
+<a name="497197759"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Labeling%20home%20videos%20with%20LLMs/near/497197759" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dustin <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Labeling.20home.20videos.20with.20LLMs.html#497197759">(Feb 01 2025 at 20:59)</a>:</h4>
+<p>I managed to figure it out!</p>
+<p>I'm doing a pretty simple pipeline in python.</p>
+<ol>
+<li>Use opencv to capture a frame at every second of the video as a jpeg.</li>
+<li>I'm using <a href="https://lancedb.github.io/lancedb/">https://lancedb.github.io/lancedb/</a> for storage. It's got a really easy built in use of the <a href="https://openai.com/index/clip/">CLiP model</a> so I'm storing the bytes of the jpeg, the CLiP embeddings (provided for me by lancedb), path to the video, and the timestamp (captured in the original opencv step).</li>
+<li>Now it's as easy as <code>table.search("query string")</code> and lancedb handles embedding the text into the same space as the image embeddings and then doing cosine similarity to find the nearest records!</li>
+</ol>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

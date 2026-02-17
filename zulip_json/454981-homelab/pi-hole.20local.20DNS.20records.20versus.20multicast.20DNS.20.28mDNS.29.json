@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>TIL <code>.local</code> hostnames are auto-managed, and manually-set <code>.local</code> hostnames don't work in a few places including pi-hole's \"local DNS records\" functionality: <a href=\"https://en.wikipedia.org/wiki/Multicast_DNS\">https://en.wikipedia.org/wiki/Multicast_DNS</a></p>\n<p>I changed my hostnames to <code>.lan</code> instead and now the pi-hole records are working perfectly</p>",
+        "id": 501249530,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1740219344
+    },
+    {
+        "content": "<p>.internal is officially supported as a non-routable TLD now</p>",
+        "id": 501253357,
+        "sender_full_name": "Scott Abbey",
+        "timestamp": 1740222410
+    },
+    {
+        "content": "<p>.internal is the way. I've had similar issues with .local.</p>",
+        "id": 501274114,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1740236274
+    },
+    {
+        "content": "<p>Also there was an issue with systemd-resolved not resolving short names correctly even if the search domain was correct. It was frustrating.</p>",
+        "id": 501274190,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1740236332
+    }
+]

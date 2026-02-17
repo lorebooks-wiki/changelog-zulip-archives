@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>It was great fun to hear <span class=\"user-mention\" data-user-id=\"752976\">@Matthew Sanabria</span> on Oxide and Friends!</p>\n<p><a href=\"https://oxide-and-friends.transistor.fm/episodes/solutions-software-engineering-with-matthew-sanabria\">https://oxide-and-friends.transistor.fm/episodes/solutions-software-engineering-with-matthew-sanabria</a></p>",
+        "id": 516787615,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1746664268
+    },
+    {
+        "content": "<p>I particularly enjoyed how you talked about agency and working at a \"startup\" and just working out what needed to be done and doing it.</p>",
+        "id": 516787660,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1746664310
+    },
+    {
+        "content": "<p>Thank you <span class=\"user-mention\" data-user-id=\"752986\">@Daniel Buckmaster</span>! I really enjoyed telling my story and hopfully encouraging others to reflect on their career path and see that there are many ways to add value in an organization.</p>",
+        "id": 516795554,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1746670006
+    },
+    {
+        "content": "<p>I'm loving my role and being at Oxide thus far. There's so much work to do and I have a roadmap ready to go for myself and whoever joins the team next!</p>",
+        "id": 516795597,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1746670032
+    },
+    {
+        "content": "<p>Happy to answer any follow-up questions.</p>",
+        "id": 516795606,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1746670040
+    },
+    {
+        "content": "<p>A question I came away with was how much of what you do is dealing with direct customer requests/needs/issues vs. the more forward looking things like delivering on that roadmap? I.e. what’s the balance between what the customer tells you they need now and what you think the customers will need soon?</p>",
+        "id": 517411726,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1747012360
+    },
+    {
+        "content": "<p>This episode of the Oxide and Friends was fantastic. <span class=\"user-mention\" data-user-id=\"752976\">@Matthew Sanabria</span> do you mind if I DM you some questions (moreso personal to my situation, less general questions)? I was <span aria-label=\"eyes\" class=\"emoji emoji-1f440\" role=\"img\" title=\"eyes\">:eyes:</span> when I saw you in here :D</p>",
+        "id": 517412148,
+        "sender_full_name": "Dan McClain",
+        "timestamp": 1747012734
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752964\">Andrew O'Brien</span> <a href=\"#narrow/channel/453512-general/topic/Solutions.20Software.20Engineering.20with.20Matthew.20Sanabria/near/517411726\">said</a>:</p>\n<blockquote>\n<p>A question I came away with was how much of what you do is dealing with direct customer requests/needs/issues vs. the more forward looking things like delivering on that roadmap? I.e. what’s the balance between what the customer tells you they need now and what you think the customers will need soon?</p>\n</blockquote>\n<p>The balance is always in flux honestly at this stage of Oxide's growth. Blocking bugs and features for customers tend to take priority especially if they can be shipped rather quickly. The longer term roadmap items are meant to be broken up into smaller pieces of work so progress can be made on them during the general work week. To give you a better idea here's what an average week looks like of meetings and work.</p>\n<ul>\n<li>Monday: Morning is focus work time. Weekly sync with a customer directly. Meeting with partners/prospects to co-market and talk about integrations.</li>\n<li>Tuesday: Morning is focus work time. All hands. Meeting with a prospect to give a demo of Oxide and answer questions. These use cases are used to give feedback internally and adjust sales, docs, roadmap, etc if necessary.</li>\n<li>Wednesday: Morning is focus work time. No meeting day at Oxide. I have a small 30m meeting for my team's sync. We should probably move that though. Rest of day is focus work such as coding, reading, updating docs, whatever needs true focus time. This is also when I tend to record FAQ Friday videos for marketing.</li>\n<li>Thursday: Morning is focus work time. Generally a really light day for meetings so if there are ad-hoc things that need to be scheduled they tend to land on Thursday. Rest of the day is focus work again.</li>\n<li>Friday: Morning is focus work time. Demo day where I can show off integration progress or just any general demo. Rust study or whatever other infrequent meetings there are.</li>\n</ul>",
+        "id": 517415767,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1747015458
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"911053\">Dan McClain</span> <a href=\"#narrow/channel/453512-general/topic/Solutions.20Software.20Engineering.20with.20Matthew.20Sanabria/near/517412148\">said</a>:</p>\n<blockquote>\n<p>This episode of the Oxide and Friends was fantastic. <span class=\"user-mention silent\" data-user-id=\"752976\">Matthew Sanabria</span> do you mind if I DM you some questions (moreso personal to my situation, less general questions)? I was <span aria-label=\"eyes\" class=\"emoji emoji-1f440\" role=\"img\" title=\"eyes\">:eyes:</span> when I saw you in here :D</p>\n</blockquote>\n<p>You're more than welcome to DM me. You can also email me if you prefer that. My email is on my website <a href=\"https://matthewsanabria.dev\">https://matthewsanabria.dev</a>.</p>",
+        "id": 517415835,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1747015530
+    },
+    {
+        "content": "<p>I mentioned this on the podcast episode but since I'm east coast US and Oxide has a strong west coast US presence meetings don't start until 12:30 local time for me. So depending on how early I wake up and whether I'm going to the gym or whatever I have a lot of time focus time in the morning.</p>",
+        "id": 517415946,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1747015606
+    }
+]

@@ -1,0 +1,170 @@
+[
+    {
+        "content": "<p>Ghostty recently was the focus on Hacker News about how they use Discussions for managing user questions/reports, but given they'd taken some inspiration from Renovate, I thought I'd write up some of the things we've learned in the 5 years we've used it: <a href=\"https://www.jvt.me/posts/2026/01/07/renovate-why-discussions/\">https://www.jvt.me/posts/2026/01/07/renovate-why-discussions/</a></p>",
+        "id": 566836738,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1767826009
+    },
+    {
+        "content": "<p>oh, very nice<br>\nand here I am raising a PR without a discussion, haha oops<br>\n<a href=\"https://github.com/renovatebot/renovate/pull/40264\">https://github.com/renovatebot/renovate/pull/40264</a></p>",
+        "id": 566854426,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1767837824
+    },
+    {
+        "content": "<p>yeah, I think Discussions was a good addition to GitHub, as many things don't fit the open-then-comment-then-fix-then-close pattern<br>\nit's interesting (and maybe even a little confusing to me) that Discussions does have an \"answer\" feature</p>",
+        "id": 566856058,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1767839011
+    },
+    {
+        "content": "<p>Haha it's absolutely fine - I dint think we've had too many we've closed as they've needed discussing (<a href=\"https://github.com/renovatebot/renovate/pulls?q=is%3Apr+label%3Aauto%3Adiscussion-first+is%3Aclosed\">https://github.com/renovatebot/renovate/pulls?q=is%3Apr+label%3Aauto%3Adiscussion-first+is%3Aclosed</a> or <a href=\"https://github.com/renovatebot/renovate/pulls?q=is%3Apr+label%3Aneeds-discussion+is%3A\">https://github.com/renovatebot/renovate/pulls?q=is%3Apr+label%3Aneeds-discussion+is%3A</a> closed)</p>",
+        "id": 566901844,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1767865189
+    },
+    {
+        "content": "<p>We quite like having answer mode on, for our \"request help\" (but not other types) so it's clear to show what the solution was</p>",
+        "id": 566901966,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1767865230
+    },
+    {
+        "content": "<p>Out of interest, what do you find confusing here?</p>",
+        "id": 566902003,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1767865242
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755984\">Jamie Tanna</span> <a href=\"#narrow/channel/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management/near/566902003\">said</a>:</p>\n<blockquote>\n<p>Out of interest, what do you find confusing here?</p>\n</blockquote>\n<p>mostly just as a product feature: how did they go from forum to mini-StackOverflow?</p>",
+        "id": 567036775,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1767907928
+    },
+    {
+        "content": "<p>I don't hate it or anything, just surprised that it's there</p>",
+        "id": 567036894,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1767907967
+    },
+    {
+        "content": "<p>probably my lack of imagination, and thinking Discourse's feature set was the final list for discussions/forums</p>",
+        "id": 567037108,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1767908047
+    },
+    {
+        "content": "<p>I really want to switch to discussions instead of issues but I want GitHub to stop tying Discussions, Issues, etc to a repository.</p>",
+        "id": 569786072,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1769194958
+    },
+    {
+        "content": "<p>I want like an Oxide wide discussions space where users could select some repository or category. I'm getting real tired of switching repositories just to view different issues or discussions.</p>",
+        "id": 569786193,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1769194997
+    },
+    {
+        "content": "<p>Like the model is wrong. I want to view \"discussions for the projects I own\" rather than \"enumerate every project I own and then view discussions separately\".</p>",
+        "id": 569786338,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1769195050
+    },
+    {
+        "content": "<p>It becomes a pain when you have multiple related repositories too. Say you have a core plugin plus some UI component in separate repositories. Now you have separate issues and discussions but the projects are part of the same logical component. Sure you can create a monorepo but they really are separate code bases and the same logical concept.</p>",
+        "id": 569786548,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1769195143
+    },
+    {
+        "content": "<p>Anyway. The only thing I'm missing from Discussions is that they aren't easily transferred or sync'd to external systems. If you're a Jira shop or something you can't easily get the data from discussions synthesized into Jira issues.</p>",
+        "id": 569786657,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1769195191
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752976\">Matthew Sanabria</span> <a href=\"#narrow/channel/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management/near/569786338\">said</a>:</p>\n<blockquote>\n<p>Like the model is wrong. I want to view \"discussions for the projects I own\" rather than \"enumerate every project I own and then view discussions separately\".</p>\n</blockquote>\n<p>sounds like the GitHub solution is to monorepo</p>",
+        "id": 569807416,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1769204636
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752976\">Matthew Sanabria</span> <a href=\"#narrow/channel/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management/near/569786657\">said</a>:</p>\n<blockquote>\n<p>Anyway. The only thing I'm missing from Discussions is that they aren't easily transferred or sync'd to external systems. If you're a Jira shop or something you can't easily get the data from discussions synthesized into Jira issues.</p>\n</blockquote>\n<p>yeah, the data model for discussions is not a single thread of comments, so it doesn't map to comments in JIRA or elsewhere</p>",
+        "id": 569807498,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1769204685
+    },
+    {
+        "content": "<p>huh, now I'm wondering how industry practices have shifted to better fit GitHub's data model<br>\nwhat would the industry look like if source code hosting had been done differently?</p>",
+        "id": 569811197,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1769206720
+    },
+    {
+        "content": "<blockquote>\n<p>I really want to switch to discussions instead of issues but I want GitHub to stop tying Discussions, Issues, etc to a repository.</p>\n</blockquote>\n<p>One work around for this is to have a repo that's not dedicated to any one piece of code/project. This one repo has issues and discussions enabled, while all other repos have those features disabled.</p>\n<p>Besides being where all issues and discussions happen, the central git repo itself can also act as the main documentation hub. So after a discussion runs its course, someone can distill the conclusions/decisions into documents that are checked into git.</p>\n<p>Full disclosure: I work at GItHub.</p>",
+        "id": 569832031,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1769225330
+    },
+    {
+        "content": "<p>(and you can use tags to label individual discussions by repo/project for filtering purposes)</p>",
+        "id": 569832174,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1769225505
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752976\">Matthew Sanabria</span> <a href=\"#narrow/channel/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management/near/569786072\">said</a>:</p>\n<blockquote>\n<p>I really want to switch to discussions [...] but I want GitHub to stop tying Discussions, [...] to a repository.</p>\n</blockquote>\n<p>You can have Discussions at an org-level, at least - not the others though</p>\n<p>(It'll then put them into a specific repo for storage, but folks can interact with it from the top-level view on an org)</p>",
+        "id": 569858867,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1769254590
+    },
+    {
+        "content": "<p>I've written a thing to sync from GitHub Discussions to a local SQLite database, so I can have raw access to all the data, without needing to hit the GitHub APIs for it, and that's worked nicely - would be straightforward to (vibe)code something that syncs to JIRA, but agreed that it's a pain!</p>\n<p>I guess not enough orgs use Discussions for it to be a first-class feature, as well as a more graph-based / non-linear flow for Discussions (due to threading)</p>",
+        "id": 569858992,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1769254700
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752922\">Nabeel S</span> <a href=\"#narrow/channel/453512-general/topic/Using.20GitHub.20Discussions.20for.20Open.20Source.20project.20management/near/569832031\">said</a>:</p>\n<blockquote>\n<blockquote>\n<p>I really want to switch to discussions instead of issues but I want GitHub to stop tying Discussions, Issues, etc to a repository.</p>\n</blockquote>\n<p>One work around for this is to have a repo that's not dedicated to any one piece of code/project. This one repo has issues and discussions enabled, while all other repos have those features disabled.</p>\n<p>Besides being where all issues and discussions happen, the central git repo itself can also act as the main documentation hub. So after a discussion runs its course, someone can distill the conclusions/decisions into documents that are checked into git.</p>\n<p>Full disclosure: I work at GItHub.</p>\n</blockquote>\n<p>Is this one repository meant to be a company wide repository that just holds a GitHub Projects project? It would be better if GitHub decoupled GitHub Projects from a repository and allowed you to make them at the organization level.</p>",
+        "id": 574150014,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1771260292
+    },
+    {
+        "content": "<p>You guys should look into fossil <a href=\"https://fossil-scm.org/home/doc/trunk/www/index.wiki\">https://fossil-scm.org/home/doc/trunk/www/index.wiki</a></p>\n<p>Seems to be a batteries included SCM which would provide you with all that you are looking for.</p>",
+        "id": 574185910,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1771277415
+    },
+    {
+        "content": "<p><a href=\"https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project#creating-an-organization-project\">https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project#creating-an-organization-project</a></p>\n<p><a href=\"https://docs.github.com/en/organizations/managing-organization-settings/enabling-or-disabling-github-discussions-for-an-organization\">https://docs.github.com/en/organizations/managing-organization-settings/enabling-or-disabling-github-discussions-for-an-organization</a></p>\n<hr>\n<p>Projects are org level. The project items are generally issues/PRs across repos, but you can also make <a href=\"https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-items-in-your-project/adding-items-to-your-project#creating-draft-issues\">draft</a> issues that only live in the project.</p>\n<p>Organization discussions are inherently linked to a dedicated repo, but I think that's mostly because you need a place to configure read/write access and moderation workflows anyway. So the idea is you just delegate a repo to be the place where all that's stored, and then in your org configuration you just pick that repo as the source. </p>\n<p>(disclaimer: I also work at GitHub, but not on the product team)</p>",
+        "id": 574241771,
+        "sender_full_name": "Tommy Byrd",
+        "timestamp": 1771318692
+    },
+    {
+        "content": "<p>Ha. I tried all of those already but it's not there yet.</p>",
+        "id": 574302321,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1771338165
+    },
+    {
+        "content": "<p>Draft issues can't have labels. Projects are at the org level but state is stored in the project itself with no ability to have org wide project fields.</p>",
+        "id": 574302440,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1771338202
+    },
+    {
+        "content": "<p>Parent child relationships are 1:1.</p>",
+        "id": 574302505,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1771338214
+    },
+    {
+        "content": "<p>Hopefully it continues to get better but I haven't seen much love on the projects feature in a while and I'm starting to get worried.</p>",
+        "id": 574302642,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1771338239
+    }
+]

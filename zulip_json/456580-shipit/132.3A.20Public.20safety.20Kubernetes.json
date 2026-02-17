@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>Marc Boorshtein from Tremolo Security joins Justin &amp; Autumn to talk all about running Kubernetes in the public sector. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://shipit.show/132\">https://shipit.show/132</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td>00:00</td>\n<td>This is Ship It!</td>\n<td>00:37</td>\n</tr>\n<tr>\n<td>02</td>\n<td>00:52</td>\n<td><a href=\"https://www.systeminit.com/?utm_source=changelog\">Sponsor: System Initiative</a></td>\n<td>01:35</td>\n</tr>\n<tr>\n<td>03</td>\n<td>02:31</td>\n<td>Identity system for 1st responders</td>\n<td>10:39</td>\n</tr>\n<tr>\n<td>04</td>\n<td>13:10</td>\n<td>Biggest painpoint</td>\n<td>04:22</td>\n</tr>\n<tr>\n<td>05</td>\n<td>17:32</td>\n<td>Importance of feedback loops</td>\n<td>03:21</td>\n</tr>\n<tr>\n<td>06</td>\n<td>20:53</td>\n<td>The isolation of the public safety industry</td>\n<td>01:43</td>\n</tr>\n<tr>\n<td>07</td>\n<td>22:35</td>\n<td>Compliance vs security</td>\n<td>04:44</td>\n</tr>\n<tr>\n<td>08</td>\n<td>27:32</td>\n<td><a href=\"https://retool.com/changelog\">Sponsor: Retool</a></td>\n<td>01:42</td>\n</tr>\n<tr>\n<td>09</td>\n<td>29:27</td>\n<td>COVID's effect on IT</td>\n<td>05:05</td>\n</tr>\n<tr>\n<td>10</td>\n<td>34:32</td>\n<td>Automated patching</td>\n<td>01:21</td>\n</tr>\n<tr>\n<td>11</td>\n<td>35:54</td>\n<td>Azure DevOPS backend &amp; push vs pull</td>\n<td>05:20</td>\n</tr>\n<tr>\n<td>12</td>\n<td>41:14</td>\n<td>Azure's security velnerabilities</td>\n<td>05:04</td>\n</tr>\n<tr>\n<td>13</td>\n<td>46:18</td>\n<td>Props to Azure</td>\n<td>01:34</td>\n</tr>\n<tr>\n<td>14</td>\n<td>48:12</td>\n<td><a href=\"https://www.timescale.com\">Sponsor: Timescale</a></td>\n<td>02:21</td>\n</tr>\n<tr>\n<td>15</td>\n<td>50:37</td>\n<td>Growing past identity</td>\n<td>08:41</td>\n</tr>\n<tr>\n<td>16</td>\n<td>59:17</td>\n<td>Email is not good identity</td>\n<td>01:30</td>\n</tr>\n<tr>\n<td>17</td>\n<td>1:00:47</td>\n<td>Next improvements</td>\n<td>04:30</td>\n</tr>\n<tr>\n<td>18</td>\n<td>1:05:17</td>\n<td>Flux or Argo?</td>\n<td>00:49</td>\n</tr>\n<tr>\n<td>19</td>\n<td>1:06:06</td>\n<td>Outro</td>\n<td>01:12</td>\n</tr>\n</tbody>\n</table>",
+        "id": 485128470,
+        "sender_full_name": "Logbot",
+        "timestamp": 1732896906
+    },
+    {
+        "content": "<p>Very cool to hear someone working productively within/serving government IT orgs. The story is so often about ineptitude, risk aversion, red tape, and inefficiency. Sure it sounds like they had challenges along some of those lines. But they didn't let that compromise their technical excellence and it sounds like they were able to raise the bar for everyone.</p>",
+        "id": 486561506,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1733505702
+    }
+]

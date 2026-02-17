@@ -1,0 +1,192 @@
+<html>
+<head><meta charset="utf-8"><title>Fallthrough 2: The Gems &amp; Warts of Go · gotime · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455709-gotime/index.html">gotime</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455709-gotime/topic/Fallthrough.202.3A.20The.20Gems.20.26.20Warts.20of.20Go.html">Fallthrough 2: The Gems &amp; Warts of Go</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="493481763"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455709-gotime/topic/Fallthrough%202%3A%20The%20Gems%20%26%20Warts%20of%20Go/near/493481763" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kris Brandow <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455709-gotime/topic/Fallthrough.202.3A.20The.20Gems.20.26.20Warts.20of.20Go.html#493481763">(Jan 14 2025 at 00:34)</a>:</h4>
+<p>Hi all! We've shipped episode 2 of Fallthrough. You can listen to it here: <a href="https://fallthrough.fm/ep/2">https://fallthrough.fm/ep/2</a><br>
+Or if you want to watch, it's also published on YouTube!<br>
+<a href="https://youtu.be/b2Llr4tdwkc">https://youtu.be/b2Llr4tdwkc</a></p>
+<div class="youtube-video message_inline_image"><a data-id="b2Llr4tdwkc" href="https://youtu.be/b2Llr4tdwkc"><img src="https://uploads.zulipusercontent.net/88cf13aafe7d2354d31c116de3205f4542a5d37c/68747470733a2f2f692e7974696d672e636f6d2f76692f62324c6c72347464776b632f64656661756c742e6a7067"></a></div>
+
+
+
+<a name="493670279"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455709-gotime/topic/Fallthrough%202%3A%20The%20Gems%20%26%20Warts%20of%20Go/near/493670279" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455709-gotime/topic/Fallthrough.202.3A.20The.20Gems.20.26.20Warts.20of.20Go.html#493670279">(Jan 14 2025 at 21:05)</a>:</h4>
+<p>Are you going to set up a zulip for your podcast or continue to piggyback here?</p>
+
+
+
+<a name="493958541"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455709-gotime/topic/Fallthrough%202%3A%20The%20Gems%20%26%20Warts%20of%20Go/near/493958541" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455709-gotime/topic/Fallthrough.202.3A.20The.20Gems.20.26.20Warts.20of.20Go.html#493958541">(Jan 15 2025 at 15:50)</a>:</h4>
+<p>I'll bring it up with the rest of the team to discuss. As far as I know we don't have immediate plans for our own Zulip or similar.</p>
+
+
+
+<a name="494755024"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455709-gotime/topic/Fallthrough%202%3A%20The%20Gems%20%26%20Warts%20of%20Go/near/494755024" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Maxime Thomassin <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455709-gotime/topic/Fallthrough.202.3A.20The.20Gems.20.26.20Warts.20of.20Go.html#494755024">(Jan 20 2025 at 09:12)</a>:</h4>
+<p>My personal gem is No Color Function for async, it is such a pain in most other language and make the language less readable, more complex and make functions more specialized . My other gem is Embed keyword! So good, to have file with linter and good sperations. My warts are nil map on init, and some var initialization that you can easily accidentally shadow a variable.</p>
+<p>I would also love to have a if x, err :=...<br>
+Where x can be outer scope</p>
+
+
+
+<a name="494784902"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455709-gotime/topic/Fallthrough%202%3A%20The%20Gems%20%26%20Warts%20of%20Go/near/494784902" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455709-gotime/topic/Fallthrough.202.3A.20The.20Gems.20.26.20Warts.20of.20Go.html#494784902">(Jan 20 2025 at 11:26)</a>:</h4>
+<p>Oh embed is a good gem. Totally forgot about that.</p>
+<p>I don't mind shadowing so much. I would like to be able to shadow and change types or shadow during x, err.</p>
+<p>Tooling is fantastic. It feels like everything I need is behind the go command whereas other languages (JavaScript) require many packages to be usable. Other "newer" languages like Rust and Zig are doing a good job of tooling too.</p>
+
+
+
+<a name="494910860"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455709-gotime/topic/Fallthrough%202%3A%20The%20Gems%20%26%20Warts%20of%20Go/near/494910860" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455709-gotime/topic/Fallthrough.202.3A.20The.20Gems.20.26.20Warts.20of.20Go.html#494910860">(Jan 20 2025 at 20:49)</a>:</h4>
+<p>My warts. </p>
+<p>Context: I only use it when I am calling a library, I have no idea why I am passing it in, I do nothing with it afterwards, I always just pass in context.background (or whatever they use in the documentation example).  Sometimes I look at the source code of the lib and guess what, they aren't using it either, they only want me to pass in a context because they have to pass it in to some call in the std lib.</p>
+<p>No enums. Honestly WTF is this about. It seems like a petty childish thing to leave out of a language for no reason. Just give me enums already.</p>
+<p>You don't have to assign the return variable if all you are returning it an error. Why does this code even compile let alone run without errors? <a href="https://go.dev/play/p/UKxcLnmpoJP">https://go.dev/play/p/UKxcLnmpoJP</a> </p>
+<p>Similarly you don't have to handle errors and from what I can see 90% of the time nobody handles errors. They just pass it up the chain. Why not make this 90% use case more convenient and less verbose for the programmers.</p>
+<p>Package management is far inferior to languages like ruby and java or whatever.  There are many reasons I won't go into but it's really a pain to pin to particular versions of libraries, only include packages in certain environments etc. </p>
+<p>The new iterators are like nails on a chalkboard for anybody who has ever used a language with proper iterators. Why go team? Why did you do this to us? Why not just have map and fold and whatnot like every other damned language?</p>
+<p>Strict tags should be first class language feature so you don't have to put everything into a giant string, you should be able to put inspectable metadata tags on any element of the struct and the struct itself for that matter. This would also be super handy for generating documentation.</p>
+<p>It should be much easier to manage different environments in go. </p>
+<p>I could go and on but let me end with this.</p>
+<p>Go devs should really just admit that go is an object oriented language and embedding structs is no different than inheritance and that packages are just modules with their module level variables and constructors and such.</p>
+<p>I have some gems too but I'll stop while I am unpopular.</p>
+
+
+
+<a name="494930196"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455709-gotime/topic/Fallthrough%202%3A%20The%20Gems%20%26%20Warts%20of%20Go/near/494930196" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455709-gotime/topic/Fallthrough.202.3A.20The.20Gems.20.26.20Warts.20of.20Go.html#494930196">(Jan 20 2025 at 23:18)</a>:</h4>
+<p>I won't bother getting serious with Go again until it has data-race protection like Swift/Rust/Pony/Elixir and until it has Rust-style enums (I think they're called algebraic sum types or something)<br>
+I hate that Go/Java/Kotlin makes me look at documentation to know whether something is thread safe: the compiler and type system should tell me that I've not sufficiently locked a data structure</p>
+
+
+
+<a name="494930388"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455709-gotime/topic/Fallthrough%202%3A%20The%20Gems%20%26%20Warts%20of%20Go/near/494930388" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455709-gotime/topic/Fallthrough.202.3A.20The.20Gems.20.26.20Warts.20of.20Go.html#494930388">(Jan 20 2025 at 23:20)</a>:</h4>
+<p>Really, languages shouldn't add any way to share data between threads without requiring that it be done safely</p>
+
+
+
+<a name="494935438"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455709-gotime/topic/Fallthrough%202%3A%20The%20Gems%20%26%20Warts%20of%20Go/near/494935438" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455709-gotime/topic/Fallthrough.202.3A.20The.20Gems.20.26.20Warts.20of.20Go.html#494935438">(Jan 21 2025 at 00:00)</a>:</h4>
+<p>Good list of warts!</p>
+<p>Things like Println and such are good examples of functions that return errors that we largely ignore.</p>
+<p>Go's v2+ module versioning rules are wonky and make me never want to release a library publicly.</p>
+<p>I wish Go had map and fold. I haven't used the new iterators yet and I'm afraid to, if ever.</p>
+
+
+
+<a name="494946040"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455709-gotime/topic/Fallthrough%202%3A%20The%20Gems%20%26%20Warts%20of%20Go/near/494946040" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455709-gotime/topic/Fallthrough.202.3A.20The.20Gems.20.26.20Warts.20of.20Go.html#494946040">(Jan 21 2025 at 01:24)</a>:</h4>
+<p>I thought of many more while at the gym, here are a few.</p>
+<p>why can't the go compiler ignore the shebang line? Such a trivial amount of effort.</p>
+<p>Why can't I define an interface for a struct member, who do interfaces only apply to struct methods? </p>
+<p>Default values are a huge wart.  At a minimum let me set default values myself </p>
+<p>I want to write functions with default values for params (which implies an optional param). </p>
+<p>Method overloading was already mentioned but yea that would be super nice. You guys also talked about operator overloading and I just don't understand why people get worked up over this. I have used this in postgres for more than a decade and postgres wouldn't even work without it. Same goes for defining your own operators. Super useful stuff.</p>
+
+
+
+<a name="495174750"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455709-gotime/topic/Fallthrough%202%3A%20The%20Gems%20%26%20Warts%20of%20Go/near/495174750" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Daniel Buckmaster <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455709-gotime/topic/Fallthrough.202.3A.20The.20Gems.20.26.20Warts.20of.20Go.html#495174750">(Jan 22 2025 at 01:03)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="771585">Ron Waldon-Howe</span> <a href="#narrow/channel/455709-gotime/topic/Fallthrough.202.3A.20The.20Gems.20.26.20Warts.20of.20Go/near/494930196">said</a>:</p>
+<blockquote>
+<p>Rust-style enums (I think they're called algebraic sum types or something)</p>
+</blockquote>
+<p><a href="https://en.wikipedia.org/wiki/Algebraic_data_type">Algebraic data types</a> is a broader category, and sum types are an example:</p>
+<blockquote>
+<p>Two common classes of algebraic types are product types (i.e., tuples, and records) and sum types (i.e., tagged or disjoint unions, coproduct types or variant types).</p>
+</blockquote>
+<p>Rust's enums are _sum_ types, which are less common in mainstream languages than _product_ types. Sum types are common in ML-inspired languages, which I count Rust as.</p>
+<p>The "algebra", I believe, refers to the set theory of values that can be instances of a particular type.</p>
+
+
+
+<a name="495838967"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455709-gotime/topic/Fallthrough%202%3A%20The%20Gems%20%26%20Warts%20of%20Go/near/495838967" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455709-gotime/topic/Fallthrough.202.3A.20The.20Gems.20.26.20Warts.20of.20Go.html#495838967">(Jan 25 2025 at 05:44)</a>:</h4>
+<p>Default values are a pretty huge wart. Especially in the context of constructing safe structs. Do I make the type or fields unexported to force callers through a constructor? Do I put a bunch of nil checks on methods? Do I just not care?</p>
+
+
+
+<a name="495842111"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455709-gotime/topic/Fallthrough%202%3A%20The%20Gems%20%26%20Warts%20of%20Go/near/495842111" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455709-gotime/topic/Fallthrough.202.3A.20The.20Gems.20.26.20Warts.20of.20Go.html#495842111">(Jan 25 2025 at 06:32)</a>:</h4>
+<p>I dislike that Java/Go/Kotlin packages can span multiple files<br>
+I like being able to look at a file and know that I'm seeing the whole thing, I suppose<br>
+I guess we have LSP and go-to-definition, so it's not a huge deal, but it's something I find non-intuitive and confusing</p>
+
+
+
+<a name="495876702"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455709-gotime/topic/Fallthrough%202%3A%20The%20Gems%20%26%20Warts%20of%20Go/near/495876702" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455709-gotime/topic/Fallthrough.202.3A.20The.20Gems.20.26.20Warts.20of.20Go.html#495876702">(Jan 25 2025 at 14:45)</a>:</h4>
+<p>Go packages can also span across files, but they must remain in the same directory. Agree that that's a nice feature of the language and it makes it easier to reason about a codebase.</p>
+
+
+
+<a name="495903816"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455709-gotime/topic/Fallthrough%202%3A%20The%20Gems%20%26%20Warts%20of%20Go/near/495903816" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455709-gotime/topic/Fallthrough.202.3A.20The.20Gems.20.26.20Warts.20of.20Go.html#495903816">(Jan 25 2025 at 20:47)</a>:</h4>
+<p>One nice side effect of default values is named parameters.  That seems like such a no brainer to me. Makes the code much easier to read and write.</p>
+<p>I guess in go you just use structs for everything so they thought just pass in a struct</p>
+
+
+
+<a name="495905176"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455709-gotime/topic/Fallthrough%202%3A%20The%20Gems%20%26%20Warts%20of%20Go/near/495905176" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455709-gotime/topic/Fallthrough.202.3A.20The.20Gems.20.26.20Warts.20of.20Go.html#495905176">(Jan 25 2025 at 21:04)</a>:</h4>
+<p>Yeah I think that's the idiom. Make some config or params struct that you pass into a function. Still doesn't get that guarantee they the object was initialized correctly but at least it's documenting.</p>
+
+
+
+<a name="495915934"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455709-gotime/topic/Fallthrough%202%3A%20The%20Gems%20%26%20Warts%20of%20Go/near/495915934" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455709-gotime/topic/Fallthrough.202.3A.20The.20Gems.20.26.20Warts.20of.20Go.html#495915934">(Jan 26 2025 at 00:01)</a>:</h4>
+<p>I think pointers-versus-values in Go function signatures and invocations conflate too many concepts and are very confusing</p>
+<ul>
+<li>does a function ask for a pointer to avoid allocations?</li>
+<li>to signal that it will mutate it?</li>
+<li>what does it mean if a function asks for a value instead?</li>
+<li>there's no consensus on what is a good default practice here, why is Go making me think so hard about every function argument?</li>
+</ul>
+
+
+
+<a name="495920431"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455709-gotime/topic/Fallthrough%202%3A%20The%20Gems%20%26%20Warts%20of%20Go/near/495920431" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455709-gotime/topic/Fallthrough.202.3A.20The.20Gems.20.26.20Warts.20of.20Go.html#495920431">(Jan 26 2025 at 01:16)</a>:</h4>
+<p>It does get very confusing and it makes the programmer spend too much time thinking about it. When I read other people's code I often don't know what their intention is for pointer receivers.</p>
+
+
+
+<a name="495922982"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455709-gotime/topic/Fallthrough%202%3A%20The%20Gems%20%26%20Warts%20of%20Go/near/495922982" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455709-gotime/topic/Fallthrough.202.3A.20The.20Gems.20.26.20Warts.20of.20Go.html#495922982">(Jan 26 2025 at 01:58)</a>:</h4>
+<p>This is a good read, too: <a href="https://fasterthanli.me/articles/i-want-off-mr-golangs-wild-ride">https://fasterthanli.me/articles/i-want-off-mr-golangs-wild-ride</a></p>
+
+
+
+<a name="495983285"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455709-gotime/topic/Fallthrough%202%3A%20The%20Gems%20%26%20Warts%20of%20Go/near/495983285" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455709-gotime/topic/Fallthrough.202.3A.20The.20Gems.20.26.20Warts.20of.20Go.html#495983285">(Jan 26 2025 at 17:01)</a>:</h4>
+<p>I feel like I read that one when it came out around COVID. I recall it being a good article. Gonna read it again.</p>
+
+
+
+<a name="495998947"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455709-gotime/topic/Fallthrough%202%3A%20The%20Gems%20%26%20Warts%20of%20Go/near/495998947" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455709-gotime/topic/Fallthrough.202.3A.20The.20Gems.20.26.20Warts.20of.20Go.html#495998947">(Jan 26 2025 at 20:30)</a>:</h4>
+<p>For all my complaining, I do think painless cross-compilation, even using Linux to make macOS executables, is a Go gem<br>
+And while the standard library lacks loads of basic things around primitive types, the fact that it includes so many other things like HTTP, SSH, SQL, etc is often a gem ( but then also sometimes a wart :P )</p>
+
+
+
+<a name="496001316"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455709-gotime/topic/Fallthrough%202%3A%20The%20Gems%20%26%20Warts%20of%20Go/near/496001316" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455709-gotime/topic/Fallthrough.202.3A.20The.20Gems.20.26.20Warts.20of.20Go.html#496001316">(Jan 26 2025 at 21:01)</a>:</h4>
+<p>I know that vlang was invented to be a better go and there is a lot of controversy around it but has anybody tried crystal? I think as a language crystal has gotten all the things we talk about right. Enums, Iterators, generics, named parameters, overloading, namespaces, packages, and a rich standard library. It also has macros.  It is a compiled language but also has an interpreter for development. </p>
+<p>It hasn't seemed to have caught on which is a shame because it could use a more active community.</p>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

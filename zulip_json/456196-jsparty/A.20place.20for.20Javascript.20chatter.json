@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>So now that we don't have JSParty any more ( <span aria-label=\"sob\" class=\"emoji emoji-1f62d\" role=\"img\" title=\"sob\">:sob:</span> ) should we start a new #javascript channel where we can talk JS things? and maybe some TS tings if we really must <span aria-label=\"smirk\" class=\"emoji emoji-1f60f\" role=\"img\" title=\"smirk\">:smirk:</span></p>",
+        "id": 526373942,
+        "sender_full_name": "Chris Manson",
+        "timestamp": 1751281229
+    },
+    {
+        "content": "<p>How about a slightly more generic \"webdev\" channel? Or do you also want to take about non-web JavaScript things...?</p>",
+        "id": 526391830,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1751287224
+    },
+    {
+        "content": "<p>is there anything other than webdev? <span aria-label=\"troll\" class=\"emoji emoji-1f9cc\" role=\"img\" title=\"troll\">:troll:</span> but yea webdev seems ok <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span></p>",
+        "id": 526392535,
+        "sender_full_name": "Chris Manson",
+        "timestamp": 1751287440
+    },
+    {
+        "content": "<p>Webdev would appeal to a larger segment of the population for sure.</p>",
+        "id": 526486709,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751317501
+    },
+    {
+        "content": "<p>You can run JavaScript on microcontrollers these days</p>",
+        "id": 526907615,
+        "sender_full_name": "Marcus Edwards",
+        "timestamp": 1751511405
+    }
+]

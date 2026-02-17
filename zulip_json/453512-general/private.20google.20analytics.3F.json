@@ -1,0 +1,92 @@
+[
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span> did you somewhat recently in a kaisen mention a non-google analytics software that you either use or are familiar with...maybe that starts with a V?</p>",
+        "id": 476410059,
+        "sender_full_name": "Dan Cardin",
+        "timestamp": 1728660051
+    },
+    {
+        "content": "<p>i feel like it wasn't plausible</p>",
+        "id": 476410112,
+        "sender_full_name": "Dan Cardin",
+        "timestamp": 1728660066
+    },
+    {
+        "content": "<p>There's another one called Fathom Analytics that I'm familiar with, but haven't personally used:</p>\n<p><a href=\"https://usefathom.com\">https://usefathom.com</a></p>",
+        "id": 476411554,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1728660536
+    },
+    {
+        "content": "<p>Matomo is fairly popular (formerly Piwik) and open source: <a href=\"https://github.com/matomo-org/matomo\">https://github.com/matomo-org/matomo</a></p>",
+        "id": 476413606,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1728661188
+    },
+    {
+        "content": "<p>I stood up a Piwik instance waaaay back in the day and ran it for a couple years. Liked it, didn't love it. Been a long time though...</p>",
+        "id": 476413808,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1728661246
+    },
+    {
+        "content": "<p>Depending on your needs, <a href=\"https://umami.is/\">https://umami.is/</a> is nice. I self host for a bunch of sites and it’s enough if you just want page stats cookie free</p>",
+        "id": 476414562,
+        "sender_full_name": "Dustin",
+        "timestamp": 1728661499
+    },
+    {
+        "content": "<p>idk if our usecase is weird, but it's for an internal site; where we dont so much care about privacy. but rather as a way of avoiding manually implementing analytics in the app in question</p>\n<p>so all these options where they're like \"privacy first, we dont store any pii\", the whole point for us would be to tie back to specific users</p>",
+        "id": 476420187,
+        "sender_full_name": "Dan Cardin",
+        "timestamp": 1728663441
+    },
+    {
+        "content": "<p>but i maybe do think fathom was the one i remembered</p>",
+        "id": 476420267,
+        "sender_full_name": "Dan Cardin",
+        "timestamp": 1728663477
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752827\">@Nick Nisi</span> brought it up on <a href=\"https://jsparty.fm/336\">https://jsparty.fm/336</a>. Maybe he can speak to it?</p>",
+        "id": 476420994,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1728663787
+    },
+    {
+        "content": "<p>i personally use Plausible on projects where I have the choice, seems to work decently.</p>",
+        "id": 476428953,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1728666853
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"756209\">Dustin</span> <a href=\"#narrow/stream/453512-general/topic/private.20google.20analytics.3F/near/476414562\">said</a>:</p>\n<blockquote>\n<p>Depending on your needs, <a href=\"https://umami.is/\">https://umami.is/</a> is nice. I self host for a bunch of sites and it’s enough if you just want page stats cookie free</p>\n</blockquote>\n<p>+1, I self-host it for my site and have deployed it for multiple clients <span aria-label=\"thumbs up\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"thumbs up\">:thumbs_up:</span></p>",
+        "id": 476630262,
+        "sender_full_name": "Amolith",
+        "timestamp": 1728847287
+    },
+    {
+        "content": "<p>to close this loop, for whatever it's worth, we're \"building\" something dumb and simple directly into the ui/db and then using an open source BI tool to do the visualization.</p>\n<p>Seems like the analytics tools are <strong>really</strong> only designed for public pages where gdpr/pii is a relevant concern</p>",
+        "id": 477685177,
+        "sender_full_name": "Dan Cardin",
+        "timestamp": 1729266723
+    },
+    {
+        "content": "<p>I use plausible and I'm pretty happy with it, it also allows to share your site data to the public: <a href=\"https://plausible.io/strawberry.rocks\">https://plausible.io/strawberry.rocks</a></p>",
+        "id": 477758732,
+        "sender_full_name": "Patrick Arminio",
+        "timestamp": 1729302693
+    },
+    {
+        "content": "<p>I'm another happy paying user of Plausible. It's quite nice. I've heard very good things about Fathom as well.</p>",
+        "id": 477919946,
+        "sender_full_name": "Raúl",
+        "timestamp": 1729452289
+    },
+    {
+        "content": "<p>I like <a href=\"https://www.goatcounter.com/\">GoatCounter</a> which doesn't track identifiable user data and so (AFAIU) doesn't require a GDPR notice. It does collect browser version, screen size and some level of geolocation data, all of which seem like legitimate information to optimize a site. It's free for \"reasonable public usage\" or you can self-host.</p>",
+        "id": 482937464,
+        "sender_full_name": "Jouni Seppänen",
+        "timestamp": 1731910250
+    }
+]

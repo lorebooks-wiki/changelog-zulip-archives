@@ -1,0 +1,356 @@
+<html>
+<head><meta charset="utf-8"><title>Programming Rust · bookclub · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/index.html">bookclub</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html">Programming Rust</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="475465267"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/475465267" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#475465267">(Oct 08 2024 at 04:20)</a>:</h4>
+<p>I'm reading the Programming Rust book: <a href="https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/">https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/</a></p>
+<p>I'll post some of my chapter notes here tomorrow and as I go. I'm on chapter 16.</p>
+
+
+
+<a name="475674501"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/475674501" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Don MacKinnon <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#475674501">(Oct 08 2024 at 21:24)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="752976">Matthew Sanabria</span> <a href="#narrow/stream/459184-bookclub/topic/Programming.20Rust/near/475465267">said</a>:</p>
+<blockquote>
+<p>I'm reading the Programming Rust book: <a href="https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/">https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/</a></p>
+<p>I'll post some of my chapter notes here tomorrow and as I go. I'm on chapter 16.</p>
+</blockquote>
+<p>Did you read "the book" before this one?</p>
+
+
+
+<a name="475708209"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/475708209" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#475708209">(Oct 09 2024 at 01:47)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="756263">Don MacKinnon</span> <a href="#narrow/stream/459184-bookclub/topic/Programming.20Rust/near/475674501">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="752976">Matthew Sanabria</span> <a href="#narrow/stream/459184-bookclub/topic/Programming.20Rust/near/475465267">said</a>:</p>
+<blockquote>
+<p>I'm reading the Programming Rust book: <a href="https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/">https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/</a></p>
+<p>I'll post some of my chapter notes here tomorrow and as I go. I'm on chapter 16.</p>
+</blockquote>
+<p>Did you read "the book" before this one?</p>
+</blockquote>
+<p>I did read the official book before this one but I was really busy during that time so I didn't study it as much as I wanted to. This time around I've been studying and doing some projects to solidify the learning.</p>
+
+
+
+<a name="475885584"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/475885584" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Don MacKinnon <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#475885584">(Oct 09 2024 at 14:49)</a>:</h4>
+<p>Nice, would be interested to hear your thoughts on it once you finish!</p>
+
+
+
+<a name="476011897"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/476011897" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#476011897">(Oct 10 2024 at 03:05)</a>:</h4>
+<p>If you're on a time crunch to read this book then you can probably skip chapters 1 and 2 since they just introduce the why of Rust and a tour of its usage. Chapter 3 is where the primary Rust types are introduced. The real content starts in chapter 4 where the book discusses ownership and moves.</p>
+<p>Chapter 4 really clarified ownership and moves for me by linking Rust types to the stack and the heap. For example, <code>String</code> types are on the heap and number types (e.g., <code>i32</code>) stay on the stack. You later find out that this is powered by <code>Box</code> types and <code>Copy</code> and <code>Clone</code> traits. As functions are called values are moved into the functions unless they are passed by reference (i.e., borrowing) this moving of values is what throws people for a loop at first but the book explains it well with comparisons to Python's referencing counting and C's manual memory management.</p>
+
+
+
+<a name="476012528"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/476012528" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#476012528">(Oct 10 2024 at 03:08)</a>:</h4>
+<p>Chapter 5 laid out the rules for references. Basically, you can only have ONE of the following.</p>
+<ul>
+<li>Multiple immutable references to a variable</li>
+<li>Single mutable reference to a variable.</li>
+</ul>
+<p>This chapter also discussed lifetimes, describing them as a contract around how long data can live with respect to other data. Really helpful when reading function signatures to understand how they will use the parameters they accept. If you omit lifetimes the compiler will infer them for you.</p>
+
+
+
+<a name="476012583"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/476012583" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#476012583">(Oct 10 2024 at 03:08)</a>:</h4>
+<p>I'm on Chapter 16 now, but I'll continue posting my notes from previous chapters over the next few days.</p>
+
+
+
+<a name="477570690"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/477570690" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#477570690">(Oct 18 2024 at 04:41)</a>:</h4>
+<p>Chapter 5 covered references in depth, showing how Rust eliminates entire classes of bugs by their rules around references. The rules are mutually exclusive.</p>
+<ul>
+<li>Can have multiple immutable references to a variable.</li>
+<li>OR</li>
+<li>Can have a single mutable reference to a variable.</li>
+</ul>
+<p>The chapter then covered how to use references in functions, both as parameters and returns. References as a parameter do not move the underlying variable into the function which is great when you want to perform some operations with that variable but don't want to own it but not great when you want to mutate that variable and return some mutation. For that there's a concept of interior mutability which is deferred for a later chapter.</p>
+<p>Lifetimes were discussed in depth and the many examples cleared up my confusion around lifetimes. Basically lifetimes allow you to see the behavior (contract) of how long data should live with respect to other data. Most useful when reading function signatures. Even if you omit lifetimes, the compiler with infer them.</p>
+
+
+
+<a name="477570758"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/477570758" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#477570758">(Oct 18 2024 at 04:42)</a>:</h4>
+<p>Chapter 6 covered all the expressions in Rust and that's pretty much everything that's in Rust because Rust is an expression-oriented language. Things like <code>match</code>, <code>if let</code>, closures, etc. There's not really much to report here because it's mainly around the syntax of Rust but there are cool things compared to other languages.</p>
+<p>For example, you can assign to variables from a match.</p>
+<div class="codehilite" data-code-language="Rust"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="n">res</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">match</span><span class="w"> </span><span class="n">work</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="s">"foo"</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="s">"fooval"</span><span class="p">,</span>
+<span class="w">  </span><span class="s">"bar"</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="s">"baval"</span><span class="p">,</span>
+<span class="w">  </span><span class="n">_</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="s">"defaultval"</span><span class="p">,</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>The <code>break</code> keyword can return values too.</p>
+<div class="codehilite" data-code-language="Rust"><pre><span></span><code><span class="k">fn</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">counter</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+
+<span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="n">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">loop</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">counter</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="n">counter</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">10</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="k">break</span><span class="w"> </span><span class="n">counter</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">};</span>
+
+<span class="w">    </span><span class="fm">println!</span><span class="p">(</span><span class="s">"The result is {result}"</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Outside of that it's pretty much as you'd expect from other languages.</p>
+
+
+
+<a name="477685275"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/477685275" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dustin <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#477685275">(Oct 18 2024 at 15:52)</a>:</h4>
+<p>Your example is missing one of my favorite implications of that! You could have counter mutable _only_ inside the expression or only scoped inside the expression. This means you can control the mutability even within a single function on a variable.</p>
+
+
+
+<a name="477685413"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/477685413" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dustin <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#477685413">(Oct 18 2024 at 15:53)</a>:</h4>
+<p>I think one of the easiest examples of this is initializing a Vec but having it no longer be mutable after the first initialization</p>
+
+
+
+<a name="477703322"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/477703322" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#477703322">(Oct 18 2024 at 17:50)</a>:</h4>
+<p>100%. That's a huge strength of the Rust syntax.</p>
+
+
+
+<a name="477703456"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/477703456" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#477703456">(Oct 18 2024 at 17:51)</a>:</h4>
+<p>I'll admit that I'm copying and pasting these notes from when I read those chapters. I'm on chapter 17 now but I've been spacing out the posting of my old notes so that I don't just dump them all here at once.</p>
+
+
+
+<a name="481240180"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/481240180" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#481240180">(Nov 08 2024 at 04:24)</a>:</h4>
+<p>Chapter 6 covered all the expressions in Rust and that's pretty much everything that's in Rust because Rust is an expression-oriented language. Things like <code>match</code>, <code>if let</code>, closures, etc. There's not really much to report here because it's mainly around the syntax of Rust but there are cool things compared to other languages.</p>
+<p>For example, you can assign to variables from a match.</p>
+<div class="codehilite" data-code-language="Rust"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="n">res</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">match</span><span class="w"> </span><span class="n">work</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="s">"foo"</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="s">"fooval"</span><span class="p">,</span>
+<span class="w">  </span><span class="s">"bar"</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="s">"baval"</span><span class="p">,</span>
+<span class="w">  </span><span class="n">_</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="s">"defaultval"</span><span class="p">,</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>The <code>break</code> keyword can return values too.</p>
+<div class="codehilite" data-code-language="Rust"><pre><span></span><code><span class="k">fn</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">counter</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+
+<span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="n">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">loop</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">counter</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="n">counter</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">10</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="k">break</span><span class="w"> </span><span class="n">counter</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">};</span>
+
+<span class="w">    </span><span class="fm">println!</span><span class="p">(</span><span class="s">"The result is {result}"</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Outside of that it's pretty much as you'd expect from other languages.</p>
+
+
+
+<a name="481240212"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/481240212" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#481240212">(Nov 08 2024 at 04:24)</a>:</h4>
+<p>Chapter 7 was all about error handling. Basically it comes down to 2 things.</p>
+<ul>
+<li>Use <code>panic!</code></li>
+<li>Use <code>Result</code> types (e.g., <code>Ok(T)</code>, <code>Err(e)</code>)</li>
+</ul>
+<p>There are many methods that one can call to work with a <code>Result</code>. For example, <code>.is_ok()</code> and <code>.is_err()</code> or <code>.unwrap()</code> and <code>.expect()</code>.</p>
+<p>Generally speaking though when you have a function that returns a <code>Result&lt;T, E&gt;</code> then you'll use the <code>?</code> operator to turn this:</p>
+<div class="codehilite" data-code-language="Rust"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="n">foo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">match</span><span class="w"> </span><span class="n">do_work</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nb">Ok</span><span class="p">(</span><span class="n">success_val</span><span class="p">)</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">success_val</span><span class="p">,</span>
+<span class="w">  </span><span class="nb">Err</span><span class="p">(</span><span class="n">err</span><span class="p">)</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="nb">Err</span><span class="p">(</span><span class="n">err</span><span class="p">),</span>
+<span class="p">};</span>
+</code></pre></div>
+<p>Into this:</p>
+<div class="codehilite" data-code-language="Rust"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="n">foo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">do_work</span><span class="p">()</span><span class="o">?</span><span class="p">;</span>
+</code></pre></div>
+
+
+
+<a name="481240237"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/481240237" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#481240237">(Nov 08 2024 at 04:25)</a>:</h4>
+<p>Chapter 8 covers crates and modules and all the things that goes with them. I'm halfway through the chapter but I wanted to write things down before going for a jog.</p>
+<p>Crates are the container for a project's libraries and/or executables. Modules are how you can further organize code within a crate. This is kinda wild to me coming from Go because Go is the opposite- a module is the project source code and packages are the intra-module organization. All good though.</p>
+<p>You can nest modules. Child modules will be able to access both public and private identifiers from parent modules but you still have to use imports (<code>use</code>) to do so. You can choose which identifiers to export using <code>pub</code> and its related <code>pub(crate)</code> and <code>pub(in ./some/path)</code> syntax. I didn't know about that last syntax so that was cool to see.</p>
+<p>There are 3 ways to organize modules.</p>
+<ul>
+<li>As their own file <code>foo.rs</code>.</li>
+<li>As a directory with <code>mod.rs</code>:  <code>src/foo/mod.rs</code></li>
+<li>A their own file with child modules in a subdirectory: <code>src/foo/bar.rs</code> and <code>src/foo/bar/example.rs</code></li>
+</ul>
+<p>A module can re-export things it imports using <code>pub use</code> and there are keywords <code>super</code> and <code>self</code> to refer to parent modules or the current module respectively.</p>
+<p>Rust has a concept of binary programs and library programs. You can <code>cargo build --bin</code> and <code>carog build --lib</code> respectively. Generally the crate's primary library is <code>src/lib.rs</code> and binaries are <code>src/bin/foo.rs</code> where <code>foo</code> is the resulting executable name.</p>
+<p>Stopped there but ill cover attributes and tests later.</p>
+
+
+
+<a name="481240254"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/481240254" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#481240254">(Nov 08 2024 at 04:25)</a>:</h4>
+<p>Chapter 8 finishes up with attributes and testing. Rust supports attributes that hint things to the compiler. One such attribute is <code>#[test]</code> to mark a function as a test or <code>#[cfg(target_os = "macos")]</code> to build the marked item on macOS only.</p>
+<p>The <code>#![FOO]</code> syntax is used to mark everything in the current scope with the attribute.</p>
+<p>Rust has built-in testing features that you can run using <code>cargo test</code>. Nothing too crazy to touch on here.</p>
+<p>Rust support documentation comments much like Go, only their delimiter is <code>///</code>. Code that's placed in doc comments is run during <code>cargo test</code> to ensure it compiles.</p>
+
+
+
+<a name="481240262"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/481240262" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#481240262">(Nov 08 2024 at 04:25)</a>:</h4>
+<p>Chapter 9 is all about structs. If you're familiar with any C-like language you'll know what structs are and how to use them. The interesting part of Rust is that there's 3 types of structs- name-field structs, tuple-like structs, and unit-like structs. Coming from Go this is a bit different than what I'm used to.</p>
+<div class="codehilite" data-code-language="Rust"><pre><span></span><code><span class="c1">// Named-field struct.</span>
+<span class="k">struct</span><span class="w"> </span><span class="nc">Person</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="n">name</span><span class="p">:</span><span class="w"> </span><span class="nb">String</span><span class="p">,</span>
+<span class="w">  </span><span class="n">age</span><span class="p">:</span><span class="w"> </span><span class="kt">usize</span><span class="p">,</span>
+<span class="p">}</span>
+
+<span class="c1">// Tuple-like struct.</span>
+<span class="c1">// Go doesn't have this.</span>
+<span class="k">struct</span><span class="w"> </span><span class="mi">2</span><span class="n">DPoint</span><span class="p">(</span><span class="kt">i32</span><span class="p">,</span><span class="w"> </span><span class="kt">i32</span><span class="p">);</span>
+
+<span class="c1">// Unit-like struct.</span>
+<span class="k">struct</span><span class="w"> </span><span class="nc">Foo</span><span class="p">;</span>
+</code></pre></div>
+<p>Methods on structs are defined using the <code>impl</code> keyword, which I kinda like honestly.</p>
+<div class="codehilite" data-code-language="Rust"><pre><span></span><code><span class="k">struct</span><span class="w"> </span><span class="nc">Person</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">first_name</span><span class="p">:</span><span class="w"> </span><span class="nb">String</span><span class="p">,</span>
+<span class="w">    </span><span class="n">last_name</span><span class="p">:</span><span class="w"> </span><span class="nb">String</span><span class="p">,</span>
+<span class="w">    </span><span class="n">age</span><span class="p">:</span><span class="w"> </span><span class="kt">usize</span><span class="p">,</span>
+<span class="p">}</span>
+
+<span class="k">impl</span><span class="w"> </span><span class="n">Person</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">fn</span><span class="w"> </span><span class="nf">name</span><span class="p">(</span><span class="o">&amp;</span><span class="bp">self</span><span class="p">)</span><span class="w"> </span><span class="p">-&gt;</span><span class="w"> </span><span class="nb">String</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="fm">format!</span><span class="p">(</span><span class="s">"{} {}"</span><span class="p">,</span><span class="w"> </span><span class="bp">self</span><span class="p">.</span><span class="n">first_name</span><span class="p">,</span><span class="w"> </span><span class="bp">self</span><span class="p">.</span><span class="n">last_name</span><span class="p">)</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Methods that don't use <code>self</code> as their first argument are type-associated functions.</p>
+<div class="codehilite" data-code-language="Rust"><pre><span></span><code><span class="k">struct</span><span class="w"> </span><span class="nc">Person</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">first_name</span><span class="p">:</span><span class="w"> </span><span class="nb">String</span><span class="p">,</span>
+<span class="w">    </span><span class="n">last_name</span><span class="p">:</span><span class="w"> </span><span class="nb">String</span><span class="p">,</span>
+<span class="w">    </span><span class="n">age</span><span class="p">:</span><span class="w"> </span><span class="kt">usize</span><span class="p">,</span>
+<span class="p">}</span>
+
+<span class="k">impl</span><span class="w"> </span><span class="n">Person</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="c1">// This is a type-associated function. It can only be</span>
+<span class="w">    </span><span class="c1">// called like so: Person::new()</span>
+<span class="w">    </span><span class="k">fn</span><span class="w"> </span><span class="nf">new</span><span class="p">()</span><span class="w"> </span><span class="p">-&gt;</span><span class="w"> </span><span class="nc">Person</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">Person</span><span class="p">{</span>
+<span class="w">            </span><span class="nb">String</span><span class="p">::</span><span class="n">from</span><span class="p">(</span><span class="s">"Matthew"</span><span class="p">),</span>
+<span class="w">            </span><span class="nb">String</span><span class="p">::</span><span class="n">from</span><span class="p">(</span><span class="s">"Sanabria"</span><span class="p">),</span>
+<span class="w">            </span><span class="mi">32</span><span class="p">,</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Structs can also be private or public and their fields private or public. There's a concept called interior mutability which is essentially a pattern that's used to mutate data on a struct when there are already immutable references to that struct. There's a whole chapter on the official Rust book on this: <a href="https://doc.rust-lang.org/book/ch15-05-interior-mutability.html">https://doc.rust-lang.org/book/ch15-05-interior-mutability.html</a></p>
+
+
+
+<a name="481240284"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/481240284" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#481240284">(Nov 08 2024 at 04:25)</a>:</h4>
+<p>Chapter 10 is about enums and patterns. Basically enums and pattern matching is the shit and a crucial part of Rust.</p>
+<p>Enums are pretty wild in Rust. They can contain multiple different types.</p>
+<div class="codehilite" data-code-language="Rust"><pre><span></span><code><span class="k">enum</span><span class="w"> </span><span class="nc">Message</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">Quit</span><span class="p">,</span>
+<span class="w">    </span><span class="n">Write</span><span class="p">(</span><span class="nb">String</span><span class="p">),</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>And even have methods attached to them using <code>impl</code> same like structs.</p>
+<p>Pattern matching occurs with the <code>match</code> keyword and lets you exhaustively determine the value for a given enum. Pattern matching isn't limited to enums though, it's also how one would destructure or "unpack" values from structs, tuples, etc.</p>
+<p>There are some more advanced features with patterns such as match guards (if statements for matches) and <code>@</code> bindings but those are exceptions rather than rules.</p>
+
+
+
+<a name="481240287"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/481240287" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#481240287">(Nov 08 2024 at 04:25)</a>:</h4>
+<p>Chapter 11 was a doozy! It was about traits and generics. There's A LOT of content in this chapter that I can't reasonably cover in detail.</p>
+<p>There's a concept of trait objects and generics. Generally speaking we lean towards using generics but there are times where trait objects need the concept of dynamic dispatching which uses the <code>dyn</code> keyword. Basically the <code>dyn</code> keyword is used to say give me any type that implements this trait, but we don't know what those exact types will be at compile time so use dynamic dispatching to find out the right method to call on the given type at runtime.</p>
+<p>I'll definitely be going back to this chapter as I write more Rust code. Here's a code example to summarize a bit.</p>
+<div class="codehilite" data-code-language="Rust"><pre><span></span><code><span class="k">trait</span><span class="w"> </span><span class="n">Traveler</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">fn</span><span class="w"> </span><span class="nf">travel</span><span class="p">(</span><span class="o">&amp;</span><span class="bp">self</span><span class="p">)</span><span class="w"> </span><span class="p">-&gt;</span><span class="w"> </span><span class="kt">i32</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="k">struct</span><span class="w"> </span><span class="nc">Person</span><span class="p">;</span>
+<span class="k">impl</span><span class="w"> </span><span class="n">Traveler</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">Person</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="c1">// People are slow. They travel 5 units.</span>
+<span class="w">    </span><span class="k">fn</span><span class="w"> </span><span class="nf">travel</span><span class="p">(</span><span class="o">&amp;</span><span class="bp">self</span><span class="p">)</span><span class="w"> </span><span class="p">-&gt;</span><span class="w"> </span><span class="kt">i32</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="mi">5</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">struct</span><span class="w"> </span><span class="nc">Car</span><span class="p">;</span>
+<span class="k">impl</span><span class="w"> </span><span class="n">Traveler</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">Car</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="c1">// Cars are fast. They travel 99 units.</span>
+<span class="w">    </span><span class="k">fn</span><span class="w"> </span><span class="nf">travel</span><span class="p">(</span><span class="o">&amp;</span><span class="bp">self</span><span class="p">)</span><span class="w"> </span><span class="p">-&gt;</span><span class="w"> </span><span class="kt">i32</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="mi">99</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// Required a trait object to have a vector of any type that implements the Traveler trait. The Box</span>
+<span class="c1">// is required because vectors must hold types of a consistent size.</span>
+<span class="k">fn</span><span class="w"> </span><span class="nf">total_distance</span><span class="p">(</span><span class="n">travelers</span><span class="p">:</span><span class="w"> </span><span class="kp">&amp;</span><span class="p">[</span><span class="nb">Box</span><span class="o">&lt;</span><span class="k">dyn</span><span class="w"> </span><span class="n">Traveler</span><span class="o">&gt;</span><span class="p">])</span><span class="w"> </span><span class="p">-&gt;</span><span class="w"> </span><span class="kt">i32</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">travelers</span><span class="p">.</span><span class="n">iter</span><span class="p">().</span><span class="n">fold</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="o">|</span><span class="n">acc</span><span class="p">,</span><span class="w"> </span><span class="n">t</span><span class="o">|</span><span class="w"> </span><span class="n">acc</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">t</span><span class="p">.</span><span class="n">travel</span><span class="p">())</span>
+<span class="p">}</span>
+
+<span class="c1">// Generic over type T that's any type that implements the Traveler trait.</span>
+<span class="k">fn</span><span class="w"> </span><span class="nf">extended_travel</span><span class="o">&lt;</span><span class="n">T</span><span class="p">:</span><span class="w"> </span><span class="nc">Traveler</span><span class="o">&gt;</span><span class="p">(</span><span class="n">t</span><span class="p">:</span><span class="w"> </span><span class="kp">&amp;</span><span class="nc">T</span><span class="p">)</span><span class="w"> </span><span class="p">-&gt;</span><span class="w"> </span><span class="kt">i32</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="mi">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">t</span><span class="p">.</span><span class="n">travel</span><span class="p">()</span>
+<span class="p">}</span>
+
+<span class="k">fn</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="n">p1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">Box</span><span class="p">::</span><span class="n">new</span><span class="p">(</span><span class="n">Person</span><span class="p">);</span>
+<span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="n">c1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">Box</span><span class="p">::</span><span class="n">new</span><span class="p">(</span><span class="n">Car</span><span class="p">);</span>
+<span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="n">travelers</span><span class="p">:</span><span class="w"> </span><span class="nb">Vec</span><span class="o">&lt;</span><span class="nb">Box</span><span class="o">&lt;</span><span class="k">dyn</span><span class="w"> </span><span class="n">Traveler</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="fm">vec!</span><span class="p">[</span><span class="n">p1</span><span class="p">,</span><span class="w"> </span><span class="n">c1</span><span class="p">];</span>
+<span class="w">    </span><span class="fm">println!</span><span class="p">(</span><span class="s">"Total: {:?}"</span><span class="p">,</span><span class="w"> </span><span class="n">total_distance</span><span class="p">(</span><span class="o">&amp;</span><span class="n">travelers</span><span class="p">));</span>
+
+<span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="n">p2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Person</span><span class="p">;</span>
+<span class="w">    </span><span class="fm">println!</span><span class="p">(</span><span class="s">"Person: {}"</span><span class="p">,</span><span class="w"> </span><span class="n">extended_travel</span><span class="p">(</span><span class="o">&amp;</span><span class="n">p2</span><span class="p">));</span>
+<span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="n">c2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Car</span><span class="p">;</span>
+<span class="w">    </span><span class="fm">println!</span><span class="p">(</span><span class="s">"Car: {}"</span><span class="p">,</span><span class="w"> </span><span class="n">extended_travel</span><span class="p">(</span><span class="o">&amp;</span><span class="n">c2</span><span class="p">));</span>
+<span class="p">}</span>
+</code></pre></div>
+
+
+
+<a name="481240344"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/481240344" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#481240344">(Nov 08 2024 at 04:26)</a>:</h4>
+<p>Chapter 12 was about operator overloading. It focused on meta programming and how you can implement specific traits to customize the logic of operators like plus minus greater than less than.</p>
+<p>It's pretty cool because in something like go, you don't have the capability so like what you can do is create like a custom structure that can use the plus operator to add two of those structures together or something. </p>
+<p>What I found the most interesting is that under the hood it's all traits whereas in other languages it's a little bit different to implement this sort of meta programming .</p>
+
+
+
+<a name="481240369"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/481240369" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#481240369">(Nov 08 2024 at 04:26)</a>:</h4>
+<p>Chapter 13 was listed of all of the common utility traits in the standard library. Traits like dropped sized clone copy and so on and so forth.</p>
+<p>These are the traits that you would implement as like a library author if you wanted to make your code a little bit more resilient and native and rusty in the language.</p>
+
+
+
+<a name="481240382"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/459184-bookclub/topic/Programming%20Rust/near/481240382" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/459184-bookclub/topic/Programming.20Rust.html#481240382">(Nov 08 2024 at 04:26)</a>:</h4>
+<p>Chapter 14 was about closures. It showed how closures can borrow variables or "steal" variables with <code>move</code>. What I found the most interesting was the concept that function types and closure types are different. That is, even if you have the same signature for both types one will not be able to be used where the other is accepted and vice versa. I also finally understand why we need <code>Fn</code>, <code>FnOnce</code>, and <code>FnMut</code>. Basically <code>FnOnce</code> is there for closures that drop values to guarantee they will only be called at most once. <code>FnMut</code> can be called multiple times and mutate the data it's passed. This becomes more valuable in multi-threaded programs and such.</p>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>I'm pretty sure I remember listening to an episode of Changelog where the guest was a lady that works on application security. Her initial background and education were on something else entirely but she is now quite successful in this area, and even provides training on that topic. Does anyone know which episode that was, or who the guest was?</p>",
+        "id": 501329468,
+        "sender_full_name": "Raúl",
+        "timestamp": 1740281105
+    },
+    {
+        "content": "<p>Probably not helpful, but Chat GPT says Tanya Janca who matches the description, but I can’t find a matching episode.</p>",
+        "id": 501330109,
+        "sender_full_name": "Alden",
+        "timestamp": 1740281673
+    },
+    {
+        "content": "<p>Thanks <span class=\"user-mention\" data-user-id=\"783908\">@Alden</span>, that's her. I also can't find an episode with her, so I'm wondering if I heard her on another podcast <span aria-label=\"thinking\" class=\"emoji emoji-1f914\" role=\"img\" title=\"thinking\">:thinking:</span></p>",
+        "id": 501330483,
+        "sender_full_name": "Raúl",
+        "timestamp": 1740282017
+    },
+    {
+        "content": "<p>Found it. It was indeed on another podcast, Talk Python To Me, one that I rarely listen to nowadays, which explains why I couldn't remember it.</p>\n<p>Thanks again!</p>",
+        "id": 501330525,
+        "sender_full_name": "Raúl",
+        "timestamp": 1740282096
+    }
+]

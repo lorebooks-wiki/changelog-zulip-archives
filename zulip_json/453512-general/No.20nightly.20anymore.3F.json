@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>I haven't gotten the nightly gh repo updates since some day, <br>\ndid the service stop, or is it on vacation?</p>",
+        "id": 533033226,
+        "sender_full_name": "a4z",
+        "timestamp": 1754461900
+    },
+    {
+        "content": "<p>Hmm I'll have to look into it. I know Google sent some emails over the last couple months about changes to the BigQuery API, which might be to blame. Unfortunately, if that's the case fixing it might be... problematic.</p>",
+        "id": 533097446,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1754485304
+    },
+    {
+        "content": "<p>Update: It's not a BigQuery problem. The pages are still properly being generated. Example:</p>\n<p><a href=\"https://nightly.changelog.com/2025/08/05\">https://nightly.changelog.com/2025/08/05</a></p>\n<p>It seems Campaign Monitor is mad at us for some reason and our Nightly list is \"in compliance review\"</p>",
+        "id": 533119228,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1754491514
+    },
+    {
+        "content": "<p>Thanks a lot for the info! <br>\nI hope Campaign Monitor will understand the value of the nightlies, and emails will come back.</p>",
+        "id": 533146703,
+        "sender_full_name": "a4z",
+        "timestamp": 1754499714
+    },
+    {
+        "content": "<p>I enjoy these emails, hope it's able to come back</p>",
+        "id": 533209198,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1754536100
+    },
+    {
+        "content": "<p>It’s back!<br>\nJust saw it in my inbox</p>",
+        "id": 533232710,
+        "sender_full_name": "a4z",
+        "timestamp": 1754551490
+    },
+    {
+        "content": "<p>Yup, we got ourselves off Campaign Monitor's naughty list. Thanks for the heads up, <span class=\"user-mention\" data-user-id=\"911733\">@a4z</span>!</p>",
+        "id": 533297198,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1754574454
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "content": "<p>It's our first Kaizen after the big Pipely launch in Denver and we have some serious mopping to do. Along the way, we brainstorm the next get-together, check out our new cache hit/miss ratio, give Pipely a deep speed test, discuss open video standards, and more! <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.am/114\">https://changelog.am/114</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.am/114#t=0\">00:00</a></td>\n<td>Let's Kaizen!</td>\n<td>00:38</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.am/114#t=38\">00:38</a></td>\n<td><a href=\"https://www.augmentcode.com\">Sponsor: Augment Code</a></td>\n<td>03:30</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.am/114#t=247\">04:07</a></td>\n<td>Time travel &amp; Friends</td>\n<td>02:08</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.am/114#t=375\">06:15</a></td>\n<td><a href=\"https://loopholelabs.io/\">Gerhard's new job</a></td>\n<td>00:47</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.am/114#t=422\">07:02</a></td>\n<td><a href=\"https://www.youtube.com/watch?v=9cEcX_a8on8\">His homelab is better than yours</a></td>\n<td>03:14</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.am/114#t=616\">10:16</a></td>\n<td>The mop-up job</td>\n<td>01:33</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.am/114#t=709\">11:49</a></td>\n<td>A gangster selfie</td>\n<td>01:20</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.am/114#t=789\">13:09</a></td>\n<td>Let me check the <a href=\"http://Fly.io\">Fly.io</a> metrics</td>\n<td>03:13</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.am/114#t=982\">16:22</a></td>\n<td>Blue-green deploys</td>\n<td>04:36</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.am/114#t=1258\">20:58</a></td>\n<td>News drone footage</td>\n<td>01:25</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.am/114#t=1343\">22:23</a></td>\n<td>Gerhard's first rattler</td>\n<td>02:11</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.am/114#t=1474\">24:34</a></td>\n<td>Backstage Fogo</td>\n<td>03:21</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.am/114#t=1675\">27:55</a></td>\n<td>Our next live show</td>\n<td>06:47</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.am/114#t=2082\">34:42</a></td>\n<td><a href=\"https://agntcy.org\">Sponsor: Outshift by Cisco</a></td>\n<td>01:17</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.am/114#t=2159\">35:59</a></td>\n<td>Going to 1.0</td>\n<td>05:16</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.am/114#t=2475\">41:15</a></td>\n<td>Cache hits and misses</td>\n<td>07:01</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.am/114#t=2896\">48:16</a></td>\n<td>That Swordfish scene</td>\n<td>01:40</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.am/114#t=2996\">49:56</a></td>\n<td>Response times</td>\n<td>07:51</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.am/114#t=3467\">57:47</a></td>\n<td>Speaking of speed...</td>\n<td>17:58</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.am/114#t=4545\">1:15:45</a></td>\n<td>Clickhouse for stats</td>\n<td>05:58</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.am/114#t=4904\">1:21:44</a></td>\n<td>Video distribution</td>\n<td>05:47</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.am/114#t=5250\">1:27:30</a></td>\n<td>Open video standards</td>\n<td>08:19</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.am/114#t=5749\">1:35:49</a></td>\n<td>What's next</td>\n<td>01:48</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.am/114#t=5857\">1:37:37</a></td>\n<td>Comments, please!</td>\n<td>01:16</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://changelog.am/114#t=5934\">1:38:54</a></td>\n<td><a href=\"https://www.skool.com/makeitwork/about\">One more thing</a></td>\n<td>03:07</td>\n</tr>\n<tr>\n<td>26</td>\n<td><a href=\"https://changelog.am/114#t=6121\">1:42:01</a></td>\n<td>Smart garage doors</td>\n<td>03:29</td>\n</tr>\n<tr>\n<td>27</td>\n<td><a href=\"https://changelog.am/114#t=6329\">1:45:29</a></td>\n<td>Review Jerod's hat</td>\n<td>00:38</td>\n</tr>\n<tr>\n<td>28</td>\n<td><a href=\"https://changelog.am/114#t=6367\">1:46:07</a></td>\n<td>Bye, friends</td>\n<td>00:15</td>\n</tr>\n<tr>\n<td>29</td>\n<td><a href=\"https://changelog.am/114#t=6382\">1:46:22</a></td>\n<td>Next week on the pod</td>\n<td>01:12</td>\n</tr>\n</tbody>\n</table>",
+        "id": 546968053,
+        "sender_full_name": "Logbot",
+        "timestamp": 1761335108
+    },
+    {
+        "content": "<p>I really appreciate seeing the video posted at the same time as the audio. These Kaizen episodes tend to be ones I really enjoy watching. Thank you!</p>",
+        "id": 546992534,
+        "sender_full_name": "Matt Johnson",
+        "timestamp": 1761336445
+    },
+    {
+        "content": "<p>That was my fist close encounter with a rattle snake too! <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span>…and I was the closest to the snake walking along the edge of the road where the snake was relaxing in the sun. I would have walked right into it had I not notice the warning sounds.</p>",
+        "id": 546994494,
+        "sender_full_name": "Matt Johnson",
+        "timestamp": 1761337337
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/66849/QYBz27OJiygYGXhE-fsC_b5k/image_7AB8DA04-2AA3-49A6-89D3-FEF896053250_1761337492.heic\">image_7AB8DA04-2AA3-49A6-89D3-FEF896053250_1761337492.heic</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/QYBz27OJiygYGXhE-fsC_b5k/image_7AB8DA04-2AA3-49A6-89D3-FEF896053250_1761337492.heic\" title=\"image_7AB8DA04-2AA3-49A6-89D3-FEF896053250_1761337492.heic\"><img data-original-content-type=\"image/heic\" data-original-dimensions=\"4032x3024\" data-transcoded-image=\"4032x3024.webp\" src=\"/user_uploads/thumbnail/66849/QYBz27OJiygYGXhE-fsC_b5k/image_7AB8DA04-2AA3-49A6-89D3-FEF896053250_1761337492.heic/840x560.webp\"></a></div>",
+        "id": 546994833,
+        "sender_full_name": "Matt Johnson",
+        "timestamp": 1761337496
+    },
+    {
+        "content": "<p>them suckers blend in <span aria-label=\"face in clouds\" class=\"emoji emoji-1f636-200d-1f32b\" role=\"img\" title=\"face in clouds\">:face_in_clouds:</span></p>",
+        "id": 547000984,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1761340729
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"755424\">@Gerhard</span>, something to consider. You mentioned using ClickHouse for storing logs. I work at Redpanda Data so I'd love to work with you or get someone to work with you on a data streaming setup. We have a serverless option that would totally fit your needs.</p>",
+        "id": 547060910,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1761402026
+    },
+    {
+        "content": "<p>There are a couple of extensions which make PG an excellent time series database or an analytics database.  For example you can embed duckdb into postgres or query postgres from duckdb. </p>\n<p>There was a good discussion of these in a recent <a href=\"http://postgres.fm\">postgres.fm</a> podcast. You can follow some links here <a href=\"https://postgres.fm/episodes/when-not-to-use-postgres\">https://postgres.fm/episodes/when-not-to-use-postgres</a></p>",
+        "id": 547103163,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1761455017
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755651\">Thomas Eckert</span> <a href=\"#narrow/channel/455613-friends/topic/114.3A.20Kaizen!.20Mop-up.20job/near/547060910\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"755424\">Gerhard</span>, something to consider. You mentioned using ClickHouse for storing logs. I work at Redpanda Data so I'd love to work with you or get someone to work with you on a data streaming setup. We have a serverless option that would totally fit your needs.</p>\n</blockquote>\n<p>-notes internally, given Redpanda use- :P</p>",
+        "id": 553388588,
+        "sender_full_name": "Owen Valentine",
+        "timestamp": 1762178629
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"755424\">@Gerhard</span> any careers page or open positions at loophole? :D</p>",
+        "id": 560257848,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1764107009
+    }
+]

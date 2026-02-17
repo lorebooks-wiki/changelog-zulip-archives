@@ -1,0 +1,164 @@
+[
+    {
+        "content": "<p>A colleague just shared this article with me. I find it both hilarious and terrifying! <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span><span aria-label=\"scream\" class=\"emoji emoji-1f631\" role=\"img\" title=\"scream\">:scream:</span></p>\n<p><a href=\"https://www.anthropic.com/research/agentic-misalignment\">https://www.anthropic.com/research/agentic-misalignment</a></p>",
+        "id": 525988273,
+        "sender_full_name": "Chris Duzan",
+        "timestamp": 1750977027
+    },
+    {
+        "content": "<p>\"agentic misalignment\" is quite a euphemism</p>",
+        "id": 526088863,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1751032400
+    },
+    {
+        "content": "<p>Haha, yeah. A more apt (and dramatic) title might be, \"The robots have gone rogue!\"</p>",
+        "id": 526110635,
+        "sender_full_name": "Chris Duzan",
+        "timestamp": 1751038920
+    },
+    {
+        "content": "<p>This is precisely the scenario in <a href=\"https://avogadrocorp.com/\">https://avogadrocorp.com/</a> which was a good read<br>\nBut now it's true, haha</p>",
+        "id": 526175242,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1751083587
+    },
+    {
+        "content": "<p>Here is a win for Gemini CLI. I had a directory full of statements which were PDF files and I wanted to print the first page of every statement. I asked Gemini how I could take all the first pages and put them in a separate document and it said it would write a python script to do it and proceeded to do it. It installed the required libraries although it had to try twice because the mac doesn't allow global installs and it had to create an env for it but it did it.   The whole process only took five or six minutes.   I am not a python programmer but the code looked fine. </p>\n<p>Win for Gemini.</p>",
+        "id": 527603577,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751950102
+    },
+    {
+        "content": "<p>Hey I nominate \"AI Shenanigans\" to be it's own channel.</p>",
+        "id": 527608724,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751954021
+    },
+    {
+        "content": "<p>I was bored so I thought I would ask AI some questions. I said that I wanted to build a cross platform desktop app and asked for a recommendation for a language and framework.</p>\n<p>Gemini said Rust + Tauri was the best choice. It also said go was a good choice for backend, python with QT  and  JS with electron were second tier solutions. I asked why it didn't talk about java or kotlin and it said they would be good choices but listed some downsides it considered wouldn't make it the best tool.</p>\n<p>I then asked it what languages it could help me most with and it said it listed python, javascript and java in that order. It listed go, rust, and kotlin as the second tier.</p>",
+        "id": 527612744,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751956289
+    },
+    {
+        "content": "<p>I then asked the same questions to chatgpt</p>\n<p>It listed the best choices as (in order) Rust + Tauri, python with QT, C# with avalonia, Electron/JS, as a bonus it reccomended dart and flutter.  </p>\n<p>When I asked what it could help me most with it said python, rust and javascript in that order and listed other languages as second tier.</p>",
+        "id": 527613191,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751956564
+    },
+    {
+        "content": "<p>Next I went to deepseek.</p>\n<p>Deepseek's list was in this order electron, flutter, rust, go, c#</p>\n<p>It said it could help me best with rust, python and go in that order and other languages as second tier.</p>",
+        "id": 527613534,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751956764
+    },
+    {
+        "content": "<p>Claude only recommended rust + tauri and go + wails it put javascript, flutter, c++ and Java/kotlin in tier two.</p>\n<p>When I asked it what it was best with it said Javascript (excellent), go (very good), rust (good). It used those adverbs.</p>\n<p>In the end it said the final choice should be go.</p>\n<blockquote>\n<h2><strong>My Recommendation</strong></h2>\n<p><strong>Start with Go + Wails</strong> - I can provide the most comprehensive help with both the backend file operations and the frontend integration. The combination of Go's simplicity and my strong JavaScript knowledge means I can guide you through the entire stack effectively.</p>\n</blockquote>",
+        "id": 527614522,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751957318
+    },
+    {
+        "content": "<p>Deepseek was very gung ho on rust, it even wrote up a snippet of rust to demonstrate a functionality.</p>\n<p>They all offered to immediately start the project of course.</p>",
+        "id": 527614749,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751957425
+    },
+    {
+        "content": "<p>I honestly thought they would all reach for java first to write a cross platform desktop app none of them seemed to think it was a good idea.  I was also shocked that any of them reccomeded writing a desktop app in python. That seems nuts to me but clearly they have all been trained on a mountain of python code.</p>",
+        "id": 527615060,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751957574
+    },
+    {
+        "content": "<p>Man I gave myself a headache playing with gemini cli some more. For the last couple of days I have been asking it to write an app in different languages. This time not a web app. I created a simple task. Take a list of directories, analyze the files in those directories, create a catalog in an sqlite file which lists every file and directory, some metadata about the files, and for the directories the number of files in the hierarchy and the total size of the directory (including subdirs).   I specifically asked it to take advantage of concurrency features of the language to make it as performant as possible. The languages I asked it to code in were ruby, typescript using bun, go, and rust.</p>\n<p>It wrote the ruby code without issues but it wasn't multi threading properly so I asked it to fix it and it did. Then I asked it to also use fibers so I can test the difference and it did.  It used unusual strategies to process the directories and to calculate sums. It used SQL queries to calculate sums which was interesting to me.</p>\n<p>It wrote the bun code but had no concurrency. I asked it to use workers but it couldn't manage that properly. </p>\n<p>It completely fucked up the go code. I tried to work with it going back and forth but tired of it so I abandoned it.</p>\n<p>It wrote the rust code and it ran. I don't know rust so when I opened up in vs code I asked the gemini vs code plugin to explain it to me and it said \"you should change this code to like this\" and so I did. I ran the code a few times running into errors and each time it fixed it's error so in the end I had a working app.</p>\n<p>Here is the headache part. The ruby code runs about as fast as the rust code. Like WTF? They both give different results for the number of files and the total size of all the files. What's worse is that both of these numbers disagree with <code>du -s .</code> and <code>find . -type f | wc -l</code> which in turn disagrees with finder when I click on get info.</p>\n<p>I guess a man with four watches never knows what time it is.</p>",
+        "id": 528524120,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1752406816
+    },
+    {
+        "content": "<p>Oh and I should add that it used completely different strategies to traverse the directory and calculate things for every language.  None of them were I would have done so I might have to code it my way and compare that too.</p>",
+        "id": 528524220,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1752406921
+    },
+    {
+        "content": "<p>concurrency is a fun one, i guess if humans so regularly get it wrong then an LLM can probably be forgiven for not making the best use of it, either<br>\nexcept the LLM is convinced it has the correct answer each time</p>",
+        "id": 528569349,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1752454155
+    },
+    {
+        "content": "<p>I thought for sure it would be able to do the channels and such properly so that it didn't run into database contention issues. I specifically included instructions to be aware of database contention issues in the specs. </p>\n<p>BTW. One common thing in the generated code was that it didn't follow all the instructions in any of them. It just skipped some things I told it do for some odd reason. I had to say \"what about this feature\" or something and it would do it. </p>\n<p>One shot is still a dream in gemini. I would try with claude code but I don't want to pay. Gemini does 60-70% after a few go arounds for free.</p>",
+        "id": 528749498,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1752531501
+    },
+    {
+        "content": "<p>with rolling context windows, i believe some systems summarise the existing context to make room for the user's next prompt, so maybe that's how it's throwing away some of your details?</p>",
+        "id": 528763212,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1752540703
+    },
+    {
+        "content": "<p>I'm surprised it failed worse in go than in other languages, since go overall is a smaller and simpler language.</p>",
+        "id": 528768928,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1752545815
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752922\">Nabeel S</span> <a href=\"#narrow/channel/453512-general/topic/AI.20shenanigans/near/528768928\">said</a>:</p>\n<blockquote>\n<p>I'm surprised it failed worse in go than in other languages, since go overall is a smaller and simpler language.</p>\n</blockquote>\n<p>If we take \"simple\" to the Latin \"simplex\" -&gt; \"one thread, no weaving of multiple threads\" then I don't think \"simple\" describes Go<br>\nIt's far more magical and inconsistent and surprising than one would expect: <a href=\"https://fasterthanli.me/articles/lies-we-tell-ourselves-to-keep-using-golang\">https://fasterthanli.me/articles/lies-we-tell-ourselves-to-keep-using-golang</a></p>\n<p>That said, I believe the Go team prioritises legibility, and I agree that it's much easier to read Go code than e.g. Rust or C++</p>",
+        "id": 528773170,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1752550117
+    },
+    {
+        "content": "<p>Fair! I think \"small\" is a more objectively accurate description <span aria-label=\"slight smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"slight smile\">:slight_smile:</span></p>",
+        "id": 528779651,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1752555764
+    },
+    {
+        "content": "<p>I think it keeps failing in go because the ecosystem in go is pretty chaotic. People don't use frameworks so everybody hand rolls their own implementation of everything all of which are slightly different than each other. When the LLM takes a snippet of this and a snippet of that they don't work together. </p>\n<p>What doesn't help is that go is too simple as a core language so you can write things in myriad of ways, there is not a pythonic \"there is only way to do things\", all you have is a pile of tiny legos and you have to assemble them into an airplane or an construction site. To strain the analogy other languages give you propellers, wheels,  circular bricks etc to build the same thing so it's a lot more obvious with them.</p>\n<p>Finally go is ideologically and structurally opposed to building abstractions. There is a reason you don't have classes, or function/method overriding,  enums, decorations, macros etc.  they want everything to be explicit and verbose as possible. This means every codebase in go contains a lot of setup and ceremony to accomplish simple things and when chunking these projects may be split up in weird places where you include the implementation in one chunk but the setup and ceremony is on another chunk and they need to be together in order to work properly.</p>\n<p>Those are my guesses as to why it failed so hard. I honestly thought Gemini would be the best at go given how much go Google has internally to train on.</p>\n<p>I might try it with claude to see if it's better.</p>",
+        "id": 528948850,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1752617030
+    },
+    {
+        "content": "<p>Go was the first language I encountered with first class built-in channels, and I think this was the case for a lot of developers <br>\nI remember reading somewhere that traditional Mutex approaches in Go tended to have fewer bugs than code using channels<br>\nBut because channels were the \"new thing\", there's probably a lot of that in novice code, and a lot of that was probably ingested during LLM training</p>",
+        "id": 528951512,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1752618509
+    },
+    {
+        "content": "<p>You bring up another good point. At one time channels were the rage and after a while the community decided it was a footgun to be avoided. So you have a corpus of code that does things both with channels and without. I think there are a couple of other things in the go ecosystem where the community changed it's mind. Generators come to mind in this category. For a long time it was hotness then people basically stopped using them and now it's come back around with the likes of templ.</p>",
+        "id": 529175213,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1752704539
+    },
+    {
+        "content": "<p>I was listening to an interview with the founder of Railway (<a href=\"https://railway.com/\">https://railway.com/</a>) - episode (<a href=\"https://open.spotify.com/episode/2XHC2BVsNjKyCt7yFFpC0k?si=Pij5ukx3TXOIACSlFEY4IQ\">https://open.spotify.com/episode/2XHC2BVsNjKyCt7yFFpC0k?si=Pij5ukx3TXOIACSlFEY4IQ</a>)</p>\n<p>It got me thinking. With the rise of vibe coding, do the \"easy button\" tools win? I'm not familiar with Railway specifically. But, do companies like Vercel and Render get a big uptick in usage because non-technical people are building apps and they want the lowest friction path to deploying it to the public?</p>",
+        "id": 530371818,
+        "sender_full_name": "Chris Duzan",
+        "timestamp": 1753283743
+    },
+    {
+        "content": "<p>My thought is yes. But maybe all of these are locally hosted POCs and once someone gets serious about using a tool/app publicly, they actually get technical people around them.</p>",
+        "id": 530372188,
+        "sender_full_name": "Chris Duzan",
+        "timestamp": 1753283853
+    },
+    {
+        "content": "<p>It seems like the company that can build the easiest route to getting things running publicly has a chance for a big payoff as the path to creating an app is getting a lot easier and therefore, more people want to deploy these apps.</p>\n<p>And I'm talking about more than just hosting a self-contained app (I think vibe coding tools already do this).</p>",
+        "id": 530373275,
+        "sender_full_name": "Chris Duzan",
+        "timestamp": 1753284141
+    },
+    {
+        "content": "<p>Honestly I think that's not too difficult.  With a robust framework like rails you could easily do this. Fine tune the model for rails (which is an effort already on the way), pick a handful of gems, craft a good prompt and you could generate any mobile or web app quickly and cheaply. Rails has already done 80% of the work for you.</p>",
+        "id": 530654950,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1753394898
+    }
+]

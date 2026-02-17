@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>Justin mentioned trying <a href=\"https://kubevirt.io/\">Kubevirt</a> out (possibly with frustration) recently. I'd love to hear more about that experience (or anyone else's). Is it generally hard to set up properly? And if so, where are the sharp edges?</p>\n<p>The possibility of managing VMs as resources is pretty appealing, but if libvirt is involved I can see how it might be challenging...</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://kubevirt.io/\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/8828381f2798771ab8818b02fa865056d623ed1c/68747470733a2f2f6b756265766972742e696f2f2f6173736574732f696d616765732f4b756265566972745f6c6f676f5f636f6c6f722e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://kubevirt.io/\" title=\"KubeVirt.io\">KubeVirt.io</a></div><div class=\"message_embed_description\">Virtual Machine Management on Kubernetes</div></div></div>",
+        "id": 471485158,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1726752056
+    },
+    {
+        "content": "<p>Imagine if VMware was built in the age of microservices or if OpenStack had Kubernetes available when it was being developed. It removes some of the \"old school\" set up a linux server this way stuff and makes everything a container/controller with CRDs and etcd.</p>",
+        "id": 472722703,
+        "sender_full_name": "Justin Garrison",
+        "timestamp": 1727277781
+    },
+    {
+        "content": "<p>I got the whole thing working at home. Tested everything. Tore it down. Deployed it again (still working) then packed everything up and went to London. I got there and none of it worked. I spent 2 hours re-deploying it and got a partial working system (3 VMs deployed) but when I came back to it to scale it back up it wouldn't deploy any more VMs.</p>",
+        "id": 472722996,
+        "sender_full_name": "Justin Garrison",
+        "timestamp": 1727277853
+    },
+    {
+        "content": "<p>The whole project was built by red hat, for red hat (it's part of OpenShift) and feels very fragile if you're outside of that ecosystem. I know other tools build on it too (eg Rancher Harvester) but at this point I wouldn't use the \"raw manifests\" it provides to deploy and manage it. There's too many moving parts</p>",
+        "id": 472723278,
+        "sender_full_name": "Justin Garrison",
+        "timestamp": 1727277950
+    },
+    {
+        "content": "<p>FWIW I used <a href=\"https://github.com/ContainerCraft/Kargo\">https://github.com/ContainerCraft/Kargo</a> to deploy it which worked but I still ran into problems multiple times and I had Kat (the lead dev of Kargo) on a call with me to help me work through it</p>",
+        "id": 472723510,
+        "sender_full_name": "Justin Garrison",
+        "timestamp": 1727278010
+    },
+    {
+        "content": "<p>I'll check out Kargo.</p>\n<p>My basis for comparison with Kubevirt is a home grown (non-K8s) server that calls out to <code>libvirt</code>, <code>iptables</code>, and Ansible on the node, so the bar isn't terribly high for me personally. <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span> But the current implementation is thought to be \"simple\" (even if the implementation is very gnarly), so good to know that it be on the more challenging end.</p>",
+        "id": 472740880,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1727283846
+    },
+    {
+        "content": "<p>I will also say that my coworker deployed kubevirt and had it working in just a couple hours. I looked at alternatives like kata, edera, firecracker, etc and all of them don't give a full VM experience (it's more for isolation). I was actually hoping proxmox would be possible to run on top of k8s because I think that would be simpler than openstack but more features than kubevirt</p>",
+        "id": 472745033,
+        "sender_full_name": "Justin Garrison",
+        "timestamp": 1727285539
+    },
+    {
+        "content": "<p>Have you looked at Incus? I just learned about it yesterday (via Bluefin DX, BTW so thanks for that). First impression makes it seem like it’s a “more modern” take on libvirt with clustering and an HTTP API already included. I wonder if it would be feasible/a good idea to build an operator that interacts with that so that one could get declaratively defined full VMs…</p>\n<p>(Of course this is based on less than 24 hours of experience with it.)</p>",
+        "id": 472749575,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1727287421
+    },
+    {
+        "content": "<p>Incus is a fork of lxc so everything you could do with lxc you can do with incus. One of the benefits is it appears to be better packaged for enterprise Linux distros</p>",
+        "id": 475167882,
+        "sender_full_name": "Justin Garrison",
+        "timestamp": 1728265611
+    },
+    {
+        "content": "<p>I watched the <a href=\"https://youtu.be/2sXQGnx5Apw?si=6_dbj3dVlCl7QcC0\">Kubevirt on Talos talk</a> and am terrified that there would be so much more to both using Kubevirt on K8s or trying to get Incus integrated myself than I’m competent to do. <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"2sXQGnx5Apw\" href=\"https://youtu.be/2sXQGnx5Apw?si=6_dbj3dVlCl7QcC0\"><img src=\"https://uploads.zulipusercontent.net/1b1110e562c9d417c0dca91b8e4284b49952d28e/68747470733a2f2f692e7974696d672e636f6d2f76692f32735851476e78354170772f64656661756c742e6a7067\"></a></div><p>Especially storage management. That looks hard.</p>",
+        "id": 475310583,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1728311261
+    }
+]

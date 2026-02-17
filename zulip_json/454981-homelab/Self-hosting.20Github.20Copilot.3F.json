@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>I know some people are having success with ollama on their own hardware. Anyone doing this for a code assistant that they're actually using to help with real work? What kind of minimum hardware is necessary for a decently (not necessarily top tier) performing system?</p>",
+        "id": 491821718,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1735944268
+    },
+    {
+        "content": "<p>I'm using helix ( <a href=\"https://helix-editor.com/\">https://helix-editor.com/</a> ) which currently can only be extended via LSP servers, so I've added lsp-ai ( <a href=\"https://github.com/SilasMarvin/lsp-ai/\">https://github.com/SilasMarvin/lsp-ai/</a> ) to connect it to ollama ( <a href=\"https://ollama.com/\">https://ollama.com/</a> ), to interact with Google's gemma2 ( <a href=\"https://ai.google.dev/gemma/prohibited_use_policy\">https://ai.google.dev/gemma/prohibited_use_policy</a> ) which has better licence terms for me compared to Meta's llama3.1, etc</p>\n<p>Note that this UX is not as complete as GitHub Copilot in Visual Studio Code, but I do get LLM-generated completions, and they are useful suggestions some of the time (feels like 10-20% of the time, usually I'll go with a suggestion from the language-specific LSP server instead)</p>\n<p>These completions are very fast, almost instant, on my M3 MacBook Pro (2023) and also even on a Dell Precision 5550 (2020), but take a second or so on my desktop PC which has AMD GPUs (2022)</p>\n<p>I think you mostly need to make sure your model can fit into GPU RAM (I _think_, I could be wrong about this), so GPU RAM is more important than GPU clock speed</p>",
+        "id": 491829129,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1735949977
+    }
+]

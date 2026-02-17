@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>This is a shot in the dark, but has anyone built or know of an existing library/project that uses LLMS to describe the contents of videos? (Not Whisper transcriptions) I have many videos from  the 90s/00s that are cassette tape length in size (~2hrs) and I'd love to be able to have a text form I could query so I can search like \"boy eating pear\" and it will pick up which video that scene was in (and ideally even roughly the timestamp of that scene!).</p>\n<p>Alternatively, is this currently possible with today's tech?</p>",
+        "id": 494907416,
+        "sender_full_name": "Dustin",
+        "timestamp": 1737404989
+    },
+    {
+        "content": "<p>You could take a look at the bots that Mastodon folks use for adding alt-descriptions to images for the seeing-impaired<br>\nMaybe use ffmpeg or something to extract an image from your video every so often, and then have those images labelled?</p>",
+        "id": 494929656,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1737414858
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"756209\">Dustin</span> <a href=\"#narrow/channel/453512-general/topic/Labeling.20home.20videos.20with.20LLMs/near/494907416\">said</a>:</p>\n<blockquote>\n<p>This is a shot in the dark, but has anyone built or know of an existing library/project that uses LLMS to describe the contents of videos? (Not Whisper transcriptions) I have many videos from  the 90s/00s that are cassette tape length in size (~2hrs) and I'd love to be able to have a text form I could query so I can search like \"boy eating pear\" and it will pick up which video that scene was in (and ideally even roughly the timestamp of that scene!).</p>\n<p>Alternatively, is this currently possible with today's tech?</p>\n</blockquote>\n<p>There are Cloud API services that do this for images, not sure about  video. I saw some repos on github like this one that does keyframe snapshots. <a href=\"https://github.com/byjlw/video-analyzer\">https://github.com/byjlw/video-analyzer</a> I haven't used any of these but I'd be interested in seeing if anyone else in the community has experience with this. AWS and GCP both have services for images but I want to try some video and image tools for doing this analysis work on self-hosted.</p>",
+        "id": 495103497,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1737478823
+    },
+    {
+        "content": "<p>Keyframes set me off in a great direction, thanks!</p>",
+        "id": 495154681,
+        "sender_full_name": "Dustin",
+        "timestamp": 1737497973
+    },
+    {
+        "content": "<p>I’m only familiar with Gemini, but you should be able to chop up your videos into 50 minute  chunks (I think that’s the limit) with ffmpeg and then ask the model for timestamps of scene changes. Then take those timestamps and use ffmpeg to chop the videos into scenes and then ask gemini to describe each scene. Then you’d get more manageable videos instead of two hour long ones where you don’t know where that part you’re looking for is.</p>",
+        "id": 495159173,
+        "sender_full_name": "Alden",
+        "timestamp": 1737499855
+    },
+    {
+        "content": "<p>This just popped up in my news feed:<br>\n<a href=\"https://www.theverge.com/2025/1/22/24349299/adobe-premiere-pro-after-effects-media-intelligence-search\">https://www.theverge.com/2025/1/22/24349299/adobe-premiere-pro-after-effects-media-intelligence-search</a></p>\n<blockquote>\n<p>Search in Premiere Pro has been updated with AI-powered visual recognition, allowing users to find videos by describing the contents of the footage. Users can enter search terms like “a person skating with a lens flare” to find corresponding clips within their media library.</p>\n</blockquote>",
+        "id": 495315910,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1737561231
+    },
+    {
+        "content": "<p>I managed to figure it out!</p>\n<p>I'm doing a pretty simple pipeline in python.</p>\n<ol>\n<li>Use opencv to capture a frame at every second of the video as a jpeg.</li>\n<li>I'm using <a href=\"https://lancedb.github.io/lancedb/\">https://lancedb.github.io/lancedb/</a> for storage. It's got a really easy built in use of the <a href=\"https://openai.com/index/clip/\">CLiP model</a> so I'm storing the bytes of the jpeg, the CLiP embeddings (provided for me by lancedb), path to the video, and the timestamp (captured in the original opencv step).</li>\n<li>Now it's as easy as <code>table.search(\"query string\")</code> and lancedb handles embedding the text into the same space as the image embeddings and then doing cosine similarity to find the nearest records!</li>\n</ol>",
+        "id": 497197759,
+        "sender_full_name": "Dustin",
+        "timestamp": 1738443599
+    }
+]

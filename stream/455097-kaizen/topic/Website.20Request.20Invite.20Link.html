@@ -1,0 +1,48 @@
+<html>
+<head><meta charset="utf-8"><title>Website Request Invite Link · kaizen · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/index.html">kaizen</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Website.20Request.20Invite.20Link.html">Website Request Invite Link</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="489012776"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Website%20Request%20Invite%20Link/near/489012776" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matt Johnson <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Website.20Request.20Invite.20Link.html#489012776">(Dec 14 2024 at 17:40)</a>:</h4>
+<p>I found a link on <a href="https://changelog.com/~">https://changelog.com/~</a> that pointed to <a href="https://changelog.com/~/zulip">https://changelog.com/~/zulip</a> to "Request Invite" but it resulted in a 404 for me.</p>
+<p>Considering you have to be logged in to the site to access those links (I didn't realize that until Adam pointed it out) that may have something to do with it, and I'm already in Zulip here, so maybe it's broken because I don't need to get an invite anymore. <span aria-label="shrug" class="emoji emoji-1f937" role="img" title="shrug">:shrug:</span></p>
+<p>Later I tried it again from my browser and got some little popup on the page that said:<br>
+"Hmm, Zulip is saying 'We weren't able to invite anyone.' <span aria-label="thinking" class="emoji emoji-1f914" role="img" title="thinking">:thinking:</span>"</p>
+<p>How does that work, does it take the email address from my <a href="http://changelog.com">changelog.com</a> account to send to a Zulip API for an invite to that email address?</p>
+<p>I can reproduce it by going to the <code>/~/zulip</code> path directly in a separate browser window, but I first ran into the 404 I think from clicking the "Request Invite" button... it was weird and now that I've tried it again, I'm not quite sure how to reproduce what I originally saw when clicking the "Request Invite" button.</p>
+<p>I was just trying to walk through the steps to be able to describe the steps properly.</p>
+<p><span class="user-mention" data-user-id="750170">@Jerod Santo</span>  Adam suggested I post a conversation here to see if it needs any discussion.</p>
+
+
+
+<a name="490006045"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Website%20Request%20Invite%20Link/near/490006045" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jerod Santo <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Website.20Request.20Invite.20Link.html#490006045">(Dec 19 2024 at 16:42)</a>:</h4>
+<p><span class="user-mention" data-user-id="753112">@Matt Johnson</span> so that <code>/~/zulip</code> link is supposed to be a <code>POST</code> request. Phoenix uses some JS to accomplish that when you click on it. Hence the 404. I could fix that by making it work for both <code>POST</code> and <code>GET</code> but I do think this is a rare occasion.</p>
+<p><span class="user-mention silent" data-user-id="753112">Matt Johnson</span> <a href="#narrow/channel/455097-kaizen/topic/Website.20Request.20Invite.20Link/near/489012776">said</a>:</p>
+<blockquote>
+<p>How does that work, does it take the email address from my <a href="http://changelog.com/">changelog.com</a> account to send to a Zulip API for an invite to that email address?</p>
+</blockquote>
+<p>Yes that's how it works.</p>
+
+
+
+<a name="490006464"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/455097-kaizen/topic/Website%20Request%20Invite%20Link/near/490006464" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jerod Santo <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/455097-kaizen/topic/Website.20Request.20Invite.20Link.html#490006464">(Dec 19 2024 at 16:44)</a>:</h4>
+<p>What's odd is that the message you should get with an email address that's already joined is:</p>
+<blockquote>
+<p>Your email already has an account. We'll see you in there! <span aria-label="umm" class="emoji emoji-1f4ac" role="img" title="umm">:umm:</span></p>
+</blockquote>
+<p>I just confirmed that's what I get when I click the "Request Invite" button from <code>/~</code></p>
+<p>I wonder if there was a temporary Zulip API outage or some way that our request just failed instead. Can you at least reproduce that error message? If so, I can debug/fix it.</p>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

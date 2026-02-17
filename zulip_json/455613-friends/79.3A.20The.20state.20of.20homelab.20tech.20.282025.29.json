@@ -1,0 +1,140 @@
+[
+    {
+        "content": "<p>Techno Tim joins Adam to catch up on the state of Homelab for 2025, the state of AI at home and on-prem (AI Homelab) and where that's heading, building a creator PC, choosing the parts for your build, GPU availability, Windows being user hostile, and why Tim is happy to be using Windows, Mac AND Linux. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.am/79\">https://changelog.am/79</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.am/79#t=0\">00:00</a></td>\n<td>Let's talk!</td>\n<td>00:38</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.am/79#t=38\">00:38</a></td>\n<td><a href=\"https://retool.com/changelog\">Sponsor: Retool</a></td>\n<td>02:45</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.am/79#t=203\">03:23</a></td>\n<td>Skipping breakfast</td>\n<td>02:14</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.am/79#t=337\">05:37</a></td>\n<td>Tim snacks</td>\n<td>01:00</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.am/79#t=396\">06:36</a></td>\n<td>PEE CAN or Pecan?</td>\n<td>02:05</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.am/79#t=521\">08:41</a></td>\n<td><a href=\"https://www.berdollpecanfarm.com/\">Berdoll Pecans FTW</a></td>\n<td>01:13</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.am/79#t=593\">09:53</a></td>\n<td>Let's talk Homelab</td>\n<td>02:04</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.am/79#t=717\">11:57</a></td>\n<td>How Homelab  began</td>\n<td>01:17</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.am/79#t=794\">13:14</a></td>\n<td>Smaller and less power is the way</td>\n<td>03:43</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.am/79#t=1017\">16:57</a></td>\n<td>What's motivates Tim?</td>\n<td>03:29</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.am/79#t=1226\">20:26</a></td>\n<td>Script it OR wing it?</td>\n<td>02:44</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.am/79#t=1390\">23:10</a></td>\n<td>Cameras for filming</td>\n<td>05:04</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.am/79#t=1693\">28:13</a></td>\n<td>Content practices and workflows</td>\n<td>04:16</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.am/79#t=1950\">32:30</a></td>\n<td>Changelog core beliefs</td>\n<td>03:43</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.am/79#t=2172\">36:12</a></td>\n<td>Homelab stuff that's resonating with Adam</td>\n<td>02:21</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.am/79#t=2314\">38:34</a></td>\n<td>AI Homelab</td>\n<td>04:51</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.am/79#t=2605\">43:25</a></td>\n<td>On-prep AI is the future</td>\n<td>01:45</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.am/79#t=2712\">45:12</a></td>\n<td><a href=\"https://temporal.io\">Sponsor: Temporal</a></td>\n<td>02:02</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.am/79#t=2834\">47:14</a></td>\n<td>Self-hosting AI</td>\n<td>08:33</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.am/79#t=3347\">55:47</a></td>\n<td>AI at home is the next frontier</td>\n<td>00:32</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.am/79#t=3379\">56:19</a></td>\n<td>GPUs on eBay</td>\n<td>01:42</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.am/79#t=3482\">58:02</a></td>\n<td>Local AI and Ollama are the way</td>\n<td>06:14</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.am/79#t=3856\">1:04:16</a></td>\n<td>Make Ollama first-class integration</td>\n<td>02:10</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.am/79#t=3986\">1:06:26</a></td>\n<td>AI as a Service on my LAN (AIaaS)</td>\n<td>01:54</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://changelog.am/79#t=4100\">1:08:20</a></td>\n<td>GPT is the first draft word calculator</td>\n<td>06:28</td>\n</tr>\n<tr>\n<td>26</td>\n<td><a href=\"https://changelog.am/79#t=4489\">1:14:49</a></td>\n<td>AI builds from Tim</td>\n<td>00:31</td>\n</tr>\n<tr>\n<td>27</td>\n<td><a href=\"https://changelog.am/79#t=4520\">1:15:20</a></td>\n<td>Building a creator PC</td>\n<td>05:14</td>\n</tr>\n<tr>\n<td>28</td>\n<td><a href=\"https://changelog.am/79#t=4834\">1:20:34</a></td>\n<td>BUT Windows is user hostile</td>\n<td>06:35</td>\n</tr>\n<tr>\n<td>29</td>\n<td><a href=\"https://changelog.am/79#t=5229\">1:27:09</a></td>\n<td>Paying the Apple tax</td>\n<td>02:51</td>\n</tr>\n<tr>\n<td>30</td>\n<td><a href=\"https://changelog.am/79#t=5400\">1:30:00</a></td>\n<td>Why not BOTH Windows and Mac?</td>\n<td>01:23</td>\n</tr>\n<tr>\n<td>31</td>\n<td><a href=\"https://changelog.am/79#t=5485\">1:31:25</a></td>\n<td><a href=\"https://joindeleteme.com\">Sponsor: DeleteMe</a></td>\n<td>01:52</td>\n</tr>\n<tr>\n<td>32</td>\n<td><a href=\"https://changelog.am/79#t=5597\">1:33:17</a></td>\n<td>Adam's creator PC build</td>\n<td>05:18</td>\n</tr>\n<tr>\n<td>33</td>\n<td><a href=\"https://changelog.am/79#t=5915\">1:38:35</a></td>\n<td>Understanding the various GPUs</td>\n<td>02:44</td>\n</tr>\n<tr>\n<td>34</td>\n<td><a href=\"https://changelog.am/79#t=6079\">1:41:19</a></td>\n<td>Planning for PCIe lanes</td>\n<td>04:09</td>\n</tr>\n<tr>\n<td>35</td>\n<td><a href=\"https://changelog.am/79#t=6328\">1:45:28</a></td>\n<td>Gamers pushed the innovation</td>\n<td>04:07</td>\n</tr>\n<tr>\n<td>36</td>\n<td><a href=\"https://changelog.am/79#t=6575\">1:49:35</a></td>\n<td>The GPU bottleneck</td>\n<td>02:58</td>\n</tr>\n<tr>\n<td>37</td>\n<td><a href=\"https://changelog.am/79#t=6753\">1:52:33</a></td>\n<td>Tim's Linux Workstation</td>\n<td>04:03</td>\n</tr>\n<tr>\n<td>38</td>\n<td><a href=\"https://changelog.am/79#t=6995\">1:56:35</a></td>\n<td>The hard drive conspiracy!</td>\n<td>02:59</td>\n</tr>\n<tr>\n<td>39</td>\n<td><a href=\"https://changelog.am/79#t=7175\">1:59:35</a></td>\n<td>Should we do this more often?</td>\n<td>02:54</td>\n</tr>\n<tr>\n<td>40</td>\n<td><a href=\"https://changelog.am/79#t=7349\">2:02:29</a></td>\n<td>Wrapping up</td>\n<td>00:46</td>\n</tr>\n<tr>\n<td>41</td>\n<td><a href=\"https://changelog.am/79#t=7396\">2:03:16</a></td>\n<td>Closing thoughts and stuff</td>\n<td>01:58</td>\n</tr>\n</tbody>\n</table>",
+        "id": 498446055,
+        "sender_full_name": "Logbot",
+        "timestamp": 1738972447
+    },
+    {
+        "content": "<p>Feel the pain on the PCIe lanes - built my first PC in many years last week and that was the deciding factor on motherboards - trying to find one that will support some flexibility. (and workstation CPUs were out of budget!)</p>",
+        "id": 499185849,
+        "sender_full_name": "James McNally",
+        "timestamp": 1739352956
+    },
+    {
+        "content": "<p>My next challenge is GPU. I'm curious on the feelings for whether 7b parameter models are any good for document work (summarizing, reviewing)? I'm currently thinking of a 16GB Radeon although I may need to work with cuda in the future but getting 16GB on NVidia is not cheap!</p>",
+        "id": 499186114,
+        "sender_full_name": "James McNally",
+        "timestamp": 1739353040
+    },
+    {
+        "content": "<p>I've been using 5GB models on AMD and nVidia GPUs and they're fine (code completion, idea generation, basic chat)<br>\nA human with subject matter expertise has to review and edit the output of any LLM all the time anyway</p>",
+        "id": 499305643,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1739386408
+    },
+    {
+        "content": "<p>Magical episode - the start with <span class=\"user-mention\" data-user-id=\"750017\">@Adam Stacoviak</span> and Tim talking about pecans for 10 min. Awesomeness</p>",
+        "id": 499664993,
+        "sender_full_name": "Anders Johansson",
+        "timestamp": 1739519950
+    },
+    {
+        "content": "<p>Very fun episode to listen to. Glad to see I'm not the only one that struggled with the creator PC build. I also loathe Windows but I do miss the ability to build my system when using macOS. Linux is great for development but content creation gets more difficult.</p>",
+        "id": 499778244,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1739549333
+    },
+    {
+        "content": "<p>I'm in the process of changing my opinion on Windows due to the level of integration with WSL2. I'm in the process of installing Windows 11 Pro (this weekend) so maybe I'll have more to share soon.</p>",
+        "id": 499790690,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1739553347
+    },
+    {
+        "content": "<p>I love building machines and there's enough de-bloat work out there for Windows for me to give it a true attempt.</p>",
+        "id": 499790948,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1739553431
+    },
+    {
+        "content": "<p>For folks who won't abandon Windows: <a href=\"https://atlasos.net/\">https://atlasos.net/</a></p>",
+        "id": 499845132,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1739573239
+    },
+    {
+        "content": "<p>I tried to like the whole WSL2 model but it wasn't for me. This was a few years ago now though so maybe worth giving it another go. No Ghostty on Windows yet though (I think you can build from source maybe?).</p>\n<p>Let us know your experience and share some de-bloat resources if you can.</p>",
+        "id": 499852661,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1739576810
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"771585\">Ron Waldon-Howe</span> <a href=\"#narrow/stream/455613-friends/topic/79.3A.20The.20state.20of.20homelab.20tech.20.282025.29/near/499845132\">said</a>:</p>\n<blockquote>\n<p>For folks who won't abandon Windows: <a href=\"https://atlasos.net/\">https://atlasos.net/</a></p>\n</blockquote>\n<p>Oh this is such a debloat resource. Hmmmm. Maybe I'll try this.</p>",
+        "id": 499852839,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1739576884
+    },
+    {
+        "content": "<p><a href=\"https://github.com/ChrisTitusTech/winutil\">https://github.com/ChrisTitusTech/winutil</a></p>",
+        "id": 499856134,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1739578583
+    },
+    {
+        "content": "<p>This is what I’m looking at when I do the install this weekend.</p>",
+        "id": 499856158,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1739578602
+    },
+    {
+        "content": "<p>I went down this road lately and was even attempting to use Windows + WSL for my day job, which involved a lot of docker/linux VM work. I don't know what it was specifically, but WSL just started to feel really laggy to the point where I ended up enabling Hyper-V and just spinning up a regular Ubuntu VM and worked there. Definitely not as easy to get started with as WSL, but felt a lot nicer as a daily driver. Windows terminal too felt great at the beginning, but in day-to-day use it just felt like the experience became worse and worse the more I used it, and I replaced it with Alacritty. I think a future story of native Ghostty + Zed windows releases with first-class WSL integrations could be pretty nice, but it's just not there yet.</p>",
+        "id": 499915080,
+        "sender_full_name": "Tommy Byrd",
+        "timestamp": 1739626914
+    },
+    {
+        "content": "<p>WezTerm is pretty great and runs on Windows, for what that's worth. I switched back to it from Ghostty</p>",
+        "id": 499926762,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1739635921
+    },
+    {
+        "content": "<p>Yep, I'm back on wezterm, after briefly trying ghostty and then getting back into alacritty :)<br>\nGhostty and Alacritty choosing OpenGL when Vulkan is sitting right there is a real head scratcher now :)</p>",
+        "id": 499959767,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1739662580
+    },
+    {
+        "content": "<p>Hello from my AI Homelab powered by Windows 11 Pro. WSL2 is cool and seems to be super fast for me. I'm running Ollama and Open WebUI in Docker. Tailscale runs the same here as macOS or Linux. So, connecting to Ollama as a service anywhere in the world is too easy. Now I'm testing Plex Media Server out because why waste all this RTX 3090 GPU that I have.</p>",
+        "id": 501233963,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1740205717
+    },
+    {
+        "content": "<p>Post those hardware specs!</p>",
+        "id": 501236228,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1740207694
+    },
+    {
+        "content": "<p>I have a TOML file that maps package names across different Linux distributions, and Ollama+Qwen2.5 actually suggested the correct name for a Debian package after I typed in the name for the same package on Arch Linux<br>\nIt had incorrect punctuation around it, of course, but it was otherwise surprisingly correct</p>",
+        "id": 501246784,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1740217118
+    },
+    {
+        "content": "<p>TBH, I was a little let down by Buc-ee's after this. I understand that may be fighting words to a Texan, but I pulled over because my oil light went on and I sent my wife in to get a new bottle of oil while I used the one we had. She said they didn't have any! That seems like a basic thing for a gas station, let alone one as huge.</p>\n<p>She said they had everything I'd need if I was leading a Christian youth retreat and had left everything at home, but no oil.</p>\n<p>(Okay, I'm trolling a bit because I didn't actually go in. I was steeling myself for the sensory onslaught of Pigeon Forge, which was like 30 minutes away. But I heard Adam's voice being like \"You gotta go to Buc-ee's\" and with the timing of the oil light it seemed like destiny, so that's why I was bummed.)</p>",
+        "id": 513636472,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1745334725
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"750017\">Adam Stacoviak</span> <a href=\"#narrow/channel/455613-friends/topic/79.3A.20The.20state.20of.20homelab.20tech.20.282025.29/near/499790690\">said</a>:</p>\n<blockquote>\n<p>I'm in the process of changing my opinion on Windows due to the level of integration with WSL2. I'm in the process of installing Windows 11 Pro (this weekend) so maybe I'll have more to share soon.</p>\n</blockquote>\n<p>The GPU integration for AI work is super impressive. I run ollama pretty much exclusively under WSL and the perf is commendable. The way they expose your native GPU using the correct Linux devices so ollama thinks it's running on a bare metal LInux box and detects everything properly is indeed magic <span aria-label=\"slight smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"slight smile\">:slight_smile:</span></p>",
+        "id": 523957111,
+        "sender_full_name": "Christopher Patti",
+        "timestamp": 1749824637
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752976\">Matthew Sanabria</span> <a href=\"#narrow/channel/455613-friends/topic/79.3A.20The.20state.20of.20homelab.20tech.20.282025.29/near/499852661\">said</a>:</p>\n<blockquote>\n<p>I tried to like the whole WSL2 model but it wasn't for me. This was a few years ago now though so maybe worth giving it another go. No Ghostty on Windows yet though (I think you can build from source maybe?).</p>\n<p>Let us know your experience and share some de-bloat resources if you can.</p>\n</blockquote>\n<p>No, Ghostly isn't on Windows yet, which is why I personally favor <a href=\"https://wezterm.org/\">WezTerm</a>. It's fabulous and runs great on Windows, Linux and Mac, and I have <em>one</em> configuration file to rule them all!</p>\n<p>The configuration is in Lua though, so that may be a turn off for you. I <span aria-label=\"heart\" class=\"emoji emoji-2764\" role=\"img\" title=\"heart\">:heart:</span> Lua, so, more for me <span aria-label=\"slight smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"slight smile\">:slight_smile:</span></p>\n<p>I will say that \"WSL a few years back\" and WSL2 <em>today</em> are totally different beasts. It may still not be for you <em>especially</em> if you're already a happy LInux daily driver, but if, like me, you struggle with getting Linux to run well on various types of hardware, Windows 11+WSL2 is a godsend.</p>",
+        "id": 523957578,
+        "sender_full_name": "Christopher Patti",
+        "timestamp": 1749824805
+    },
+    {
+        "content": "<p>I have Windows + WSL2 (arch) for when I'm on my content creation machine but for development I'm still running a native Linux machine. Best of both worlds.</p>",
+        "id": 523976908,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1749831760
+    }
+]

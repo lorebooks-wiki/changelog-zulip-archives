@@ -1,0 +1,122 @@
+[
+    {
+        "content": "<p>We're joined by Sid Sijbrandij, founder of GitLab who led the all-in-one coding platform all the way to IPO. In late 2022, Sid discovered that he had bone cancer. That started a journey he's been on ever since... a journey that he shares with us in great detail. Along the way, Sid continued founding companies including <a href=\"https://kilo.ai/\">Kilo Code</a>, an all-in-one agentic engineering platform, which he also tells us all about. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/672\">https://changelog.fm/672</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.fm/672#t=0\">00:00</a></td>\n<td>Welcome to The Changelog</td>\n<td>00:56</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.fm/672#t=56\">00:56</a></td>\n<td><a href=\"https://depot.dev\">Sponsor: Depot</a></td>\n<td>02:22</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.fm/672#t=199\">03:19</a></td>\n<td>Start the show!</td>\n<td>00:55</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.fm/672#t=254\">04:14</a></td>\n<td>Sid's story</td>\n<td>02:09</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.fm/672#t=383\">06:23</a></td>\n<td>A health crisis</td>\n<td>03:29</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.fm/672#t=592\">09:52</a></td>\n<td>Doing it in parallel</td>\n<td>03:17</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.fm/672#t=789\">13:09</a></td>\n<td>Why go to China</td>\n<td>01:13</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.fm/672#t=862\">14:22</a></td>\n<td>Sid's health today</td>\n<td>00:58</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.fm/672#t=920\">15:20</a></td>\n<td>The useful medicines</td>\n<td>04:28</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.fm/672#t=1188\">19:48</a></td>\n<td>The type of cancer</td>\n<td>06:52</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.fm/672#t=1600\">26:40</a></td>\n<td>What's next?</td>\n<td>03:18</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.fm/672#t=1798\">29:58</a></td>\n<td><a href=\"https://www.tigerdata.com\">Sponsor: Tiger Data</a></td>\n<td>02:29</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.fm/672#t=1947\">32:27</a></td>\n<td>Working on Kilo</td>\n<td>03:02</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.fm/672#t=2129\">35:29</a></td>\n<td>Open core Kilo</td>\n<td>00:41</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.fm/672#t=2169\">36:09</a></td>\n<td>Approaching models</td>\n<td>03:33</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.fm/672#t=2382\">39:42</a></td>\n<td>The all-in-one challenge</td>\n<td>03:01</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.fm/672#t=2563\">42:43</a></td>\n<td>More parallels</td>\n<td>01:59</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.fm/672#t=2682\">44:42</a></td>\n<td>Sounds pricey</td>\n<td>02:56</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.fm/672#t=2858\">47:38</a></td>\n<td>Future budgets</td>\n<td>01:34</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.fm/672#t=2952\">49:12</a></td>\n<td>The ultimate polymath</td>\n<td>07:00</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.fm/672#t=3372\">56:12</a></td>\n<td><a href=\"http://notion.com/changelog\">Sponsor: Notion</a></td>\n<td>02:50</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.fm/672#t=3542\">59:02</a></td>\n<td>Competing with Cursor</td>\n<td>04:44</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.fm/672#t=3825\">1:03:45</a></td>\n<td>Kilo's UX</td>\n<td>01:22</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.fm/672#t=3908\">1:05:08</a></td>\n<td>Claude Web has repos</td>\n<td>03:16</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://changelog.fm/672#t=4104\">1:08:24</a></td>\n<td>Sid the polymath?</td>\n<td>00:30</td>\n</tr>\n<tr>\n<td>26</td>\n<td><a href=\"https://changelog.fm/672#t=4134\">1:08:54</a></td>\n<td>The developer's future</td>\n<td>03:43</td>\n</tr>\n<tr>\n<td>27</td>\n<td><a href=\"https://changelog.fm/672#t=4357\">1:12:37</a></td>\n<td>Hiring?</td>\n<td>01:57</td>\n</tr>\n<tr>\n<td>28</td>\n<td><a href=\"https://changelog.fm/672#t=4474\">1:14:34</a></td>\n<td>Wrapping up</td>\n<td>01:20</td>\n</tr>\n<tr>\n<td>29</td>\n<td><a href=\"https://changelog.fm/672#t=4555\">1:15:55</a></td>\n<td>Closing thoughts</td>\n<td>01:22</td>\n</tr>\n</tbody>\n</table>",
+        "id": 566822308,
+        "sender_full_name": "Logbot",
+        "timestamp": 1767819606
+    },
+    {
+        "content": "<p>Glad Sid's cancer is in remission, as someone who's had a lot of family go through it I know how difficult it can be.  Sounds like he's doing a lot of amazing work with the companies that he is building and the cancer treatment initiatives he's pushing forward.  I did have one nitpick about the conversation, Sid mentioned that AGI is \"already here\" but if he's referring to the 2023 paper, that opinion is not generally accepted by the experts in the fields. Most are estimating AGI to arrive somewhere around 2040. I know a lot of the VC backed companies would like folks to think otherwise or want to change the definition of what AGI is but it's not the case.</p>",
+        "id": 567436066,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1768189096
+    },
+    {
+        "content": "<p>yeah, they've backed themselves into a corner by hyping up \"AGI\" all whilst pouring money into a technology that seems less and less likely to actually lead to AGI</p>\n<p>not without making the term meaningless, at least</p>\n<p>to me, i would want a successor to LLM technology to actually understand and process facts and instructions in some way, rather than pretending that it does this, so that hallucinations/fabrications and injection attacks are 100% eliminated</p>",
+        "id": 567454824,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1768203206
+    },
+    {
+        "content": "<p>The sentiment I have heard is that it's likely LLMs won't be the path to AGI, like you mentioned they have no understanding or reasoning. They're merely statistically predictive completions</p>",
+        "id": 567565877,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1768231598
+    },
+    {
+        "content": "<p>I also took issue with the claim, hence my surprised response. I chose not to drill down after he stated the definition he was using, because:</p>\n<p>A) I don’t know the reference<br>\nB) I didn’t want to derail the conversation</p>",
+        "id": 567588749,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1768236444
+    },
+    {
+        "content": "<p>yeah, there's an art to interviews that I don't pretend to grasp &lt;3</p>",
+        "id": 567657276,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1768258572
+    },
+    {
+        "content": "<p>I don't know where I heard this from but..... \"Everything the LLM says is a hallucination, it's just that you only recognize some of them\". The point is that LLMs don't have an internal representation of the world. They are continually hallucinating.</p>",
+        "id": 567678823,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1768275173
+    },
+    {
+        "content": "<p>I got really excited after hearing this episode do I installed kilo into vs code. I don't know why or how but after struggling for a while could not get it to work properly. I got the api keys for mistral, gemini and gemini cli and put them all in, I signed up for kilo and put the API key in etc but still won't work. I think the product needs a little more polish to make onboarding easier.</p>",
+        "id": 567951456,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1768387342
+    },
+    {
+        "content": "<p>Gave Kilo a go after this as I wanted to try a set an agent running in the background directly to github. Set it on a reasonable alteration to an open source library.</p>\n<p>It's been my first experience of API pricing for this an s quickly burnt through $30. With estimates the real price is many times this it was interesting to see the real cost on a problem.</p>\n<p>My estimate is this would have taken me about 4 hours and probably spent at least 0.5-1 hours babysitting, pointing out issues and cleaning up after. It's actually still not working, needs one last clean up.</p>\n<p>It's interesting I'm hearing a lot more positivity around this use case and will be trialling more over the coming month but I'll probably stick to my Claude subscription for now!</p>",
+        "id": 569786948,
+        "sender_full_name": "James McNally",
+        "timestamp": 1769195311
+    },
+    {
+        "content": "<p>I am excited about having a central platform to work across gitlab and GitHub though - I like the philosophy behind itz certainly some rough edges still through</p>",
+        "id": 569787052,
+        "sender_full_name": "James McNally",
+        "timestamp": 1769195359
+    },
+    {
+        "content": "<p>I set up lmstudio and ollama on the mac. I then installed <a href=\"http://continue.dev\">continue.dev</a> and then after a bit of fiddling connected it to lmstudio to use with my locally installed llms. I did run into a problem and apparently I ran out of context so I fiddled with my settings but I haven't tried it again to see what happens if I push it a bit. The performance of the local LLM seemed fine, a little slower than gemini on my machine but not much slower.</p>",
+        "id": 569850861,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1769245957
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755905\">Tim Uckun</span> <a href=\"#narrow/channel/456187-interviews/topic/672.3A.20From.20GitLab.20to.20Kilo.20Code/near/569850861\">said</a>:</p>\n<blockquote>\n<p>The performance of the local LLM seemed fine, a little slower than gemini on my machine but not much slower.</p>\n</blockquote>\n<p>oh, which model(s) are you using locally? how many parameters?</p>",
+        "id": 569851966,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1769247294
+    },
+    {
+        "content": "<p>I am using the gpt30b and qwen 2.5b for completions both in mlx formats. the 30B models are at the limit of what my machine can do though so I am going to downgrade to a 20  (or less) tonight so I have some spare ram.  I am still learning all this stuff though and there are a lot of buttons to push to make things better or worse. Quantization, temperature etc.  Most of the MLX models are provided by the community too so it's always a bit of a mystery what you are getting and how it's going to work. </p>\n<p>BTW AFIK I know ollama doesn't support MLX out of the box yet which is why I am using LMStudio.</p>",
+        "id": 569902598,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1769287671
+    },
+    {
+        "content": "<p>I'm guessing <a href=\"http://continue.dev\">continue.dev</a> is an alternative to <a href=\"https://block.github.io/goose/\">https://block.github.io/goose/</a> ? sort of an orchestrator for agents/sessions?</p>",
+        "id": 569908943,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1769295316
+    },
+    {
+        "content": "<p>yeah, i've heard that folks are getting decent results with newer 3B parameter models these days, but i've still not had anything basic work<br>\nkeen to figure it out though<br>\nit also doesn't help that i haven't been able to get ollama to use Vulkan nor ROCm, so it's all on my CPU<br>\nI should look into ollama-alternatives like you have</p>",
+        "id": 569909024,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1769295415
+    },
+    {
+        "content": "<p>I haven't given ollama a serious go but I will for sure because they are continually working on it and it is the \"standard\".  I also plan on using smaller models with bigger context but I admit I still have a lot to learn about the nuances of these models and the all the parameters I can tune when running them.</p>",
+        "id": 569921906,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1769311736
+    },
+    {
+        "content": "<p>The consensus in the community, or at least at /r/LocalLLAMA, is that Ollama has really gone down the drain with recent updates (or lack thereof). It was always a pretty wrapper on llama.cpp and now that llama.cpp has a built-in web UI and a way to hot switch b/w different models, it makes sense to set the default to llama.cpp. Everything else is using llama.cpp as its base anyway.</p>\n<p>I use a local autocompletion model in neovim, using <a href=\"https://github.com/ggml-org/llama.vim\">llama.vim</a> and llama.cpp, and it works surprisingly well! Using <code>qwen2.5-coder-7b</code> along with <code>qwen2.5-coder-0.5b</code> as a draft model for speculative decoding.</p>",
+        "id": 570004631,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1769398180
+    },
+    {
+        "content": "<p>yeah, i was using lsp-ai (EOL?) to supply LLM auto completions from ollama into helix, and that was working quite well<br>\nanother constraint i have is that i want to use the same setup between personal and work, so i have to avoid anything with commercial limitations in its licence (although I think Qwen is Apache?)</p>",
+        "id": 570013773,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1769406156
+    },
+    {
+        "content": "<p>I found out that 24GB is just not enough to run a decent sized model. It runs the 30B models but there isn't enough context to make them useful. I tried the 14b models and they do have enough context but on my machine it's just too slow to be useful. I am still going to try to run small qwen coders as a code complete though but am going to revert to gemini for planning and larger tasks. It may not be the best but it's good enough and I don't use it enough to go above the free tier.</p>",
+        "id": 570415044,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1769545350
+    },
+    {
+        "content": "<p>wow, i've just had something actually work 100% locally for the first time<br>\nit took 43 minutes due to difficulty getting ollama to use my AMD GPU, but used goose+ollama+ministral-3:3b to use <code>ls</code> and <code>cat</code> to look at my dotfiles project and return a not-completely-wrong summary of it<br>\nhilariously, it must have used my <code>$SHELL</code> which is nushell, because I saw the tabular <code>ls</code> output along the way</p>",
+        "id": 571271102,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1769937675
+    }
+]

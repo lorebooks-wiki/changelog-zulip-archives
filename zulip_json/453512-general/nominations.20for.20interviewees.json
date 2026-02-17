@@ -1,0 +1,80 @@
+[
+    {
+        "content": "<p>two cool  ppl I know that would have a lot of interesting things to talk about on a podcast:</p>\n<ul>\n<li>\n<p>Chris Walker <a href=\"https://polytrope.com/\">https://polytrope.com/</a> built:</p>\n<ul>\n<li>Co-founder of <a href=\"https://hackclub.com/\">https://hackclub.com/</a></li>\n<li>helps with some 3Blue1Brown animation for youtube</li>\n<li>built <a href=\"https://sinerider.com/\">https://sinerider.com/</a> (<a href=\"https://github.com/hackclub/sinerider\">https://github.com/hackclub/sinerider</a>)<br>\ntalk about educating high schoolers, empowering teenagers to create their own coding communities, game design and math education, and more!</li>\n</ul>\n</li>\n<li>\n<p>Nicky Case <a href=\"https://ncase.me/\">https://ncase.me/</a> built:</p>\n<ul>\n<li><a href=\"https://ncase.me/trust/\">https://ncase.me/trust/</a></li>\n<li><a href=\"https://ncase.me/anxiety/\">https://ncase.me/anxiety/</a><br>\ntalk about trust, game theory, online communities, patreon funding models, and more!</li>\n</ul>\n</li>\n</ul>",
+        "id": 483582121,
+        "sender_full_name": "Nick Sweeting",
+        "timestamp": 1732141648
+    },
+    {
+        "content": "<p><a href=\"https://changelog.com/request\">https://changelog.com/request</a> ;)</p>",
+        "id": 483597499,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1732150271
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"781907\">Nick Sweeting</span> <a href=\"#narrow/channel/453512-general/topic/nominations.20for.20interviewees/near/483582121\">said</a>:</p>\n<blockquote>\n<p>Nicky Case <a href=\"https://ncase.me/\">https://ncase.me/</a></p>\n</blockquote>\n<p>+1 for Nicky Case. I loved their game theory post!</p>",
+        "id": 483614819,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1732162736
+    },
+    {
+        "content": "<p>Anybody from the crystal community please. I think the language deserves a bit more exposure.</p>",
+        "id": 483789460,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1732223547
+    },
+    {
+        "content": "<p>Oh and this guy.  <a href=\"https://github.com/aquametalabs/aquameta\">https://github.com/aquametalabs/aquameta</a></p>\n<p>This is one hella crazy project and he has been at it for like a decade.</p>",
+        "id": 483789585,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1732223609
+    },
+    {
+        "content": "<p>We've invited Nicky Case on in the past. No response. Doing a show with Acon from Hack Club next week!</p>",
+        "id": 483797159,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1732226685
+    },
+    {
+        "content": "<p>I wonder if anyone from the helix editor project would jump on? <a href=\"https://github.com/helix-editor/helix\">https://github.com/helix-editor/helix</a></p>",
+        "id": 483819008,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1732238310
+    },
+    {
+        "content": "<p>We've invited them in the past as well. I think they said yes, but then we could never get it scheduled for one reason or the other...</p>",
+        "id": 483821953,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1732240479
+    },
+    {
+        "content": "<p>Well try again Jerod, duh! <span aria-label=\"rolling on the floor laughing\" class=\"emoji emoji-1f923\" role=\"img\" title=\"rolling on the floor laughing\">:rolling_on_the_floor_laughing:</span></p>\n<p>Totally kidding. I would really like to hear an episode with the Helix folks.</p>",
+        "id": 484843709,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1732771852
+    },
+    {
+        "content": "<p>I asked them over on Matrix : <a href=\"https://matrix.to/#/!zMuVRxoqjyxyjSEBXc:matrix.org/$17Ki1MS6O8RuOc7NJRgn0KF396808BSmTotKy-vXsKM?via=matrix.org&amp;via=tchncs.de&amp;via=mozilla.org\">https://matrix.to/#/!zMuVRxoqjyxyjSEBXc:matrix.org/$17Ki1MS6O8RuOc7NJRgn0KF396808BSmTotKy-vXsKM?via=matrix.org&amp;via=tchncs.de&amp;via=mozilla.org</a></p>",
+        "id": 484992768,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1732832500
+    },
+    {
+        "content": "<p>Oh, what about the Zellij folks? <a href=\"https://zellij.dev/\">https://zellij.dev/</a></p>\n<p>I just asked them: <a href=\"https://matrix.to/#/!PTcKdFWbMDSVGyitUH:matrix.org/$WtgwNzPl9CbaAoEoCNOql5G1wWnlvmGe88LHjUOVhPs?via=matrix.org&amp;via=gitter.im&amp;via=envs.net\">https://matrix.to/#/!PTcKdFWbMDSVGyitUH:matrix.org/$WtgwNzPl9CbaAoEoCNOql5G1wWnlvmGe88LHjUOVhPs?via=matrix.org&amp;via=gitter.im&amp;via=envs.net</a></p>",
+        "id": 486710132,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1733610356
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"750017\">@Adam Stacoviak</span> maybe another cooking related interview idea could be with the folks behind Cooklang. <a href=\"https://cooklang.org/\">https://cooklang.org/</a></p>\n<p>Just discovered this &amp; now I want to add recipes to my blog.</p>",
+        "id": 489091834,
+        "sender_full_name": "Fershad Irani",
+        "timestamp": 1734276553
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"759370\">@Fershad Irani</span> Huh. I've got all my recipes stored in plaintext as markdown and remember when this came out finding it very cool but unwilling to manually convert my 100+ recipes to this format. But! Now I'm thinking even like the small llama models could handle that kind of conversion with decent accuracy. Could make it way more feasible now!</p>",
+        "id": 489095849,
+        "sender_full_name": "Dustin",
+        "timestamp": 1734280065
+    }
+]

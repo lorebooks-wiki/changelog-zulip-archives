@@ -1,0 +1,134 @@
+[
+    {
+        "content": "<p>I think it would be really awesome to have a podcast that covered the quantum software ecosystem. It is always growing and evolving, with packages like IBM's Qiskit, Xanadu's Pennylane, Google's Cirq, etc. pushing the envelope with each release.</p>",
+        "id": 517206140,
+        "sender_full_name": "Marcus Edwards",
+        "timestamp": 1746837397
+    },
+    {
+        "content": "<p>That would be interesting but in a more abstract way because most of us have no access to quantum computers.</p>",
+        "id": 517299411,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1746915078
+    },
+    {
+        "content": "<p>In a way, perhaps LLMs forcing (good) teams to adapt to non-deterministic responses could help prepare them for dealing with quantum computing?</p>",
+        "id": 517301516,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1746917297
+    },
+    {
+        "content": "<p>In all honestly I know very little about how quantum computing works. I hear terms like qbits and superposition and such and can kind of glean some meaning but I don't have the physics and math knowledge to understand it in a competent way.</p>\n<p>Every day I hear people on youtube bleating about some silly thing or another citing \"quantum mechanics says .....\" to support their notion of god or crystal healing or universal consciousness or their pet theory of everything explaining the nature of time and space. I don't want to be one of those people.</p>",
+        "id": 517307334,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1746923115
+    },
+    {
+        "content": "<p>I feel like I’ve been hearing about quantum for 20 years now and the only application that normal people would have for it is “well, state actors and organized crime will break all of your traditional encryption so you better have quantum to keep up.” That just fills me with dread rather than excitement.</p>\n<p>Maybe I’m wrong. I’d love to be. So if anyone knows of better applications, especially ones would mean something to regular people, please let me know.</p>",
+        "id": 517318041,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1746932901
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752964\">@Andrew O'Brien</span> well, quantum computing is good for solving problems that are highly parallel. There are lots of things that fit into this category. An example is protein folding simulations. If we can simulate protein folding, it might help with medical drug discovery. Another one is nitrogen fixation, which is a problem at the center of fertilizer design. We could reduce the price of food by designing fertilizer that we can synthesize with less energy intensive ammonia synthesis. These are two that have been written about a fair bit.</p>",
+        "id": 517360742,
+        "sender_full_name": "Marcus Edwards",
+        "timestamp": 1746969699
+    },
+    {
+        "content": "<p>10% of the world's carbon dioxide is currently used in the making of fertilizer.</p>",
+        "id": 517360961,
+        "sender_full_name": "Marcus Edwards",
+        "timestamp": 1746969844
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"755905\">@Tim Uckun</span> you actually can use quantum computers through public APIs these days, the first one was made available around 5 years ago and since then we've scaled from around 16 qubits on available computers to several hundred.</p>",
+        "id": 517375691,
+        "sender_full_name": "Marcus Edwards",
+        "timestamp": 1746980866
+    },
+    {
+        "content": "<p>During my Masters I used IBM's Melbourne computer which was state of the art at the time (the 16 qubit one). Anyone can get a free API token on the IBM website.</p>",
+        "id": 517375769,
+        "sender_full_name": "Marcus Edwards",
+        "timestamp": 1746980921
+    },
+    {
+        "content": "<p>The company where I'm working also has a web connected quantum computer called X8. It's fewer qubits but it's unique because it's a photonic quantum computer. You can reach out to arrange access.</p>",
+        "id": 517375819,
+        "sender_full_name": "Marcus Edwards",
+        "timestamp": 1746980972
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"771585\">@Ron Waldon-Howe</span> this sounds interesting, since quantum computing is fundamentally non deterministic. Can you expand?</p>",
+        "id": 517375979,
+        "sender_full_name": "Marcus Edwards",
+        "timestamp": 1746981089
+    },
+    {
+        "content": "<p>I'll also say that the state actor thing is a real threat. I used to work at the Toronto metropolitan university in the cybersecurity research lab on quantum cryptography, in order to address this. I think with NIST's standardization of post quantum cryptography schemes, we are seeing adoption of security protocols that will help us all avoid the kind of issues you're taking about. We're getting ahead on this.</p>",
+        "id": 517377362,
+        "sender_full_name": "Marcus Edwards",
+        "timestamp": 1746982112
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"910202\">@Marcus Edwards</span> I mostly mean that many developers will be very conditioned to expect determinism, and applying that mindset to both quantum computing and machine learning is a recipe for mistakes and unmet expectations</p>",
+        "id": 517400009,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1747000901
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"910202\">@Marcus Edwards</span> sure, I mean I want _someone_ to have a computer to do those things. Just as I want someone to have a mainframe that can do extremely fast ledger transactions with near 100% uptime so that the financial system runs. But those are all indirect (even if large) impacts on most people’s lives.</p>\n<p>So is it still special purpose computational infrastructure that only a few large institutions will have both the need and ability to run? I.e. there’s no direct consumer/end-user application (even as a remote time-shared resource).</p>\n<p>(Not that that means it’s useless and everyone can all compete ignore it, just that if I’m not interested in those special subdomains, then how much do I realistically need to know about it?)</p>\n<p>(Also, thanks for responding to a bunch of our questions. I appreciate you lending us your expertise.)</p>",
+        "id": 517408325,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1747009408
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752964\">@Andrew O'Brien</span> no problem! :) I see what you're asking. I think while anyone can access quantum computers remotely as a shared resource now, it is still mostly a service used by researchers. And it probably will be for a while. As a counter example though... Quantum computing can help with route optimization too, since this involves parallelism, so for example a developer working at Google on Google maps might someday soon use a quantum computer in their day job.</p>",
+        "id": 517408958,
+        "sender_full_name": "Marcus Edwards",
+        "timestamp": 1747009998
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"771585\">@Ron Waldon-Howe</span> good point!</p>",
+        "id": 517409071,
+        "sender_full_name": "Marcus Edwards",
+        "timestamp": 1747010105
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"755905\">@Tim Uckun</span> a Canadian physicist Chris Ferrie recently wrote a book called \"quantum bullsh*t\" where he talks about the kind of unfortunate nonsense you are referring to. He kind of gives the basics of quantum information from a scientific point of view. The basics. I'd recommend it, if you don't mind the occasional swear...</p>",
+        "id": 517409316,
+        "sender_full_name": "Marcus Edwards",
+        "timestamp": 1747010374
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"910202\">@Marcus Edwards</span> do you think it’s a viable growth opportunity for the tech industry as a whole? Or that it will be a more modest play?</p>\n<p>Asking as someone who thinks generative AI is a $10sB segment that’s been hyped into the trillions because after crypto, the metaverse, and home assistants crashed I feel like there’s a panic among tech leaders and investors that they’re running out of innovative world changing ideas (on the level of The Internet, e-commerce, and smart phones).</p>\n<p>But when Willow was launched there was some “quantum AI” hype, which seemed to me was either quantum people trying to ride the AI wave or people with reason to sense a crash in AI hoping to jump onto what they hoped would be the Next Big Thing.</p>",
+        "id": 517410486,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1747011396
+    },
+    {
+        "content": "<p>Willow was not all hype, since they really did show error correction below threshold i.e. error correction that improved as qubits were added to the code. That's a milestone that people have been working towards for years. There is generally a problem in our field with hype though, yeah... I believe quantum computing could really change the world. I'm an optimist. But it will change it by making certain hard computational problems tractable.</p>",
+        "id": 517411901,
+        "sender_full_name": "Marcus Edwards",
+        "timestamp": 1747012516
+    },
+    {
+        "content": "<p>I hear a lot of quantum bullshit for sure.  The problem is people want to use science as an authority to back up their unscientific conclusion but on this one scientists who once said this one thing.</p>\n<p>My favorite example is the \"hollow moon\" conspiracy theory. Some people actually believe the moon is an artificial structure and is hollow. One of the pieces of evidence they cite is a statement from a mission which deployed seismic monitors on the moon and detected a meteor strike. When the scientist was interviewed on the  subject he said something like \"when the meteor hit the moon you could detect the vibrations from far away, it was like ringing a bell\".  They take this one statement and say \"Ah Hah!. The moon is made of metal and hollow, it rings like a bell\".</p>\n<p>Yes I actually had a conversation with a person like that.  For quantum bullshit you get even more outlandish theories.</p>",
+        "id": 517416084,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1747015736
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"910202\">Marcus Edwards</span> <a href=\"#narrow/stream/453512-general/topic/A.20quantum.20software.20podcast.3F/near/517411901\">said</a>:</p>\n<blockquote>\n<p>Willow was not all hype, since they really did show error correction below threshold</p>\n</blockquote>\n<p>Just to be clear, I wasn’t saying that Willow itself was hype. Just that it seemed that someone was tying Willow’s success to AI in a disingenuous way in order to either try to link it or as a hedge against AI’s failure to deliver.</p>",
+        "id": 517420460,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1747019394
+    },
+    {
+        "content": "<p>Yep all good</p>",
+        "id": 517507507,
+        "sender_full_name": "Marcus Edwards",
+        "timestamp": 1747048545
+    }
+]

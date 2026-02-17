@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p><strong>Public</strong> channel created by <span class=\"user-mention silent\" data-user-id=\"752976\">Matthew Sanabria</span>. <strong>Description:</strong></p>\n<blockquote>\n<p>A place for all things home lab!</p>\n</blockquote>",
+        "id": 468284272,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1725654772
+    },
+    {
+        "content": "<p>I probably should have named this #homelab (singular).</p>",
+        "id": 468284336,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1725654807
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"750017\">Adam Stacoviak</span> changed the description for this channel.</p>\n<ul>\n<li><strong>Old description:</strong></li>\n</ul>\n<blockquote>\n<p>A place for all things home lab!</p>\n</blockquote>\n<ul>\n<li><strong>New description:</strong></li>\n</ul>\n<blockquote>\n<p>Talk about the tech you're running or want to run in your homelab.</p>\n</blockquote>",
+        "id": 468289398,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1725657279
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"750017\">Adam Stacoviak</span> renamed channel <strong>homelabs</strong> to <strong>homelab</strong>.</p>",
+        "id": 468289399,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1725657279
+    }
+]

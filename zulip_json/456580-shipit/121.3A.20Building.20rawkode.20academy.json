@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p><span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://shipit.show/121\">https://shipit.show/121</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://shipit.show/121\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/e7ac8def92f143a790509115d4297afca9af2a35/68747470733a2f2f736e61702e666c792e6465762f7368697069742f3132312f696d67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://shipit.show/121\" title=\"Building rawkode academy with David Flanagan (Ship It! #121)\">Building rawkode academy with David Flanagan (Ship It! #121)</a></div><div class=\"message_embed_description\">David created a successful YouTube channel but knew to take things to the next level he'd need to own more of the stack.</div></div></div>",
+        "id": 470335035,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1726406612
+    },
+    {
+        "content": "<p>Such a great episode. I loved the quiz at the end. <br>\nI haven't touched Wasm yet, and this is another push for me towards giving it a shot. <br>\nI also really agreed with David that Rust is just so enjoyable to use. I've used it for the backend of my latest project and couldn't really justify it other than \"I like it!\" Maybe that's all that's needed.</p>",
+        "id": 470761223,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1726525918
+    },
+    {
+        "content": "<p>Some very triggering takes on microservices in this episode <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span>. I'd really like to see what a single-column service looks like. I'm taking a look at <a href=\"https://github.com/RawkodeAcademy/RawkodeAcademy\">the github repo</a> but can't see any great example services... maybe <a href=\"https://github.com/RawkodeAcademy/RawkodeAcademy/blob/main/projects/rawkode.academy/show-hosts-service/\">this</a> is a good one, which contains the mapping of hosts to shows? I do like the idea of table-per-feature (it reminds me of the ECS structure in video games). But I wonder if all the ceremony around each table is really worth it?<br>\nAaaaanyway I'm at risk of turning this into a microservices argument! Maybe we should try to focus on the specific approach in the episode, which is the use of grafbase, WASM on the backend, etc.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/RawkodeAcademy/RawkodeAcademy\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/45f90c694ea360c783176e5ccd395230679d7887/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656662393763323636313137663132346531653665373830353236386465653264653930626166383530646437363732656363653932323437613866393661342f5261776b6f646541636164656d792f5261776b6f646541636164656d79&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/RawkodeAcademy/RawkodeAcademy\" title=\"GitHub - RawkodeAcademy/RawkodeAcademy: Rawkode Academy Monorepository\">GitHub - RawkodeAcademy/RawkodeAcademy: Rawkode Academy Monorepository</a></div><div class=\"message_embed_description\">Rawkode Academy Monorepository. Contribute to RawkodeAcademy/RawkodeAcademy development by creating an account on GitHub.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/RawkodeAcademy/RawkodeAcademy/blob/main/projects/rawkode.academy/show-hosts-service/\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/45f90c694ea360c783176e5ccd395230679d7887/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f656662393763323636313137663132346531653665373830353236386465653264653930626166383530646437363732656363653932323437613866393661342f5261776b6f646541636164656d792f5261776b6f646541636164656d79&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/RawkodeAcademy/RawkodeAcademy/blob/main/projects/rawkode.academy/show-hosts-service/\" title=\"RawkodeAcademy/projects/rawkode.academy/show-hosts-service at main · RawkodeAcademy/RawkodeAcademy\">RawkodeAcademy/projects/rawkode.academy/show-hosts-service at main · RawkodeAcademy/RawkodeAcademy</a></div><div class=\"message_embed_description\">Rawkode Academy Monorepository. Contribute to RawkodeAcademy/RawkodeAcademy development by creating an account on GitHub.</div></div></div>",
+        "id": 470878885,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1726553580
+    },
+    {
+        "content": "<p>I think I'd need to sit down with him for at least a half an hour to get pointers and what to look at to get an idea of how the whole system works and be able to take this discussion where you're hoping it'll go.</p>\n<p>But without that, my gut reaction is that that kind of architecture works okay because the DB is in-process and can probably fit in memory. But that's speculation and also gets us dangerously close to arguing about theory without being grounded in the fact that he seems to have come up with something that works well for his use-case, which he certainly understands better than I do.</p>",
+        "id": 471024288,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1726588521
+    },
+    {
+        "content": "<p>Sorry it took me so long to get here, but always happy to talk about and share my progress <span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span></p>",
+        "id": 484741673,
+        "sender_full_name": "David Flanagan",
+        "timestamp": 1732719878
+    }
+]

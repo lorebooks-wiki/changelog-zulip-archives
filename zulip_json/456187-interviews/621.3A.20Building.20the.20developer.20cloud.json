@@ -1,0 +1,68 @@
+[
+    {
+        "content": "<p>Kurt Mackey is back for a deep dive into what it takes to build the developer cloud. Kurt joins Adam to discuss the alliance between companies and cloud, something Kurt refers to as the \"Rebel Alliance,\" cloud complexity vs usability, Fly's future with Postgres and why they've waited, thoughts on Neon and Supabase (Kurt shares a hot take), and our CDN saga and plan to build a simple CDN on Fly called <a href=\"https://pipely.tech\">Pipely</a> (still a <a href=\"https://github.com/thechangelog/pipedream\">Pipedream</a>). <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/621\">https://changelog.fm/621</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.fm/621#t=0\">00:00</a></td>\n<td>This week on The Changelog</td>\n<td>01:02</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.fm/621#t=65\">01:05</a></td>\n<td><a href=\"https://sentry.io/events/launch-week/\">Sponsor: Sentry</a></td>\n<td>02:04</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.fm/621#t=193\">03:13</a></td>\n<td>Start the show!</td>\n<td>00:21</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.fm/621#t=213\">03:33</a></td>\n<td>NO limits</td>\n<td>01:55</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.fm/621#t=329\">05:29</a></td>\n<td>Clouds doing similar things</td>\n<td>00:58</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.fm/621#t=387\">06:27</a></td>\n<td>DHH threw shade at Fly</td>\n<td>08:40</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.fm/621#t=907\">15:07</a></td>\n<td>Blazing fast SSDs</td>\n<td>04:06</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.fm/621#t=1152\">19:12</a></td>\n<td>Hot take!!</td>\n<td>01:20</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.fm/621#t=1232\">20:32</a></td>\n<td>Rebel Alliance</td>\n<td>04:17</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.fm/621#t=1490\">24:50</a></td>\n<td>Back to Tigris</td>\n<td>03:10</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.fm/621#t=1680\">28:00</a></td>\n<td><a href=\"https://coder.com/\">Sponsor: Coder</a></td>\n<td>02:24</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.fm/621#t=1824\">30:24</a></td>\n<td>Is it the Rebellion?</td>\n<td>02:19</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.fm/621#t=1963\">32:43</a></td>\n<td>We're building managed Postgres</td>\n<td>03:10</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.fm/621#t=2153\">35:53</a></td>\n<td>The Cloud business</td>\n<td>05:42</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.fm/621#t=2495\">41:35</a></td>\n<td>Tigris on Fly</td>\n<td>03:48</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.fm/621#t=2723\">45:23</a></td>\n<td>No more Alliance?</td>\n<td>00:59</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.fm/621#t=2781\">46:21</a></td>\n<td>We asked Render to do Postgres for us</td>\n<td>06:21</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.fm/621#t=3013\">50:13</a></td>\n<td><a href=\"https://www.eightsleep.com/changelog\">Sponsor: Eight Sleep</a></td>\n<td>02:29</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.fm/621#t=3162\">52:42</a></td>\n<td><a href=\"https://www.wix.com/studio\">Sponsor: Wix Studio</a></td>\n<td>00:54</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.fm/621#t=3217\">53:37</a></td>\n<td>Why punt on managed Postgres?</td>\n<td>03:39</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.fm/621#t=3435\">57:15</a></td>\n<td>BTS on Percona</td>\n<td>02:29</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.fm/621#t=3584\">59:44</a></td>\n<td>Exotic DB services</td>\n<td>01:42</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.fm/621#t=3686\">1:01:26</a></td>\n<td>Tigris'ing Neon on Fly</td>\n<td>00:52</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.fm/621#t=3737\">1:02:17</a></td>\n<td>Our CDN saga</td>\n<td>08:46</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://changelog.fm/621#t=4263\">1:11:03</a></td>\n<td>CDN on Fly</td>\n<td>05:45</td>\n</tr>\n<tr>\n<td>26</td>\n<td><a href=\"https://changelog.fm/621#t=4608\">1:16:48</a></td>\n<td>How's your life?</td>\n<td>03:22</td>\n</tr>\n<tr>\n<td>27</td>\n<td><a href=\"https://changelog.fm/621#t=4810\">1:20:10</a></td>\n<td>Divorce happened</td>\n<td>02:09</td>\n</tr>\n<tr>\n<td>28</td>\n<td><a href=\"https://changelog.fm/621#t=4939\">1:22:19</a></td>\n<td>I build Lego and watch TV</td>\n<td>00:52</td>\n</tr>\n<tr>\n<td>29</td>\n<td><a href=\"https://changelog.fm/621#t=4991\">1:23:11</a></td>\n<td>What's on your TV?</td>\n<td>01:53</td>\n</tr>\n<tr>\n<td>30</td>\n<td><a href=\"https://changelog.fm/621#t=5105\">1:25:05</a></td>\n<td>Ray Porter and Bobiverse</td>\n<td>03:01</td>\n</tr>\n<tr>\n<td>31</td>\n<td><a href=\"https://changelog.fm/621#t=5285\">1:28:05</a></td>\n<td>Fly's future?</td>\n<td>03:19</td>\n</tr>\n<tr>\n<td>32</td>\n<td><a href=\"https://changelog.fm/621#t=5485\">1:31:25</a></td>\n<td>That's it</td>\n<td>00:26</td>\n</tr>\n<tr>\n<td>33</td>\n<td><a href=\"https://changelog.fm/621#t=5510\">1:31:50</a></td>\n<td>Closing thoughts and stuff</td>\n<td>03:42</td>\n</tr>\n</tbody>\n</table>",
+        "id": 488639609,
+        "sender_full_name": "Logbot",
+        "timestamp": 1734012007
+    },
+    {
+        "content": "<p>Fun hearing the discussion about the Pipedream... anxious for Friday's episode now.</p>",
+        "id": 488706087,
+        "sender_full_name": "Matt Johnson",
+        "timestamp": 1734032636
+    },
+    {
+        "content": "<p>This episode covered a lot of ground, tech / business / personal... great discussion <span aria-label=\"heart\" class=\"emoji emoji-2764\" role=\"img\" title=\"heart\">:heart:</span> .</p>",
+        "id": 488706758,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1734032893
+    },
+    {
+        "content": "<p>The rebel alliance topic was interesting, sounds like the tech startup version of an indie record label <span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span></p>",
+        "id": 488707455,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1734033135
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"753112\">@Matt Johnson</span> the Pipedream is gets too REAL on Friday <span aria-label=\"stuck out tongue wink\" class=\"emoji emoji-1f61c\" role=\"img\" title=\"stuck out tongue wink\">:stuck_out_tongue_wink:</span></p>",
+        "id": 488712507,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1734035253
+    },
+    {
+        "content": "<p>Oh that idea of having people from different companies on to compare and contrast is great. It would be really interesting to see if different vendors with different approaches could come to agreement e.g. around different user needs, different customer profiles who may want to use them versus someone else. Or just get different takes on issues etc. I wonder if it would just be way too difficult to manage though <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 488991787,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1734180712
+    },
+    {
+        "content": "<p>\"Could you Tigris Neon on Fly\" <span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span></p>",
+        "id": 489056694,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1734241866
+    },
+    {
+        "content": "<p>Since you were trading Bobiverse and Children of Time recs, have you guys read The Forever War? Plays with some similar concepts.</p>\n<p>I'd recommend reading as a double feature with Starship Troopers, which was a big influence on the sci fi genre. Haldeman has said it's not a reaction to Starship Troopers, but was influenced by it and is quite a counterpoint.</p>",
+        "id": 489058245,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1734243467
+    },
+    {
+        "content": "<p>The Rebel Alliance sounds cool to me, but I really appreciate that Kurt brought up HIPAA and BAAs. As someone working in health tech this is very true, and makes it way easier to just use the cloud you're already in vs looking for alternatives.</p>",
+        "id": 489097842,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1734281855
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752986\">Daniel Buckmaster</span> <a href=\"#narrow/channel/456187-interviews/topic/621.3A.20Building.20the.20developer.20cloud/near/489056694\">said</a>:</p>\n<blockquote>\n<p>\"Could you Tigris Neon on Fly\" <span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span></p>\n</blockquote>\n<p>r/brandnewsentences</p>",
+        "id": 489255142,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1734360307
+    },
+    {
+        "content": "<p>This episode was awesome. I’m a new listener to Changelog. Huge fan of <a href=\"http://Fly.io\">Fly.io</a>. Quite interesting to hear the back story on Kurt’s approach to managed Postgres and how they got it wrong. I’m looking forward to playing with their new in-house managed Postgres product once it’s available.</p>",
+        "id": 500284484,
+        "sender_full_name": "Joe",
+        "timestamp": 1739831636
+    }
+]

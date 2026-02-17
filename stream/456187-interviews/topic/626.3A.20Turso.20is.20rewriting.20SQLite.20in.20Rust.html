@@ -1,0 +1,301 @@
+<html>
+<head><meta charset="utf-8"><title>626: Turso is rewriting SQLite in Rust · interviews · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/index.html">interviews</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/626.3A.20Turso.20is.20rewriting.20SQLite.20in.20Rust.html">626: Turso is rewriting SQLite in Rust</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="496770657"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/626%3A%20Turso%20is%20rewriting%20SQLite%20in%20Rust/near/496770657" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/626.3A.20Turso.20is.20rewriting.20SQLite.20in.20Rust.html#496770657">(Jan 30 2025 at 13:00)</a>:</h4>
+<p>Glauber Costa, co-founder and CEO of Turso, joins us to discuss libSQL, Limbo, and how they're rewriting SQLite in Rust. We discuss their efforts with libSQL, the challenge of SQLite being in the public domain but not being open for contribution, their choice to rewrite everything with Limbo, how this all plays into the future of the Turso platform, how they test Limbo with Deterministic Simulation Testing (DST), and their plan to replace SQLite. <span aria-label="link" class="emoji emoji-1f517" role="img" title="link">:link:</span> <a href="https://changelog.fm/626">https://changelog.fm/626</a></p>
+<table>
+<thead>
+<tr>
+<th>Ch</th>
+<th>Start</th>
+<th>Title</th>
+<th>Runs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>01</td>
+<td><a href="https://changelog.fm/626#t=0">00:00</a></td>
+<td>This week on The Changelog</td>
+<td>01:19</td>
+</tr>
+<tr>
+<td>02</td>
+<td><a href="https://changelog.fm/626#t=79">01:19</a></td>
+<td><a href="https://retool.com/changelog">Sponsor: Retool</a></td>
+<td>02:45</td>
+</tr>
+<tr>
+<td>03</td>
+<td><a href="https://changelog.fm/626#t=245">04:05</a></td>
+<td>Start the show!</td>
+<td>01:05</td>
+</tr>
+<tr>
+<td>04</td>
+<td><a href="https://changelog.fm/626#t=309">05:09</a></td>
+<td>SQLite is open source, right?</td>
+<td>12:59</td>
+</tr>
+<tr>
+<td>05</td>
+<td><a href="https://changelog.fm/626#t=1089">18:09</a></td>
+<td>Turso can REPLACE SQLIte</td>
+<td>04:54</td>
+</tr>
+<tr>
+<td>06</td>
+<td><a href="https://changelog.fm/626#t=1383">23:03</a></td>
+<td>Rewrite test suites are just as hard</td>
+<td>05:39</td>
+</tr>
+<tr>
+<td>07</td>
+<td><a href="https://changelog.fm/626#t=1722">28:42</a></td>
+<td>DST from scratch or Rust Crates?</td>
+<td>02:13</td>
+</tr>
+<tr>
+<td>08</td>
+<td><a href="https://changelog.fm/626#t=1856">30:56</a></td>
+<td><a href="https://temporal.io">Sponsor: Temporal</a></td>
+<td>02:02</td>
+</tr>
+<tr>
+<td>09</td>
+<td><a href="https://changelog.fm/626#t=1978">32:58</a></td>
+<td>Deterministic Simulation Testing (DSTs) are magic</td>
+<td>02:22</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://changelog.fm/626#t=2120">35:20</a></td>
+<td>SQLite compatibility</td>
+<td>02:02</td>
+</tr>
+<tr>
+<td>11</td>
+<td><a href="https://changelog.fm/626#t=2242">37:22</a></td>
+<td>Fully asyncronous IO</td>
+<td>04:20</td>
+</tr>
+<tr>
+<td>12</td>
+<td><a href="https://changelog.fm/626#t=2502">41:42</a></td>
+<td>Being well recieved was a surprise</td>
+<td>05:07</td>
+</tr>
+<tr>
+<td>13</td>
+<td><a href="https://changelog.fm/626#t=2810">46:50</a></td>
+<td>Why SO compelling?</td>
+<td>04:28</td>
+</tr>
+<tr>
+<td>14</td>
+<td><a href="https://changelog.fm/626#t=3079">51:19</a></td>
+<td><a href="https://www.timescale.com">Sponsor: Timescale</a></td>
+<td>02:21</td>
+</tr>
+<tr>
+<td>15</td>
+<td><a href="https://changelog.fm/626#t=3220">53:40</a></td>
+<td>There's so much to do</td>
+<td>03:42</td>
+</tr>
+<tr>
+<td>16</td>
+<td><a href="https://changelog.fm/626#t=3443">57:23</a></td>
+<td>Production-grade by Jan 2026</td>
+<td>01:14</td>
+</tr>
+<tr>
+<td>17</td>
+<td><a href="https://changelog.fm/626#t=3517">58:37</a></td>
+<td>How does this effect Turso (the business)</td>
+<td>02:45</td>
+</tr>
+<tr>
+<td>18</td>
+<td><a href="https://changelog.fm/626#t=3682">1:01:22</a></td>
+<td>One Turso to rule them all</td>
+<td>02:16</td>
+</tr>
+<tr>
+<td>19</td>
+<td><a href="https://changelog.fm/626#t=3817">1:03:37</a></td>
+<td>Toeing the open source line</td>
+<td>02:31</td>
+</tr>
+<tr>
+<td>20</td>
+<td><a href="https://changelog.fm/626#t=3968">1:06:08</a></td>
+<td>How will you know you've replaced SQLite?</td>
+<td>01:07</td>
+</tr>
+<tr>
+<td>21</td>
+<td><a href="https://changelog.fm/626#t=4035">1:07:15</a></td>
+<td>What can you do today?</td>
+<td>01:24</td>
+</tr>
+<tr>
+<td>22</td>
+<td><a href="https://changelog.fm/626#t=4119">1:08:39</a></td>
+<td>Betting long on hosting DBs at scale</td>
+<td>02:57</td>
+</tr>
+<tr>
+<td>23</td>
+<td><a href="https://changelog.fm/626#t=4296">1:11:36</a></td>
+<td>Let's talk in a year</td>
+<td>00:25</td>
+</tr>
+<tr>
+<td>24</td>
+<td><a href="https://changelog.fm/626#t=4322">1:12:02</a></td>
+<td>Closing thoughts and stuff</td>
+<td>02:31</td>
+</tr>
+<tr>
+<td>25</td>
+<td><a href="https://changelog.fm/626#t=4473">1:14:33</a></td>
+<td>++ Teaser</td>
+<td>01:22</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<a name="496845566"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/626%3A%20Turso%20is%20rewriting%20SQLite%20in%20Rust/near/496845566" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Danny K <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/626.3A.20Turso.20is.20rewriting.20SQLite.20in.20Rust.html#496845566">(Jan 30 2025 at 18:48)</a>:</h4>
+<p>Didn't know Turso was trying to replace sqlite</p>
+
+
+
+<a name="496859455"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/626%3A%20Turso%20is%20rewriting%20SQLite%20in%20Rust/near/496859455" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jerod Santo <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/626.3A.20Turso.20is.20rewriting.20SQLite.20in.20Rust.html#496859455">(Jan 30 2025 at 20:06)</a>:</h4>
+<p>Yessir. Started with a fork but later decided to do a full rewrite, which has born early fruit (and lots of excitement/support)</p>
+
+
+
+<a name="496865671"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/626%3A%20Turso%20is%20rewriting%20SQLite%20in%20Rust/near/496865671" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/626.3A.20Turso.20is.20rewriting.20SQLite.20in.20Rust.html#496865671">(Jan 30 2025 at 20:49)</a>:</h4>
+<p>Looking forward to this one.</p>
+
+
+
+<a name="496876406"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/626%3A%20Turso%20is%20rewriting%20SQLite%20in%20Rust/near/496876406" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/626.3A.20Turso.20is.20rewriting.20SQLite.20in.20Rust.html#496876406">(Jan 30 2025 at 21:59)</a>:</h4>
+<p>There's also <a class="stream" data-stream-id="464897" href="/#narrow/channel/464897-rust">#rust</a> but it's currently just me talking to myself :P</p>
+
+
+
+<a name="496920037"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/626%3A%20Turso%20is%20rewriting%20SQLite%20in%20Rust/near/496920037" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/626.3A.20Turso.20is.20rewriting.20SQLite.20in.20Rust.html#496920037">(Jan 31 2025 at 05:17)</a>:</h4>
+<p><span class="user-mention" data-user-id="771585">@Ron Waldon-Howe</span> I got banned from the go subreddit for basically saying go wasn't the best option for an ecommerce site. Of course people objected and I replied detailing the wonders of rails and laravel for building ecommerce sites and boom they dropped the hammer on me.</p>
+<p>I thought I might pick up rust after that happened but I never did. I keep hearing horror stories about how steep the learning curve is.</p>
+
+
+
+<a name="496920858"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/626%3A%20Turso%20is%20rewriting%20SQLite%20in%20Rust/near/496920858" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/626.3A.20Turso.20is.20rewriting.20SQLite.20in.20Rust.html#496920858">(Jan 31 2025 at 05:28)</a>:</h4>
+<p>Coming from JavaScript and Go, there was a bit of a learning curve for me, but I read the official book ( <a href="https://doc.rust-lang.org/book/">https://doc.rust-lang.org/book/</a> ), and then read it again 12 months later, and things just sort of clicked for me<br>
+Rust tend to ask more from developers, but in exchange, the result tends to be more reliable and predictable when you compare it to other languages <br>
+e.g. I've shipped so many data races and <code>nil</code> pointers into production in Go, and the compiler does not help you prevent these bugs at all</p>
+
+
+
+<a name="497067657"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/626%3A%20Turso%20is%20rewriting%20SQLite%20in%20Rust/near/497067657" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dustin <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/626.3A.20Turso.20is.20rewriting.20SQLite.20in.20Rust.html#497067657">(Jan 31 2025 at 18:48)</a>:</h4>
+<p>There’s also the easier start to Rust which is cloning and using owned values everywhere. Helps to limit the extent to the compiler yelling at you. Once it works, you can try and write a solution that’s got less allocations and such.</p>
+
+
+
+<a name="497067704"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/626%3A%20Turso%20is%20rewriting%20SQLite%20in%20Rust/near/497067704" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dustin <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/626.3A.20Turso.20is.20rewriting.20SQLite.20in.20Rust.html#497067704">(Jan 31 2025 at 18:48)</a>:</h4>
+<p>But for my hobby projects the easy way has often been fast enough</p>
+
+
+
+<a name="497092850"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/626%3A%20Turso%20is%20rewriting%20SQLite%20in%20Rust/near/497092850" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/626.3A.20Turso.20is.20rewriting.20SQLite.20in.20Rust.html#497092850">(Jan 31 2025 at 21:39)</a>:</h4>
+<p>Yep, one doesn't need to learn Rust all at once<br>
+<code>.clone()</code> everywhere is a great way to avoid borrowing, thus deferring having to learn about the borrow-checker<br>
+The other aspects of the type system like enums (the best I've experienced in any language) can be a bigger part of representing your problem in Rust and help the compiler stop you from making mistakes</p>
+
+
+
+<a name="497093072"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/626%3A%20Turso%20is%20rewriting%20SQLite%20in%20Rust/near/497093072" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/626.3A.20Turso.20is.20rewriting.20SQLite.20in.20Rust.html#497093072">(Jan 31 2025 at 21:40)</a>:</h4>
+<p>For me and my use cases, it's almost always worth prioritising correctness rather than performance</p>
+
+
+
+<a name="497129554"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/626%3A%20Turso%20is%20rewriting%20SQLite%20in%20Rust/near/497129554" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/626.3A.20Turso.20is.20rewriting.20SQLite.20in.20Rust.html#497129554">(Feb 01 2025 at 04:38)</a>:</h4>
+<p>Heh, just came across this, pretty fair comparison: <a href="https://bitfieldconsulting.com/posts/rust-vs-go">https://bitfieldconsulting.com/posts/rust-vs-go</a></p>
+
+
+
+<a name="497129603"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/626%3A%20Turso%20is%20rewriting%20SQLite%20in%20Rust/near/497129603" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/626.3A.20Turso.20is.20rewriting.20SQLite.20in.20Rust.html#497129603">(Feb 01 2025 at 04:39)</a>:</h4>
+<p>Excellent summary:</p>
+<blockquote>
+<p>I hope this article has convinced you that <em>both</em> Rust and Go deserve your serious consideration. You should reject the false dilemma that you can only learn one or the other. In fact, the more languages you know, the more valuable you are as a software developer.</p>
+</blockquote>
+
+
+
+<a name="497141196"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/626%3A%20Turso%20is%20rewriting%20SQLite%20in%20Rust/near/497141196" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Daniel Buckmaster <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/626.3A.20Turso.20is.20rewriting.20SQLite.20in.20Rust.html#497141196">(Feb 01 2025 at 07:52)</a>:</h4>
+<p>TIL sqlite uses bytecode to execute its queries. It's super cool that Turso is taking the same approach and using the same bytecode language, even validating that the same SQL produces the same bytecode. <a href="https://sqlite.org/opcode.html">https://sqlite.org/opcode.html</a></p>
+
+
+
+<a name="497141275"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/626%3A%20Turso%20is%20rewriting%20SQLite%20in%20Rust/near/497141275" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Daniel Buckmaster <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/626.3A.20Turso.20is.20rewriting.20SQLite.20in.20Rust.html#497141275">(Feb 01 2025 at 07:53)</a>:</h4>
+<p>This has sent me back into my "SQL sucks" rabbit hole, wondering if a database could use bytecode as its API instead. The sqlite format is a bit verbose - here's what a basic select looks like:</p>
+<div class="codehilite"><pre><span></span><code>sqlite&gt; create table tbl1 (name text, age int);
+sqlite&gt; create index foo on tbl1 (age);
+sqlite&gt; insert into tbl1 (name, age) values (&#39;blah&#39;, 30);
+sqlite&gt; explain select * from tbl1 where age &gt; 20;
+addr  opcode         p1    p2    p3    p4             p5  comment
+----  -------------  ----  ----  ----  -------------  --  -------------
+0     Init           0     11    0                    0   Start at 11
+1     OpenRead       0     2     0     2              0   root=2 iDb=0; tbl1
+2     OpenRead       1     3     0     k(2,,)         0   root=3 iDb=0; foo
+3     Integer        20    1     0                    0   r[1]=20
+4     SeekGT         1     10    1     1              0   key=r[1]
+5       DeferredSeek   1     0     0                    0   Move 0 to 1.rowid if needed
+6       Column         0     0     2                    0   r[2]= cursor 0 column 0
+7       Column         1     0     3                    0   r[3]= cursor 1 column 0
+8       ResultRow      2     2     0                    0   output=r[2..3]
+9     Next           1     5     0                    0
+10    Halt           0     0     0                    0
+11    Transaction    0     0     2     0              1   usesStmtJournal=0
+12    Goto           0     1     0                    0
+</code></pre></div>
+<p>But if you put a little macro language on top of that assembler language for common cases... <span aria-label="thinking" class="emoji emoji-1f914" role="img" title="thinking">:thinking:</span></p>
+<p>EDIT: ok, before I detail this episode thread, here's a fork: <a class="message-link" href="/#narrow/channel/462152-unpopular-opinions/topic/SQL.20is.20bad.2C.20databases.20should.20expose.20APIs.20instead/near/497141538">#unpopular-opinions &gt; SQL is bad, databases should expose APIs instead @ 💬</a></p>
+
+
+
+<a name="497191014"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/626%3A%20Turso%20is%20rewriting%20SQLite%20in%20Rust/near/497191014" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Don MacKinnon <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/626.3A.20Turso.20is.20rewriting.20SQLite.20in.20Rust.html#497191014">(Feb 01 2025 at 19:23)</a>:</h4>
+<p>I dunno about anyone else but the relationship between Limbo, Turso and libsql  was a bit confusing for the first half of the episode. For someone coming into the episode not knowing anything about Turso there wasn't much context.</p>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

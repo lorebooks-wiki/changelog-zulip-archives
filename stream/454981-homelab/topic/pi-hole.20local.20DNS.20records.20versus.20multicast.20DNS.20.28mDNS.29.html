@@ -1,0 +1,38 @@
+<html>
+<head><meta charset="utf-8"><title>pi-hole local DNS records versus multicast DNS (mDNS) · homelab · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/index.html">homelab</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/pi-hole.20local.20DNS.20records.20versus.20multicast.20DNS.20.28mDNS.29.html">pi-hole local DNS records versus multicast DNS (mDNS)</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="501249530"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/pi-hole%20local%20DNS%20records%20versus%20multicast%20DNS%20%28mDNS%29/near/501249530" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/pi-hole.20local.20DNS.20records.20versus.20multicast.20DNS.20.28mDNS.29.html#501249530">(Feb 22 2025 at 10:15)</a>:</h4>
+<p>TIL <code>.local</code> hostnames are auto-managed, and manually-set <code>.local</code> hostnames don't work in a few places including pi-hole's "local DNS records" functionality: <a href="https://en.wikipedia.org/wiki/Multicast_DNS">https://en.wikipedia.org/wiki/Multicast_DNS</a></p>
+<p>I changed my hostnames to <code>.lan</code> instead and now the pi-hole records are working perfectly</p>
+
+
+
+<a name="501253357"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/pi-hole%20local%20DNS%20records%20versus%20multicast%20DNS%20%28mDNS%29/near/501253357" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Scott Abbey <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/pi-hole.20local.20DNS.20records.20versus.20multicast.20DNS.20.28mDNS.29.html#501253357">(Feb 22 2025 at 11:06)</a>:</h4>
+<p>.internal is officially supported as a non-routable TLD now</p>
+
+
+
+<a name="501274114"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/pi-hole%20local%20DNS%20records%20versus%20multicast%20DNS%20%28mDNS%29/near/501274114" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/pi-hole.20local.20DNS.20records.20versus.20multicast.20DNS.20.28mDNS.29.html#501274114">(Feb 22 2025 at 14:57)</a>:</h4>
+<p>.internal is the way. I've had similar issues with .local.</p>
+
+
+
+<a name="501274190"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/pi-hole%20local%20DNS%20records%20versus%20multicast%20DNS%20%28mDNS%29/near/501274190" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/pi-hole.20local.20DNS.20records.20versus.20multicast.20DNS.20.28mDNS.29.html#501274190">(Feb 22 2025 at 14:58)</a>:</h4>
+<p>Also there was an issue with systemd-resolved not resolving short names correctly even if the search domain was correct. It was frustrating.</p>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

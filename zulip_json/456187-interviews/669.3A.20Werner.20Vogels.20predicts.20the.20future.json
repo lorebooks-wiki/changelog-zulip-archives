@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Amazon CTO, Werner Vogels, stops by to help us explore his tech predictions for 2026 and beyond. Will companionship be redefined by consumer robots? Will quantum-safe become the only safe worth talking about? Is this the dawn of the renaissance developer? We're infinitely curious why Werner came to this particular set of conclusions. Are you? <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/669\">https://changelog.fm/669</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.fm/669#t=0\">00:00</a></td>\n<td>Welcome to The Changelog</td>\n<td>01:11</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.fm/669#t=71\">01:11</a></td>\n<td><a href=\"https://www.tigerdata.com\">Sponsor: Tiger Data</a></td>\n<td>01:39</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.fm/669#t=170\">02:50</a></td>\n<td>Start the show!</td>\n<td>01:10</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.fm/669#t=240\">04:00</a></td>\n<td>Being Amazon CTO</td>\n<td>06:18</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.fm/669#t=619\">10:19</a></td>\n<td>Why predict the future</td>\n<td>04:35</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.fm/669#t=893\">14:53</a></td>\n<td>Companionship redefined</td>\n<td>12:19</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.fm/669#t=1632\">27:12</a></td>\n<td><a href=\"https://namespace.so\">Sponsor: Namespace</a></td>\n<td>01:42</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.fm/669#t=1734\">28:54</a></td>\n<td>Quantum-safe</td>\n<td>10:14</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.fm/669#t=2348\">39:08</a></td>\n<td>Much ado about quantum</td>\n<td>04:01</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.fm/669#t=2588\">43:08</a></td>\n<td>Props to S3</td>\n<td>04:13</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.fm/669#t=2841\">47:21</a></td>\n<td>Remain curious</td>\n<td>13:07</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.fm/669#t=3629\">1:00:29</a></td>\n<td><a href=\"http://notion.com/changelog\">Sponsor: Notion</a></td>\n<td>01:32</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.fm/669#t=3721\">1:02:01</a></td>\n<td><a href=\"https://nordlayer.com/thechangelog\">Sponsor: NordLayer</a></td>\n<td>01:31</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.fm/669#t=3812\">1:03:32</a></td>\n<td>The renaissance dev</td>\n<td>16:13</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.fm/669#t=4785\">1:19:45</a></td>\n<td>On code review</td>\n<td>04:02</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.fm/669#t=5027\">1:23:47</a></td>\n<td>Take it slow</td>\n<td>02:41</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.fm/669#t=5187\">1:26:27</a></td>\n<td>Bonus prediction</td>\n<td>01:48</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.fm/669#t=5295\">1:28:15</a></td>\n<td>Wrapping up</td>\n<td>00:44</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.fm/669#t=5340\">1:29:00</a></td>\n<td><a href=\"https://changelog.fm/sotl\">Closing thoughts (sotl!)</a></td>\n<td>01:45</td>\n</tr>\n</tbody>\n</table>",
+        "id": 561902722,
+        "sender_full_name": "Logbot",
+        "timestamp": 1764860705
+    },
+    {
+        "content": "<p>Nice get!!</p>",
+        "id": 562008751,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1764900644
+    },
+    {
+        "content": "<p>Interesting to hear about post quantum crypto. When I was at Dashlane (1Password competitor) a few years ago, we were already mostly done changing things over</p>",
+        "id": 564745783,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1766165206
+    },
+    {
+        "content": "<p>I think if y'all are interested doing more of a deep dive on Post Quantum Cryptography, Filippo Valsorda (<a href=\"https://filippo.io/\">https://filippo.io/</a>) would be an excellent guest</p>",
+        "id": 564753733,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1766168192
+    }
+]

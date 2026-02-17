@@ -1,0 +1,176 @@
+[
+    {
+        "content": "<p>Adam &amp; Jerod discuss the news! Our Merch sale, useful built-in macOS CLI utilities, the slow death of the hyperlink, systematically estimating a project's bus factor, The Browser Company abandoning Arc, the Dead Internet theory &amp; more! <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.com/friends/70\">https://changelog.com/friends/70</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td>00:00</td>\n<td>Let's talk!</td>\n<td>00:38</td>\n</tr>\n<tr>\n<td>02</td>\n<td>00:38</td>\n<td><a href=\"https://sentry.io/\">Sponsor: Sentry</a></td>\n<td>02:15</td>\n</tr>\n<tr>\n<td>03</td>\n<td>02:53</td>\n<td>Rivalries &amp; Friends</td>\n<td>03:02</td>\n</tr>\n<tr>\n<td>04</td>\n<td>05:55</td>\n<td><a href=\"https://merch.changelog.com\">That sweet, sweet merch</a></td>\n<td>05:52</td>\n</tr>\n<tr>\n<td>05</td>\n<td>11:47</td>\n<td>Going way back (machine)</td>\n<td>01:05</td>\n</tr>\n<tr>\n<td>06</td>\n<td>12:52</td>\n<td><a href=\"https://weiyen.net/articles/useful-macos-cmd-line-utilities\">Useful macOS CLI utilities</a></td>\n<td>10:35</td>\n</tr>\n<tr>\n<td>07</td>\n<td>23:27</td>\n<td><a href=\"https://www.halifaxexaminer.ca/beyond-the-link-tax-journalism-and-the-changing-nature-of-the-internet/\">The slow death of the hyperlink</a></td>\n<td>06:15</td>\n</tr>\n<tr>\n<td>08</td>\n<td>29:42</td>\n<td><a href=\"https://fly.io/\">Sponsor: Fly.io</a></td>\n<td>02:23</td>\n</tr>\n<tr>\n<td>09</td>\n<td>32:05</td>\n<td><a href=\"https://www.eightsleep.com/changelog\">Sponsor: Eight Sleep</a></td>\n<td>02:30</td>\n</tr>\n<tr>\n<td>10</td>\n<td>34:35</td>\n<td><a href=\"https://www.scannedinavian.com/the-github-plugin-my-coworkers-asked-me-not-to-write.html\">The Bus / Truck factor</a></td>\n<td>11:56</td>\n</tr>\n<tr>\n<td>11</td>\n<td>46:31</td>\n<td>Glass Onion vs Knives Out</td>\n<td>04:03</td>\n</tr>\n<tr>\n<td>12</td>\n<td>50:33</td>\n<td><a href=\"https://www.theverge.com/2024/10/24/24279020/browser-company-ai-browser-arc\">Arc is a dead browser walking</a></td>\n<td>08:35</td>\n</tr>\n<tr>\n<td>13</td>\n<td>59:08</td>\n<td><a href=\"https://www.assemblyai.com/?utm_source=changelog&amp;utm_medium=podcast\">Sponsor: AssemblyAI</a></td>\n<td>01:28</td>\n</tr>\n<tr>\n<td>14</td>\n<td>1:00:36</td>\n<td><a href=\"https://bsky.app/profile/changelog.com\">Are you on Bluesky?</a></td>\n<td>07:33</td>\n</tr>\n<tr>\n<td>15</td>\n<td>1:08:10</td>\n<td>Dead Internet theory</td>\n<td>07:33</td>\n</tr>\n<tr>\n<td>16</td>\n<td>1:15:43</td>\n<td>Bye, friends</td>\n<td>00:40</td>\n</tr>\n<tr>\n<td>17</td>\n<td>1:16:22</td>\n<td><a href=\"https://changelog.com/++\">Next week on The Changelog</a></td>\n<td>01:37</td>\n</tr>\n</tbody>\n</table>",
+        "id": 482693739,
+        "sender_full_name": "Logbot",
+        "timestamp": 1731704411
+    },
+    {
+        "content": "<p>I’m always a little sad that <a href=\"https://changelog.fm\">https://changelog.fm</a> is merely a vanity URL and not the primary</p>",
+        "id": 482792629,
+        "sender_full_name": "Dustin",
+        "timestamp": 1731782489
+    },
+    {
+        "content": "<p>I'm trying to get people to call the bus factor \"the lottery factor\" instead.</p>",
+        "id": 482858884,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1731847103
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752922\">Nabeel S</span> <a href=\"#narrow/stream/455613-friends/topic/70.3A.20Bus.20factors.20.26.20conspiracy.20theories/near/482858884\">said</a>:</p>\n<blockquote>\n<p>I'm trying to get people to call the bus factor \"the lottery factor\" instead.</p>\n</blockquote>\n<p>I know many people that tried this but it doesn't really catch on with a lot of people. Takes a lot to explain it. Plus winning the lottery doesn't necessarily mean that someone is gone for good. I get the sentiment though.</p>",
+        "id": 482889924,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1731872181
+    },
+    {
+        "content": "<p>Negativity definitely gets more human engagement, alas</p>",
+        "id": 482890365,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1731872610
+    },
+    {
+        "content": "<p>Regarding the discussion around Bluesky, I've been using it a lot in the past week. Vibe-wise it feels 2014 Twitter like but with much better moderation and tooling baked in. You have far more control over being able to tailor your experience on the platform, plus unlike the others it's built around portability. You can set your handle to be your domain so if down the road you decide to move to another AT protocol platform you're not starting all over.  Momentum has definitely picked up, they are at 19 million users now (you had 15 at the time of the recording), they've been adding roughly 1 million users a day for the past several days. I originally signed up back in 2023 but momentum on the platform just picked up since the election.</p>",
+        "id": 482925502,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1731902915
+    },
+    {
+        "content": "<p>Merch!<br>\nLovely new banner...<br>\nGreat deals. <br>\nBut shipping costs to Canada are bananas.</p>",
+        "id": 482937107,
+        "sender_full_name": "Daniel Lauzon",
+        "timestamp": 1731910092
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"762559\">@Daniel Lauzon</span> DM me your mailing address and I'll see if I can find some cheaper way</p>",
+        "id": 483038538,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1731940588
+    },
+    {
+        "content": "<p>Re \"the algo\" I've got a weird thing with my RSS x-poster on LinkedIn where it never displays the post image, it stopped a while back and pretty sure that's cause they thought I was spamming <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 483093176,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1731954675
+    },
+    {
+        "content": "<p>Parallel is useful! I wrote about it in the past (<a href=\"https://www.jvt.me/posts/2022/04/28/shell-queue/\">https://www.jvt.me/posts/2022/04/28/shell-queue/</a>) as it simplified some stuff I was doing considerably</p>",
+        "id": 483094262,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1731955063
+    },
+    {
+        "content": "<p>See also <a href=\"https://chaoss.community/kb/metric-contributor-absence-factor/\">https://chaoss.community/kb/metric-contributor-absence-factor/</a> for an alternative to \"bus factor\"</p>",
+        "id": 483094818,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1731955244
+    },
+    {
+        "content": "<p>Naming effort appreciated, but there is a zero percent chance that \"Contributor Absence Factor\" catches on in any meaningful way...</p>\n<p>Another <em>factor</em> that makes \"bus factor\" sticky as a name is that it's lurid, yet feasible. It just sells the concept of an unexpected, sudden absence of a person really, really well. No further explanation necessary.</p>\n<p>I actually think the bigger controversy here was the \"truck factor\" paper's authors hypothesizing the murder of Python's BDFL by a rival language's mob... <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 483103874,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1731957238
+    },
+    {
+        "content": "<p>CAF score though <span aria-label=\"thinking\" class=\"emoji emoji-1f914\" role=\"img\" title=\"thinking\">:thinking:</span></p>",
+        "id": 483113240,
+        "sender_full_name": "Dustin",
+        "timestamp": 1731960455
+    },
+    {
+        "content": "<p>Just jargon-y enough to catch on</p>",
+        "id": 483113442,
+        "sender_full_name": "Dustin",
+        "timestamp": 1731960499
+    },
+    {
+        "content": "<p>It's probably true that most places with coders will also have buses, too<br>\nIt just occurred to me that maybe the concept of a bus isn't universal, but it's probably more universal than a lottery</p>",
+        "id": 483148108,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1731973967
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752922\">Nabeel S</span> <a href=\"#narrow/stream/455613-friends/topic/70.3A.20Bus.20factors.20.26.20conspiracy.20theories/near/482858884\">said</a>:</p>\n<blockquote>\n<p>I'm trying to get people to call the bus factor \"the lottery factor\" instead.</p>\n</blockquote>\n<p>This is how I always refer to it. Just like retro instead of postmortem</p>",
+        "id": 483181058,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1731991303
+    },
+    {
+        "content": "<p>Postmortems and retros are 100% different.</p>",
+        "id": 483189939,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1731997148
+    },
+    {
+        "content": "<p>What's your take Adam? I have an idea in my mind of the difference, but I've seen them used interchangeably so many times.</p>",
+        "id": 483193793,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1731999537
+    },
+    {
+        "content": "<p>I prefer less morbid terminology whenever possible.</p>",
+        "id": 483250062,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1732018815
+    },
+    {
+        "content": "<p>I don't use retro when referring to a postmortem. I didn't even know people did that. I do, however, interchange root cause analysis (RCA) and postmortem.</p>\n<p>To me a postmortem is tied to an outage or incident and has a clear goal driven by facts- find out what exactly happened, how it was resolved, and note action items for the future. Two people cannot disagree about what went wrong because there's meant to be a single source of facts for what happened.</p>\n<p>A retro can be about anything, does not have a clear goal, and is driven by opinion- people discuss a past experience and share context that'll hopefully make things better for next time. Two people can have different opinions about what can be improved and how to improve it.</p>",
+        "id": 483414627,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1732084426
+    },
+    {
+        "content": "<p>I concur.</p>",
+        "id": 483500726,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1732113941
+    },
+    {
+        "content": "<p>Well said!</p>",
+        "id": 483506755,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1732115374
+    },
+    {
+        "content": "<p><a href=\"#narrow/channel/455613-friends/topic/70.3A.20Bus.20factors.20.26.20conspiracy.20theories/near/483383808\">A message</a> was moved here from <a class=\"stream-topic\" data-stream-id=\"453512\" href=\"/#narrow/channel/453512-general/topic/new.20episodes\">#general &gt; new episodes</a> by <span class=\"user-mention silent\" data-user-id=\"750170\">Jerod Santo</span>.</p>",
+        "id": 483557753,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1732131155
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"753349\">@Ed Howard</span> incredibly helpful, thanks! I've driven out to Durham and Chapel Hill from the airport, but not from downtown Raleigh, I guess.</p>",
+        "id": 483558101,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1732131286
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"750017\">Adam Stacoviak</span> <a href=\"#narrow/stream/455613-friends/topic/70.3A.20Bus.20factors.20.26.20conspiracy.20theories/near/483189939\">said</a>:</p>\n<blockquote>\n<p>Postmortems and retros are 100% different.</p>\n</blockquote>\n<p>I thought a retro refers to a scrum/agile concept of having a meeting in every iteration/sprint to discuss what went well and what went wrong.</p>\n<p>A post mortem in my understanding is a investigation and discussion about an incident and what happened in order to trigger it. </p>\n<p>Not sure if there are strict definitions about that, but this was my mental model so far <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 484065475,
+        "sender_full_name": "Konrad",
+        "timestamp": 1732368866
+    },
+    {
+        "content": "<p>Retro is a review of a sprint or known sustained effort. Typically this is in meeting form with documentation of what each person shared. </p>\n<p>Postmortem is a structured analysis of an incident. Typically this is a single person or team activity to examine the incident and often produces an artifact that can be shared with a group to illustrate the incident details.</p>",
+        "id": 484073256,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1732375732
+    },
+    {
+        "content": "<p>They are similar in nature, but not the same.</p>",
+        "id": 484073284,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1732375757
+    },
+    {
+        "content": "<p>CHAOSS (Community Health Analytics in Open Source Software) recently <a href=\"https://github.com/chaoss/wg-risk/pull/178\">renamed</a> their Bus Factor metric to <a href=\"https://chaoss.community/kb/metric-contributor-absence-factor/\">Contributor Absence Factor</a> after a <a href=\"https://github.com/chaoss/community/issues/632\">lengthy discussion</a>.</p>",
+        "id": 489084109,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1734269180
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"750017\">@Adam Stacoviak</span> probably there is no hard definition, but at least in the context of scrum, it sounds a bit like you are mixing Sprint Retrospective and Sprint Review meetings.<br>\n<a href=\"https://scrumguides.org/scrum-guide.html\">https://scrumguides.org/scrum-guide.html</a></p>\n<blockquote>\n<p>Sprint Review<br>\nThe purpose of the Sprint Review is to inspect the outcome of the Sprint and determine future adaptations. The Scrum Team presents the results of their work to key stakeholders and progress toward the Product Goal is discussed.</p>\n</blockquote>\n<blockquote>\n<p>During the event, the Scrum Team and stakeholders review what was accomplished in the Sprint and what has changed in their environment. Based on this information, attendees collaborate on what to do next. The Product Backlog may also be adjusted to meet new opportunities. The Sprint Review is a working session and the Scrum Team should avoid limiting it to a presentation.</p>\n</blockquote>\n<blockquote>\n<p>The Sprint Review is the second to last event of the Sprint and is timeboxed to a maximum of four hours for a one-month Sprint. For shorter Sprints, the event is usually shorter.</p>\n</blockquote>\n<blockquote>\n<p>Sprint Retrospective<br>\nThe purpose of the Sprint Retrospective is to plan ways to increase quality and effectiveness.</p>\n</blockquote>\n<blockquote>\n<p>The Scrum Team inspects how the last Sprint went with regards to individuals, interactions, processes, tools, and their Definition of Done. Inspected elements often vary with the domain of work. Assumptions that led them astray are identified and their origins explored. The Scrum Team discusses what went well during the Sprint, what problems it encountered, and how those problems were (or were not) solved.</p>\n</blockquote>\n<blockquote>\n<p>The Scrum Team identifies the most helpful changes to improve its effectiveness. The most impactful improvements are addressed as soon as possible. They may even be added to the Sprint Backlog for the next Sprint.</p>\n</blockquote>\n<blockquote>\n<p>The Sprint Retrospective concludes the Sprint. It is timeboxed to a maximum of three hours for a one-month Sprint. For shorter Sprints, the event is usually shorter.</p>\n</blockquote>",
+        "id": 489094376,
+        "sender_full_name": "Konrad",
+        "timestamp": 1734278674
+    }
+]

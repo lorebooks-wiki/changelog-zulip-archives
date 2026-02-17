@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>Damien Tanner (founder of Pusher, now building Layercode) is back for a reunion 17 years in the making. Damien officially returns to The Changelog to discuss the seismic shift happening in software development. From the first sponsor of the podcast to frontline builder in the AI agent era, Damien shares his insights on why SaaS is dying, why code review is a bottleneck (and non-existent for some), and how small teams can now build giant things. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/673\">https://changelog.fm/673</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.fm/673#t=0\">00:00</a></td>\n<td>This week on The Changelog</td>\n<td>01:26</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.fm/673#t=86\">01:26</a></td>\n<td><a href=\"https://depot.dev\">Sponsor: Depot</a></td>\n<td>02:18</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.fm/673#t=224\">03:44</a></td>\n<td>Start the show!</td>\n<td>01:47</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.fm/673#t=331\">05:31</a></td>\n<td>AI Engineer (AIE) Code Summit 2025</td>\n<td>03:58</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.fm/673#t=569\">09:29</a></td>\n<td>What is/was Pusher?</td>\n<td>03:34</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.fm/673#t=783\">13:03</a></td>\n<td>How are today's days different?</td>\n<td>02:17</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.fm/673#t=920\">15:20</a></td>\n<td>SaaS is dead!?</td>\n<td>13:52</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.fm/673#t=1752\">29:12</a></td>\n<td><a href=\"https://www.tigerdata.com\">Sponsor: Tiger Data</a></td>\n<td>02:30</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.fm/673#t=1901\">31:41</a></td>\n<td>No code review? What's replacing it?</td>\n<td>02:52</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.fm/673#t=2073\">34:33</a></td>\n<td>Opus 4.5 changed things (really Sonnet 4.5 first)</td>\n<td>03:16</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.fm/673#t=2269\">37:49</a></td>\n<td>Is Saas REALLY dead? Hmm...</td>\n<td>04:38</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.fm/673#t=2547\">42:27</a></td>\n<td>Inviting non-technical folks to Terminal</td>\n<td>05:18</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.fm/673#t=2864\">47:44</a></td>\n<td>What if everything was JIT?</td>\n<td>03:40</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.fm/673#t=3084\">51:24</a></td>\n<td>It's Layercode time</td>\n<td>12:31</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.fm/673#t=3835\">1:03:55</a></td>\n<td><a href=\"http://notion.com/changelog\">Sponsor: Notion</a></td>\n<td>02:09</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.fm/673#t=3964\">1:06:04</a></td>\n<td>Set on Cloudflare workers (and TypeScript)</td>\n<td>04:00</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.fm/673#t=4204\">1:10:04</a></td>\n<td>Why not Go (or...)?</td>\n<td>03:53</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.fm/673#t=4438\">1:13:58</a></td>\n<td>Directing the interupt</td>\n<td>02:41</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.fm/673#t=4599\">1:16:39</a></td>\n<td>API vs local models - latency and reliability</td>\n<td>10:09</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.fm/673#t=5207\">1:26:47</a></td>\n<td>The era of the small giant</td>\n<td>07:09</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.fm/673#t=5636\">1:33:56</a></td>\n<td>What's next? What's over the horizon?</td>\n<td>02:23</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.fm/673#t=5779\">1:36:19</a></td>\n<td>Bye friends!</td>\n<td>00:38</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.fm/673#t=5817\">1:36:57</a></td>\n<td>Closing thoughts and stuff</td>\n<td>01:15</td>\n</tr>\n</tbody>\n</table>",
+        "id": 569589752,
+        "sender_full_name": "Logbot",
+        "timestamp": 1769116446
+    },
+    {
+        "content": "<p>Loved the retro on early Pusher to callouts around cloudflare workers, but did I catch ya'll are using a reMarkable and synching to an external api?? I would love to hear more about this setup</p>",
+        "id": 569912273,
+        "sender_full_name": "Guillermo Cava",
+        "timestamp": 1769299692
+    },
+    {
+        "content": "<p>I have been thinking about picking up a remarkable tablet for notetaking.</p>",
+        "id": 571220926,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1769884289
+    },
+    {
+        "content": "<p>“Why review the code?”</p>\n<p>This comment immediate raised my hackles and I found it to be incredibly irresponsible. Just because an app builds and “works” doesn’t mean there aren’t issues, especially when building with unsafe languages as is common on web. Memory leaks, logic errors, security vulnerabilities don’t go away just because we are using new tools. Maintainability is still a valid concern and software engineering best practices don’t go out the window just because we have turned the reins over.  People YOLOing software are in for a rude awakening.</p>\n<p>Independent agents to do code review are a good safeguard but should not be the only safeguard.</p>",
+        "id": 571220950,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1769884312
+    },
+    {
+        "content": "<p>I think the theory is that maintainability is not an issue if you aren't going to be the one to maintain it. Let it code slop, push it out there, when there is a bug reported have the AI fix it and YOLO push it. </p>\n<p>Also let the AI review the code, let five of them do it. Who cares, it's cheap and fast and reasonably good.</p>\n<p>Hell in the near future AI will be the only ones using your app in the first place.</p>\n<p>Turtles all the way down.</p>",
+        "id": 571527875,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1770067443
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"756263\">Don MacKinnon</span> <a href=\"#narrow/channel/456187-interviews/topic/673.3A.20The.20era.20of.20the.20Small.20Giant/near/571220926\">said</a>:</p>\n<blockquote>\n<p>I have been thinking about picking up a remarkable tablet for notetaking.</p>\n</blockquote>\n<p>My cofounder has been using one for ~6mo and really likes it. He was a big Bullet Journal-er also and this seems to be giving him a good digital version of that, but with infinite room for sketches, and also ebooks.</p>",
+        "id": 571537248,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1770071157
+    }
+]

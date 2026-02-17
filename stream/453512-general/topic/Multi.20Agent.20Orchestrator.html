@@ -1,0 +1,55 @@
+<html>
+<head><meta charset="utf-8"><title>Multi Agent Orchestrator · general · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/index.html">general</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Multi.20Agent.20Orchestrator.html">Multi Agent Orchestrator</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="567776275"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Multi%20Agent%20Orchestrator/near/567776275" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Robert Purcell <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Multi.20Agent.20Orchestrator.html#567776275">(Jan 13 2026 at 14:20)</a>:</h4>
+<p>I tried Gas Town last night (see <a href="https://changelog.com/news/175">news #175</a>) and it was a complete failure</p>
+<ol>
+<li>the "polecats" wouldn't run and it (and me) couldn't figure out why</li>
+<li>the cute names are confusing. i needed claude to explain in plain English what things are and how to get started</li>
+<li>it caused <a href="https://www.youtube.com/watch?v=u91t0_wfL6k">this song</a> to loop in my head all day<div class="youtube-video message_inline_image"><a data-id="u91t0_wfL6k" href="https://www.youtube.com/watch?v=u91t0_wfL6k"><img src="https://uploads.zulipusercontent.net/6d421a16bb2cdccd3950eadb97ad954fe3bd7637/68747470733a2f2f692e7974696d672e636f6d2f76692f75393174305f77664c366b2f6d7164656661756c742e6a7067"></a></div></li>
+</ol>
+<p>What other solutions out there should I try? I have a detailed plan and want to split up the tasks across multiple agents</p>
+
+
+
+<a name="567781302"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Multi%20Agent%20Orchestrator/near/567781302" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Robert Purcell <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Multi.20Agent.20Orchestrator.html#567781302">(Jan 13 2026 at 14:42)</a>:</h4>
+<p>WOAH!  I just started over (I have <a href="https://github.com/parcadei/Continuous-Claude-v2">Continuous Claude</a> set up) and got this. Let's see what it does</p>
+<blockquote>
+<p>Given the size and complexity (10 phases with 150+ sub-tasks), I'll use agent orchestration mode as recommended by the implement_plan skill for large plans.</p>
+</blockquote>
+
+
+
+<a name="568034360"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Multi%20Agent%20Orchestrator/near/568034360" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Robert Purcell <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Multi.20Agent.20Orchestrator.html#568034360">(Jan 14 2026 at 16:50)</a>:</h4>
+<blockquote>
+<p>Let's see what it does</p>
+</blockquote>
+<p>i was hoping for multiple agents working in parallel but it was just my main agent spawning off others one at a time (one for each sub task i believe). which had a positive effect in that the context window of my main agent barely grew. i think this helped keep it sane through the whole thing</p>
+
+
+
+<a name="568034468"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Multi%20Agent%20Orchestrator/near/568034468" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Robert Purcell <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Multi.20Agent.20Orchestrator.html#568034468">(Jan 14 2026 at 16:51)</a>:</h4>
+<p>9/10 Would vibe again</p>
+
+
+
+<a name="570237169"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Multi%20Agent%20Orchestrator/near/570237169" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Don MacKinnon <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Multi.20Agent.20Orchestrator.html#570237169">(Jan 27 2026 at 05:20)</a>:</h4>
+<p>I believe you should be able to run multiple in parallel. I'm digging into getting Gastown up and running this week and came across this issue <a href="https://github.com/steveyegge/gastown/discussions/874">https://github.com/steveyegge/gastown/discussions/874</a> which was just fixed yesterday. Not sure if that would cause the situation you brought up.</p>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

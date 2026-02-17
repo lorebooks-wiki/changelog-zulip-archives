@@ -1,0 +1,632 @@
+[
+    {
+        "content": "<p>Greg Osuri, Founder and CEO of Akash Network joins us to share the backstory in his testimony before congress on the energy crisis and what it's going to take to power the future of AI. From powering datacenters, to solar, decentralized AI compute, to zombies in SF. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/652\">https://changelog.fm/652</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.fm/652#t=0\">00:00</a></td>\n<td>This week on The Changelog</td>\n<td>01:16</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.fm/652#t=76\">01:16</a></td>\n<td><a href=\"https://auth0.com/ai\">Sponsor: Auth0</a></td>\n<td>01:29</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.fm/652#t=169\">02:49</a></td>\n<td>Start the show!</td>\n<td>02:24</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.fm/652#t=313\">05:13</a></td>\n<td>How much energy do we need?</td>\n<td>11:29</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.fm/652#t=1001\">16:41</a></td>\n<td>AI is a utility</td>\n<td>11:53</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.fm/652#t=1714\">28:34</a></td>\n<td>Hot, flat, and crowded!</td>\n<td>07:59</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.fm/652#t=2193\">36:33</a></td>\n<td>Microreactors!</td>\n<td>02:26</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.fm/652#t=2339\">38:59</a></td>\n<td>Public sentiment on nuclear energy is shifting</td>\n<td>13:29</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.fm/652#t=3148\">52:28</a></td>\n<td><a href=\"https://depot.dev\">Sponsor: Depot</a></td>\n<td>02:20</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.fm/652#t=3289\">54:49</a></td>\n<td>Distributed AI workloads vs co-located</td>\n<td>03:59</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.fm/652#t=3527\">58:47</a></td>\n<td>Is nuclear in progress in the US?</td>\n<td>05:29</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.fm/652#t=3856\">1:04:16</a></td>\n<td>Inter-connect power limits</td>\n<td>03:38</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.fm/652#t=4074\">1:07:54</a></td>\n<td>Free power and free internet</td>\n<td>07:00</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.fm/652#t=4494\">1:14:54</a></td>\n<td>What is Gensyn?</td>\n<td>08:37</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.fm/652#t=5011\">1:23:31</a></td>\n<td>Foundational change to invert the demand curve?</td>\n<td>05:47</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.fm/652#t=5357\">1:29:17</a></td>\n<td>Plug us in. How do we follow the scene?</td>\n<td>10:00</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.fm/652#t=5957\">1:39:17</a></td>\n<td>UBI vs free internet/energy</td>\n<td>08:30</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.fm/652#t=6468\">1:47:48</a></td>\n<td>Handcoding as a hobby?</td>\n<td>05:44</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.fm/652#t=6811\">1:53:31</a></td>\n<td>Greg's AI-powered home in Austin/Westlake</td>\n<td>07:18</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.fm/652#t=7249\">2:00:49</a></td>\n<td>There's a BONUS!!</td>\n<td>00:08</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.fm/652#t=7257\">2:00:57</a></td>\n<td>Closing thoughts</td>\n<td>01:38</td>\n</tr>\n</tbody>\n</table>",
+        "id": 532114624,
+        "sender_full_name": "Logbot",
+        "timestamp": 1753978027
+    },
+    {
+        "content": "<p>30 minutes into this episode and all I have to say is 2 words…”pied pipper”</p>",
+        "id": 532167351,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1753995762
+    },
+    {
+        "content": "<p>20 minutes in and I’m already exhausted. AI and the energy crisis it’s creating isn’t something humanity needs to unite around when there are people starving, without medical care, or without homes. AI is so far down the priority list. Tack on the guests clear distaste for climate conservation and I have a hard time taking this person seriously. Listening to be aware of the conversation, but good lord is it painful to listen to.</p>",
+        "id": 532295458,
+        "sender_full_name": "Nathaniel Schweinberg",
+        "timestamp": 1754051106
+    },
+    {
+        "content": "<p>Unfortunately climate change is one of those things that is not immediate but an existential threat. There will never be a day where it's the most important thing globally but it is the most important thing when people are dying from forrest fires, heat stroke, dehydration etc. It's just that those things happen to small pockets of people far away usually.</p>\n<p>Having said all that according to most scientists I have spoken to it's probably already too late to do anything about it. I am likely too old to see the worst effects of it which is a blessing I guess.</p>",
+        "id": 532383527,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1754084951
+    },
+    {
+        "content": "<p>And we all participate within and reinforce a system where a handful of people get to decide that lighting $500B on fire is the best thing for humanity to be doing right now<br>\nGenerative AI hasn't created 0 value (this isn't cryptocurrency all over again), but I've not yet seen anything that justifies the cost in dollars or environmental impact</p>",
+        "id": 532393908,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1754092111
+    },
+    {
+        "content": "<p>Thanks for this episode, I think everyone in the community should listen to this one because climate change isn't something that is going away and neither is the energy crisis that is going to make things worse. Greg had some great points about how bureaucracy has stagnated rebuilding the transmission grid and production...meanwhile China is moving forward and progressing. There needs to be a balance between responsible energy production and going too far on the other end and never building. The genie in the AI bottle is out but it's certainly not worth destroying the planet for. These large companies that are centering their businesses around AI should still be held to account for their 2030 pledges...those conveniently went out the window when the gold rush started.  Folks are worried about SkyNet but it's more realistic that we'll just make the planet a really miserable place to live for the next 200 years via climate change and large swath of humanity is going to suffer because of it.</p>",
+        "id": 532411048,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1754106226
+    },
+    {
+        "content": "<p>There's an easy — and happily, correct — answer to the \"monkey-brained\" idea of piping all the excess heat into space. Go to your cupboard and pull down your favorite insulated mug. If it's any good, the proper technical term for it is a \"vacuum flask,\" being a reservoir for holding heat surrounded by insulating vacuum, with as little of a path as possible from the inside to the outside, allowing it to keep the heat inside for hours.</p>\n<p>Sound familiar?</p>\n<p>People have this conception of space being cold, and in absolute terms, it is, but that's because the heat from the stars is highly diffuse, with vast voids between. If empty space was good at absorbing heat, space would be hot with all those stars burning for billions of years.</p>\n<p>When the ISS is in the Earth's shadow, they have to run heaters, but when it is in direct sunlight, they have to run energy-intensive chillers to pump the resulting heat out.</p>",
+        "id": 532418327,
+        "sender_full_name": "Warren Young",
+        "timestamp": 1754112084
+    },
+    {
+        "content": "<p><a href=\"https://what-if.xkcd.com/\">Something else which won’t work</a>.</p>",
+        "id": 532480215,
+        "sender_full_name": "Warren Young",
+        "timestamp": 1754161699
+    },
+    {
+        "content": "<p>Oh, and those \"heaters\" I spoke of? We normally call them \"astronauts\" and \"experiments\" and \"equipment\". The ISS is being <a href=\"https://en.wikipedia.org/wiki/External_Active_Thermal_Control_System\">continuously cooled</a> by turning sunlight into energy to run the coolers.</p>\n<p>If that doesn't look like a data center cold-aisle chiller to you, it should.</p>\n<p>This leads me to my new favorite computer term: <a href=\"https://constructandcommission.com/crac-unit-vs-crah-unit/\">CRAH unit</a>, pronounced \"Cray\", an excellent coincidence since <a href=\"https://enabledenergy.net/insights/the-saga-of-liquid-cooling/\">they helped pioneer liquid cooling</a>.</p>",
+        "id": 532481079,
+        "sender_full_name": "Warren Young",
+        "timestamp": 1754162526
+    },
+    {
+        "content": "<p>I saw this jaw dropping story a while back <a href=\"https://sustainabilitymag.com/articles/chinas-1km-solar-array-the-manhattan-project-of-energy\">https://sustainabilitymag.com/articles/chinas-1km-solar-array-the-manhattan-project-of-energy</a></p>\n<p>China is going full blast on renewables and space technology. By 2030 they will be the only country with a space station, they are constantly going back and forth to the moon while other nations struggle to land there, they will most likely have a mars return mission before the USA does, they have a goal of 200 GW of nuclear power by 2035, the country aims to have 80% of its total energy mix come from non-fossil fuel sources by 2060, and achieve a combined 1,200 GW of solar and wind capacity by 2030.</p>\n<p>They have a goal of carbon neutrality by 2060.</p>\n<p>Maybe they will hit their goals, maybe they won't. So far they have hit every milestone they published in their space program so it seems likely that they will. </p>\n<p>The motivation behind all this is energy independence, they don't want to be reliant on the middle east or the USA or Europe for their energy. With that motivation in mind I think they have strong incentive to achieve these goals.</p>",
+        "id": 532492213,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1754172817
+    },
+    {
+        "content": "<p>I found myself curious about applying the ISS solution to the Earth as a whole, in the style of Randall Munroe's \"What If?\"</p>\n<p>The ISS radiators can remove a continuous 70 kW of heat energy.</p>\n<p>It is not straightforward to calculate the effects of global warming in terms of kW, but one friendly AI here estimated it at 10¹² kW  across the Earth's surface. Assuming this gets us into the ballpark, we'll need about ten billion ISS radiators to zero out global warming.</p>\n<p>And never mind how we're going to manufacture all that, lift it into space, power it all, and get the heat energy up there to be radiated away, because now we have a new problem: the total area of the panels, support structures, cabling, etc. will cover about 1% of the sky if evenly distributed. For the same reason Dyson spheres are unstable, it will likely have to be concentrated into a band oriented along the ecliptic, which is liable to increase the effective coverage enough to throw us into <strong>global cooling</strong> instead.</p>\n<p>Good job, men, mission accomplished! Hope ya packed a set of thermal undies.</p>",
+        "id": 532492425,
+        "sender_full_name": "Warren Young",
+        "timestamp": 1754173033
+    },
+    {
+        "content": "<p>That's what happens when a countries and companies set long term goals instead of being focused on the next 4 years or the next quarter. The US used to be motivated to do those things but haven't in a long while.</p>",
+        "id": 532493456,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1754174011
+    },
+    {
+        "content": "<p>The long-term goals you speak of, <span class=\"user-mention\" data-user-id=\"756263\">@Don MacKinnon</span> fed into all this continuous consumption. <span class=\"user-mention\" data-user-id=\"941996\">@Nathaniel Schweinberg</span> touched on this up-thread; the guest on this episode bragged of building a house that shocked the town council with its extravagance, and here we're wondering why we're having an energy crisis.</p>\n<p>Um, <strong>duh?</strong></p>",
+        "id": 532493627,
+        "sender_full_name": "Warren Young",
+        "timestamp": 1754174181
+    },
+    {
+        "content": "<p>Oh boy, I'm feeling very trepitatious about beginning this episode based on the discussion. I will get to it, but will need to book out some time with a stuff drink nearby it sounds like! I work in solar, and while I'm trying to \"do my bit\" for the climate, discussions about the wider energy sector feel very fraught.</p>",
+        "id": 532498875,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1754179179
+    },
+    {
+        "content": "<p>Unrelatedly, we just went through an election here in Australia where the opposition (conservative) party brought a nonsense nuclear plan basically designed to stymie renewables, and were resoundingly rejected. So that was nice.</p>",
+        "id": 532498956,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1754179237
+    },
+    {
+        "content": "<p>And on the subject of datacenter (and trading floor) cooling, this episode of Signals and Threads was really interesting: <a href=\"https://signalsandthreads.com/the-thermodynamics-of-trading/\">https://signalsandthreads.com/the-thermodynamics-of-trading/</a> (sorry to bring up another podcast)</p>",
+        "id": 532499062,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1754179317
+    },
+    {
+        "content": "<p>I think we can take more practical means to try and cool the earth. One example is simply painting the roofs of building and parking lots and such white. This would increase the albedo of the planet slightly and reflect more radiation to space. Due to melting ice albedo of the planet is reducing which is going to lead to a runaway effect if nothing is done.</p>\n<p>One thing I noticed while flying in NZ is that more and more some crops are being covered by a white mesh fabric. I presume this is to protect them from birds or insects but again they would increase reflectivity of the planet if this was more widely practiced. </p>\n<p>Of course there are the elephants in the room, eat less meat, drive less, have less children, learn to be comfortable being a little more warm or cold.</p>",
+        "id": 532499806,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1754180007
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755905\">Tim Uckun</span> <a href=\"#narrow/stream/456187-interviews/topic/652.3A.20Solving.20the.20AI.20energy.20crisis/near/532499806\">said</a>:</p>\n<blockquote>\n<p>Of course there are the elephants in the room, eat less meat, drive less, have less children, learn to be comfortable being a little more warm or cold.</p>\n</blockquote>\n<p>I doubt we'll ever see he necessary levels of voluntary moderation amongst regular folks until celebrities and billionaires are universally onboard</p>",
+        "id": 532511650,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1754191513
+    },
+    {
+        "content": "<blockquote>\n<p>painting the roofs of building and parking lots and such white</p>\n</blockquote>\n<p>White solar panels are ineffective. You have to pick one, not both.</p>\n<p>A small compromise is a white mounting surface and bifacial panels — a.k.a. backless — but that doesn’t buy you a lot.</p>",
+        "id": 532513801,
+        "sender_full_name": "Warren Young",
+        "timestamp": 1754193655
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752986\">Daniel Buckmaster</span> <a href=\"#narrow/channel/456187-interviews/topic/652.3A.20Solving.20the.20AI.20energy.20crisis/near/532499062\">said</a>:</p>\n<blockquote>\n<p>the-thermodynamics-of-trading/ (sorry to bring up another podcast)</p>\n</blockquote>\n<p>That was where I learned the surprising pronunciation of “CRAH unit”. Had to look it up!</p>",
+        "id": 532514089,
+        "sender_full_name": "Warren Young",
+        "timestamp": 1754193891
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752986\">Daniel Buckmaster</span> <a href=\"#narrow/channel/456187-interviews/topic/652.3A.20Solving.20the.20AI.20energy.20crisis/near/532498875\">said</a>:</p>\n<blockquote>\n<p>Oh boy, I'm feeling very trepitatious about beginning this episode </p>\n</blockquote>\n<p>I wouldn’t say it was “bad,” just that it’s filled with facile “can’t we just…” solutions. Turns out, hard things are hard.</p>",
+        "id": 532514240,
+        "sender_full_name": "Warren Young",
+        "timestamp": 1754194016
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"779022\">@Warren Young</span> I wasn't thinking of solar panels, just ordinary roof paint and using light material for parking lots and roads.</p>",
+        "id": 532520562,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1754199251
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755905\">Tim Uckun</span> <a href=\"#narrow/channel/456187-interviews/topic/652.3A.20Solving.20the.20AI.20energy.20crisis/near/532520562\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"779022\">Warren Young</span> I wasn't thinking of solar panels</p>\n</blockquote>\n<p>This episode's guest put domestic solar forth as his solution to the coming AI energy crisis. It's another facile idea: they can't afford to run data centers, so they'll bribe us all into giving up a portion of our homes for their benefit. Easy!</p>\n<p>Here's a question for the guest: when the fans on the GPU box start making more than the 50 dB you claim in the episode, and your repair tech puts me off for the third time, is it a violation of my contract with you if I jam a pencil into the blades and thereby force the GPUs to clock down, lest they cook themselves?</p>\n<p>Yeah, thought so.</p>\n<blockquote>\n<p>using light material for parking lots and roads.</p>\n</blockquote>\n<p>Parking lots are a non-starter. There's a big problem with that: people have this annoying habit of blocking the albedo-increasing material from the sun with cars, left in place for hours and hours during the sunny hours.</p>\n<p>I suppose we could try legislating white cars for everyone… <span aria-label=\"stuck out tongue wink\" class=\"emoji emoji-1f61c\" role=\"img\" title=\"stuck out tongue wink\">:stuck_out_tongue_wink:</span></p>\n<p>Roads have a portion of that problem, but there's another more significant one: they aren't black solely because of the tar in the asphalt. Freshly laid asphalt soon becomes a dark gray from all that shed tire material, blown dirt, etc. White roads won't stay white.</p>",
+        "id": 532522396,
+        "sender_full_name": "Warren Young",
+        "timestamp": 1754200906
+    },
+    {
+        "content": "<p>This is one of those perfection is the enemy of good solutions. Yes parking lots have cars in them but not always full. yes roads will get darker but not be black. I have traveled in the USA and Turkey and most highways are light colored despite being heavily travelled.</p>\n<p>As for power generation yea I think we do need to push all the buttons, nuclear, geothermal, wave, solar etc and also do it distributed as possible.</p>\n<p>Having said all that I acknowledge that it's probably too late to stave off climate induced catastrophes for the foreseeable future..</p>",
+        "id": 532523526,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1754201791
+    },
+    {
+        "content": "<p>Ok I finally listened to this and man I had so many questions and got so infuriated it's not even funny.  I wish I was in the room where I could follow up some questions or challenge his assertions.  </p>\n<p>the overall impression I got was that all this is such a colossal waste of money and human resources. Imagine spending this much money to end hunger, to educate every child, to end wars, to advance science, to tackle existential threats to humanity such as climate change. Instead we are training next word predictions and shuttling money between the richest and (IMHO) the worst people on the planet.</p>\n<p>Also it's clear to me that China is to going to win this race no matter what route you take to AI. They have the energy, they have the grid, they are building renewables at a pace nobody even comes close to and their plans are ambitious.  The US is suffering from a serious brain drain problem in graduate schools because science funding has been gutted so the best of the best is fleeing overseas to do their research and to teach.  Rise of theocratic rule isn't going to help science much either.</p>",
+        "id": 533394545,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1754626805
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/66849/DpG6btnTVpoGgd23AfrFt_SC/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/DpG6btnTVpoGgd23AfrFt_SC/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"500x505\" src=\"/user_uploads/thumbnail/66849/DpG6btnTVpoGgd23AfrFt_SC/image.png/840x560.webp\"></a></div>",
+        "id": 533394734,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1754626995
+    },
+    {
+        "content": "<p>BTW just for giggles I asked chatgpt the question:</p>\n<p>how much solar panels do I need to generate 800 kw for 12 hours?</p>\n<p>The answer was </p>\n<p>So you'd need about <strong>3840 panels</strong> rated at 500W each.</p>\n<p>Then I asked how big of a battery I would need to store that and it said</p>\n<p>3 Tesla Megapack 2 units</p>\n<p>Apparently a tesla megapack 2 unit costs about 1.5 millon dollars and anywhere between 100,000 to 200,000 install.</p>\n<p>So I don't see how powering 2 GPUS 24 hours a day is going to be profitable especially if installed in 20 million homes.</p>",
+        "id": 533394816,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1754627093
+    },
+    {
+        "content": "<p>One more thing. </p>\n<p>Greg said \"we have always valued intelligence\" and I could not disagree more. The most valued people in the world are </p>\n<ul>\n<li>Elon Musk: $394 billion.</li>\n<li>Mark Zuckerberg: $241 billion.</li>\n<li>Jeff Bezos: $228 billion.</li>\n<li>Larry Ellison: $213 billion.</li>\n<li>Warren Buffett: $154 billion.</li>\n<li>Larry Page: $146 billion.</li>\n<li>Bernard Arnault and family: $142 billion.</li>\n<li>Sergey Brin: $138 billion.</li>\n</ul>\n<p>These are certainly not the most intelligent people in the world.</p>\n<p>The most powerful people in the world are Xi Jingpin, Donald Trump, Vladimir Putin, Bibi Netinyahu, Narendra Modi, Kim Jong-un, Sinzo Abe, Mohammad Bin Salman etc.</p>\n<p>Not only are these people NOT the most intelligent people but arguably they are the worst people in the world. </p>\n<p>We don't value intelligence, we value people who most strongly embrace the 7 deadly sins.</p>",
+        "id": 533395350,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1754627493
+    },
+    {
+        "content": "<p>Looks like I misheard him. It's not 800 kw, it's 1,800 watts. Let's redo...</p>\n<p>I asked chatgpt to calculate battery and panels needed to provide 1,800 watts for 24 hours and to estimate costs.</p>\n<p>It said I needed 26 panels and 54kw battery. It estimated the costs to be $33,000 including installation, inverter etc.</p>\n<p>That's roughly 600 billion dollars to outfit 20 million homes. Even if you halved that it's still a mountain of money.</p>",
+        "id": 533401840,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1754632779
+    },
+    {
+        "content": "<p>I still have 40 minutes left and I've been trying to refrain from commenting until I'm done. I think I'm most frustrated by this sense that \"we must AI because it is inevitable\". But what if... it wasn't? What are we not doing because all the money is going toward trying to replace as many humans as possible?</p>",
+        "id": 533472929,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1754662638
+    },
+    {
+        "content": "<p>Also, I just passed the point where the guest said that SoftBank has invested in the Abilene data center that everyone is calling \"Stargate\", but according to a Crusoe rep in <a href=\"https://www.wheresyoured.at/softbank-openai/\">this reporting</a>:</p>\n<blockquote>\n<p>Funding for construction of [the] Abilene data center is a JV between Crusoe, Blue Owl and Primary Digital Infrastructure. Confirming that Softbank is not and has not been involved in the funding for its construction.</p>\n</blockquote>\n<p>That article goes on to detail the lack of involvement from SoftBank or further commitments to other datacenters under the \"Stargate\" name. But all of it adds up to the fact that 7 months after it was announced, nothing even close to the $500B effort that was announced has even started to take shape.</p>",
+        "id": 533475273,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1754663490
+    },
+    {
+        "content": "<p>Combine that with the news that <a href=\"https://fortune.com/2025/07/16/asml-cannot-confirm-growth-in-2026-wiping-out-30-billion/\">ASML \"cannot confirm growth in 2026\"</a> and I'm doubting any of this data center build out will come together.</p>\n<p>For anyone who hasn't listened to <a href=\"https://www.acquired.fm/episodes/tsmc\">Acquired's 2021 coverage of TSMC</a>, ASML is the primary manufacturer of the ~$300M EUV lithography machines necessary to make 5nm chips. TSMC had those on back order up for years, locking out most other fabs. Nvidia in turn had TSMC's capacity locked up, which was part of their moat in the GPU market. But if we're supposed to be building out $500B of datacenters for AI, shouldn't Nvidia be trying to expand production, meaning TSMC should be clamoring for more of those EUV machines, meaning ASML should be shouting about how much money they're going to make in 2026?</p>\n<p>Guys, I'm starting to think we're not getting AGI in 2027.</p>",
+        "id": 533476526,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1754663927
+    },
+    {
+        "content": "<p>The best analysis I’ve heard of the AI boom is from an economist named Aswath Demodaran. His take is sober.</p>\n<p>He explains it way better but my take is that all these investors and founders are over extending on AI. All of them have no idea if it will all work out but they proceed nevertheless. </p>\n<p>Based on historical patterns, the outcome for humanity  will be positive even if majority of these companies go to zero. The advancements we will see on the energy and technology fronts will be tremendous and society will generally improve.</p>\n<p>However the battlefield will be littered with the bodies of startup founders in these spaces.</p>",
+        "id": 533517166,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1754681942
+    },
+    {
+        "content": "<p>I have another somewhat spicy take…</p>\n<p>Tell me who you think the single person who will have the biggest impact on the Medical industry in the next 5 years…and I’ll tell you why that person is Sam Altman <span aria-label=\"hot pepper\" class=\"emoji emoji-1f336\" role=\"img\" title=\"hot pepper\">:hot_pepper:</span></p>",
+        "id": 533535178,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1754691766
+    },
+    {
+        "content": "<p>I don't think advances in medicine will come from an LLM. I do think that in the next five years there will be tremendous advances in medicine but they won't even come from the USA it will take at least a decade to unravel the anti science attitudes of the US population and this administration. </p>\n<p>Having said that I do hope that Apple or Google will spend money to advance their health efforts to integrate with medical systems worldwide so we could have personalized healthcare that is based on collected data.</p>\n<p>Oh and whatever happened to watson? Where is IBM in all this?</p>",
+        "id": 533535703,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1754692207
+    },
+    {
+        "content": "<p>Even if an LLM doesnt make a major medical breakthrough, it can still have a tremendous impact. One of the biggest problems in the USA is people don’t have an easy and affordable way of getting preventative care. Unfortunately people wait until they are too sick to seek help.</p>\n<p>Solving that problem will have tremendous impacts on public health.</p>\n<p>Regarding an LLM not making medical breakthroughs, there have been recent studies that have found Alphafold2 was able to identify protein structures that can result in patients being at high risk of breast cancer. Breakthroughs like this are amazing, and only the tip of the ice berg. And it’s all happening right here in the good old USA <span aria-label=\"flag united states\" class=\"emoji emoji-1f1fa-1f1f8\" role=\"img\" title=\"flag united states\">:flag_united_states:</span> </p>\n<p>I acknowledge there are some pockets of the country that appear to have “declared war” on science, but this is a very fringe group. The majority of the population is very pro science and generally in favor or making the necessary investments to advance science.</p>",
+        "id": 533546703,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1754704405
+    },
+    {
+        "content": "<p>I worry about medical advice from an LLM, which technologically cannot possess knowledge and is only accidentally correct<br>\nThey are interesting for low-stakes content creation, and any use case where a subject matter expert will double-check the output<br>\nBut we're already seeing lawyers and doctors and police and other folks rely on LLM output with life and death stakes, so I guess that ship has sailed</p>",
+        "id": 533566099,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1754730460
+    },
+    {
+        "content": "<p>Also, the decay of the USA health care system has nothing to do with technology, and everything to do with greed and cruelty<br>\nWe can't fix inherently human/political problems with technology</p>",
+        "id": 533566194,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1754730590
+    },
+    {
+        "content": "<p>Alphafold is not an LLM though. Neither was Watson. I have no doubt computing will play a major role in medicine including personalized medicine and preventive medicine. About ten years ago I worked for a major health organization in NZ and I predicted that in ten years a computer would be the personal doctor for millions of people and would do a better job than most doctors. Of course I also predicted self driving cars would take over in five so I was off on both predictions. I still believe those things though. Apple (or google) have more information about your health than your doctor does and is more up to date on the latest research. Your doctor sets a fifteen minute appointment with you and spends ten minutes of that trying to remember who you are. Your watch knows whether or not you have been limping and walking more slowly in the last week.</p>\n<p>Anyway these systems are not LLMs though and I should say it's not as if Sam Altman is personally responsible for chatgpt.</p>",
+        "id": 533603842,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1754776762
+    },
+    {
+        "content": "<p>For giggles I prepared a prompt dealing with a chronic issue I have.  I told the LLM my age, sex, height, weight, etc. I detailed all the blood test results, all the medications I take, all the procedures I went through etc. I then asked Gemini, Claude, Deepseek, qwen, Chatgpt, Gemini Deepresearch and chatgpt deepresearch to diagnose the problem and to provide treatment options.</p>\n<p>They all basically came to the same conclusions which is to be expected given they were all trained on basically the same data. Google Gemini Deepresearch was the best one INMHO and it kindly offered to save the result as a google doc. </p>\n<p>The point is that none of them somehow found some innovative cause or treatment. Maybe a human medical researcher can read their results and maybe that will spark some idea and maybe they will submit a proposal for a research and maybe it will get accepted and maybe they will do the research and maybe they will conduct trials and maybe after a decade or more there will be some treatment but I wouldn't credit the LLM or Sam Altman with that.</p>",
+        "id": 533604197,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1754777179
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"764308\">@valon-loshaj</span> I listen to several science based podcasts including those run by active scientists. They are all pulling their hair out because funding for research has been gutted by the Trump administration. They no longer have the funds to support their grad students, care for the animals, pay for equipment etc.  On top of that Trump has put severe restrictions on non white students coming from overseas. The majority of master and PHD level students as well as postdocs in the US are not white europeans.  </p>\n<p>All the advances in LLMs, machine learning, etc came from grad students and they are still driven largely by grad students who are leaving academia to cash in. Grad students are looking to Europe and China and elsewhere to see if they can continue to do their research while being able to eat and pay for rent and school. Students from other countries are not applying to Harvard and UCLA and Stanford and Cornell and Columbia etc because American universities either can not or don't want to accept them and the climate even if they were accepted is hostile to them.</p>\n<p>This is going to take a long to undo and is going to have profound effects.  If you don't believe me go listen to the scientists themselves.</p>",
+        "id": 533611131,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1754786946
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"755905\">@Tim Uckun</span>  you nailed it with your story about medical treatment. LLM’s are regurgitators. Really really good ones, but regurgitators nonetheless</p>",
+        "id": 533653003,
+        "sender_full_name": "Nathaniel Schweinberg",
+        "timestamp": 1754833734
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"941996\">Nathaniel Schweinberg</span> <a href=\"#narrow/channel/456187-interviews/topic/652.3A.20Solving.20the.20AI.20energy.20crisis/near/533653003\">said</a>:</p>\n<blockquote>\n<p>LM’s are regurgitators.</p>\n</blockquote>\n<p>Isn't the purpose of medical school to make doctors into really really good regurgitators?</p>",
+        "id": 533653616,
+        "sender_full_name": "Warren Young",
+        "timestamp": 1754834349
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"779022\">Warren Young</span> <a href=\"#narrow/channel/456187-interviews/topic/652.3A.20Solving.20the.20AI.20energy.20crisis/near/533653616\">said</a>:</p>\n<blockquote>\n<p>Isn't the purpose of medical school to make doctors into really really good regurgitators?</p>\n</blockquote>\n<p>Med school <em>maybe</em>, but it sounds like you're not accounting for research scientists who <em>develop</em> the treatments the doctors at the hospital use to make us healthy.</p>",
+        "id": 533657371,
+        "sender_full_name": "Nathaniel Schweinberg",
+        "timestamp": 1754838325
+    },
+    {
+        "content": "<p>Research scientists develop new and novel techniques that AI in its current form can't create on their own. AI can be leveraged for some heavy lifting or data processing, but the thinking and reasoning are still performed by humans.</p>",
+        "id": 533657446,
+        "sender_full_name": "Nathaniel Schweinberg",
+        "timestamp": 1754838399
+    },
+    {
+        "content": "<p>I think the argument that AI is not capable of coming up with novel ideas was made questionable based on what was achieved by AlphaGo.</p>\n<p>Moves 37 in game 2, 78 in game 4 and 36 in game 5 prompted discussions from the best go players regarding how the game has actually been played for centuries.</p>\n<p>Novel “ideas” generated by AI such as what was experienced with AlphaGo can lead to massive breakthroughs in science and technology.</p>",
+        "id": 533663208,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1754844937
+    },
+    {
+        "content": "<p>Just don’t forget AI currently gets where it’s going via brute force. That can certainly change in the future, but right now it’s a bit of random chance given it’s not deterministic.  It’s not actually reasoning.</p>",
+        "id": 533665228,
+        "sender_full_name": "Nathaniel Schweinberg",
+        "timestamp": 1754846755
+    },
+    {
+        "content": "<p>But the non-deterministic aspect of AI is a feature, not a bug. I don’t think anyone is trying to make AI deterministic. The goal is to bring incorrect hallucinations down to a really small percetage.</p>\n<p>Similar to the way humans think and reason, it’s all hallucinations.</p>",
+        "id": 533674469,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1754857458
+    },
+    {
+        "content": "<p>So far everybody is using the terms AI and LLMs interchangeably. They are not the same. Alphago is not an LLM and neither is Alphafold or watson etc. I think we need to be careful about the technologies we are talking about before we make proclamations on what is going to happen or not.</p>\n<p>I don't think LLMs will make medical or scientific breakthroughs because they are not programmed to synthesise information and come up with novel predictions or theories.  They can however read the papers and summarize results fairly well. They can even write papers which seem to pass the smell test even though the results are fake. I predict that instead of advancing they will actually hold back science because they will flood the preprints with garbage papers which will poison the well both for humans and llms. Literally enshittification of the scientific publishing world (which to be frank has already started).</p>",
+        "id": 533678492,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1754862343
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755905\">Tim Uckun</span> <a href=\"#narrow/channel/456187-interviews/topic/652.3A.20Solving.20the.20AI.20energy.20crisis/near/533678492\">said</a>:</p>\n<blockquote>\n<p>I don't think LLMs will make medical or scientific breakthroughs because they are not programmed to synthesise information and come up with novel predictions or theories. They can however read the papers and summarize results fairly well.</p>\n</blockquote>\n<p><span aria-label=\"direct hit\" class=\"emoji emoji-1f3af\" role=\"img\" title=\"direct hit\">:direct_hit:</span><span aria-label=\"direct hit\" class=\"emoji emoji-1f3af\" role=\"img\" title=\"direct hit\">:direct_hit:</span><span aria-label=\"direct hit\" class=\"emoji emoji-1f3af\" role=\"img\" title=\"direct hit\">:direct_hit:</span><span aria-label=\"direct hit\" class=\"emoji emoji-1f3af\" role=\"img\" title=\"direct hit\">:direct_hit:</span><span aria-label=\"direct hit\" class=\"emoji emoji-1f3af\" role=\"img\" title=\"direct hit\">:direct_hit:</span></p>",
+        "id": 533688913,
+        "sender_full_name": "Nathaniel Schweinberg",
+        "timestamp": 1754875674
+    },
+    {
+        "content": "<p>Glad to see I'm not the only one who was a bit angry listening to this. Not necessarily because of the stance on AI but just the pompous attitude of the guest overall. Very \"if you aren't doing X you're not gonna make it\" attitude with minimal basis to back up when pressed with questions.</p>",
+        "id": 534055887,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1755032679
+    },
+    {
+        "content": "<p>And don't get me wrong. I like the think big and dream aspect and there's room for a pompous attitude every now and again. Heck. I'm pompous sometimes too. It was just all over the place in this episode to the point where it was just the guest speaking in absolutes without details.</p>",
+        "id": 534056118,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1755032806
+    },
+    {
+        "content": "<p>Yes, <strong>absolutes</strong> that's it!<br>\nI'm highly suspicious of anyone who claims 100% perfect knowledge without any admission that they're possibly incorrect</p>",
+        "id": 534064204,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1755038115
+    },
+    {
+        "content": "<p>There was a swipe at sociology as a useless degree in there too, which made me eyeroll as a govt major with 20+ YoE in software engineering.</p>\n<p>I’ve worked with plenty of arts and social science people and a few with no degrees at all. I can tell you that if you only select one kind of person, you’re probably going to end up with a worse product (unless you’re truly in a field that requires the kind of technical proficiency you can only get from years of rigorous academic study—which, let’s face it, most product development is not).</p>",
+        "id": 534067479,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1755040491
+    },
+    {
+        "content": "<p>I promised myself I was done with this, but given <a href=\"https://www.reuters.com/business/coreweave-shares-drop-growing-losses-eclipse-ai-demand-surge-2025-08-13/\">this news</a>, I had to come back to say this: CoreWeave is the sub-prime time bomb at the heart of the Gen AI industry.</p>\n<blockquote>\n<p>Analysts have turned skeptical of CoreWeave's excessive dependence on certain customers and its ability to grow profitably due to widening losses, heavy capital needs and deteriorating debt coverage... \"CoreWeave does not currently generate enough profit to pay all its debt holders, certainly not equity holders,\"</p>\n</blockquote>\n<p>Nvidia paid them to create a market for themselves (to the tune of ~10% of sales at one point). CoreWeave turned around and used those heavily subsidized GPUs as collateral on &gt;$10B of loans at 10-15%. It has to service those debt payments and cover cost of operations for something that is losing its own customers money on every query. To keep costs under control, it's trying to buy out its datacenter landlord (once bankrupt former crypto-miner Core Scientific) <a href=\"https://www.reuters.com/legal/transactional/core-scientifics-largest-shareholder-vote-against-sale-coreweave-2025-08-07/\">over the objections of Core Scientific's largest shareholders</a>.</p>\n<p>The lock-up on pre-IPO shareholders offloading shares expires tomorrow and I don't think it's going to be pretty. And I think in the longer term <a href=\"https://changelog.com/podcast/652#transcript-253\">this</a> is going to age like milk.</p>",
+        "id": 534265486,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1755102539
+    },
+    {
+        "content": "<p>The success of coreweave could be reduced down to one thing, can they outlast the transition period we are currently in.</p>\n<p>If the answer is yes, they will emerge in the AI-first world as a clear leader and visionary.</p>\n<p>But if they go broke people will say they were too early.</p>",
+        "id": 534294771,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1755114838
+    },
+    {
+        "content": "<p>Just getting to this now. First comment so far is that the guest made the common mistake of confusing watts with watt-hours when he said \"8-12 watts per gallon\" for desalination. Working in the field, I hear people do this all the time so I don't mean it as an indictment.</p>\n<p>I tried to find what the real number was, and based on perusing the wiki article on desalination, which says current techniques take 2-3kWh/m^3 (with a theoretical lower bound of 1?) that seems about the right ballpark for 8-12 watt-hours per gallon.</p>\n<p>I felt like commenting on this because a) I am a pendant and b) I feel like people who <em>do</em> know better need to be careful not to perpetuate the confusion. It means being that little extra bit careful with phrasing around this, <em>because</em> it can be so confusing.</p>",
+        "id": 535035558,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1755560930
+    },
+    {
+        "content": "<p>Oh and I wanted to plug Shift Key's summer school series, where they did a great introduction to energy:</p>\n<p><a href=\"https://heatmap.news/podcast/shift-key-s2-e46-summer-school-watt\">https://heatmap.news/podcast/shift-key-s2-e46-summer-school-watt</a> (there's no link to the episode here - good job guys! - but I wanted to post a canonical link rather than to an aggregator. if you want to listen, search shift key wherever you get your podcasts <span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span>)</p>\n<p>They also cover lots of basics about the grid, and the hosts are really knowledgeable and good explainers I think.</p>",
+        "id": 535035773,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1755561075
+    },
+    {
+        "content": "<p>I think pendantry is increasingly important</p>\n<p>We've had decades of absurd exaggerations in the media, we don't need poetry in our news sources or in our policy positions, we need accuracy <span aria-label=\"pleading\" class=\"emoji emoji-1f97a\" role=\"img\" title=\"pleading\">:pleading:</span></p>",
+        "id": 535037393,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1755562205
+    },
+    {
+        "content": "<p>Especially need accuracy when making such absolute claims too.</p>",
+        "id": 535222570,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1755652034
+    },
+    {
+        "content": "<p>Forgive me - way behind on podcasts... But I'm glad to see others having a similar reaction to what I had. I thought the deAI and some of the energy ideas were very interesting, but Greg was much more positive and bullish than I am. This is when I was sure that I was suspicious of his perspective - <a href=\"https://changelog.com/podcast/652#transcript-273\">https://changelog.com/podcast/652#transcript-273</a>. Jerod brought up what I thought was a great point that got completely dismissed - of course there are theories on how things can improve, but are those even realistic goals in the near term? Unfortunately I think I have too many thoughts for just a Zulip message...</p>\n<p>I think I see things differently due to having a background in economics. LLMs - since that's mostly what is being discussed - certainly have some value, but I think there is going to be a big bubble bursting here, but the timing is questionable since markets aren't always rational. The cost of infra acquisition and operation is astronomical for these things, and a proven business model is still questionable. If we end up with open source models, anyone can run the inference - and the AI focused companies will struggle to be recoup costs. If proprietary wins out, means of production become even more concentrated, which has huge implications for society. White collar tech-type jobs - which CEOs want to eliminate - were high paying, highly taxed, high consumption jobs. Getting rid of millions of these \"good\" jobs while our national debt is ballooning and safety nets are being gutted seems like a recipe for disaster. </p>\n<p>Not to mention the energy implications that y'all touched on. US grids are very sensitive, and the expansion plans for data centers sound outlandish to me. But, I'm not an expert there at all <span aria-label=\"man shrugging\" class=\"emoji emoji-1f937-200d-2642\" role=\"img\" title=\"man shrugging\">:man_shrugging:</span></p>",
+        "id": 535757809,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1755897793
+    },
+    {
+        "content": "<p>And right after I post that - I see that the US has taken a 10% stake in Intel. Very weird to see our \"free market\" government take partial ownership of companies, no matter which side of the aisle you're on... This will be interesting, especially given Intel's recent failings <span aria-label=\"popcorn\" class=\"emoji emoji-1f37f\" role=\"img\" title=\"popcorn\">:popcorn:</span></p>\n<p>I wish we'd spend that money on infrastructure investments instead, to address some of the energy problems discussed in this episode</p>",
+        "id": 535758543,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1755898223
+    },
+    {
+        "content": "<p>RE Intel. Has that actually happened? If so that's super scary. The US is already taking 15% of Nvidia sales to China and if it's now actually taking ownership stake in established corporations that's super scary.</p>\n<p>Then again armed soldiers roaming the streets  and gassing schools and taking over universities and concentration camps and accepting bribes from countries is worse.</p>\n<p>Scary times in the US for sure. Hope you guys keep your democracy after (if) this is all over.</p>",
+        "id": 535761196,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1755899916
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755905\">Tim Uckun</span> <a href=\"#narrow/stream/456187-interviews/topic/652.3A.20Solving.20the.20AI.20energy.20crisis/near/535761196\">said</a>:</p>\n<blockquote>\n<p>RE Intel. Has that actually happened? If so that's super scary. The US is already taking 15% of Nvidia sales to China and if it's now actually taking ownership stake in established corporations that's super scary.</p>\n<p>Then again armed soldiers roaming the streets  and gassing schools and taking over universities and concentration camps and accepting bribes from countries is worse.</p>\n<p>Scary times in the US for sure. Hope you guys keep your democracy after (if) this is all over.</p>\n</blockquote>\n<p>It appears so: <a href=\"https://www.cnbc.com/2025/08/22/intel-goverment-equity-stake.html\">https://www.cnbc.com/2025/08/22/intel-goverment-equity-stake.html</a></p>",
+        "id": 535763063,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1755901310
+    },
+    {
+        "content": "<p>I am not up to date on my political terminology. Is that communism or fascism or socialism?</p>",
+        "id": 535805447,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1755954145
+    },
+    {
+        "content": "<p>Oh and China decided they didn't want the nVidia h20 chips anymore so I don't even know what Nvidia is allowed to sell to China anymore.</p>",
+        "id": 535805515,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1755954233
+    },
+    {
+        "content": "<p>Fascism <span aria-label=\"direct hit\" class=\"emoji emoji-1f3af\" role=\"img\" title=\"direct hit\">:direct_hit:</span></p>",
+        "id": 535805564,
+        "sender_full_name": "Nathaniel Schweinberg",
+        "timestamp": 1755954300
+    },
+    {
+        "content": "<p>State owned + Conservative Party  vs people owned + social policies</p>",
+        "id": 535805591,
+        "sender_full_name": "Nathaniel Schweinberg",
+        "timestamp": 1755954329
+    },
+    {
+        "content": "<p>More than half of the money they put into Intel is money they already got from the CHIPS Act. And it’s still nowhere near enough for them to build a domestic TSMC competitor.</p>\n<p>This was about Lip-Bu Tan kissing the ring in order to get all of the objections about connections to PLA backed companies dropped. I wouldn’t be surprised if someone tells Craig Barrett to shut up about how Lip-Bu Tan should resign.</p>",
+        "id": 535806162,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1755955103
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752880\">@Lars Ellingsen</span> to your point about Jerod’s “what if Grok5 isn’t that much better than Grok4” question being dismissed too quickly: you have the benefit of listening to that in a post GPT5 world where it’s pretty much played out that way. And what we know is GPT5 is that it’s using a router with smaller models and people hate it. (Not quite the same as MoE, but still an admission that they couldn’t make a better multimodal model. Close enough.)</p>\n<p>So 5 points for Jerod/-15 for Greg (where did those 10 points go? That’s how bubbles work, baybeee).</p>",
+        "id": 535806566,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1755955587
+    },
+    {
+        "content": "<p>Investments like this (USA taking a 10% stake in Intel) are a kiss of death for companies. Such a waste of taxpayer money.</p>\n<p>The market has spoken, Intel is as good as dead. Not because of anything recent, but because of the years and decades of poor decision making by their leadership.</p>",
+        "id": 535806620,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1755955642
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752964\">Andrew O'Brien</span> <a href=\"#narrow/channel/456187-interviews/topic/652.3A.20Solving.20the.20AI.20energy.20crisis/near/535806566\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"752880\">Lars Ellingsen</span> to your point about Jerod’s “what if Grok5 isn’t that much better than Grok4” question being dismissed too quickly: you have the benefit of listening to that in a post GPT5 world where it’s pretty much played out that way. And what we know is GPT5 is that it’s using a router with smaller models and people hate it. (Not quite the same as MoE, but still an admission that they couldn’t make a better multimodal model. Close enough.)</p>\n<p>So 5 points for Jerod/-15 for Greg (where did those 10 points go? That’s how bubbles work, baybeee).</p>\n</blockquote>\n<p>I actually don't know much about GPT 5 - I'm on pat leave (only really use LLMs with work) and try not to be on social media too much... Is it that much worse? I did hear it was meant to be more efficient. </p>\n<p>But with most any technology there are plateaus or physical limitations you hit. Speaking in absolute positives like \"there is no limit to improvement\" seems absurd to me. That's when I started taking his points with a handful of salt. </p>\n<p>Also <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span> about the 10 points</p>",
+        "id": 535807391,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1755956518
+    },
+    {
+        "content": "<p>In principle I am not opposed to state owned (or partially owned) enterprises if it's done right.  In NZ we have them and we used to have more of them but a previous right government ended up selling them in order to raise money and promised to deliver a budget surplus as a result. We sold the shares but never got that surplus.</p>\n<p>They make sense in a small country like NZ where there is very little competition and the consumer is at the mercy of giant corporations who often practice collusion to control prices.</p>\n<p>The Intel deal is bonkers though. It's an hostile takeover of a struggling corporation which isn't going to save it.</p>",
+        "id": 535865408,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1755985686
+    },
+    {
+        "content": "<p>Nationalising Intel, even slightly, is probably the most benign proposal we've heard out of this government so far<br>\nWhich is why I doubt it'll actually happen<br>\nI agree with <span class=\"user-mention\" data-user-id=\"752964\">@Andrew O'Brien</span> , this was about the Intel CEO stroking Trump's ego</p>",
+        "id": 535885976,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1756019123
+    },
+    {
+        "content": "<p>The cancellation of all these wind farm projects on the east coast will certainly not help with the energy needs for data centers.</p>",
+        "id": 536063910,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1756139701
+    },
+    {
+        "content": "<p>I read a headline today saying they are going to ban the covid vaccine <span aria-label=\"cold sweat\" class=\"emoji emoji-1f630\" role=\"img\" title=\"cold sweat\">:cold_sweat:</span></p>",
+        "id": 536118749,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1756160736
+    },
+    {
+        "content": "<p>RFK Jr does not believe in germ theory, so it doesn't surprise me that they'd go after vaccines :(</p>",
+        "id": 536127366,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1756165824
+    },
+    {
+        "content": "<p>NASA still doesn't have a director and they have laid off 25% of their employees. Their preliminary budget shows a more then 40% cut. They are abandoning very important projects which the scientific community has been working on for more than a decade and looking forward to immensely. </p>\n<p>Graduate students and postdocs have been left without funding in almost every university in America. Some of them are hanging on via funding from other sources but most of them will have to abandon their research projects or try to find resources from elsewhere in the world.</p>\n<p>Things look dismal on the scientific front.</p>\n<p>Dr. Sean Carrol on his podcast said something like  \"it takes decades to build up a scientific infrastructure and only days to destroy it\".  </p>\n<p>Same could be said about a lot of things including nations and democracy itself.</p>",
+        "id": 536185801,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1756197299
+    },
+    {
+        "content": "<p>Maybe I misunderstood something but when the guest started talking about residential electric, I was very confused. I have several 30+-amp devices on my home 100 amp service, often running together (air conditioner, dryer, stove, car charger). I'm aware I'm not an expert but I certainly got the vibe he wasn't either (or at least wasn't communicating those details well). Made it hard to take any of his other conclusions seriously, enough so to figure out how to join the Zulip since we don't just comment on the website anymore</p>",
+        "id": 539903539,
+        "sender_full_name": "Nick Allmaker",
+        "timestamp": 1758062410
+    },
+    {
+        "content": "<p>The guest explained that nuclear was more expensive than wind and solar and even gas, but didn't really explain why it's their favourite<br>\nWhat is the point of nuclear?<br>\nIs it a rhetorical device to argue for deregulation?</p>",
+        "id": 539904949,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1758063646
+    },
+    {
+        "content": "<p>Nuclear is more predictable. That’s its biggest selling point.</p>",
+        "id": 539915494,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1758073188
+    },
+    {
+        "content": "<p>But in the context of elastic/distributed workloads, which is the end goal for the guest, it doesn't seem worth it <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span></p>",
+        "id": 539917707,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1758075172
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752964\">Andrew O'Brien</span> <a href=\"#narrow/channel/456187-interviews/topic/652.3A.20Solving.20the.20AI.20energy.20crisis/near/533472929\">said</a>:</p>\n<blockquote>\n<p>I still have 40 minutes left and I've been trying to refrain from commenting until I'm done. I think I'm most frustrated by this sense that \"we must AI because it is inevitable\". But what if... it wasn't? What are we not doing because all the money is going toward trying to replace as many humans as possible?</p>\n</blockquote>\n<p>I keep coming back to this: what if we just didn't spend more energy than we have on AI? It's an option :)</p>",
+        "id": 539917937,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1758075388
+    },
+    {
+        "content": "<p>Nuclear is more predictable and there has been a lot of innovation in the smaller, modular reactors but its exceedingly difficult to build nuclear generation in the US because of regulation and local pushback.  If we had better storage and transmission the need for alternative sources would be less of an issue. California in particular generates more via solar than they can use during parts of the day so they have to sometimes turn off production if they can't offload it to other regions as they don't have enough storage. Its really frustrating IMO that tech companies totally just threw out all of their carbon neutrality goals to chase after the AI boom without a plan to address clean energy production. Burning diesel to power data centers is not a sustainable long-term solution. Nobody wants to pause though, too much fear, too much greed and as usual not enough strategic thinking.</p>",
+        "id": 539926582,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1758083256
+    },
+    {
+        "content": "<p>I frequently ponder whether it's \"fair\" that electricity is such a critical component of modern technology, yet producers of electricity do not get paid accordingly</p>",
+        "id": 539932837,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1758087816
+    },
+    {
+        "content": "<p>Although, I guess that's a similar question to Net Neutrality, and I very much do not want ISPs to differentiate between types of internet usage<br>\nSo, I suppose we don't want power companies to differentiate between types of power usage</p>",
+        "id": 539933879,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1758088579
+    },
+    {
+        "content": "<p>Have you guys ever heard of the monkey trap parable? Supposedly you make a box with a hole in it such that the hole is large enough for a monkey to squeeze his hand through but not large enough to pull it out if you make a fist. Then you put peanuts in the box and lock it. The monkey comes by put's his hand in and grabs a bunch of peanuts. It can't pull out the hand unless it lets go of the peanuts so it just sits there holding on to the peanuts until you come by and catch it. </p>\n<p>That's humanity and climate change.</p>",
+        "id": 539980817,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1758105455
+    },
+    {
+        "content": "<p>Yes, we very much, as a species, only want solutions that centralise profit and require zero change to our lifestyles</p>",
+        "id": 540111166,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1758147852
+    },
+    {
+        "content": "<p>There was a line in Vinland Saga (I think), something like: he who refuses to give up anything is any able to make change</p>",
+        "id": 540111399,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1758147970
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755905\">Tim Uckun</span> <a href=\"#narrow/channel/456187-interviews/topic/652.3A.20Solving.20the.20AI.20energy.20crisis/near/539980817\">said</a>:</p>\n<blockquote>\n<p>Have you guys ever heard of the monkey trap parable? Supposedly you make a box with a hole in it such that the hole is large enough for a monkey to squeeze his hand through but not large enough to pull it out if you make a fist. Then you put peanuts in the box and lock it. The monkey comes by put's his hand in and grabs a bunch of peanuts. It can't pull out the hand unless it lets go of the peanuts so it just sits there holding on to the peanuts until you come by and catch it. </p>\n<p>That's humanity and climate change.</p>\n</blockquote>\n<p>I mean...we are just monkeys that just got really good at using tools and communicating. We're terrible with thinking about the long game.</p>",
+        "id": 540111968,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1758148280
+    },
+    {
+        "content": "<p>What's that saying \"The greatest shortcoming of the human race is our inability to understand the exponential function\".</p>\n<p>One thing our monkey brain is horrible at dealing with is long term risk assessment. There are certain events which are catastrophic but unlikely and others which are likely but not catastrophic. We plan for the latter and ignore the former. For example  solar flares and meteor strikes. We know they will happen and yet we do nothing about them because it's unlikely to happen this year or the next.</p>\n<p>Climate change is both catastrophic and is already happening so I guess there is a second category of risks we are ignoring. The \"would require dismantling capitalism\" kind.</p>",
+        "id": 540113378,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1758149130
+    },
+    {
+        "content": "<p>A timely video (given when I listened to this episode) on why Dyson Spheres are a joke <a href=\"https://www.youtube.com/watch?v=fLzEX1TPBFM\">https://www.youtube.com/watch?v=fLzEX1TPBFM</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"fLzEX1TPBFM\" href=\"https://www.youtube.com/watch?v=fLzEX1TPBFM\"><img src=\"https://uploads.zulipusercontent.net/76c7e16f0c01fd39d66431a23d33ba0210b959ed/68747470733a2f2f692e7974696d672e636f6d2f76692f664c7a455831545042464d2f6d7164656661756c742e6a7067\"></a></div>",
+        "id": 540238268,
+        "sender_full_name": "Nick Allmaker",
+        "timestamp": 1758203145
+    },
+    {
+        "content": "<p>I remember doing a calculation which showed there isn't enough material in the solar system to build a dyson sphere. Not even close.  That's even if we had the ability to somehow dismantle jupiter and turn it into metal.</p>",
+        "id": 540324823,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1758231746
+    },
+    {
+        "content": "<p>Dyson spheres and self replicating probes are two tropes which make no sense to me.</p>",
+        "id": 540324895,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1758231796
+    },
+    {
+        "content": "<p>it's a pity there's nothing in the Kardashev scale ( <a href=\"https://en.wikipedia.org/wiki/Kardashev_scale\">https://en.wikipedia.org/wiki/Kardashev_scale</a> ) for living in balance with ones surroundings and \"harnessing\" only that which is necessary</p>",
+        "id": 540349137,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1758238865
+    },
+    {
+        "content": "<p>The scale never made sense to me either.  In any case it seems like we have surveyed millions of stars by now and still so evidence of anything happening at those scales.  Everywhere we look it's barren.</p>",
+        "id": 540372570,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1758257655
+    },
+    {
+        "content": "<p>Sounds like an opportunity. We have to take over the galaxy before any aliens do! Superintelligence and Transhumanism now! Everything that’s working toward that goal is justifiable and everything that’s focused on anything else is immoral!</p>\n<p>Forget about looming climate disasters and wealth inequality. We’re talking galactic civilization scale over a timeframe of millions of years! And we’re the most specialest boys who never got picked first for the soccer team but now we get to shape that.</p>\n<p>Hey Elon, don’t hog all the ketamine…</p>",
+        "id": 541455989,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1758806290
+    },
+    {
+        "content": "<p>–Something someone actually said in a mountain lair in Jackson, probably</p>",
+        "id": 541456905,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1758806545
+    },
+    {
+        "content": "<p>I don't know what kind of drugs those tech billiionaires are doing but they really seem off their rockers.</p>\n<p>Today I saw this <a href=\"https://www.theverge.com/ai-artificial-intelligence/785407/peter-thiel-antichrist-tech-regulation\">https://www.theverge.com/ai-artificial-intelligence/785407/peter-thiel-antichrist-tech-regulation</a></p>\n<p>Peter Theil says regulation of AI will hasten the return of the antichrist.</p>\n<p>I believe that he sincerely believes this given similar statements he has made in the past and his frequent mentions of the antichrist.  </p>\n<p>kakistocracy</p>",
+        "id": 541549356,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1758836798
+    },
+    {
+        "content": "<p>I listened to Ed Zitron (Better Offline) interview Adam Becker (astrophysicist, author of “More Everything Forever”) and the latter said “I really think the best thing that could happen to [tech billionaires on a personal level] would be for them to lose all their money”.</p>\n<p>The reason they’re the only ones who really seem convinced that LLMs can do real work is that they pay to be surrounded by people who just say yes and talk about how smart and unique they are. That’s what work is to them. GenAI gives the rest of us a taste of that experience and well-adjusted people recoil.</p>",
+        "id": 541569909,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1758851527
+    },
+    {
+        "content": "<p>I am beginning to think the doomsayers about AI ruining the world are right. My take is that this all started years ago when the twittter and facebook algorithms started warping societies. This not only continued but intensified over the years and seems relentlessly moving forward and ever increasing pace. </p>\n<p>The threat is not AGI it's just the normal AI we use every day influencing billions of people to take to the streets, commit violence, elect authoritarians, dismantle their democracies etc.</p>",
+        "id": 541602908,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1758872384
+    },
+    {
+        "content": "<p>I don't think social media warped society, it just accelerated the warping set in motion by insufficiently-regulated capitalism</p>",
+        "id": 541637315,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1758883436
+    },
+    {
+        "content": "<p>I disagree. I think the role of the AI in herding people into echo chambers and then feeding them a constant flow of disinformation can't be underestimated.</p>",
+        "id": 541647853,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1758887100
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"755905\">@Tim Uckun</span> you might want to check out this recent interview of Maria Ressa (journalist, author, Nobel prize winner). I know we typically stay away from politics and try to focus on tech here so I’ll leave it at that</p>\n<p><a href=\"https://youtu.be/Tsb1I7hqaJ4?si=xpePj-TI6qwbMHE5\">https://youtu.be/Tsb1I7hqaJ4?si=xpePj-TI6qwbMHE5</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"Tsb1I7hqaJ4\" href=\"https://youtu.be/Tsb1I7hqaJ4?si=xpePj-TI6qwbMHE5\"><img src=\"https://uploads.zulipusercontent.net/1876f62bacbfd40e7ac8c75af216df877e3d5580/68747470733a2f2f692e7974696d672e636f6d2f76692f5473623149376871614a342f6d7164656661756c742e6a7067\"></a></div>",
+        "id": 541714025,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1758906965
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752880\">@Lars Ellingsen</span> I did see that.</p>",
+        "id": 541749961,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1758923133
+    }
+]

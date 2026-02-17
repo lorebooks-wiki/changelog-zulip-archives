@@ -1,0 +1,68 @@
+[
+    {
+        "content": "<p><span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/609\">https://changelog.fm/609</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://changelog.fm/609\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/88b98b3b0f2d4d06ebd83669f952d2ab38673691/68747470733a2f2f736e61702e666c792e6465762f706f64636173742f3630392f696d67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://changelog.fm/609\" title=\"The best, worst codebase with Jimmy Miller (Changelog Interviews #609)\">The best, worst codebase with Jimmy Miller (Changelog Interviews #609)</a></div><div class=\"message_embed_description\">Jimmy Miller talks to us about his experience with a legacy codebase at his first job as a programmer. The codebase was massive, with hundreds of thousands of lines of C# and Visual Basic, and a database with over 1,000 columns. Let's just say Jimmy got into some stuff. There's even a Gilfoyle involved. This episode is...</div></div></div>",
+        "id": 471504864,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1726757666
+    },
+    {
+        "content": "<p>The thousand-column table is reminding me of the worst thing I came up with as a newbie engineer 20 years ago: The Perl script I built to make a pivot table in MySQL 3. There were about 20-30 data fields  and some forum post I read said if I didn't want to buy some MS product that did multi-dimensional expressions (we didn't), just generate a massive <code>CREATE TABLE ... SELECT </code> with columns like <code>SUM(IF(year=2004, stat, 0) AS stat_2004)</code>.</p>\n<p>I had a DB table with a bunch of fields that controlled how the stat fields were combined which you had to manage through phpmyadmin and RTFSC to understand.</p>\n<p>The webpage to actually query the thing was a PHP 4 monstrosity. I tried using OOP but it was slow and I had no idea how to profile it so I threw it out and rewrote it in a horrible imperative style. 4 years later when I left I felt guilty that it was the only thing I'd never returned to improve, but they were like \"no, it works... we'll just never touch it\". But they weren't counting on the fact that they had asked me to do quarterly as well as annual rollups, so they hit that limit way sooner than expected.</p>",
+        "id": 471508895,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1726758823
+    },
+    {
+        "content": "<p>Awesome episode. This and the original blog post reminded me so much of my first job, which was also building internal software. Some random memories:</p>\n<ul>\n<li>Circular reference in a giant web service project that was known - \"just unload a DLL, build, see it fail, switch which one is loaded, build again, fail, then load them all and you're good!\"</li>\n<li>Dozens of schemas in an enormous Oracle database, where we used stored procedures to act as a service layer essentially (and a ton of business logic in PLSQL)</li>\n<li>Writing our own C# micro-ORM to make working with the stored procs easier, but still keep the DBAs happy</li>\n<li>Custom ERP system written in COBOL but where more recent logic was in PLSQL</li>\n<li>Emailing database code updates to DBAs to be run</li>\n<li>Data center in the basement of the building that we ran</li>\n<li>Deploying ASP.NET sites to a file share which would update production</li>\n<li>Refused to use the cloud even later on, when it made a lot of sense</li>\n</ul>\n<p>But some things we did well:</p>\n<ul>\n<li>Talked to users, all the time</li>\n<li>Empowered developers to make users happy</li>\n<li>The dev team got along very well and communicated a lot with each other</li>\n<li>Produced a ton of software for the size of the team</li>\n<li>Positively impacted user productivity (when possible... sometimes we had requirements that prevented this <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span> )</li>\n<li>Code was actually quite reliable</li>\n<li>Over time, set up our own weird conventions, but everyone actually followed them (so it was easy to tell what was happening in new projects)</li>\n</ul>",
+        "id": 471514276,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1726760491
+    },
+    {
+        "content": "<p>I think Adam said “it sounds like a game”. Can we get an open world game where the world is a medium size moderately technical business set in the ‘00s where you have a bad, but functional codebase and can improve it in ways that actually affect the company’s performance? (That last part might be the escapism that draws people in.)</p>\n<p>The hardest part would probably be writing a codebase that looked like it grew organically over time at the hands of a bunch of different people with varying tastes and expertise.</p>",
+        "id": 471569681,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1726783178
+    },
+    {
+        "content": "<p>I said this in Slack and I'll cross-post it here. Munch reminded me of Brent from The Phoenix Project, for those who have read it. The well-meaning constraint on the system through which all value flows!</p>",
+        "id": 471577070,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1726787875
+    },
+    {
+        "content": "<p>I'm checking Jimmy's podcast \"Future of Coding\". Looks like they've talked about a lot of classic papers in software engineering. I'm in the middle of <a href=\"https://futureofcoding.org/episodes/061\">their episode about the Programming as Theory paper by Peter Naur</a> that he mentioned in this interview and loving the discussion.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://futureofcoding.org/episodes/061\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/560e1faf68d4f69ff56576e32f26f9296f2f48bc/68747470733a2f2f6675747572656f66636f64696e672e6f72672f6173736574732f676c697463682d6c6f676f2e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://futureofcoding.org/episodes/061\" title=\"61 • Programming as Theory Building by Peter Naur\">61 • Programming as Theory Building by Peter Naur</a></div><div class=\"message_embed_description\">Are you looking for the real computer revolution? Join the club! Future of Coding is a podcast and community of toolmakers, researchers, and creators working together to reimagine computing.</div></div></div>",
+        "id": 471752679,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1726843948
+    },
+    {
+        "content": "<p>The podcast is really good and I personally think the Naur episode is the absolute best. Though that may be because I like that paper the most.</p>",
+        "id": 471830203,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1726865108
+    },
+    {
+        "content": "<p>Right before I started listening to it, my boss asked me to take over a PoC from another team and turn it into something productionizable. The idea of resurrecting “dead” code has been haunting me ever since hearing them talk about it.</p>\n<p>Fortunately they all still work for the company so they’ll be available and I will get at least one of the engineers from the original team.</p>",
+        "id": 471942481,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1726926535
+    },
+    {
+        "content": "<p>This was exactly the interview I needed. I often fight with the frustration that the codebase I am maintaining is tedious, but this was a great reminder that the grass is not greener elsewhere, in some cases maybe.</p>",
+        "id": 472416535,
+        "sender_full_name": "René",
+        "timestamp": 1727162392
+    },
+    {
+        "content": "<p>This was an awesome episode!  <span aria-label=\"star\" class=\"emoji emoji-2b50\" role=\"img\" title=\"star\">:star:</span> <span aria-label=\"star\" class=\"emoji emoji-2b50\" role=\"img\" title=\"star\">:star:</span> Jimmy is a great story teller and I was shouting with laughter when he told the story of the law enforcement over reaction to his bug bounty payment request.</p>",
+        "id": 472946698,
+        "sender_full_name": "Ian Lessing",
+        "timestamp": 1727372871
+    },
+    {
+        "content": "<p>Agreed, love story tellers! The episodes with Steve Yegge are like this too.</p>",
+        "id": 475375240,
+        "sender_full_name": "Tillman Jex",
+        "timestamp": 1728328883
+    }
+]

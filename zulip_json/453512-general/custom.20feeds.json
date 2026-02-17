@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>Are custom feeds broken? I got a new phone (went to iOS from long time Android use) and was going to add my feed from <a href=\"http://changelog.com\">changelog.com</a>, but I’m seeing ‘failure’ when I click on the link to the feeds page</p>",
+        "id": 541364595,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1758772694
+    },
+    {
+        "content": "<p>Everything <em>looks</em> normal. What is the exact URL you are trying to access when it fails?</p>",
+        "id": 541463581,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1758808147
+    },
+    {
+        "content": "<p>(Feel free to DM if it's your private feed URL)</p>",
+        "id": 541463634,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1758808156
+    },
+    {
+        "content": "<p>Thank you! <a href=\"https://changelog.com/~/feeds\">https://changelog.com/~/feeds</a> is the page I’m going to (the “Custom Feeds” link from the account page). Same if I go to “Feeds” from the account dropdown menu. </p>\n<p>It is happening on iOS (Safari) and MacOS (Firefox). Using dev tools I see that I’m getting a 302 response. If it’s just me, it’s no big deal, now that there are fewer shows I listen to all of them anyways</p>",
+        "id": 541476787,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1758811458
+    },
+    {
+        "content": "<p>Hmm the only reason that should 302 (it's working for me in Safari on macOS) is if you aren't signed in.</p>",
+        "id": 541478162,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1758811802
+    },
+    {
+        "content": "<p>I previously had a custom feed with shows that are probably unavailable now (RIP JS Party), maybe that's it?</p>\n<p>I took a recording, I'll DM it to you</p>",
+        "id": 541480677,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1758812329
+    },
+    {
+        "content": "<p>Update - fixed by Jerod. Thanks for the help!</p>",
+        "id": 541485836,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1758813537
+    }
+]

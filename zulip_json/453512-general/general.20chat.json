@@ -1,0 +1,260 @@
+[
+    {
+        "content": "<p>I can't be the first one to notice that what <span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span> calls the \"(un)ordered list of links\" is actually a <em>set</em> since he's never repeated a single item <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span></p>",
+        "id": 508738687,
+        "sender_full_name": "Igor Akkerman",
+        "timestamp": 1743163715
+    },
+    {
+        "content": "<p>You <em>may</em> be giving me too much credit by assuming I wouldn't be lured in by the same thing twice <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span> </p>\n<p>(Somebody should vibe code up an \"(un)ordered list of links\" dupe checker)</p>",
+        "id": 508759602,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1743169770
+    },
+    {
+        "content": "<p>Relatedly, I've noticed in my text communications that I use bullet points alot, but shuffling would confuse the point I'm trying to make<br>\nSo, perhaps I do need to use numbered/ordered lists more often</p>",
+        "id": 508848943,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1743197698
+    },
+    {
+        "content": "<p>Something about an ordered list feels so much more formal though <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span></p>",
+        "id": 508849022,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1743197741
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"771585\">@Ron Waldon-Howe</span> there's a difference between ordered and numbered, so you're good <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span></p>",
+        "id": 508922541,
+        "sender_full_name": "Igor Akkerman",
+        "timestamp": 1743254993
+    },
+    {
+        "content": "<p>But it'd be so nice to remove a concept from my brain and just make them the same :P</p>",
+        "id": 508958272,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1743282516
+    },
+    {
+        "content": "<p>The REAL reason that <span class=\"user-mention\" data-user-id=\"750017\">@Adam Stacoviak</span> is so nice to his LLMs <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span> </p>\n<p><a href=\"/user_uploads/66849/zdlDmuUyrwFbn8LN63IF-9U0/GndvKHpWgAEDoKR.png\">GndvKHpWgAEDoKR.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/zdlDmuUyrwFbn8LN63IF-9U0/GndvKHpWgAEDoKR.png\" title=\"GndvKHpWgAEDoKR.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"800x800\" src=\"/user_uploads/thumbnail/66849/zdlDmuUyrwFbn8LN63IF-9U0/GndvKHpWgAEDoKR.png/840x560.webp\"></a></div>",
+        "id": 509942345,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1743687327
+    },
+    {
+        "content": "<p>Stop being so nice to your LLMs! <span aria-label=\"rolling on the floor laughing\" class=\"emoji emoji-1f923\" role=\"img\" title=\"rolling on the floor laughing\">:rolling_on_the_floor_laughing:</span>  <a href=\"https://futurism.com/altman-please-thanks-chatgpt\">https://futurism.com/altman-please-thanks-chatgpt</a></p>",
+        "id": 513417554,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1745248526
+    },
+    {
+        "content": "<p>Has anyone heard of <a href=\"http://guestpodcaststoday.com\">guestpodcaststoday.com</a> ?<br>\nI got an email from them asking if I'd like to be a guest on a podcast they work with, but it seemed a little… odd.</p>",
+        "id": 523173166,
+        "sender_full_name": "James A Rosen",
+        "timestamp": 1749505439
+    },
+    {
+        "content": "<p>I mean I just went to the website and it redirects to something odd... and the template has way too much animation in it so I'm not sure if I trust it <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span></p>",
+        "id": 525395394,
+        "sender_full_name": "Chris Manson",
+        "timestamp": 1750706723
+    },
+    {
+        "content": "<p><span aria-label=\"point up\" class=\"emoji emoji-1f446\" role=\"img\" title=\"point up\">:point_up:</span> that was my attempt at a reply to the previous message. I'm still getting used to Zulip <span aria-label=\"see no evil\" class=\"emoji emoji-1f648\" role=\"img\" title=\"see no evil\">:see_no_evil:</span></p>",
+        "id": 525395508,
+        "sender_full_name": "Chris Manson",
+        "timestamp": 1750706782
+    },
+    {
+        "content": "<p>Yeah I had to click around a bit to get going</p>",
+        "id": 525817853,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1750908122
+    },
+    {
+        "content": "<p>Hello, everyone! <span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span>.<br>\nI am going through campus placements. One of the requirements listed in the job description was TDD. May assigned us an assessment task based on it.<br>\nAs a rookie, I don't have much expertise with TDD, preferring to create first and then test after <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span>.</p>\n<p>I assumed I'd ask here because you folks seem to have more real-world experience: do you have any thoughts on TDD basics or ideas for good resources?<br>\nI'm not worried or anything; I just want to be prepared in case something comes up.<br>\nThank you<span aria-label=\"folded hands\" class=\"emoji emoji-1f64f\" role=\"img\" title=\"folded hands\">:folded_hands:</span>.</p>",
+        "id": 526652953,
+        "sender_full_name": "Dixit Ram",
+        "timestamp": 1751390239
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"920559\">Dixit Ram</span> <a href=\"#narrow/channel/453512-general/topic//near/526652953\">said</a>:</p>\n<blockquote>\n<p>case</p>\n</blockquote>\n<p>Its older, but have you read the Kent Beck book on it? I'd check that out. From a high level in SDLC you take the user stories and build the unit tests around those then build the functionality to pass the tests.</p>",
+        "id": 526671122,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1751398204
+    },
+    {
+        "content": "<p>TDD is one of those things I really ought to do but don't. The basic notion is simple. When you are writing some code how do you know when you are done? You write some code and you test it manually over and over again. Why not write the test first and code until it passes?</p>",
+        "id": 526692310,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751409436
+    },
+    {
+        "content": "<p>I'm not disciplined at all about this, but occasionally I'll even start with the documentation first, then write the test that supports what is documented, and then write the code</p>",
+        "id": 526692412,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1751409513
+    },
+    {
+        "content": "<p>I'm not religious about TDD but I do like to use it to:</p>\n<ol>\n<li>Verify my understanding of the issue.</li>\n<li>Prove that the code change fixes the issue.</li>\n</ol>\n<p>When I'm building out some new functionality I don't use TDD as much. Really when I'm patching things.</p>",
+        "id": 526710059,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1751423702
+    },
+    {
+        "content": "<p>Anyone want to go on my family roadtrip so that I can go check out the live show? <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span> <a href=\"https://changelog.com/live\">https://changelog.com/live</a></p>",
+        "id": 526841986,
+        "sender_full_name": "Jarvis",
+        "timestamp": 1751474275
+    },
+    {
+        "content": "<p><a href=\"#narrow/channel/453512-general/topic//near/526841986\">A message</a> was moved here from <a class=\"stream-topic\" data-stream-id=\"453512\" href=\"/#narrow/channel/453512-general/topic/Zulip/with/510391161\">#general &gt; Zulip</a> by <span class=\"user-mention silent\" data-user-id=\"752841\">Jarvis</span>.</p>",
+        "id": 526842037,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1751474294
+    },
+    {
+        "content": "<p>Just re-route your road trip through Denver… <span aria-label=\"nerd\" class=\"emoji emoji-1f913\" role=\"img\" title=\"nerd\">:nerd:</span></p>",
+        "id": 526844860,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1751475471
+    },
+    {
+        "content": "<p>Just sayin...hiking Red Rocks could be a family activity</p>",
+        "id": 526847212,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1751476405
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"750170\">Jerod Santo</span> <a href=\"#narrow/channel/453512-general/topic//near/526844860\">said</a>:</p>\n<blockquote>\n<p>Just re-route your road trip through Denver… <span aria-label=\"nerd\" class=\"emoji emoji-1f913\" role=\"img\" title=\"nerd\">:nerd:</span></p>\n</blockquote>\n<p>We're heading down to Florida from MN so how about ya move the live show to the beach!! <span aria-label=\"sunglasses\" class=\"emoji emoji-1f60e\" role=\"img\" title=\"sunglasses\">:sunglasses:</span> <span aria-label=\"beach\" class=\"emoji emoji-1f3d6\" role=\"img\" title=\"beach\">:beach:</span> <span aria-label=\"tropical drink\" class=\"emoji emoji-1f379\" role=\"img\" title=\"tropical drink\">:tropical_drink:</span></p>",
+        "id": 526985375,
+        "sender_full_name": "Jarvis",
+        "timestamp": 1751545789
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752841\">Jarvis</span> <a href=\"#narrow/stream/453512-general/topic//near/526841986\">said</a>:</p>\n<blockquote>\n<p>Anyone want to go on my family roadtrip so that I can go check out the live show?</p>\n</blockquote>\n<p>While I do love the changelog, you have yourself a deal sir! When and where do we meet? (Just kidding)</p>",
+        "id": 526991174,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1751547606
+    },
+    {
+        "content": "<p>anyone else using apple podcasts and notice this?<a href=\"/user_uploads/66849/oJChubVKiFyxAv0bkS5h5SQI/image_A351E6F3-C11E-40EE-A1EE-E0F928C0DA6E_1751886205.jpeg\">image_A351E6F3-C11E-40EE-A1EE-E0F928C0DA6E_1751886205.jpeg</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/oJChubVKiFyxAv0bkS5h5SQI/image_A351E6F3-C11E-40EE-A1EE-E0F928C0DA6E_1751886205.jpeg\" title=\"image_A351E6F3-C11E-40EE-A1EE-E0F928C0DA6E_1751886205.jpeg\"><img data-original-content-type=\"image/jpeg\" data-original-dimensions=\"1179x1957\" src=\"/user_uploads/thumbnail/66849/oJChubVKiFyxAv0bkS5h5SQI/image_A351E6F3-C11E-40EE-A1EE-E0F928C0DA6E_1751886205.jpeg/840x560.webp\"></a></div>",
+        "id": 527453575,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1751886211
+    },
+    {
+        "content": "<p>We had the publish date wrong when it went out. We also had the audio wrong when it went out. So I'd delete the June 27th one if I were you and go with the newer one <span aria-label=\"sunglasses\" class=\"emoji emoji-1f60e\" role=\"img\" title=\"sunglasses\">:sunglasses:</span></p>",
+        "id": 527466430,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1751890659
+    },
+    {
+        "content": "<p>Should we have a \"vibe coding\" or AI focused channel? I guess there is practical AI but that's for discussing the podcast episodes right?</p>",
+        "id": 527603175,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751949680
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755905\">Tim Uckun</span> <a href=\"#narrow/stream/453512-general/topic//near/527603175\">said</a>:</p>\n<blockquote>\n<p>Should we have a \"vibe coding\" or AI focused channel? I guess there is practical AI but that's for discussing the podcast episodes right?</p>\n</blockquote>\n<p>share ideas and discuss on it. <br>\nI was also thinking about, that. We can share new Ai Tools and news too.</p>",
+        "id": 527604341,
+        "sender_full_name": "Dixit Ram",
+        "timestamp": 1751950747
+    },
+    {
+        "content": "<p>Now to bike shed the channel name :P</p>",
+        "id": 527606196,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1751952276
+    },
+    {
+        "content": "<p>There is a topic called AI Shenanigans. Sounds like a great name.</p>",
+        "id": 527608984,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1751954189
+    },
+    {
+        "content": "<p>For the Denver meetup with weekend, I can't make the event on Saturday, but i can hang out on Friday night for drinks. Is there a spot to sign up, or do I just show up?</p>",
+        "id": 530398755,
+        "sender_full_name": "Trevor Settles",
+        "timestamp": 1753291639
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"762177\">Trevor Settles</span> <a href=\"#narrow/stream/453512-general/topic//near/530398755\">said</a>:</p>\n<blockquote>\n<p>For the Denver meetup with weekend, I can't make the event on Saturday, but i can hang out on Friday night for drinks. Is there a spot to sign up, or do I just show up?</p>\n</blockquote>\n<p><a href=\"https://changelog.com/live\">https://changelog.com/live</a><br>\nLists:<br>\n<span aria-label=\"beers\" class=\"emoji emoji-1f37b\" role=\"img\" title=\"beers\">:beers:</span> Meetup: 8pm (7/25)<br>\nMeetup: Edgewater Beer Garden (2508 Gray Street) <span aria-label=\"beers\" class=\"emoji emoji-1f37b\" role=\"img\" title=\"beers\">:beers:</span><br>\n<a href=\"https://www.edgewaterbeergarden.com/\">https://www.edgewaterbeergarden.com/</a></p>\n<p>The tickets look like they are just for the Oriental Theater.</p>",
+        "id": 530399387,
+        "sender_full_name": "Matt Johnson",
+        "timestamp": 1753291848
+    },
+    {
+        "content": "<p>I gotta say I love the ~10 minute news format lol :) Thanks <span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span></p>",
+        "id": 530418441,
+        "sender_full_name": "Omri Gabay",
+        "timestamp": 1753298858
+    },
+    {
+        "content": "<p>Yes, the meet up will be open invite. So just show up. Although it would be nice to have some version of an RSVP just so we know.</p>",
+        "id": 530419776,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1753299383
+    },
+    {
+        "content": "<p>Speaking of saturday, how hard is this hike gonna be? <span aria-label=\"smiley\" class=\"emoji emoji-1f603\" role=\"img\" title=\"smiley\">:smiley:</span></p>",
+        "id": 530434883,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1753305530
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"750017\">Adam Stacoviak</span> <a href=\"#narrow/channel/453512-general/topic//near/530419776\">said</a>:</p>\n<blockquote>\n<p>Yes, the meet up will be open invite. So just show up. Although it would be nice to have some version of an RSVP just so we know.</p>\n</blockquote>\n<div class=\"message_inline_image\"><a href=\"https://media2.giphy.com/media/QYQ3PZ9UHje3S/giphy.gif?cid=c623cb351nf80z11m4i96jacdnmdu4y7adubrdh40cf42dwx&amp;ep=v1_gifs_search&amp;rid=giphy.gif&amp;ct=g\"><img src=\"https://uploads.zulipusercontent.net/c2b87d7918e460944525f608192b024b2bc13985/68747470733a2f2f6d65646961322e67697068792e636f6d2f6d656469612f51595133505a3955486a6533532f67697068792e6769663f6369643d6336323363623335316e6638307a31316d346939366a6163646e6d6475347937616475627264683430636634326477782665703d76315f676966735f736561726368267269643d67697068792e6769662663743d67\"></a></div>",
+        "id": 530440050,
+        "sender_full_name": "Jarvis",
+        "timestamp": 1753307804
+    },
+    {
+        "content": "<p>Did you guys see this crazy PR to OpenCut? The most impressive part is how CodeRabbit is responding to everything... it's like, really decent. What is real anymore</p>\n<p><a href=\"https://github.com/OpenCut-app/OpenCut/pull/47\">https://github.com/OpenCut-app/OpenCut/pull/47</a></p>",
+        "id": 531936031,
+        "sender_full_name": "Omri Gabay",
+        "timestamp": 1753911690
+    },
+    {
+        "content": "<p>Did have a quick search but couldn’t find anything, has Bill Hall the creator of Odin been considered as a guest before? Switched to using Odin recently for writing a Risc-v toy OS and know he has some pretty interesting opinions on language design and software in general.</p>",
+        "id": 532787662,
+        "sender_full_name": "Maurice Elliott",
+        "timestamp": 1754337091
+    },
+    {
+        "content": "<p>A smart move by Google?</p>\n<p><a href=\"http://Perplexity.in\">Perplexity.in</a> (.in is India's domain), takes you to Gemini <span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span>.</p>",
+        "id": 558597086,
+        "sender_full_name": "Dixit Ram",
+        "timestamp": 1763711587
+    },
+    {
+        "content": "<p>Guys, anyone attending the AWS: ReInvent early December?</p>",
+        "id": 560669961,
+        "sender_full_name": "Rohan Bhatial",
+        "timestamp": 1764277106
+    },
+    {
+        "content": "<p>Seems like an odd combination. I would say a wiki would be a good starter project.</p>",
+        "id": 572656263,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1770590888
+    },
+    {
+        "content": "<p>Add some custom markup for extra measure</p>",
+        "id": 572656305,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1770590957
+    },
+    {
+        "content": "<p>AI agent drama? <br>\n<a href=\"https://news.ycombinator.com/item?id=46987559\">https://news.ycombinator.com/item?id=46987559</a></p>",
+        "id": 573549318,
+        "sender_full_name": "Jarvis",
+        "timestamp": 1770909521
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752841\">Jarvis</span> <a href=\"#narrow/channel/453512-general/topic//near/573549318\">said</a>:</p>\n<blockquote>\n<p>AI agent drama? <br>\n<a href=\"https://news.ycombinator.com/item?id=46987559\">https://news.ycombinator.com/item?id=46987559</a></p>\n</blockquote>\n<p>Scott's blog response:<br>\n<a href=\"https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/\">https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/</a></p>",
+        "id": 573591954,
+        "sender_full_name": "Jarvis",
+        "timestamp": 1770920834
+    }
+]

@@ -1,0 +1,146 @@
+[
+    {
+        "content": "<p>I see we don't have a Python channel, and maybe don't need a dedicated one... but I was so jazzed to see <a href=\"https://peps.python.org/pep-0751/\">PEP 751</a> get approved and pave the way for a standard lockfile format. I figure we probably have enough Pythonistas around that I'm not the only one. Thanks Brett! <span aria-label=\"tada\" class=\"emoji emoji-1f389\" role=\"img\" title=\"tada\">:tada:</span> (explicitly not tagging him even though I know he hangs around here)</p>\n<p>(Even as a user, this feels even sweeter after seeing <a href=\"https://peps.python.org/pep-0665/\">PEP 665</a> rejected.)</p>",
+        "id": 511018119,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1744143336
+    },
+    {
+        "content": "<p>+1 on the Python channel idea <span aria-label=\"light bulb\" class=\"emoji emoji-1f4a1\" role=\"img\" title=\"light bulb\">:light_bulb:</span></p>",
+        "id": 511030786,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1744148628
+    },
+    {
+        "content": "<p>Never got into python. About 25 years ago my brother got me a python programming on windows book as a gift. I tried to write a script and for some reason couldn't get it to work with COM. I picked up a ruby book and it \"just worked\" so I wrote the script in ruby. After that I was on the ruby train for a long time.  I guess I still am because anytime I need to write a script or whatever I reach for ruby.</p>",
+        "id": 511030811,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1744148637
+    },
+    {
+        "content": "<p>Those first experiences count for sure <span aria-label=\"thumbs up\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"thumbs up\">:thumbs_up:</span></p>",
+        "id": 511038541,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1744152345
+    },
+    {
+        "content": "<p>I made the <a class=\"stream\" data-stream-id=\"464897\" href=\"/#narrow/channel/464897-rust\">#rust</a> and <a class=\"stream\" data-stream-id=\"465774\" href=\"/#narrow/channel/465774-terminals-and-shells-and-tuis-oh-my\">#terminals-and-shells-and-tuis-oh-my</a> channels but they don't seem to have exploded in popularity, haha</p>",
+        "id": 511039790,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1744153033
+    },
+    {
+        "content": "<p>I have some internal heuristic that guides when I flip from bash/fish to Python for scripting, never really reached for Ruby for that case. The threshold for flipping to Python keeps getting lower for me (so much love to <a href=\"https://packaging.python.org/en/latest/specifications/inline-script-metadata/\">inline script metadata</a>.</p>",
+        "id": 511039903,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1744153086
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"771585\">@Ron Waldon-Howe</span> just noticed the tui one earlier today, good stuff <span aria-label=\"thumbs up\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"thumbs up\">:thumbs_up:</span></p>",
+        "id": 511039946,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1744153122
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"764308\">valon-loshaj</span> <a href=\"#narrow/channel/453512-general/topic/Python.20lockfile.20standard/near/511030786\">said</a>:</p>\n<blockquote>\n<p>+1 on the Python channel idea <span aria-label=\"light bulb\" class=\"emoji emoji-1f4a1\" role=\"img\" title=\"light bulb\">:light_bulb:</span></p>\n</blockquote>\n<p>You know, why not... <a class=\"stream\" data-stream-id=\"496852\" href=\"/#narrow/channel/496852-python\">#python</a></p>",
+        "id": 511040483,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1744153425
+    },
+    {
+        "content": "<p>I used to reach for node.js for scripting, but got fed up with the fact that I would somehow always end up with 1,800 items in my node_modules <span aria-label=\"grimacing\" class=\"emoji emoji-1f62c\" role=\"img\" title=\"grimacing\">:grimacing:</span></p>\n<p>Python is my go-to nowadays</p>",
+        "id": 511140372,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1744196530
+    },
+    {
+        "content": "<p>One nice thing about scripting languages like JavaScript, Python, Ruby, etc is that they tend to have fairly rich standard libraries, so for many use cases you can get quite far without needing any third-party dependencies at all</p>",
+        "id": 511142157,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1744197071
+    },
+    {
+        "content": "<p>I would have given python more of a chance if it were easier to install. But for some reason I've always had trouble getting python projects started.</p>",
+        "id": 511146474,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1744198347
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"764308\">valon-loshaj</span> <a href=\"#narrow/stream/453512-general/topic/Python.20lockfile.20standard/near/511140372\">said</a>:</p>\n<blockquote>\n<p>I used to reach for node.js for scripting, but got fed up with the fact that I would somehow always end up with 1,800 items in my node_modules <span aria-label=\"grimacing\" class=\"emoji emoji-1f62c\" role=\"img\" title=\"grimacing\">:grimacing:</span></p>\n<p>Python is my go-to nowadays</p>\n</blockquote>\n<p>My go to is Deno nowadays. Usually need almost no extra dependencies</p>",
+        "id": 511148337,
+        "sender_full_name": "Dustin",
+        "timestamp": 1744198929
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752833\">AJ Kerrigan</span> <a href=\"#narrow/channel/453512-general/topic/Python.20lockfile.20standard/near/511018119\">said</a>:</p>\n<blockquote>\n<p>I see we don't have a Python channel, and maybe don't need a dedicated one... but I was so jazzed to see <a href=\"https://peps.python.org/pep-0751/\">PEP 751</a> get approved and pave the way for a standard lockfile format. I figure we probably have enough Pythonistas around that I'm not the only one. Thanks Brett! <span aria-label=\"tada\" class=\"emoji emoji-1f389\" role=\"img\" title=\"tada\">:tada:</span> (explicitly not tagging him even though I know he hangs around here)</p>\n<p>(Even as a user, this feels even sweeter after seeing <a href=\"https://peps.python.org/pep-0665/\">PEP 665</a> rejected.)</p>\n</blockquote>\n<p>Glad you're excited about it! (And it's always fine to tag me.)</p>\n<p><span class=\"user-mention silent\" data-user-id=\"752833\">AJ Kerrigan</span> <a href=\"#narrow/channel/453512-general/topic/Python.20lockfile.20standard/near/511039903\">said</a>:</p>\n<blockquote>\n<p>I have some internal heuristic that guides when I flip from bash/fish to Python for scripting, never really reached for Ruby for that case. The threshold for flipping to Python keeps getting lower for me (so much love to <a href=\"https://packaging.python.org/en/latest/specifications/inline-script-metadata/\">inline script metadata</a>.</p>\n</blockquote>\n<p>Yes, I do hope inline script metadata gets more people using Python for one-off scripts.</p>\n<p><span class=\"user-mention silent\" data-user-id=\"752922\">Nabeel S</span> <a href=\"#narrow/channel/453512-general/topic/Python.20lockfile.20standard/near/511146474\">said</a>:</p>\n<blockquote>\n<p>I would have given python more of a chance if it were easier to install. But for some reason I've always had trouble getting python projects started.</p>\n</blockquote>\n<p>Have you looked at -- in no particular order -- <a href=\"https://pdm-project.org/\">https://pdm-project.org/</a> , <a href=\"https://hatch.pypa.io/\">https://hatch.pypa.io/</a> , or <a href=\"https://docs.astral.sh/uv/\">https://docs.astral.sh/uv/</a> , all of which will install Python on-demand from <a href=\"https://github.com/astral-sh/python-build-standalone\">https://github.com/astral-sh/python-build-standalone</a> ?</p>",
+        "id": 511265147,
+        "sender_full_name": "Brett Cannon",
+        "timestamp": 1744234112
+    },
+    {
+        "content": "<p>One thing I like about ruby over python is that it's much easier to write one liners so you can just execute them directly.  Ruby also has really good and idiomatic method chaining and built in support for CSV, JSON and YAML processing so it really comes in handy</p>\n<p>There are lots of resources , there is even a book </p>\n<p><a href=\"https://learnbyexample.github.io/learn_ruby_oneliners/\">https://learnbyexample.github.io/learn_ruby_oneliners/</a></p>",
+        "id": 511310275,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1744258885
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752833\">AJ Kerrigan</span> <a href=\"#narrow/stream/453512-general/topic/Python.20lockfile.20standard/near/511038541\">said</a>:</p>\n<blockquote>\n<p>Those first experiences count for sure <span aria-label=\"thumbs up\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"thumbs up\">:thumbs_up:</span></p>\n</blockquote>\n<p>Python was technically my first language because it’s the one I got working on my parent’s OS 9 iMac. But when I visited colleges (1999-2000) and told a CS professor that I was teaching myself Python he said “never heard of it” and I felt deflated.</p>\n<p>Took me 15 years to get back to it (via C++, Java, PHP, Perl, JavaScript, Ruby, and a bunch of side languages). Too bad no one told me until later that CS professors are some of the least informed about industry trends.</p>",
+        "id": 513413843,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1745247162
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752964\">Andrew O'Brien</span> <a href=\"#narrow/channel/453512-general/topic/Python.20lockfile.20standard/near/513413843\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"752833\">AJ Kerrigan</span> <a href=\"#narrow/stream/453512-general/topic/Python.20lockfile.20standard/near/511038541\">said</a>:</p>\n<blockquote>\n<p>Those first experiences count for sure <span aria-label=\"thumbs up\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"thumbs up\">:thumbs_up:</span></p>\n</blockquote>\n<p>Python was technically my first language because it’s the one I got working on my parent’s OS 9 iMac. But when I visited colleges (1999-2000) and told a CS professor that I was teaching myself Python he said “never heard of it” and I felt deflated.</p>\n<p>Took me 15 years to get back to it (via C++, Java, PHP, Perl, JavaScript, Ruby, and a bunch of side languages). Too bad no one told me until later that CS professors are some of the least informed about industry trends.</p>\n</blockquote>\n<p>That does sound deflating :(. I'm sure when you got back to it though you had a ton of useful context that made the re-entry smoother at least. I also had a couple Python entry points, initially doing text processing / parsing stuff as a more readable alternative to Perl. All Python 2. Coming back for a second wave it was right into devopsy stuff, where I was different and so was Python (in the \"you _should_ be using Python 3 but probably aren't yet\" time frame <span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span> ).</p>",
+        "id": 513417276,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1745248437
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752833\">AJ Kerrigan</span> <a href=\"#narrow/channel/453512-general/topic/Python.20lockfile.20standard/near/513417276\">said</a>:</p>\n<blockquote>\n<p>I'm sure when you got back to it though you had a ton of useful context that made the re-entry smoother at least.</p>\n</blockquote>\n<p>Yeah, actually for years I was looking at Python web programming from a Ruby PoV and thinking \"okay, this is fine, but why wouldn't I use Ruby for this?\" Around the mid-'10s I realized not only that Python could do a lot more than web, but that I had developed a restrained style of Ruby as a defense against 8 years of scars that ultimately was \"Python with <code>end</code>s\". (The little metaprogramming I still did could be handled by decorators and context managers, which also happened to cleanly divide into \"compile time\" vs. \"run time\" metaprogramming.)</p>\n<p>Also, the F100 I worked for had their own <code>python</code> build that compiled in all of their proprietary libraries, which gave me access to a whole new world that had previously been hidden behind nasty XML RPC services that were meant to be a fallback for anyone who wasn't using the blessed C++ or Python tools. That's what really pulled me in.</p>",
+        "id": 513635041,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1745334341
+    },
+    {
+        "content": "<p>Man I just loved building DSLs with ruby. It really is a magical language. I imagine lisp devs feel the same way about their language. Being able to shape the language to your whim gives me such joy.</p>\n<p>Recently just for LULz I decided to write a plain old rack app, no framework or anything. For some weird reason I decided it would be functional as possible so I made a decision to minimize the use of classes. I also chose to limit my use of lambdas just to challenge myself. Turned out to be a super easy, barely an inconvenience!   </p>\n<p>My code ended up being a bunch of modules which acted as namespaces and all module level functions.   The routing table was just a hash, if the path wasn't in the hash the router tried to guess the module to use by using the path of the request and trying to match it up to defined modules. If it could find a match it put it in the hash to memoize the route. </p>\n<p>The core was file with less than 100 lines of code including blank lines and comments and such.  There were a couple of other files in there to handle things like config, middleware loading etc but honestly altogether a couple of hundred lines at most and all done in an evening of watching youtube videos while coding.</p>\n<p>I doubt I am going to anything with it but as a bit of amusement it was amazing. </p>\n<p>I am thinking about writing something in ruby again and I guess the default is rails but I might fool around with roda because I think I can do similar things when not put in the box rails puts you in.</p>",
+        "id": 513736167,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1745360195
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755905\">Tim Uckun</span> <a href=\"#narrow/channel/453512-general/topic/Python.20lockfile.20standard/near/513736167\">said</a>:</p>\n<blockquote>\n<p>Recently just for LULz I decided to write a plain old rack app, no framework or anything. For some weird reason I decided it would be functional as possible so I made a decision to minimize the use of classes. I also chose to limit my use of lambdas just to challenge myself. Turned out to be a super easy, barely an inconvenience!   </p>\n</blockquote>\n<p>I loved Rack so much, but was always frustrated that most of the Rails devs I worked with had never bothered to look into it and preferred to use Rails-specific middleware type things (filters? been awhile).</p>\n<p>So simple, yet so powerful. And so many useful and truly modular components available.</p>\n<p>I know it was inspired by WSGI, but even having been in Django and FastAPI for 2 years I don't find myself touching that level (or I guess ASGI now) very often.</p>",
+        "id": 514125803,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1745501218
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752964\">@Andrew O'Brien</span> On the one hand Rails is often frustrating because it's so opinionated and huge. On the other hand you will eventually need all that it offers things like mailers, cache, background jobs, and of course the mountain of security related code in there.</p>\n<p>Roda seems like a good compromise, bigger than rack and sinatra but fast and lightweight.  You still have to hand roll a bunch of stuff though because there isn't an out of the box solution for configuration, middleware management, mailing,  etc.   </p>\n<p>I left out the discussion about the ORM. AR is pretty amazing and Sequel is also great but honestly neither one of them works the way I want them to work. I want a more repository based approach.</p>",
+        "id": 514229392,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1745528937
+    },
+    {
+        "content": "<p>FYI the latest release of pip has experimental support to generate a lock file.</p>",
+        "id": 514920961,
+        "sender_full_name": "Brett Cannon",
+        "timestamp": 1745882936
+    },
+    {
+        "content": "<p>It feels odd for this to be so late given the Executive Order for SBOMs, etc<br>\nI figured this was standard in any government and government-adjacent technology stack by now</p>",
+        "id": 514921932,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1745883479
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"771585\">Ron Waldon-Howe</span> <a href=\"#narrow/channel/453512-general/topic/Python.20lockfile.20standard/near/514921932\">said</a>:</p>\n<blockquote>\n<p>It feels odd for this to be so late given the Executive Order for SBOMs, etc<br>\nI figured this was standard in any government and government-adjacent technology stack by now</p>\n</blockquote>\n<p>Nothing previously prevented you from shipping SBOMs (although I was just PEP delegate for standardizing where to put SBOMs in Python wheels). And I don't think anything mandates e.g. hashes for files or anything. Plus you could do a decent chunk of this sort of thing with <code>requirements.txt</code> files if you had them include stuff like hashes.</p>",
+        "id": 515168693,
+        "sender_full_name": "Brett Cannon",
+        "timestamp": 1745965977
+    },
+    {
+        "content": "<p>Spec is now up! <a href=\"https://packaging.python.org/en/latest/specifications/pylock-toml/\">https://packaging.python.org/en/latest/specifications/pylock-toml/</a></p>",
+        "id": 516525804,
+        "sender_full_name": "Brett Cannon",
+        "timestamp": 1746562169
+    }
+]

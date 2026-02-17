@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>We are on the other side of \"big data\" hype, but what is the future of analytics and how does AI fit in? Till and Adithya from MotherDuck join us to discuss why DuckDB is taking the analytics and AI world by storm. We dive into what makes DuckDB, a free, in-process SQL OLAP database management system, unique including its ability to execute lighting fast analytics queries against a variety of data sources, even on your laptop! Along the way we dig into the intersections with AI, such as text-to-sql, vector search, and AI-driven SQL query correction.</p>\n<p><span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://practicalai.fm/292\">https://practicalai.fm/292</a></p>",
+        "id": 478745691,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729784047
+    }
+]

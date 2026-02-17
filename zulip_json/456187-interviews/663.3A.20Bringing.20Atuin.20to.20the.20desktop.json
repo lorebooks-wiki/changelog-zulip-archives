@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>Ellie Huxtable's magical shell tool, <a href=\"https://atuin.sh\">Atuin</a>, won developers' hearts by syncing, searching, and backing up our shell history with ease. Now Ellie is tackling the desktop with a GUI built to help teams make their workflows repeatable, shareable, and reliable. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/663\">https://changelog.fm/663</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.fm/663#t=0\">00:00</a></td>\n<td>This week on The Changelog</td>\n<td>01:00</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.fm/663#t=60\">01:00</a></td>\n<td><a href=\"https://www.augmentcode.com\">Sponsor: Augment Code</a></td>\n<td>03:30</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.fm/663#t=270\">04:30</a></td>\n<td>Start the show!</td>\n<td>01:22</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.fm/663#t=352\">05:52</a></td>\n<td><a href=\"https://atuin.sh\">Atuin is so cool</a></td>\n<td>01:11</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.fm/663#t=423\">07:03</a></td>\n<td>To CLI and beyond</td>\n<td>01:49</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.fm/663#t=532\">08:52</a></td>\n<td>Why desktop</td>\n<td>01:14</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.fm/663#t=606\">10:06</a></td>\n<td>How does it work</td>\n<td>02:47</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.fm/663#t=774\">12:54</a></td>\n<td>Runbooks that run?</td>\n<td>02:18</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.fm/663#t=911\">15:11</a></td>\n<td>Container concerns</td>\n<td>01:27</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.fm/663#t=999\">16:39</a></td>\n<td>Apple losing steam</td>\n<td>02:20</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.fm/663#t=1139\">18:59</a></td>\n<td>The hard parts</td>\n<td>04:20</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.fm/663#t=1399\">23:19</a></td>\n<td><a href=\"https://agntcy.org\">Sponsor: Outshift by Cisco</a></td>\n<td>01:17</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.fm/663#t=1476\">24:36</a></td>\n<td>Tauri as a platform</td>\n<td>07:20</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.fm/663#t=1915\">31:55</a></td>\n<td>CLI monetization</td>\n<td>02:21</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.fm/663#t=2056\">34:16</a></td>\n<td>The reception</td>\n<td>01:38</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.fm/663#t=2154\">35:54</a></td>\n<td>Jerod's first run</td>\n<td>03:44</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.fm/663#t=2378\">39:38</a></td>\n<td>Sharing runbooks</td>\n<td>02:47</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.fm/663#t=2546\">42:26</a></td>\n<td>Portability concerns</td>\n<td>01:19</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.fm/663#t=2625\">43:45</a></td>\n<td>In the pipeline</td>\n<td>02:32</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.fm/663#t=2777\">46:17</a></td>\n<td>Open contribution?</td>\n<td>02:08</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.fm/663#t=2905\">48:25</a></td>\n<td>The roadmap</td>\n<td>01:17</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.fm/663#t=2982\">49:42</a></td>\n<td>Is the CLI done?</td>\n<td>02:14</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.fm/663#t=3115\">51:55</a></td>\n<td>Invisible tools are good tools</td>\n<td>00:37</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.fm/663#t=3152\">52:32</a></td>\n<td>Wrapping up</td>\n<td>02:09</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://changelog.fm/663#t=3281\">54:41</a></td>\n<td><a href=\"https://changelog.com/community\">Closing thoughts</a></td>\n<td>01:38</td>\n</tr>\n<tr>\n<td>26</td>\n<td><a href=\"https://changelog.fm/663#t=3380\">56:20</a></td>\n<td><a href=\"https://changelog.com/++\">Changelog++ (it's better!)</a></td>\n<td>00:18</td>\n</tr>\n</tbody>\n</table>",
+        "id": 546525310,
+        "sender_full_name": "Logbot",
+        "timestamp": 1761157806
+    },
+    {
+        "content": "<p>It's cool to see Atuin branching out thoughtfully like this. I've been playing a little bit with Atuin Desktop, dig the idea but haven't gotten to the point of sharing runbooks yet.</p>\n<p>Since much of my shareable stuff is Python-related, I've been finding marimo + uv to be a killer combo. Bringing that level of interactivity to existing static runbooks/justfiles/makefiles sounds like a worthy experiment though. Curious if any other folks here have been kicking the tires.</p>",
+        "id": 547402821,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1761620485
+    },
+    {
+        "content": "<p>I didn't even think of notebooks as run books! I'm going to give this a shot!</p>",
+        "id": 547749098,
+        "sender_full_name": "Sukhdeep Brar",
+        "timestamp": 1761752062
+    },
+    {
+        "content": "<p>I'm mostly on Windows day to day so I haven't dug into this yet.<br>\nIs it similar to <a href=\"https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode\">Polyglot Notebooks in Visual Studio Code</a>?<br>\nCan it be run via WSL?</p>",
+        "id": 560517018,
+        "sender_full_name": "Al Gonzalez",
+        "timestamp": 1764219807
+    },
+    {
+        "content": "<p>One thing I missed is any explanation of the security aspect. In the previous interview about Atuin, this topic came up a lot, they repeatedly emphasized that it’s end-to-end encrypted and that Atuin has no access to the shell history. Since this was completely skipped here, I’m assuming it’s not E2E-encrypted, and I’m concerned about sensitive commands being sent to their server.</p>",
+        "id": 562093186,
+        "sender_full_name": "Daniel Serodio",
+        "timestamp": 1764939035
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"761104\">@Daniel Serodio</span> it's quite a bit more complicated to have E2EE for teams/groups<br>\nand the enterprise use case will often have auditable-compliance and standard-operating-procedure requirements that would make it even more complicated if not infeasible</p>",
+        "id": 562181855,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1764968285
+    },
+    {
+        "content": "<p>It’s definitely more complicated, but I found it odd that there’s no mention of the security aspect at all.</p>",
+        "id": 562706464,
+        "sender_full_name": "Daniel Serodio",
+        "timestamp": 1765292208
+    }
+]

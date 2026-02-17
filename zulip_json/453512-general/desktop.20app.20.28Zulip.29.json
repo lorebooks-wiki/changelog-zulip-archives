@@ -1,0 +1,146 @@
+[
+    {
+        "content": "<p>Has anyone used the desktop macos app? How does it compare with the webapp?</p>",
+        "id": 472080586,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1727036189
+    },
+    {
+        "content": "<p>I'm fairly certain all but the mobile and TUI apps are just some kind of webview</p>",
+        "id": 472081184,
+        "sender_full_name": "Amolith",
+        "timestamp": 1727036685
+    },
+    {
+        "content": "<p>2 messages were moved here from <a class=\"stream-topic\" data-stream-id=\"453512\" href=\"/#narrow/stream/453512-general/topic/Mobile.20usage\">#general &gt; Mobile usage</a> by <span class=\"user-mention silent\" data-user-id=\"752868\">Philip Durbin</span>.</p>",
+        "id": 472088100,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1727042402
+    },
+    {
+        "content": "<p>The desktop app is very similar to the webapp but I prefer it. I like having fat clients for chat.</p>",
+        "id": 472088244,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1727042497
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"759257\">Amolith</span> <a href=\"#narrow/stream/453512-general/topic/desktop.20app.20.28Zulip.29/near/472081184\">said</a>:</p>\n<blockquote>\n<p>I'm fairly certain all but the mobile and TUI apps are just some kind of webview</p>\n</blockquote>\n<p>The current webapp is React Native and they're working on a Flutter rewrite. The desktop apps are Electron IIRC</p>",
+        "id": 472126137,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1727067646
+    },
+    {
+        "content": "<p>A Flutter rewrite of the mobile app, yes.</p>",
+        "id": 472212846,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1727093702
+    },
+    {
+        "content": "<p>Desktop app FTW except dang it takes a long time to boot up. I'd love to see how a Tauri version performs!</p>",
+        "id": 472239752,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1727099762
+    },
+    {
+        "content": "<p>I have’t noticed a slow boot time for desktop.</p>",
+        "id": 472244155,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1727100773
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/66849/gKwLKtEAURPeQc6XMowpuAKt/CleanShot-2024-09-23-at-09.22.20.mp4\">CleanShot-2024-09-23-at-09.22.20.mp4</a></p>\n<div class=\"message_inline_image message_inline_video\"><a href=\"/user_uploads/66849/gKwLKtEAURPeQc6XMowpuAKt/CleanShot-2024-09-23-at-09.22.20.mp4\" title=\"CleanShot-2024-09-23-at-09.22.20.mp4\"><video preload=\"metadata\" src=\"/user_uploads/66849/gKwLKtEAURPeQc6XMowpuAKt/CleanShot-2024-09-23-at-09.22.20.mp4\"></video></a></div><p>Warning: this video is painful to sit through...</p>",
+        "id": 472247281,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1727101472
+    },
+    {
+        "content": "<p>wow, mine isn't anything like that. just a couple seconds to load (M1 macbook air with the latest OS)</p>",
+        "id": 472253104,
+        "sender_full_name": "Robert Purcell",
+        "timestamp": 1727102808
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752986\">Daniel Buckmaster</span> <a href=\"#narrow/stream/453512-general/topic/desktop.20app.20.28Zulip.29/near/472126137\">said</a>:</p>\n<blockquote>\n<p>The current webapp is React Native and they're working on a Flutter rewrite. The desktop apps are Electron IIRC</p>\n</blockquote>\n<p>Dang it, I misspoke, I meant \"the current mobile app\" not \"the current webapp\" <span aria-label=\"man facepalming\" class=\"emoji emoji-1f926-200d-2642\" role=\"img\" title=\"man facepalming\">:man_facepalming:</span></p>",
+        "id": 472264257,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1727105411
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"750170\">Jerod Santo</span> <a href=\"#narrow/stream/453512-general/topic/desktop.20app.20.28Zulip.29/near/472247281\">said</a>:</p>\n<blockquote>\n<p>Warning: this video is painful to sit through...</p>\n</blockquote>\n<p>Wow! I've never had an experience like that on Windows or Linux. I wonder if it's doing tons of network requests due to all those messages in the CZO account? Does it happen if you mark all messages as read there? (If you don't intend to read all 960 of them <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span> )</p>",
+        "id": 472264687,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1727105518
+    },
+    {
+        "content": "<p>Whoa! That is crazy slow! <span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span> you might need to install or something? <span aria-label=\"thinking\" class=\"emoji emoji-1f914\" role=\"img\" title=\"thinking\">:thinking:</span></p>",
+        "id": 472351127,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1727133071
+    },
+    {
+        "content": "<p>macOS Sequoia maybe? <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span><br>\nI ecperience a highway speed on Sonoma <span aria-label=\"open mouth\" class=\"emoji emoji-1f62e\" role=\"img\" title=\"open mouth\">:open_mouth:</span></p>",
+        "id": 472572301,
+        "sender_full_name": "Maroš Kučera",
+        "timestamp": 1727211334
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"750170\">Jerod Santo</span> <a href=\"#narrow/stream/453512-general/topic/desktop.20app.20.28Zulip.29/near/472247281\">said</a>:</p>\n<blockquote>\n<p><a href=\"/user_uploads/66849/gKwLKtEAURPeQc6XMowpuAKt/CleanShot-2024-09-23-at-09.22.20.mp4\">CleanShot-2024-09-23-at-09.22.20.mp4</a></p>\n<p>Warning: this video is painful to sit through...</p>\n</blockquote>\n<p>Did you install the x64 version or the Apple Silicon version? I noticed the exact same slow boot up time. Deleted it and tried the the other option (see screenshot), which booted instantly. That large, tantalizing Download button was hard to resist. I'm actually not sure if you have an Apple Silicon Mac, I just assumed that you did.<br>\n<a href=\"/user_uploads/66849/Q5jowAJ3ZQ-2BXWFF5B2B1ic/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/Q5jowAJ3ZQ-2BXWFF5B2B1ic/image.png\" title=\"image.png\"><img data-original-dimensions=\"767x384\" src=\"/user_uploads/thumbnail/66849/Q5jowAJ3ZQ-2BXWFF5B2B1ic/image.png/840x560.webp\"></a></div>",
+        "id": 472576364,
+        "sender_full_name": "Jakub",
+        "timestamp": 1727213317
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"759873\">@Jakub</span> I think that was the problem! Downloaded the Apple Silicon build and it's much faster now <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 472696277,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1727270517
+    },
+    {
+        "content": "<p>I'm trying out as a PWA instead. Seems like it will be pretty much the same experience if the Mac app is Electron</p>",
+        "id": 472737538,
+        "sender_full_name": "Dustin",
+        "timestamp": 1727282628
+    },
+    {
+        "content": "<p>Well, I'll really recommend you give desktop app a try. It's probably one of the better performing Electron apps out there.</p>",
+        "id": 472738632,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1727283045
+    },
+    {
+        "content": "<p>The ipad app looks like a big phone app. I don't think I'm going to install that</p>",
+        "id": 472745192,
+        "sender_full_name": "Justin Garrison",
+        "timestamp": 1727285612
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"750170\">Jerod Santo</span> <a href=\"#narrow/stream/453512-general/topic/desktop.20app.20.28Zulip.29/near/472247281\">said</a>:</p>\n<blockquote>\n<p><a href=\"/user_uploads/66849/gKwLKtEAURPeQc6XMowpuAKt/CleanShot-2024-09-23-at-09.22.20.mp4\">CleanShot-2024-09-23-at-09.22.20.mp4</a></p>\n<p>Warning: this video is painful to sit through...</p>\n</blockquote>\n<p>I wonder if it's also because the secondary Zulip org takes some time to refresh?</p>",
+        "id": 472753723,
+        "sender_full_name": "Jarvis Yang",
+        "timestamp": 1727289084
+    },
+    {
+        "content": "<p>Anyone else have the issue where the desktop app wont load after your computer has been in sleep mode? When I put my MacBook Pro m1 to sleep and log in a few days afterwards, the app isn't responsive and shows no notification badges. I exit the app and then re-open it to get it working again <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span></p>",
+        "id": 496372822,
+        "sender_full_name": "Jarvis",
+        "timestamp": 1738081016
+    },
+    {
+        "content": "<p>Make sure you have the Apple Silicon version installed. I didn't at first and it had lots of problems</p>",
+        "id": 496387208,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1738085154
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"750170\">Jerod Santo</span> <a href=\"#narrow/channel/453512-general/topic/desktop.20app.20.28Zulip.29/near/496387208\">said</a>:</p>\n<blockquote>\n<p>Make sure you have the Apple Silicon version installed. I didn't at first and it had lots of problems</p>\n</blockquote>\n<p>I used homebrew to install Zulip:<br>\n<code>brew install --cask zulip</code></p>\n<p><span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span> did you download the Zulip-5.11.1-arm64.dmg from their site?</p>",
+        "id": 496388535,
+        "sender_full_name": "Jarvis",
+        "timestamp": 1738085580
+    },
+    {
+        "content": "<p>Yes I downloaded off their site</p>",
+        "id": 496388971,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1738085716
+    }
+]

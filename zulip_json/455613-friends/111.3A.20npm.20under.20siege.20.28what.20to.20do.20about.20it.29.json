@@ -1,0 +1,98 @@
+[
+    {
+        "content": "<p>Over the past two months, we’ve seen some of the most serious supply chain attacks in npm history: phishing campaigns, maintainer account takeovers, and malware published to packages with billions of weekly downloads. What is going on?! What can we do about it? Our old friend, Feross Aboukhadijeh, joins us to help make sense of it all. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.am/111\">https://changelog.am/111</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.am/111#t=0\">00:00</a></td>\n<td>Let's talk!</td>\n<td>00:38</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.am/111#t=38\">00:38</a></td>\n<td><a href=\"https://depot.dev\">Sponsor: Depot</a></td>\n<td>02:12</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.am/111#t=169\">02:49</a></td>\n<td>Feross &amp; Friends</td>\n<td>01:14</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.am/111#t=244\">04:04</a></td>\n<td>The big picture</td>\n<td>01:46</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.am/111#t=350\">05:50</a></td>\n<td>Why now? Why this?</td>\n<td>02:32</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.am/111#t=501\">08:21</a></td>\n<td>Phishing maintainers!</td>\n<td>03:30</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.am/111#t=711\">11:51</a></td>\n<td>Not for the lulz</td>\n<td>03:37</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.am/111#t=928\">15:28</a></td>\n<td>Maximal profit</td>\n<td>03:31</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.am/111#t=1139\">18:59</a></td>\n<td>The most surprising hack</td>\n<td>04:03</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.am/111#t=1383\">23:03</a></td>\n<td>exfiltrate and extrude</td>\n<td>02:42</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.am/111#t=1544\">25:44</a></td>\n<td>Exploiting GitHub Actions</td>\n<td>04:12</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.am/111#t=1796\">29:56</a></td>\n<td>It all happened so fast</td>\n<td>01:14</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.am/111#t=1870\">31:10</a></td>\n<td>How Socket discloses</td>\n<td>01:20</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.am/111#t=1950\">32:30</a></td>\n<td>Disclosing 0days vs malware</td>\n<td>02:19</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.am/111#t=2089\">34:49</a></td>\n<td>Scanning GitHub Actions</td>\n<td>01:29</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.am/111#t=2178\">36:18</a></td>\n<td>GH Actions footguns</td>\n<td>03:46</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.am/111#t=2404\">40:04</a></td>\n<td>Socket's future GH Actions feature</td>\n<td>01:45</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.am/111#t=2508\">41:48</a></td>\n<td>Evil genius move</td>\n<td>01:25</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.am/111#t=2594\">43:14</a></td>\n<td>What devs can do</td>\n<td>04:16</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.am/111#t=2850\">47:30</a></td>\n<td>Staying off the bleeding edge</td>\n<td>02:51</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.am/111#t=3021\">50:21</a></td>\n<td>How many typosquats</td>\n<td>02:37</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.am/111#t=3178\">52:58</a></td>\n<td>How we got here</td>\n<td>01:36</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.am/111#t=3273\">54:33</a></td>\n<td>Was it worth it?</td>\n<td>02:36</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.am/111#t=3429\">57:09</a></td>\n<td>GitHub's responsibility</td>\n<td>01:28</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://changelog.am/111#t=3517\">58:37</a></td>\n<td>GitHub's roadmap</td>\n<td>05:17</td>\n</tr>\n<tr>\n<td>26</td>\n<td><a href=\"https://changelog.am/111#t=3834\">1:03:54</a></td>\n<td>Why doesn't npm do this</td>\n<td>02:23</td>\n</tr>\n<tr>\n<td>27</td>\n<td><a href=\"https://changelog.am/111#t=3977\">1:06:17</a></td>\n<td>A package vetting period</td>\n<td>01:51</td>\n</tr>\n<tr>\n<td>28</td>\n<td><a href=\"https://changelog.am/111#t=4088\">1:08:08</a></td>\n<td>Publisher opt-in</td>\n<td>03:55</td>\n</tr>\n<tr>\n<td>29</td>\n<td><a href=\"https://changelog.am/111#t=4323\">1:12:03</a></td>\n<td>We figured it out!</td>\n<td>00:33</td>\n</tr>\n<tr>\n<td>30</td>\n<td><a href=\"https://changelog.am/111#t=4356\">1:12:36</a></td>\n<td>Adam goes GH Karen</td>\n<td>02:41</td>\n</tr>\n<tr>\n<td>31</td>\n<td><a href=\"https://changelog.am/111#t=4517\">1:15:17</a></td>\n<td>Codegen everything instead</td>\n<td>04:51</td>\n</tr>\n<tr>\n<td>32</td>\n<td><a href=\"https://changelog.am/111#t=4808\">1:20:08</a></td>\n<td>More companies vendoring</td>\n<td>02:08</td>\n</tr>\n<tr>\n<td>33</td>\n<td><a href=\"https://changelog.am/111#t=4936\">1:22:16</a></td>\n<td>Proxies, mirrors, options</td>\n<td>01:06</td>\n</tr>\n<tr>\n<td>34</td>\n<td><a href=\"https://changelog.am/111#t=5002\">1:23:22</a></td>\n<td>New tool! sfw</td>\n<td>04:15</td>\n</tr>\n<tr>\n<td>35</td>\n<td><a href=\"https://changelog.am/111#t=5257\">1:27:37</a></td>\n<td>The next big thing?</td>\n<td>01:13</td>\n</tr>\n<tr>\n<td>36</td>\n<td><a href=\"https://changelog.am/111#t=5330\">1:28:50</a></td>\n<td>The criteria for free</td>\n<td>02:17</td>\n</tr>\n<tr>\n<td>37</td>\n<td><a href=\"https://changelog.am/111#t=5467\">1:31:07</a></td>\n<td>sfw is a great name</td>\n<td>00:23</td>\n</tr>\n<tr>\n<td>38</td>\n<td><a href=\"https://changelog.am/111#t=5489\">1:31:29</a></td>\n<td>Bye, friends</td>\n<td>01:05</td>\n</tr>\n<tr>\n<td>39</td>\n<td><a href=\"https://changelog.am/111#t=5554\">1:32:34</a></td>\n<td><a href=\"https://forms.gle/yCJirHRCWkdbG5qK6\">Next week on the pod</a></td>\n<td>02:45</td>\n</tr>\n</tbody>\n</table>",
+        "id": 542988863,
+        "sender_full_name": "Logbot",
+        "timestamp": 1759510807
+    },
+    {
+        "content": "<p>Unless I missed it, it wasn't mentioned in the episode: <a href=\"https://docs.zizmor.sh/\">https://docs.zizmor.sh/</a> is an open source static analysis tool for GitHub Actions that will flag (and sometimes even auto-fix) common vulnerabilities like code injection via template expansion or the pull_request_target trigger discussed in the episode.</p>\n<p>It's running as a GitHub Action itself, so it's straightforward to adopt, and most issues an initial run surfaces are usually quick to fix.</p>",
+        "id": 543111446,
+        "sender_full_name": "Kilian Kluge",
+        "timestamp": 1759605907
+    },
+    {
+        "content": "<p>In the long long ago, in the before times, Docker Hub had verified builds<br>\nYou would register your source code repository with Docker Hub, and your source forge (GitHub, GitLab, etc) would notify Docker Hub via webhook whenever you made a commit<br>\nThen Docker Hub would use it's own compute resources to fetch your code, build your Dockerfile, and store the resulting image in the Hub<br>\nNo custom CI on your part, no possibility that the image contains things that were not in the source code repository <br>\nThen cryptocurrency came and ruined everything, by chasing all the free compute away: <a href=\"https://drewdevault.com/2021/04/26/Cryptocurrency-is-a-disaster.html\">https://drewdevault.com/2021/04/26/Cryptocurrency-is-a-disaster.html</a></p>",
+        "id": 543122225,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1759619192
+    },
+    {
+        "content": "<p>I really really wish there was a way to have verified packages in npm, crates, gems, etc where the package repository performed the build using its own trusted resources and directly from the source code without any tampering</p>",
+        "id": 543122270,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1759619244
+    },
+    {
+        "content": "<p>Well, I suppose if package authors paid the central repository to help finance the compute resources, then the repository would be able to build the packages directly from source code and mark them as verified<br>\nSo, we end up with \"verified\" being a paid indicator, as on social networks, but with actual functional differences instead of just being a weird flex</p>",
+        "id": 543122429,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1759619455
+    },
+    {
+        "content": "<p>I don't understand why this is such a hard problem. Here is my simple easy solution.</p>\n<ol>\n<li>use an immutable global distributed  file system (i.e IPFS, freenet, etc )</li>\n<li>For every package there are two files. One is a manifest/descriptor second is the actual zip file. </li>\n<li>The manifest is a json or yaml or whatever which contains the package, info, deps, and metadata about the package. It's designed to be plaintext and indexable. Can be served from an https url or IPFS. You host it on your own domain. </li>\n<li>The manifest contains the hash of the package (zip file) which you can use to retrieve from the distributed store.</li>\n<li>The package contains the manifest (except the hash of course) which you can verify against the index to ensure you have the right package.</li>\n<li>If the package contains source code a search is done of the source code and a prompt is created which details whether or not the code is accessing the file system, what directories it's seeking, what URL's it's reaching out to etc.  Needless to say this has to be language specific.</li>\n<li>Packages can be signed. They could even be encrypted if you want. </li>\n</ol>\n<p>This would be completely decentralized and packages would be cached by your laptop or CI server.</p>\n<p>We need to get away from having all of our packages and source code hosted by one corporation or another.</p>",
+        "id": 543125713,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1759623446
+    },
+    {
+        "content": "<p>1-5 and 7 don't offer any protection of a package is tampered with prior to publication, which we've seen with some of the npm malware</p>\n<p>I agree that they seem to be good general improvements, nevertheless </p>\n<p>Can 6 be solved without also solving the (unsolvable) Halting Problem? We might have some control regarding build-time / publish-time capabilities, but some of the malware we've seen tampered with runtime behaviour, too</p>",
+        "id": 543131254,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1759631781
+    },
+    {
+        "content": "<p>Perhaps we're back to the issue of trust, and having to develop chains of trust, something like <a href=\"https://github.com/crev-dev/cargo-crev\">https://github.com/crev-dev/cargo-crev</a> but for any programming language ecosystem?</p>",
+        "id": 543131336,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1759631894
+    },
+    {
+        "content": "<p>GPG key signing parties, anyone? :P</p>",
+        "id": 543131525,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1759632148
+    },
+    {
+        "content": "<p>I don't think anything is going to solve the problem of a malicious actor completely but steps and six and seven can effectively minimize this problem. Step 6 is basically code review. If code can be examined then we can isolate certain system calls such as file io, network access etc and present a report the user saying \"this package contacts the URL xyz\" or \"this package attempts to open a file in directory xyz\" etc.  Step seven can ensure trust by checking a signature. </p>\n<p>In my scenario packages are urls. <a href=\"http://microsoft.com/os/some_package/2.1.3\">http://microsoft.com/os/some_package/2.1.3</a> for example. Each version would be a unique URL. If the URL is an IPFS url or a namecoin URL or something like that then it's immutable which is even better.  When you pull up that URL you get a manifest you can examine which details the author, package version, dependencies, public keys etc.  In it there is an entry which is the hash of the zip file. You pull up the zip file using the hash from ipfs or freenet. You can then open the zip file and compare the manifest inside of it with the manifest you pulled to ensure you are getting the right version of the software. </p>\n<p>As you pointed out it's not perfect in that people could camp on domain misspellings, post malicious binaries, etc. I guess for that we need additional layer of protections from the OS like requiring permissions before accessing external directories, pausing apps that consume too much CPU, etc.</p>",
+        "id": 543137263,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1759640364
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"755905\">@Tim Uckun</span> can you explain what vulnerabilities in existing centralized package registries your solution solves? I’m not following</p>",
+        "id": 543151751,
+        "sender_full_name": "Dustin",
+        "timestamp": 1759658634
+    },
+    {
+        "content": "<p>If I’m understanding correctly it sounds like early steps towards (the now abandoned) Pyrsia <a href=\"https://youtu.be/ec8vvD1SG-s?si=uUqQUFWBN-SDUk69\">https://youtu.be/ec8vvD1SG-s?si=uUqQUFWBN-SDUk69</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"ec8vvD1SG-s\" href=\"https://youtu.be/ec8vvD1SG-s?si=uUqQUFWBN-SDUk69\"><img src=\"https://uploads.zulipusercontent.net/3f56a466136333bd9bddcfc36d8fdbeac2b592c1/68747470733a2f2f692e7974696d672e636f6d2f76692f6563387676443153472d732f6d7164656661756c742e6a7067\"></a></div>",
+        "id": 543153324,
+        "sender_full_name": "Dustin",
+        "timestamp": 1759660552
+    },
+    {
+        "content": "<ol>\n<li>Centralized control of repositories. </li>\n<li>Mutability of published packages.</li>\n<li>language dependence. My proposal is a system for delivering trusted binaries and being able to index metadata without having the whole package stored.</li>\n<li>as a bonus it would get people (and CI servers) to host a distributed file system which would help the whole world.</li>\n</ol>\n<p>Finally. Under ideal circumstances you should be able to put a price on your published code. Ideally there would be some crypto which is premined like XRP so transactions are cheap and fast and don't require a lot of computation.  You publish your library and if people want to use it they can pay a tiny amount for it. Of course ideally they would be being paid to run the file system node (i.e Storj or Filecoin) so it would balance out by and large.</p>",
+        "id": 543193141,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1759698585
+    },
+    {
+        "content": "<p>In the container and infrastructure ecosystem, it's increasingly popular to sign artefacts using cosign: <a href=\"https://github.com/sigstore/cosign\">https://github.com/sigstore/cosign</a><br>\nBut that's another step in the publication process<br>\nIt seems like the solutions in this space all introduce friction for good faith sharing, and additional friction for consumption</p>",
+        "id": 543194543,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1759700328
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"756656\">@Kilian Kluge</span> hadn't heard of zizmor, thanks for sharing!</p>",
+        "id": 543584421,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1759857155
+    },
+    {
+        "content": "<p>I just received this email today. ECR Login Renewal is an open source tool I wrote a long time ago. Sounds very shady.<br>\n<a href=\"/user_uploads/66849/lL8C94zoMRQ4w6hywIbcx1V3/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/lL8C94zoMRQ4w6hywIbcx1V3/image.png\" title=\"image.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"573x272\" src=\"/user_uploads/thumbnail/66849/lL8C94zoMRQ4w6hywIbcx1V3/image.png/840x560.webp\"></a></div>",
+        "id": 545165336,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1760587820
+    }
+]

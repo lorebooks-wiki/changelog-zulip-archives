@@ -1,0 +1,105 @@
+<html>
+<head><meta charset="utf-8"><title>609: The best, worst codebase · interviews · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/index.html">interviews</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/609.3A.20The.20best.2C.20worst.20codebase.html">609: The best, worst codebase</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="471504864"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/609%3A%20The%20best%2C%20worst%20codebase/near/471504864" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jerod Santo <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/609.3A.20The.20best.2C.20worst.20codebase.html#471504864">(Sep 19 2024 at 14:54)</a>:</h4>
+<p><span aria-label="link" class="emoji emoji-1f517" role="img" title="link">:link:</span> <a href="https://changelog.fm/609">https://changelog.fm/609</a></p>
+<div class="message_embed"><a class="message_embed_image" href="https://changelog.fm/609" style="background-image: url(&quot;https://uploads.zulipusercontent.net/88b98b3b0f2d4d06ebd83669f952d2ab38673691/68747470733a2f2f736e61702e666c792e6465762f706f64636173742f3630392f696d67&quot;)"></a><div class="data-container"><div class="message_embed_title"><a href="https://changelog.fm/609" title="The best, worst codebase with Jimmy Miller (Changelog Interviews #609)">The best, worst codebase with Jimmy Miller (Changelog Interviews #609)</a></div><div class="message_embed_description">Jimmy Miller talks to us about his experience with a legacy codebase at his first job as a programmer. The codebase was massive, with hundreds of thousands of lines of C# and Visual Basic, and a database with over 1,000 columns. Let's just say Jimmy got into some stuff. There's even a Gilfoyle involved. This episode is...</div></div></div>
+
+
+
+<a name="471508895"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/609%3A%20The%20best%2C%20worst%20codebase/near/471508895" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Andrew O&#x27;Brien <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/609.3A.20The.20best.2C.20worst.20codebase.html#471508895">(Sep 19 2024 at 15:13)</a>:</h4>
+<p>The thousand-column table is reminding me of the worst thing I came up with as a newbie engineer 20 years ago: The Perl script I built to make a pivot table in MySQL 3. There were about 20-30 data fields  and some forum post I read said if I didn't want to buy some MS product that did multi-dimensional expressions (we didn't), just generate a massive <code>CREATE TABLE ... SELECT </code> with columns like <code>SUM(IF(year=2004, stat, 0) AS stat_2004)</code>.</p>
+<p>I had a DB table with a bunch of fields that controlled how the stat fields were combined which you had to manage through phpmyadmin and RTFSC to understand.</p>
+<p>The webpage to actually query the thing was a PHP 4 monstrosity. I tried using OOP but it was slow and I had no idea how to profile it so I threw it out and rewrote it in a horrible imperative style. 4 years later when I left I felt guilty that it was the only thing I'd never returned to improve, but they were like "no, it works... we'll just never touch it". But they weren't counting on the fact that they had asked me to do quarterly as well as annual rollups, so they hit that limit way sooner than expected.</p>
+
+
+
+<a name="471514276"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/609%3A%20The%20best%2C%20worst%20codebase/near/471514276" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Lars Ellingsen <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/609.3A.20The.20best.2C.20worst.20codebase.html#471514276">(Sep 19 2024 at 15:41)</a>:</h4>
+<p>Awesome episode. This and the original blog post reminded me so much of my first job, which was also building internal software. Some random memories:</p>
+<ul>
+<li>Circular reference in a giant web service project that was known - "just unload a DLL, build, see it fail, switch which one is loaded, build again, fail, then load them all and you're good!"</li>
+<li>Dozens of schemas in an enormous Oracle database, where we used stored procedures to act as a service layer essentially (and a ton of business logic in PLSQL)</li>
+<li>Writing our own C# micro-ORM to make working with the stored procs easier, but still keep the DBAs happy</li>
+<li>Custom ERP system written in COBOL but where more recent logic was in PLSQL</li>
+<li>Emailing database code updates to DBAs to be run</li>
+<li>Data center in the basement of the building that we ran</li>
+<li>Deploying ASP.NET sites to a file share which would update production</li>
+<li>Refused to use the cloud even later on, when it made a lot of sense</li>
+</ul>
+<p>But some things we did well:</p>
+<ul>
+<li>Talked to users, all the time</li>
+<li>Empowered developers to make users happy</li>
+<li>The dev team got along very well and communicated a lot with each other</li>
+<li>Produced a ton of software for the size of the team</li>
+<li>Positively impacted user productivity (when possible... sometimes we had requirements that prevented this <span aria-label="joy" class="emoji emoji-1f602" role="img" title="joy">:joy:</span> )</li>
+<li>Code was actually quite reliable</li>
+<li>Over time, set up our own weird conventions, but everyone actually followed them (so it was easy to tell what was happening in new projects)</li>
+</ul>
+
+
+
+<a name="471569681"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/609%3A%20The%20best%2C%20worst%20codebase/near/471569681" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Andrew O&#x27;Brien <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/609.3A.20The.20best.2C.20worst.20codebase.html#471569681">(Sep 19 2024 at 21:59)</a>:</h4>
+<p>I think Adam said “it sounds like a game”. Can we get an open world game where the world is a medium size moderately technical business set in the ‘00s where you have a bad, but functional codebase and can improve it in ways that actually affect the company’s performance? (That last part might be the escapism that draws people in.)</p>
+<p>The hardest part would probably be writing a codebase that looked like it grew organically over time at the hands of a bunch of different people with varying tastes and expertise.</p>
+
+
+
+<a name="471577070"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/609%3A%20The%20best%2C%20worst%20codebase/near/471577070" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Daniel Buckmaster <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/609.3A.20The.20best.2C.20worst.20codebase.html#471577070">(Sep 19 2024 at 23:17)</a>:</h4>
+<p>I said this in Slack and I'll cross-post it here. Munch reminded me of Brent from The Phoenix Project, for those who have read it. The well-meaning constraint on the system through which all value flows!</p>
+
+
+
+<a name="471752679"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/609%3A%20The%20best%2C%20worst%20codebase/near/471752679" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Andrew O&#x27;Brien <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/609.3A.20The.20best.2C.20worst.20codebase.html#471752679">(Sep 20 2024 at 14:52)</a>:</h4>
+<p>I'm checking Jimmy's podcast "Future of Coding". Looks like they've talked about a lot of classic papers in software engineering. I'm in the middle of <a href="https://futureofcoding.org/episodes/061">their episode about the Programming as Theory paper by Peter Naur</a> that he mentioned in this interview and loving the discussion.</p>
+<div class="message_embed"><a class="message_embed_image" href="https://futureofcoding.org/episodes/061" style="background-image: url(&quot;https://uploads.zulipusercontent.net/560e1faf68d4f69ff56576e32f26f9296f2f48bc/68747470733a2f2f6675747572656f66636f64696e672e6f72672f6173736574732f676c697463682d6c6f676f2e706e67&quot;)"></a><div class="data-container"><div class="message_embed_title"><a href="https://futureofcoding.org/episodes/061" title="61 • Programming as Theory Building by Peter Naur">61 • Programming as Theory Building by Peter Naur</a></div><div class="message_embed_description">Are you looking for the real computer revolution? Join the club! Future of Coding is a podcast and community of toolmakers, researchers, and creators working together to reimagine computing.</div></div></div>
+
+
+
+<a name="471830203"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/609%3A%20The%20best%2C%20worst%20codebase/near/471830203" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Daniel Buckmaster <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/609.3A.20The.20best.2C.20worst.20codebase.html#471830203">(Sep 20 2024 at 20:45)</a>:</h4>
+<p>The podcast is really good and I personally think the Naur episode is the absolute best. Though that may be because I like that paper the most.</p>
+
+
+
+<a name="471942481"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/609%3A%20The%20best%2C%20worst%20codebase/near/471942481" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Andrew O&#x27;Brien <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/609.3A.20The.20best.2C.20worst.20codebase.html#471942481">(Sep 21 2024 at 13:48)</a>:</h4>
+<p>Right before I started listening to it, my boss asked me to take over a PoC from another team and turn it into something productionizable. The idea of resurrecting “dead” code has been haunting me ever since hearing them talk about it.</p>
+<p>Fortunately they all still work for the company so they’ll be available and I will get at least one of the engineers from the original team.</p>
+
+
+
+<a name="472416535"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/609%3A%20The%20best%2C%20worst%20codebase/near/472416535" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> René <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/609.3A.20The.20best.2C.20worst.20codebase.html#472416535">(Sep 24 2024 at 07:19)</a>:</h4>
+<p>This was exactly the interview I needed. I often fight with the frustration that the codebase I am maintaining is tedious, but this was a great reminder that the grass is not greener elsewhere, in some cases maybe.</p>
+
+
+
+<a name="472946698"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/609%3A%20The%20best%2C%20worst%20codebase/near/472946698" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ian Lessing <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/609.3A.20The.20best.2C.20worst.20codebase.html#472946698">(Sep 26 2024 at 17:47)</a>:</h4>
+<p>This was an awesome episode!  <span aria-label="star" class="emoji emoji-2b50" role="img" title="star">:star:</span> <span aria-label="star" class="emoji emoji-2b50" role="img" title="star">:star:</span> Jimmy is a great story teller and I was shouting with laughter when he told the story of the law enforcement over reaction to his bug bounty payment request.</p>
+
+
+
+<a name="475375240"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/609%3A%20The%20best%2C%20worst%20codebase/near/475375240" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tillman Jex <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/609.3A.20The.20best.2C.20worst.20codebase.html#475375240">(Oct 07 2024 at 19:21)</a>:</h4>
+<p>Agreed, love story tellers! The episodes with Steve Yegge are like this too.</p>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

@@ -1,0 +1,81 @@
+<html>
+<head><meta charset="utf-8"><title>126: Kubernetes is an anti-platform · shipit · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/index.html">shipit</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/126.3A.20Kubernetes.20is.20an.20anti-platform.html">126: Kubernetes is an anti-platform</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="477684276"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/126%3A%20Kubernetes%20is%20an%20anti-platform/near/477684276" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/126.3A.20Kubernetes.20is.20an.20anti-platform.html#477684276">(Oct 18 2024 at 15:47)</a>:</h4>
+<p>Adam Jacob remains optimistic about the future for infrastructure and is building new ideas to make it better.</p>
+<p><span aria-label="link" class="emoji emoji-1f517" role="img" title="link">:link:</span> <a href="https://shipit.show/126">https://shipit.show/126</a></p>
+
+
+
+<a name="477913262"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/126%3A%20Kubernetes%20is%20an%20anti-platform/near/477913262" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Andrew O&#x27;Brien <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/126.3A.20Kubernetes.20is.20an.20anti-platform.html#477913262">(Oct 20 2024 at 17:38)</a>:</h4>
+<p>So summarizing the “Kubernetes is an anti-platform” statement: it seemed to come down to the fact that K8s is very leaky as an abstraction. I think someone said you build something on it and it’s clear that it’s built on K8s.</p>
+<p>Is this a function one of the most popular uses being platform teams building stuff that’s meant host other people’s workloads? </p>
+<p>If you’re considering it more as a platform to build a sort of appliance of nodes that’s running predefined workloads and presenting an API/UI that has nothing to do with pods/services/etc does that sidestep the critique (or are there other more platform-ish things to consider)?</p>
+
+
+
+<a name="477913894"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/126%3A%20Kubernetes%20is%20an%20anti-platform/near/477913894" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Andrew O&#x27;Brien <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/126.3A.20Kubernetes.20is.20an.20anti-platform.html#477913894">(Oct 20 2024 at 17:49)</a>:</h4>
+<p>Also, I’m asking this having listened to the ep wearing my hoodie that SI sent to their first N beta users because I tried to get it running over a vacation, so I am extremely SI-pilled and ready to believe whatever Adam Jacob tells me. But I am struggling to apply it to the particular use case I’m on right now (and maybe it’s just not a fit and that’s fine).</p>
+
+
+
+<a name="477950891"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/126%3A%20Kubernetes%20is%20an%20anti-platform/near/477950891" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Justin Garrison <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/126.3A.20Kubernetes.20is.20an.20anti-platform.html#477950891">(Oct 21 2024 at 03:00)</a>:</h4>
+<p>FWIW I don’t think SI will be a platform to build other platforms. It’s more of the end platform Adam thinks teams should use directly. I think it gets very fuzzy how that works because lots of applications don’t have clear boundaries between app and infrastructure</p>
+
+
+
+<a name="477956934"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/126%3A%20Kubernetes%20is%20an%20anti-platform/near/477956934" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Brown <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/126.3A.20Kubernetes.20is.20an.20anti-platform.html#477956934">(Oct 21 2024 at 04:28)</a>:</h4>
+<p>What I worry about is, how is System Initiative going to avoid the pitfalls of the past graphical programming tools?</p>
+<p>These tools that drag and drop boxes on to a canvas and connect them together in a DAG that gets executed by an engine have been around for a while for different customers. Appologies if I'm over simplifying what System Initiative is, but it seems pretty similar to KNIME, Airflow, Kepler, Taverna, Pegasus, VisTrails, just for the DevOps problem instead of what the others target.</p>
+<p>Don't get me wrong, I think System Initiative is a really interesting step forward in the DevOps space. What I'm worried about is that (like the other tools) it won't get market penitration to really change things.</p>
+
+
+
+<a name="477968904"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/126%3A%20Kubernetes%20is%20an%20anti-platform/near/477968904" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Owen Valentine <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/126.3A.20Kubernetes.20is.20an.20anti-platform.html#477968904">(Oct 21 2024 at 06:19)</a>:</h4>
+<p>Not as on-topic, but I looooved this episode. Felt very "and Friends"</p>
+
+
+
+<a name="478089060"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/126%3A%20Kubernetes%20is%20an%20anti-platform/near/478089060" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/126.3A.20Kubernetes.20is.20an.20anti-platform.html#478089060">(Oct 21 2024 at 15:24)</a>:</h4>
+<p>I see System Initiative as a platform to build the platform. Today a lot of teams use Terraform to build their Kubernetes clusters to build their platforms. That's fine but it's just one part of the equation. There are other systems that need to be integrated with where Terraform's design falls short. Think one off APIs that you often shell out to work with in a CI/CD pipeline. In System Initiative you can just write an asset for that and keep it managed along with other assets.</p>
+<p>I find the way System Initiative thinks about inputs and outputs to be refreshing. It's easy to see which assets link together and also easy to write "transformation" assets that take outputs from one asset and transform them into inputs for other assets. In a Terraform world that's usually a <code>null_resource</code>, some complex <code>for</code> expression, or some shell script to modify variables. I'm sure to some extent System Initiative will be a leaky abstraction but I don't think it will be anywhere near as leaky as Kubernetes.</p>
+
+
+
+<a name="478114312"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/126%3A%20Kubernetes%20is%20an%20anti-platform/near/478114312" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Adam Jacob <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/126.3A.20Kubernetes.20is.20an.20anti-platform.html#478114312">(Oct 21 2024 at 17:30)</a>:</h4>
+<p>Hey David - the big difference is that System Initiative isn't built to simplify with a visual workflow. It's built to enable you to build and model whatever you need, and then to build visualizations that make sense. So it's more like the kinds of built in views you would see in something like Unity, and less like KINME (which is cool! but starts from the position that a visual programming environment is the right answer.) We think that'll be the difference maker - it's built for power.</p>
+
+
+
+<a name="478317774"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/126%3A%20Kubernetes%20is%20an%20anti-platform/near/478317774" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nils <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/126.3A.20Kubernetes.20is.20an.20anti-platform.html#478317774">(Oct 22 2024 at 15:51)</a>:</h4>
+<p>I haven't used K8S myself, but I really enjoyed the episode. I've used Pulumi + AWS for a while. But now I'm trying to move away from cloud solutions, as a personal "back to basics" quest. I'm currently spending time learning basic linux sysadmin and flinging Ansible around with physical hardware.</p>
+<p>It's refreshing to hear someone describe K8S as a leaky abstraction. I suppose that since we're knowledge workers, no one wants to be first to say "hey isn't this kinda hard? Should it be <em>this</em> hard?". K8S can do great feats of self-healing and scaling, but it's not trivial (though many proponents say that you <strong>just</strong> need to do this and so and so. "<strong>Basically</strong>). <span aria-label="sweat smile" class="emoji emoji-1f605" role="img" title="sweat smile">:sweat_smile:</span> </p>
+<p>Some (all) of the large cloud provider dashboards are ripe for improvement.  No wonder, we have businesses like Netlify and Vercel that abstract over the larger vendors. For me, I'm curious about instead of abstracting "upwards", we remove abstractions such as a cloud vendors and find another way to interact with bare metal hardware. Nevertheless, I find that the System Initiative project looks interesting and can provide some real benefits to small and large orgs where diagrams go out of date super quickly. <span aria-label="sparkles" class="emoji emoji-2728" role="img" title="sparkles">:sparkles:</span></p>
+
+
+
+<a name="480050222"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456580-shipit/topic/126%3A%20Kubernetes%20is%20an%20anti-platform/near/480050222" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Al Gonzalez <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456580-shipit/topic/126.3A.20Kubernetes.20is.20an.20anti-platform.html#480050222">(Nov 01 2024 at 13:17)</a>:</h4>
+<p>I listen in my car via .mp3 download and the sound fron Justin and Autumn was very low, while I could hear Adam just fine. I had to almost max the volume on the player and the car. that normally isn't the case, especially when Autumn gets excited about something <span aria-label="lol" class="emoji emoji-1f606" role="img" title="lol">:lol:</span></p>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

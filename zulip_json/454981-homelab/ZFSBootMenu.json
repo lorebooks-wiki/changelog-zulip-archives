@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>I know we have some ZFS fans here. Anyone using <a href=\"https://docs.zfsbootmenu.org/en/latest/index.html\">ZFSBootMenu</a>? I've been trying to come up with a multiboot setup that would also allow me to do snapshots/clones and restore.  I got it working with Debian 12 and almost working with Debian 10 (Debian 12 set up my zpool with some features that 10 doesn't support... but it does <em>try</em> to boot <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span>) </p>\n<p>Seems like a pretty slick solution. I'm starting to understand the power of the filesystem when you use it for the entire disk rather than as a bolt-on you setup after install.</p>",
+        "id": 471265295,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1726667618
+    },
+    {
+        "content": "<p>I had to nuke my whole zpool and start over with <code>--compatibility</code> set to <code>zol-0.7</code>, but now it's all good! I have full system snapshots and can muck about with the OS as I please. If I mess anything up I can restore from the boot menu. Or I can clone a new OS as a workspace.</p>\n<p>Next up... get <a href=\"https://docs.zfsbootmenu.org/en/latest/general/remote-access.html\">SSH to the boot menu</a> working so I can reboot an pick the OS from a different room.</p>",
+        "id": 471330955,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1726687065
+    }
+]

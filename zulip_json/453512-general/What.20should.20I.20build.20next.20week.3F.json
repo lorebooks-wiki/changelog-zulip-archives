@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>I am trying to learn SvelteKit &amp; Go for my internship. However, I'm unsure what to build.</p>\n<p>Any ideas? <span aria-label=\"light bulb\" class=\"emoji emoji-1f4a1\" role=\"img\" title=\"light bulb\">:light_bulb:</span></p>",
+        "id": 572592041,
+        "sender_full_name": "Dixit Ram",
+        "timestamp": 1770528066
+    },
+    {
+        "content": "<p>is there a workflow at work using a CLI or API that could be improved or easier to understand if it were presented/controlled in the web browser?</p>",
+        "id": 572599148,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1770535997
+    },
+    {
+        "content": "<p>What about an n8n project?</p>\n<p>Idea: Wake Me Up <span aria-label=\"alarm clock\" class=\"emoji emoji-23f0\" role=\"img\" title=\"alarm clock\">:alarm_clock:</span> </p>\n<p>Wakes you up when you reach your destination. : Useful When Your traveling through Public Transport at night and Not Tracking Or Alarm system is available.</p>\n<p>Uses the live location sharing feature of WhatsApp/Telegram.<br>\nYou share your live location, and we keep track of it and call or alert you when you’re about to reach your destination.</p>\n<p>I have tried some similar bots, but they drain too much battery because they check every 3-5 minutes constantly.</p>\n<p>So I thought of making it better:<br>\nIf the destination is far, longer checking intervals.</p>\n<p>As you get closer, shorter intervals.<br>\nAnd More...</p>",
+        "id": 574042213,
+        "sender_full_name": "Dixit Ram",
+        "timestamp": 1771222426
+    },
+    {
+        "content": "<p>Here is an idea for you. Build a note taking app which would apply natural language processing to your note and extract any dates, people, and addresses and put them in a database. it would also highlight them (perhaps with different colors) so that you could adjust or correct the app. It would then associate the note with the date, place or person it detected.  For example if the note said \"meet tom and the crew next friday at harry's coffee shop\" it would detect a person called tom, next friday as the date, and harry's coffee shop as the place. Now on next friday it could percolate this note to your view of the day.  You could search for tom and find all associated notes with tom.</p>\n<p>You could go back to your note correct \"tom\" to be \"tom smith\" and it would update the database.</p>\n<p>You could also come up with novel markup so that you could manually indicate these items. For example %d[next tuesday] or %n[tom smith] or @[tom smith] etc. </p>\n<p>Each note could be tagged at the top so you could quickly see how it's all connected.</p>\n<p>You could also add other tags such as #[project/todos/important] so that the app can present the notes as a hierarchy.</p>\n<p>Lots of options here on what can be detected.</p>",
+        "id": 574186789,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1771277998
+    }
+]

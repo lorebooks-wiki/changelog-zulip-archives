@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Kinda of exited to explore the world that Windows offers. This is my first time ssh'ing into a Windows machine.</p>\n<p><a href=\"/user_uploads/66849/AABvuqCAp8zrs-svsmXn8oit/ssh-into-windows.mp4\">ssh-into-windows.mp4</a></p>\n<div class=\"message_inline_image message_inline_video\"><a href=\"/user_uploads/66849/AABvuqCAp8zrs-svsmXn8oit/ssh-into-windows.mp4\" title=\"ssh-into-windows.mp4\"><video preload=\"metadata\" src=\"/user_uploads/66849/AABvuqCAp8zrs-svsmXn8oit/ssh-into-windows.mp4\"></video></a></div>",
+        "id": 501700093,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1740451817
+    },
+    {
+        "content": "<p>Obligatory <a href=\"https://youtu.be/pc-KKJUf3q4\">https://youtu.be/pc-KKJUf3q4</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"pc-KKJUf3q4\" href=\"https://youtu.be/pc-KKJUf3q4\"><img src=\"https://uploads.zulipusercontent.net/58cb6c0ce87336834d44beb4c139d7d0c1b4662b/68747470733a2f2f692e7974696d672e636f6d2f76692f70632d4b4b4a55663371342f64656661756c742e6a7067\"></a></div>",
+        "id": 501704440,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1740454032
+    },
+    {
+        "content": "<p>Agree about the slashes. Backslashes are so inconvenient.</p>",
+        "id": 501704756,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1740454211
+    },
+    {
+        "content": "<p>afaik Windows APIs all understand forward slash in paths by now</p>",
+        "id": 506016144,
+        "sender_full_name": "Yawar Amin",
+        "timestamp": 1742171658
+    }
+]

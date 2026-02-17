@@ -1,0 +1,146 @@
+[
+    {
+        "content": "<p>I wasn't sure where to best start this conversation. I picked ShipIt since it's devops focused. I was wondering if anyone here has thoughts on how to measure and manage log volumes for services? Logs are very important for observability of course, but especially when logging is a shared resource among many teams, I've seen the platform abused with volumes of logs that aren't useful.</p>\n<p>Any thoughts on how to manage situations like this? How to measure consumption, and what rules of thumb can be used to decide on what's reasonable?</p>",
+        "id": 529530692,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1752875875
+    },
+    {
+        "content": "<p>I'm not on the Observability team at work, but they do manage a Splunk service for everyone else to use, and just recently did introduce log quotas<br>\nSo, if we log too much, they drop log entries</p>",
+        "id": 529531421,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1752876494
+    },
+    {
+        "content": "<p>I don't have time to write a novel here but I'll quickly note the points that helped me when I migrated from Splunk/Grafana to Datadog.</p>\n<ul>\n<li>Measure telemetry data across facets. Measure data stored/transferred over time for all telemetry. Measure dimensionality for metrics. Measure fields for logs as it relates to storage (e.g., INFO logs are the majority of storage).</li>\n<li>Filter logs as early in the process as possible to save on networking costs. I used Fluent Bit and the OpenTelemetry Collector to filter logs at the source. Saved a ton of money.</li>\n<li>If filtering isn't possible you can sample (e.g., give me 10% of all INFO logs). I chose that method for a set of logs that had some <code>foo.bar</code> field which were taking up a ton of storage. Saved a bunch of money.</li>\n<li>Consolidate telemetry signals where possible. Does it need to be a time-series metric or can it be a field on the relevant log/trace?</li>\n<li>Eliminate telemetry data where possible. If you don't use the signal for dashboards or alerting then remove it. It can be added later. A good way to remove something is to filter it first so turning it on can be done almost instantaneously during critical situations.</li>\n</ul>",
+        "id": 529696985,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1753027017
+    },
+    {
+        "content": "<p>Thanks for your thoughts! To clarify:</p>\n<ul>\n<li>I'm focused on logs with my question/discussion here, not metrics or traces.</li>\n<li>Sampling isn't an option, as we use logs to debug specific one-off errors.</li>\n</ul>\n<p><span class=\"user-mention\" data-user-id=\"752976\">@Matthew Sanabria</span> I'm interested in what you said about filtering. What are you filtering for exactly? It seems to me that if a service owner puts something in the log, they wouldn't want it filtered out...</p>\n<p>The thought I've been having in my head is this: Every piece of code that's worth executing should have a log trail, but clearly you don't want to be logging a GB of data per event for example. I was wondering if anyone has come up with a rule of thumb like: For a service that processes X requests, Y bytes logs is reasonable.</p>",
+        "id": 529901662,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1753107549
+    },
+    {
+        "content": "<p>Hey! Yep, I know you're asking specifically about logs but lurkers might want to see how this advice applies to logs, metrics, and traces. Sampling is the perfect way to debug specific one-off errors without exploding your usage. You can sample 100% of all ERROR log levels and sample 15% of all INFO log levels for example. That's something I introduced at my last place and it helped immensely because, let's be real, most service owners just log everything without knowing whether or not it's needed or useful.</p>\n<p>That brings me to my next point. If you're treating logs as some static thing that never changes then you've already lost this battle. Much like your code, your logs should be living, mutable things that change over time as new data is gathered to make logs more useful to those using them for debugging. If it were always up to the service owners they would log every single attribute on every single event always but that's not scalable. That's why you've seen a push in the industry towards tracing which are essentially structured logs that relate to one another. If you can't do tracing though you can help yourself by putting some attribute on the logs to tie them together. Something like a request ID or similar.</p>\n<blockquote>\n<p>Every piece of code that's worth executing should have a log trail</p>\n</blockquote>\n<p>I don't agree with this as written. I'd modify it to every piece of code that's worth observing or debugging should have telemetry data. I don't need logs flooded with happy path executions telling me that the system is operating normally. I need logs when things go wrong and the system is in an exception path. That's why I tend to favor sampling INFO level lower than ERROR level.</p>\n<p>For filtering, it depends on the use case. I've filtered out an entire class of logs based on its \"component\" field because they were taking up a ton of storage and useless to us as operators but we didn't have control over turning those logs off in the code. I've also filtered out noisy logs based on fields that are known to be present. It's not a one size fits all here, you have to understand the telemetry data before you apply any filtering. Much to my point above, telemetry data should be living and mutable. I'll always opt to eliminate useless telemetry data and leave filtering as a last resort if I cannot do that.</p>\n<p>We were doing 3 TiB/day in logs and 27 TiB/day in metrics. I was able to lower those by around half just with some elimination, filtering, and sampling.</p>",
+        "id": 529904252,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1753108345
+    },
+    {
+        "content": "<blockquote>\n<p>I don't need logs flooded with happy path executions telling me that the system is operating normally.</p>\n</blockquote>\n<p>On the contrary! Error logs tend to detect errors that are already anticipated. The \"happy path\" logs are where the tricky bugs happen; your system thinks the operation completed successfully, but the customer is seeing an undesired behavior.</p>",
+        "id": 529908550,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1753109707
+    },
+    {
+        "content": "<p>Disagree.</p>",
+        "id": 529910792,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1753110365
+    },
+    {
+        "content": "<p>I'm not saying eliminate happy path logging.</p>",
+        "id": 529910828,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1753110378
+    },
+    {
+        "content": "<p>I'm saying make them useful to your use case.</p>",
+        "id": 529910852,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1753110385
+    },
+    {
+        "content": "<p>But also this is where I step away from logs and use traces. That way if any span within a trace encountered some error path the entire trace will be sent to some remote system.</p>",
+        "id": 529911048,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1753110445
+    },
+    {
+        "content": "<p>In the example you gave the unintended behavior from the client would be considered an error and traced accordingly.</p>",
+        "id": 529911130,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1753110472
+    },
+    {
+        "content": "<p>I don't need to rely on the fact that I just happened to store a bunch of INFO logs that are useless 99% of the time to debug an issue that rarely occurs.</p>",
+        "id": 529911260,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1753110511
+    },
+    {
+        "content": "<p>I instead rely on the fact that I've instrumented around this rarely occurring issue to capture the relevant information when it occurs.</p>",
+        "id": 529911359,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1753110540
+    },
+    {
+        "content": "<p>This can be something as simple as collecting all error messages or collecting all information for a specific route, customer, etc.</p>\n<p>It can also be just logging everything all the time which is the worst use case but it works if you're okay with storage.</p>",
+        "id": 529911646,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1753110615
+    },
+    {
+        "content": "<p>Again, mutable matters.</p>",
+        "id": 529911669,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1753110621
+    },
+    {
+        "content": "<p>If your customer reports an issue that you're currently not covering with telemetry the solution isn't just turn on all telemetry and pray. The solution is to instrument those paths correctly to catch this behavior. Ask yourself the question why did I miss this? What about the system isn't observable that caused the customer to see an issue but my telemetry not to.</p>",
+        "id": 529911891,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1753110691
+    },
+    {
+        "content": "<p>When you do that again and again you'll naturally whittle down your telemetry into useful signals that accurate represent the customer experience.</p>",
+        "id": 529911992,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1753110721
+    },
+    {
+        "content": "<p>You also get control over this with sampling and filtering. You can take a stance that says hey don't log logs that have a response time within our SLA. Just count them and send that. If you find a log that's outside the response time SLA then log it because I might want to dig into why.</p>",
+        "id": 529912283,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1753110811
+    },
+    {
+        "content": "<p>There's no true right answer since it depends on your situation but I personally don't ship logs just for the sake of shipping logs. They have to be meaningful to the operator. If they aren't then they will be changed until they are meaningful.</p>",
+        "id": 529912529,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1753110890
+    },
+    {
+        "content": "<p>I am a big fan of structured logs and I'm definitely in agreement that logs should be flexible and evolve with code.</p>\n<p>For the rest of what you've written here, I might not be understanding you properly. In some places it sounds like you're saying we should be logging useful information from the happy path, and in other places it sounds like you're saying that is not a good idea <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span> </p>\n<p>Personally I'm for logging any piece of information that might be useful in a debugging session. Many times I need to investigate issues that don't generate actual errors in code, so only collecting 100% of errors and sampling the rest doesn't make sense to me.</p>\n<p>That said, I think you can log the same information in vastly different levels of efficiency. For example:</p>\n<div class=\"codehilite\"><pre><span></span><code>// inefficient logging\nfor _, i := input {\n   // do something\n  logger.log(&quot;I did something once&quot;)\n}\n\n// efficient logging\nfor _, i .... {\n   // do something\n  logger.log(&quot;I did something once&quot;)\n}\nlogger.log(&quot;I did something&quot;, &quot;count&quot;, len(input))\n</code></pre></div>",
+        "id": 529964295,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1753131444
+    },
+    {
+        "content": "<p>I'm in favor of logging a base level of information in places that make sense. Like logging that a request was received and logging when it was completed, be it error or otherwise. That's telling the reader that something is happening with the service. I'm not in favor of logging anything that _might_ be useful in debugging without further discussion of what that actually means. That's how you quickly get useless logs that cost you more than they are worth.</p>\n<p>I don't like when a service is running and it's just radio silence, which is why I'm in favor of happy path logging (or general telemetry, really) to let users see the service at a glance. The real gnarly things happen when you call other parts of your code that can error. Not necessarily always in the happy path or error path, but just in general. If I make a request to a dependent API and it errors, that's an easy thing to log. If I make that same request and it should have errored but didn't, that's a more difficult thing to log but worth logging. The question in that case becomes how do I differentiate that from normal happy path logging. That's where I lean on sampling and filtering because you can quickly tune that versus just logging everything and having a bunch of noise to sift through.</p>",
+        "id": 529968756,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1753133516
+    },
+    {
+        "content": "<p>But honestly, that's why I also shifted to traces for things I build. It's exhausting to manage logging well, structured or not. In the example you've given if you do something that fails your logs never print. You'll likely want to create an anonymous function and defer the logging call to guarantee it executes (outside of a panic). In the tracing scenario you'd be adding spans or decorating existing spans so you'd immediately know that oh this was meant to do the thing and the \"do thing\" span is missing. That's telling. But you'd have the rest of the trace to lean on so you're not stuck.</p>",
+        "id": 529969023,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1753133669
+    },
+    {
+        "content": "<p>Like I said earlier. I manage the log volumes via omission, sampling, and filtering. I discuss with the application owners what's actually needed to be logged and I iterate from there to make sure the information being logged is useful. Keeping it fluid like that allows logs to be actually used by people in production rather than just talking about being used.</p>",
+        "id": 529969207,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1753133764
+    },
+    {
+        "content": "<p>I'm pretty sure our company logging standard is influenced by compliance requirements, e.g. needing access logs and mutation logs, but in a way that is as compatible with right-to-be-forgotten as possible</p>",
+        "id": 529973662,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1753136463
+    }
+]

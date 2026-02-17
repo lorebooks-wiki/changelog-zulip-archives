@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>If your app is running near your customers why do you need a CDN? </p>\n<p>If Tigris is storing your assets near your customers why do you need a CDN?</p>\n<p>Just curious.</p>",
+        "id": 490737084,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1735097081
+    },
+    {
+        "content": "<p>You don't.</p>",
+        "id": 490739879,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1735099793
+    },
+    {
+        "content": "<p>Unless that CDN is then just there to serve _optimized_ content for the user or to offload resources from your main application- specifically in the case of many clients to one server.</p>",
+        "id": 490739948,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1735099848
+    },
+    {
+        "content": "<p>I think Tim is asking this question about the Pipedream project for Changelog.</p>",
+        "id": 490743926,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1735103796
+    },
+    {
+        "content": "<p>Ah gotcha. I wasn't sure.</p>",
+        "id": 490799362,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1735151768
+    },
+    {
+        "content": "<p>I assume it's similar to having microservices. Instead of having to access the entire changelog app, callers can access the cache (cdn).<br>\nCDN might have more edge locations than something like an app host (like Fly) would have, since their resource needs are smaller (different).</p>\n<p>Note: this is an educated guess. I've spent, almost, no time developing for the web.</p>",
+        "id": 490800897,
+        "sender_full_name": "Sukhdeep Brar",
+        "timestamp": 1735152882
+    },
+    {
+        "content": "<p>I was just reading the tigris web site and they say</p>\n<blockquote>\n<p>Objects in Tigris are stored close to the region where they’re written. Then, when requested, objects are cached close to the requesting user. This cache is intelligently managed by Tigris based on global traffic patterns. This behavior offers CDN-like behavior with zero configuration required.</p>\n</blockquote>\n<p>If I needed a CDN like functionality this  seems like a no brainer. Just put your stuff there and let tigris do the rest.</p>",
+        "id": 490807935,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1735160064
+    },
+    {
+        "content": "<p>Top of my mind reasons mentioned in order of importance &amp; complexity:</p>\n<ol>\n<li>The <a href=\"http://changelog.com\">changelog.com</a> app is running close to the primary Postgres instance, not close to our users. Dealing with db latency + writers &amp; readers is significantly more complex than putting a CDN in front of it.</li>\n<li>The app is just one origin &amp; we have multiple. The CDN acts as a proxy and makes it easy to migrate origins without any impact on users. For example, a few years back we switched from S3 to R2 for static assets. We could do it in a calm &amp; predictable manner using a long blue-green strategy without our users changing anything.</li>\n<li>Some app requests are expensive to serve. For example, the feeds are super heavy on the database since we generate all episodes that were ever recorded. The feeds grew so much, that they now get generated as background jobs that get pushed as static files to our object store. The CDN was updated to fetch them from there, rather than the app. From a practical perspective, if we only had the app to serve requests, or just the object store (regardless which one) this would involve user facing changing. A CDN abstracts away what happens \"in the kitchen\".</li>\n<li>Some requests are 10x more efficient at the edge. Think all the redirects, throttling, etc. An object store like Tigris / R2 / S3 does not have that functionality, and running these in the app is inefficient.</li>\n<li>A CDN should be able to serve 99% of the requests, and the app only 1%. This translates into a smaller resource footprint. It also simplifies the architecture.</li>\n<li>When there are issues on <a href=\"http://Fly.io\">Fly.io</a>, or the db goes offline, we would prefer to continue serving stale requests rather than go offline. This doesn't always work as expected, since it's in the CDN provider's best interest to cache requests for as little as possible. It means less RAM usage on their part. This is why we need to build our own CDN, so that we cache as much as possible, for as long as possible.</li>\n</ol>",
+        "id": 497185562,
+        "sender_full_name": "Gerhard",
+        "timestamp": 1738433473
+    }
+]

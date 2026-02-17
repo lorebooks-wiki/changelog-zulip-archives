@@ -1,0 +1,48 @@
+<html>
+<head><meta charset="utf-8"><title>Documenting nixos on Raspberry Pi · homelab · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/index.html">homelab</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Documenting.20nixos.20on.20Raspberry.20Pi.html">Documenting nixos on Raspberry Pi</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="491433542"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/Documenting%20nixos%20on%20Raspberry%20Pi/near/491433542" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Arminio <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Documenting.20nixos.20on.20Raspberry.20Pi.html#491433542">(Dec 31 2024 at 19:10)</a>:</h4>
+<p><span aria-label="wave" class="emoji emoji-1f44b" role="img" title="wave">:wave:</span> I finally had time to experiment with nixos on a raspberry pi, though not exactly for a server, but for a digital signage application for my mom's store <span aria-label="blush" class="emoji emoji-1f60a" role="img" title="blush">:blush:</span></p>
+<p>I wanted to make the setup reproducible, since we'll put the Pis in 3 or 4 shops, so with help from a friend I tried nixos. I didn't know it was possible to create an image from a nixos definition (that's super cool!) </p>
+<p>It's also cool that you can update the Pi remotely via nixos-rebuild!</p>
+<p>But unfortunately for my project there's one big issue, which is the missing hw acceleration for video playback, so all the videos are basically stuttering, I've done some research, but haven't found an approach that works :(</p>
+<p>Here's my code for people that are curious <a href="https://github.com/patrick91/nix-pi-example/">https://github.com/patrick91/nix-pi-example/</a> :D</p>
+
+
+
+<a name="491458183"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/Documenting%20nixos%20on%20Raspberry%20Pi/near/491458183" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Documenting.20nixos.20on.20Raspberry.20Pi.html#491458183">(Jan 01 2025 at 01:21)</a>:</h4>
+<p>Yeah, the Raspberry Pi company basically gave up on hardware decoding and assumes that the CPUs are fast enough</p>
+
+
+
+<a name="491458660"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/Documenting%20nixos%20on%20Raspberry%20Pi/near/491458660" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Arminio <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Documenting.20nixos.20on.20Raspberry.20Pi.html#491458660">(Jan 01 2025 at 01:29)</a>:</h4>
+<p>that's a shame, I wish I knew enough to help! For now I think I might just create an image based on raspbian and a script to download my app <span aria-label="blush" class="emoji emoji-1f60a" role="img" title="blush">:blush:</span></p>
+
+
+
+<a name="491459592"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/Documenting%20nixos%20on%20Raspberry%20Pi/near/491459592" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Documenting.20nixos.20on.20Raspberry.20Pi.html#491459592">(Jan 01 2025 at 01:45)</a>:</h4>
+<p>It's probably worth experimenting with codecs and frame rates and resolutions for your videos<br>
+You _should_ be able to find a combination that works well enough on a RPi 3 or 4</p>
+
+
+
+<a name="491459836"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/Documenting%20nixos%20on%20Raspberry%20Pi/near/491459836" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Arminio <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Documenting.20nixos.20on.20Raspberry.20Pi.html#491459836">(Jan 01 2025 at 01:49)</a>:</h4>
+<p><span class="user-mention" data-user-id="771585">@Ron Waldon-Howe</span> ah, good to know, I'll explore that in future! for now I want to get this project done :D</p>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

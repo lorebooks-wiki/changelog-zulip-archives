@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Andrew Nesbitt builds tools and open datasets to support, sustain, and secure critical digital infrastructure. He's been exploring the world of open source metadata for over a decade. First with <a href=\"http://libraries.io\">libraries.io</a> and now with <a href=\"https://ecosyste.ms/\">ecosyste.ms</a>, which tracks over 12 million packages, 287 million repos, 24.5 billion dependencies, and 1.9 million maintainers.</p>\n<p>What has Andrew learned from all this, who is using this open dataset, and how does he hope others can build on top of it all? Tune in to find out. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/665\">https://changelog.fm/665</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.fm/665#t=0\">00:00</a></td>\n<td>This week on The Changelog</td>\n<td>01:17</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.fm/665#t=77\">01:17</a></td>\n<td><a href=\"https://www.tigerdata.com\">Sponsor: Tiger Data</a></td>\n<td>01:38</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.fm/665#t=174\">02:54</a></td>\n<td>Start the show!</td>\n<td>01:10</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.fm/665#t=244\">04:04</a></td>\n<td>Some history</td>\n<td>13:17</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.fm/665#t=1041\">17:21</a></td>\n<td>Research use</td>\n<td>01:39</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.fm/665#t=1140\">19:00</a></td>\n<td><a href=\"https://www.augmentcode.com\">Sponsor: Augment Code</a></td>\n<td>01:33</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.fm/665#t=1233\">20:33</a></td>\n<td>CLI install patterns</td>\n<td>04:40</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.fm/665#t=1513\">25:13</a></td>\n<td>15k people run the world</td>\n<td>01:53</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.fm/665#t=1626\">27:06</a></td>\n<td>Tracking the funding</td>\n<td>03:58</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.fm/665#t=1864\">31:04</a></td>\n<td>Friends tipping circle</td>\n<td>01:55</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.fm/665#t=1979\">32:59</a></td>\n<td>How he stores everything</td>\n<td>03:31</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.fm/665#t=2190\">36:30</a></td>\n<td>Who's involved</td>\n<td>04:18</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.fm/665#t=2448\">40:48</a></td>\n<td>Footing the bill</td>\n<td>09:11</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.fm/665#t=2999\">49:59</a></td>\n<td>The black sheep</td>\n<td>09:34</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.fm/665#t=3573\">59:33</a></td>\n<td><a href=\"https://agntcy.org\">Sponsor: Outshift by Cisco</a></td>\n<td>01:13</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.fm/665#t=3646\">1:00:46</a></td>\n<td><a href=\"https://miro.com\">Sponsor: Miro</a></td>\n<td>01:27</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.fm/665#t=3733\">1:02:13</a></td>\n<td>The schema is not simple</td>\n<td>04:51</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.fm/665#t=4024\">1:07:04</a></td>\n<td>Curbing the enthusiasm</td>\n<td>03:21</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.fm/665#t=4224\">1:10:24</a></td>\n<td>Deciding what to work on</td>\n<td>05:39</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.fm/665#t=4563\">1:16:03</a></td>\n<td>Metadata substrate</td>\n<td>05:13</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.fm/665#t=4876\">1:21:16</a></td>\n<td>Designing useful tools</td>\n<td>03:38</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.fm/665#t=5094\">1:24:54</a></td>\n<td>Telemetry via exhaust</td>\n<td>02:05</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.fm/665#t=5219\">1:26:59</a></td>\n<td>Information black holes</td>\n<td>02:55</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.fm/665#t=5394\">1:29:54</a></td>\n<td>Octobox update</td>\n<td>01:05</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://changelog.fm/665#t=5459\">1:30:59</a></td>\n<td>Exciting new uses</td>\n<td>01:01</td>\n</tr>\n<tr>\n<td>26</td>\n<td><a href=\"https://changelog.fm/665#t=5520\">1:32:00</a></td>\n<td>OSS Taxonomy</td>\n<td>07:15</td>\n</tr>\n<tr>\n<td>27</td>\n<td><a href=\"https://changelog.fm/665#t=5954\">1:39:14</a></td>\n<td>What Andrew wants</td>\n<td>02:45</td>\n</tr>\n<tr>\n<td>28</td>\n<td><a href=\"https://changelog.fm/665#t=6120\">1:42:00</a></td>\n<td>Wrapping up</td>\n<td>00:22</td>\n</tr>\n<tr>\n<td>29</td>\n<td><a href=\"https://changelog.fm/665#t=6142\">1:42:22</a></td>\n<td>Closing thoughts</td>\n<td>01:35</td>\n</tr>\n</tbody>\n</table>",
+        "id": 553956640,
+        "sender_full_name": "Logbot",
+        "timestamp": 1762374607
+    },
+    {
+        "content": "<p>I just finished up this episode today and enjoyed the update. I didn't realize that ecosystems has gotten so far developed and I'm going to have to check it out this week.</p>",
+        "id": 556728818,
+        "sender_full_name": "Colin Dean",
+        "timestamp": 1763341896
+    },
+    {
+        "content": "<p>Absolutely love the work Andrew and team are doing - I've used <a href=\"http://Ecosyste.ms\">Ecosyste.ms</a> for a number of things and it's great (and got my company to sponsor the ongoing work Andrew is doing)</p>",
+        "id": 556808224,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1763379950
+    },
+    {
+        "content": "<p>i started a discussion about using oss-taxonomy within the Rust ecosystem as the official list of crate categories/keywords, etc: <a href=\"https://rust-lang.zulipchat.com/#narrow/channel/318791-t-crates-io/topic/oss-taxonomy.20for.20standardised.20crate.20keywords.3F/with/563289407\">https://rust-lang.zulipchat.com/#narrow/channel/318791-t-crates-io/topic/oss-taxonomy.20for.20standardised.20crate.20keywords.3F/with/563289407</a></p>",
+        "id": 563296507,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1765493549
+    },
+    {
+        "content": "<p>nice</p>",
+        "id": 563563587,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1765574669
+    }
+]

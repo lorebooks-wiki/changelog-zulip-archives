@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>Jerod is joined by KBall, Nick &amp; Amy to throw one last JS Party! We review last year's predictions, discuss the state of the web dev world, opine on coding AIs (of course) &amp; divulge what comes next for the JS Party crew. Thank you for partying with us all these years! <span aria-label=\"green heart\" class=\"emoji emoji-1f49a\" role=\"img\" title=\"green heart\">:green_heart:</span> <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://jsparty.fm/350\">https://jsparty.fm/350</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://jsparty.fm/350#t=0\">00:00</a></td>\n<td>It's party time, y'all</td>\n<td>00:39</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://jsparty.fm/350#t=39\">00:39</a></td>\n<td><a href=\"https://jam.dev\">Sponsor: Jam.dev</a></td>\n<td>01:32</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://jsparty.fm/350#t=131\">02:11</a></td>\n<td>Epic serenades</td>\n<td>01:04</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://jsparty.fm/350#t=195\">03:15</a></td>\n<td>One last party</td>\n<td>01:03</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://jsparty.fm/350#t=259\">04:19</a></td>\n<td>Chris' death pool win</td>\n<td>01:21</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://jsparty.fm/350#t=339\">05:39</a></td>\n<td>KBall's stability loss</td>\n<td>00:58</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://jsparty.fm/350#t=398\">06:38</a></td>\n<td>Nick's Next.js tie?</td>\n<td>00:54</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://jsparty.fm/350#t=452\">07:32</a></td>\n<td>State of JS tie breaker</td>\n<td>01:43</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://jsparty.fm/350#t=555\">09:15</a></td>\n<td>Remix takes a nap</td>\n<td>03:05</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://jsparty.fm/350#t=740\">12:20</a></td>\n<td>Is it all worth it?</td>\n<td>00:14</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://jsparty.fm/350#t=755\">12:35</a></td>\n<td>\"RSC is pretty amazing\"</td>\n<td>01:55</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://jsparty.fm/350#t=869\">14:29</a></td>\n<td>Nick's perfect blog</td>\n<td>01:24</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://jsparty.fm/350#t=953\">15:53</a></td>\n<td>Renaissance Man</td>\n<td>01:19</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://jsparty.fm/350#t=1032\">17:12</a></td>\n<td>Node embraces TS</td>\n<td>01:07</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://jsparty.fm/350#t=1099\">18:19</a></td>\n<td>Temporal vs actual FSD</td>\n<td>00:58</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://jsparty.fm/350#t=1157\">19:17</a></td>\n<td>Back to the Future</td>\n<td>01:30</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://jsparty.fm/350#t=1247\">20:47</a></td>\n<td>Back to 2018</td>\n<td>02:45</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://jsparty.fm/350#t=1412\">23:32</a></td>\n<td>Google AMP</td>\n<td>01:51</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://jsparty.fm/350#t=1522\">25:22</a></td>\n<td><a href=\"https://fly.io/\">Sponsor: Fly.io</a></td>\n<td>02:45</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://jsparty.fm/350#t=1688\">28:08</a></td>\n<td>DX Engineer</td>\n<td>00:40</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://jsparty.fm/350#t=1728\">28:48</a></td>\n<td>Let's Encrypt!</td>\n<td>00:29</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://jsparty.fm/350#t=1756\">29:16</a></td>\n<td>Projecting forward</td>\n<td>01:27</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://jsparty.fm/350#t=1844\">30:44</a></td>\n<td>Digital twins?!</td>\n<td>01:08</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://jsparty.fm/350#t=1912\">31:52</a></td>\n<td>Obligatory AI chapter</td>\n<td>09:10</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://jsparty.fm/350#t=2462\">41:02</a></td>\n<td>Maintenance is hard</td>\n<td>01:19</td>\n</tr>\n<tr>\n<td>26</td>\n<td><a href=\"https://jsparty.fm/350#t=2541\">42:21</a></td>\n<td>Learning alongside AI</td>\n<td>06:36</td>\n</tr>\n<tr>\n<td>27</td>\n<td><a href=\"https://jsparty.fm/350#t=2936\">48:56</a></td>\n<td>Good AI Hunting</td>\n<td>02:41</td>\n</tr>\n<tr>\n<td>28</td>\n<td><a href=\"https://jsparty.fm/350#t=3097\">51:37</a></td>\n<td>Obsequious LLMs</td>\n<td>03:15</td>\n</tr>\n<tr>\n<td>29</td>\n<td><a href=\"https://jsparty.fm/350#t=3292\">54:52</a></td>\n<td><a href=\"https://workos.com\">Sponsor: WorkOS</a></td>\n<td>02:49</td>\n</tr>\n<tr>\n<td>30</td>\n<td><a href=\"https://jsparty.fm/350#t=3460\">57:40</a></td>\n<td><a href=\"http://dysfunctional.fm\">dysfunctional.fm</a></td>\n<td>09:17</td>\n</tr>\n<tr>\n<td>31</td>\n<td><a href=\"https://jsparty.fm/350#t=4017\">1:06:57</a></td>\n<td>2025 goings on</td>\n<td>01:08</td>\n</tr>\n<tr>\n<td>32</td>\n<td><a href=\"https://jsparty.fm/350#t=4085\">1:08:05</a></td>\n<td>The spirit lives on</td>\n<td>02:33</td>\n</tr>\n<tr>\n<td>33</td>\n<td><a href=\"https://jsparty.fm/350#t=4238\">1:10:38</a></td>\n<td>Closing time</td>\n<td>01:32</td>\n</tr>\n<tr>\n<td>34</td>\n<td><a href=\"https://jsparty.fm/350#t=4330\">1:12:10</a></td>\n<td>Thank you!!!</td>\n<td>03:37</td>\n</tr>\n</tbody>\n</table>",
+        "id": 499575946,
+        "sender_full_name": "Logbot",
+        "timestamp": 1739478006
+    },
+    {
+        "content": "<div class=\"message_inline_image\"><a href=\"https://media1.giphy.com/media/lD76yTC5zxZPG/giphy.gif?cid=c623cb35eojdyo7ucixmclyp1savmov6j33hqgwdbb98oga5&amp;ep=v1_gifs_search&amp;rid=giphy.gif&amp;ct=g\"><img src=\"https://uploads.zulipusercontent.net/62327ab2398d6bd45242dc626bc6f2a37847be77/68747470733a2f2f6d65646961312e67697068792e636f6d2f6d656469612f6c443736795443357a785a50472f67697068792e6769663f6369643d6336323363623335656f6a64796f37756369786d636c7970317361766d6f76366a33336871677764626239386f6761352665703d76315f676966735f736561726368267269643d67697068792e6769662663743d67\"></a></div>",
+        "id": 499576078,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1739478058
+    },
+    {
+        "content": "<p>The recent (and only?) use of amp I got is scam links. The domain is coming from Google so it's gonna be legit right?</p>",
+        "id": 499772201,
+        "sender_full_name": "Hollis Wu",
+        "timestamp": 1739547602
+    },
+    {
+        "content": "<p>That hidden track though, amirite... <span aria-label=\"face holding back tears\" class=\"emoji emoji-1f979\" role=\"img\" title=\"face holding back tears\">:face_holding_back_tears:</span></p>",
+        "id": 499782904,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1739550839
+    },
+    {
+        "content": "<p>Listening to that hidden track rn <span aria-label=\"rolling on the floor laughing\" class=\"emoji emoji-1f923\" role=\"img\" title=\"rolling on the floor laughing\">:rolling_on_the_floor_laughing:</span></p>",
+        "id": 499791865,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1739553772
+    },
+    {
+        "content": "<p>I came here to comment on that <span aria-label=\"rolling on the floor laughing\" class=\"emoji emoji-1f923\" role=\"img\" title=\"rolling on the floor laughing\">:rolling_on_the_floor_laughing:</span>  loved it</p>",
+        "id": 502609466,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1740757923
+    }
+]

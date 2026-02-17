@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>I just finished listening to the Changelog Interview with WarpStream, titled “Reinventing Kafka on object storage”. It was a good listen and I’ve heard good things about WarpStream in general.</p>\n<p>Just read this article that says that WarpStream’s pricing calculator was grossly flawed. I don’t know much about Kafka pricing. Anyone with experience willing to share their take?</p>\n<p><a href=\"https://blog.2minutestreaming.com/p/the-real-apache-kafka-cost\">https://blog.2minutestreaming.com/p/the-real-apache-kafka-cost</a></p>",
+        "id": 511868128,
+        "sender_full_name": "Joe",
+        "timestamp": 1744514391
+    },
+    {
+        "content": "<p>A related post from another Kafka product: <a href=\"https://streamnative.io/blog/how-we-run-a-5-gb-s-kafka-workload-for-just-50-per-hour\">https://streamnative.io/blog/how-we-run-a-5-gb-s-kafka-workload-for-just-50-per-hour</a></p>",
+        "id": 511869529,
+        "sender_full_name": "Joe",
+        "timestamp": 1744515694
+    },
+    {
+        "content": "<p><a href=\"https://changelog.com/podcast/606\">https://changelog.com/podcast/606</a></p>",
+        "id": 511963519,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1744594863
+    }
+]

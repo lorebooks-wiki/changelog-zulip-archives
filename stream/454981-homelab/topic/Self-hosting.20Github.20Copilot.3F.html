@@ -1,0 +1,28 @@
+<html>
+<head><meta charset="utf-8"><title>Self-hosting Github Copilot? · homelab · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/index.html">homelab</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Self-hosting.20Github.20Copilot.3F.html">Self-hosting Github Copilot?</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="491821718"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/Self-hosting%20Github%20Copilot%3F/near/491821718" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Andrew O&#x27;Brien <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Self-hosting.20Github.20Copilot.3F.html#491821718">(Jan 03 2025 at 22:44)</a>:</h4>
+<p>I know some people are having success with ollama on their own hardware. Anyone doing this for a code assistant that they're actually using to help with real work? What kind of minimum hardware is necessary for a decently (not necessarily top tier) performing system?</p>
+
+
+
+<a name="491829129"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/Self-hosting%20Github%20Copilot%3F/near/491829129" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Self-hosting.20Github.20Copilot.3F.html#491829129">(Jan 04 2025 at 00:19)</a>:</h4>
+<p>I'm using helix ( <a href="https://helix-editor.com/">https://helix-editor.com/</a> ) which currently can only be extended via LSP servers, so I've added lsp-ai ( <a href="https://github.com/SilasMarvin/lsp-ai/">https://github.com/SilasMarvin/lsp-ai/</a> ) to connect it to ollama ( <a href="https://ollama.com/">https://ollama.com/</a> ), to interact with Google's gemma2 ( <a href="https://ai.google.dev/gemma/prohibited_use_policy">https://ai.google.dev/gemma/prohibited_use_policy</a> ) which has better licence terms for me compared to Meta's llama3.1, etc</p>
+<p>Note that this UX is not as complete as GitHub Copilot in Visual Studio Code, but I do get LLM-generated completions, and they are useful suggestions some of the time (feels like 10-20% of the time, usually I'll go with a suggestion from the language-specific LSP server instead)</p>
+<p>These completions are very fast, almost instant, on my M3 MacBook Pro (2023) and also even on a Dell Precision 5550 (2020), but take a second or so on my desktop PC which has AMD GPUs (2022)</p>
+<p>I think you mostly need to make sure your model can fit into GPU RAM (I _think_, I could be wrong about this), so GPU RAM is more important than GPU clock speed</p>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

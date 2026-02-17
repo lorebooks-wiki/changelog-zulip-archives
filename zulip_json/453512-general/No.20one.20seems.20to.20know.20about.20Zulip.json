@@ -1,0 +1,674 @@
+[
+    {
+        "content": "<p>Starting this new thread on Zulip and it's lack of awareness because I am simply beside myself that I've had multiple conversations with tech founders, etc in the last few weeks (since we've talked with Alya and have tried out Zulip)...<strong>and none of them know about Zulip</strong>!</p>\n<p>OK, so why this new thread? Well, awareness is key for Zulip and I really believe that this realtime chat/email/forum is the bees knees and much better than Slack. Yet, no one knows about Zulip.</p>\n<p>What can we (Changelog and this community) (or should we) do about this?</p>\n<p>Ref: <a class=\"stream-topic\" data-stream-id=\"453512\" href=\"/#narrow/stream/453512-general/topic/Is.20this.20cool.3F.20y.2Fn.3F\">#general &gt; Is this cool? y/n?</a></p>",
+        "id": 471309475,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1726679483
+    },
+    {
+        "content": "<p>Probably the biggest one is shutting down your Slack instance and officially moving over to Zulip. That might generate some buzz. After that is talking it up in social media, blog posts, etc. It also probably wouldn't hurt to harp on the fact that Zulip isn't taking away features that used to be free like Slack does, and can be self-hosted (e.g., no AI data harvesting).</p>\n<p>But honestly I can't think of anything out of the ordinary beyond talking about it regularly can convincing people to come and try it out.</p>",
+        "id": 471311013,
+        "sender_full_name": "Brett Cannon",
+        "timestamp": 1726680043
+    },
+    {
+        "content": "<blockquote>\n<p>Probably the biggest one is shutting down your Slack instance and officially moving over to Zulip.</p>\n</blockquote>\n<p>Yes, I think shutting down our Slack will do something. Just not sure when we can do that. I know Jerod and I will be at ATO in a month and we'll likely talk about this there.</p>\n<p>I have a call with Alya tomorrow afternoon about ways we can partner together and make things more official. What started as a \"hey let's try this\" has turned into a much easier to follow and more enjoyable community chat than I expected.</p>\n<p>I'll report back here as things progress. Maybe we need to help them with some concerted marketing efforts. Anyone want to do a homepage teardown with me?</p>",
+        "id": 471312048,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1726680394
+    },
+    {
+        "content": "<p>After our migration is final I plan to write a blog post titled, “Slack is dead, long live Zulip”</p>\n<p>Maybe we can get that to go nerd viral…</p>",
+        "id": 471312537,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1726680578
+    },
+    {
+        "content": "<p>That'll be dope.</p>",
+        "id": 471312969,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1726680705
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"750170\">Jerod Santo</span> <a href=\"#narrow/stream/453512-general/topic/No.20one.20seems.20to.20know.20about.20Zulip/near/471312537\">said</a>:</p>\n<blockquote>\n<p>After our migration is final I plan to write a blog post titled, “Slack is dead, long live Zulip”</p>\n</blockquote>\n<p>Slack Is Dead, <del>Long Live Zulip</del> Stop and Smell the Zulip</p>",
+        "id": 471316319,
+        "sender_full_name": "Ricky Hussmann",
+        "timestamp": 1726681891
+    },
+    {
+        "content": "<p>Erm mah, can we talk about the name \"Zulip\"?</p>",
+        "id": 471316647,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1726681996
+    },
+    {
+        "content": "<p>It's like Xerox, but better. \"It's better!\"</p>",
+        "id": 471316955,
+        "sender_full_name": "Ricky Hussmann",
+        "timestamp": 1726682092
+    },
+    {
+        "content": "<p><span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span></p>",
+        "id": 471317004,
+        "sender_full_name": "Ricky Hussmann",
+        "timestamp": 1726682104
+    },
+    {
+        "content": "<p>Honestly, it reminds me of cold, <del>western</del> eastern European soup.</p>",
+        "id": 471317062,
+        "sender_full_name": "Ricky Hussmann",
+        "timestamp": 1726682127
+    },
+    {
+        "content": "<p>I think the name is not great. Not a huge deal, people can get used to it, but I wonder if it's a factor in the lackluster adoption.</p>",
+        "id": 471327783,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1726685999
+    },
+    {
+        "content": "<p>\"Chat is dead, long live chat\"</p>",
+        "id": 471327969,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1726686043
+    },
+    {
+        "content": "<p>Having never used it, I think I came into this thinking Zulip was more message board and less chat. I see now that it's kinda more like chat with the good parts of message boards. Very happy with how topics are organized.</p>",
+        "id": 471333991,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1726688086
+    },
+    {
+        "content": "<p>I only knew about it because there is a Rust Zulip at <a href=\"http://rust-lang.zulipchat.com\">http://rust-lang.zulipchat.com</a>, and the topics system works well for talking about lots of different issues and features on a large, distributed, technical project. It would be unmanageable in Slack I expect.</p>\n<p>I wasn’t sure if it would work so well for more casual chatting, with the additional friction of having to come up with a subject, but this Changelog instance has convinced me it does.</p>\n<p>If they could make it indexable by search engines that could help them a lot, because people would come across the public channels more organically in their browsers. There must be a wealth of information in the Rust Zulip that few people ever come across.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"http://rust-lang.zulipchat.com\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/62a5be7c4dbb3d51af34a64dfbc026434727b1f6/68747470733a2f2f617661746172732e7a756c69702e636f6d2f343731352f7265616c6d2f69636f6e2e706e673f76657273696f6e3d32&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_description\">If this message does not go away, try reloading the page.</div></div></div>",
+        "id": 471348015,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1726693349
+    },
+    {
+        "content": "<p>This is really exciting to hear. I love an underdog, especially when the underdog actually has a fantastic product!</p>\n<p>I think there are situations where Slack's product decisions do make sense (eg where I work, I am not sure Zulip would be a better choice). But all too often it's just the default choice because nobody was fired for picking Salesforce. I hope you guys can help drive more awareness so that people are making informed choices not just default choices!</p>",
+        "id": 471369850,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1726704483
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"750017\">Adam Stacoviak</span> <a href=\"#narrow/stream/453512-general/topic/No.20one.20seems.20to.20know.20about.20Zulip/near/471312048\">said</a>:</p>\n<blockquote>\n<p>Anyone want to do a homepage teardown with me?</p>\n</blockquote>\n<p>All I have to say is that the very slight hover-grow effect on the blue buttons right above the fold (e.g. \"See it in use\") is terrible <span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span><br>\nOtherwise, pages like <a href=\"https://zulip.com/for/communities/\">this</a> are great.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://zulip.com/for/communities/\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/98fe2fe57d1ac641d4d84b6de2c520ff48fcf498/68747470733a2f2f7374617469632e7a756c6970636861742e636f6d2f7374617469632f696d616765732f6c6f676f2f7a756c69702d69636f6e2d313238783132382e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://zulip.com/for/communities/\" title=\"Zulip for communities\">Zulip for communities</a></div><div class=\"message_embed_description\">Zulip is designed with communities in mind, including\n  open-source projects, research collaborations, and volunteer organizations.\n  Reach out for a sponsorship!</div></div></div>",
+        "id": 471375831,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1726708436
+    },
+    {
+        "content": "<p>I think making public channels indexable by search engines would definitely help in adoption. I've not met anyone (online/offline) who doesn't like Zulip once they've gotten a chance to play around with it. Product is solid, it's the visibility that matters here and if people come across Zulip organically when searching for something (like in the case of Discourse), I'm sure this will create ripple effects.</p>",
+        "id": 471405634,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1726724401
+    },
+    {
+        "content": "<p>I'm excited that the Zulip experiment is going well for Changelog.</p>\n<p>What Changelog could do specifically is switch some channels to <a href=\"https://blog.zulip.com/2022/05/05/public-access-option/\">Web-public</a>. That way newcomers could have a peek inside this Zulip instance instead of being greeted with a login wall.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://blog.zulip.com/2022/05/05/public-access-option/\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/112ef0da57ba871f9f2fd91ef3e563859ae2f41f/68747470733a2f2f626c6f672e7a756c69702e636f6d2f5f617374726f2f7a756c69702d636f7665722e434a6a4e6a42597a2e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://blog.zulip.com/2022/05/05/public-access-option/\" title=\"Introducing the Zulip public access option for open communities\">Introducing the Zulip public access option for open communities</a></div><div class=\"message_embed_description\">Today, we’re delighted to announce the general availability of Zulip’s public\naccess option. Open-source projects and other open communities\ncan now offer one-click access\n(no login required!) to part or all of their Zulip chat.\nFor those who are not familiar with it, Zulip is a modern\nteam collaboration …</div></div></div>",
+        "id": 471461806,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1726744201
+    },
+    {
+        "content": "<p>Yeah I think we should make a bunch of channels web-public, certainly the podcast episode channels.</p>",
+        "id": 471487368,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1726752673
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752943\">James Thurley</span> <a href=\"#narrow/stream/453512-general/topic/No.20one.20seems.20to.20know.20about.20Zulip/near/471348015\">said</a>:</p>\n<blockquote>\n<p>I only knew about it because there is a Rust Zulip at <a href=\"http://rust-lang.zulipchat.com\">http://rust-lang.zulipchat.com</a>, and the topics system works well for talking about lots of different issues and features on a large, distributed, technical project. It would be unmanageable in Slack I expect.</p>\n</blockquote>\n<p>Yay, my second Zulip org. Maybe these will start accumulating like all of the Discord servers - including the official Rust Discord server. <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 471557938,
+        "sender_full_name": "Chris Woods",
+        "timestamp": 1726777434
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"757328\">Ricky Hussmann</span> <a href=\"#narrow/stream/453512-general/topic/No.20one.20seems.20to.20know.20about.20Zulip/near/471316955\">said</a>:</p>\n<blockquote>\n<p>It's like Xerox, but better. \"It's better!\"</p>\n</blockquote>\n<p>BMC needs to make a Zulip theme song!</p>",
+        "id": 471559204,
+        "sender_full_name": "Brett Cannon",
+        "timestamp": 1726777956
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"753982\">Brett Cannon</span> <a href=\"#narrow/stream/453512-general/topic/No.20one.20seems.20to.20know.20about.20Zulip/near/471559204\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"757328\">Ricky Hussmann</span> <a href=\"#narrow/stream/453512-general/topic/No.20one.20seems.20to.20know.20about.20Zulip/near/471316955\">said</a>:</p>\n<blockquote>\n<p>It's like Xerox, but better. \"It's better!\"</p>\n</blockquote>\n<p>BMC needs to make a Zulip theme song!</p>\n</blockquote>\n<p>Ooooh, great idea! They need to do some marketing for sure. Maybe they could engage with him for the sound track for a marketing campaign :)</p>",
+        "id": 471559956,
+        "sender_full_name": "Chris Woods",
+        "timestamp": 1726778278
+    },
+    {
+        "content": "<p>Another thing we can do is use Zulip for our open source projects. I already moved the chat for <a href=\"https://github.com/IQSS/dataverse\">Dataverse</a> (my day job) to <a href=\"https://dataverse.zulipchat.com\">https://dataverse.zulipchat.com</a> and I asked nicely to have a channel (#boston) for my local <a href=\"https://bostonopen.dev\">open source meetup</a> on <a href=\"https://osdc.zulipchat.com\">https://osdc.zulipchat.com</a></p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://github.com/IQSS/dataverse\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/28a58ee1fb30a5518c14995a130f646a09438dc6/68747470733a2f2f6f70656e67726170682e6769746875626173736574732e636f6d2f313862323535633966643432343332386239313937393634653761366261383235386636653230643334616630633533306461323237613162356437633464612f495153532f646174617665727365&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://github.com/IQSS/dataverse\" title=\"GitHub - IQSS/dataverse: Open source research data repository software\">GitHub - IQSS/dataverse: Open source research data repository software</a></div><div class=\"message_embed_description\">Open source research data repository software. Contribute to IQSS/dataverse development by creating an account on GitHub.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://dataverse.zulipchat.com\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/3a12f12619a29827c7de2759f30ba362c0692b2e/68747470733a2f2f617661746172732e7a756c69702e636f6d2f35333039302f7265616c6d2f69636f6e2e706e673f76657273696f6e3d32&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_description\">If this message does not go away, try reloading the page.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://osdc.zulipchat.com\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/6f623f8026c9922bef05272a22c9640ca286558a/68747470733a2f2f617661746172732e7a756c69702e636f6d2f35363537312f7265616c6d2f69636f6e2e706e673f76657273696f6e3d34&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_description\">If this message does not go away, try reloading the page.</div></div></div>",
+        "id": 471563785,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1726779985
+    },
+    {
+        "content": "<p>I'm going to have to start a popular open-source project just so I can start a Zulip community for it <span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span></p>",
+        "id": 471578379,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1726788788
+    },
+    {
+        "content": "<ul>\n<li>Co-marketing between Changelog and Zulip.</li>\n<li>Shutdown the Slack workspace.</li>\n<li>Web-public channels.</li>\n<li>Update <a href=\"https://changelog.com/community\">https://changelog.com/community</a>.</li>\n</ul>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://changelog.com/community\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/878908c2af347181a33e1949bec6e8f980dbee0d/68747470733a2f2f63646e2e6368616e67656c6f672e636f6d2f7374617469632f696d616765732f73686172652f747769747465722d73696465776964652d73756d6d6172792e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://changelog.com/community\" title=\"Changelog developer community\">Changelog developer community</a></div><div class=\"message_embed_description\">Join developers from all over the world with a backstage pass to everything we do</div></div></div>",
+        "id": 472053946,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1727018285
+    },
+    {
+        "content": "<p>I like Zulip, this is really great. Just need custom status messages.</p>\n<p>Status: Listening to the Pod!</p>",
+        "id": 472072641,
+        "sender_full_name": "David Brown",
+        "timestamp": 1727029877
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"759242\">@David Brown</span> Hmm, it works for me. I just typed \"MyCustomStatus\".</p>",
+        "id": 472072826,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1727030017
+    },
+    {
+        "content": "<p>Okay, figured it out! Nice!</p>",
+        "id": 472072926,
+        "sender_full_name": "David Brown",
+        "timestamp": 1727030100
+    },
+    {
+        "content": "<p>Our episode channels are now web-public! Check it out: <a href=\"https://changelog.zulipchat.com/\">https://changelog.zulipchat.com/</a></p>",
+        "id": 472702592,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1727272279
+    },
+    {
+        "content": "<p>Ok brand new here... can someone explain to me the mental model? On first glance it looks to me like a forum, not a chat... which... forums are fine but the usage modes are completely different.</p>",
+        "id": 472728619,
+        "sender_full_name": "KBall",
+        "timestamp": 1727279557
+    },
+    {
+        "content": "<p>It's like Slack, except:</p>\n<p>In Slack channels are just free-flowing conversations, often with multiple conversations overlapping, questions getting lost in the noise, sometimes threads being used and sometimes not, sometimes conversations jumping back out of threads into the main channel, etc.</p>\n<p>In Zulip you also have channels, but channels contain distinct \"topics\" which are kind of like mini, dynamic, almost transient, channels in Slack. Every conversation in the channel happens in it's own topic. It makes it easier to handle having many parallel distinct conversations, not limited by the number of channels, compared to Slack.</p>",
+        "id": 472731815,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1727280546
+    },
+    {
+        "content": "<p>As an example, in my work Slack we have a channel called <code>platform-technical</code> for technical conversations about our platform.</p>\n<p>But at some point people are deep in technical discussion, not using threads (because threads in Slack are a bit half-arsed), and you want to start another conversation. So what do you do? Well, we create a new channel called <code>platform-technical-2</code> and use that when <code>platform-technical</code> is busy. Eventually we also ended up with <code>platform-technical-3</code> for the same reason.</p>\n<p>In Zulip, you can just have the one <code>platform-technical</code> channel, because all those conversations are distinct topics within the channel.</p>",
+        "id": 472732565,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1727280790
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"760640\">KBall</span> <a href=\"#narrow/stream/453512-general/topic/No.20one.20seems.20to.20know.20about.20Zulip/near/472728619\">said</a>:</p>\n<blockquote>\n<p>On first glance it looks to me like a forum, not a chat</p>\n</blockquote>\n<p>Imagine Slack and Discourse had a baby. Kinda like that.</p>",
+        "id": 472736190,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1727282083
+    },
+    {
+        "content": "<p>Kinda reminds me of <a href=\"https://twist.com/\">https://twist.com/</a> which I used once in a consulting context. Will be interesting to see how it feels in practice... the key differences to me are slack/discord/other \"pure chat\" clients feel much more transient and realtime, where twist and other more forum-like things do not. And those feelings lead to different interaction patterns. <span aria-label=\"man shrugging\" class=\"emoji emoji-1f937-200d-2642\" role=\"img\" title=\"man shrugging\">:man_shrugging:</span> we'll see what emerges here.</p>",
+        "id": 472736724,
+        "sender_full_name": "KBall",
+        "timestamp": 1727282286
+    },
+    {
+        "content": "<p>The coolest thing here for us (in addition to its open source-y goodness and nerdy stuff like keyboard shorcuts) is that it's much easier to find and hop in to episode-focused discussions that you listen to later than most people. In Slack it's gone (even just 90 days later) and here you just find the channel and the numbered/named topic and you can see the entire discussion, then strike up a new one if you like. That's cool.</p>",
+        "id": 472737934,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1727282788
+    },
+    {
+        "content": "<p>I think it can be as real-time or as forum-like as you want it to be. My common complaint with Slack/Discord is that it is impossible to follow the conversation unless you're the one participating in it in real time, and complaint with Discourse is that DMs/private groups are considered second class citizens and their replies hierarchy is IMO just horrible to follow.</p>\n<p>Zulip hits the sweet spot.</p>",
+        "id": 472738141,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1727282873
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752943\">James Thurley</span> <a href=\"#narrow/stream/453512-general/topic/No.20one.20seems.20to.20know.20about.20Zulip/near/471348015\">said</a>:</p>\n<blockquote>\n<p>If they could make it indexable by search engines that could help them a lot, because people would come across the public channels more organically in their browsers.</p>\n</blockquote>\n<p>We've though about this in the past (see <a href=\"https://github.com/zulip/zulip/pull/21881\">this issue</a>), and have just kicked off a <a href=\"https://chat.zulip.org/#narrow/stream/101-design/topic/Indexing.20web-public.20channels\">conversation</a> about technical design options for making this work. Feedback/suggestions from folks in this community would be much appreciated!</p>",
+        "id": 472755639,
+        "sender_full_name": "Alya Abbott",
+        "timestamp": 1727289926
+    },
+    {
+        "content": "<p>I initially thought Zulip would be a lot <em>more</em> forum-like than it is. I think I'm getting the hang of it now, but initially I expected to be able to treat topics like forum posts. There are some ways you can (eg the \"recent conversations\" view) but it doesn't seem to be the primary way you're expected to interact with things.</p>",
+        "id": 472765433,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1727294380
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span> fancy <a href=\"https://github.com/zulip/zulip-archive\">https://github.com/zulip/zulip-archive</a> push to R2 while still cooking? :P</p>",
+        "id": 472842589,
+        "sender_full_name": "Owen Valentine",
+        "timestamp": 1727339528
+    },
+    {
+        "content": "<p>Love the fact that there's a solution for this either way, even if integration into Zulip itself is much more of an ask. The power of not holding data ransom</p>",
+        "id": 472846634,
+        "sender_full_name": "Owen Valentine",
+        "timestamp": 1727340842
+    },
+    {
+        "content": "<p>Starting to replace our Slack bits with Zulip bits. <a href=\"https://changelog.com/community\">https://changelog.com/community</a> now features Zulip. Dorfman hasn't joined here yet, also that quote is super old now. Anybody ready/willing/able to be featured here with a quote in his place?</p>",
+        "id": 474601353,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1727965056
+    },
+    {
+        "content": "<p>Unsolicited feedback: haven't tried on desktop yet, but on mobile it's not clear the Zulip logo is a link! Maybe that worked with Slack logo if that's how it was previously, but the Zulip logo isn't so familiar. I didn't realise I had to click \"welcome back\" to get to more links!</p>",
+        "id": 474631533,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1727972075
+    },
+    {
+        "content": "<p>Yeah I need to add a big button to \"Launch Zulip\" whether you're signed in or not. Since many of our channels are public we should take folks directly to it so they can preview what they're signing up for</p>",
+        "id": 474631895,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1727972172
+    },
+    {
+        "content": "<p>do topics just pile up forever? i still probably dont know what i'm doing in zulip, but i almost thinkg i understand discourse better because i can understand the timeline better</p>",
+        "id": 474831304,
+        "sender_full_name": "Dan Cardin",
+        "timestamp": 1728050780
+    },
+    {
+        "content": "<p>like i didn't pay attention to zulip for a few days and there were 200+ unread things and no obvious way to mark everything as read. and now there's tens of topics in General, but less of a forum-y way of navigating them reverse chronologically per latest messages, or to specifically alert me to new responses in threads i've interacted in (both familiar things to me from discourse)</p>",
+        "id": 474831938,
+        "sender_full_name": "Dan Cardin",
+        "timestamp": 1728050971
+    },
+    {
+        "content": "<p>Combined feed does that well I think. Have you seen that view? It's the <code>a</code> keyboard shortcut for me.</p>",
+        "id": 474849423,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1728056522
+    },
+    {
+        "content": "<p>It's not obvious on mobile (I think it's behind a long press) but any channel's triple dot menu has a 'mark as read' option. As does each individual thread.</p>",
+        "id": 474849631,
+        "sender_full_name": "Dustin",
+        "timestamp": 1728056589
+    },
+    {
+        "content": "<p>does the combined feed not just feel like slack minus all the channels, but with inline threads?</p>",
+        "id": 474866508,
+        "sender_full_name": "Dan Cardin",
+        "timestamp": 1728061081
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"753684\">@Dan Cardin</span> you can also \"follow topic\" to get notifications or \"mute topic\" for the opposite. I felt similarly overwhelmed when I first started using Zulip for real, but having messages in topics means I can actually choose to <em>ignore</em> a bunch of stuff when I come back and there's tons of unreads. Or at least browse messages topic by topic, rather than all unreads at once.</p>",
+        "id": 474866591,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1728061103
+    },
+    {
+        "content": "<p>I usually go to my inbox, scan for topics I'm interested in, read them, then \"mark all as read\". On mobile, you have to go to the combined feed to mark all as read, which is a little annoying.</p>",
+        "id": 474866668,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1728061138
+    },
+    {
+        "content": "<p>IIRC there's no 'combined feed' in slack right, no way to see all messages in all channels?</p>",
+        "id": 474866732,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1728061165
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"753684\">Dan Cardin</span> <a href=\"#narrow/stream/453512-general/topic/No.20one.20seems.20to.20know.20about.20Zulip/near/474831304\">said</a>:</p>\n<blockquote>\n<p>do topics just pile up forever?</p>\n</blockquote>\n<p>I think the answer is yes, which seems kinda odd. On the other hand, topics are content-addressed <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span> so they only keep piling up due to people discussing more things, if that makes sense. I think when I came to Zulip I thought it was more forum-like, due to topics. However, it's not really. It's not Discourse, it's closer to Slack/IRC but with just that little bit extra (topics) which help triage my inbox.</p>",
+        "id": 474869166,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1728062148
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"750017\">Adam Stacoviak</span> <a href=\"#narrow/stream/453512-general/topic/No.20one.20seems.20to.20know.20about.20Zulip/near/474849423\">said</a>:</p>\n<blockquote>\n<p>Combined feed does that well I think. Have you seen that view? It's the <code>a</code> keyboard shortcut for me.</p>\n</blockquote>\n<p>This just changed the game for me <span aria-label=\"sunglasses\" class=\"emoji emoji-1f60e\" role=\"img\" title=\"sunglasses\">:sunglasses:</span></p>",
+        "id": 474890609,
+        "sender_full_name": "Matthew Fish",
+        "timestamp": 1728070679
+    },
+    {
+        "content": "<p>Topics do pile up forever but they can be marked as resolved. Of course, this won't apply to many topics (/me coughs <a class=\"stream-topic\" data-stream-id=\"453512\" href=\"/#narrow/stream/453512-general/topic/WordPress.20Drama\">#general &gt; WordPress Drama</a> ). <span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span></p>",
+        "id": 474907689,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1728080096
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752986\">Daniel Buckmaster</span> <a href=\"#narrow/stream/453512-general/topic/No.20one.20seems.20to.20know.20about.20Zulip/near/474866668\">said</a>:</p>\n<blockquote>\n<p>I usually go to my inbox, scan for topics I'm interested in, read them, then \"mark all as read\".</p>\n</blockquote>\n<p>I pretty much use the Recent conversations view in the same way. That's my default home view, and I really like how I can just triage all the conversations that have been ongoing while I've been away and then dive into the ones I want.</p>",
+        "id": 474927326,
+        "sender_full_name": "Fershad Irani",
+        "timestamp": 1728089649
+    },
+    {
+        "content": "<p>I am new to Changelog, the 1st episode I listened to was the long interview about Zulip. Great stuff!</p>\n<p>I immediately followed the Digital Ocean link in the Zulip documentation and fired up a self-hosted Zulip instance. The fact that it simply worked (after a very long automated setup script finished) earned Zulip major kudos from me. <span aria-label=\"coffee\" class=\"emoji emoji-2615\" role=\"img\" title=\"coffee\">:coffee:</span></p>\n<p>I use Slack most all day every day as part of my employment. I am also in a couple developer communities on Slack. Slack works great for our relatively small, focused team at work. However, one of the dev communities I am in has 800+ people in it and dozens of channels. It is way too easy for things to get lost in the noise. It seems like Zulip's approach could work better than Slack for large community chat.</p>\n<p>My immmediate interest in Zulip was as a replacement for my church community's use of GroupMe. GroupMe is working fine for us, but there are some pitfalls--especially for a church asking students to get into the chat....and then some students getting into destructive chat relationships outside the intended community. Oops. <span aria-label=\"poop\" class=\"emoji emoji-1f4a9\" role=\"img\" title=\"poop\">:poop:</span> </p>\n<p>Playing around with my Zulip instance, I like what I see. However, the <strong>show-stopper</strong> for a community (100+ people or so) is that in order to have push notifications on mobile, even with self-hosted, it's <strong>$3.50 *per user per month</strong>*. I understand it is a necessary evil, and appreciate that <a href=\"https://zulip.readthedocs.io/en/stable/production/mobile-push-notifications.html\">Zulip explains this in great detail</a>. Yes one could compile their own versions of the native apps to enable direct push notifications, but...I'm not that hard-core. <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>\n<p>I am definitely a fan of Zulip so far (and Changelog). Thanks for doing what you do! <span aria-label=\"raised hands\" class=\"emoji emoji-1f64c\" role=\"img\" title=\"raised hands\">:raised_hands:</span></p>",
+        "id": 474993508,
+        "sender_full_name": "Troy Wolf",
+        "timestamp": 1728144395
+    },
+    {
+        "content": "<p>Some feedback: I went to your website, found the Zulip episode, then clicked the Discussion link. That took me to this new Zulip chat instance. I could see the episode channels: \"interviews\", \"friends\", \"practicalai\", etc.</p>\n<p>Then I subscribed and joined the chat community. Now when I log in, I don't see those episode based channels. I can find them if I \"Browse 13 more channels\", but seems odd they are not part of what I'm auto-subscribed, to. ...but this is coming from someone brand new to changelog. I am, therefore, quite unencumbered by facts! <span aria-label=\"coffee\" class=\"emoji emoji-2615\" role=\"img\" title=\"coffee\">:coffee:</span></p>\n<p><a href=\"/user_uploads/66849/h2OsM66mLCrLvUXHN_RWJhmv/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/h2OsM66mLCrLvUXHN_RWJhmv/image.png\" title=\"image.png\"><img data-original-dimensions=\"294x391\" src=\"/user_uploads/thumbnail/66849/h2OsM66mLCrLvUXHN_RWJhmv/image.png/840x560.webp\"></a></div>",
+        "id": 474993787,
+        "sender_full_name": "Troy Wolf",
+        "timestamp": 1728144656
+    },
+    {
+        "content": "<p>Well, if you join <a href=\"https://chat.zulip.org\">https://chat.zulip.org</a> you get auto-subscribed to about 30 channels. Here you only get auto-subscribed to three (<a class=\"stream\" data-stream-id=\"453512\" href=\"/#narrow/stream/453512-general\">#general</a> <a class=\"stream\" data-stream-id=\"455097\" href=\"/#narrow/stream/455097-kaizen\">#kaizen</a> and <a class=\"stream\" data-stream-id=\"453511\" href=\"/#narrow/stream/453511-sandbox\">#sandbox</a> ). I suppose more could be added. <span aria-label=\"thinking\" class=\"emoji emoji-1f914\" role=\"img\" title=\"thinking\">:thinking:</span></p>",
+        "id": 474996752,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1728147111
+    },
+    {
+        "content": "<p>loving this zulip messaging approach. so cool!</p>",
+        "id": 475020107,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1728159939
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752868\">Philip Durbin</span> <a href=\"#narrow/stream/453512-general/topic/No.20one.20seems.20to.20know.20about.20Zulip/near/474996752\">said</a>:</p>\n<blockquote>\n<p>Well, if you join <a href=\"https://chat.zulip.org\">https://chat.zulip.org</a> you get auto-subscribed to about 30 channels. Here you only get auto-subscribed to three (<a class=\"stream\" data-stream-id=\"453512\" href=\"/#narrow/stream/453512-general\">#general</a> <a class=\"stream\" data-stream-id=\"455097\" href=\"/#narrow/stream/455097-kaizen\">#kaizen</a> and <a class=\"stream\" data-stream-id=\"453511\" href=\"/#narrow/stream/453511-sandbox\">#sandbox</a> ). I suppose more could be added. <span aria-label=\"thinking\" class=\"emoji emoji-1f914\" role=\"img\" title=\"thinking\">:thinking:</span></p>\n</blockquote>\n<p>I think it makes sense that a new member would at least be subscribed to the same channels as the public view. It's probably normal that a person would first hit this chat anonymously and see the public view. Once they join, it's mildly disruptive to login and those episode channels are \"missing\"...until you unbury them and subscribe.</p>\n<p>Would it make sense to at least auto-subscribe new members to the same channels as the public view? Members can unsubscribe easy enough. This seems a lesser evil to me considering a new member is still figuring out the system. <span aria-label=\"coffee\" class=\"emoji emoji-2615\" role=\"img\" title=\"coffee\">:coffee:</span></p>",
+        "id": 475028178,
+        "sender_full_name": "Troy Wolf",
+        "timestamp": 1728167716
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"764286\">Troy Wolf</span> <a href=\"#narrow/stream/453512-general/topic/No.20one.20seems.20to.20know.20about.20Zulip/near/475028178\">said</a>:</p>\n<blockquote>\n<p>Would it make sense to at least auto-subscribe new members to the same channels as the public view?</p>\n</blockquote>\n<p>I'm down with this if people think it's a good idea...</p>",
+        "id": 475028741,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1728168290
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"764286\">@Troy Wolf</span> do you think your community could survive on email notifications instead of mobile push? Or, I wonder to what extent the topic/inbox flow with Zulip makes push notifications less necessary, as it's easier to catch up later rather than feel the need to participate in real time.</p>",
+        "id": 475135765,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1728244847
+    },
+    {
+        "content": "<p>I guess it depends if you expect to have a lot of discussions that are actually time-sensitive.</p>\n<p>E.g. I can remember a time where I only had a Slack contact for someone and was trying to communicate about meeting them at a physical event, where it would be useful for them to get notifications!</p>",
+        "id": 475135805,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1728244863
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752986\">@Daniel Buckmaster</span> , if it were up to me, I'd be fine without push notifications for the community I'm thinking of. I wouldn't even use the native app. In my limited testing, I found that the mobile browser version of Zulip works great. On my Android chrome browser, I used the \"Add to homescreen\" option, which installed the \"app\" (I assume a PWA?). Now it feels like a native app on my phone. As long as I have that app open (background is fine), I get notified of new messages.</p>\n<p>I kind of like NOT being notified unless I choose to have that app running--whether in the foreground or background. However, people seem to want push notifications.</p>\n<p>As for email notification, as long as it were throttled--like tell me a channel or topic has a new message, but don't email me again until I've visited the chat--that would work for <em>me</em>. However, the community I have in mind is a lot of Jr &amp; Sr high school students. I don't know if you've noticed, but these young whipper-snappers these days don't tend to use email. <span aria-label=\"older man\" class=\"emoji emoji-1f474\" role=\"img\" title=\"older man\">:older_man:</span></p>",
+        "id": 475139333,
+        "sender_full_name": "Troy Wolf",
+        "timestamp": 1728246114
+    },
+    {
+        "content": "<p>If I expand #general, then \"SHOW ALL TOPICS\", it's a pretty long list. How does Zulip handle this over time? What about when there are 500 topics? Is it just one huge list to scroll through? Do the topics marked as resolved fall off into an archive or something so they aren't clogging up the list? <span aria-label=\"thinking\" class=\"emoji emoji-1f914\" role=\"img\" title=\"thinking\">:thinking:</span></p>",
+        "id": 475141011,
+        "sender_full_name": "Troy Wolf",
+        "timestamp": 1728247327
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"764286\">Troy Wolf</span> <a href=\"#narrow/stream/453512-general/topic/No.20one.20seems.20to.20know.20about.20Zulip/near/474993508\">said</a>:</p>\n<blockquote>\n<p>Playing around with my Zulip instance, I like what I see. However, the <strong>show-stopper</strong> for a community (100+ people or so) is that in order to have push notifications on mobile, even with self-hosted, it's <strong>$3.50 *per user per month</strong>*.</p>\n</blockquote>\n<p><span class=\"user-mention\" data-user-id=\"764286\">@Troy Wolf</span>  We have generous discount and sponsorship programs for community organizations, as noted on the <a href=\"https://zulip.com/plans/#self-hosted\">plans page</a> and (in more detail) in the <a href=\"https://zulip.com/help/self-hosted-billing#free-community-plan\">help center</a>. You should reach out.</p>",
+        "id": 476325803,
+        "sender_full_name": "Alya Abbott",
+        "timestamp": 1728632186
+    },
+    {
+        "content": "<p>I am positively delighted you folks switched. Zulip has been around for years and years and I have personally always found it to be superior to other chat systems in all kinds of ways. Its threads don't give me a screaming headache like some others <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span></p>",
+        "id": 477057576,
+        "sender_full_name": "Christopher Patti",
+        "timestamp": 1729020716
+    },
+    {
+        "content": "<p>Baby steps toward getting the word out there. Feel free to share this video around, if you like:</p>\n<p><a href=\"https://youtu.be/cxWh6FbmYpc\">https://youtu.be/cxWh6FbmYpc</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"cxWh6FbmYpc\" href=\"https://youtu.be/cxWh6FbmYpc\"><img src=\"https://uploads.zulipusercontent.net/20385a56a17f8487f1cb265f3b2cf6d277d36478/68747470733a2f2f692e7974696d672e636f6d2f76692f637857683646626d5970632f64656661756c742e6a7067\"></a></div>",
+        "id": 477217702,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729085971
+    },
+    {
+        "content": "<p>Ha. I forgot how Jerod floated the idea of Zulip on a sailboat. <span aria-label=\"rofl\" class=\"emoji emoji-1f923\" role=\"img\" title=\"rofl\">:rofl:</span> <span aria-label=\"sailboat\" class=\"emoji emoji-26f5\" role=\"img\" title=\"sailboat\">:sailboat:</span> <img alt=\":zulip:\" class=\"emoji\" src=\"/static/generated/emoji/images/emoji/unicode/zulip.png\" title=\"zulip\"></p>",
+        "id": 477317804,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1729120775
+    },
+    {
+        "content": "<p>Seems like the conversations on Slack have died off and have picked up over here. <span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span> do you guys know if the majority of the active Slack members have created accounts here?</p>",
+        "id": 478765671,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1729790547
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"756263\">@Don MacKinnon</span> there's certainly some folks who haven't moved over, but it's hard to tell for sure what percentage we're at</p>",
+        "id": 478768489,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729791545
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"756263\">Don MacKinnon</span> <a href=\"#narrow/channel/453512-general/topic/No.20one.20seems.20to.20know.20about.20Zulip/near/478765671\">said</a>:</p>\n<blockquote>\n<p>Seems like the conversations on Slack have died off and have picked up over here. <span class=\"user-mention silent\" data-user-id=\"750170\">Jerod Santo</span> do you guys know if the majority of the active Slack members have created accounts here?</p>\n</blockquote>\n<p>For me, I signed out and closed that slack workspace.</p>",
+        "id": 478771478,
+        "sender_full_name": "Jarvis Yang",
+        "timestamp": 1729792768
+    },
+    {
+        "content": "<p>(there is a slack bridge if you want to mirror messages to zulip, my org uses it often to mirror chats with our consulting clients into our zulip)</p>",
+        "id": 483581366,
+        "sender_full_name": "Nick Sweeting",
+        "timestamp": 1732141271
+    },
+    {
+        "content": "<p>Zulip team recently released a big upgrade to their mobile app, migrating from React Native to Flutter. I find that to be a big improvement over the old app. I'd encourage others to give it a try to see how it fares, especially if they'd tried out the old app and came away underwhelmed.</p>\n<p>More info: <a href=\"https://blog.zulip.com/2024/12/12/new-flutter-mobile-app-beta/\">https://blog.zulip.com/2024/12/12/new-flutter-mobile-app-beta/</a></p>",
+        "id": 488964030,
+        "sender_full_name": "Siddhartha Golu",
+        "timestamp": 1734154212
+    },
+    {
+        "content": "<p>Ooo, nice<br>\nI'm trying the Flutter rewrite beta now<br>\nFeels just a bit more Android native than before, in terms of look and feel</p>",
+        "id": 488968401,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1734158737
+    },
+    {
+        "content": "<p>anyone here a flutter dev? I've done a lot of react native and swift apps but never flutter, curious how it compares with RN in general</p>",
+        "id": 489843067,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1734556855
+    },
+    {
+        "content": "<p>The whole Flutter versus the Flock fork has me a bit spooked, and I dislike the idea of learning a whole new language just for a GUI toolkit <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span><br>\nThat said, I think Ubuntu was encouraging Flutter development for Linux apps, which is intriguing<br>\nGiven that the creators of React Native abandoned it, I'm not sure that's an especially encouraging sign, haha</p>",
+        "id": 489844153,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1734557433
+    },
+    {
+        "content": "<p>I have talked a few devs who used it and they all liked it but it still seems like an edge product. I guess there is too much inertia behind react native.</p>",
+        "id": 490086644,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1734664599
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"771585\">Ron Waldon-Howe</span> <a href=\"#narrow/channel/453512-general/topic/No.20one.20seems.20to.20know.20about.20Zulip/near/489844153\">said</a>:</p>\n<blockquote>\n<p>The whole Flutter versus the Flock fork has me a bit spooked, and I dislike the idea of learning a whole new language just for a GUI toolkit <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span><br>\nThat said, I think Ubuntu was encouraging Flutter development for Linux apps, which is intriguing<br>\nGiven that the creators of React Native abandoned it, I'm not sure that's an especially encouraging sign, haha</p>\n</blockquote>\n<p>RN isn't abandoned, they're putting out releases all the time and just released a whole new architecture rewrite.</p>",
+        "id": 490090342,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1734667374
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755905\">Tim Uckun</span> <a href=\"#narrow/channel/453512-general/topic/No.20one.20seems.20to.20know.20about.20Zulip/near/490086644\">said</a>:</p>\n<blockquote>\n<p>I have talked a few devs who used it and they all liked it but it still seems like an edge product. I guess there is too much inertia behind react native.</p>\n</blockquote>\n<p>I never recommended Flutter for client work for the main reason that RN seems to have the majority of the app developer market for teams not building with Swift or Kotlin.</p>",
+        "id": 490090400,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1734667442
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"756263\">@Don MacKinnon</span> I just mean that AirBnB created it and now no longer uses it at all themselves<br>\n<a href=\"https://medium.com/@adamconrad/why-airbnb-has-pivoted-away-from-react-native-fdc0c77796e3\">https://medium.com/@adamconrad/why-airbnb-has-pivoted-away-from-react-native-fdc0c77796e3</a></p>",
+        "id": 490092187,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1734668803
+    },
+    {
+        "content": "<p>But yes, for better or worse, React has a lot of momentum, so it's not an automatically terrible idea to use a React-related technology</p>",
+        "id": 490092246,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1734668877
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"771585\">Ron Waldon-Howe</span> <a href=\"#narrow/channel/453512-general/topic/No.20one.20seems.20to.20know.20about.20Zulip/near/490092187\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"756263\">Don MacKinnon</span> I just mean that AirBnB created it and now no longer uses it at all themselves<br>\n<a href=\"https://medium.com/@adamconrad/why-airbnb-has-pivoted-away-from-react-native-fdc0c77796e3\">https://medium.com/@adamconrad/why-airbnb-has-pivoted-away-from-react-native-fdc0c77796e3</a></p>\n</blockquote>\n<p>AirBnB did not create React Native, Meta did.  AirBnB was just a very early adopter of it. I agree with their reasons for moving away from it though.  React Native never really delivered on the promise of a good mobile experience via a single code base.  Swift and Kotlin do a far better job. It's easy to find React developers than can muddle through writing react native apps but you don't get an end product that has the same level of polish as a true native app. It's great for proving out an MVP and getting to market quickly but if you have to staff  to do so it's better long term to have separate Swift and Kotlin apps.</p>",
+        "id": 490097987,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1734673773
+    },
+    {
+        "content": "<p>Yeah there's always a tradeoff<br>\nVery few companies would bother with the minutiae of Android versus Linux versus iOS versus macOS versus Windows if they could avoid it</p>",
+        "id": 490109607,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1734680879
+    },
+    {
+        "content": "<p>Oops, and web<br>\nReally, that should be the first target, always :)<br>\nThat and CLI/TUI :)</p>",
+        "id": 490109906,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1734681003
+    },
+    {
+        "content": "<p>Cute backstory about the Octopus emoji in Zulip:</p>\n<p><a href=\"https://chat.zulip.org/#narrow/stream/2-general/topic/octopus.20emoji/near/2018471\">https://chat.zulip.org/#narrow/stream/2-general/topic/octopus.20emoji/near/2018471</a></p>\n<p><span aria-label=\"blue heart\" class=\"emoji emoji-1f499\" role=\"img\" title=\"blue heart\">:blue_heart:</span><br>\n<span aria-label=\"octopus\" class=\"emoji emoji-1f419\" role=\"img\" title=\"octopus\">:octopus:</span></p>",
+        "id": 491144265,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1735445474
+    },
+    {
+        "content": "<p>I just installed the Zulip app on my work machine and I think I'll follow on my gaming rig. Slack is frustrating me for one of my communities and we're at a major crossroads anyways so I'm thinking about biting the migration bullet and enduring the inevitable attrition.</p>",
+        "id": 491332542,
+        "sender_full_name": "Colin Dean",
+        "timestamp": 1735594904
+    },
+    {
+        "content": "<p>First time using Zulip here! The UI looks nice but not sure where to start. It seems like Zulip is the most thread-y compared to Slack or Discord <span aria-label=\"big smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"big smile\">:big_smile:</span></p>",
+        "id": 493685491,
+        "sender_full_name": "Danny K",
+        "timestamp": 1736895663
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"820170\">@Danny K</span> welcome!</p>\n<p>I'd start by browsing the \"recent conversations\" view - find one you are interested in, click into it, then scroll back in the history to see the full thread.</p>\n<p>Zulip is very thready, but it isn't a forum! It is definitely \"chat, but with threads\".</p>",
+        "id": 493691654,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1736899300
+    },
+    {
+        "content": "<p>Thanks! I didn't mean 'thready' in a bad way btw. I like threads <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span> <br>\nThe \"recent conversations\" view looks awesome. I'll check it out!</p>",
+        "id": 493696371,
+        "sender_full_name": "Danny K",
+        "timestamp": 1736902334
+    },
+    {
+        "content": "<p>Oh yeah no. I just felt a bit confused when I was getting used to Zulip, because it felt like it should be <em>more</em> like a forum!</p>",
+        "id": 493710133,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1736910673
+    },
+    {
+        "content": "<p>TIL: <a href=\"https://zulip.com/help/import-your-settings\">https://zulip.com/help/import-your-settings</a></p>",
+        "id": 493822663,
+        "sender_full_name": "Owen Valentine",
+        "timestamp": 1736935073
+    },
+    {
+        "content": "<p>Very cool tbh - starting a new org myself and just \"oh hey I can just use the same setup\"</p>",
+        "id": 493887403,
+        "sender_full_name": "Owen Valentine",
+        "timestamp": 1736935089
+    },
+    {
+        "content": "<p>I actually think zulip isn't thready enough. I would prefer a more reddit style threads and topics.</p>",
+        "id": 494010685,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1736973028
+    },
+    {
+        "content": "<p>Another open-source community shifting to Zulip :) <a href=\"https://sandstorm.org/news/2025-01-29-getting-on-zulip\">https://sandstorm.org/news/2025-01-29-getting-on-zulip</a></p>",
+        "id": 498235461,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1738887569
+    },
+    {
+        "content": "<p>Finally decided to write this up in light of turning off our Slack announcements: <a href=\"https://changelog.com/posts/our-slack-is-dead-long-live-zulip\">https://changelog.com/posts/our-slack-is-dead-long-live-zulip</a></p>",
+        "id": 516986440,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1746741064
+    },
+    {
+        "content": "<p>Thanks for sharing your thoughts! Really nice write-up. :)</p>",
+        "id": 516996719,
+        "sender_full_name": "Alya Abbott",
+        "timestamp": 1746747485
+    },
+    {
+        "content": "<p>I'm curious about the dislikes you highlighted.</p>\n<ol>\n<li>What  URL format would you prefer? We were intentionally going for readability over succinctness there.</li>\n<li>What would you like to see in terms of emoji support?</li>\n</ol>",
+        "id": 516996811,
+        "sender_full_name": "Alya Abbott",
+        "timestamp": 1746747575
+    },
+    {
+        "content": "<p>huh, I didn't realise Zulip supports custom emoji: <a href=\"https://zulip.com/help/emoji-and-emoticons\">https://zulip.com/help/emoji-and-emoticons</a><br>\nbut yeah, i wonder if there's something more than that being referenced here</p>",
+        "id": 517001454,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1746750480
+    },
+    {
+        "content": "<p>i don't know if the open-source alternatives to Zulip are more viable for this use case, either<br>\nSystem76 uses Mattermost, the Rust project uses Zulip, Redox uses Matrix, basically everything else I'm interested in uses Discord which isn't open-source</p>",
+        "id": 517038701,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1746772241
+    },
+    {
+        "content": "<p><a href=\"https://chat.inkscape.org\">https://chat.inkscape.org</a> is powered by <a href=\"https://github.com/RocketChat/Rocket.Chat\">RocketChat</a>, which is open source.</p>",
+        "id": 517099907,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1746793849
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"758117\">@Alya Abbott</span> </p>\n<h3>On URLS</h3>\n<p>I don't find URLs like this very readable:</p>\n<p><code>/#narrow/channel/457248-applenerds/topic/Is.20there.20any.20way.20to.20fine.20tune.20find.20my.3F/with/501702223</code></p>\n<p>I think you're trying to embed too much information in it. This is much better (imho):</p>\n<p><code>/#/channel/applenerds/topic/501702223</code></p>\n<p><em>(I'm not sure what's up with the <code>#narrow</code> part, but I'm sure there's a story there...)</em></p>\n<p>Or you could go one step further and give channels primacy by assuming if there isn't a special prefix (such as <code>/dm/</code>) in the URL then it's a channel. Then it could be:</p>\n<p><code>/#/applenerds/topic/501702223</code></p>\n<p>And linking to a message could be:</p>\n<p><code>/#/applenerds/topic/501702223/message/8675309</code></p>\n<p>You could even establish a default pattern where it's always: <code>/:channel/:topic/:message</code>. Then deep-linking to a specific Zulip message would be as clean as:</p>\n<p><code>/#/applenerds/501702223/8675309</code></p>\n<p>I'm sure there's all kinds of technical reasons why making these kind of changes throughout the app would be difficult, and I'm not even suggesting that it's worth your while. I just know pretty URLs when I see them (GitHub is a great example of this) and Zulip lacks in that (admittedly narrow) category.</p>\n<h2>On emoji</h2>\n<p>The emoji picker on desktop is fine, but the mobile one is super slow to use. What's lacking from both is some kind of \"recently used\" or \"frequently used\" that is customized to you. Another way of tackling that same need is by letting people <em>sticky</em> their favorite/frequent emoji to the top/front.</p>\n<p>An example: I'm a <span aria-label=\"green heart\" class=\"emoji emoji-1f49a\" role=\"img\" title=\"green heart\">:green_heart:</span> guy. I pretty much never use the red one (ok one person gets the red one, but she's not here <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span>). The red one may be popular, but I have no use for it in this context, so I have to go fetch the green one each time.</p>\n<p>Each of us probably have a set of emoji that we use often enough that we'd like some more advanced features to improve the experience.</p>",
+        "id": 517121168,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1746799898
+    },
+    {
+        "content": "<p>URLs on Stack Overflow are fairly readable, and they do a pretty good job of putting information in them. For example: <a href=\"https://stackoverflow.com/questions/3523534/what-are-some-good-ways-to-manage-a-changelog-using-git/22492425#22492425\">https://stackoverflow.com/questions/3523534/what-are-some-good-ways-to-manage-a-changelog-using-git/22492425#22492425</a></p>\n<p>The interesting thing is that you can replace the readable part (the question) with whatever and the link still works: <a href=\"https://stackoverflow.com/questions/3523534/foobar/22492425#22492425\">https://stackoverflow.com/questions/3523534/foobar/22492425#22492425</a></p>",
+        "id": 517180492,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1746821116
+    },
+    {
+        "content": "<p>That's helpful, thanks! <a href=\"https://github.com/zulip/zulip/issues/21841\">Add a \"Frequently used\" emoji to emoji selector #21841</a> is the relevant issue we have for emoji; let me add it to our release board so that we can think about prioritizing it; it might be a nice intern project.</p>",
+        "id": 517195675,
+        "sender_full_name": "Alya Abbott",
+        "timestamp": 1746829529
+    },
+    {
+        "content": "<blockquote>\n<p><em>(I'm not sure what's up with the <code>#narrow</code> part, but I'm sure there's a story there...)</em></p>\n</blockquote>\n<p>Heh, yeah, that's something of a legacy term for views that we have in the codebase, but no longer use in the UI.</p>",
+        "id": 517196042,
+        "sender_full_name": "Alya Abbott",
+        "timestamp": 1746829770
+    },
+    {
+        "content": "<p>For URLs, the 10.0 release has hopefully made them a lot less of a thing you need to think about:</p>\n<blockquote>\n<p>When you paste a Zulip link anywhere that accepts HTML formatting (e.g., your email, GitHub, docs, etc.), the link will be automatically converted into the standard Zulip format (e.g., <a href=\"https://blog.zulip.com/2025/03/20/zulip-10-0-released/#easier-to-link-to-zulip-content\">#channel &gt; topic</a>).</p>\n</blockquote>\n<p>But an engineer would be in a better position to comment on what's hard easy/for the format. My guess is that the next major project related to URLs that we'd want to tackle is <a href=\"https://github.com/zulip/zulip/issues/21881\">Add an option to make web-public channels search indexable #21881</a> (not currently prioritized, as it's pretty tricky).</p>",
+        "id": 517196795,
+        "sender_full_name": "Alya Abbott",
+        "timestamp": 1746830274
+    },
+    {
+        "content": "<p>I'm glad to see the commitment to change. </p>\n<p>I've run a Slack with ~4k accounts but only about 300 MAUs and have been thinking about migration for at least 4 years. I'm worried about attrition among the MAUs because of \"yet another chat app\" feelings and that Slack is generally allowed on corporate workstations and Zulip is an unknown requiring more research and surveying to ascertain.</p>",
+        "id": 517265368,
+        "sender_full_name": "Colin Dean",
+        "timestamp": 1746889237
+    },
+    {
+        "content": "<p>I wouldn't worry so much. The users that are actually chatting will migrate. The rest can see the read-only chat and decide to come later.</p>",
+        "id": 517295868,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1746911674
+    },
+    {
+        "content": "<p>First time Zulip user, still figuring out the concept of topic.</p>",
+        "id": 517301068,
+        "sender_full_name": "Raymond",
+        "timestamp": 1746916870
+    },
+    {
+        "content": "<p>Folks here might be interested in a <a href=\"https://blog.zulip.com/2025/07/24/who-owns-your-slack-history/\">blog post</a> we just published about Slack's controlling practices towards their users' message history. Slack's policies look a lot like this fictional camera app FAQ: <span aria-label=\"crying cat\" class=\"emoji emoji-1f63f\" role=\"img\" title=\"crying cat\">:crying_cat:</span> </p>\n<blockquote>\n<ol>\n<li><strong>Can I view my pictures any time?</strong> You can view them for 90 days for free! After that, you can sign up for a paid plan to keep access. You’ve got a year until this app starts deleting older pictures.</li>\n<li><strong>Can I download my pictures?</strong> You can download the ones you’ve shared with all your friends! A paid plan is required to download the rest.</li>\n<li><strong>I wrote an app to crop my ex out of my pictures. Can I use it?</strong> You can use any app in our app store.</li>\n<li><strong>Can I use my app if it's not in your app store?</strong> To keep you safe, you can use your app on up to 15 photos per minute if it’s not in the app store.</li>\n<li><strong>All right, how do I get my app into your app store?</strong> Submit it for review, and we’ll approve if your app is the right fit for the SnatchCam Marketplace. Make sure at least 9 of your friends already have it installed.</li>\n<li><strong>I'm switching to another camera app. I’m on a paid plan — you said I can download my pictures?</strong> You need a more expensive paid plan.</li>\n<li><strong>OK, I’m on the expensive plan now, let me download my photos!</strong> Your application to download your photos has been denied.</li>\n</ol>\n</blockquote>",
+        "id": 530669152,
+        "sender_full_name": "Alya Abbott",
+        "timestamp": 1753403158
+    },
+    {
+        "content": "<p>This is very cute. Congrats to the Zulip team! <a href=\"https://blog.zulip.com/2025/11/24/zulip-ten-years/\">https://blog.zulip.com/2025/11/24/zulip-ten-years/</a></p>",
+        "id": 560277021,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1764117660
+    },
+    {
+        "content": "<p>another reason to not use Slack is that its CEO is a MAGA: <a href=\"https://www.theguardian.com/technology/2025/oct/20/salesforces-marc-benioff-trump-aws-outage-openai-sora\">https://www.theguardian.com/technology/2025/oct/20/salesforces-marc-benioff-trump-aws-outage-openai-sora</a><br>\n(Salesforce acquired Slack)</p>",
+        "id": 560277308,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1764117830
+    }
+]

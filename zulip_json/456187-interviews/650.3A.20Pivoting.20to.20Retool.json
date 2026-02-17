@@ -1,0 +1,56 @@
+[
+    {
+        "content": "<p>David Hsu from Retool joins Adam to discuss how he built Retool. From the pivot in YC, to building the mostly widely used internal tools platform, to now being the platform for AI agents in the enterprise—on this episode we cover David journey from YC to building agents for the enterprise. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/650\">https://changelog.fm/650</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.fm/650#t=0\">00:00</a></td>\n<td>This week on The Changelog</td>\n<td>01:07</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.fm/650#t=67\">01:07</a></td>\n<td><a href=\"https://auth0.com/ai\">Sponsor: Auth0</a></td>\n<td>01:29</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.fm/650#t=160\">02:40</a></td>\n<td>Start the show!</td>\n<td>06:16</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.fm/650#t=536\">08:56</a></td>\n<td>Y Combinator experience</td>\n<td>03:00</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.fm/650#t=716\">11:56</a></td>\n<td>What is an internal tool</td>\n<td>02:11</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.fm/650#t=846\">14:06</a></td>\n<td>Pivoting to Retool</td>\n<td>03:42</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.fm/650#t=1068\">17:48</a></td>\n<td>Ah ha! moment</td>\n<td>06:30</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.fm/650#t=1458\">24:18</a></td>\n<td>Has the mission changed at all?</td>\n<td>11:29</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.fm/650#t=2147\">35:47</a></td>\n<td><a href=\"https://www.coderabbit.ai\">Sponsor: CodeRabbit</a></td>\n<td>02:43</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.fm/650#t=2311\">38:31</a></td>\n<td>Agents in the Enterprise</td>\n<td>06:22</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.fm/650#t=2692\">44:52</a></td>\n<td>What agents are being built?</td>\n<td>09:01</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.fm/650#t=3233\">53:53</a></td>\n<td>Agent framework</td>\n<td>03:33</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.fm/650#t=3447\">57:27</a></td>\n<td>Internal tools templates</td>\n<td>05:12</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.fm/650#t=3759\">1:02:39</a></td>\n<td>Internal tools at Retool</td>\n<td>03:33</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.fm/650#t=3972\">1:06:12</a></td>\n<td>Can AI build my Retool tools?</td>\n<td>03:00</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.fm/650#t=4152\">1:09:12</a></td>\n<td>App from DB?</td>\n<td>09:09</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.fm/650#t=4701\">1:18:21</a></td>\n<td>Wrapping up</td>\n<td>01:35</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.fm/650#t=4795\">1:19:55</a></td>\n<td>Closing thoughts and stuff</td>\n<td>02:01</td>\n</tr>\n</tbody>\n</table>",
+        "id": 529362669,
+        "sender_full_name": "Logbot",
+        "timestamp": 1752790031
+    },
+    {
+        "content": "<p>I said this back on Slack when the Retool ads dropped and I'll say it again: I think \"CRUD without the crap\" is a winner of a slogan for Retool and they can have that one for free.</p>",
+        "id": 529582500,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1752937989
+    },
+    {
+        "content": "<p>The pitch of being able to build a Cursor style agent for any internal tool sounds like a compelling sell for optimizing a business. But I really have to worry about the blast radius with some of these apps, especially since they often include customer and employee data, control interactions with them, and are linked up with finance.</p>\n<p>Given that story about replit deleting that guy’s production DB (which I mean… backups, bro) it would kind of give me pause to give an agent that kind of power.</p>",
+        "id": 530364087,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1753281871
+    },
+    {
+        "content": "<p>Another thought: I bet y’all could come up with some internal apps. After all, you built your own podcast publication platform! And CDN! What’s something internal facing that isn’t as nice as you’d like right now?</p>\n<p>Or, I seem to remember Adam mentioning that you have all of your raw audio archived on one of the storage episodes. Do you have a nice interface on top of that?</p>\n<p>Suggesting those because the couple of times I’ve played around with Retool I’ve liked it enough to try to get it in the door (and was laid off right in the middle of the sales process <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span>— but that shouldn’t be a problem for you!).</p>",
+        "id": 530365405,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1753282219
+    },
+    {
+        "content": "<p>I gotta be honest - getting feedback on my primary job from an LLM rather than my manager sounds pretty dystopian.</p>\n<p>Like, I'm sure things are headed that way, but my goodness that will be miserable. Does it write your performance review too? Decide when to let people go or open new headcount?</p>\n<p>Maybe I'm being overdramatic, but I imagine there will be some very interesting stories in the future. I'm not going to say \"the next couple of years\" because these changes are going to be ongoing for many years to come...</p>\n<p>I also can't say I share David's optimism on increasing abundance being spread around to everyday people - but we've gotten into politics enough lately <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 536953926,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1756609652
+    },
+    {
+        "content": "<p>I wonder if people will feel the AI will be less biased and less affected by office politics and therefore will prefer it.</p>",
+        "id": 537010180,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1756676226
+    },
+    {
+        "content": "<p>The performance self evaluation system at work has a \"proof read this with AI\" button that is sometimes not hot garbage</p>",
+        "id": 537024978,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1756694500
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"755905\">Tim Uckun</span> <a href=\"#narrow/channel/456187-interviews/topic/650.3A.20Pivoting.20to.20Retool/near/537010180\">said</a>:</p>\n<blockquote>\n<p>I wonder if people will feel the AI will be less biased and less affected by office politics and therefore will prefer it.</p>\n</blockquote>\n<p>Hmmm maybe, I prefer to actually know the office politics since that still affects me though. My experience so far with LLMs makes me think I'd hate this (I wouldn't mind feedback more generally, but not to replace my boss)</p>",
+        "id": 537025312,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1756694852
+    },
+    {
+        "content": "<blockquote>\n<p>less affected by office politics</p>\n</blockquote>\n<p>Just wait til people realise who gets to write the prompts that are evaluating them.</p>",
+        "id": 537033964,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1756703719
+    }
+]

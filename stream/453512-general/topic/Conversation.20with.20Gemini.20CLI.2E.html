@@ -1,0 +1,72 @@
+<html>
+<head><meta charset="utf-8"><title>Conversation with Gemini CLI. · general · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/index.html">general</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Conversation.20with.20Gemini.20CLI.2E.html">Conversation with Gemini CLI.</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="526718079"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Conversation%20with%20Gemini%20CLI./near/526718079" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Conversation.20with.20Gemini.20CLI.2E.html#526718079">(Jul 02 2025 at 04:34)</a>:</h4>
+<p>I decided to give Gemini CLI a try and it didn't go very well. I decided to talk to it about it. Here is the conversation.</p>
+<blockquote>
+<p>Last three times we interacted you ended up messing up. The first time you seemed to get hung up in an infinite loop, the second time you <br>
+just stopped responding for no apparent reason and the third time you encountered an error in the code and hung. Every time I had to kill  the cli in order to restart which lost all context.  Next time you become unresponsive or get stuck in an infinite loop how do I break your process without losing context?</p>
+</blockquote>
+<p>✦ I understand your frustration. That sounds like a poor experience.</p>
+<p>If I become unresponsive or get stuck, you can interrupt my current operation by pressing Ctrl+C.</p>
+<p>This will stop what I'm currently doing (whether I'm thinking or running a tool) and return control to you without terminating the main CLI. Your session context and history will be preserved, so you can continue our conversation from where we left off.</p>
+<blockquote>
+<p>ctrl-c didn't seem to stop you, you said to hit ctrl-c again which ended the session</p>
+</blockquote>
+<p>✦ You are right, and I apologize for that frustrating experience. My previous advice was incomplete and led to the very problem you're trying to avoid. The behavior you described—where the first Ctrl+C is caught and the second one terminates everything—is a failure in how the process I'm running handles interruptions.</p>
+<p>Thank you for bringing this to my attention. I need to be more careful.</p>
+<p>From now on, I will adopt a safer approach for tasks that might hang:</p>
+<p>1. <strong>Timeouts:</strong> For potentially long-running commands, I will try to use timeouts (e.g., timeout 300s &lt;command&gt;) to automatically stop them if</p>
+<p>they get stuck.</p>
+<p>2. <strong>Targeted Process Killing:</strong> If a command I run becomes unresponsive, I will use its specific Process ID (PID) to terminate only that  command, leaving our session intact. I will ask for your confirmation before doing so.</p>
+<p>My goal is to manage the processes I start so that you don't have to intervene. You should not need to use Ctrl+C at all. If you see me running a command and it seems to be stuck, please tell me, and I will terminate it safely for you.</p>
+<blockquote>
+<p>How can I tell you to stop if you are unresponsive?</p>
+</blockquote>
+<p>✦ You are absolutely right. You've exposed a critical flaw in my previous answers. If I am unresponsive, you cannot "tell" me anything in a new message because I am still processing the old one. I apologize for the frustrating and circular logic.</p>
+<p>Here is the correct, albeit unfortunate, reality of the situation:</p>
+<p>* <strong>The First <code>Ctrl+C</code>:</strong> This sends an "interrupt" signal. My goal is to catch this signal to stop my current task (like a long-running command or a piece of code I'm analyzing) and return control to you without losing our session context. This is the "graceful stop."</p>
+<p>* <strong>The Failure You're Experiencing:</strong> Sometimes, the process I've started cannot be interrupted gracefully, or there is a bug in my handling of the interrupt signal. When this happens, I get stuck, and the "graceful stop" fails.</p>
+<p>* <strong>The Second <code>Ctrl+C</code>:</strong> When the first interrupt doesn't work, the CLI gives you a second option: force-quit the entire application. This is what causes you to lose the context.</p>
+<p>You are correct that there is no way for you to send me a message while I am stuck. The responsibility lies with me to avoid getting into these situations in the first place.</p>
+<p>I will be more diligent. I will make better use of timeouts and run commands in the background when appropriate, so that I can monitor and terminate them if they hang. </p>
+<p>Thank you for holding me accountable.</p>
+
+
+
+<a name="526718233"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Conversation%20with%20Gemini%20CLI./near/526718233" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Conversation.20with.20Gemini.20CLI.2E.html#526718233">(Jul 02 2025 at 04:36)</a>:</h4>
+<p>Frankly I don't know what to make of this conversation but I find it remarkable in every way.</p>
+
+
+
+<a name="526733035"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Conversation%20with%20Gemini%20CLI./near/526733035" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Alex Barnes <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Conversation.20with.20Gemini.20CLI.2E.html#526733035">(Jul 02 2025 at 07:06)</a>:</h4>
+<p>I've had a play around with Gemini and had the same issues, it seemed to frequently get stuck in loops. I've also been using Claude code quite a bit over the past week. I had similar issues with that crashing, it would do stuff like run the main go application which would then block whilst waiting for http requests and Claude couldn't close it. Had the same issues with tests running longer than it could handle. But with Claude I added it to it's memory to not run the main application and not run tests without timeouts and it's been ok since then.</p>
+
+
+
+<a name="526886008"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Conversation%20with%20Gemini%20CLI./near/526886008" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Conversation.20with.20Gemini.20CLI.2E.html#526886008">(Jul 02 2025 at 22:01)</a>:</h4>
+<p>That's a good idea. I think I will put that in the intructions and see what happens. Claude (via sketch) has been better than Gemini but still writes very odd go code. I think I might give up on trying to use go with LLMs and maybe give javascript/typescript a try but I am afraid it's just going to generate react code and I don't know react and don't want to learn it either.</p>
+
+
+
+<a name="527079556"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/453512-general/topic/Conversation%20with%20Gemini%20CLI./near/527079556" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/453512-general/topic/Conversation.20with.20Gemini.20CLI.2E.html#527079556">(Jul 03 2025 at 22:06)</a>:</h4>
+<p>I gave Gemini CLI another try last night and it kept failing with 503 and 500 errors. I kept retrying though and it eventually finished what I started. I have no idea what google is doing but it's not a good look to get "server too busy" errors when trying to use an AI even one that it's costing me anything because of the generous free tier.</p>
+<p>I didn't get a chance to look at the code, I'll do that tonight.</p>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

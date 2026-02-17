@@ -1,0 +1,274 @@
+<html>
+<head><meta charset="utf-8"><title>674: Securing npm is table stakes · interviews · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/index.html">interviews</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/674.3A.20Securing.20npm.20is.20table.20stakes.html">674: Securing npm is table stakes</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="570818675"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/674%3A%20Securing%20npm%20is%20table%20stakes/near/570818675" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/674.3A.20Securing.20npm.20is.20table.20stakes.html#570818675">(Jan 29 2026 at 15:00)</a>:</h4>
+<p>As the creator and long-time maintainer of ESLint, Nicholas Zakas is well-positioned to criticize GitHub's recent response to npm's insecurity. He found the response insufficient, and has other ideas on how GitHub could secure npm better. On this episode, Nicholas details these ideas, paints a bleak picture of npm alternatives like JSR, and shares our frustration that such a critical piece of internet infrastructure feels neglected. <span aria-label="link" class="emoji emoji-1f517" role="img" title="link">:link:</span> <a href="https://changelog.fm/674">https://changelog.fm/674</a></p>
+<table>
+<thead>
+<tr>
+<th>Ch</th>
+<th>Start</th>
+<th>Title</th>
+<th>Runs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>01</td>
+<td><a href="https://changelog.fm/674#t=0">00:00</a></td>
+<td>Welcome to The Changelog</td>
+<td>01:01</td>
+</tr>
+<tr>
+<td>02</td>
+<td><a href="https://changelog.fm/674#t=61">01:01</a></td>
+<td><a href="https://www.tigerdata.com">Sponsor: Tiger Data</a></td>
+<td>02:34</td>
+</tr>
+<tr>
+<td>03</td>
+<td><a href="https://changelog.fm/674#t=214">03:34</a></td>
+<td>Start the show!</td>
+<td>01:21</td>
+</tr>
+<tr>
+<td>04</td>
+<td><a href="https://changelog.fm/674#t=295">04:55</a></td>
+<td>Recent npm history</td>
+<td>05:12</td>
+</tr>
+<tr>
+<td>05</td>
+<td><a href="https://changelog.fm/674#t=607">10:07</a></td>
+<td>GitHub's response</td>
+<td>03:10</td>
+</tr>
+<tr>
+<td>06</td>
+<td><a href="https://changelog.fm/674#t=797">13:17</a></td>
+<td>Trusted publishing</td>
+<td>03:12</td>
+</tr>
+<tr>
+<td>07</td>
+<td><a href="https://changelog.fm/674#t=988">16:28</a></td>
+<td>What makes it trusted</td>
+<td>03:49</td>
+</tr>
+<tr>
+<td>08</td>
+<td><a href="https://changelog.fm/674#t=1217">20:17</a></td>
+<td>What they're not doing</td>
+<td>02:36</td>
+</tr>
+<tr>
+<td>09</td>
+<td><a href="https://changelog.fm/674#t=1373">22:53</a></td>
+<td><a href="https://namespace.so">Sponsor: Namespace</a></td>
+<td>01:38</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://changelog.fm/674#t=1471">24:31</a></td>
+<td>Misaligned incentives</td>
+<td>03:18</td>
+</tr>
+<tr>
+<td>11</td>
+<td><a href="https://changelog.fm/674#t=1668">27:48</a></td>
+<td>One big attack away</td>
+<td>03:27</td>
+</tr>
+<tr>
+<td>12</td>
+<td><a href="https://changelog.fm/674#t=1875">31:15</a></td>
+<td>How staffed is npm?</td>
+<td>02:17</td>
+</tr>
+<tr>
+<td>13</td>
+<td><a href="https://changelog.fm/674#t=2012">33:32</a></td>
+<td>Is using npm still prudent?</td>
+<td>04:22</td>
+</tr>
+<tr>
+<td>14</td>
+<td><a href="https://changelog.fm/674#t=2274">37:54</a></td>
+<td>Pre/post install hooks</td>
+<td>09:29</td>
+</tr>
+<tr>
+<td>15</td>
+<td><a href="https://changelog.fm/674#t=2842">47:22</a></td>
+<td>Verified publishers</td>
+<td>02:56</td>
+</tr>
+<tr>
+<td>16</td>
+<td><a href="https://changelog.fm/674#t=3019">50:19</a></td>
+<td><a href="https://www.squarespace.com/changelog">Sponsor: Squarespace</a></td>
+<td>01:23</td>
+</tr>
+<tr>
+<td>17</td>
+<td><a href="https://changelog.fm/674#t=3102">51:42</a></td>
+<td>JSR and vlt</td>
+<td>05:36</td>
+</tr>
+<tr>
+<td>18</td>
+<td><a href="https://changelog.fm/674#t=3438">57:18</a></td>
+<td>An Anthropic registry</td>
+<td>06:06</td>
+</tr>
+<tr>
+<td>19</td>
+<td><a href="https://changelog.fm/674#t=3804">1:03:24</a></td>
+<td>How other ecosystems do it</td>
+<td>05:12</td>
+</tr>
+<tr>
+<td>20</td>
+<td><a href="https://changelog.fm/674#t=4116">1:08:36</a></td>
+<td>The cool factor</td>
+<td>01:32</td>
+</tr>
+<tr>
+<td>21</td>
+<td><a href="https://changelog.fm/674#t=4207">1:10:07</a></td>
+<td>The profit incentive</td>
+<td>02:54</td>
+</tr>
+<tr>
+<td>22</td>
+<td><a href="https://changelog.fm/674#t=4382">1:13:02</a></td>
+<td>Nicholas' work</td>
+<td>02:43</td>
+</tr>
+<tr>
+<td>23</td>
+<td><a href="https://changelog.fm/674#t=4544">1:15:44</a></td>
+<td>Connecting with Nicholas</td>
+<td>01:07</td>
+</tr>
+<tr>
+<td>24</td>
+<td><a href="https://changelog.fm/674#t=4611">1:16:51</a></td>
+<td>AI: not just hype</td>
+<td>02:35</td>
+</tr>
+<tr>
+<td>25</td>
+<td><a href="https://changelog.fm/674#t=4766">1:19:26</a></td>
+<td>Wrapping up</td>
+<td>00:25</td>
+</tr>
+<tr>
+<td>26</td>
+<td><a href="https://changelog.fm/674#t=4792">1:19:52</a></td>
+<td>Closing thoughts</td>
+<td>01:18</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<a name="570864033"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/674%3A%20Securing%20npm%20is%20table%20stakes/near/570864033" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Duncan <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/674.3A.20Securing.20npm.20is.20table.20stakes.html#570864033">(Jan 29 2026 at 18:08)</a>:</h4>
+<p>Uh-oh - Seemed like all the Deno references were past tense as if it's a failed endeavour</p>
+
+
+
+<a name="570875102"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/674%3A%20Securing%20npm%20is%20table%20stakes/near/570875102" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jerod Santo <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/674.3A.20Securing.20npm.20is.20table.20stakes.html#570875102">(Jan 29 2026 at 19:08)</a>:</h4>
+<p>Yeah that is the gist of the report that Nicholas gave us, sadly</p>
+
+
+
+<a name="571157263"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/674%3A%20Securing%20npm%20is%20table%20stakes/near/571157263" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/674.3A.20Securing.20npm.20is.20table.20stakes.html#571157263">(Jan 31 2026 at 03:07)</a>:</h4>
+<p>I mentioned this before but....</p>
+<p>Why does a package repository have to cost so much? Why not leverage a distributed file system like IPFS or freenet/hyphanet or whatnot. The premise is simple.  Each package consists of two part, a manifest and a blob (zip file). </p>
+<ul>
+<li>The manifest is plain text (xml) and is hosted on any https URL. </li>
+<li>The URL could be the private server of the author or a centralized repository or a github/gitlab repo</li>
+<li>The manifest has mandatory fields such as author, dependencies, the binary format, whether the blob is signed etc.</li>
+<li>One mandatory field is the checksum of the blob</li>
+<li>the blob contains the manifest minus (minus the checksum field which is added when the package is published)</li>
+<li>The manifest lists the required permissions to install (like the app store)</li>
+<li>the manifest contains the pre and post install scripts</li>
+</ul>
+<p>The blob is stored on a distributed file system using the checksum as the file name.</p>
+<p>Anybody can examine the manifest to make sure everything is up to snuff.</p>
+<p>The package manager downloads the manifest, resolves dependencies, and downloads the binary. It opens up the binary and compares the manifest in the blob with the published one to make sure everything matches.<br>
+The package manager verifies any signatures etc.<br>
+The package manager is an interpreter for a very small and limited language which can run pre and post install scripts in the manifest (CDATA sections). The code is run sandboxed and asks the user for permissions if the script attempts to reach out to the internet, access the file system outside of the sandbox etc. </p>
+<p>Optionally the package manager can be node in the distributed file system which would make it able to cache the packages for repeat installs.</p>
+<p>In an ideal world there would be a crypto currency where the user can earn money for acting as a node and the package maintainer can charge for the packages.   Some careful thought can result in a thriving economy of open source packages.</p>
+<p>The whole thing would be decentralized so no central authority no corporate control or anything.</p>
+
+
+
+<a name="571163270"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/674%3A%20Securing%20npm%20is%20table%20stakes/near/571163270" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/674.3A.20Securing.20npm.20is.20table.20stakes.html#571163270">(Jan 31 2026 at 04:53)</a>:</h4>
+<p>it's now completely infeasibile to offer free compute ( <a href="https://drewdevault.com/2021/04/26/Cryptocurrency-is-a-disaster.html">https://drewdevault.com/2021/04/26/Cryptocurrency-is-a-disaster.html</a> ) and there are probably similar pressures making it difficult to offer free storage<br>
+even with low cost networking, we don't see a substantial portion of unused network bandwidth donated to tor<br>
+it's possibly just too difficult to bootstrap a sustainable socialist/community project like this within the confines of capitalism: eventually one or more of the giants is required in order to fund it</p>
+
+
+
+<a name="571221070"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/674%3A%20Securing%20npm%20is%20table%20stakes/near/571221070" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Don MacKinnon <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/674.3A.20Securing.20npm.20is.20table.20stakes.html#571221070">(Jan 31 2026 at 18:33)</a>:</h4>
+<p>I’ve been raising these supply chain concerns for ages. It’s really unfortunate that Microsoft doesn’t put more budget towards addressing this. It’s a ticking time bomb over there and so many companies rely on NPM. It’s a bummer that JSR didn’t make it, I had hopes for it.</p>
+
+
+
+<a name="571225759"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/674%3A%20Securing%20npm%20is%20table%20stakes/near/571225759" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/674.3A.20Securing.20npm.20is.20table.20stakes.html#571225759">(Jan 31 2026 at 19:48)</a>:</h4>
+<p>to avoid supply-chain attacks, should we be bypassing <a href="http://npmjs.com">npmjs.com</a> and referring directly to git repositories + commits/tags per <a href="https://kerkour.com/rust-supply-chain-attacks">https://kerkour.com/rust-supply-chain-attacks</a> ?<br>
+seems like this doesn't accomplish much if we're already using lock files, although it does at least avoid the potential difference between the code I can review and what actually ends up being published</p>
+
+
+
+<a name="571229401"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/674%3A%20Securing%20npm%20is%20table%20stakes/near/571229401" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/674.3A.20Securing.20npm.20is.20table.20stakes.html#571229401">(Jan 31 2026 at 20:44)</a>:</h4>
+<p><span class="user-mention" data-user-id="771585">@Ron Waldon-Howe</span> The crypto part is optional and doesn't have to be based on proof of work though. It could be a premined currency like XRP or proof of stake or other much lighter algos. BTW everything I listed already exists. It's just a matter of wiring it up.</p>
+
+
+
+<a name="571229579"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/674%3A%20Securing%20npm%20is%20table%20stakes/near/571229579" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/674.3A.20Securing.20npm.20is.20table.20stakes.html#571229579">(Jan 31 2026 at 20:46)</a>:</h4>
+<p><span class="user-mention" data-user-id="755905">@Tim Uckun</span> yeah, I should have said that I know IPFS isn't cryptocurrency and doesn't have the same perverse incentives, that link was mostly to illustrate the lack of free-to-use community-owned resources (due to perverse incentives in other blockchain projects primarily cryptocurrency)</p>
+
+
+
+<a name="571230474"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/674%3A%20Securing%20npm%20is%20table%20stakes/near/571230474" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/674.3A.20Securing.20npm.20is.20table.20stakes.html#571230474">(Jan 31 2026 at 21:01)</a>:</h4>
+<p>In a way you would have an incentive to run a node just to serve the cache  packages you already downloaded. Certainly most CI and build systems would.</p>
+
+
+
+<a name="571230694"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/674%3A%20Securing%20npm%20is%20table%20stakes/near/571230694" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/674.3A.20Securing.20npm.20is.20table.20stakes.html#571230694">(Jan 31 2026 at 21:04)</a>:</h4>
+<p>yeah, even if only 1 in every 100 users of (e.g.) ESLint was providing access to their cache of it, that'd probably take a fair chunk of traffic/burden off <a href="http://npmjs.com">npmjs.com</a></p>
+
+
+
+<a name="572082095"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/674%3A%20Securing%20npm%20is%20table%20stakes/near/572082095" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Siddhartha Golu <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/674.3A.20Securing.20npm.20is.20table.20stakes.html#572082095">(Feb 05 2026 at 08:07)</a>:</h4>
+<p>Came across <a href="https://npmx.dev/">npmx.dev</a> the other day, and it looks very promising.</p>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

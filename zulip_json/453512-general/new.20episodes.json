@@ -1,0 +1,1832 @@
+[
+    {
+        "content": "<p>Changelog News 111! Discuss <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/stream/455469-news/topic/111.3A.20Is.20Linux.20collapsing.20under.20its.20own.20weight.3F\">#news &gt; 111: Is Linux collapsing under its own weight?</a></p>",
+        "id": 468901116,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1725910756
+    },
+    {
+        "content": "<p>Go Time #330! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455709\" href=\"/#narrow/stream/455709-gotime/topic/330.3A.20Home.20automation.20with.20Go\">#gotime &gt; 330: Home automation with Go</a></p>",
+        "id": 469193539,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1725996995
+    },
+    {
+        "content": "<p>Practical AI 286! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456003\" href=\"/#narrow/stream/456003-practicalai/topic/286.3A.20Cybersecurity.20in.20the.20GenAI.20age\">#practicalai &gt; 286: Cybersecurity in the GenAI age</a></p>",
+        "id": 469503177,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1726087081
+    },
+    {
+        "content": "<p>Changelog Interview #608! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/stream/456187-interviews/topic/608.3A.20Building.20customizable.20ergonomic.20keyboards\">#interviews &gt; 608: Building customizable ergonomic keyboards</a></p>",
+        "id": 469696993,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1726152446
+    },
+    {
+        "content": "<p>JS Party #338! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456196\" href=\"/#narrow/stream/456196-jsparty/topic/338.3A.20Undirected.20hyper.20arrows\">#jsparty &gt; 338: Undirected hyper arrows</a></p>",
+        "id": 469714272,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1726156249
+    },
+    {
+        "content": "<p>Practical AI #287! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456003\" href=\"/#narrow/stream/456003-practicalai/topic/287.3A.20Pausing.20to.20think.20about.20scikit-learn.20.26.20OpenAI.20o1\">#practicalai &gt; 287: Pausing to think about scikit-learn &amp; OpenAI o1</a></p>",
+        "id": 471259534,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1726666091
+    },
+    {
+        "content": "<p>Go Time #331! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455709\" href=\"/#narrow/stream/455709-gotime/topic/331.3A.20How.20I.20lost.20my.20.28old.29.20job.20to.20AI\">#gotime &gt; 331: How I lost my (old) job to AI</a></p>",
+        "id": 471282093,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1726672043
+    },
+    {
+        "content": "<p>Not sure if it's just me, but it looks like I'm getting a 404 for my custom ++ feed on the \"Best, worst codebase\" episode</p>",
+        "id": 471352988,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1726695712
+    },
+    {
+        "content": "<p>Me too and it also happens on the Supercast feed <span aria-label=\"open mouth\" class=\"emoji emoji-1f62e\" role=\"img\" title=\"open mouth\">:open_mouth:</span></p>",
+        "id": 471355394,
+        "sender_full_name": "Maroš Kučera",
+        "timestamp": 1726696818
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"750017\">@Adam Stacoviak</span> looks like the ++ file never made it to R2. Can you upload it again?</p>",
+        "id": 471359715,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1726698805
+    },
+    {
+        "content": "<p>Done.</p>",
+        "id": 471380664,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1726711444
+    },
+    {
+        "content": "<p>Should be resolved now <span class=\"user-mention\" data-user-id=\"752880\">@Lars Ellingsen</span> <span class=\"user-mention\" data-user-id=\"752835\">@Maroš Kučera</span></p>",
+        "id": 471386350,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1726714627
+    },
+    {
+        "content": "<p>Yay confirmed, thank you both! Tried after Adam's comment but it still wasn't working, figured something had to process <span aria-label=\"big smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"big smile\">:big_smile:</span> I'm excited for this one</p>",
+        "id": 471387113,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1726714998
+    },
+    {
+        "content": "<p>Changelog Interview  #609! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/stream/456187-interviews/topic/609.3A.20The.20best.2C.20worst.20codebase\">#interviews &gt; 609: The best, worst codebase</a></p>",
+        "id": 471505013,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1726757717
+    },
+    {
+        "content": "<p>JS Party #339! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456196\" href=\"/#narrow/stream/456196-jsparty/topic/339.3A.20It.27s.20all.20about.20the.20squiggles\">#jsparty &gt; 339: It's all about the squiggles</a></p>",
+        "id": 471574743,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1726786206
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #62! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/stream/455613-friends/topic/62.3A.20Kaizen.21.20Just.20do.20it\">#friends &gt; 62: Kaizen! Just do it</a></p>",
+        "id": 471803977,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1726857406
+    },
+    {
+        "content": "<p>Ship It #122! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456580\" href=\"/#narrow/stream/456580-shipit/topic/122.3A.20Linux.20distros\">#shipit &gt; 122: Linux distros</a></p>",
+        "id": 471804132,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1726857442
+    },
+    {
+        "content": "<p>Changelog News #113! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/stream/455469-news/topic/113.3A.20Imagine.20Fly.2Eio.20on.20your.20own.20VPS\">#news &gt; 113: Imagine Fly.io on your own VPS</a></p>",
+        "id": 472312285,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1727119381
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"750170\">Jerod Santo</span> <a href=\"#narrow/stream/453512-general/topic/new.20episodes/near/472312285\">said</a>:</p>\n<blockquote>\n<p>Changelog News #113! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/stream/455469-news/topic/113.3A.20Imagine.20Fly.2Eio.20on.20your.20own.20VPS\">#news &gt; 113: Imagine Fly.io on your own VPS</a></p>\n</blockquote>\n<p>The corresponding email for this  show included Avdi Grimm's list of things he would say to his younger self, starting with:<br>\n\"1. Focus on learning how to learn\"</p>\n<p>That reminded me of Richard Hamming's book, \"The Art of Doing Science and Engineering: Learning to Learn\".  An outstanding book that more people really need to know about.  Bret Victor's Foreword to the book is online, check it out here:<br>\n<a href=\"https://worrydream.com/HammingForeword/\">https://worrydream.com/HammingForeword/</a></p>",
+        "id": 472330028,
+        "sender_full_name": "Ed Howard",
+        "timestamp": 1727125052
+    },
+    {
+        "content": "<p>Go Time #332! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455709\" href=\"/#narrow/stream/455709-gotime/topic/332.3A.20.22Founder.20Mode.22.20at.20work.20when.20you.27re.20not.20a.20founder\">#gotime &gt; 332: \"Founder Mode\" at work when you're not a founder</a></p>",
+        "id": 472558383,
+        "sender_full_name": "Logbot",
+        "timestamp": 1727205331
+    },
+    {
+        "content": "<p>Practical AI #288! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"453512\" href=\"/#narrow/stream/453512-general/topic/288.3A.20GraphRAG.20.28beyond.20the.20hype.29\">#general &gt; 288: GraphRAG (beyond the hype)</a></p>",
+        "id": 472753860,
+        "sender_full_name": "Logbot",
+        "timestamp": 1727289125
+    },
+    {
+        "content": "<p>It (almost) works! That link should be <a class=\"stream-topic\" data-stream-id=\"456003\" href=\"/#narrow/stream/456003-practicalai/topic/288.3A.20GraphRAG.20.28beyond.20the.20hype.29\">#practicalai &gt; 288: GraphRAG (beyond the hype)</a></p>\n<p>I'm not a huge fan of how you link to topics via the API. There's no topic ID it's literally just a reference to the full topic string (previously <code>subject</code>). That seems... brittle?</p>",
+        "id": 472754351,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1727289342
+    },
+    {
+        "content": "<p>I agree on being brittle since the string can be changed</p>",
+        "id": 472755107,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1727289687
+    },
+    {
+        "content": "<p>Changelog Interviews #610! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/stream/456187-interviews/topic/610.3A.20Leveling.20up.20JavaScript.20with.20Deno.202\">#interviews &gt; 610: Leveling up JavaScript with Deno 2</a></p>",
+        "id": 472930427,
+        "sender_full_name": "Logbot",
+        "timestamp": 1727366735
+    },
+    {
+        "content": "<p>JS Party #340! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456196\" href=\"/#narrow/stream/456196-jsparty/topic/340.3A.20Leveling.20up.20JavaScript.20with.20Deno.202\">#jsparty &gt; 340: Leveling up JavaScript with Deno 2</a></p>",
+        "id": 472953254,
+        "sender_full_name": "Logbot",
+        "timestamp": 1727375407
+    },
+    {
+        "content": "<p>Ship It! #123! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456580\" href=\"/#narrow/stream/456580-shipit/topic/123.3A.20A.20learning.20mindset.2C.20starting.20with.20COBOL\">#shipit &gt; 123: A learning mindset, starting with COBOL</a></p>",
+        "id": 473183489,
+        "sender_full_name": "Logbot",
+        "timestamp": 1727461988
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #63! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/stream/455613-friends/topic/63.3A.20The.20wrong.20place.20to.20slap.20a.20person\">#friends &gt; 63: The wrong place to slap a person</a></p>",
+        "id": 473246990,
+        "sender_full_name": "Logbot",
+        "timestamp": 1727477108
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"750017\">Adam Stacoviak</span> <a href=\"#narrow/stream/453512-general/topic/new.20episodes/near/472755107\">said</a>:</p>\n<blockquote>\n<p>I agree on being brittle since the string can be changed</p>\n</blockquote>\n<p>We're working on a fix! <a href=\"https://github.com/zulip/zulip/pull/21505\">#21505</a> ­is the issue tracking this. (Note that links to a specific <em>message</em> already work even if the message gets moved to a different channel/topic.)</p>",
+        "id": 473771169,
+        "sender_full_name": "Alya Abbott",
+        "timestamp": 1727710228
+    },
+    {
+        "content": "<p>That'll be awesome, <span class=\"user-mention\" data-user-id=\"758117\">@Alya Abbott</span>! Any idea when this will land?</p>",
+        "id": 473771789,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1727710341
+    },
+    {
+        "content": "<p>I don't have a specific timeline, but there's been active work on it recently, and mobile clients have been updated to support the new link format. I would guess in the next month or two.</p>",
+        "id": 473772371,
+        "sender_full_name": "Alya Abbott",
+        "timestamp": 1727710431
+    },
+    {
+        "content": "<p>Changelog News #114! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/stream/455469-news/topic/114.3A.20Display.20custom.20maps.20on.20your.20website.20for.20free\">#news &gt; 114: Display custom maps on your website for free</a></p>",
+        "id": 473837275,
+        "sender_full_name": "Logbot",
+        "timestamp": 1727725508
+    },
+    {
+        "content": "<p>Changelog Interviews #611! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/stream/456187-interviews/topic/611.3A.20Free-threaded.20Python\">#interviews &gt; 611: Free-threaded Python</a></p>",
+        "id": 474368356,
+        "sender_full_name": "Logbot",
+        "timestamp": 1727893867
+    },
+    {
+        "content": "<p>Practical AI #289! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456003\" href=\"/#narrow/stream/456003-practicalai/topic/289.3A.20Understanding.20what.27s.20possible.2C.20doable.20.26.20scalable\">#practicalai &gt; 289: Understanding what's possible, doable &amp; scalable</a></p>",
+        "id": 474623434,
+        "sender_full_name": "Logbot",
+        "timestamp": 1727970366
+    },
+    {
+        "content": "<p>Go Time #333! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455709\" href=\"/#narrow/stream/455709-gotime/topic/333.3A.20Russ.20Cox.20on.20passing.20the.20torch\">#gotime &gt; 333: Russ Cox on passing the torch</a></p>",
+        "id": 474636058,
+        "sender_full_name": "Logbot",
+        "timestamp": 1727973429
+    },
+    {
+        "content": "<p>JS Party #341! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456196\" href=\"/#narrow/stream/456196-jsparty/topic/341.3A.20Create.20interactive.20tutorials.20the.20easy.20way\">#jsparty &gt; 341: Create interactive tutorials the easy way</a></p>",
+        "id": 474640305,
+        "sender_full_name": "Logbot",
+        "timestamp": 1727974807
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #64! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/stream/455613-friends/topic/64.3A.20Developer.20.28un.29happiness\">#friends &gt; 64: Developer (un)happiness</a></p>",
+        "id": 474883798,
+        "sender_full_name": "Logbot",
+        "timestamp": 1728068406
+    },
+    {
+        "content": "<p>Ship It! #124! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456580\" href=\"/#narrow/stream/456580-shipit/topic/124.3A.20You.20suck.20at.20programming\">#shipit &gt; 124: You suck at programming</a></p>",
+        "id": 474907916,
+        "sender_full_name": "Logbot",
+        "timestamp": 1728080225
+    },
+    {
+        "content": "<p>Changelog News #115! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/stream/455469-news/topic/115.3A.20The.20slow.20death.20of.20the.20hyperlink\">#news &gt; 115: The slow death of the hyperlink</a></p>",
+        "id": 475371007,
+        "sender_full_name": "Logbot",
+        "timestamp": 1728327607
+    },
+    {
+        "content": "<p>Practical AI #290! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456003\" href=\"/#narrow/stream/456003-practicalai/topic/290.3A.20Towards.20high-quality.20.28maybe.20synthetic.29.20datasets\">#practicalai &gt; 290: Towards high-quality (maybe synthetic) datasets</a></p>",
+        "id": 475863933,
+        "sender_full_name": "Logbot",
+        "timestamp": 1728480606
+    },
+    {
+        "content": "<p>Go Time #334! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455709\" href=\"/#narrow/stream/455709-gotime/topic/334.3A.20Unpop.20roundup\">#gotime &gt; 334: Unpop roundup</a></p>",
+        "id": 475942158,
+        "sender_full_name": "Logbot",
+        "timestamp": 1728502207
+    },
+    {
+        "content": "<p>JS Party #342! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456196\" href=\"/#narrow/stream/456196-jsparty/topic/342.3A.20A.20great.20horse.20to.20bet.20on\">#jsparty &gt; 342: A great horse to bet on</a></p>",
+        "id": 476170364,
+        "sender_full_name": "Logbot",
+        "timestamp": 1728576614
+    },
+    {
+        "content": "<p>Changelog Interviews #612! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/stream/456187-interviews/topic/612.3A.20The.20Moneyball.20approach\">#interviews &gt; 612: The Moneyball approach</a></p>",
+        "id": 476187946,
+        "sender_full_name": "Logbot",
+        "timestamp": 1728582427
+    },
+    {
+        "content": "<p>Ship It! #125! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456580\" href=\"/#narrow/stream/456580-shipit/topic/125.3A.20TIME.20to.20get.20SERIESous.20about.20databases\">#shipit &gt; 125: TIME to get SERIESous about databases</a></p>",
+        "id": 476406013,
+        "sender_full_name": "Logbot",
+        "timestamp": 1728658807
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #65! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/stream/455613-friends/topic/65.3A.20The.20indispensable.20cog\">#friends &gt; 65: The indispensable cog</a></p>",
+        "id": 476447002,
+        "sender_full_name": "Logbot",
+        "timestamp": 1728675008
+    },
+    {
+        "content": "<p>Changelog News #116! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/stream/455469-news/topic/116.3A.20Working.20from.20home.20is.20powering.20productivity\">#news &gt; 116: Working from home is powering productivity</a></p>",
+        "id": 476841906,
+        "sender_full_name": "Logbot",
+        "timestamp": 1728934207
+    },
+    {
+        "content": "<p>Practical AI #291! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456003\" href=\"/#narrow/stream/456003-practicalai/topic/291.3A.20Practical.20workflow.20orchestration\">#practicalai &gt; 291: Practical workflow orchestration</a></p>",
+        "id": 477061564,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729022407
+    },
+    {
+        "content": "<p>JS Party #343! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456196\" href=\"/#narrow/channel/456196-jsparty/topic/343.3A.20Digging.20through.20Jerod.20Santo.E2.80.99s.20tool.20box\">#jsparty &gt; 343: Digging through Jerod Santo’s tool box</a></p>",
+        "id": 477487621,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729184466
+    },
+    {
+        "content": "<p>Changelog Interviews #613! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/613.3A.20Lessons.20from.2010k.20hours.20of.20programming.20.28Remastered.29\">#interviews &gt; 613: Lessons from 10k hours of programming (Remastered)</a></p>",
+        "id": 477530553,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729202466
+    },
+    {
+        "content": "<p>Ship It! #126! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456580\" href=\"/#narrow/channel/456580-shipit/topic/126.3A.20Kubernetes.20is.20an.20anti-platform\">#shipit &gt; 126: Kubernetes is an anti-platform</a></p>",
+        "id": 477684277,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729266427
+    },
+    {
+        "content": "<p>Let's see if we have issues on this one...</p>",
+        "id": 477684334,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729266448
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #66! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/66.3A.20You.27ll.20rent.20chips.20and.20be.20happy\">#friends &gt; 66: You'll rent chips and be happy</a></p>",
+        "id": 477711595,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729277287
+    },
+    {
+        "content": "<p>Yeah I'm not getting Friends or Interviews updates on custom RSS</p>",
+        "id": 477733567,
+        "sender_full_name": "Owen Valentine",
+        "timestamp": 1729285063
+    },
+    {
+        "content": "<p>Ship It has been fine tho</p>",
+        "id": 477733576,
+        "sender_full_name": "Owen Valentine",
+        "timestamp": 1729285071
+    },
+    {
+        "content": "<p>Something strange in the neighborhood</p>",
+        "id": 477735478,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729286103
+    },
+    {
+        "content": "<p>Friends 66 was in my custom feeds when I looked this morning (UK time).</p>",
+        "id": 477778155,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1729318861
+    },
+    {
+        "content": "<p>I still didn't have the latest ship it or friends today. Tried viewing RSS feed in incognito tab and I could see them. So tried switching my WiFi off and refreshed in podcast addict and they showed up 🤷🏻 strange</p>",
+        "id": 477878195,
+        "sender_full_name": "Alex Barnes",
+        "timestamp": 1729413035
+    },
+    {
+        "content": "<p>Yeah I still don't have them in my feed. Very weird</p>",
+        "id": 477914057,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1729446708
+    },
+    {
+        "content": "<p>For whatever reason using my custom feed with Apple Podcast is stuck, it stopped getting new episodes sometime after Monday Oct 14th because I got the News #116, but didn't get Interview #613, Friends #66, or ShipIt #126... I took that as a sign that I needed to try using Overcast or Castro which I had previously setup the old Supercast feed with a while back but never switched over to. I ended up trying out Castro and removing the old Supercast feed then adding the same custom feed that I had used with Apple Podcasts and it loaded all the episodes... so I started using it now. Apple Podcast still doesn't show any new episodes from my custom feed. I even tried removing it from Apple Podcast and re-adding it, even though that destroys all of my listen history for the feed and it still failed to show newer episodes than Monday OCt 14th. The same feed shows new episodes in Castro and Overcast just fine, and Castro seems to be working just fine for me so far (3 episodes in).</p>",
+        "id": 477932562,
+        "sender_full_name": "Matt Johnson",
+        "timestamp": 1729462962
+    },
+    {
+        "content": "<p>I tried switching back to Castro the other day because Overcast was being annoyingly glitchy, and I noticed when I entered the custom feed URL Castro took a long time thinking about it before displaying the feed name. Perhaps the custom feeds are being a bit slow and Apple Podcasts is timing out trying to refresh the feed or something.</p>",
+        "id": 477980660,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1729495970
+    },
+    {
+        "content": "<p>How is Castro?? I’ve pretty much only been on Overcast for years now but there’s some bugs that are making me willing to be app curious again</p>",
+        "id": 478065502,
+        "sender_full_name": "Dustin",
+        "timestamp": 1729518445
+    },
+    {
+        "content": "<p>Castro behaves exactly how I want a podcast player to behave. It isn't as flexible as other players, but if the system is already perfect you don't need all those other options <span aria-label=\"big smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"big smile\">:big_smile:</span></p>\n<p>I reluctantly switched away because at the time (with the previous owners) they were having server issues and their future was uncertain. I settled on Overcast because it seemed like I could emulate the Castro experience somewhat. Never loved it, but it was fine.</p>\n<p>Then I heard Changelog 589 and since then it's been on my mind to move back, but, ya know, inertia. Then Overcast started being <em>super</em> annoying the last couple of weeks, so I figured it was time. Feels like I've come home <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span></p>",
+        "id": 478080227,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1729522072
+    },
+    {
+        "content": "<p>Changelog News #117! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/117.3A.20Naming.20conventions.20that.20need.20to.20die\">#news &gt; 117: Naming conventions that need to die</a></p>",
+        "id": 478132014,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729538110
+    },
+    {
+        "content": "<p>Odd, looks like I'm getting a DNS error for <a href=\"http://changelog.com\">changelog.com</a> now when refreshing my feed (Podcast Addict)</p>",
+        "id": 478134506,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1729539155
+    },
+    {
+        "content": "<p>What does it say?</p>",
+        "id": 478134796,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729539201
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/66849/kZI89GtoXObDREumazzlijLh/f8dd5460-2576-4eff-bfc6-f7e67c434317.png\">f8dd5460-2576-4eff-bfc6-f7e67c434317.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/kZI89GtoXObDREumazzlijLh/f8dd5460-2576-4eff-bfc6-f7e67c434317.png\" title=\"f8dd5460-2576-4eff-bfc6-f7e67c434317.png\"><img data-original-dimensions=\"1079x609\" src=\"/user_uploads/thumbnail/66849/kZI89GtoXObDREumazzlijLh/f8dd5460-2576-4eff-bfc6-f7e67c434317.png/840x560.webp\"></a></div>",
+        "id": 478134932,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1729539234
+    },
+    {
+        "content": "<p>Oh ignore... This may have been a network issue on my side. Feed XML looks correct in my browser, but my app still isn't getting new episodes</p>",
+        "id": 478135407,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1729539346
+    },
+    {
+        "content": "<p>I'm still seeing delays in it rolling out to podcast apps even though I get the correct feed data from both Fastly and Cloudflare. Even when spoofing Overcast's user agent. This is the same problem as late last week, I just don't know how to fix it.</p>",
+        "id": 478136004,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729539568
+    },
+    {
+        "content": "<p>News 117 is in my Castro feed already (first time I checked, 1h20m after logbot logged it above).</p>",
+        "id": 478145361,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1729543035
+    },
+    {
+        "content": "<p>Also in Overcast.</p>",
+        "id": 478145889,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1729543233
+    },
+    {
+        "content": "<p>So, my custom feed (everything, sans News, I have it in separate feed) started 404ing in Castro. Last episode I have is Practical AI 291. Probably my fault somehow, since News still works and when I copied the URL and tried to add it to Castro, it appears as a separate show <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span> <br>\nHowever, while resolving this, I decided to do a little cleanup of my older custom feeds, because I changed my \"layout\", but I get a 500 when I try to delete a feed <span aria-label=\"open mouth\" class=\"emoji emoji-1f62e\" role=\"img\" title=\"open mouth\">:open_mouth:</span> <br>\nShould I start a new topic or file a GitHub issue, or is this an acceptable way of reporting this <span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span> ? <span aria-label=\"innocent\" class=\"emoji emoji-1f607\" role=\"img\" title=\"innocent\">:innocent:</span></p>",
+        "id": 478154325,
+        "sender_full_name": "Maroš Kučera",
+        "timestamp": 1729546585
+    },
+    {
+        "content": "<p>Not sure what happened, but my feed updated this hour <span aria-label=\"tada\" class=\"emoji emoji-1f389\" role=\"img\" title=\"tada\">:tada:</span></p>",
+        "id": 478174891,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1729555893
+    },
+    {
+        "content": "<p>Go Time #335! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455709\" href=\"/#narrow/channel/455709-gotime/topic/335.3A.20AI.20for.20Observability\">#gotime &gt; 335: AI for Observability</a></p>",
+        "id": 478504038,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729692066
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752835\">@Maroš Kučera</span> Please report that bug here: <a href=\"https://github.com/thechangelog/changelog.com/issues\">https://github.com/thechangelog/changelog.com/issues</a></p>",
+        "id": 478511855,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729694190
+    },
+    {
+        "content": "<p>Practical AI #292! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456003\" href=\"/#narrow/channel/456003-practicalai/topic/292.3A.20Big.20data.20is.20dead.2C.20analytics.20is.20alive\">#practicalai &gt; 292: Big data is dead, analytics is alive</a></p>",
+        "id": 478745692,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729784047
+    },
+    {
+        "content": "<p>Changelog Interviews #614! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/614.3A.20Elasticsearch.20is.20open.20source.2C.20again\">#interviews &gt; 614: Elasticsearch is open source, again</a></p>",
+        "id": 478746240,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729784225
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #67! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/67.3A.20Ten.20years.20of.20freeCodeCamp\">#friends &gt; 67: Ten years of freeCodeCamp</a></p>",
+        "id": 478949896,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729872908
+    },
+    {
+        "content": "<p>It _appears_ our caching issues have been resolved. Please holler here if you aren't seeing this one in your feed in a reasonable amount of time! <span aria-label=\"pray\" class=\"emoji emoji-1f64f\" role=\"img\" title=\"pray\">:pray:</span></p>",
+        "id": 478951833,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729873589
+    },
+    {
+        "content": "<p>I know you said holler if we _don't_ see the episodes, but I had the delay issue before and 67 came through lickety split <span aria-label=\"green heart\" class=\"emoji emoji-1f49a\" role=\"img\" title=\"green heart\">:green_heart:</span></p>",
+        "id": 478964387,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1729878753
+    },
+    {
+        "content": "<p>Ship It! #127! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456580\" href=\"/#narrow/channel/456580-shipit/topic/127.3A.20Your.20customer.20is.20Amazon.2Ecom\">#shipit &gt; 127: Your customer is Amazon.com</a></p>",
+        "id": 478978223,
+        "sender_full_name": "Logbot",
+        "timestamp": 1729885207
+    },
+    {
+        "content": "<p>So far so good for me, too <span aria-label=\"big smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"big smile\">:big_smile:</span></p>",
+        "id": 478999726,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1729897272
+    },
+    {
+        "content": "<p>Changelog News #118! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/118.3A.20Developing.20with.20Docker.20.28the.20right.20way.29\">#news &gt; 118: Developing with Docker (the right way)</a></p>",
+        "id": 479248065,
+        "sender_full_name": "Logbot",
+        "timestamp": 1730113207
+    },
+    {
+        "content": "<p>Practical AI #293! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456003\" href=\"/#narrow/channel/456003-practicalai/topic/293.3A.20The.20path.20towards.20trustworthy.20AI\">#practicalai &gt; 293: The path towards trustworthy AI</a></p>",
+        "id": 479546066,
+        "sender_full_name": "Logbot",
+        "timestamp": 1730228647
+    },
+    {
+        "content": "<p>JS Party #344! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456196\" href=\"/#narrow/channel/456196-jsparty/topic/344.3A.20Kind.20of.20a.20big.20deal\">#jsparty &gt; 344: Kind of a big deal</a></p>",
+        "id": 479946983,
+        "sender_full_name": "Logbot",
+        "timestamp": 1730403006
+    },
+    {
+        "content": "<p>Changelog Interviews #615! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/615.3A.20Rails.20is.20having.20a.20moment.20.28again.29\">#interviews &gt; 615: Rails is having a moment (again)</a></p>",
+        "id": 479958553,
+        "sender_full_name": "Logbot",
+        "timestamp": 1730408346
+    },
+    {
+        "content": "<p>Ship It! #128! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456580\" href=\"/#narrow/channel/456580-shipit/topic/128.3A.20Infosec.20.26.20OpenTelemetry\">#shipit &gt; 128: Infosec &amp; OpenTelemetry</a></p>",
+        "id": 480110708,
+        "sender_full_name": "Logbot",
+        "timestamp": 1730491210
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #68! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/68.3A.20Wine.20Web.20and.20a.20whole.20lot.20of.20Whatnot\">#friends &gt; 68: Wine Web and a whole lot of Whatnot</a></p>",
+        "id": 480117600,
+        "sender_full_name": "Logbot",
+        "timestamp": 1730494807
+    },
+    {
+        "content": "<p>Changelog News #119! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/119.3A.20Tactile.20controls.20are.20back.20in.20vogue\">#news &gt; 119: Tactile controls are back in vogue</a></p>",
+        "id": 480518965,
+        "sender_full_name": "Logbot",
+        "timestamp": 1730751306
+    },
+    {
+        "content": "<p>Practical AI #294! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456003\" href=\"/#narrow/channel/456003-practicalai/topic/294.3A.20AI.20is.20changing.20the.20cybersecurity.20threat.20landscape\">#practicalai &gt; 294: AI is changing the cybersecurity threat landscape</a></p>",
+        "id": 480788311,
+        "sender_full_name": "Logbot",
+        "timestamp": 1730835606
+    },
+    {
+        "content": "<p>Go Time #336! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455709\" href=\"/#narrow/channel/455709-gotime/topic/336.3A.20Writing.20a.20shell.20in.20Go\">#gotime &gt; 336: Writing a shell in Go</a></p>",
+        "id": 480999981,
+        "sender_full_name": "Logbot",
+        "timestamp": 1730926807
+    },
+    {
+        "content": "<p>Changelog Interviews #616! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/616.3A.20ANTHOLOGY.20.E2.80.94.20Packages.2C.20pledges.20.26.20protocols\">#interviews &gt; 616: ANTHOLOGY — Packages, pledges &amp; protocols</a></p>",
+        "id": 481027104,
+        "sender_full_name": "Logbot",
+        "timestamp": 1730941867
+    },
+    {
+        "content": "<p>JS Party #345! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456196\" href=\"/#narrow/channel/456196-jsparty/topic/345.3A.20How.20Vercel.20thinks.20about.20Next.2Ejs\">#jsparty &gt; 345: How Vercel thinks about Next.js</a></p>",
+        "id": 481196038,
+        "sender_full_name": "Logbot",
+        "timestamp": 1731011765
+    },
+    {
+        "content": "<p>Ship It! #129! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456580\" href=\"/#narrow/channel/456580-shipit/topic/129.3A.20News.20.26.20whitepapers\">#shipit &gt; 129: News &amp; whitepapers</a></p>",
+        "id": 481361967,
+        "sender_full_name": "Logbot",
+        "timestamp": 1731088806
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #69! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/69.3A.20ANTHOLOGY.20.E2.80.94.20Self-hosted.2C.20self-confident.20.26.20self-employed\">#friends &gt; 69: ANTHOLOGY — Self-hosted, self-confident &amp; self-employed</a></p>",
+        "id": 481385676,
+        "sender_full_name": "Logbot",
+        "timestamp": 1731099606
+    },
+    {
+        "content": "<p>Changelog News #120! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/120.3A.20The.20democratization.20of.20spreadsheets\">#news &gt; 120: The democratization of spreadsheets</a></p>",
+        "id": 481801363,
+        "sender_full_name": "Logbot",
+        "timestamp": 1731355928
+    },
+    {
+        "content": "<p>Go Time #337! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455709\" href=\"/#narrow/channel/455709-gotime/topic/337.3A.20Crawl.2C.20walk.20.26.20run.20your.20way.20to.20usable.20CLIs.20in.20Go\">#gotime &gt; 337: Crawl, walk &amp; run your way to usable CLIs in Go</a></p>",
+        "id": 482042393,
+        "sender_full_name": "Logbot",
+        "timestamp": 1731447007
+    },
+    {
+        "content": "<p>Practical AI #295! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456003\" href=\"/#narrow/channel/456003-practicalai/topic/295.3A.20Creating.20tested.2C.20reliable.20AI.20applications\">#practicalai &gt; 295: Creating tested, reliable AI applications</a></p>",
+        "id": 482245217,
+        "sender_full_name": "Logbot",
+        "timestamp": 1731526207
+    },
+    {
+        "content": "<p>JS Party #346! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456196\" href=\"/#narrow/channel/456196-jsparty/topic/346.3A.20It.27s.20all.20about.20documentation\">#jsparty &gt; 346: It's all about documentation</a></p>",
+        "id": 482486307,
+        "sender_full_name": "Logbot",
+        "timestamp": 1731619807
+    },
+    {
+        "content": "<p>Changelog Interviews #617! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/617.3A.20Gotta.20give.20to.20get.20back\">#interviews &gt; 617: Gotta give to get back</a></p>",
+        "id": 482498703,
+        "sender_full_name": "Logbot",
+        "timestamp": 1731625626
+    },
+    {
+        "content": "<p>Ship It! #130! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456580\" href=\"/#narrow/channel/456580-shipit/topic/130.3A.20Hosting.20Hachyderm\">#shipit &gt; 130: Hosting Hachyderm</a></p>",
+        "id": 482666892,
+        "sender_full_name": "Logbot",
+        "timestamp": 1731693668
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #70! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/70.3A.20Bus.20factors.20.26.20conspiracy.20theories\">#friends &gt; 70: Bus factors &amp; conspiracy theories</a></p>",
+        "id": 482693740,
+        "sender_full_name": "Logbot",
+        "timestamp": 1731704411
+    },
+    {
+        "content": "<p>Changelog News #121! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/121.3A.20AI.20makes.20tech.20debt.20more.20expensive\">#news &gt; 121: AI makes tech debt more expensive</a></p>",
+        "id": 483119876,
+        "sender_full_name": "Logbot",
+        "timestamp": 1731962706
+    },
+    {
+        "content": "<p>Practical AI #296! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456003\" href=\"/#narrow/channel/456003-practicalai/topic/296.3A.20scikit-learn.20.26.20data.20science.20you.20own\">#practicalai &gt; 296: scikit-learn &amp; data science you own</a></p>",
+        "id": 483352409,
+        "sender_full_name": "Logbot",
+        "timestamp": 1732050007
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"760183\">Logbot</span> <a href=\"#narrow/channel/453512-general/topic/new.20episodes/near/482693740\">said</a>:</p>\n<blockquote>\n<p>Changelog &amp; Friends #70! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/70.3A.20Bus.20factors.20.26.20conspiracy.20theories\">#friends &gt; 70: Bus factors &amp; conspiracy theories</a></p>\n</blockquote>\n<p>Hey <span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span>  , regarding the bit about cities,  I've lived in both areas and I've got you.  Raleigh and Durham aren't right next to each other.  Think Omaha and Lincoln, not Omaha and Council Bluffs.</p>\n<p>Off the top of my head....<br>\nRaleigh -&gt; Omaha<br>\nCary -&gt; Bellevue<br>\nWake Forest -&gt; Papillion<br>\nGarner -&gt; La Vista<br>\nSmaller towns in Wake County -&gt; Smaller towns in Sarpy County (Shout out to the 5-9)<br>\nDurham -&gt; Lincoln</p>\n<p>Durham is smaller... it's more like Durham + Chapel Hill (which are next to each other) -&gt; Lincoln</p>",
+        "id": 483383808,
+        "sender_full_name": "Ed Howard",
+        "timestamp": 1732062618
+    },
+    {
+        "content": "<p>Changelog Interviews #618! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/618.3A.20Two.20tickets.20for.20Departure.2C.20please\">#interviews &gt; 618: Two tickets for Departure, please</a></p>",
+        "id": 483557348,
+        "sender_full_name": "Logbot",
+        "timestamp": 1732131008
+    },
+    {
+        "content": "<p>JS Party #347! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456196\" href=\"/#narrow/channel/456196-jsparty/topic/347.3A.20Nine.20pillars.20of.20great.20Node.20apps\">#jsparty &gt; 347: Nine pillars of great Node apps</a></p>",
+        "id": 483769045,
+        "sender_full_name": "Logbot",
+        "timestamp": 1732215848
+    },
+    {
+        "content": "<p>Go Time #338! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455709\" href=\"/#narrow/channel/455709-gotime/topic/338.3A.20Unpop.20roundup.21.202023\">#gotime &gt; 338: Unpop roundup! 2023</a></p>",
+        "id": 483796589,
+        "sender_full_name": "Logbot",
+        "timestamp": 1732226468
+    },
+    {
+        "content": "<p>Ship It! #131! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456580\" href=\"/#narrow/channel/456580-shipit/topic/131.3A.20Abstractions.20and.20implementations\">#shipit &gt; 131: Abstractions and implementations</a></p>",
+        "id": 483977274,
+        "sender_full_name": "Logbot",
+        "timestamp": 1732303867
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #71! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/71.3A.20Local-first.2C.20y.2Fn.3F.20\">#friends &gt; 71: Local-first, y/n? </a></p>",
+        "id": 484002149,
+        "sender_full_name": "Logbot",
+        "timestamp": 1732314907
+    },
+    {
+        "content": "<p>Changelog News #122! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/122.3A.20Busting.20the.20ghost.20engineers.20.280.2E1x-ers.29\">#news &gt; 122: Busting the ghost engineers (0.1x-ers)</a></p>",
+        "id": 484384795,
+        "sender_full_name": "Logbot",
+        "timestamp": 1732566731
+    },
+    {
+        "content": "<p>Changelog &amp; Friends! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/plusplus-ato-2024.3A.20Waymos.20make.20bad.20neighbors.20.28Changelog.2B.2B.20.F0.9F.94.90.29\">#friends &gt; plusplus-ato-2024: Waymos make bad neighbors (Changelog++ 🔐)</a></p>",
+        "id": 484752689,
+        "sender_full_name": "Logbot",
+        "timestamp": 1732723207
+    },
+    {
+        "content": "<p>Changelog Interviews #619! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/619.3A.20Let.27s.20archive.20the.20web\">#interviews &gt; 619: Let's archive the web</a></p>",
+        "id": 484782156,
+        "sender_full_name": "Logbot",
+        "timestamp": 1732734007
+    },
+    {
+        "content": "<p>Ship It! #132! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456580\" href=\"/#narrow/channel/456580-shipit/topic/132.3A.20Public.20safety.20Kubernetes\">#shipit &gt; 132: Public safety Kubernetes</a></p>",
+        "id": 485128472,
+        "sender_full_name": "Logbot",
+        "timestamp": 1732896906
+    },
+    {
+        "content": "<p>JS Party #348! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456196\" href=\"/#narrow/channel/456196-jsparty/topic/348.3A.20WYSIWYG\">#jsparty &gt; 348: WYSIWYG</a></p>",
+        "id": 485137942,
+        "sender_full_name": "Logbot",
+        "timestamp": 1732900807
+    },
+    {
+        "content": "<p>Practical AI #297! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456003\" href=\"/#narrow/channel/456003-practicalai/topic/297.3A.20Clones.2C.20commerce.20.26.20campaigns\">#practicalai &gt; 297: Clones, commerce &amp; campaigns</a></p>",
+        "id": 485139166,
+        "sender_full_name": "Logbot",
+        "timestamp": 1732901407
+    },
+    {
+        "content": "<p>Changelog News #123! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/123.3A.20If.20not.20React.2C.20then.20what.3F\">#news &gt; 123: If not React, then what?</a></p>",
+        "id": 485699294,
+        "sender_full_name": "Logbot",
+        "timestamp": 1733169607
+    },
+    {
+        "content": "<p>Practical AI #298! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456003\" href=\"/#narrow/channel/456003-practicalai/topic/298.3A.20Full-duplex.2C.20real-time.20dialogue.20with.20Kyutai\">#practicalai &gt; 298: Full-duplex, real-time dialogue with Kyutai</a></p>",
+        "id": 486126359,
+        "sender_full_name": "Logbot",
+        "timestamp": 1733328008
+    },
+    {
+        "content": "<p>Changelog Interviews #620! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/620.3A.20Hack.20Club.20takes.20to.20the.20High.20Seas\">#interviews &gt; 620: Hack Club takes to the High Seas</a></p>",
+        "id": 486175958,
+        "sender_full_name": "Logbot",
+        "timestamp": 1733345107
+    },
+    {
+        "content": "<p>JS Party #349! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456196\" href=\"/#narrow/channel/456196-jsparty/topic/349.3A.20React.3A.20then.20.26.20now\">#jsparty &gt; 349: React: then &amp; now</a></p>",
+        "id": 486361860,
+        "sender_full_name": "Logbot",
+        "timestamp": 1733420707
+    },
+    {
+        "content": "<p>Ship It! #133! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456580\" href=\"/#narrow/channel/456580-shipit/topic/133.3A.20CI.2FCDagger\">#shipit &gt; 133: CI/CDagger</a></p>",
+        "id": 486601719,
+        "sender_full_name": "Logbot",
+        "timestamp": 1733522728
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #72! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/72.3A.20ShopTalk.20.26.20Friends\">#friends &gt; 72: ShopTalk &amp; Friends</a></p>",
+        "id": 486608490,
+        "sender_full_name": "Logbot",
+        "timestamp": 1733526667
+    },
+    {
+        "content": "<p>Changelog News #124! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/124.3A.20A.20new.20era.20for.20the.20Changelog.20Podcast.20Universe\">#news &gt; 124: A new era for the Changelog Podcast Universe</a></p>",
+        "id": 487086993,
+        "sender_full_name": "Logbot",
+        "timestamp": 1733774407
+    },
+    {
+        "content": "<p>Go Time #339! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455709\" href=\"/#narrow/channel/455709-gotime/topic/339.3A.20Pitching.20Go.20in.202025\">#gotime &gt; 339: Pitching Go in 2025</a></p>",
+        "id": 487346593,
+        "sender_full_name": "Logbot",
+        "timestamp": 1733867167
+    },
+    {
+        "content": "<p>Practical AI #299! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456003\" href=\"/#narrow/channel/456003-practicalai/topic/299.3A.20Sidekick.20is.20an.20AI.20Shopify.20expert\">#practicalai &gt; 299: Sidekick is an AI Shopify expert</a></p>",
+        "id": 488198831,
+        "sender_full_name": "Logbot",
+        "timestamp": 1733955306
+    },
+    {
+        "content": "<p>Changelog Interviews #621! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/621.3A.20Building.20the.20developer.20cloud\">#interviews &gt; 621: Building the developer cloud</a></p>",
+        "id": 488639611,
+        "sender_full_name": "Logbot",
+        "timestamp": 1734012008
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #73! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/73.3A.20Kaizen.21.20Three.20wise.20men.3F\">#friends &gt; 73: Kaizen! Three wise men?</a></p>",
+        "id": 488911260,
+        "sender_full_name": "Logbot",
+        "timestamp": 1734120010
+    },
+    {
+        "content": "<p>Ship It! #134! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456580\" href=\"/#narrow/channel/456580-shipit/topic/134.3A.20AI.20IRL.20at.20Honeycomb\">#shipit &gt; 134: AI IRL at Honeycomb</a></p>",
+        "id": 489006058,
+        "sender_full_name": "Logbot",
+        "timestamp": 1734192367
+    },
+    {
+        "content": "<p>Changelog News #125! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/125.3A.20The.20code.2C.20prose.20.26.20pods.20that.20shaped.202024\">#news &gt; 125: The code, prose &amp; pods that shaped 2024</a></p>",
+        "id": 489335859,
+        "sender_full_name": "Logbot",
+        "timestamp": 1734381007
+    },
+    {
+        "content": "<p>Go Time #340! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455709\" href=\"/#narrow/channel/455709-gotime/topic/340.3A.20That.27s.20Go.20Time.21\">#gotime &gt; 340: That's Go Time!</a></p>",
+        "id": 489793551,
+        "sender_full_name": "Logbot",
+        "timestamp": 1734538567
+    },
+    {
+        "content": "<p>Changelog Interviews #622! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/622.3A.20We.20ain.27t.20afraid.20of.20no.20Ghostty.21\">#interviews &gt; 622: We ain't afraid of no Ghostty!</a></p>",
+        "id": 489848402,
+        "sender_full_name": "Logbot",
+        "timestamp": 1734559387
+    },
+    {
+        "content": "<p>Practical AI #300! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456003\" href=\"/#narrow/channel/456003-practicalai/topic/300.3A.20Mozart.20to.20Megadeath.20at.20CHRP\">#practicalai &gt; 300: Mozart to Megadeath at CHRP</a></p>",
+        "id": 490000359,
+        "sender_full_name": "Logbot",
+        "timestamp": 1734625810
+    },
+    {
+        "content": "<p>Ship It! #135! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456580\" href=\"/#narrow/channel/456580-shipit/topic/135.3A.20Shipped.20It.21\">#shipit &gt; 135: Shipped It!</a></p>",
+        "id": 490180602,
+        "sender_full_name": "Logbot",
+        "timestamp": 1734707706
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #74! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/74.3A.20State.20of.20the.20.22log.22.202024\">#friends &gt; 74: State of the \"log\" 2024</a></p>",
+        "id": 490223560,
+        "sender_full_name": "Logbot",
+        "timestamp": 1734725226
+    },
+    {
+        "content": "<p>Changelog News #126! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/126.3A.2010.20big.20predictions.20for.202025\">#news &gt; 126: 10 big predictions for 2025</a></p>",
+        "id": 492174922,
+        "sender_full_name": "Logbot",
+        "timestamp": 1736193847
+    },
+    {
+        "content": "<p>Changelog Interviews #623! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/623.3A.20The.20power.20of.20the.20button\">#interviews &gt; 623: The power of the button</a></p>",
+        "id": 492609056,
+        "sender_full_name": "Logbot",
+        "timestamp": 1736383807
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #75! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/75.3A.20It.27s.20a.20peccadillo.20circus\">#friends &gt; 75: It's a peccadillo circus</a></p>",
+        "id": 493009367,
+        "sender_full_name": "Logbot",
+        "timestamp": 1736535787
+    },
+    {
+        "content": "<p>Changelog News #127! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/127.3A.20The.20new.20.2430.2C000.20side.20hustle\">#news &gt; 127: The new $30,000 side hustle</a></p>",
+        "id": 493444929,
+        "sender_full_name": "Logbot",
+        "timestamp": 1736801107
+    },
+    {
+        "content": "<p>Changelog Interviews #624! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/624.3A.20The.20world.20of.20embedded.20systems\">#interviews &gt; 624: The world of embedded systems</a></p>",
+        "id": 494043096,
+        "sender_full_name": "Logbot",
+        "timestamp": 1736988126
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #76! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/76.3A.20Other.20people.27s.20robots\">#friends &gt; 76: Other people's robots</a></p>",
+        "id": 494434503,
+        "sender_full_name": "Logbot",
+        "timestamp": 1737145808
+    },
+    {
+        "content": "<p>Changelog News #128! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/128.3A.20Make.20computing.20personal.20again\">#news &gt; 128: Make computing personal again</a></p>",
+        "id": 494902853,
+        "sender_full_name": "Logbot",
+        "timestamp": 1737403208
+    },
+    {
+        "content": "<p>Changelog Interviews #625! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/625.3A.20From.20open.20source.20to.20acquired\">#interviews &gt; 625: From open source to acquired</a></p>",
+        "id": 495505240,
+        "sender_full_name": "Logbot",
+        "timestamp": 1737640806
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #77! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/77.3A.20Fallthrough.20.26.20Friends\">#friends &gt; 77: Fallthrough &amp; Friends</a></p>",
+        "id": 495721027,
+        "sender_full_name": "Logbot",
+        "timestamp": 1737727207
+    },
+    {
+        "content": "<p>Changelog News #129! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/129.3A.20DeepSeek-R1.27s.20epic.20pull.20request\">#news &gt; 129: DeepSeek-R1's epic pull request</a></p>",
+        "id": 496206668,
+        "sender_full_name": "Logbot",
+        "timestamp": 1738009807
+    },
+    {
+        "content": "<p>Changelog Interviews #626! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/626.3A.20Turso.20is.20rewriting.20SQLite.20in.20Rust\">#interviews &gt; 626: Turso is rewriting SQLite in Rust</a></p>",
+        "id": 496770660,
+        "sender_full_name": "Logbot",
+        "timestamp": 1738242007
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #78! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/78.3A.20Over.20the.20top.20auth.20strategies\">#friends &gt; 78: Over the top auth strategies</a></p>",
+        "id": 497083271,
+        "sender_full_name": "Logbot",
+        "timestamp": 1738355407
+    },
+    {
+        "content": "<p>Changelog News #130! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/130.3A.20Everyone.20knows.20your.20location\">#news &gt; 130: Everyone knows your location</a></p>",
+        "id": 497525457,
+        "sender_full_name": "Logbot",
+        "timestamp": 1738614606
+    },
+    {
+        "content": "<p>Changelog Interviews #627! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/627.3A.20Build.20software.20that.20lasts.21\">#interviews &gt; 627: Build software that lasts!</a></p>",
+        "id": 497975384,
+        "sender_full_name": "Logbot",
+        "timestamp": 1738786508
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #79! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/79.3A.20The.20state.20of.20homelab.20tech.20.282025.29\">#friends &gt; 79: The state of homelab tech (2025)</a></p>",
+        "id": 498446056,
+        "sender_full_name": "Logbot",
+        "timestamp": 1738972447
+    },
+    {
+        "content": "<p>Changelog News #131! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/131.3A.20Tech.20is.20supposed.20to.20make.20our.20lives.20easier\">#news &gt; 131: Tech is supposed to make our lives easier</a></p>",
+        "id": 498870105,
+        "sender_full_name": "Logbot",
+        "timestamp": 1739223907
+    },
+    {
+        "content": "<p>Changelog Interviews #628! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/628.3A.20Fostering.20open.20source.20culture\">#interviews &gt; 628: Fostering open source culture</a></p>",
+        "id": 499466531,
+        "sender_full_name": "Logbot",
+        "timestamp": 1739451607
+    },
+    {
+        "content": "<p>JS Party #350! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456196\" href=\"/#narrow/channel/456196-jsparty/topic/350.3A.20One.20last.20party\">#jsparty &gt; 350: One last party</a></p>",
+        "id": 499575948,
+        "sender_full_name": "Logbot",
+        "timestamp": 1739478006
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #80! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/80.3A.20Discovering.20discovery.20coding\">#friends &gt; 80: Discovering discovery coding</a></p>",
+        "id": 499815034,
+        "sender_full_name": "Logbot",
+        "timestamp": 1739562304
+    },
+    {
+        "content": "<p>Changelog News #132! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/132.3A.20AI.20is.20stifling.20tech.20adoption/with/500269608\">#news &gt; 132: AI is stifling tech adoption</a></p>",
+        "id": 500269609,
+        "sender_full_name": "Logbot",
+        "timestamp": 1739824207
+    },
+    {
+        "content": "<p>Changelog Interviews #629! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/629.3A.20Programming.20with.20LLMs/with/500721699\">#interviews &gt; 629: Programming with LLMs</a></p>",
+        "id": 500721701,
+        "sender_full_name": "Logbot",
+        "timestamp": 1739991608
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #81! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/81.3A.20Change.20my.20mind/with/501189072\">#friends &gt; 81: Change my mind</a></p>",
+        "id": 501189073,
+        "sender_full_name": "Logbot",
+        "timestamp": 1740172928
+    },
+    {
+        "content": "<p>Changelog News #133! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/133.3A.20AI.20killed.20the.20tech.20interview.2E.20Now.20what.3F/with/501660308\">#news &gt; 133: AI killed the tech interview. Now what?</a></p>",
+        "id": 501660309,
+        "sender_full_name": "Logbot",
+        "timestamp": 1740435608
+    },
+    {
+        "content": "<p>Changelog Interviews #630! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/630.3A.20Building.20for.20application.20developers/with/502361069\">#interviews &gt; 630: Building for application developers</a></p>",
+        "id": 502361070,
+        "sender_full_name": "Logbot",
+        "timestamp": 1740684308
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #82! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/82.3A.20Kaizen.21.20Pipely.20goes.20BAM/with/502683050\">#friends &gt; 82: Kaizen! Pipely goes BAM</a></p>",
+        "id": 502683053,
+        "sender_full_name": "Logbot",
+        "timestamp": 1740784508
+    },
+    {
+        "content": "<p>Changelog News #134! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/134.3A.20JavaScript.20fatigue.20strikes.20back/with/503107166\">#news &gt; 134: JavaScript fatigue strikes back</a></p>",
+        "id": 503107169,
+        "sender_full_name": "Logbot",
+        "timestamp": 1741030207
+    },
+    {
+        "content": "<p>Changelog Interviews #631! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/631.3A.20Antirez.20returns.20to.20Redis.21/with/504124013\">#interviews &gt; 631: Antirez returns to Redis!</a></p>",
+        "id": 504124015,
+        "sender_full_name": "Logbot",
+        "timestamp": 1741361887
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #83! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/83.3A.20Friendly.20Feud.3A.20JS.20Party.20Edition/with/504179040\">#friends &gt; 83: Friendly Feud: JS Party Edition</a></p>",
+        "id": 504179043,
+        "sender_full_name": "Logbot",
+        "timestamp": 1741379406
+    },
+    {
+        "content": "<p>Changelog News #135! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/135.3A.20Everyone.20is.20talking.20about.20MCP/with/504648215\">#news &gt; 135: Everyone is talking about MCP</a></p>",
+        "id": 504648217,
+        "sender_full_name": "Logbot",
+        "timestamp": 1741627807
+    },
+    {
+        "content": "<p>Changelog Interviews #632! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/632.3A.20Reaching.20industrial.20economies.20of.20scale/with/505291795\">#interviews &gt; 632: Reaching industrial economies of scale</a></p>",
+        "id": 505291797,
+        "sender_full_name": "Logbot",
+        "timestamp": 1741829711
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #84! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/84.3A.20Friends.20on.20the.20Frontend/with/505776661\">#friends &gt; 84: Friends on the Frontend</a></p>",
+        "id": 505776663,
+        "sender_full_name": "Logbot",
+        "timestamp": 1741991288
+    },
+    {
+        "content": "<p>Changelog News #136! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/136.3A.20Our.20interfaces.20have.20lost.20their.20senses/with/506237982\">#news &gt; 136: Our interfaces have lost their senses</a></p>",
+        "id": 506237984,
+        "sender_full_name": "Logbot",
+        "timestamp": 1742238128
+    },
+    {
+        "content": "<p>Changelog Interviews #633! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/633.3A.20Securing.20ecommerce.3A.20.22It.27s.20complicated.22/with/506981410\">#interviews &gt; 633: Securing ecommerce: \"It's complicated\"</a></p>",
+        "id": 506981413,
+        "sender_full_name": "Logbot",
+        "timestamp": 1742479207
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #85! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/85.3A.20Here.27s.20my.20Siri.20theory/with/507316441\">#friends &gt; 85: Here's my Siri theory</a></p>",
+        "id": 507316443,
+        "sender_full_name": "Logbot",
+        "timestamp": 1742573828
+    },
+    {
+        "content": "<p>Changelog News #137! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/137.3A.20Revenge.20of.20the.20junior.20developer/with/507862896\">#news &gt; 137: Revenge of the junior developer</a></p>",
+        "id": 507862898,
+        "sender_full_name": "Logbot",
+        "timestamp": 1742845507
+    },
+    {
+        "content": "<p>Changelog Interviews #634! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/634.3A.20Leading.20leaders.20who.20lead.20engineers.20.28remastered.29/with/508349212\">#interviews &gt; 634: Leading leaders who lead engineers (remastered)</a></p>",
+        "id": 508349215,
+        "sender_full_name": "Logbot",
+        "timestamp": 1743012908
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #86! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/86.3A.20Of.20agents.20.26.20agency/with/508827546\">#friends &gt; 86: Of agents &amp; agency</a></p>",
+        "id": 508827547,
+        "sender_full_name": "Logbot",
+        "timestamp": 1743188465
+    },
+    {
+        "content": "<p>Changelog News #138! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/138.3A.20The.20idealization.20of.20farming.20by.20tech/with/509284660\">#news &gt; 138: The idealization of farming by tech</a></p>",
+        "id": 509284661,
+        "sender_full_name": "Logbot",
+        "timestamp": 1743449410
+    },
+    {
+        "content": "<p>Changelog Interviews #635! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/635.3A.20The.201000x.20faster.20financial.20database/with/509806685\">#interviews &gt; 635: The 1000x faster financial database</a></p>",
+        "id": 509806686,
+        "sender_full_name": "Logbot",
+        "timestamp": 1743633908
+    },
+    {
+        "content": "<p>Been looking forward to this one all week!</p>",
+        "id": 509810356,
+        "sender_full_name": "Joe",
+        "timestamp": 1743635912
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #87! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/87.3A.20Turn.20him.20into.20a.20walrus/with/510270402\">#friends &gt; 87: Turn him into a walrus</a></p>",
+        "id": 510270403,
+        "sender_full_name": "Logbot",
+        "timestamp": 1743792908
+    },
+    {
+        "content": "<p>Changelog News #139! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/139.3A.20The.20AI.202027.20scenario/with/510756120\">#news &gt; 139: The AI 2027 scenario</a></p>",
+        "id": 510756121,
+        "sender_full_name": "Logbot",
+        "timestamp": 1744056007
+    },
+    {
+        "content": "<p>Anyone else not receive the newsletter this week?</p>",
+        "id": 510901303,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1744110239
+    },
+    {
+        "content": "<p>Did you check your spam folder?</p>",
+        "id": 510920121,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1744115836
+    },
+    {
+        "content": "<p>Strange…why’d it end up in my spam? Never happened before, usually get it in my main inbox.</p>\n<p>A google thing?</p>",
+        "id": 510996050,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1744135328
+    },
+    {
+        "content": "<p>Might be. Best add <code>news@changelog.com</code> to your recipients list</p>",
+        "id": 511004858,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1744138257
+    },
+    {
+        "content": "<p>Changelog Interviews #636! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/636.3A.20The.20era.20of.20durable.20execution/with/511522749\">#interviews &gt; 636: The era of durable execution</a></p>",
+        "id": 511522750,
+        "sender_full_name": "Logbot",
+        "timestamp": 1744325827
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #88! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/88.3A.20Proud.20pod.20parents/with/511823746\">#friends &gt; 88: Proud pod parents</a></p>",
+        "id": 511823747,
+        "sender_full_name": "Logbot",
+        "timestamp": 1744473968
+    },
+    {
+        "content": "<p>Changelog News #140! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/140.3A.20Google.27s.20new.20protocol.20has.20AI.20agents.20talkin.27/with/512167877\">#news &gt; 140: Google's new protocol has AI agents talkin'</a></p>",
+        "id": 512167878,
+        "sender_full_name": "Logbot",
+        "timestamp": 1744662607
+    },
+    {
+        "content": "<p>Changelog Interviews #637! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/637.3A.20Making.20DNSimple/with/512675370\">#interviews &gt; 637: Making DNSimple</a></p>",
+        "id": 512675371,
+        "sender_full_name": "Logbot",
+        "timestamp": 1744833607
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #89! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/89.3A.20Vibing.20into.20the.20vibe/with/513069550\">#friends &gt; 89: Vibing into the vibe</a></p>",
+        "id": 513069552,
+        "sender_full_name": "Logbot",
+        "timestamp": 1744997408
+    },
+    {
+        "content": "<p>Changelog News #141! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/141.3A.20Fresh.20beats.20for.20endless.20flow.20state/with/513453680\">#news &gt; 141: Fresh beats for endless flow state</a></p>",
+        "id": 513453682,
+        "sender_full_name": "Logbot",
+        "timestamp": 1745262008
+    },
+    {
+        "content": "<p>Changelog Interviews #638! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/638.3A.20Make.20sales.20not.20features/with/513946470\">#interviews &gt; 638: Make sales not features</a></p>",
+        "id": 513946471,
+        "sender_full_name": "Logbot",
+        "timestamp": 1745435408
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #90! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/90.3A.20Hello.2C.20Matworld.21/with/514461478\">#friends &gt; 90: Hello, Matworld!</a></p>",
+        "id": 514461479,
+        "sender_full_name": "Logbot",
+        "timestamp": 1745614747
+    },
+    {
+        "content": "<p>Changelog News #142! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/142.3A.20I.20just.20want.20to.20code/with/514893992\">#news &gt; 142: I just want to code</a></p>",
+        "id": 514893994,
+        "sender_full_name": "Logbot",
+        "timestamp": 1745870409
+    },
+    {
+        "content": "<p>Changelog Interviews #639! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/639.3A.20Chasing.20that.20next.20BIG.20thing/with/515590917\">#interviews &gt; 639: Chasing that next BIG thing</a></p>",
+        "id": 515590918,
+        "sender_full_name": "Logbot",
+        "timestamp": 1746137647
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #91! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/91.3A.20When.20life.20gives.20you.20LLMs.2E.2E.2E/with/515774272\">#friends &gt; 91: When life gives you LLMs...</a></p>",
+        "id": 515774274,
+        "sender_full_name": "Logbot",
+        "timestamp": 1746210607
+    },
+    {
+        "content": "<p>Changelog News #143! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/143.3A.20Firefox.20could.20be.20doomed/with/516277369\">#news &gt; 143: Firefox could be doomed</a></p>",
+        "id": 516277371,
+        "sender_full_name": "Logbot",
+        "timestamp": 1746472507
+    },
+    {
+        "content": "<p>Changelog Interviews #640! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/640.3A.20Building.20Zed.27s.20agentic.20editing/with/516771613\">#interviews &gt; 640: Building Zed's agentic editing</a></p>",
+        "id": 516771614,
+        "sender_full_name": "Logbot",
+        "timestamp": 1746654607
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #92! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/92.3A.20Kaizen.21.20Tip.20of.20the.20Pipely/with/517179846\">#friends &gt; 92: Kaizen! Tip of the Pipely</a></p>",
+        "id": 517179848,
+        "sender_full_name": "Logbot",
+        "timestamp": 1746820807
+    },
+    {
+        "content": "<p>Changelog News #144! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/144.3A.20A.20critical.20look.20at.20MCP/with/517639661\">#news &gt; 144: A critical look at MCP</a></p>",
+        "id": 517639662,
+        "sender_full_name": "Logbot",
+        "timestamp": 1747077307
+    },
+    {
+        "content": "<p>Changelog Interviews #641! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/641.3A.20NATS.20and.20the.20CNCF.20kerfuffle/with/518739901\">#interviews &gt; 641: NATS and the CNCF kerfuffle</a></p>",
+        "id": 518739903,
+        "sender_full_name": "Logbot",
+        "timestamp": 1747426272
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #93! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/93.3A.20.23define.3A.20I.27m.20going.20pants/with/518746760\">#friends &gt; 93: #define: I'm going pants</a></p>",
+        "id": 518746761,
+        "sender_full_name": "Logbot",
+        "timestamp": 1747429204
+    },
+    {
+        "content": "<p>Changelog News #145! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/145.3A.20Windows.20Subsystem.20for.20Linux.20is.20open.20source/with/519233699\">#news &gt; 145: Windows Subsystem for Linux is open source</a></p>",
+        "id": 519233700,
+        "sender_full_name": "Logbot",
+        "timestamp": 1747692007
+    },
+    {
+        "content": "<p>Changelog Interviews #642! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/642.3A.20Refactored.20in.20prison/with/520125985\">#interviews &gt; 642: Refactored in prison</a></p>",
+        "id": 520125986,
+        "sender_full_name": "Logbot",
+        "timestamp": 1748032627
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #94! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/94.3A.20Dull.2C.20dirty.2C.20or.20dangerous/with/520133643\">#friends &gt; 94: Dull, dirty, or dangerous</a></p>",
+        "id": 520133644,
+        "sender_full_name": "Logbot",
+        "timestamp": 1748036823
+    },
+    {
+        "content": "<p>Changelog News #146! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/146.3A.20Entry-level.20tech.20jobs.20are.20getting.20wiped.20out/with/520760826\">#news &gt; 146: Entry-level tech jobs are getting wiped out</a></p>",
+        "id": 520760827,
+        "sender_full_name": "Logbot",
+        "timestamp": 1748380507
+    },
+    {
+        "content": "<p>Changelog Interviews #643! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/643.3A.20The.20Web.20Development.20Engine/with/521340997\">#interviews &gt; 643: The Web Development Engine</a></p>",
+        "id": 521341001,
+        "sender_full_name": "Logbot",
+        "timestamp": 1748625907
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #95! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/95.3A.20wsl.2Eexe.20--.20cat.20hello.2Ecs/with/521445038\">#friends &gt; 95: wsl.exe -- cat hello.cs</a></p>",
+        "id": 521445039,
+        "sender_full_name": "Logbot",
+        "timestamp": 1748700007
+    },
+    {
+        "content": "<p>Changelog News #147! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/147.3A.20The.20.27developer.20replacement.27.20hype.20cycle/with/521832061\">#news &gt; 147: The 'developer replacement' hype cycle</a></p>",
+        "id": 521832063,
+        "sender_full_name": "Logbot",
+        "timestamp": 1748894407
+    },
+    {
+        "content": "<p>Changelog Interviews #644! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/644.3A.20We.27re.20all.20Builders.20now/with/522580031\">#interviews &gt; 644: We're all Builders now</a></p>",
+        "id": 522580033,
+        "sender_full_name": "Logbot",
+        "timestamp": 1749126606
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #96! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/96.3A.20Adventures.20in.20babysitting.20coding.20agents/with/522833126\">#friends &gt; 96: Adventures in babysitting coding agents</a></p>",
+        "id": 522833128,
+        "sender_full_name": "Logbot",
+        "timestamp": 1749236527
+    },
+    {
+        "content": "<p>Changelog News #148! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/148.3A.20Never.2E.20Let.2E.20AI.2E.20Write.2E.20Your.2E.20Tests.2E/with/523154876\">#news &gt; 148: Never. Let. AI. Write. Your. Tests.</a></p>",
+        "id": 523154877,
+        "sender_full_name": "Logbot",
+        "timestamp": 1749497407
+    },
+    {
+        "content": "<p>Changelog Interviews #645! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/645.3A.20The.20Roc.20programming.20language/with/523598361\">#interviews &gt; 645: The Roc programming language</a></p>",
+        "id": 523598362,
+        "sender_full_name": "Logbot",
+        "timestamp": 1749659407
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #97! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/97.3A.20Saltiness.20about.20frostiness/with/523982576\">#friends &gt; 97: Saltiness about frostiness</a></p>",
+        "id": 523982577,
+        "sender_full_name": "Logbot",
+        "timestamp": 1749834009
+    },
+    {
+        "content": "<p>Changelog News #149! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/149.3A.20Stop.20uploading.20your.20data.20to.20Google/with/524329266\">#news &gt; 149: Stop uploading your data to Google</a></p>",
+        "id": 524329267,
+        "sender_full_name": "Logbot",
+        "timestamp": 1750105868
+    },
+    {
+        "content": "<p>Changelog Interviews #646! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/646.3A.20The.20CEO.20of.20htmx.20likes.20codin.27.20dirty/with/524782977\">#interviews &gt; 646: The CEO of htmx likes codin' dirty</a></p>",
+        "id": 524782978,
+        "sender_full_name": "Logbot",
+        "timestamp": 1750280408
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #98! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/98.3A.20Just.20on.20the.20rocks/with/525107686\">#friends &gt; 98: Just on the rocks</a></p>",
+        "id": 525107687,
+        "sender_full_name": "Logbot",
+        "timestamp": 1750456267
+    },
+    {
+        "content": "<p>Changelog Interviews #647! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/647.3A.20When.20vibe.20coding.20goes.20viral/with/526119867\">#interviews &gt; 647: When vibe coding goes viral</a></p>",
+        "id": 526119868,
+        "sender_full_name": "Logbot",
+        "timestamp": 1751042407
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #99! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/99.3A.20Let.27s.20build.20something.20phoenix.2Enew/with/526152940\">#friends &gt; 99: Let's build something phoenix.new</a></p>",
+        "id": 526152941,
+        "sender_full_name": "Logbot",
+        "timestamp": 1751058907
+    },
+    {
+        "content": "<p>Changelog News #150! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/150.3A.20Coding.20agents.20have.20crossed.20a.20chasm/with/526478311\">#news &gt; 150: Coding agents have crossed a chasm</a></p>",
+        "id": 526478312,
+        "sender_full_name": "Logbot",
+        "timestamp": 1751313607
+    },
+    {
+        "content": "<p>Changelog Interviews #648! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/648.3A.20Agent.2C.20take.20the.20wheel/with/526850256\">#interviews &gt; 648: Agent, take the wheel</a></p>",
+        "id": 526850258,
+        "sender_full_name": "Logbot",
+        "timestamp": 1751477591
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #100! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/100.3A.20Selling.20mountain.20bikes.20all.20over.20the.20planet/with/527156899\">#friends &gt; 100: Selling mountain bikes all over the planet</a></p>",
+        "id": 527156900,
+        "sender_full_name": "Logbot",
+        "timestamp": 1751626627
+    },
+    {
+        "content": "<p>Changelog News #151! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/151.3A.20Full-breadth.20developers.20for.20the.20win/with/527552438\">#news &gt; 151: Full-breadth developers for the win</a></p>",
+        "id": 527552441,
+        "sender_full_name": "Logbot",
+        "timestamp": 1751918407
+    },
+    {
+        "content": "<p>Changelog Interviews #649! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/649.3A.20Lightspeed.20search.20built.20for.20devs/with/528068685\">#interviews &gt; 649: Lightspeed search built for devs</a></p>",
+        "id": 528068686,
+        "sender_full_name": "Logbot",
+        "timestamp": 1752149947
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #101! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/101.3A.20Measuring.20the.20actual.20impact.20of.20AI.20coding/with/528393323\">#friends &gt; 101: Measuring the actual impact of AI coding</a></p>",
+        "id": 528393325,
+        "sender_full_name": "Logbot",
+        "timestamp": 1752260708
+    },
+    {
+        "content": "<p>Changelog News #152! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/152.3A.20An.20app.20can.20be.20a.20home-cooked.20meal/with/528728696\">#news &gt; 152: An app can be a home-cooked meal</a></p>",
+        "id": 528728697,
+        "sender_full_name": "Logbot",
+        "timestamp": 1752522307
+    },
+    {
+        "content": "<p>Changelog Interviews #650! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/650.3A.20Pivoting.20to.20Retool/with/529362669\">#interviews &gt; 650: Pivoting to Retool</a></p>",
+        "id": 529362670,
+        "sender_full_name": "Logbot",
+        "timestamp": 1752790031
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #102! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/102.3A.20Try.20harder.2E.20Ultrathink.21/with/529519948\">#friends &gt; 102: Try harder. Ultrathink!</a></p>",
+        "id": 529519949,
+        "sender_full_name": "Logbot",
+        "timestamp": 1752868867
+    },
+    {
+        "content": "<p>Changelog News #153! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/153.3A.20Humanity.20has.20prevailed.20.28for.20now.21.29/with/529952103\">#news &gt; 153: Humanity has prevailed (for now!)</a></p>",
+        "id": 529952105,
+        "sender_full_name": "Logbot",
+        "timestamp": 1753125307
+    },
+    {
+        "content": "<p>Changelog Interviews #651! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/651.3A.20Bringing.20Vitess.20to.20Postgres/with/530451059\">#interviews &gt; 651: Bringing Vitess to Postgres</a></p>",
+        "id": 530451060,
+        "sender_full_name": "Logbot",
+        "timestamp": 1753314907
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #103! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/103.3A.20.23define.3A.20props.20to.20astronomer/with/530769312\">#friends &gt; 103: #define: props to astronomer</a></p>",
+        "id": 530769313,
+        "sender_full_name": "Logbot",
+        "timestamp": 1753448407
+    },
+    {
+        "content": "<p>Changelog News #154! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/154.3A.20It.27s.20time.20for.20modern.20CSS.20to.20kill.20the.20SPA/with/531445852\">#news &gt; 154: It's time for modern CSS to kill the SPA</a></p>",
+        "id": 531445853,
+        "sender_full_name": "Logbot",
+        "timestamp": 1753731907
+    },
+    {
+        "content": "<p>Changelog Interviews #652! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/652.3A.20Solving.20the.20AI.20energy.20crisis/with/532114624\">#interviews &gt; 652: Solving the AI energy crisis</a></p>",
+        "id": 532114626,
+        "sender_full_name": "Logbot",
+        "timestamp": 1753978027
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #104! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/104.3A.20SO.20much.20to.20dig.20into/with/532368911\">#friends &gt; 104: SO much to dig into</a></p>",
+        "id": 532368912,
+        "sender_full_name": "Logbot",
+        "timestamp": 1754077507
+    },
+    {
+        "content": "<p>Changelog News #155! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/155.3A.20The.20smell.20of.20vibe.20coding/with/532787011\">#news &gt; 155: The smell of vibe coding</a></p>",
+        "id": 532787012,
+        "sender_full_name": "Logbot",
+        "timestamp": 1754336707
+    },
+    {
+        "content": "<p>Changelog Interviews #653! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/653.3A.20LIVE.20from.20Denver.20with.20Nora.20Jones.21/with/533173958\">#interviews &gt; 653: LIVE from Denver with Nora Jones!</a></p>",
+        "id": 533173959,
+        "sender_full_name": "Logbot",
+        "timestamp": 1754511727
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #105! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/105.3A.20Kaizen.21.20Pipely.20is.20LIVE/with/533505993\">#friends &gt; 105: Kaizen! Pipely is LIVE</a></p>",
+        "id": 533505996,
+        "sender_full_name": "Logbot",
+        "timestamp": 1754676006
+    },
+    {
+        "content": "<p>Changelog News #156! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/156.3A.20Open.20source.20regrets/with/533852240\">#news &gt; 156: Open source regrets</a></p>",
+        "id": 533852241,
+        "sender_full_name": "Logbot",
+        "timestamp": 1754939707
+    },
+    {
+        "content": "<p>Changelog Interviews #654! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/654.3A.20Biocomputing.20on.20human.20neurons/with/534560166\">#interviews &gt; 654: Biocomputing on human neurons</a></p>",
+        "id": 534560167,
+        "sender_full_name": "Logbot",
+        "timestamp": 1755205627
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #106! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/106.3A.20Oxide.20is.20crossing.20the.20chasm/with/534682274\">#friends &gt; 106: Oxide is crossing the chasm</a></p>",
+        "id": 534682275,
+        "sender_full_name": "Logbot",
+        "timestamp": 1755276306
+    },
+    {
+        "content": "<p>Changelog News #157! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/157.3A.20Cursor.E2.80.99s.20problem.20isn.27t.20just.20Cursor.27s.20problem/with/535007650\">#news &gt; 157: Cursor’s problem isn't just Cursor's problem</a></p>",
+        "id": 535007651,
+        "sender_full_name": "Logbot",
+        "timestamp": 1755544507
+    },
+    {
+        "content": "<p>Changelog Interviews #655! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/655.3A.20From.20Chef.20to.20System.20Initiative.20.28remastered.29/with/535556544\">#interviews &gt; 655: From Chef to System Initiative (remastered)</a></p>",
+        "id": 535556546,
+        "sender_full_name": "Logbot",
+        "timestamp": 1755800464
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #107! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/107.3A.20Git.20with.20your.20friends.20.28remastered.29/with/535739605\">#friends &gt; 107: Git with your friends (remastered)</a></p>",
+        "id": 535739606,
+        "sender_full_name": "Logbot",
+        "timestamp": 1755889208
+    },
+    {
+        "content": "<p>Changelog News #158! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/158.3A.20Omarchy.202.2E0.3A.20Best.20Linux.20setup.20ever.3F/with/536090757\">#news &gt; 158: Omarchy 2.0: Best Linux setup ever?</a></p>",
+        "id": 536090759,
+        "sender_full_name": "Logbot",
+        "timestamp": 1756149307
+    },
+    {
+        "content": "<p>Changelog Interviews #656! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/656.3A.20Python.20documentary.20companion.20pod/with/536477011\">#interviews &gt; 656: Python documentary companion pod</a></p>",
+        "id": 536477012,
+        "sender_full_name": "Logbot",
+        "timestamp": 1756319531
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #108! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/108.3A.20Action.20absorbs.20anxiety/with/536833930\">#friends &gt; 108: Action absorbs anxiety</a></p>",
+        "id": 536833931,
+        "sender_full_name": "Logbot",
+        "timestamp": 1756488607
+    },
+    {
+        "content": "<p>Changelog News #159! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/159.3A.20Next.2Ejs.20is.20infuriating/with/537341388\">#news &gt; 159: Next.js is infuriating</a></p>",
+        "id": 537341389,
+        "sender_full_name": "Logbot",
+        "timestamp": 1756836907
+    },
+    {
+        "content": "<p>Changelog Interviews #657! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/657.3A.20XO.20Ruby.20is.20hitting.20the.20road/with/537546074\">#interviews &gt; 657: XO Ruby is hitting the road</a></p>",
+        "id": 537546075,
+        "sender_full_name": "Logbot",
+        "timestamp": 1756929847
+    },
+    {
+        "content": "<p>Changelog News #160! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/160.3A.20Why.20AI.20coding.20claims.20don.27t.20add.20up/with/538277693\">#news &gt; 160: Why AI coding claims don't add up</a></p>",
+        "id": 538277696,
+        "sender_full_name": "Logbot",
+        "timestamp": 1757350807
+    },
+    {
+        "content": "<p>Changelog News #161! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/161.3A.20Just.20enough.20automation/with/539638501\">#news &gt; 161: Just enough automation</a></p>",
+        "id": 539638502,
+        "sender_full_name": "Logbot",
+        "timestamp": 1757966407
+    },
+    {
+        "content": "<p>Changelog Interviews #658! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/658.3A.20Flowing.20with.20agents/with/540118801\">#interviews &gt; 658: Flowing with agents</a></p>",
+        "id": 540118802,
+        "sender_full_name": "Logbot",
+        "timestamp": 1758152528
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #109! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/109.3A.20Linux.20Fest.20in.20Texas.21/with/540539444\">#friends &gt; 109: Linux Fest in Texas!</a></p>",
+        "id": 540539445,
+        "sender_full_name": "Logbot",
+        "timestamp": 1758320107
+    },
+    {
+        "content": "<p>Changelog News #162! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/162.3A.20An.20escape.20route.20from.20YAML.20hell/with/540876448\">#news &gt; 162: An escape route from YAML hell</a></p>",
+        "id": 540876449,
+        "sender_full_name": "Logbot",
+        "timestamp": 1758567607
+    },
+    {
+        "content": "<p>Changelog Interviews #659! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/659.3A.20Voices.20of.20Oxide/with/541740308\">#interviews &gt; 659: Voices of Oxide</a></p>",
+        "id": 541740309,
+        "sender_full_name": "Logbot",
+        "timestamp": 1758918248
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #110! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/110.3A.20Inside.20Oxide/with/541751987\">#friends &gt; 110: Inside Oxide</a></p>",
+        "id": 541751988,
+        "sender_full_name": "Logbot",
+        "timestamp": 1758924367
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #110! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/110.3A.20Inside.20Oxide/with/541755043\">#friends &gt; 110: Inside Oxide</a></p>",
+        "id": 541755044,
+        "sender_full_name": "Logbot",
+        "timestamp": 1758926586
+    },
+    {
+        "content": "<p>Changelog News #163! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/163.3A.20Hiring.20only.20senior.20engineers.20is.20killing.20companies/with/542167814\">#news &gt; 163: Hiring only senior engineers is killing companies</a></p>",
+        "id": 542167815,
+        "sender_full_name": "Logbot",
+        "timestamp": 1759195807
+    },
+    {
+        "content": "<p>Changelog Interviews #660! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/660.3A.20Reinventing.20Python.20tooling.20with.20Rust/with/542568476\">#interviews &gt; 660: Reinventing Python tooling with Rust</a></p>",
+        "id": 542568478,
+        "sender_full_name": "Logbot",
+        "timestamp": 1759347011
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #111! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/111.3A.20npm.20under.20siege.20.28what.20to.20do.20about.20it.29/with/542988863\">#friends &gt; 111: npm under siege (what to do about it)</a></p>",
+        "id": 542988864,
+        "sender_full_name": "Logbot",
+        "timestamp": 1759510807
+    },
+    {
+        "content": "<p>Changelog News #164! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/164.3A.20The.20best.20coders.20should.20exit.20the.20feed/with/543386627\">#news &gt; 164: The best coders should exit the feed</a></p>",
+        "id": 543386629,
+        "sender_full_name": "Logbot",
+        "timestamp": 1759776307
+    },
+    {
+        "content": "<p>Changelog Interviews #661! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/661.3A.20Vite.20documentary.20companion.20pod/with/543822549\">#interviews &gt; 661: Vite documentary companion pod</a></p>",
+        "id": 543822550,
+        "sender_full_name": "Logbot",
+        "timestamp": 1759952707
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #112! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/112.3A.20A.20new.20direction.20for.20AI.20developer.20tooling/with/544222820\">#friends &gt; 112: A new direction for AI developer tooling</a></p>",
+        "id": 544222821,
+        "sender_full_name": "Logbot",
+        "timestamp": 1760119207
+    },
+    {
+        "content": "<p>Changelog News #165! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/165.3A.20The.20great.20software.20quality.20collapse/with/544601184\">#news &gt; 165: The great software quality collapse</a></p>",
+        "id": 544601186,
+        "sender_full_name": "Logbot",
+        "timestamp": 1760378407
+    },
+    {
+        "content": "<p>Changelog Interviews #662! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/662.3A.20Spec-driven.20development.20with.20Kiro/with/545104405\">#interviews &gt; 662: Spec-driven development with Kiro</a></p>",
+        "id": 545104407,
+        "sender_full_name": "Logbot",
+        "timestamp": 1760553007
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #113! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/113.3A.20There.20will.20be.20bleeps/with/545649856\">#friends &gt; 113: There will be bleeps</a></p>",
+        "id": 545649858,
+        "sender_full_name": "Logbot",
+        "timestamp": 1760724965
+    },
+    {
+        "content": "<p>Changelog News #166! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/166.3A.20The.20science.20behind.20developer.20flow.20states/with/546069769\">#news &gt; 166: The science behind developer flow states</a></p>",
+        "id": 546069770,
+        "sender_full_name": "Logbot",
+        "timestamp": 1760986810
+    },
+    {
+        "content": "<p>Changelog Interviews #663! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/663.3A.20Bringing.20Atuin.20to.20the.20desktop/with/546525310\">#interviews &gt; 663: Bringing Atuin to the desktop</a></p>",
+        "id": 546525311,
+        "sender_full_name": "Logbot",
+        "timestamp": 1761157806
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #114! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/114.3A.20Kaizen.21.20Mop-up.20job/with/546968053\">#friends &gt; 114: Kaizen! Mop-up job</a></p>",
+        "id": 546968055,
+        "sender_full_name": "Logbot",
+        "timestamp": 1761335108
+    },
+    {
+        "content": "<p>Changelog News #167! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/167.3A.20Code.20like.20a.20surgeon/with/547359120\">#news &gt; 167: Code like a surgeon</a></p>",
+        "id": 547359121,
+        "sender_full_name": "Logbot",
+        "timestamp": 1761594305
+    },
+    {
+        "content": "<p>Changelog Interviews #664! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/664.3A.20Agentic.20infra.20changes.20everything/with/547929618\">#interviews &gt; 664: Agentic infra changes everything</a></p>",
+        "id": 547929619,
+        "sender_full_name": "Logbot",
+        "timestamp": 1761829505
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #115! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/115.3A.20We.20see.20dead.20projects/with/548233475\">#friends &gt; 115: We see dead projects</a></p>",
+        "id": 548233477,
+        "sender_full_name": "Logbot",
+        "timestamp": 1761939546
+    },
+    {
+        "content": "<p>Changelog News #168! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/168.3A.20The.20overlooked.20power.20of.20URLs/with/553470028\">#news &gt; 168: The overlooked power of URLs</a></p>",
+        "id": 553470029,
+        "sender_full_name": "Logbot",
+        "timestamp": 1762200005
+    },
+    {
+        "content": "<p>Changelog Interviews #665! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/665.3A.20The.20world.20of.20open.20source.20metadata/with/553956640\">#interviews &gt; 665: The world of open source metadata</a></p>",
+        "id": 553956643,
+        "sender_full_name": "Logbot",
+        "timestamp": 1762374607
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #116! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/116.3A.20.23define.3A.20sheer.20resistance/with/554410845\">#friends &gt; 116: #define: sheer resistance</a></p>",
+        "id": 554410846,
+        "sender_full_name": "Logbot",
+        "timestamp": 1762547405
+    },
+    {
+        "content": "<p>Changelog News #169! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/169.3A.20This.20new.20AI.20role.20is.20exploding/with/554780790\">#news &gt; 169: This new AI role is exploding</a></p>",
+        "id": 554780791,
+        "sender_full_name": "Logbot",
+        "timestamp": 1762804805
+    },
+    {
+        "content": "<p>Changelog Interviews #666! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/666.3A.20DO.20repeat.20yourself.21/with/555221685\">#interviews &gt; 666: DO repeat yourself!</a></p>",
+        "id": 555221686,
+        "sender_full_name": "Logbot",
+        "timestamp": 1762981207
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #117! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/117.3A.20Retreat.20to.20attack/with/555645145\">#friends &gt; 117: Retreat to attack</a></p>",
+        "id": 555645146,
+        "sender_full_name": "Logbot",
+        "timestamp": 1763142305
+    },
+    {
+        "content": "<p>Changelog News #170! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/170.3A.20Why.20is.20Zig.20so.20cool.3F/with/556924633\">#news &gt; 170: Why is Zig so cool?</a></p>",
+        "id": 556924636,
+        "sender_full_name": "Logbot",
+        "timestamp": 1763411405
+    },
+    {
+        "content": "<p>Changelog Interviews #667! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/667.3A.20Creating.20communal.20computers/with/558291349\">#interviews &gt; 667: Creating communal computers</a></p>",
+        "id": 558291350,
+        "sender_full_name": "Logbot",
+        "timestamp": 1763582406
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #118! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/118.3A.20NOT.20a.20swarm.21/with/558671435\">#friends &gt; 118: NOT a swarm!</a></p>",
+        "id": 558671438,
+        "sender_full_name": "Logbot",
+        "timestamp": 1763734926
+    },
+    {
+        "content": "<p>Changelog News #171! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/171.3A.20What.20is.20a.20tech.20bubble.20anyway.3F/with/560012202\">#news &gt; 171: What is a tech bubble anyway?</a></p>",
+        "id": 560012204,
+        "sender_full_name": "Logbot",
+        "timestamp": 1764017106
+    },
+    {
+        "content": "<p>Changelog Interviews #668! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/668.3A.20The.20inner.20workings.20of.20Wikipedia/with/560461842\">#interviews &gt; 668: The inner workings of Wikipedia</a></p>",
+        "id": 560461843,
+        "sender_full_name": "Logbot",
+        "timestamp": 1764185405
+    },
+    {
+        "content": "<p>Hey everyone<br>\nWe are building a hiring tool for teams that need engineering bandwidth without going through long hiring cycles.</p>\n<p>We’re trying to shape the product around what founders / CEOs / HRs actually need and right now we have a vetted pool (backend, AI/ML, data, DevOps) available for contract or full-time roles as well.</p>\n<p>Looking for a few founders / CEOs/decision makers here who’d be willing to tear the idea apart and give feedback.<br>\nIf you’re open to a quick chat or async review, please DM me.</p>",
+        "id": 560669045,
+        "sender_full_name": "Rohan Bhatial",
+        "timestamp": 1764276426
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #119! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/119.3A.20The.204.20DIMM.20problem/with/560846436\">#friends &gt; 119: The 4 DIMM problem</a></p>",
+        "id": 560846439,
+        "sender_full_name": "Logbot",
+        "timestamp": 1764358506
+    },
+    {
+        "content": "<p>Changelog News #172! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/172.3A.20What.20actually.20makes.20you.20senior/with/561268206\">#news &gt; 172: What actually makes you senior</a></p>",
+        "id": 561268209,
+        "sender_full_name": "Logbot",
+        "timestamp": 1764621066
+    },
+    {
+        "content": "<p>Changelog Interviews #669! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/669.3A.20Werner.20Vogels.20predicts.20the.20future/with/561902722\">#interviews &gt; 669: Werner Vogels predicts the future</a></p>",
+        "id": 561902725,
+        "sender_full_name": "Logbot",
+        "timestamp": 1764860706
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #120! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/120.3A.20Very.20important.20agents/with/562200967\">#friends &gt; 120: Very important agents</a></p>",
+        "id": 562200968,
+        "sender_full_name": "Logbot",
+        "timestamp": 1764980225
+    },
+    {
+        "content": "<p>Changelog News #173! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/173.3A.20The.20.22confident.20idiot.22.20problem/with/562548777\">#news &gt; 173: The \"confident idiot\" problem</a></p>",
+        "id": 562548779,
+        "sender_full_name": "Logbot",
+        "timestamp": 1765224245
+    },
+    {
+        "content": "<p>Changelog Interviews #670! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/670.3A.20Autonomous.20drone.20delivery.20in.20a.20Zip/with/563043454\">#interviews &gt; 670: Autonomous drone delivery in a Zip</a></p>",
+        "id": 563043456,
+        "sender_full_name": "Logbot",
+        "timestamp": 1765398727
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #121! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/121.3A.20Down.20the.20Linux.20rabbit.20hole/with/563550079\">#friends &gt; 121: Down the Linux rabbit hole</a></p>",
+        "id": 563550080,
+        "sender_full_name": "Logbot",
+        "timestamp": 1765568833
+    },
+    {
+        "content": "<p>Changelog News #174! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/174.3A.20The.20code.2C.20prose.20.26.20pods.20that.20shaped.202025/with/563914715\">#news &gt; 174: The code, prose &amp; pods that shaped 2025</a></p>",
+        "id": 563914717,
+        "sender_full_name": "Logbot",
+        "timestamp": 1765829166
+    },
+    {
+        "content": "<p>Changelog Interviews #671! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/671.3A.20Agents.20in.20the.20database/with/564575051\">#interviews &gt; 671: Agents in the database</a></p>",
+        "id": 564575052,
+        "sender_full_name": "Logbot",
+        "timestamp": 1766095385
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #122! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/122.3A.20State.20of.20the.20.22log.22.202025/with/564759840\">#friends &gt; 122: State of the \"log\" 2025</a></p>",
+        "id": 564759841,
+        "sender_full_name": "Logbot",
+        "timestamp": 1766170809
+    },
+    {
+        "content": "<p>Changelog News #175! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/175.3A.20The.20move.20faster.20manifesto/with/566429062\">#news &gt; 175: The move faster manifesto</a></p>",
+        "id": 566429063,
+        "sender_full_name": "Logbot",
+        "timestamp": 1767643206
+    },
+    {
+        "content": "<p>Changelog Interviews #672! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/672.3A.20From.20GitLab.20to.20Kilo.20Code/with/566822308\">#interviews &gt; 672: From GitLab to Kilo Code</a></p>",
+        "id": 566822309,
+        "sender_full_name": "Logbot",
+        "timestamp": 1767819607
+    },
+    {
+        "content": "<p>Changelog News #176! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/176.3A.20Linus.20Torvalds.20gets.20the.20AI.20coding.20bug/with/567627629\">#news &gt; 176: Linus Torvalds gets the AI coding bug</a></p>",
+        "id": 567627631,
+        "sender_full_name": "Logbot",
+        "timestamp": 1768246506
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #123! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/123.3A.20The.20GitHub.20problem.20.28and.20other.20predictions.29/with/568079640\">#friends &gt; 123: The GitHub problem (and other predictions)</a></p>",
+        "id": 568079641,
+        "sender_full_name": "Logbot",
+        "timestamp": 1768424526
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #124! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/124.3A.20Kaizen.21.20Let.20it.20crash/with/568544754\">#friends &gt; 124: Kaizen! Let it crash</a></p>",
+        "id": 568544755,
+        "sender_full_name": "Logbot",
+        "timestamp": 1768610707
+    },
+    {
+        "content": "<p>Changelog News #177! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/177.3A.20Agent.20psychosis.3A.20are.20we.20going.20insane.3F/with/568884469\">#news &gt; 177: Agent psychosis: are we going insane?</a></p>",
+        "id": 568884472,
+        "sender_full_name": "Logbot",
+        "timestamp": 1768854606
+    },
+    {
+        "content": "<p>Changelog Interviews #673! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/673.3A.20The.20era.20of.20the.20Small.20Giant/with/569589752\">#interviews &gt; 673: The era of the Small Giant</a></p>",
+        "id": 569589753,
+        "sender_full_name": "Logbot",
+        "timestamp": 1769116446
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #125! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/125.3A.20The.20state.20of.20homelab.20tech.20.282026.29/with/569903924\">#friends &gt; 125: The state of homelab tech (2026)</a></p>",
+        "id": 569903925,
+        "sender_full_name": "Logbot",
+        "timestamp": 1769289247
+    },
+    {
+        "content": "<p>Changelog News #178! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/178.3A.20Clawdbot.20triggers.20a.20run.20on.20Mac.20Minis/with/570177948\">#news &gt; 178: Clawdbot triggers a run on Mac Minis</a></p>",
+        "id": 570177949,
+        "sender_full_name": "Logbot",
+        "timestamp": 1769457607
+    },
+    {
+        "content": "<p>Changelog Interviews #674! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/674.3A.20Securing.20npm.20is.20table.20stakes/with/570818675\">#interviews &gt; 674: Securing npm is table stakes</a></p>",
+        "id": 570818677,
+        "sender_full_name": "Logbot",
+        "timestamp": 1769698808
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #126! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/126.3A.20Natural.20born.20SaaS.20killers/with/571122985\">#friends &gt; 126: Natural born SaaS killers</a></p>",
+        "id": 571122988,
+        "sender_full_name": "Logbot",
+        "timestamp": 1769806807
+    },
+    {
+        "content": "<p>Changelog News #179! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/179.3A.20The.20tech.20monoculture.20is.20finally.20breaking/with/571519151\">#news &gt; 179: The tech monoculture is finally breaking</a></p>",
+        "id": 571519154,
+        "sender_full_name": "Logbot",
+        "timestamp": 1770064206
+    },
+    {
+        "content": "<p>Since you mentioned Moltbook in the latest news issue, I thought this could be of interest: <a href=\"https://www.wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys\">https://www.wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys</a></p>",
+        "id": 571782036,
+        "sender_full_name": "Raúl",
+        "timestamp": 1770159387
+    },
+    {
+        "content": "<p>Changelog Interviews #675! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/675.3A.20Setting.20Docker.20Hardened.20Images.20free/with/571998183\">#interviews &gt; 675: Setting Docker Hardened Images free</a></p>",
+        "id": 571998184,
+        "sender_full_name": "Logbot",
+        "timestamp": 1770235206
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #127! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/127.3A.20It.27s.20a.20renaissance.20woman.27s.20world/with/572465980\">#friends &gt; 127: It's a renaissance woman's world</a></p>",
+        "id": 572465981,
+        "sender_full_name": "Logbot",
+        "timestamp": 1770413406
+    },
+    {
+        "content": "<p>Changelog News #180! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/180.3A.20Vouch.20for.20an.20open.20source.20web.20of.20trust/with/572863026\">#news &gt; 180: Vouch for an open source web of trust</a></p>",
+        "id": 572863028,
+        "sender_full_name": "Logbot",
+        "timestamp": 1770663606
+    },
+    {
+        "content": "<p>Changelog Interviews #676! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"456187\" href=\"/#narrow/channel/456187-interviews/topic/676.3A.20Building.20the.20machine.20that.20builds.20the.20machine/with/573381190\">#interviews &gt; 676: Building the machine that builds the machine</a></p>",
+        "id": 573381192,
+        "sender_full_name": "Logbot",
+        "timestamp": 1770841806
+    },
+    {
+        "content": "<p>Changelog &amp; Friends #128! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455613\" href=\"/#narrow/channel/455613-friends/topic/128.3A.20Han.20shot.20first/with/573827060\">#friends &gt; 128: Han shot first</a></p>",
+        "id": 573827064,
+        "sender_full_name": "Logbot",
+        "timestamp": 1771016406
+    },
+    {
+        "content": "<p>Changelog News #181! Discuss <span aria-label=\"point right\" class=\"emoji emoji-1f449\" role=\"img\" title=\"point right\">:point_right:</span> <a class=\"stream-topic\" data-stream-id=\"455469\" href=\"/#narrow/channel/455469-news/topic/181.3A.20All.20the.20Claw.20things/with/574172620\">#news &gt; 181: All the Claw things</a></p>",
+        "id": 574172621,
+        "sender_full_name": "Logbot",
+        "timestamp": 1771270206
+    }
+]

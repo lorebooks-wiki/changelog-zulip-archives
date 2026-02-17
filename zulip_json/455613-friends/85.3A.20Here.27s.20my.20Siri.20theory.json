@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>Justin Searls from <a href=\"https://justin.searls.co/casts/\">Breaking Change</a> joins the show to discuss Apple's Intelligence blunder, the end of the good times in the tech industry, and <a href=\"https://posseparty.com\">POSSE Party</a>, his in-progress product that lets \"any dummy with a website enjoy a life of algorithm-free luxury.\" <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.am/85\">https://changelog.am/85</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.am/85#t=0\">00:00</a></td>\n<td>Let's talk!</td>\n<td>00:38</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.am/85#t=38\">00:38</a></td>\n<td><a href=\"https://retool.com/changelog\">Sponsor: Retool</a></td>\n<td>03:01</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.am/85#t=219\">03:39</a></td>\n<td>Monologues &amp; Friends</td>\n<td>07:20</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.am/85#t=659\">10:59</a></td>\n<td>Rotten Cupertino</td>\n<td>05:35</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.am/85#t=994\">16:34</a></td>\n<td>Lost credibility</td>\n<td>05:56</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.am/85#t=1351\">22:31</a></td>\n<td>No more real demos</td>\n<td>03:33</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.am/85#t=1564\">26:04</a></td>\n<td><a href=\"https://www.augmentcode.com\">Sponsor: Augment Code</a></td>\n<td>03:07</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.am/85#t=1750\">29:10</a></td>\n<td>What went wrong?</td>\n<td>03:12</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.am/85#t=1942\">32:22</a></td>\n<td>A Siri theory</td>\n<td>04:18</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.am/85#t=2199\">36:39</a></td>\n<td>Siri vs HomeKit vs Maps</td>\n<td>04:14</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.am/85#t=2453\">40:53</a></td>\n<td>Alexa AI</td>\n<td>02:43</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.am/85#t=2617\">43:37</a></td>\n<td>Apple's mainstream sentiment</td>\n<td>03:55</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.am/85#t=2851\">47:31</a></td>\n<td>Apple's rumored redesign</td>\n<td>05:05</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.am/85#t=3156\">52:36</a></td>\n<td>Metallica on the Vision Pro</td>\n<td>06:46</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.am/85#t=3562\">59:22</a></td>\n<td>Is the Vision Pro dead?</td>\n<td>02:50</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.am/85#t=3732\">1:02:12</a></td>\n<td>The good times in tech are over</td>\n<td>06:47</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.am/85#t=4140\">1:09:00</a></td>\n<td>Justin slips in an ad</td>\n<td>00:59</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.am/85#t=4199\">1:09:59</a></td>\n<td>The growth decade</td>\n<td>03:07</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.am/85#t=4386\">1:13:06</a></td>\n<td>Corrections are corrective</td>\n<td>03:05</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.am/85#t=4571\">1:16:11</a></td>\n<td>Describe a good programmer</td>\n<td>03:15</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.am/85#t=4766\">1:19:26</a></td>\n<td>A senior with an LLM</td>\n<td>03:38</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.am/85#t=4984\">1:23:04</a></td>\n<td>Just replacing Google</td>\n<td>02:00</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.am/85#t=5104\">1:25:04</a></td>\n<td>LLM use-cases</td>\n<td>03:00</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.am/85#t=5284\">1:28:04</a></td>\n<td>A demoralizing pun</td>\n<td>02:00</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://changelog.am/85#t=5404\">1:30:04</a></td>\n<td>Jerod's CSS problem</td>\n<td>02:01</td>\n</tr>\n<tr>\n<td>26</td>\n<td><a href=\"https://changelog.am/85#t=5525\">1:32:05</a></td>\n<td>LLMs need more confidence?!</td>\n<td>02:18</td>\n</tr>\n<tr>\n<td>27</td>\n<td><a href=\"https://changelog.am/85#t=5664\">1:34:24</a></td>\n<td>Curse says learn to code</td>\n<td>02:49</td>\n</tr>\n<tr>\n<td>28</td>\n<td><a href=\"https://changelog.am/85#t=5833\">1:37:13</a></td>\n<td>Vibe coding!</td>\n<td>01:57</td>\n</tr>\n<tr>\n<td>29</td>\n<td><a href=\"https://changelog.am/85#t=5949\">1:39:09</a></td>\n<td>Vibe shipping?!</td>\n<td>02:30</td>\n</tr>\n<tr>\n<td>30</td>\n<td><a href=\"https://changelog.am/85#t=6099\">1:41:39</a></td>\n<td>POSSE Party</td>\n<td>17:56</td>\n</tr>\n<tr>\n<td>31</td>\n<td><a href=\"https://changelog.am/85#t=7175\">1:59:35</a></td>\n<td>Bye, friends</td>\n<td>00:14</td>\n</tr>\n<tr>\n<td>32</td>\n<td><a href=\"https://changelog.am/85#t=7190\">1:59:50</a></td>\n<td>Closing thoughts</td>\n<td>01:30</td>\n</tr>\n</tbody>\n</table>",
+        "id": 507316441,
+        "sender_full_name": "Logbot",
+        "timestamp": 1742573828
+    },
+    {
+        "content": "<p>Loved this episode!</p>",
+        "id": 507350867,
+        "sender_full_name": "Dustin",
+        "timestamp": 1742584890
+    },
+    {
+        "content": "<p>I’m totally with you Jerod on the LLM usage. Ideal for the “I would have searched stack overflow instead” use case.</p>",
+        "id": 507351003,
+        "sender_full_name": "Dustin",
+        "timestamp": 1742584931
+    },
+    {
+        "content": "<p>Yes this has been highly productive for me and an easy habit switcher</p>",
+        "id": 507359701,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1742588214
+    },
+    {
+        "content": "<p><a href=\"https://youtu.be/AnPY20aEwzY?si=cr-qOFkEdyAnqX_6\">https://youtu.be/AnPY20aEwzY?si=cr-qOFkEdyAnqX_6</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"AnPY20aEwzY\" href=\"https://youtu.be/AnPY20aEwzY?si=cr-qOFkEdyAnqX_6\"><img src=\"https://uploads.zulipusercontent.net/aeac37401584d1997cb5c63a5addd1b3739c8f49/68747470733a2f2f692e7974696d672e636f6d2f76692f416e505932306145777a592f6d7164656661756c742e6a7067\"></a></div>",
+        "id": 507623403,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1742777255
+    },
+    {
+        "content": "<p>…5 minute timer</p>",
+        "id": 507630820,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1742781709
+    },
+    {
+        "content": "<p>Edit: <span aria-label=\"chicken\" class=\"emoji emoji-1f414\" role=\"img\" title=\"chicken\">:chicken:</span></p>",
+        "id": 507631474,
+        "sender_full_name": "Sukhdeep Brar",
+        "timestamp": 1742782075
+    },
+    {
+        "content": "<p>Imaginary conversation at Apple:</p>\n<p>Hey do you think we can run one of these LLMs on an iphone?<br>\nWell if we used a stripped down model and quantized a bit we might be able to.<br>\nGreat! Let's make the announcement, we'll brand it \"Apple Inteligence!\"</p>\n<p>..... Three months later</p>\n<p>Well we got it running give it a try.<br>\nNo you can't talk to it, you can only type because voice recognition is too slow.<br>\nNo you have wait, it's kind of slow in responding, it's only the one billion model.<br>\nOh and China won't allow AI developed outside of China so we can't use it in that market.</p>\n<p>....</p>\n<p>This looks bad, I have an idea! Let's just use the OpenAI api, that won't require any resources and it will be fast enough. We'll use the AliBaba AI in China.</p>\n<p>Yea let's ship that, nobody will know the difference.</p>",
+        "id": 507644035,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1742789708
+    },
+    {
+        "content": "<p><span aria-label=\"palm tree\" class=\"emoji emoji-1f334\" role=\"img\" title=\"palm tree\">:palm_tree:</span>…how far the apple has fallen from the tree…<span aria-label=\"apple\" class=\"emoji emoji-1f34e\" role=\"img\" title=\"apple\">:apple:</span></p>",
+        "id": 507908075,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1742866827
+    },
+    {
+        "content": "<p>I was waiting for the woof reference but it never came :(</p>\n<div class=\"message_inline_image\"><a href=\"https://y.yarn.co/6a44fefc-da0d-4b2e-9cdd-672b69f60986_text.gif\"><img src=\"https://uploads.zulipusercontent.net/03293de736785350254e7ed20fe043f93737a352/68747470733a2f2f792e7961726e2e636f2f36613434666566632d646130642d346232652d396364642d3637326236396636303938365f746578742e676966\"></a></div>",
+        "id": 509343679,
+        "sender_full_name": "Jimmy Sweeney",
+        "timestamp": 1743475036
+    }
+]

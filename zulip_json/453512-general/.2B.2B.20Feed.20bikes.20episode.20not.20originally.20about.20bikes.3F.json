@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Weird, on my ++ feed the audio for <a href=\"https://changelog.com/friends/100\">https://changelog.com/friends/100</a> had an interview with the guy making the vibes site (cant remember his name), then I deleted that episode in overcast, downloaded it again, and its the correct audio about bikes. Anyway, looking forward to the bikes episode ...</p>",
+        "id": 528079050,
+        "sender_full_name": "Scott Chamberlain",
+        "timestamp": 1752153192
+    },
+    {
+        "content": "<p>Haha yeah we uploaded the wrong audio at first, then fixed it but apps that already had the mp3 local need to delete and re-download (there's no way to tell podcast apps to update your file, sadly)</p>",
+        "id": 528082750,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1752154232
+    },
+    {
+        "content": "<p>Makes sense. Thanks.</p>",
+        "id": 528110961,
+        "sender_full_name": "Scott Chamberlain",
+        "timestamp": 1752161960
+    }
+]

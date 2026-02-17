@@ -1,0 +1,49 @@
+<html>
+<head><meta charset="utf-8"><title>Improving my home automation setup · homelab · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/index.html">homelab</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Improving.20my.20home.20automation.20setup.html">Improving my home automation setup</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="488513459"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/Improving%20my%20home%20automation%20setup/near/488513459" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nabeel S <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Improving.20my.20home.20automation.20setup.html#488513459">(Dec 11 2024 at 22:24)</a>:</h4>
+<p>I've finally decided to re-factor my home smart-light situation. I've been using wifi-based bulbs. Enough of them have died that I'm anyways needing replacements. My goals are:</p>
+<ul>
+<li>To not have so many small devices on my wifi</li>
+<li>To be able to operate my smart lights even if there is an internet outage</li>
+</ul>
+<p>Based on my research I'm going to attempt to setup a <a href="https://www.home-assistant.io/">Home Assistant</a> with a Zigbee hub and Zigbee lights.</p>
+<p>Any recommendations or gotchas I should watch out for?</p>
+
+
+
+<a name="489010091"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/Improving%20my%20home%20automation%20setup/near/489010091" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Erik Horton <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Improving.20my.20home.20automation.20setup.html#489010091">(Dec 14 2024 at 17:03)</a>:</h4>
+<p>I'm sort of in the same boat.  Been using OHLUX wifi bulbs that have just be ok, fixing issues "in post" (home assistant automation).  They got the job done for cheap, but I'd rather have smart light switches / toggles that guests can use + the home assistant integration.  I haven't committed on any switches yet, but have been keeping an eye on <a href="https://inovelli.com/">https://inovelli.com/</a>.   Lutron are probably the most reliable from what I understand, and Kasa might be good for cheap.</p>
+
+
+
+<a name="489027975"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/Improving%20my%20home%20automation%20setup/near/489027975" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthias Schippling <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Improving.20my.20home.20automation.20setup.html#489027975">(Dec 14 2024 at 21:30)</a>:</h4>
+<p>I'm using a SONOFF Zigbee 3.0 USB Dongle Plus as my Zigbee Hub, IKEA Zigbee LEDs for my regular lightbulbs and a few fancy OSRAM and Philips Hue lamps. Everything coordinated via MQTT, Zigbee2MQTT, Home Assistant and NodeRED. Switches are by IKEA and Philips Hue.</p>
+<p>MQTT because together with Zigbee2MQTT it's the common protocol with my Tasmota Smart Plugs and I can easily mix and match the next "higher" abstraction, i.e. Home Assistant and NodeRED in my case.</p>
+<p>Home Assistant because it offers nice dashboards and I can easily integrate WiFi devices or web-service based things (e.g. Withings smart scale, printer, etc.)</p>
+<p>NodeRED because I like the way to easily chain together inputs, transformations and outputs. <br>
+I used it to build a small state machine for a Philips Hue Tap Dial. With double or triple click on a button I switch between my configured modes and single click switches a function in the selected mode (e.g. a certain light on-off, movie projector on-off). The dial is used to change the volume of the Sonos sound bar or the brightness of a light, also based on the double-/triple-click selected mode.</p>
+<p>So far, I have no major issues. <br>
+The only thing I would advise is to have a dedicated remote for each manufacturer you're using, to be able to easily factory reset a lightbulb in case it has issues. e.g. the "Wireless Dimmer Switch" for Philips Hue lamps or the STYRBAR remote for IKEA bulbs. Each will most likely also work with lamps from other manufacturers but in case they don't, I like to be prepared ;-).</p>
+
+
+
+<a name="489092451"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/454981-homelab/topic/Improving%20my%20home%20automation%20setup/near/489092451" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fershad Irani <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/454981-homelab/topic/Improving.20my.20home.20automation.20setup.html#489092451">(Dec 15 2024 at 15:38)</a>:</h4>
+<p>Bought a Texas Instruments ZigBee hub &amp; have been using that with Home Assistant running on a local raspberry pi for a while now. No issues with both Philips Hue lights (bulbs, hue go, light strip, motion sensor, or dimmer switch) to the point where I've packed away the Hue Hub &amp; removed the app from my phone. Also using IKEA bulbs with it, and some Broadlink IR/RF "remotes" to automate things like turning on the AC in summer at different times. No issues with anything, but the Broadlinks are bloody hard to get setup initially.</p>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

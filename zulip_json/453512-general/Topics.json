@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Just discovered the topics page: <a href=\"https://changelog.com/topics\">https://changelog.com/topics</a></p>\n<p>This is awesome! Loving going back and listening to old episodes as a Changelog newbie.</p>",
+        "id": 509506885,
+        "sender_full_name": "Joe",
+        "timestamp": 1743527649
+    },
+    {
+        "content": "<p>Oh yeah, I forgot that page existed too! <span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span></p>",
+        "id": 509507425,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1743527824
+    },
+    {
+        "content": "<p>Hmm looks like it still counts all episodes and news items, but we don't show news items anymore (since we switched from Changelog Weekly to Changelog News and removed the news feed).</p>\n<p>I'll change that count so it's accurate.</p>",
+        "id": 509508123,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1743528020
+    }
+]

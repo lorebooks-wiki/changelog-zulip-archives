@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Charlie Marsh built <a href=\"https://docs.astral.sh/uv/\">Ruff</a> (an extremely fast Python linter written in Rust) and <a href=\"https://docs.astral.sh/uv/\">uv</a> (an extremely fast Python package manager written in Rust) because he believes great tools can have an outsized impact. He believes it so much, in fact, that he started an entire company that builds next-gen Python tooling.</p>\n<p>On this episode, Charlie joins us to tell us all about it: why Python, why Rust, how they make everything so fast, how they're starting to make money, what other products he's dreaming up, and more. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.fm/660\">https://changelog.fm/660</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.fm/660#t=0\">00:00</a></td>\n<td>Welcome to The Changelog</td>\n<td>01:09</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.fm/660#t=69\">01:09</a></td>\n<td><a href=\"https://depot.dev\">Sponsor: Depot</a></td>\n<td>02:12</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.fm/660#t=201\">03:21</a></td>\n<td>Start the show!</td>\n<td>00:43</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.fm/660#t=244\">04:04</a></td>\n<td>Intro to uv</td>\n<td>02:18</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.fm/660#t=382\">06:22</a></td>\n<td>Inspired by Cargo</td>\n<td>02:25</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.fm/660#t=527\">08:47</a></td>\n<td>Past tech for the future</td>\n<td>04:11</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.fm/660#t=778\">12:58</a></td>\n<td>Full circle pollination</td>\n<td>03:29</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.fm/660#t=987\">16:27</a></td>\n<td>Why fix Python packaging</td>\n<td>05:09</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.fm/660#t=1296\">21:36</a></td>\n<td>First steps</td>\n<td>05:44</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.fm/660#t=1640\">27:20</a></td>\n<td>No pitch deck required</td>\n<td>01:42</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.fm/660#t=1742\">29:02</a></td>\n<td>Clauding away</td>\n<td>02:31</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.fm/660#t=1893\">31:33</a></td>\n<td>The right way to install</td>\n<td>01:10</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.fm/660#t=1963\">32:43</a></td>\n<td>uv init / add</td>\n<td>02:27</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.fm/660#t=2109\">35:09</a></td>\n<td>The global cache</td>\n<td>02:34</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.fm/660#t=2263\">37:43</a></td>\n<td>Rust project structure</td>\n<td>01:31</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.fm/660#t=2354\">39:14</a></td>\n<td>Python or Rust?</td>\n<td>02:50</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.fm/660#t=2524\">42:04</a></td>\n<td>Rust ownership deep-dive</td>\n<td>04:34</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.fm/660#t=2797\">46:37</a></td>\n<td>3 ownership rules</td>\n<td>01:10</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.fm/660#t=2868\">47:48</a></td>\n<td>Impossible vulns</td>\n<td>01:38</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.fm/660#t=2966\">49:26</a></td>\n<td>The source of speed</td>\n<td>05:50</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.fm/660#t=3316\">55:16</a></td>\n<td>First product! pyx</td>\n<td>03:05</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.fm/660#t=3500\">58:20</a></td>\n<td>A future public registry?</td>\n<td>03:26</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.fm/660#t=3706\">1:01:46</a></td>\n<td>What it means to be GPU-aware</td>\n<td>06:53</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.fm/660#t=4119\">1:08:39</a></td>\n<td>Other product ideas</td>\n<td>04:07</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://changelog.fm/660#t=4366\">1:12:46</a></td>\n<td>A new Python runtime?!</td>\n<td>07:34</td>\n</tr>\n<tr>\n<td>26</td>\n<td><a href=\"https://changelog.fm/660#t=4821\">1:20:21</a></td>\n<td>Why a new runtime?</td>\n<td>08:44</td>\n</tr>\n<tr>\n<td>27</td>\n<td><a href=\"https://changelog.fm/660#t=5345\">1:29:05</a></td>\n<td>Astral's brand</td>\n<td>09:59</td>\n</tr>\n<tr>\n<td>28</td>\n<td><a href=\"https://changelog.fm/660#t=5943\">1:39:03</a></td>\n<td>Can't outsource voice</td>\n<td>01:59</td>\n</tr>\n<tr>\n<td>29</td>\n<td><a href=\"https://changelog.fm/660#t=6063\">1:41:03</a></td>\n<td>Wrapping up</td>\n<td>00:42</td>\n</tr>\n<tr>\n<td>30</td>\n<td><a href=\"https://changelog.fm/660#t=6104\">1:41:44</a></td>\n<td><a href=\"https://forms.gle/yCJirHRCWkdbG5qK6\">Closing thoughts</a></td>\n<td>01:34</td>\n</tr>\n</tbody>\n</table>",
+        "id": 542568476,
+        "sender_full_name": "Logbot",
+        "timestamp": 1759347011
+    },
+    {
+        "content": "<p>No mention of Mojo :)</p>",
+        "id": 543143002,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1759648092
+    },
+    {
+        "content": "<p>I wonder what language the Mojo compiler is written in?<br>\nLooks like it it's possible to integrate Rust code in a Mojo project <span aria-label=\"crab\" class=\"emoji emoji-1f980\" role=\"img\" title=\"crab\">:crab:</span></p>",
+        "id": 543148311,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1759654410
+    },
+    {
+        "content": "<p>Cool episode. I've loved their projects so far (although we mostly use Poetry still, not uv), and I'm excited to try their language server when it's out of beta <span aria-label=\"eyes\" class=\"emoji emoji-1f440\" role=\"img\" title=\"eyes\">:eyes:</span></p>",
+        "id": 545007537,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1760544389
+    },
+    {
+        "content": "<p>Mojo uses LLVM so the compiler could have been written in anything including python I suppose.</p>",
+        "id": 545129491,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1760563337
+    }
+]

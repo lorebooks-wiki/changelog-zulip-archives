@@ -1,0 +1,86 @@
+[
+    {
+        "content": "<p>One idea we've been kicking around is to create a separate podcast/feed called \"Changelog Sponsors\" (or similar) that can be subscribed to directly. Each episode in the feed would contain the audio/summary of a new sponsorship campaign. </p>\n<h3>Reasons this might be cool:</h3>\n<ul>\n<li>Changelog++ members that skip ads could opt in to this in their custom feed, so they still feel in-the-loop, but never have to hear the same sponsorship audio twice. (Yes, a plurality of ++ members have requested some way to keep the ads)</li>\n<li>Sponsors (and potential sponsors) would have a convenient place to go listen to our recent campaigns and what we've produced for them (and other orgs)</li>\n<li>It would be easier for us to share links directly to sponsorship campaigns, which we do for various reasons</li>\n<li>We can submit this to Spotify/Apple/etc and randos might even want to subscribe? Seems weird, but I bet there are people who actually would...</li>\n</ul>\n<h3>Reasons this might not be cool:</h3>\n<ul>\n<li>The main drawback is labor/overhead. It's one more thing to do each time a campaign is produced, which could be multiple times a week.</li>\n</ul>\n<h3>Outstanding questions:</h3>\n<ul>\n<li>How would this work with Changelog News sponsors? Include or exclude?</li>\n<li>Would we include this in the Master feed? I'm thinking... no?</li>\n<li>What would its artwork look like? </li>\n<li>Should it show up on our homepage and /podcasts?</li>\n</ul>\n<p>Interested to hear what others think of this idea!</p>",
+        "id": 469763999,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1726169559
+    },
+    {
+        "content": "<p>I want this! <span aria-label=\"innocent\" class=\"emoji emoji-1f607\" role=\"img\" title=\"innocent\">:innocent:</span> <br>\nI am interested in the campaigns, but apparently never enough to download a standard episode and listen. Also, it would probably be hard to know whether I've heard that one or not, since the chapter name only has the name of the sponsor, but maybe there are two or more distinct campaigns for that sponsor.<br>\nI don't know about submitting to Spotify/Apple/etc though. On one hand, at least one rando will subscribe and be content, but at least one rando will subscribe and be really confused and maybe even mad <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span> <br>\nI can see the review already: \"What the hell, this show is just ads! What has the world come to? <span aria-label=\"angry\" class=\"emoji emoji-1f620\" role=\"img\" title=\"angry\">:angry:</span> \" even though it's clearly stated in the show description what it is...</p>\n<p>Regarding the questions:</p>\n<ul>\n<li>Changelog News: I vote for including them, unless it's way more work than just including the \"standard\" sponsors. But maybe it's more of a business question: should News sponsors be in a \"lower tier\", meaning they are not included in the Sponsors feed?</li>\n<li>Master feed: I vote for no. My reasoning is that they are already there, in the episodes themselves.</li>\n<li><a href=\"http://Changelog.com\">Changelog.com</a>: I vote for it not showing up in the grid, but showing up in the footer. To me, that seems like a good place to put it, since paused/stopped shows are also there.</li>\n</ul>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"http://Changelog.com\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/d271c25b3801f3523bc40885c410eb02c2c839d6/68747470733a2f2f63646e2e6368616e67656c6f672e636f6d2f7374617469632f696d616765732f73686172652f616c6c2d706f6463617374732d37623435646466376139643431336230326333323661343738393832373132312e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"http://Changelog.com\" title=\"Podcasts for developers\">Podcasts for developers</a></div><div class=\"message_embed_description\">Weekly shows about software development, developer culture, open source, building startups, artificial intelligence, brain science, and the people involved.</div></div></div>",
+        "id": 469869851,
+        "sender_full_name": "Maroš Kučera",
+        "timestamp": 1726210302
+    },
+    {
+        "content": "<p>I'd really like this, I discovered quite a few new technologies to try through your Ads. So have kind of missed them since subscribing to ++. Never thought I'd be saying that about Ads, but testament to how good a job you do with them. </p>\n<ul>\n<li>I think exclude the news ones as we already hear those</li>\n<li>Exclude from master feed then it's still \"ad free\".</li>\n</ul>",
+        "id": 469875081,
+        "sender_full_name": "Alex Barnes",
+        "timestamp": 1726211649
+    },
+    {
+        "content": "<p>Wait, ads are included in ++ News? When writing my previous message, I was not sure at first, so I checked in my Overcast and then on the site to see chapters and episode length and it looked as though News++ doesn't include them. Or is it that they are included in Supercast feed but not in custom feeds? <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 469876626,
+        "sender_full_name": "Maroš Kučera",
+        "timestamp": 1726211977
+    },
+    {
+        "content": "<p>News++ episodes do not have the ad in them</p>",
+        "id": 469919264,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1726221743
+    },
+    {
+        "content": "<p>I would also like this. I think the ads on Changelog podcast are really informative and I somewhat miss them since I became a ++ subscriber. Having a way to listen to them and just do it once would be <span aria-label=\"superhero\" class=\"emoji emoji-1f9b8\" role=\"img\" title=\"superhero\">:superhero:</span> </p>\n<p>For the questions: </p>\n<ul>\n<li>Changelog News AD: I would like to see them included </li>\n<li>Master feed: No do not include them</li>\n<li><a href=\"http://Chandelog.com\">Chandelog.com</a>: Yes why not, as been said before maybe some rando picks it up :-)</li>\n</ul>",
+        "id": 469933648,
+        "sender_full_name": "Pontus Ullgren",
+        "timestamp": 1726225479
+    },
+    {
+        "content": "<p>You described some of the pieces you go through in your process of producing the podcasts in the latest friends episode #61, and you already have the recordings in some state where you can include them as ads in other episodes. Do you expect there would be additional editing needed to drop ads into their own feed? I am sure there are pieces here I’m not familiar with in the workflow. Can you share more about what hurdles you expect to deal with in creating a new feed for the ads? What can be done to minimize the effort needed to take the individuals clips and drop them into a separate feed? Thinking about this a bit, I’m wondering if the ads are all different for each pod or is they overlap, and how many ads you produce. As a first step, would just adding it as an option to the custom feeds for ++ members take much additional effort, or is that part of the additional friction?</p>\n<p>I would want you to keep things as simple as possible as a first approach to reduce the amount of additional effort it may take, and then look for identifying how to improve it from there. As a ++ member, I recognize I’m closer to the metal <span aria-label=\"at work\" class=\"emoji emoji-2692\" role=\"img\" title=\"at work\">:at_work:</span> and if it’s a bit raw or rough in a few unique spots it’s not going to upset me any. <span aria-label=\"rock on\" class=\"emoji emoji-1f918\" role=\"img\" title=\"rock on\">:rock_on:</span></p>\n<p>My opinions on your outstanding questions:</p>\n<ul>\n<li>I don’t think I know what the difference would be with news sponsor ads, initially I would expect them to be included also. <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span></li>\n<li>I wouldn’t expect them to be included or desired in the normal master feed as anyone that isn’t a ++ member already has the ads bundled… and if they really really wanted the ads specifically as a feed or something, that seems like a reasonable thing as a bonus for ++ members as an added convince.</li>\n<li>Since most of the artwork is geometric lineart, an idea I had is a digital sound wave <span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span> made of multiple boxes <span aria-label=\"package\" class=\"emoji emoji-1f4e6\" role=\"img\" title=\"package\">:package:</span>, like what is seen on an equalizer or visual sound wave. <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span> For a quirky twist I always find ads fun to mix with adds, as a word twist since they sound the same, but there is already a ++ thing going on. <span aria-label=\"smirk\" class=\"emoji emoji-1f60f\" role=\"img\" title=\"smirk\">:smirk:</span></li>\n<li>I think something like an ads only feed would be fun to keep more as a discoverable gem on the website. Maybe you could make it more like an Easter egg <span aria-label=\"hatching\" class=\"emoji emoji-1f423\" role=\"img\" title=\"hatching\">:hatching:</span> on the site where it’s possible to discover<span aria-label=\"search\" class=\"emoji emoji-1f50d\" role=\"img\" title=\"search\">:search:</span>, but it’s not prominent or promoted. It’s not the main content/meal<span aria-label=\"paella\" class=\"emoji emoji-1f958\" role=\"img\" title=\"paella\">:paella:</span>, but it can be fun to discover a hidden stash of treats that can be shared with those who know about it or discover it on their own. <span aria-label=\"candy\" class=\"emoji emoji-1f36c\" role=\"img\" title=\"candy\">:candy:</span><span aria-label=\"cookie\" class=\"emoji emoji-1f36a\" role=\"img\" title=\"cookie\">:cookie:</span></li>\n</ul>",
+        "id": 470085882,
+        "sender_full_name": "Matt Johnson",
+        "timestamp": 1726285081
+    },
+    {
+        "content": "<p>Loving all the conversation around this idea! A few answers/clarifiers:</p>\n<blockquote>\n<p>Master feed: No do not include them</p>\n</blockquote>\n<p>Yeah I think this is the right call.</p>\n<blockquote>\n<p>Do you expect there would be additional editing needed to drop ads into their own feed?</p>\n</blockquote>\n<p>Maybe just a little, but the biggest additional effort would be the publishing of each ad as an episode, which required titling, summary, uploading, etc, etc</p>\n<blockquote>\n<p>As a first step, would just adding it as an option to the custom feeds for ++ members take much additional effort, or is that part of the additional friction?</p>\n</blockquote>\n<p>Once we commit to this and create the feed, adding it to the custom feeds will be trivial.</p>\n<blockquote>\n<p>I don’t think I know what the difference would be with news sponsor ads, initially I would expect them to be included also.</p>\n</blockquote>\n<p>Most of our ad spots are produced by Adam in a silo. The final assets (wav files) go in to a general pool and then are duplicated/placed into different episodes as the sponsorship calendar dictates. News ads are produced by me as just one of the 6 stories in each week's Changelog News. They also don't have a music bed and start with me saying \"It's now time for sponsored news!\"</p>\n<p>So the format is a bit different and the production is wildly different. I understand that as a listener those differences are mostly moot, so it makes sense that most of y'all think News ads should go in the Sponsors Feed. I _mostly_ agree with that conclusion.</p>",
+        "id": 470335725,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1726407096
+    },
+    {
+        "content": "<p>Come to think about it, just the fact that you can say to potential sponsors that you have people that pay to get the shows without ads and they still wants to. and in the future possibly will, listen to them. Not sure many podcasts can say that  <span aria-label=\"rofl\" class=\"emoji emoji-1f923\" role=\"img\" title=\"rofl\">:rofl:</span></p>",
+        "id": 470384965,
+        "sender_full_name": "Pontus Ullgren",
+        "timestamp": 1726431957
+    },
+    {
+        "content": "<p>I would also like this feed. It's much easier to link to an episode rather than trying to find chapters.</p>",
+        "id": 470683732,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1726507484
+    },
+    {
+        "content": "<p>You realize you are Super Bowl-level here?!? Where else would anyone <span aria-label=\"cry\" class=\"emoji emoji-1f622\" role=\"img\" title=\"cry\">:cry:</span> about missing the ads? Really well done Changelog!</p>",
+        "id": 471882489,
+        "sender_full_name": "Sol Oman",
+        "timestamp": 1726894958
+    },
+    {
+        "content": "<p>So I have an idea. I would love to have really good full length conversations with the CEOs of the sponsors that we have. You all have asked for a sponsor feed and that never really felt right to me. But what if I began to offer you all in depth conversations with the CEOs of the companies who sponsor us? Does that sound like a version of the same thing? What do you think?</p>",
+        "id": 530465187,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1753324730
+    },
+    {
+        "content": "<p>My first thought was that I’ve heard you guys say multiple times in the past that you can’t pay to get on Changelog interviews.. and sponsors getting in depth hour long conversations sounds like you could, in fact, pay.</p>\n<p>But if it’s a separate channel, and the interviews are interesting, and it helps you guys get sponsors, then everybody wins 🤷🏻‍♂️</p>",
+        "id": 530848294,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1753477403
+    },
+    {
+        "content": "<p>It would have to be a separate channel imho</p>",
+        "id": 530851076,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1753478759
+    }
+]

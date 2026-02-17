@@ -1,0 +1,128 @@
+[
+    {
+        "content": "<p><a href=\"https://github.com/thechangelog/changelog.com/discussions/544\">Kaizen 19</a> has arrived! Gerhard has been laser-focused on making Jerod's pipe dream a reality by putting all of his efforts into <a href=\"https://github.com/thechangelog/pipely\">Pipely</a>. Has it been a big waste of time or has this epic side quest morphed into a main quest?! <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.am/92\">https://changelog.am/92</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.am/92#t=0\">00:00</a></td>\n<td>Let's Kaizen!</td>\n<td>00:38</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.am/92#t=38\">00:38</a></td>\n<td><a href=\"https://depot.dev\">Sponsor: Depot</a></td>\n<td>02:14</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.am/92#t=172\">02:52</a></td>\n<td>Outages &amp; Friends</td>\n<td>01:54</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.am/92#t=286\">04:46</a></td>\n<td>Doubling down on Pipely</td>\n<td>01:38</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.am/92#t=384\">06:24</a></td>\n<td>Clicking around <a href=\"http://changelog.com\">changelog.com</a></td>\n<td>05:45</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.am/92#t=729\">12:09</a></td>\n<td>How many GETs are HITs?</td>\n<td>03:01</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.am/92#t=910\">15:10</a></td>\n<td>Clicking around <a href=\"http://pipedream.changelog.com\">pipedream.changelog.com</a></td>\n<td>06:53</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.am/92#t=1323\">22:03</a></td>\n<td>Are we holding it right?</td>\n<td>02:02</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.am/92#t=1445\">24:05</a></td>\n<td>Jerod finds bug #1</td>\n<td>02:08</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.am/92#t=1573\">26:13</a></td>\n<td>Jerod finds bug #2</td>\n<td>00:30</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.am/92#t=1603\">26:43</a></td>\n<td>Jerod finds bug #3</td>\n<td>00:54</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.am/92#t=1657\">27:37</a></td>\n<td>Jerod finds bug #4</td>\n<td>00:35</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.am/92#t=1692\">28:12</a></td>\n<td>Gerhard broke it!</td>\n<td>00:16</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.am/92#t=1708\">28:28</a></td>\n<td><a href=\"https://www.heroku.com/changelogpodcast\">Sponsor: Heroku</a></td>\n<td>03:39</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.am/92#t=1927\">32:07</a></td>\n<td>Fixing it</td>\n<td>02:22</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.am/92#t=2070\">34:30</a></td>\n<td>Pipely all over the world</td>\n<td>05:07</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.am/92#t=2377\">39:37</a></td>\n<td>Most requested URL?</td>\n<td>01:13</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.am/92#t=2450\">40:50</a></td>\n<td>Benchmarking the new CDN</td>\n<td>02:58</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.am/92#t=2628\">43:48</a></td>\n<td>Scaling Fly machines</td>\n<td>03:21</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.am/92#t=2829\">47:09</a></td>\n<td>Not benchmarking Bunny</td>\n<td>00:51</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.am/92#t=2880\">48:00</a></td>\n<td>Benchmarking local</td>\n<td>02:45</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.am/92#t=3046\">50:46</a></td>\n<td>Just the tip</td>\n<td>00:24</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.am/92#t=3069\">51:09</a></td>\n<td>VTC (thanks, Pontus!)</td>\n<td>02:02</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.am/92#t=3192\">53:12</a></td>\n<td>We want acceptance tests</td>\n<td>06:23</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://changelog.am/92#t=3574\">59:34</a></td>\n<td>Tests for switching CDNs</td>\n<td>05:01</td>\n</tr>\n<tr>\n<td>26</td>\n<td><a href=\"https://changelog.am/92#t=3875\">1:04:35</a></td>\n<td><a href=\"https://retool.com/changelog\">Sponsor: Retool</a></td>\n<td>03:01</td>\n</tr>\n<tr>\n<td>27</td>\n<td><a href=\"https://changelog.am/92#t=4056\">1:07:36</a></td>\n<td>Progressive rollout possibilities</td>\n<td>05:14</td>\n</tr>\n<tr>\n<td>28</td>\n<td><a href=\"https://changelog.am/92#t=4370\">1:12:50</a></td>\n<td>Enterprise Varnish</td>\n<td>03:05</td>\n</tr>\n<tr>\n<td>29</td>\n<td><a href=\"https://changelog.am/92#t=4555\">1:15:55</a></td>\n<td>Pipely process tree</td>\n<td>01:16</td>\n</tr>\n<tr>\n<td>30</td>\n<td><a href=\"https://changelog.am/92#t=4631\">1:17:11</a></td>\n<td>Where Dagger fits in</td>\n<td>01:27</td>\n</tr>\n<tr>\n<td>31</td>\n<td><a href=\"https://changelog.am/92#t=4717\">1:18:37</a></td>\n<td>What else is left?</td>\n<td>04:13</td>\n</tr>\n<tr>\n<td>32</td>\n<td><a href=\"https://changelog.am/92#t=4970\">1:22:50</a></td>\n<td>We need content purge</td>\n<td>06:48</td>\n</tr>\n<tr>\n<td>33</td>\n<td><a href=\"https://changelog.am/92#t=5379\">1:29:39</a></td>\n<td>How big of a list is it?</td>\n<td>04:01</td>\n</tr>\n<tr>\n<td>34</td>\n<td><a href=\"https://changelog.am/92#t=5620\">1:33:40</a></td>\n<td>By the next Kaizen?!</td>\n<td>01:38</td>\n</tr>\n<tr>\n<td>35</td>\n<td><a href=\"https://changelog.am/92#t=5718\">1:35:18</a></td>\n<td>What changes after launch?</td>\n<td>02:10</td>\n</tr>\n<tr>\n<td>36</td>\n<td><a href=\"https://changelog.am/92#t=5848\">1:37:28</a></td>\n<td>Kaizen counter</td>\n<td>01:59</td>\n</tr>\n<tr>\n<td>37</td>\n<td><a href=\"https://changelog.am/92#t=5967\">1:39:27</a></td>\n<td>Pipely launch party?!</td>\n<td>01:06</td>\n</tr>\n<tr>\n<td>38</td>\n<td><a href=\"https://changelog.am/92#t=6033\">1:40:33</a></td>\n<td>Bye, friends</td>\n<td>00:16</td>\n</tr>\n<tr>\n<td>39</td>\n<td><a href=\"https://changelog.am/92#t=6050\">1:40:50</a></td>\n<td>Coming up next</td>\n<td>01:10</td>\n</tr>\n</tbody>\n</table>",
+        "id": 517179846,
+        "sender_full_name": "Logbot",
+        "timestamp": 1746820807
+    },
+    {
+        "content": "<p>Plane tickets to Denver in July hovering around $200.. ready for the launch party. First ChangelogCon??</p>",
+        "id": 517213369,
+        "sender_full_name": "Joe",
+        "timestamp": 1746843177
+    },
+    {
+        "content": "<p>I can't promise but I'd try to make it <span aria-label=\"smiley\" class=\"emoji emoji-1f603\" role=\"img\" title=\"smiley\">:smiley:</span></p>",
+        "id": 517215987,
+        "sender_full_name": "Nabeel S",
+        "timestamp": 1746845650
+    },
+    {
+        "content": "<p>I'd love to do a Pipely launch party. Sucks to be part of the \"screw these people\" part of Trump's world in South Africa :P</p>",
+        "id": 517239546,
+        "sender_full_name": "Owen Valentine",
+        "timestamp": 1746866424
+    },
+    {
+        "content": "<p>Also props for chatting to Synadia this early in the CNCF kerfuffle. Very interested. I liked Oxide and Friends' take on it recently</p>",
+        "id": 517239685,
+        "sender_full_name": "Owen Valentine",
+        "timestamp": 1746866555
+    },
+    {
+        "content": "<p>Re, CDN testing: I didn’t get to actually implementing this, but years ago when I want to test how well things like expiring a cached object, change propagation, or edge functions worked in a CDN based system I was evaluating, I looked long at <a href=\"https://jepsen.io/\">Jepsen</a>.</p>\n<p>It’s most known for testing distributed databases and I’ve never seen anyone use it to test a CDN, but IIRC it has a lot of things you’d want baked in like checking to see how long it takes for a write to be reflected in reads and what happens when you try to write while another one is still propagated.</p>\n<p>Also, it’s really easy to spin up worldwide distributed test nodes through AWS Marketplace.</p>",
+        "id": 517265418,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1746889283
+    },
+    {
+        "content": "<p>Of course you’d have to write a little bit of Clojure, but that’s what LLMs are for, right?</p>",
+        "id": 517271783,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1746893932
+    },
+    {
+        "content": "<p>I'm interested in joining a Pipely launch party in Denver</p>",
+        "id": 517329192,
+        "sender_full_name": "Matt Johnson",
+        "timestamp": 1746943321
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"755424\">@Gerhard</span> Puting some things straight regarding Varnish Cache, Varnish Software/Varnish+ and Fastly.<br>\nFasly is not running Varnish+ which is Varnish Softwares product. They have their own fork that they run.<br>\nVarnish Software has their enterprise Varnish+ that companies can buy to run their own cdn at scale with alot of features that the community does not want to include.<br>\nThe interesting thing here, I think, is that Varnish Cache is not under the direct control of Varnish Software. The lead developer, phk, of Varnish Cache is not employed by Varnish Software. VS are a a big contributor but it is not a setup where they 100% control the open source project.<br>\n<span class=\"user-mention\" data-user-id=\"750017\">@Adam Stacoviak</span> <span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span> you should get someone from Varnish Software or perhaps phk as a guest on a interview session. I have some contacts with Varnish Software so if you are interested I can check with them if they are interested</p>",
+        "id": 517343331,
+        "sender_full_name": "Pontus Ullgren",
+        "timestamp": 1746955729
+    },
+    {
+        "content": "<p>Also in the episor it sounded like you said that Fastly created Varnish. This is also incorrect, <a href=\"https://www.varnish-software.com/varnish-history/\">https://www.varnish-software.com/varnish-history/</a></p>",
+        "id": 517343728,
+        "sender_full_name": "Pontus Ullgren",
+        "timestamp": 1746956089
+    },
+    {
+        "content": "<p>I was reading the history and the phk connection (or lack thereof) to Varnish Software during the show, but couldn’t get enough of a handle on it all to bring it up with confidence. </p>\n<p>I would absolutely love to have phk on the show! What’s the best way to go about that?</p>",
+        "id": 517352750,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1746963620
+    },
+    {
+        "content": "<p>Sorry was a bit unclear. I know ppl at Varnish Software but I do not know phk. <span aria-label=\"cry\" class=\"emoji emoji-1f622\" role=\"img\" title=\"cry\">:cry:</span></p>",
+        "id": 517403668,
+        "sender_full_name": "Pontus Ullgren",
+        "timestamp": 1747004510
+    },
+    {
+        "content": "<p>That was clear! But my question still stands <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+        "id": 517409158,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1747010180
+    },
+    {
+        "content": "<p>He has some contact info on his homepage <a href=\"https://phk.freebsd.dk/\">https://phk.freebsd.dk/</a><br>\nCan also check if someone I know knows him well enough to reach out.</p>",
+        "id": 517450520,
+        "sender_full_name": "Pontus Ullgren",
+        "timestamp": 1747034668
+    },
+    {
+        "content": "<p>I would be interested in the launch party, where's a good place to be on the lookout for the details?</p>",
+        "id": 517561101,
+        "sender_full_name": "Jim",
+        "timestamp": 1747059147
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"815903\">@Jim</span> if you subscribe to Changelog News, there's almost no way you'll miss it.</p>",
+        "id": 517589902,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1747064788
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"754986\">@Pontus Ullgren</span> Thank you! I'll make sure to set the record straight next time we record. FTR: <a href=\"https://github.com/thechangelog/changelog.com/discussions/546#discussioncomment-13126967\">https://github.com/thechangelog/changelog.com/discussions/546#discussioncomment-13126967</a></p>",
+        "id": 517747124,
+        "sender_full_name": "Gerhard",
+        "timestamp": 1747117803
+    },
+    {
+        "content": "<p>$100 bucks for flights from Minneapolis, but I also have a family roadtrip at the end of July.<br>\n<a href=\"/user_uploads/66849/US4HPQgRogXO_GOiL6AIFnHM/CleanShot-2025-05-13-at-10.58.00.png\">CleanShot 2025-05-13 at 10.58.00.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/US4HPQgRogXO_GOiL6AIFnHM/CleanShot-2025-05-13-at-10.58.00.png\" title=\"CleanShot 2025-05-13 at 10.58.00.png\"><img data-original-content-type=\"image/png\" data-original-dimensions=\"650x692\" src=\"/user_uploads/thumbnail/66849/US4HPQgRogXO_GOiL6AIFnHM/CleanShot-2025-05-13-at-10.58.00.png/840x560.webp\"></a></div>",
+        "id": 517868727,
+        "sender_full_name": "Jarvis",
+        "timestamp": 1747151961
+    },
+    {
+        "content": "<p>I would go the party except that it would cost me an arm and a leg.  Also NZ just issued a warning against traveling to the US.</p>",
+        "id": 517970194,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1747198784
+    },
+    {
+        "content": "<p>I got behind on listening to this episode but better late than never!</p>\n<p>I live in Denver so I would definitely try to make it for a launch party.</p>\n<p>BTW, I'm loving the pipely stuff. It's cool getting to hear about how CDNs work.</p>",
+        "id": 520095358,
+        "sender_full_name": "Jeff Henson",
+        "timestamp": 1748019717
+    },
+    {
+        "content": "<p>Lookin forward to seeing folks in Denver!</p>",
+        "id": 523165293,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1749502052
+    }
+]

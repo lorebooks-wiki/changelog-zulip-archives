@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>Our friends Johannes Schlickling &amp; James Long join us to discuss the movement of local-first, its pros and cons, the tradeoffs, and the path to the warming waters of mostly local apps. <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.com/friends/71\">https://changelog.com/friends/71</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td>00:00</td>\n<td>Let's talk!</td>\n<td>00:40</td>\n</tr>\n<tr>\n<td>02</td>\n<td>00:40</td>\n<td><a href=\"https://fly.io/\">Sponsor: Fly.io</a></td>\n<td>02:32</td>\n</tr>\n<tr>\n<td>03</td>\n<td>03:12</td>\n<td>Meet our friends</td>\n<td>02:23</td>\n</tr>\n<tr>\n<td>04</td>\n<td>05:34</td>\n<td>Defining local-first</td>\n<td>04:01</td>\n</tr>\n<tr>\n<td>05</td>\n<td>09:36</td>\n<td>Why go local-first?</td>\n<td>16:36</td>\n</tr>\n<tr>\n<td>06</td>\n<td>26:12</td>\n<td><a href=\"https://www.timescale.com\">Sponsor: Timescale</a></td>\n<td>02:17</td>\n</tr>\n<tr>\n<td>07</td>\n<td>28:29</td>\n<td><a href=\"https://www.eightsleep.com/changelog\">Sponsor: Eight Sleep</a></td>\n<td>02:32</td>\n</tr>\n<tr>\n<td>08</td>\n<td>31:01</td>\n<td>What are the tradeoffs?</td>\n<td>15:09</td>\n</tr>\n<tr>\n<td>09</td>\n<td>46:10</td>\n<td>Fighting the browser</td>\n<td>02:41</td>\n</tr>\n<tr>\n<td>10</td>\n<td>48:51</td>\n<td><a href=\"http://Overtone.pro\">Overtone.pro</a></td>\n<td>07:35</td>\n</tr>\n<tr>\n<td>11</td>\n<td>56:26</td>\n<td><a href=\"https://workos.com\">Sponsor: WorkOS</a></td>\n<td>02:50</td>\n</tr>\n<tr>\n<td>12</td>\n<td>59:16</td>\n<td>How warm are local-first waters?</td>\n<td>11:42</td>\n</tr>\n<tr>\n<td>13</td>\n<td>1:10:59</td>\n<td>Apple notes is less local-first</td>\n<td>05:59</td>\n</tr>\n<tr>\n<td>14</td>\n<td>1:16:57</td>\n<td>The future for \"mostly\" local</td>\n<td>13:35</td>\n</tr>\n<tr>\n<td>15</td>\n<td>1:30:32</td>\n<td>Listen to <a href=\"http://localfirst.fm\">localfirst.fm</a></td>\n<td>01:38</td>\n</tr>\n<tr>\n<td>16</td>\n<td>1:32:10</td>\n<td>Closing thoughts and stuff</td>\n<td>01:28</td>\n</tr>\n</tbody>\n</table>",
+        "id": 484002147,
+        "sender_full_name": "Logbot",
+        "timestamp": 1732314907
+    },
+    {
+        "content": "<p>The problem I see is that you are using the world \"local\" differently than me. You say local is local to the machine but I say local is local to me. This means it's local no matter what machine I am on. My laptop, my desktop, my phone, my wife's desktop etc. I want my data to be there ready and waiting for me.</p>\n<p>Clearly what is needed it a distributed database that is individualized somehow with a shared component.</p>",
+        "id": 484590695,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1732652852
+    },
+    {
+        "content": "<p>It seems like most local first projects use a sync engine to ensure different devices share data. The point though is that the sync engine is \"optional\" or at least resilient to network outage.</p>\n<p>The Automerge folks were even talking about a completely app-agnostic sync protocol, so any local first app could use commodity syncing backend that doesn't know anything about specific apps. <a href=\"https://www.localfirst.fm/4\">https://www.localfirst.fm/4</a></p>",
+        "id": 484591233,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1732653080
+    },
+    {
+        "content": "<p>I like the \"mostly local\" terminology personally. Local first always felt wrong because most applications are remote (cloud) first.</p>",
+        "id": 484843395,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1732771629
+    },
+    {
+        "content": "<p>I think that is the key distinctiono with local first. The local experience should be optimized. It's more about not being online online. (Not is it about being local only).<br>\nA lot of apps are developed cloud first, and the after thought is the \"you're offline\" banner. I, personally, welcome our local first overlords.</p>",
+        "id": 485002631,
+        "sender_full_name": "Sukhdeep Brar",
+        "timestamp": 1732841285
+    },
+    {
+        "content": "<p>I agree with the sentiment but by that definition it's still cloud first and local afterthought.</p>",
+        "id": 485444947,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1733025865
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752976\">Matthew Sanabria</span> <a href=\"#narrow/channel/455613-friends/topic/71.3A.20Local-first.2C.20y.2Fn.3F/near/484843395\">said</a>:</p>\n<blockquote>\n<p>Local first always felt wrong because most applications are remote (cloud) first.</p>\n</blockquote>\n<p>It's fine for those remote-first apps to not be called local-first ;). I think it's important that the local-first term is quite strong, because there actually is a big difference. If you have a cloud app that works well-enough when the network is patchy, that's great. But it's not the same thing!</p>",
+        "id": 485518903,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1733091704
+    }
+]

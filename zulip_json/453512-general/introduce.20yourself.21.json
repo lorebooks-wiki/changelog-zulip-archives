@@ -1,0 +1,578 @@
+[
+    {
+        "content": "<p>Ohai! I'm Jerod.</p>",
+        "id": 468194153,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1725630540
+    },
+    {
+        "content": "<p>Hello, World!</p>",
+        "id": 468196386,
+        "sender_full_name": "Nick Nisi",
+        "timestamp": 1725631138
+    },
+    {
+        "content": "<p>hello!</p>",
+        "id": 468197254,
+        "sender_full_name": "Patrick Arminio",
+        "timestamp": 1725631375
+    },
+    {
+        "content": "<p>This is like when you and all your friends go to a different party and then just talk to each other in some other place than you were talking to each other before <span aria-label=\"laughter tears\" class=\"emoji emoji-1f602\" role=\"img\" title=\"laughter tears\">:laughter_tears:</span></p>",
+        "id": 468197640,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1725631483
+    },
+    {
+        "content": "<p>Hello! <span aria-label=\"raised hands\" class=\"emoji emoji-1f64c\" role=\"img\" title=\"raised hands\">:raised_hands:</span></p>",
+        "id": 468198725,
+        "sender_full_name": "Maroš Kučera",
+        "timestamp": 1725631777
+    },
+    {
+        "content": "<p><span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span> Hello folks!</p>",
+        "id": 468200001,
+        "sender_full_name": "HipsterBrown",
+        "timestamp": 1725632134
+    },
+    {
+        "content": "<p>The Code Playgrounds feature seems interesting for sharing demos</p>",
+        "id": 468200541,
+        "sender_full_name": "HipsterBrown",
+        "timestamp": 1725632311
+    },
+    {
+        "content": "<p>Hi, I'm Phil. I enjoyed <a href=\"https://changelog.com/podcast/607\">the show</a> on Zulip. I use it for <a href=\"https://dataverse.zulipchat.com\">Dataverse</a> and love it. I'm glad to see you're kicking the tires!</p>",
+        "id": 468212458,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1725634875
+    },
+    {
+        "content": "<p>Hello, <span class=\"user-mention channel-wildcard-mention\" data-user-id=\"*\">@everyone</span> <br>\nNice to meet you.<br>\nI am a web developer.</p>",
+        "id": 468214150,
+        "sender_full_name": "zhiqiang zhang",
+        "timestamp": 1725635239
+    },
+    {
+        "content": "<p>I'm Adam. I pod and enjoy watching Silicon Valley.</p>",
+        "id": 468214544,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1725635340
+    },
+    {
+        "content": "<p>Hello, I am Alberto, a web developer from Spain, testing out Zulip <span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span><br>\nI am using the experimental flutter app in Android and it is quite cool.</p>",
+        "id": 468218944,
+        "sender_full_name": "Alberto Luna",
+        "timestamp": 1725636485
+    },
+    {
+        "content": "<p>I've been wanting to set something like this locally and host it for my immediate family. Atm we use a FB Messenger group <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 468219186,
+        "sender_full_name": "Jarvis Yang",
+        "timestamp": 1725636572
+    },
+    {
+        "content": "<p>Hi <span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span> I’m Mary (walking into said party <span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span> )</p>\n<p>Testing this out - having also been crushed by Salesforce-Slack <span aria-label=\"pleading face\" class=\"emoji emoji-1f97a\" role=\"img\" title=\"pleading face\">:pleading_face:</span></p>",
+        "id": 468225287,
+        "sender_full_name": "Mary Hightower",
+        "timestamp": 1725638172
+    },
+    {
+        "content": "<p>New avatars will be throwing me for a bit</p>",
+        "id": 468228010,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1725638887
+    },
+    {
+        "content": "<p><span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span> Hi I'm Lars, software engineer from California, currently using TS/React and Python. I also enjoy watching Silicon Valley</p>",
+        "id": 468228225,
+        "sender_full_name": "Lars Ellingsen",
+        "timestamp": 1725638933
+    },
+    {
+        "content": "<p>I’m Nick (aka HipsterBrown). Software engineer in NYC. Currently a dev advocate at Viam, where I help people learn to build robots and automate the physical world. I’m a big fan of JavaScript and open source communities. <span aria-label=\"robot\" class=\"emoji emoji-1f916\" role=\"img\" title=\"robot\">:robot:</span></p>",
+        "id": 468230868,
+        "sender_full_name": "HipsterBrown",
+        "timestamp": 1725639888
+    },
+    {
+        "content": "<p>Hi friends</p>",
+        "id": 468231525,
+        "sender_full_name": "Owen Valentine",
+        "timestamp": 1725640104
+    },
+    {
+        "content": "<p>I know you. Same avatar!</p>",
+        "id": 468232274,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1725640332
+    },
+    {
+        "content": "<p>Hi, I'm Erik, software engineer from Stockholm Sweden. <br>\nMostly backend and cloud stuff, in various languages, lots of infra as code things also.</p>",
+        "id": 468262789,
+        "sender_full_name": "Erik Lundevall-Zara",
+        "timestamp": 1725647882
+    },
+    {
+        "content": "<p>James here <span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span> Full stack software dev from the UK. Glad you’re trying Zulip. Slack always felt a bit at odds with the changelog ethos. Interested to see how well it works here.</p>",
+        "id": 468263508,
+        "sender_full_name": "James Thurley",
+        "timestamp": 1725648021
+    },
+    {
+        "content": "<p>Hi I'm Alex, Software Engineer from the UK. Mainly Backend development using Go. And plenty of homelabing.</p>",
+        "id": 468272092,
+        "sender_full_name": "Alex Barnes",
+        "timestamp": 1725650308
+    },
+    {
+        "content": "<p>Hi, I'm Andrew. I'm based in the DC-Baltimore area. Technically Python is my main language right now even though I was probably happiest with TS. Anyway, I spend more time running meetings and writing Ansible, Terraform, Gitlab CI, and shell scripts for my team than working on our application.</p>",
+        "id": 468280452,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1725653104
+    },
+    {
+        "content": "<p>Hello! I'm Matthew Sanabria. I'm based in New Jersey and I primarily work with Go, Linux, etc as an SRE and SWE. I'm learning Rust in my spare time and waiting for my TuringPi 2.5 to ship to finish my home lab.</p>",
+        "id": 468282903,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1725654171
+    },
+    {
+        "content": "<p>Hey hey <span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span> , I'm AJ and also based in New Jersey. Here to keep up with folks and topics that I don't bump into at work. By day I'm a <del>duct tape specialist</del> solutions architect touching Python and SQL more than anything else. I made a <a href=\"https://github.com/ajkerrigan/my-itchy-dog/commit/4baa6f087607b2256a98c31d752b492b3595b069\">useful commit</a> once.</p>",
+        "id": 468285033,
+        "sender_full_name": "AJ Kerrigan",
+        "timestamp": 1725655143
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752903\">Gert Van Gool</span> has marked this topic as resolved.</p>",
+        "id": 468299334,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1725660731
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"752903\">@Gert Van Gool</span> welcome! <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span>  Was that deliberate?</p>",
+        "id": 468320836,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1725673923
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752903\">Gert Van Gool</span> has marked this topic as unresolved.</p>",
+        "id": 468338281,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1725681394
+    },
+    {
+        "content": "<p>Hello hello, I'm Gert. I'm living in Vancouver, BC. I mostly work with Python and Django, but also running some hosting on the side (1 rack in Antwerp, Belgium).<br>\n<em>And I accidentally resolved this topic topic because I thought it was marking it as read</em></p>",
+        "id": 468339363,
+        "sender_full_name": "Gert Van Gool",
+        "timestamp": 1725681638
+    },
+    {
+        "content": "<p>Hi everyone, I'm a web dev and cofounder in Sydney, Australia. And I used to live in Antwerp, Belgium! Great country :)</p>",
+        "id": 468346740,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1725685906
+    },
+    {
+        "content": "<p>Hi everyone, I'm representing myself here as a software engineer/developer/programmer, system engineer/administrator/devops/sre, project manager, and occasionally &lt;insert other random hat here&gt; mostly in the web development space on linux servers.</p>\n<p>I am growing a homelab on multiple mini pcs in a very slow process trying to understand Incus as an orchestrator of QEMU VMs and LXC containers in a distributed cluster of nodes.</p>\n<p>I have also messed with self-hosted Varnish services as a caching layer for web backends and have gotten involved in trying to make a <a href=\"https://github.com/thechangelog/pipedream\">pipedream</a> a reality.</p>",
+        "id": 468425709,
+        "sender_full_name": "Matt Johnson",
+        "timestamp": 1725722319
+    },
+    {
+        "content": "<p><span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span>  I'm Chris. I've been a tech generalist for a long time. I'm a linux nerd, use a lot of programming languages. I miss Usenet, XEmacs, and SunOS. I'm a tech lead type in a big old insurance company with big old systems. I even bump into the mainframe from time to time.</p>",
+        "id": 468470820,
+        "sender_full_name": "Chris Woods",
+        "timestamp": 1725740920
+    },
+    {
+        "content": "<p>Howdy! I am a Co-Founder and Developer @ <a href=\"https://imgnry.com\">https://imgnry.com</a> from Stockholm, Sweden. I love making things. Mostly games. But also other small services like <a href=\"https://whencaniuse.imgnry.com/\">https://whencaniuse.imgnry.com/</a></p>",
+        "id": 468993441,
+        "sender_full_name": "Fille",
+        "timestamp": 1725948529
+    },
+    {
+        "content": "<p>Hello! Polyglot (programing languages that is) developer and occasional sysadmin. Also work with what I like to call Tool Chain Management and others seems to call \"Platform Engineering\" these days.<br>\nCame to Changelog for GoTime, then got stuck in the Master Feed for several years before I decided it is time to invest more in this relationship. It feels like I keep taking but do not giving anything back. It's time to commit.<br>\nReally happy your testing Zulip since I have serious Slack fatigue.</p>",
+        "id": 469621125,
+        "sender_full_name": "Pontus Ullgren",
+        "timestamp": 1726134900
+    },
+    {
+        "content": "<p>Hello! I am an engineer turned operations manager for Redpanda Data. I've been on a handful of Changelog episodes. I used to be at HashiCorp and Microsoft. Before that I did physics. </p>\n<p>I am working on a side project <a href=\"https://devy.page\">https://devy.page</a> which is a blogging platform for devs based on Markdown and Git.</p>\n<p>I write a lot of Go at work and mostly Rust in my spare time.</p>",
+        "id": 471592046,
+        "sender_full_name": "Thomas Eckert",
+        "timestamp": 1726798875
+    },
+    {
+        "content": "<p>Hi <span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span> I'm a father of 2 and a rust backend developer from Poland. I sometimes blog about my work here: <a href=\"https://flakm.com/\">https://flakm.com/</a>  I'm a dedicated self-hoster and recently I'm playing with raspberry pico. Really happy to try out zulip - we use slack at work and I never wanted to join slack communities because they feel very worky and busy.</p>",
+        "id": 471675325,
+        "sender_full_name": "FlakM",
+        "timestamp": 1726824603
+    },
+    {
+        "content": "<p>Hi! I'm a 40 y/o father of 2 girls, I'm Swedish, homesteading and beekeeping. I've been working with application operations on Linux for about 15 years, the last 5 years I've been operating OpenShift, and  also sort of shifting career paths into full-stack development. At work it's mainly C# and typescript (Angular) running on OCP, at home (and somewhat sneaking it in at work) I'm getting into Go (thanks GoTime!). I've been enjoing various changelog pods for the last 2 years (at least since Gerhard was hosting Ship It so it might be longer than that, who's keeping track of time since covid anyway?). I really enjoy your shows! Great work everyone hosting and spreading the good tech-vibes!</p>",
+        "id": 471967626,
+        "sender_full_name": "Erik Svensson",
+        "timestamp": 1726946385
+    },
+    {
+        "content": "<p>Hello o/</p>\n<p>Glad to see Changelog try out an open source chat system :) I never joined on Slack because I really dislike it and use it as little as possible, but I <em>love</em> Zulip.</p>\n<p>I'm a member of a co-op that creates some open source and copyleft services, and I do everything from admin and dev to support and tech writing. I also co-host a couple podcasts (not sure whether linking to them is ok so I'll refrain for now <span aria-label=\"eyes\" class=\"emoji emoji-1f440\" role=\"img\" title=\"eyes\">:eyes:</span>)</p>",
+        "id": 472072666,
+        "sender_full_name": "Amolith",
+        "timestamp": 1727029894
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"759257\">Amolith</span> <a href=\"#narrow/stream/453512-general/topic/introduce.20yourself!/near/472072666\">said</a>:</p>\n<blockquote>\n<p>I also co-host a couple podcasts (not sure whether linking to them is ok so I'll refrain for now <span aria-label=\"eyes\" class=\"emoji emoji-1f440\" role=\"img\" title=\"eyes\">:eyes:</span>)</p>\n</blockquote>\n<p>I feel like a link from someone who's here for the sake of being here is pretty workable :P can appreciate a good recommendation. Let it come up in conversation I guess? :D<br>\nAlso, welcome!</p>",
+        "id": 472079302,
+        "sender_full_name": "Owen Valentine",
+        "timestamp": 1727035091
+    },
+    {
+        "content": "<p>Oh, just tell us already. <span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span></p>",
+        "id": 472088326,
+        "sender_full_name": "Philip Durbin",
+        "timestamp": 1727042574
+    },
+    {
+        "content": "<p>Linking to other podcasts is strictly prohibited (jk). Link it up. ￼￼￼</p>",
+        "id": 472097625,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1727049070
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"759257\">Amolith</span> <a href=\"#narrow/stream/453512-general/topic/introduce.20yourself!/near/472072666\">said</a>:</p>\n<blockquote>\n<p>I'm a member of a co-op that creates some open source and copyleft services</p>\n</blockquote>\n<p>I want to hear more about this!</p>",
+        "id": 472126240,
+        "sender_full_name": "Daniel Buckmaster",
+        "timestamp": 1727067706
+    },
+    {
+        "content": "<p>Hah alright. The podcasts are <a href=\"https://linuxdevtime.com\">Linux Dev Time</a>, part of the <a href=\"https://latenightlinux.com\">Late Night Linux Family</a>, and <a href=\"https://linuxlads.com\">Linux Lads</a>. LDT is more professional, LL is extremely casual.</p>\n<p>The co-op is <a href=\"https://mboa.dev\">MBOA</a> and our most well-known product is probably <a href=\"https://jmp.chat\">JMP.chat</a>.</p>\n<div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://latenightlinux.com\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/b4dc08e39c9d44fbe8619281ee7fe728de0de84a/646174613a696d6167652f7376672b786d6c2c253343737667253230786d6c6e733d27687474703a2f2f7777772e77332e6f72672f323030302f7376672725323076696577426f783d2730253230302532303125323031272533452533432f737667253345&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://latenightlinux.com\" title=\"About our shows\">About our shows</a></div><div class=\"message_embed_description\">Late Night Linux is a family of podcasts about Linux, open source software, systems administration, development, and cloud.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://linuxlads.com\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/e16fa5479a2e16df063805f493ecea4316b7abab/68747470733a2f2f6c696e75786c6164732e636f6d2f6173736574732f6c6c5f6c6f676f5f666f725f6f672e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://linuxlads.com\" title=\"Linux Lads\">Linux Lads</a></div><div class=\"message_embed_description\">A chat about Linux and related stuff. Not (always) safe for work.</div></div></div><div class=\"message_embed\"><a class=\"message_embed_image\" href=\"https://jmp.chat\" style=\"background-image: url(&quot;https://uploads.zulipusercontent.net/25e2f228aa0d9d675343606d32b4681821505055/68747470733a2f2f6a6d702e636861742f7374617469632f636172642e706e67&quot;)\"></a><div class=\"data-container\"><div class=\"message_embed_title\"><a href=\"https://jmp.chat\" title=\"JMP.chat\">JMP.chat</a></div><div class=\"message_embed_description\">Your phone number on every device</div></div></div>",
+        "id": 472334308,
+        "sender_full_name": "Amolith",
+        "timestamp": 1727126795
+    },
+    {
+        "content": "<p>Hey all, father of two girls, and Software Engineering Manager in Finance reporting in.  Lucky to run a talented team of nerds building cloud apps in js (react), python, dotnet, and sql.   Hobbies are travel and small form factor PCs.  </p>\n<p>This zulip thing ain't half bad ... <br>\n<a href=\"https://media4.giphy.com/media/XreQmk7ETCak0/giphy.gif?cid=c623cb3504uaaa365x2ykb447gmc5n23a8w618mml8kkqe9n&amp;ep=v1_gifs_search&amp;rid=giphy.gif&amp;ct=g\">https://media4.giphy.com/media/XreQmk7ETCak0/giphy.gif?cid=c623cb3504uaaa365x2ykb447gmc5n23a8w618mml8kkqe9n&amp;ep=v1_gifs_search&amp;rid=giphy.gif&amp;ct=g</a></p>\n<div class=\"message_inline_image\"><a href=\"https://media4.giphy.com/media/XreQmk7ETCak0/giphy.gif?cid=c623cb3504uaaa365x2ykb447gmc5n23a8w618mml8kkqe9n&amp;ep=v1_gifs_search&amp;rid=giphy.gif&amp;ct=g\"><img src=\"https://uploads.zulipusercontent.net/581e89f8414b07b25549bf9da1d407981ce0b64d/68747470733a2f2f6d65646961342e67697068792e636f6d2f6d656469612f587265516d6b37455443616b302f67697068792e6769663f6369643d63363233636233353034756161613336357832796b62343437676d63356e32336138773631386d6d6c386b6b7165396e2665703d76315f676966735f736561726368267269643d67697068792e6769662663743d67\"></a></div>",
+        "id": 472591593,
+        "sender_full_name": "Troy Witthoeft",
+        "timestamp": 1727223334
+    },
+    {
+        "content": "<p>Hey everyone <span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span><span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span><br>\nRaúl here. Software engineer from Portugal, currently working as a fractional CTO. Love the outdoors, surfing, mountain biking, and the Changelog podcast <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+        "id": 472912169,
+        "sender_full_name": "Raúl",
+        "timestamp": 1727361304
+    },
+    {
+        "content": "<p>Howdy folks <span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span> I was part of the Slack for a long time but I'll introduce myself again here since it's a new platform <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span> </p>\n<p>I'm Chris, I'm the mad Ember guy that never stops talking about it <span aria-label=\"hamster\" class=\"emoji emoji-1f439\" role=\"img\" title=\"hamster\">:hamster:</span> (on a bunch of core teams so I guess it makes sense). I'm a bit of tinkerer and like to invent and work on tools to help devs (like lint-to-the-future and release-plan). Always happy to chat so AMA <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span> (still getting used to zulip tho)</p>",
+        "id": 472952351,
+        "sender_full_name": "Chris Manson",
+        "timestamp": 1727375027
+    },
+    {
+        "content": "<p>I've already introduced myself above but I'd like to claim on of those All Things Open tickets if there's any left. I'll be there already but I could bring a friend with the free ticket.</p>",
+        "id": 473407570,
+        "sender_full_name": "Matthew Sanabria",
+        "timestamp": 1727581090
+    },
+    {
+        "content": "<p>Hi all, I'm a specialist generalist living and working in Sydney, Australia.  I really enjoy the podcasts where the hosts and guests get into the weeds about <em>why</em> people make the choices they do,  and not just the features and technical details.  The Interview shows, Friends and ShipIt! have been the source of most of my favourites lately, but I listen to many of the other ChangeLog podcasts, as well as  bunch of others, during my 10+ hours per week in transit.</p>\n<p>My hobbies include trying to improve collaboration between groups that's inherently secretive and stand-offish, and attempting to introduce more open technologies to organisations that are massively on board with the usual big proprietary players.   I tell myself that these brick wall imprints on my forehead are for the greater good!</p>\n<p>I've touched on a huge number of technologies and stacks over the years, spending a lot of my time these days with python and linux, getting different systems to talk to one another to get stuff done in the public sector.  I've pretty much always written software, but never been a what you would call a full time developer.  Lots of mentoring and architecture these days, trying to help our newer people make more interesting mistakes than I've made.</p>\n<p>Zulip looks great, and I'm optimistic it might be the default hang-out I haven't had in quite some time.  Looking back at this message though, I may have to do something about my wordiness, sorry!</p>",
+        "id": 473412761,
+        "sender_full_name": "John Tocher",
+        "timestamp": 1727586162
+    },
+    {
+        "content": "<p>Hoy hoy 👨🏼‍✈️ I'm Matthew, a self-hoster self-taught programmer. I have 2 kids, love JS, Python, and Docker.<br>\n I like to use iOS Shortcuts linked with Scriptable and other dev apps to make all my homelab tasks and views available in widgets and calls.  If anyone wants to pick my brain just hit me up!</p>",
+        "id": 473456856,
+        "sender_full_name": "Matthew Fish",
+        "timestamp": 1727622260
+    },
+    {
+        "content": "<p>Hey all <span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span></p>\n<p>I'm a product support person, and would be very excited to get a free pass to ATO <span aria-label=\"folded hands\" class=\"emoji emoji-1f64f\" role=\"img\" title=\"folded hands\">:folded_hands:</span>! I've been trying to justify buying one on my own, but they're a bit pricey.</p>\n<p>Outside of that, long-time listener interested in all things software and tech, trying to dive deeper every day.</p>",
+        "id": 473461319,
+        "sender_full_name": "Ryan N",
+        "timestamp": 1727625732
+    },
+    {
+        "content": "<p>Hey All! <span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span> </p>\n<p>I'm a lot of things technical, developer, operator, and teacher. I encourage others and contribute to open source whenever I can. I love coding so much I married a coder and forked 2 children. I'm not sure if they'll be coders, but I'm stoked to find out what they'll be grown up.</p>\n<p>I've worked on the very large [<a href=\"https://top500.org/system/173082\">1</a>][<a href=\"https://top500.org/system/176078\">2</a>][<a href=\"https://top500.org/system/178250\">3</a>] to the very small (homelab setup). I'm currently technical lead for a research <a href=\"https://data.pnnl.gov\">data</a> portal at <a href=\"https://www.pnnl.gov\">PNNL</a>. I really enjoy my job and where I'm at in life, also <a href=\"https://tricities.wsu.edu/engineering/faculty/\">helping out</a> with WSU Tri-cities inspire the next generation (I'm teaching assembly) and loving it.</p>\n<p>Feel free to reach out if you want to chat, I always love talking about tech and peoples experiences.</p>",
+        "id": 473529552,
+        "sender_full_name": "David Brown",
+        "timestamp": 1727662606
+    },
+    {
+        "content": "<p><span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span> I'm a software engineer and community builder from Pittsburgh. You might know me from some Pittsburgh-area tech conferences I've hosted under the <a href=\"https://codeandsupply.co\">Code &amp; Supply</a> banner such as Abstractions, Heartifacts, Uptime, Steel City Ruby, devopsdays Pittsburgh, etc. or 2000s-early 2010s LAN parties like Pittco and the GXL (in Philly!). I'm a contributor to Homebrew and current project leadership committee member for it. I started a non-profit ISP now called Community Internet Solutions, although I graduated from its board of directors last year after eight years on it. I do a bunch of stuff as an engineer supporting data scientists at a national retail company that actually sells very little in the way of archery products.</p>\n<p>I was in a Changelog episode last year when Adam and Jerrod interviewed me at Strangeloop. I am frequently found at conferences in the Rust Belt and nearby, almost always in a top hat <span aria-label=\"top hat\" class=\"emoji emoji-1f3a9\" role=\"img\" title=\"top hat\">:top_hat:</span></p>",
+        "id": 474186549,
+        "sender_full_name": "Colin Dean",
+        "timestamp": 1727842448
+    },
+    {
+        "content": "<p>Hey'all <span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span> <br>\nI'm a developer/CTO at a small company in the Detroit Metro area. I help run a Python user group and a \"general\"/unix/linux group. I can also be found at the local hackerspace working on a variety of projects. I am interested in zulip and glad to see the changelog checking it out. I've been listening for a few years, but now more than ever. Hope to make some new connections and gain some more perspective. Cheers <span aria-label=\"beers\" class=\"emoji emoji-1f37b\" role=\"img\" title=\"beers\">:beers:</span></p>",
+        "id": 474299087,
+        "sender_full_name": "Justin",
+        "timestamp": 1727876033
+    },
+    {
+        "content": "<p>Don't recall if I ever introduced myself on the Changelog Slack, I've been over there for awhile. Long time listener to the Changelog, JS Party and all of the Founders Talk episodes when those were a thing. CTO and Co-Founder at a brand new startup called Searchcraft, it's a developer-focused SaaS platform that is an alternative to Algolia and Elasticsearch. We're currently trying to wrap our seed raise for this and <span aria-label=\"fingers crossed\" class=\"emoji emoji-1f91e\" role=\"img\" title=\"fingers crossed\">:fingers_crossed:</span> we are starting full time on it in the next couple weeks. Previously I was the CTO at a software dev agency called Chalk, we built apps for a lot of startups but lately that space has dried up which is why we're putting that company into hibernation mode. My title is \"CTO\" but I still write code everyday, been working professionally as a developer since 1998 one of my first career jobs was working at a dotcom startup. I'm married and have two kids, one of which just got his first car <span aria-label=\"grimacing\" class=\"emoji emoji-1f62c\" role=\"img\" title=\"grimacing\">:grimacing:</span> . I mostly write Rust and Typescript these days but more and more it's Rust and less Typescript. I've also watched Silicon Valley end to end 3 times and am thinking about watching it again soon. Halt and Catch Fire is also a great show if you haven't seen that one. More on the drama side than SV but for those of us that are builders it really resonates.</p>",
+        "id": 474354875,
+        "sender_full_name": "Don MacKinnon",
+        "timestamp": 1727889766
+    },
+    {
+        "content": "<p>Hi everyone. I'm Fershad, an Aussie who now calls Taiwan home. So stoked that Changelog is trying out Zulip &amp; giving it a lot of love on the pod. We use it for internal communication where I work (<a href=\"https://www.thegreenwebfoundation.org/\">Green Web Foundation</a>) and so decided to hop on in here since I've got it open nearly every day anyway.</p>",
+        "id": 474431920,
+        "sender_full_name": "Fershad Irani",
+        "timestamp": 1727916353
+    },
+    {
+        "content": "<p>greeting from new jersey, usa! 👋🏼</p>\n<p>i’m a software engineer and have been following the changelog for a little over a year now. </p>\n<p>have been on the changelog slack for a while now. hopped over to zulip and really enjoy the look and feel. this is such a great approach on messaging, definitely has something unique from other messaging apps.</p>\n<p>great work zulip team!</p>",
+        "id": 475020855,
+        "sender_full_name": "valon-loshaj",
+        "timestamp": 1728160497
+    },
+    {
+        "content": "<p>Hey hey 👋🏽 </p>\n<p>I'm Jamie Tanna (he/him) who you may recognise from my blog (<a href=\"https://www.jvt.me\">https://www.jvt.me</a>), a couple of <a href=\"https://changelog.com/person/jamietanna\">Changelog appearances</a>, the <code>oapi-codegen</code>Go OpenAPI code generator.</p>\n<p>Been thoroughly enjoying the Changelog community for years (and <a href=\"https://www.jvt.me/posts/2024/02/17/listen-changelog/\">the Changelog podcasts</a> too)</p>",
+        "id": 475076186,
+        "sender_full_name": "Jamie Tanna",
+        "timestamp": 1728204247
+    },
+    {
+        "content": "<p>Hello from Mexico/Norway <span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span> </p>\n<p>I am a software enginee/consultant and have been following and enjoying the changelog for some years now. It is always on when I am going to pick up my daughter from kindergarten. I am going to the ATO as it sounds like a cool conferance after listening to the shows!</p>\n<p>Keep up the great pods!</p>",
+        "id": 476009694,
+        "sender_full_name": "Gard",
+        "timestamp": 1728528884
+    },
+    {
+        "content": "<p>std::cout &lt;&lt; ('Hello Nerds') &lt;&lt; std::endl<br>\nI'm Brian, Been listening to Changelog for the last year and a half (since I've been working on  my C.S. degree) I've gotten several papers and discussion posts done based on the many interviews so thanks for that guys!</p>",
+        "id": 476242229,
+        "sender_full_name": "Brian Fulton",
+        "timestamp": 1728601991
+    },
+    {
+        "content": "<p>I'm in North Carolina,.. did all the ATO tickets get scooped up already?</p>",
+        "id": 476391804,
+        "sender_full_name": "Brian Fulton",
+        "timestamp": 1728654233
+    },
+    {
+        "content": "<p>Nope, we have a few left! I'll DM You details...</p>",
+        "id": 476392205,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1728654364
+    },
+    {
+        "content": "<p>Good evening from the <span aria-label=\"flag philippines\" class=\"emoji emoji-1f1f5-1f1ed\" role=\"img\" title=\"flag philippines\">:flag_philippines:</span>! I'm Andrei Jiroh Halili, Autistic Filipino, currently in senior high school and open-source developer and SABDFL at <a href=\"https://recaptime.dev\">Recap Time Squad</a>. I am also a <a href=\"https://hackclub.com/slack\">Hack Clubber</a> since <a href=\"https://hackclub.com/arcade\">Arcade 2024</a> and Alpine Linux package maintainer for <a href=\"https://cli.github.com\">GitHub CLI</a>. I am currently daily-driving Arch btw on my second-hand HP laptop (from my OFW [overseas Filipino worker] dad in <span aria-label=\"flag saudi arabia\" class=\"emoji emoji-1f1f8-1f1e6\" role=\"img\" title=\"flag saudi arabia\">:flag_saudi_arabia:</span>) with Alpine and Debian/Ubuntu on containers/dev environments.</p>",
+        "id": 478738585,
+        "sender_full_name": "Andrei Jiroh Halili",
+        "timestamp": 1729782075
+    },
+    {
+        "content": "<p>Sorry <span class=\"user-mention\" data-user-id=\"770619\">@Yating</span> deleting your message as it triggered my spam-o-meter <span aria-label=\"siren\" class=\"emoji emoji-1f6a8\" role=\"img\" title=\"siren\">:siren:</span></p>",
+        "id": 478747380,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1729784607
+    },
+    {
+        "content": "<p>Hi everyone! I've been listening to Changelog for a few years. This week I attended ATO and meet Adam. He convinced me (as well as the entire theme of ATO) that I should be more involved in the communities that I enjoy. </p>\n<p>Five years ago, I use to do cancer research, but was unhappy with the career. In my free time, I did home lab type of stuff and made guitar pedals. My brother-in-law helped me get an interview for a professional services job that got me into tech. Now I'm a Platform Architect with Boomi (a low code integration platform), which involves me doing the technical side of enterprise architecture. </p>\n<p>Blog : <a href=\"https://adambedenbaugh.tech/\">adambedenbaugh.tech</a></p>",
+        "id": 479599489,
+        "sender_full_name": "Adam Bedenbaugh",
+        "timestamp": 1730257470
+    },
+    {
+        "content": "<p>Hey all <span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span> I'm Alex Guyot, lead software engineer over at MacStories for anyone who's into Apple-y stuff, and also an engineer at a small startup in the Twin Cities area in Minnesota. Been a Changelog listener for a couple years now and I'm excited to finally jump on the ++ train and to hang out with you all on Zulip!</p>",
+        "id": 501621262,
+        "sender_full_name": "Alex Guyot",
+        "timestamp": 1740422356
+    },
+    {
+        "content": "<p>Welcome <span class=\"user-mention\" data-user-id=\"880410\">@Alex Guyot</span> There are some mac people here including myself.</p>",
+        "id": 501655330,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1740433848
+    },
+    {
+        "content": "<p>Yup. I’m officially a Mac/Windows/Linux household. Good to have you here <span class=\"user-mention\" data-user-id=\"880410\">@Alex Guyot</span></p>",
+        "id": 501690578,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1740447236
+    },
+    {
+        "content": "<p>Me at the Zu' - just setting up my zlp <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span> <span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span></p>",
+        "id": 501767697,
+        "sender_full_name": "Igor Akkerman",
+        "timestamp": 1740480564
+    },
+    {
+        "content": "<p>Hey <span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span> , I didn't know there was a introduction thread... I'm software engineer that have been working mainly  with elixir and phoenix for the past 9 years... I'm from Brazil, from city called Goiânia.</p>",
+        "id": 501843405,
+        "sender_full_name": "cevado",
+        "timestamp": 1740499098
+    },
+    {
+        "content": "<p>Hello,</p>\n<p>I first programmed in Fortran in 1979, and somehow caught the bug. I've spent most of the intervening years developing software products across areas like simulation, satellite data streaming, OCR, CMS, ML. I've had my own product companies, and played the CTO role in startups. I enjoy the art of understanding what's needed, then making it, delivering it, perfecting it. </p>\n<p>Now and again I follow a whim - currently looking at <a href=\"http://liqo.io\">liqo.io</a> &amp; <a href=\"http://Gaia-x.eu\">Gaia-x.eu</a> - dynamic kubernetes topologies - as a solution for those companies not-wanting-to-be-with-a-US-based-hyperscaler-anymore.</p>\n<p>Changelog is one of my favorite podcasts: relaxed, humble, real. Kudos to the team!</p>",
+        "id": 505761367,
+        "sender_full_name": "Russ Ferriday",
+        "timestamp": 1741984079
+    },
+    {
+        "content": "<p>I too programmed in Fortran my first year in University (on punch cards!) but that was 1981. Oddly enough my high school had a PDP-11 but only two terminals so we all had to take turns transcribing the basic programs we wrote on paper to see if they ran.</p>\n<p>Good old days eh?</p>",
+        "id": 505765019,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1741985546
+    },
+    {
+        "content": "<p><span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span> </p>\n<p>I'm Rob, a software engineer from Wisconsin who likes words, birds, and curds <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span></p>",
+        "id": 506979546,
+        "sender_full_name": "Rob Hoelz",
+        "timestamp": 1742478812
+    },
+    {
+        "content": "<p>Glad to have you here with us <span class=\"user-mention\" data-user-id=\"815216\">@cevado</span>, <span class=\"user-mention\" data-user-id=\"887219\">@Jett Swift</span>, <span class=\"user-mention\" data-user-id=\"889002\">@Russ Ferriday</span> and <span class=\"user-mention\" data-user-id=\"888135\">@Rob Hoelz</span>!</p>",
+        "id": 506983334,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1742479643
+    },
+    {
+        "content": "<p>Hi, my name is Brian.</p>\n<p>I’ve been a listener for about a decade!</p>\n<p>I enjoy coding and learning about programming. I try to write regularly on my blog <a href=\"https://briandouglas.ie\">https://briandouglas.ie</a></p>",
+        "id": 507099126,
+        "sender_full_name": "Brian Douglas",
+        "timestamp": 1742516822
+    },
+    {
+        "content": "<p>Howdy folks, just updated my GitHub bio and figured I should share it here :)</p>\n<blockquote>\n<p>aspiring Rustacean, JavaScript jockey, 3D printing addict, use Arch Linux btw, Apple-captive, Google-captive, Meta-escapee, parent, spouse, cisgender, he/him</p>\n</blockquote>\n<p><a href=\"https://github.com/jokeyrhyme\">https://github.com/jokeyrhyme</a></p>",
+        "id": 507104102,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1742519690
+    },
+    {
+        "content": "<p>Hello, I have been a listener since 2018 when I used to work with microservices, multiprocessing and event queues in python + Vue.js and SASS over at DelphX Data Corporation. Now I am still listening, while I am working on quantum computing at Xanadu Quantum Technologies! I love to listen while I code, and the pods give me tons of ideas for tools to leverage and topics to discuss with the team. I was previously a guest on Practical AI talking about quantum computers. I also recently updated my GitHub bio:</p>\n<div class=\"codehilite\"><pre><span></span><code>Full Stack Quantum Engineer. Resident @XanaduAI.\nPhD - Comp Eng @ U British Columbia,\nMSc - Quantum Info Sci @ UWaterloo,\nBSc - CS and Physics @ Wilfrid Laurier\n</code></pre></div>\n<p>Cheers!</p>",
+        "id": 516990091,
+        "sender_full_name": "Marcus Edwards",
+        "timestamp": 1746742997
+    },
+    {
+        "content": "<p>Hello! Finally migrated over from slack after a gentle reminder of its lack of vital signs. Funnily enough, I tested out Zulip for a client a few years back -- I liked it a bunch but ended up going with Mattermost as it was more familiar to the client. Glad to be back!</p>\n<p><span class=\"user-mention\" data-user-id=\"750170\">@Jerod Santo</span> <span class=\"user-mention\" data-user-id=\"750017\">@Adam Stacoviak</span> really love the shows, happy to see evolution and focus, and grateful for the community you've built.</p>\n<p>As for myself, nowadays I'm a nixos sysadmin, devops consultant, python and rust developer, with product and engineering management / leadership somewhere in my history. Proponent of on-prem / colo solutions. </p>\n<p>Hot take: Machine learning is real, AGI is not, genAI is destroying a whole generation of junior devs' chances to learn their craft.  :)</p>",
+        "id": 517612287,
+        "sender_full_name": "Alexander Ou",
+        "timestamp": 1747070131
+    },
+    {
+        "content": "<p>My recent experiences with Gen AI tell me that it's not quite there yet but it will be some day.</p>",
+        "id": 517677955,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1747088219
+    },
+    {
+        "content": "<p>Hi 👋🏻 My name is Jordi. I've always been a fan of the Changelog and here I am know, getting used to Zulip.</p>",
+        "id": 517880767,
+        "sender_full_name": "Jordi Mon Companys",
+        "timestamp": 1747155337
+    },
+    {
+        "content": "<p>Oh hey! My name is John Henry Müller. I design things. I recently launched my fancy new website and wrote a blog post about it. Let me know what you think! <a href=\"https://johnhenrymuller.com/fancynew\">https://johnhenrymuller.com/fancynew</a></p>",
+        "id": 517898463,
+        "sender_full_name": "John Henry Müller",
+        "timestamp": 1747161386
+    },
+    {
+        "content": "<p>Hello! I'm newer fan and started listening in late last year. Love the show and have been enjoying learning Zulip!</p>",
+        "id": 518030567,
+        "sender_full_name": "Adam Blair",
+        "timestamp": 1747219441
+    },
+    {
+        "content": "<p>howdy everyone! longtime listener and reluctant joiner of zulip. Not sure if I'll really be checking in here but figured I'd at least join!</p>",
+        "id": 519152185,
+        "sender_full_name": "mray",
+        "timestamp": 1747669546
+    },
+    {
+        "content": "<p>Hey there all, I've been a long time listener, was in the Slack for a long time, even contributed to the old news model of Changelog back in the day! Found my way into Zulip when I saw the posts/newsletter/Lobsters around Changelog leaving slack. I'm a senior eng at Twitch (and therefore Amazon) for the past 9 (!) years</p>",
+        "id": 519470024,
+        "sender_full_name": "Dan McClain",
+        "timestamp": 1747773382
+    },
+    {
+        "content": "<p>hey a curious software enigneer from India. Would be happy to meet you all</p>",
+        "id": 521321467,
+        "sender_full_name": "Shubham Verma",
+        "timestamp": 1748619155
+    },
+    {
+        "content": "<p>What's going on in the India software scene, <span class=\"user-mention\" data-user-id=\"920919\">@Shubham Verma</span></p>",
+        "id": 521325721,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1748620564
+    },
+    {
+        "content": "<p>here everything is good man, tnx for asking</p>",
+        "id": 521334290,
+        "sender_full_name": "Shubham Verma",
+        "timestamp": 1748623403
+    },
+    {
+        "content": "<p>Hello, everyone! <span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span>.  I am Dixit Ram, a CS student from India <span aria-label=\"flag india\" class=\"emoji emoji-1f1ee-1f1f3\" role=\"img\" title=\"flag india\">:flag_india:</span>. Excited to share ideas and connect with all.</p>",
+        "id": 521343247,
+        "sender_full_name": "Dixit Ram",
+        "timestamp": 1748626816
+    },
+    {
+        "content": "<p>Am I the only fresher here? <span aria-label=\"thinking\" class=\"emoji emoji-1f914\" role=\"img\" title=\"thinking\">:thinking:</span></p>\n<p>Have I joined the community too soon? - <em>I am seeing many experienced and professionals here</em>.</p>\n<p>Raise your hand if you are a student or a fresher! <span aria-label=\"hand\" class=\"emoji emoji-270b\" role=\"img\" title=\"hand\">:hand:</span></p>",
+        "id": 521491161,
+        "sender_full_name": "Dixit Ram",
+        "timestamp": 1748740729
+    },
+    {
+        "content": "<p><a href=\"#narrow/channel/453512-general/topic/introduce.20yourself.21/near/560669045\">A message</a> was moved here from <a class=\"stream-topic\" data-stream-id=\"453512\" href=\"/#narrow/channel/453512-general/topic/new.20episodes/with/560461843\">#general &gt; new episodes</a> by <span class=\"user-mention silent\" data-user-id=\"750170\">Jerod Santo</span>.</p>",
+        "id": 560808744,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1764343084
+    },
+    {
+        "content": "<p>I have a background in front-end development, 3D web, online learning, <a href=\"https://mattcool.tech/posts/looking-back-on-my-work-with-hubs\">community building</a>, and <a href=\"https://mattcool.tech/posts/csumb-student-capstones-2025\">community programs</a>.</p>\n<p>I worked at Mozilla the last 5 years and recently joined NVIDIA - long time listener and fan of the show! <span aria-label=\"hi\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"hi\">:hi:</span></p>",
+        "id": 561434665,
+        "sender_full_name": "Matt Cool",
+        "timestamp": 1764687154
+    },
+    {
+        "content": "<p>Hello. I've been listening to the pod for a few years now. I enjoy the interviews and friends the most. Happy to see Zulip adoption. I learned about it trough another podcast too.</p>\n<p>I'm a \"standard\" backend web dev. Grew up in the JS and Node land now I'm doing Go mostly. I'm fortunate to be able to work on some AI stuff and be spared the hype part of it all.</p>\n<p>Hope I'll be able to join some interesting conversations on here.</p>",
+        "id": 561523591,
+        "sender_full_name": "Jacopo Belpo",
+        "timestamp": 1764711287
+    },
+    {
+        "content": "<p>Happy to have you both here, <span class=\"user-mention\" data-user-id=\"878801\">@Matt Cool</span> and <span class=\"user-mention\" data-user-id=\"1002729\">@Jacopo Belpo</span>!</p>",
+        "id": 561523849,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1764711378
+    },
+    {
+        "content": "<p>Hey everyone, I just joined this channel. I am a full stack developer looking for a remote job or freelancing project.<br>\nPlease contact me if you are looking for a developer.</p>",
+        "id": 563868021,
+        "sender_full_name": "Danile Park",
+        "timestamp": 1765815801
+    },
+    {
+        "content": "<p><a href=\"#narrow/channel/453512-general/topic/introduce.20yourself.21/near/563868021\">A message</a> was moved here from <a class=\"stream-topic\" data-stream-id=\"453512\" href=\"/#narrow/channel/453512-general/topic/Leave.20us.20a.20voicemail.20for.202025.27s.20state.20of.20the.20.22log.22.21/with/563820750\">#general &gt; Leave us a voicemail for 2025's state of the \"log\"!</a> by <span class=\"user-mention silent\" data-user-id=\"750170\">Jerod Santo</span>.</p>",
+        "id": 563868478,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1765815933
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/66849/ornNlr9NRCI-tcnGt6Hp8P2i/nerds.jpeg\">nerds.jpeg</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/ornNlr9NRCI-tcnGt6Hp8P2i/nerds.jpeg\" title=\"nerds.jpeg\"><img data-original-content-type=\"image/jpeg\" data-original-dimensions=\"200x200\" src=\"/user_uploads/thumbnail/66849/ornNlr9NRCI-tcnGt6Hp8P2i/nerds.jpeg/840x560.webp\"></a></div>",
+        "id": 564362645,
+        "sender_full_name": "jslovato",
+        "timestamp": 1766016986
+    },
+    {
+        "content": "<p>sup sup, y'all</p>",
+        "id": 564362656,
+        "sender_full_name": "jslovato",
+        "timestamp": 1766016995
+    },
+    {
+        "content": "<p>finally got on the Zulip</p>",
+        "id": 564362667,
+        "sender_full_name": "jslovato",
+        "timestamp": 1766017003
+    }
+]

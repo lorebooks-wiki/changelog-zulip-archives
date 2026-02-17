@@ -1,0 +1,279 @@
+<html>
+<head><meta charset="utf-8"><title>651: Bringing Vitess to Postgres · interviews · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/index.html">interviews</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/651.3A.20Bringing.20Vitess.20to.20Postgres.html">651: Bringing Vitess to Postgres</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="530451059"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/651%3A%20Bringing%20Vitess%20to%20Postgres/near/530451059" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/651.3A.20Bringing.20Vitess.20to.20Postgres.html#530451059">(Jul 23 2025 at 23:55)</a>:</h4>
+<p>Sugu Sougoumarane, creator of Vitess, comes off sabbatical to bring Vitess to Postgres. We discuss what motivated Sugu to come off sabbatical, why now is the time, the technical challenges of doing so, the implementation details of Multigres (Vitess for Postgres). We also discuss the state of Postgres at scale. <span aria-label="link" class="emoji emoji-1f517" role="img" title="link">:link:</span> <a href="https://changelog.fm/651">https://changelog.fm/651</a></p>
+<table>
+<thead>
+<tr>
+<th>Ch</th>
+<th>Start</th>
+<th>Title</th>
+<th>Runs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>01</td>
+<td><a href="https://changelog.fm/651#t=0">00:00</a></td>
+<td>This week on The Changelog</td>
+<td>01:01</td>
+</tr>
+<tr>
+<td>02</td>
+<td><a href="https://changelog.fm/651#t=61">01:01</a></td>
+<td><a href="https://depot.dev">Sponsor: Depot</a></td>
+<td>02:18</td>
+</tr>
+<tr>
+<td>03</td>
+<td><a href="https://changelog.fm/651#t=199">03:19</a></td>
+<td>Start the show!</td>
+<td>03:43</td>
+</tr>
+<tr>
+<td>04</td>
+<td><a href="https://changelog.fm/651#t=422">07:02</a></td>
+<td>Why sabatical?</td>
+<td>03:37</td>
+</tr>
+<tr>
+<td>05</td>
+<td><a href="https://changelog.fm/651#t=640">10:40</a></td>
+<td>What is Vitess?</td>
+<td>04:13</td>
+</tr>
+<tr>
+<td>06</td>
+<td><a href="https://changelog.fm/651#t=893">14:53</a></td>
+<td>From side project at YouTube to full-on company</td>
+<td>03:43</td>
+</tr>
+<tr>
+<td>07</td>
+<td><a href="https://changelog.fm/651#t=1115">18:35</a></td>
+<td>Where is Vitess for Postgres?</td>
+<td>04:23</td>
+</tr>
+<tr>
+<td>08</td>
+<td><a href="https://changelog.fm/651#t=1379">22:59</a></td>
+<td>Sugu's Ah ha! moment</td>
+<td>04:42</td>
+</tr>
+<tr>
+<td>09</td>
+<td><a href="https://changelog.fm/651#t=1661">27:41</a></td>
+<td>Explaining Keyspace ID in Vitess</td>
+<td>06:48</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://changelog.fm/651#t=2069">34:29</a></td>
+<td><a href="https://www.coderabbit.ai">Sponsor: CodeRabbit</a></td>
+<td>02:44</td>
+</tr>
+<tr>
+<td>11</td>
+<td><a href="https://changelog.fm/651#t=2232">37:12</a></td>
+<td>What's different?</td>
+<td>04:03</td>
+</tr>
+<tr>
+<td>12</td>
+<td><a href="https://changelog.fm/651#t=2475">41:15</a></td>
+<td>Does this compromise Postgres for life?</td>
+<td>01:56</td>
+</tr>
+<tr>
+<td>13</td>
+<td><a href="https://changelog.fm/651#t=2591">43:11</a></td>
+<td>Porting Vitess to Multigres</td>
+<td>06:38</td>
+</tr>
+<tr>
+<td>14</td>
+<td><a href="https://changelog.fm/651#t=2989">49:49</a></td>
+<td>What are your marching orders?</td>
+<td>01:19</td>
+</tr>
+<tr>
+<td>15</td>
+<td><a href="https://changelog.fm/651#t=3068">51:08</a></td>
+<td>Are you writting this in Go?</td>
+<td>01:59</td>
+</tr>
+<tr>
+<td>16</td>
+<td><a href="https://changelog.fm/651#t=3187">53:07</a></td>
+<td>Building the team</td>
+<td>01:05</td>
+</tr>
+<tr>
+<td>17</td>
+<td><a href="https://changelog.fm/651#t=3252">54:12</a></td>
+<td>Implementing Multigres</td>
+<td>02:45</td>
+</tr>
+<tr>
+<td>18</td>
+<td><a href="https://changelog.fm/651#t=3417">56:57</a></td>
+<td>Multigres to Supabase</td>
+<td>06:38</td>
+</tr>
+<tr>
+<td>19</td>
+<td><a href="https://changelog.fm/651#t=3815">1:03:35</a></td>
+<td>Unburdened by past decisions</td>
+<td>03:57</td>
+</tr>
+<tr>
+<td>20</td>
+<td><a href="https://changelog.fm/651#t=4052">1:07:32</a></td>
+<td>State of Postgres at scale</td>
+<td>06:03</td>
+</tr>
+<tr>
+<td>21</td>
+<td><a href="https://changelog.fm/651#t=4415">1:13:35</a></td>
+<td><a href="https://changelog.com/live">LIVE IN DENVER!!</a></td>
+<td>01:38</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<a name="531951276"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/651%3A%20Bringing%20Vitess%20to%20Postgres/near/531951276" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/651.3A.20Bringing.20Vitess.20to.20Postgres.html#531951276">(Jul 30 2025 at 23:42)</a>:</h4>
+<p>This was such a great episode. I was left in awe of what Sugu accomplished and also that Google gave him three months of thinking time on a project.</p>
+<p>Best of luck to the team.</p>
+<p>BTW no mention of cockroach db.</p>
+
+
+
+<a name="532122613"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/651%3A%20Bringing%20Vitess%20to%20Postgres/near/532122613" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Don MacKinnon <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/651.3A.20Bringing.20Vitess.20to.20Postgres.html#532122613">(Jul 31 2025 at 16:45)</a>:</h4>
+<p>Loved this episode as well. Had no idea YouTube was using MySql at that scale.</p>
+
+
+
+<a name="532459117"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/651%3A%20Bringing%20Vitess%20to%20Postgres/near/532459117" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Adam Stacoviak <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/651.3A.20Bringing.20Vitess.20to.20Postgres.html#532459117">(Aug 02 2025 at 14:28)</a>:</h4>
+<p>I’m pretty sure I mentioned Cockroach but I think it was brief and closer to the end.</p>
+
+
+
+<a name="532561354"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/651%3A%20Bringing%20Vitess%20to%20Postgres/near/532561354" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/651.3A.20Bringing.20Vitess.20to.20Postgres.html#532561354">(Aug 03 2025 at 14:15)</a>:</h4>
+<p>CockroachDB is great but almost no developer chooses it for a new project due to lack of awareness of it. Everyone thinks PostgreSQL or MySQL and their respective clustering programs.</p>
+
+
+
+<a name="532603566"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/651%3A%20Bringing%20Vitess%20to%20Postgres/near/532603566" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/651.3A.20Bringing.20Vitess.20to.20Postgres.html#532603566">(Aug 03 2025 at 21:52)</a>:</h4>
+<p>There is also yugabyte which you never heard about even though it's been around a long time.</p>
+<p>Perhaps possible guests for the podcasts.</p>
+
+
+
+<a name="532613492"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/651%3A%20Bringing%20Vitess%20to%20Postgres/near/532613492" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/651.3A.20Bringing.20Vitess.20to.20Postgres.html#532613492">(Aug 03 2025 at 23:47)</a>:</h4>
+<p>Yeah Yugabyte too. TiDB too.</p>
+
+
+
+<a name="532619635"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/651%3A%20Bringing%20Vitess%20to%20Postgres/near/532619635" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/651.3A.20Bringing.20Vitess.20to.20Postgres.html#532619635">(Aug 04 2025 at 00:51)</a>:</h4>
+<p>i was extremely interested in CockroachDB until they changed the licence</p>
+<p>and i understand why teams/companies do it, but it pretty much kills the project instantly for me</p>
+
+
+
+<a name="532767974"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/651%3A%20Bringing%20Vitess%20to%20Postgres/near/532767974" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matthew Sanabria <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/651.3A.20Bringing.20Vitess.20to.20Postgres.html#532767974">(Aug 04 2025 at 17:17)</a>:</h4>
+<p>Tell me about it. One of the reasons I left there.</p>
+
+
+
+<a name="532803268"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/651%3A%20Bringing%20Vitess%20to%20Postgres/near/532803268" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Andrew O&#x27;Brien <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/651.3A.20Bringing.20Vitess.20to.20Postgres.html#532803268">(Aug 04 2025 at 21:54)</a>:</h4>
+<p>Jerod's "now do SQLite" comment reminded me of the production grade, multi-reader/writer, snapshot and serializable homegrown RDBMS with a SQLite query interface and automatic time sharding that Bloomberg has been quietly building for 20 years (8 years since open sourcing): <a href="https://github.com/bloomberg/comdb2">https://github.com/bloomberg/comdb2</a></p>
+<p>It's not Vitess for SQLite (the commonalities with SQLite don't go much further than the query interface). Also, I don't know of anyone else who's adopted it, let alone any support offerings. And Bloomberg owns the roadmap and will do what they want with it.</p>
+<p>But still, I feel like it's an interesting piece of database tech that's rarely discussed. If it had come out of a startup that had IPO'd with a bunch of engineers flush with seed funding, I expect it would've spawned at least one commercial company.</p>
+
+
+
+<a name="532930760"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/651%3A%20Bringing%20Vitess%20to%20Postgres/near/532930760" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Alex Sims <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/651.3A.20Bringing.20Vitess.20to.20Postgres.html#532930760">(Aug 05 2025 at 14:36)</a>:</h4>
+<p>Very cool, thanks for sharing.  I need to listen to this episode as we’re currently looking at how we can improve write latency from our other fulfilment centres.  We can’t shard all of our data due to data residency constraints.  I’ve been looking at implementing something like Turso to act as a stateful write through cache with a service that synchronises back to our London DB, but no matter how I’m trying to slice this pie it’s very complex.  Vitess was also on my radar, however we use MariaDB so I’m not entirely sure on compatibility, though I’ve seen MariaDB has GalleraCluster mode which looks similar.</p>
+<p>Also toying with the idea of seeing how much latency we can save just by leveraging AWS backbone, but the speed of light will only get you so far!</p>
+
+
+
+<a name="532996082"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/651%3A%20Bringing%20Vitess%20to%20Postgres/near/532996082" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/651.3A.20Bringing.20Vitess.20to.20Postgres.html#532996082">(Aug 05 2025 at 22:06)</a>:</h4>
+<p>Combdb2 sounds interesting and still being actively developed. It's amazing I have never even heard of it.</p>
+<p>There are several projects that give you distributed sqlite.</p>
+<p><a href="https://github.com/rqlite/rqlite">https://github.com/rqlite/rqlite</a><br>
+<a href="https://fly.io/docs/litefs/">https://fly.io/docs/litefs/</a><br>
+<a href="https://canonical.com/dqlite">https://canonical.com/dqlite</a><br>
+<a href="https://turso.tech/">https://turso.tech/</a></p>
+<p>I don't know how they all deal with sharding though. Turso does allow you to create as many databases as you want but of course you need to manage them in the app.</p>
+<p>Big sigh from me is that none of them support ruby as an official supported language.</p>
+
+
+
+<a name="533043044"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/651%3A%20Bringing%20Vitess%20to%20Postgres/near/533043044" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Dustin <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/651.3A.20Bringing.20Vitess.20to.20Postgres.html#533043044">(Aug 06 2025 at 07:43)</a>:</h4>
+<p><span class="user-mention" data-user-id="755905">@Tim Uckun</span> aren’t most of them SQLite extensions? How would you need support for a specific language?</p>
+
+
+
+<a name="533053743"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/651%3A%20Bringing%20Vitess%20to%20Postgres/near/533053743" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/651.3A.20Bringing.20Vitess.20to.20Postgres.html#533053743">(Aug 06 2025 at 08:46)</a>:</h4>
+<p>I suppose it depends on if they depart from the file format that is compatible with existing libsqlite and/or per-language bindings</p>
+
+
+
+<a name="533053931"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/651%3A%20Bringing%20Vitess%20to%20Postgres/near/533053931" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ron Waldon-Howe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/651.3A.20Bringing.20Vitess.20to.20Postgres.html#533053931">(Aug 06 2025 at 08:47)</a>:</h4>
+<p>E.g. I think turso will read SQLite files, but writes a new format to support the new features it adds on top<br>
+So, for e.g. Ruby, you'd need Ruby bindings to libturso or something</p>
+
+
+
+<a name="533181904"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/651%3A%20Bringing%20Vitess%20to%20Postgres/near/533181904" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/651.3A.20Bringing.20Vitess.20to.20Postgres.html#533181904">(Aug 06 2025 at 21:26)</a>:</h4>
+<p>rqlite and dqlite are daemons that sit in front of sqlite to manage the cluster, I am not sure exactly how litefs works. Turso has their own libsql which is sqlite compatible.  They have a ruby wrapper but it didn't work with rails when I tried it even though it worked with a plain old ruby script.</p>
+<p>Turso is also rewriting sqlite from scratch but they are not done with that effort yet.</p>
+
+
+
+<a name="533202978"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/651%3A%20Bringing%20Vitess%20to%20Postgres/near/533202978" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Andrew O&#x27;Brien <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/651.3A.20Bringing.20Vitess.20to.20Postgres.html#533202978">(Aug 07 2025 at 01:38)</a>:</h4>
+<p>If I understand correctly, LiteFS is transparent to the SQLite library in your application. It thinks it’s writing to a file as usual, but the replication is happening in the FUSE filesystem, which captures the write ahead log for replication before passing it along to the normal file system to actually write the changes. <a href="https://fly.io/docs/litefs/how-it-works/">https://fly.io/docs/litefs/how-it-works/</a></p>
+
+
+
+<a name="533215599"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/651%3A%20Bringing%20Vitess%20to%20Postgres/near/533215599" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Uckun <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/651.3A.20Bringing.20Vitess.20to.20Postgres.html#533215599">(Aug 07 2025 at 04:38)</a>:</h4>
+<p>Sounds kind of like DRBD.</p>
+<p>Anyway this is what they say on the first page </p>
+<blockquote>
+<p><strong>Important:</strong> We are not able to provide support or guidance for this product. Use with caution.</p>
+</blockquote>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

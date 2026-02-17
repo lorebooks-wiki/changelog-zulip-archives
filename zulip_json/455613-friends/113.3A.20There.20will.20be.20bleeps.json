@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>Mike McQuaid and Justin Searls join Jerod in the wake of the RubyGems <a href=\"https://rubycentral.org/news/rubygems-org-aws-root-access-event-september-2025/\">debacle</a> to discuss what happened, what it says about money in open source, what sustainability really means for our community, making a career out of open source (or not), and more. Bleep! <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.am/113\">https://changelog.am/113</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.am/113#t=0\">00:00</a></td>\n<td>Let's talk!</td>\n<td>00:37</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.am/113#t=37\">00:37</a></td>\n<td><a href=\"https://www.coderabbit.ai\">Sponsor: CodeRabbit</a></td>\n<td>01:07</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.am/113#t=105\">01:45</a></td>\n<td>Cross-posts &amp; Friends</td>\n<td>00:54</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.am/113#t=159\">02:39</a></td>\n<td>The reason for the bleeps</td>\n<td>01:37</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.am/113#t=256\">04:16</a></td>\n<td>Setting the stage</td>\n<td>02:46</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.am/113#t=422\">07:02</a></td>\n<td>The root access event</td>\n<td>04:16</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.am/113#t=679\">11:19</a></td>\n<td>What Ruby Central is</td>\n<td>01:40</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.am/113#t=779\">12:59</a></td>\n<td>Back to the story</td>\n<td>03:28</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.am/113#t=987\">16:27</a></td>\n<td>Mea culpa, anyone?</td>\n<td>04:08</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.am/113#t=1235\">20:35</a></td>\n<td>Two more timeline things</td>\n<td>11:37</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.am/113#t=1932\">32:12</a></td>\n<td><a href=\"https://agntcy.org\">Sponsor: Outshift by Cisco</a></td>\n<td>01:17</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.am/113#t=2009\">33:29</a></td>\n<td>A five-alarm fire</td>\n<td>01:21</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.am/113#t=2090\">34:50</a></td>\n<td>Muddy money</td>\n<td>05:12</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.am/113#t=2402\">40:02</a></td>\n<td>Jerod pre-empts Justin</td>\n<td>00:38</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.am/113#t=2440\">40:40</a></td>\n<td>Justin has the floor</td>\n<td>06:06</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.am/113#t=2806\">46:46</a></td>\n<td>Open source as a hobby</td>\n<td>04:50</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.am/113#t=3097\">51:37</a></td>\n<td>Abstract pattern</td>\n<td>00:57</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.am/113#t=3153\">52:33</a></td>\n<td>The lemonade stand</td>\n<td>01:48</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.am/113#t=3261\">54:21</a></td>\n<td>The best things in life</td>\n<td>12:41</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.am/113#t=4023\">1:07:03</a></td>\n<td>Making money music</td>\n<td>02:26</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.am/113#t=4169\">1:09:29</a></td>\n<td>Conflating things</td>\n<td>03:58</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.am/113#t=4407\">1:13:27</a></td>\n<td>What Gen \"Zed\" thinks</td>\n<td>04:41</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.am/113#t=4688\">1:18:08</a></td>\n<td>What if no dependencies</td>\n<td>01:59</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.am/113#t=4807\">1:20:07</a></td>\n<td>Justin lives it</td>\n<td>04:48</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://changelog.am/113#t=5095\">1:24:55</a></td>\n<td>Mike on Copilot</td>\n<td>05:15</td>\n</tr>\n<tr>\n<td>26</td>\n<td><a href=\"https://changelog.am/113#t=5410\">1:30:10</a></td>\n<td>Moving up the value chain</td>\n<td>03:06</td>\n</tr>\n<tr>\n<td>27</td>\n<td><a href=\"https://changelog.am/113#t=5595\">1:33:15</a></td>\n<td>The times are a changin'</td>\n<td>01:35</td>\n</tr>\n<tr>\n<td>28</td>\n<td><a href=\"https://changelog.am/113#t=5691\">1:34:51</a></td>\n<td>Obligatory pithy one-liners</td>\n<td>03:31</td>\n</tr>\n<tr>\n<td>29</td>\n<td><a href=\"https://changelog.am/113#t=5901\">1:38:21</a></td>\n<td>Unhappy maintainers should quit</td>\n<td>00:20</td>\n</tr>\n<tr>\n<td>30</td>\n<td><a href=\"https://changelog.am/113#t=5921\">1:38:41</a></td>\n<td>Bye, friends</td>\n<td>00:46</td>\n</tr>\n<tr>\n<td>31</td>\n<td><a href=\"https://changelog.am/113#t=5967\">1:39:27</a></td>\n<td>Next week on the pod</td>\n<td>02:17</td>\n</tr>\n</tbody>\n</table>",
+        "id": 545649856,
+        "sender_full_name": "Logbot",
+        "timestamp": 1760724965
+    },
+    {
+        "content": "<p>The latest news is that Matz  and the ruby core team has assumed control of the rubygems repository.  This is not control over the rubygems org or ruby central AFIK but still a step in the right direction.</p>",
+        "id": 545736098,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1760772452
+    },
+    {
+        "content": "<p>I wanted to mention one more thing. Justin said the funding to ruby central was decreasing because of reasons including AI but this is not true. Mike Perham who runs sidekick was one of the major funders and pulled $250,000 because he didn't like the fact that Ruby Central platformed DHH. He expressed this specifically and in public. I find it hard to believe Justin doesn't know this, it was a very public announcement and many people including Mike himself reiterated it during the back and forth of this drama.</p>",
+        "id": 545789277,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1760831138
+    },
+    {
+        "content": "<p>If you listen to the end I read some of Matz’ announcement in the outro</p>",
+        "id": 545791864,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1760834840
+    },
+    {
+        "content": "<p>I was too hasty in making that post. I am wondering where the new funding will come from though. Ruby central isn't going away, presumably they will still need funding to run the conferences and whatnot so they will continue to raise money along with the core team.</p>",
+        "id": 545856909,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1760907918
+    },
+    {
+        "content": "<p>Hello</p>",
+        "id": 546132516,
+        "sender_full_name": "Romeo Alexander",
+        "timestamp": 1761013261
+    },
+    {
+        "content": "<p>There are some very interesting questions around funding and management of open source. Along with announcements from package managers and what feels like corporations starting to struggle with an \"open source product\" it could be an interesting few years!</p>\n<p>Something I didn't notice get raised though is the difference between running a service on open source code vs an open source project. Running a service naturally has higher costs and it seems like a lack of separation between the service of running <a href=\"http://rubygems.org\">rubygems.org</a> and the repo has significantly muddied the water</p>",
+        "id": 546864126,
+        "sender_full_name": "James McNally",
+        "timestamp": 1761302241
+    },
+    {
+        "content": "<p>I wrote briefly about my ideal packaging system a little while ago but hosting and delivery doesn't have to be a big cost. We do have distributed file systems such as IPFS, Freenet/Hyphanet etc. We also have naming services such as namecoin and even distributed search such as yacy. </p>\n<p>The point is that there are distributed peer to peer systems which can be leveraged to deliver binaries or code that we could build something on. These would be immutable too which is a plus.</p>",
+        "id": 546993309,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1761336799
+    }
+]

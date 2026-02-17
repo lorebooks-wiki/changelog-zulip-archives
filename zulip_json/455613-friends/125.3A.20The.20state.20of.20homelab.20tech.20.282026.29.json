@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>Techno Tim joins Adam to dive deep into the state of homelab'ing in 2026. Hardware is scarce and expensive due to the AI gold rush, but software has never been better. From unleashing Claude on your UDM Pro to building custom Proxmox CLIs, they explores how AI is transforming what's possible in the homelab. Tim declares 2026 the \"Year of Self-Hosted Software\" while Adam reveals his homelab's secret weapons: DNSHole (a Pi-hole replacement written in Rust) and PXM (a Proxmox automation CLI). <span aria-label=\"link\" class=\"emoji emoji-1f517\" role=\"img\" title=\"link\">:link:</span> <a href=\"https://changelog.am/125\">https://changelog.am/125</a></p>\n<table>\n<thead>\n<tr>\n<th>Ch</th>\n<th>Start</th>\n<th>Title</th>\n<th>Runs</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td><a href=\"https://changelog.am/125#t=0\">00:00</a></td>\n<td>Let's talk!</td>\n<td>00:42</td>\n</tr>\n<tr>\n<td>02</td>\n<td><a href=\"https://changelog.am/125#t=42\">00:42</a></td>\n<td><a href=\"https://depot.dev\">Sponsor: Depot</a></td>\n<td>02:21</td>\n</tr>\n<tr>\n<td>03</td>\n<td><a href=\"https://changelog.am/125#t=184\">03:04</a></td>\n<td>New year. Same Tim.</td>\n<td>02:02</td>\n</tr>\n<tr>\n<td>04</td>\n<td><a href=\"https://changelog.am/125#t=306\">05:06</a></td>\n<td>2026's changes for Homelab</td>\n<td>06:56</td>\n</tr>\n<tr>\n<td>05</td>\n<td><a href=\"https://changelog.am/125#t=722\">12:02</a></td>\n<td>The year of self hosted software</td>\n<td>03:29</td>\n</tr>\n<tr>\n<td>06</td>\n<td><a href=\"https://changelog.am/125#t=931\">15:31</a></td>\n<td>Down with AI assistance</td>\n<td>02:38</td>\n</tr>\n<tr>\n<td>07</td>\n<td><a href=\"https://changelog.am/125#t=1089\">18:09</a></td>\n<td>Does Paperless handle books?</td>\n<td>02:26</td>\n</tr>\n<tr>\n<td>08</td>\n<td><a href=\"https://changelog.am/125#t=1235\">20:35</a></td>\n<td>Markdown all the things</td>\n<td>03:22</td>\n</tr>\n<tr>\n<td>09</td>\n<td><a href=\"https://changelog.am/125#t=1437\">23:57</a></td>\n<td>ETL pipelines</td>\n<td>05:34</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://changelog.am/125#t=1771\">29:31</a></td>\n<td>Son's friend exposed guest VLAN issue</td>\n<td>03:40</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://changelog.am/125#t=1992\">33:12</a></td>\n<td>Proxmox CLI (pxm) coming soon!!</td>\n<td>03:42</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://changelog.am/125#t=2213\">36:53</a></td>\n<td><a href=\"https://www.tigerdata.com\">Sponsor: Tiger Data</a></td>\n<td>02:34</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://changelog.am/125#t=2367\">39:27</a></td>\n<td>Agent Ralph Wiggum in the homelab</td>\n<td>04:42</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://changelog.am/125#t=2649\">44:09</a></td>\n<td>Navigating Tim's homelab world</td>\n<td>09:16</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://changelog.am/125#t=3205\">53:25</a></td>\n<td>What's on your Kubernetes?</td>\n<td>07:41</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://changelog.am/125#t=3666\">1:01:06</a></td>\n<td>VDEV config!!!</td>\n<td>08:52</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://changelog.am/125#t=4198\">1:09:58</a></td>\n<td>Homelab in 2026</td>\n<td>14:35</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://changelog.am/125#t=5073\">1:24:33</a></td>\n<td><a href=\"http://notion.com/changelog\">Sponsor: Notion</a></td>\n<td>02:08</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://changelog.am/125#t=5201\">1:26:41</a></td>\n<td><a href=\"http://Fly.io\">Fly.io</a> but in my homelab</td>\n<td>11:40</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://changelog.am/125#t=5901\">1:38:21</a></td>\n<td>MCP for Proxmox</td>\n<td>03:43</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://changelog.am/125#t=6124\">1:42:04</a></td>\n<td>proxmox helper scripts</td>\n<td>06:03</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://changelog.am/125#t=6487\">1:48:07</a></td>\n<td>What's on Tim's list?</td>\n<td>05:58</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://changelog.am/125#t=6845\">1:54:05</a></td>\n<td>3 months later with Tim??!</td>\n<td>03:02</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://changelog.am/125#t=7026\">1:57:06</a></td>\n<td>Search Techno Tim OR <a href=\"http://technotim.com\">technotim.com</a></td>\n<td>01:40</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://changelog.am/125#t=7126\">1:58:46</a></td>\n<td>Used to be on Mercer</td>\n<td>01:16</td>\n</tr>\n<tr>\n<td>26</td>\n<td><a href=\"https://changelog.am/125#t=7202\">2:00:02</a></td>\n<td>Wrapping up</td>\n<td>00:48</td>\n</tr>\n<tr>\n<td>27</td>\n<td><a href=\"https://changelog.am/125#t=7250\">2:00:50</a></td>\n<td>Closing thoughts and stuff</td>\n<td>01:58</td>\n</tr>\n</tbody>\n</table>",
+        "id": 569903924,
+        "sender_full_name": "Logbot",
+        "timestamp": 1769289246
+    },
+    {
+        "content": "<p>what was the link that Adam mentioned at the end? I wasn't able to get it <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 569976931,
+        "sender_full_name": "Patrick Arminio",
+        "timestamp": 1769369529
+    },
+    {
+        "content": "<p>Got a timestamp <span class=\"user-mention\" data-user-id=\"752828\">@Patrick Arminio</span> ?</p>",
+        "id": 569996483,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1769390624
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"750017\">@Adam Stacoviak</span> 2:01:26 something .club :D</p>",
+        "id": 570067422,
+        "sender_full_name": "Patrick Arminio",
+        "timestamp": 1769426951
+    },
+    {
+        "content": "<p><a href=\"http://makeitwork.club\">makeitwork.club</a></p>",
+        "id": 570078901,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1769430525
+    },
+    {
+        "content": "<p>Great listen. I am not a homelabber or anything but recently I ran into an issue which is making me consider being one. I bought a new iphone and restored it from a backup of my old phone (which I still have) just to find out none of my music came in. Now I have to figure out how to get my music into my new phone.  All of this music was ripped from my CDs which means I do have copies of them in storage (i have long replaced the macbook air they were originally in).  Now I am considering hosting my own music service or something like that. I need to look into the options but it looks like I need to create a music server and use tailscale or forward a port or something.   Maybe there is some client that can download all the files when I am on wifi so I can listen to them when I am not at home without exposing my home PC.</p>\n<p>Another option might be some sort of a multi master replicated file storage and some app that can act as a music player.  Maybe syncthing + something else.  I already use MEGA to sync files so maybe that's an option too but that defeats the purpose of homelabbing.</p>",
+        "id": 570254359,
+        "sender_full_name": "Tim Uckun",
+        "timestamp": 1769501079
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"750017\">@Adam Stacoviak</span> you forgot to link the <img alt=\":proxmox:\" class=\"emoji\" src=\"https://avatars.zulip.com/66849/emoji/images/5ef1dde1.png\" title=\"proxmox\"> <a href=\"https://community-scripts.github.io/ProxmoxVE/\">Proxmox VE Helper-Scripts</a> <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span> <br>\n<a href=\"https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install\">Th PVE Post Install</a> script, I use after adding every new node! The <a href=\"https://community-scripts.github.io/ProxmoxVE/scripts?id=add-tailscale-lxc&amp;category=Proxmox+%26+Virtualization\">tailscale</a> one is legit, too!</p>",
+        "id": 570328381,
+        "sender_full_name": "Jarvis",
+        "timestamp": 1769522566
+    },
+    {
+        "content": "<p>My understanding of why Proxmox doesn’t support OCI out of the box is that running LXCs is a lot closer to VMs than Docker/Podman. And since there are already tools for managing containers through a web UI, they figure it’s better to focus on being a good hypervisor/cluster/networking thing and let people bring their own way of doing application containers.</p>",
+        "id": 571326645,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1769991354
+    }
+]

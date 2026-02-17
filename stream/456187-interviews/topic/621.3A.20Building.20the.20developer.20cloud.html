@@ -1,0 +1,294 @@
+<html>
+<head><meta charset="utf-8"><title>621: Building the developer cloud · interviews · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/index.html">interviews</a></h2>
+<h3>Topic: <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/621.3A.20Building.20the.20developer.20cloud.html">621: Building the developer cloud</a></h3>
+
+<hr>
+
+<base href="https://changelog.zulipchat.com">
+
+<head><link href="http://changelog.zulip-archive.lorebooks.wiki/style.css" rel="stylesheet"></head>
+
+<a name="488639609"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/621%3A%20Building%20the%20developer%20cloud/near/488639609" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Logbot <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/621.3A.20Building.20the.20developer.20cloud.html#488639609">(Dec 12 2024 at 14:00)</a>:</h4>
+<p>Kurt Mackey is back for a deep dive into what it takes to build the developer cloud. Kurt joins Adam to discuss the alliance between companies and cloud, something Kurt refers to as the "Rebel Alliance," cloud complexity vs usability, Fly's future with Postgres and why they've waited, thoughts on Neon and Supabase (Kurt shares a hot take), and our CDN saga and plan to build a simple CDN on Fly called <a href="https://pipely.tech">Pipely</a> (still a <a href="https://github.com/thechangelog/pipedream">Pipedream</a>). <span aria-label="link" class="emoji emoji-1f517" role="img" title="link">:link:</span> <a href="https://changelog.fm/621">https://changelog.fm/621</a></p>
+<table>
+<thead>
+<tr>
+<th>Ch</th>
+<th>Start</th>
+<th>Title</th>
+<th>Runs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>01</td>
+<td><a href="https://changelog.fm/621#t=0">00:00</a></td>
+<td>This week on The Changelog</td>
+<td>01:02</td>
+</tr>
+<tr>
+<td>02</td>
+<td><a href="https://changelog.fm/621#t=65">01:05</a></td>
+<td><a href="https://sentry.io/events/launch-week/">Sponsor: Sentry</a></td>
+<td>02:04</td>
+</tr>
+<tr>
+<td>03</td>
+<td><a href="https://changelog.fm/621#t=193">03:13</a></td>
+<td>Start the show!</td>
+<td>00:21</td>
+</tr>
+<tr>
+<td>04</td>
+<td><a href="https://changelog.fm/621#t=213">03:33</a></td>
+<td>NO limits</td>
+<td>01:55</td>
+</tr>
+<tr>
+<td>05</td>
+<td><a href="https://changelog.fm/621#t=329">05:29</a></td>
+<td>Clouds doing similar things</td>
+<td>00:58</td>
+</tr>
+<tr>
+<td>06</td>
+<td><a href="https://changelog.fm/621#t=387">06:27</a></td>
+<td>DHH threw shade at Fly</td>
+<td>08:40</td>
+</tr>
+<tr>
+<td>07</td>
+<td><a href="https://changelog.fm/621#t=907">15:07</a></td>
+<td>Blazing fast SSDs</td>
+<td>04:06</td>
+</tr>
+<tr>
+<td>08</td>
+<td><a href="https://changelog.fm/621#t=1152">19:12</a></td>
+<td>Hot take!!</td>
+<td>01:20</td>
+</tr>
+<tr>
+<td>09</td>
+<td><a href="https://changelog.fm/621#t=1232">20:32</a></td>
+<td>Rebel Alliance</td>
+<td>04:17</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://changelog.fm/621#t=1490">24:50</a></td>
+<td>Back to Tigris</td>
+<td>03:10</td>
+</tr>
+<tr>
+<td>11</td>
+<td><a href="https://changelog.fm/621#t=1680">28:00</a></td>
+<td><a href="https://coder.com/">Sponsor: Coder</a></td>
+<td>02:24</td>
+</tr>
+<tr>
+<td>12</td>
+<td><a href="https://changelog.fm/621#t=1824">30:24</a></td>
+<td>Is it the Rebellion?</td>
+<td>02:19</td>
+</tr>
+<tr>
+<td>13</td>
+<td><a href="https://changelog.fm/621#t=1963">32:43</a></td>
+<td>We're building managed Postgres</td>
+<td>03:10</td>
+</tr>
+<tr>
+<td>14</td>
+<td><a href="https://changelog.fm/621#t=2153">35:53</a></td>
+<td>The Cloud business</td>
+<td>05:42</td>
+</tr>
+<tr>
+<td>15</td>
+<td><a href="https://changelog.fm/621#t=2495">41:35</a></td>
+<td>Tigris on Fly</td>
+<td>03:48</td>
+</tr>
+<tr>
+<td>16</td>
+<td><a href="https://changelog.fm/621#t=2723">45:23</a></td>
+<td>No more Alliance?</td>
+<td>00:59</td>
+</tr>
+<tr>
+<td>17</td>
+<td><a href="https://changelog.fm/621#t=2781">46:21</a></td>
+<td>We asked Render to do Postgres for us</td>
+<td>06:21</td>
+</tr>
+<tr>
+<td>18</td>
+<td><a href="https://changelog.fm/621#t=3013">50:13</a></td>
+<td><a href="https://www.eightsleep.com/changelog">Sponsor: Eight Sleep</a></td>
+<td>02:29</td>
+</tr>
+<tr>
+<td>19</td>
+<td><a href="https://changelog.fm/621#t=3162">52:42</a></td>
+<td><a href="https://www.wix.com/studio">Sponsor: Wix Studio</a></td>
+<td>00:54</td>
+</tr>
+<tr>
+<td>20</td>
+<td><a href="https://changelog.fm/621#t=3217">53:37</a></td>
+<td>Why punt on managed Postgres?</td>
+<td>03:39</td>
+</tr>
+<tr>
+<td>21</td>
+<td><a href="https://changelog.fm/621#t=3435">57:15</a></td>
+<td>BTS on Percona</td>
+<td>02:29</td>
+</tr>
+<tr>
+<td>22</td>
+<td><a href="https://changelog.fm/621#t=3584">59:44</a></td>
+<td>Exotic DB services</td>
+<td>01:42</td>
+</tr>
+<tr>
+<td>23</td>
+<td><a href="https://changelog.fm/621#t=3686">1:01:26</a></td>
+<td>Tigris'ing Neon on Fly</td>
+<td>00:52</td>
+</tr>
+<tr>
+<td>24</td>
+<td><a href="https://changelog.fm/621#t=3737">1:02:17</a></td>
+<td>Our CDN saga</td>
+<td>08:46</td>
+</tr>
+<tr>
+<td>25</td>
+<td><a href="https://changelog.fm/621#t=4263">1:11:03</a></td>
+<td>CDN on Fly</td>
+<td>05:45</td>
+</tr>
+<tr>
+<td>26</td>
+<td><a href="https://changelog.fm/621#t=4608">1:16:48</a></td>
+<td>How's your life?</td>
+<td>03:22</td>
+</tr>
+<tr>
+<td>27</td>
+<td><a href="https://changelog.fm/621#t=4810">1:20:10</a></td>
+<td>Divorce happened</td>
+<td>02:09</td>
+</tr>
+<tr>
+<td>28</td>
+<td><a href="https://changelog.fm/621#t=4939">1:22:19</a></td>
+<td>I build Lego and watch TV</td>
+<td>00:52</td>
+</tr>
+<tr>
+<td>29</td>
+<td><a href="https://changelog.fm/621#t=4991">1:23:11</a></td>
+<td>What's on your TV?</td>
+<td>01:53</td>
+</tr>
+<tr>
+<td>30</td>
+<td><a href="https://changelog.fm/621#t=5105">1:25:05</a></td>
+<td>Ray Porter and Bobiverse</td>
+<td>03:01</td>
+</tr>
+<tr>
+<td>31</td>
+<td><a href="https://changelog.fm/621#t=5285">1:28:05</a></td>
+<td>Fly's future?</td>
+<td>03:19</td>
+</tr>
+<tr>
+<td>32</td>
+<td><a href="https://changelog.fm/621#t=5485">1:31:25</a></td>
+<td>That's it</td>
+<td>00:26</td>
+</tr>
+<tr>
+<td>33</td>
+<td><a href="https://changelog.fm/621#t=5510">1:31:50</a></td>
+<td>Closing thoughts and stuff</td>
+<td>03:42</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<a name="488706087"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/621%3A%20Building%20the%20developer%20cloud/near/488706087" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matt Johnson <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/621.3A.20Building.20the.20developer.20cloud.html#488706087">(Dec 12 2024 at 19:43)</a>:</h4>
+<p>Fun hearing the discussion about the Pipedream... anxious for Friday's episode now.</p>
+
+
+
+<a name="488706758"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/621%3A%20Building%20the%20developer%20cloud/near/488706758" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> AJ Kerrigan <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/621.3A.20Building.20the.20developer.20cloud.html#488706758">(Dec 12 2024 at 19:48)</a>:</h4>
+<p>This episode covered a lot of ground, tech / business / personal... great discussion <span aria-label="heart" class="emoji emoji-2764" role="img" title="heart">:heart:</span> .</p>
+
+
+
+<a name="488707455"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/621%3A%20Building%20the%20developer%20cloud/near/488707455" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> AJ Kerrigan <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/621.3A.20Building.20the.20developer.20cloud.html#488707455">(Dec 12 2024 at 19:52)</a>:</h4>
+<p>The rebel alliance topic was interesting, sounds like the tech startup version of an indie record label <span aria-label="grinning" class="emoji emoji-1f600" role="img" title="grinning">:grinning:</span></p>
+
+
+
+<a name="488712507"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/621%3A%20Building%20the%20developer%20cloud/near/488712507" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jerod Santo <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/621.3A.20Building.20the.20developer.20cloud.html#488712507">(Dec 12 2024 at 20:27)</a>:</h4>
+<p><span class="user-mention" data-user-id="753112">@Matt Johnson</span> the Pipedream is gets too REAL on Friday <span aria-label="stuck out tongue wink" class="emoji emoji-1f61c" role="img" title="stuck out tongue wink">:stuck_out_tongue_wink:</span></p>
+
+
+
+<a name="488991787"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/621%3A%20Building%20the%20developer%20cloud/near/488991787" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Daniel Buckmaster <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/621.3A.20Building.20the.20developer.20cloud.html#488991787">(Dec 14 2024 at 12:51)</a>:</h4>
+<p>Oh that idea of having people from different companies on to compare and contrast is great. It would be really interesting to see if different vendors with different approaches could come to agreement e.g. around different user needs, different customer profiles who may want to use them versus someone else. Or just get different takes on issues etc. I wonder if it would just be way too difficult to manage though <span aria-label="sweat smile" class="emoji emoji-1f605" role="img" title="sweat smile">:sweat_smile:</span></p>
+
+
+
+<a name="489056694"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/621%3A%20Building%20the%20developer%20cloud/near/489056694" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Daniel Buckmaster <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/621.3A.20Building.20the.20developer.20cloud.html#489056694">(Dec 15 2024 at 05:51)</a>:</h4>
+<p>"Could you Tigris Neon on Fly" <span aria-label="laughing" class="emoji emoji-1f606" role="img" title="laughing">:laughing:</span></p>
+
+
+
+<a name="489058245"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/621%3A%20Building%20the%20developer%20cloud/near/489058245" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Daniel Buckmaster <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/621.3A.20Building.20the.20developer.20cloud.html#489058245">(Dec 15 2024 at 06:17)</a>:</h4>
+<p>Since you were trading Bobiverse and Children of Time recs, have you guys read The Forever War? Plays with some similar concepts.</p>
+<p>I'd recommend reading as a double feature with Starship Troopers, which was a big influence on the sci fi genre. Haldeman has said it's not a reaction to Starship Troopers, but was influenced by it and is quite a counterpoint.</p>
+
+
+
+<a name="489097842"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/621%3A%20Building%20the%20developer%20cloud/near/489097842" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Lars Ellingsen <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/621.3A.20Building.20the.20developer.20cloud.html#489097842">(Dec 15 2024 at 16:57)</a>:</h4>
+<p>The Rebel Alliance sounds cool to me, but I really appreciate that Kurt brought up HIPAA and BAAs. As someone working in health tech this is very true, and makes it way easier to just use the cloud you're already in vs looking for alternatives.</p>
+
+
+
+<a name="489255142"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/621%3A%20Building%20the%20developer%20cloud/near/489255142" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Andrew O&#x27;Brien <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/621.3A.20Building.20the.20developer.20cloud.html#489255142">(Dec 16 2024 at 14:45)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="752986">Daniel Buckmaster</span> <a href="#narrow/channel/456187-interviews/topic/621.3A.20Building.20the.20developer.20cloud/near/489056694">said</a>:</p>
+<blockquote>
+<p>"Could you Tigris Neon on Fly" <span aria-label="laughing" class="emoji emoji-1f606" role="img" title="laughing">:laughing:</span></p>
+</blockquote>
+<p>r/brandnewsentences</p>
+
+
+
+<a name="500284484"></a>
+<h4><a href="https://changelog.zulipchat.com#narrow/stream/456187-interviews/topic/621%3A%20Building%20the%20developer%20cloud/near/500284484" class="zl"><img src="http://changelog.zulip-archive.lorebooks.wiki/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Joe <a href="http://changelog.zulip-archive.lorebooks.wiki/stream/456187-interviews/topic/621.3A.20Building.20the.20developer.20cloud.html#500284484">(Feb 17 2025 at 22:33)</a>:</h4>
+<p>This episode was awesome. I’m a new listener to Changelog. Huge fan of <a href="http://Fly.io">Fly.io</a>. Quite interesting to hear the back story on Kurt’s approach to managed Postgres and how they got it wrong. I’m looking forward to playing with their new in-house managed Postgres product once it’s available.</p>
+
+
+
+<hr><p>Last updated: Feb 17 2026 at 17:33 UTC</p>
+</html>

@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>Current status on my ReMarkable CLI/API project.</p>\n<div class=\"codehilite\"><pre><span></span><code>$ ./bin/remarkablectl info\nModel:     reMarkable Paper Pro\nFirmware:  3.25.1.1\nOS:        Codex Linux 5.5.125 (scarthgap)\nSerial:    XXXXXXXXXXXXXXXX\n\n$ ./bin/remarkablectl status\nHost:       10.11.99.1 (default)\nAuth:       key + password\nConfig:     /Users/adamstacoviak/.config/remarkablectl/config.json\nConnection: connected\nModel:      reMarkable Paper Pro\nFirmware:   3.25.1.1\nXochitl:    active\nDocuments:  24 documents, 2 folders\n</code></pre></div>",
+        "id": 573927993,
+        "sender_full_name": "Adam Stacoviak",
+        "timestamp": 1771104762
+    }
+]

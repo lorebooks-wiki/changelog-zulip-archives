@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>I'm having issues downloading the most recent friends episode <br>\n<a href=\"/user_uploads/66849/CkTRkGEAopQQxcSbl0cqUJCM/fc2c27cc-3d57-4db1-b0ad-bc4355171b9f.jpg\">fc2c27cc-3d57-4db1-b0ad-bc4355171b9f.jpg</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/66849/CkTRkGEAopQQxcSbl0cqUJCM/fc2c27cc-3d57-4db1-b0ad-bc4355171b9f.jpg\" title=\"fc2c27cc-3d57-4db1-b0ad-bc4355171b9f.jpg\"><img data-original-content-type=\"image/jpeg\" data-original-dimensions=\"1440x3200\" src=\"/user_uploads/thumbnail/66849/CkTRkGEAopQQxcSbl0cqUJCM/fc2c27cc-3d57-4db1-b0ad-bc4355171b9f.jpg/840x560.webp\"></a></div>",
+        "id": 557941735,
+        "sender_full_name": "Alex Barnes",
+        "timestamp": 1763474478
+    },
+    {
+        "content": "<p>There was/is a Fly outage going on, but our Pipedream instances are up and running so I'm not sure if that is related. I just invoked a rolling restart to see if that unclogs things...</p>",
+        "id": 557949542,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1763476226
+    },
+    {
+        "content": "<p>Hmm actually there's also a Cloudflare outage going on which would also explain it...</p>",
+        "id": 557952180,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1763476712
+    },
+    {
+        "content": "<p>Try again now <span class=\"user-mention\" data-user-id=\"752849\">@Alex Barnes</span></p>",
+        "id": 557965227,
+        "sender_full_name": "Jerod Santo",
+        "timestamp": 1763479415
+    },
+    {
+        "content": "<p>Yes it all working ok now thanks. I'd somehow missed the global cloudflare outage <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span></p>",
+        "id": 557983772,
+        "sender_full_name": "Alex Barnes",
+        "timestamp": 1763483031
+    },
+    {
+        "content": "<p>on the plus side, the CloudFlare engineering blog is always fascinatingly detailed, so i assume there'll be a great write-up for this incident :)</p>",
+        "id": 558081698,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1763506310
+    },
+    {
+        "content": "<p>:oof:  <a href=\"https://blog.cloudflare.com/18-november-2025-outage/#memory-preallocation\">https://blog.cloudflare.com/18-november-2025-outage/#memory-preallocation</a><br>\n<code>.unwrap()</code> in a critical production code path without any error handling</p>",
+        "id": 558119008,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1763530054
+    },
+    {
+        "content": "<p>Rust won't let you have double-free or use-after-free or data-races, but you can still shoot yourself in the foot in other ways <span aria-label=\"crab\" class=\"emoji emoji-1f980\" role=\"img\" title=\"crab\">:crab:</span></p>",
+        "id": 558119047,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1763530088
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"752849\">Alex Barnes</span> <a href=\"#narrow/channel/455613-friends/topic/CDN.20down/near/557983772\">said</a>:</p>\n<blockquote>\n<p>I'd somehow missed the global cloudflare outage <span aria-label=\"joy\" class=\"emoji emoji-1f602\" role=\"img\" title=\"joy\">:joy:</span></p>\n</blockquote>\n<p>I found out because I was telling my wife I couldn’t see her grocery list on our picture frame/house organization thing that she knows I kind of hate because I could DIY something better and when she couldn’t get to it on her phone she said “WHAT DID YOU DO?!”</p>",
+        "id": 558219807,
+        "sender_full_name": "Andrew O'Brien",
+        "timestamp": 1763562909
+    },
+    {
+        "content": "<p>bahaha, RE: renaming unwrap to something that will magically prevent all future problems:<br>\n<a href=\"https://bsky.app/profile/brianloveswords.com/post/3m5ypyx5y3c26\">https://bsky.app/profile/brianloveswords.com/post/3m5ypyx5y3c26</a></p>",
+        "id": 558362570,
+        "sender_full_name": "Ron Waldon-Howe",
+        "timestamp": 1763623294
+    }
+]
